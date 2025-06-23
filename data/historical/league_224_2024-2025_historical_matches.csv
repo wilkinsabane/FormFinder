@@ -1,0 +1,5 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Czech Liga,953879,2025-05-28,16:00,3030,Vyskov,3031,Dukla Praha,finished,0,0
+Czech Liga,953877,2025-05-28,16:00,3417,Pardubice,5695,Chrudim,finished,2,0
+Czech Liga,953878,2025-06-01,13:00,5695,Chrudim,3417,Pardubice,finished,1,0
+Czech Liga,953880,2025-06-01,13:00,3031,Dukla Praha,3030,Vyskov,finished,1,1

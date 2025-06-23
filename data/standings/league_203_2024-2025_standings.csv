@@ -1,0 +1,11 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+Superliga,1,3640,Egnatia Rrogozhine,36,59,16,11,9,47,30,17
+Superliga,2,3614,Vllaznia Shkoder,36,57,15,12,9,54,39,15
+Superliga,3,3057,Dinamo Tirana,36,55,14,13,9,49,41,8
+Superliga,4,3171,Partizani Tirana,36,53,13,14,9,38,33,5
+Superliga,5,3536,AF Elbasani,36,50,11,17,8,40,38,2
+Superliga,6,3783,Teuta Durres,36,44,10,14,12,29,42,-13
+Superliga,7,3166,Bylis,36,42,11,9,16,33,50,-17
+Superliga,8,3084,Tirana,36,39,7,18,11,43,44,-1
+Superliga,9,3806,Skenderbeu Korce,36,38,9,11,16,35,45,-10
+Superliga,10,3528,Laci,36,37,8,13,15,31,37,-6

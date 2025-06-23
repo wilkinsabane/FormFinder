@@ -1,0 +1,307 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Bundesliga,933135,2024-08-23,18:30,4272,Borussia M'gladbach,4271,Bayer Leverkusen,finished,2,3
+Bundesliga,933136,2024-08-24,13:30,3292,RB Leipzig,3113,Bochum,finished,1,0
+Bundesliga,933139,2024-08-24,13:30,4274,Freiburg,4276,Stuttgart,finished,3,1
+Bundesliga,933138,2024-08-24,13:30,3297,Hoffenheim,4281,Holstein Kiel,finished,3,2
+Bundesliga,933142,2024-08-24,13:30,3003,Mainz,3775,Union Berlin,finished,1,1
+Bundesliga,933140,2024-08-24,13:30,3116,Augsburg,4273,Werder Bremen,finished,2,2
+Bundesliga,933137,2024-08-24,16:30,3204,Borussia Dortmund,2998,Eintracht Frankfurt,finished,2,0
+Bundesliga,933141,2024-08-25,13:30,2983,Wolfsburg,4270,Bayern Munich,finished,2,3
+Bundesliga,933143,2024-08-25,15:30,3339,St. Pauli,4280,Heidenheim,finished,0,2
+Bundesliga,933150,2024-08-30,18:30,3775,Union Berlin,3339,St. Pauli,finished,1,0
+Bundesliga,933149,2024-08-31,13:30,4273,Werder Bremen,3204,Borussia Dortmund,finished,0,0
+Bundesliga,933147,2024-08-31,13:30,2998,Eintracht Frankfurt,3297,Hoffenheim,finished,3,1
+Bundesliga,933151,2024-08-31,13:30,3113,Bochum,4272,Borussia M'gladbach,finished,0,2
+Bundesliga,933145,2024-08-31,13:30,4276,Stuttgart,3003,Mainz,finished,3,3
+Bundesliga,933152,2024-08-31,13:30,4281,Holstein Kiel,2983,Wolfsburg,finished,0,2
+Bundesliga,933144,2024-08-31,16:30,4271,Bayer Leverkusen,3292,RB Leipzig,finished,2,3
+Bundesliga,933148,2024-09-01,13:30,4280,Heidenheim,3116,Augsburg,finished,4,0
+Bundesliga,933146,2024-09-01,15:30,4270,Bayern Munich,4274,Freiburg,finished,2,0
+Bundesliga,933154,2024-09-13,18:30,3204,Borussia Dortmund,4280,Heidenheim,finished,4,2
+Bundesliga,933153,2024-09-14,13:30,3292,RB Leipzig,3775,Union Berlin,finished,0,0
+Bundesliga,933155,2024-09-14,13:30,3297,Hoffenheim,4271,Bayer Leverkusen,finished,1,4
+Bundesliga,933158,2024-09-14,13:30,2983,Wolfsburg,2998,Eintracht Frankfurt,finished,1,2
+Bundesliga,933156,2024-09-14,13:30,4274,Freiburg,3113,Bochum,finished,2,1
+Bundesliga,933160,2024-09-14,13:30,4272,Borussia M'gladbach,4276,Stuttgart,finished,1,3
+Bundesliga,933161,2024-09-14,16:30,4281,Holstein Kiel,4270,Bayern Munich,finished,1,6
+Bundesliga,933157,2024-09-15,13:30,3116,Augsburg,3339,St. Pauli,finished,3,1
+Bundesliga,933159,2024-09-15,15:30,3003,Mainz,4273,Werder Bremen,finished,1,2
+Bundesliga,933167,2024-09-20,18:30,3116,Augsburg,3003,Mainz,finished,2,3
+Bundesliga,933166,2024-09-21,13:30,4273,Werder Bremen,4270,Bayern Munich,finished,0,5
+Bundesliga,933168,2024-09-21,13:30,3775,Union Berlin,3297,Hoffenheim,finished,2,1
+Bundesliga,933169,2024-09-21,13:30,3113,Bochum,4281,Holstein Kiel,finished,2,2
+Bundesliga,933165,2024-09-21,13:30,4280,Heidenheim,4274,Freiburg,finished,0,3
+Bundesliga,933164,2024-09-21,16:30,2998,Eintracht Frankfurt,4272,Borussia M'gladbach,finished,2,0
+Bundesliga,933162,2024-09-22,13:30,4271,Bayer Leverkusen,2983,Wolfsburg,finished,4,3
+Bundesliga,933163,2024-09-22,15:30,4276,Stuttgart,3204,Borussia Dortmund,finished,5,1
+Bundesliga,933170,2024-09-22,17:30,3339,St. Pauli,3292,RB Leipzig,finished,0,0
+Bundesliga,933173,2024-09-27,18:30,3204,Borussia Dortmund,3113,Bochum,finished,4,2
+Bundesliga,933176,2024-09-28,13:30,2983,Wolfsburg,4276,Stuttgart,finished,2,2
+Bundesliga,933178,2024-09-28,13:30,4272,Borussia M'gladbach,3775,Union Berlin,finished,1,0
+Bundesliga,933175,2024-09-28,13:30,4274,Freiburg,3339,St. Pauli,finished,0,3
+Bundesliga,933177,2024-09-28,13:30,3003,Mainz,4280,Heidenheim,finished,0,2
+Bundesliga,933172,2024-09-28,13:30,3292,RB Leipzig,3116,Augsburg,finished,4,0
+Bundesliga,933171,2024-09-28,16:30,4270,Bayern Munich,4271,Bayer Leverkusen,finished,1,1
+Bundesliga,933179,2024-09-29,13:30,4281,Holstein Kiel,2998,Eintracht Frankfurt,finished,2,4
+Bundesliga,933174,2024-09-29,15:30,3297,Hoffenheim,4273,Werder Bremen,finished,3,4
+Bundesliga,933185,2024-10-04,18:30,3116,Augsburg,4272,Borussia M'gladbach,finished,2,1
+Bundesliga,933186,2024-10-05,13:30,3775,Union Berlin,3204,Borussia Dortmund,finished,2,1
+Bundesliga,933184,2024-10-05,13:30,4273,Werder Bremen,4274,Freiburg,finished,0,1
+Bundesliga,933187,2024-10-05,13:30,3113,Bochum,2983,Wolfsburg,finished,1,3
+Bundesliga,933180,2024-10-05,13:30,4271,Bayer Leverkusen,4281,Holstein Kiel,finished,2,2
+Bundesliga,933188,2024-10-05,16:30,3339,St. Pauli,3003,Mainz,finished,0,3
+Bundesliga,933183,2024-10-06,13:30,4280,Heidenheim,3292,RB Leipzig,finished,0,1
+Bundesliga,933182,2024-10-06,15:30,2998,Eintracht Frankfurt,4270,Bayern Munich,finished,3,3
+Bundesliga,933181,2024-10-06,17:30,4276,Stuttgart,3297,Hoffenheim,finished,1,1
+Bundesliga,933191,2024-10-18,18:30,3204,Borussia Dortmund,3339,St. Pauli,finished,2,1
+Bundesliga,933196,2024-10-19,13:30,4272,Borussia M'gladbach,4280,Heidenheim,finished,3,2
+Bundesliga,933193,2024-10-19,13:30,4274,Freiburg,3116,Augsburg,finished,3,1
+Bundesliga,933189,2024-10-19,13:30,4271,Bayer Leverkusen,2998,Eintracht Frankfurt,finished,2,1
+Bundesliga,933195,2024-10-19,13:30,3003,Mainz,3292,RB Leipzig,finished,0,2
+Bundesliga,933192,2024-10-19,13:30,3297,Hoffenheim,3113,Bochum,finished,3,1
+Bundesliga,933190,2024-10-19,16:30,4270,Bayern Munich,4276,Stuttgart,finished,4,0
+Bundesliga,933197,2024-10-20,13:30,4281,Holstein Kiel,3775,Union Berlin,finished,0,2
+Bundesliga,933194,2024-10-20,15:30,2983,Wolfsburg,4273,Werder Bremen,finished,2,4
+Bundesliga,933203,2024-10-25,18:30,3003,Mainz,4272,Borussia M'gladbach,finished,1,1
+Bundesliga,933206,2024-10-26,13:30,3339,St. Pauli,2983,Wolfsburg,finished,0,0
+Bundesliga,933198,2024-10-26,13:30,4276,Stuttgart,4281,Holstein Kiel,finished,2,1
+Bundesliga,933202,2024-10-26,13:30,3116,Augsburg,3204,Borussia Dortmund,finished,2,1
+Bundesliga,933199,2024-10-26,13:30,3292,RB Leipzig,4274,Freiburg,finished,3,1
+Bundesliga,933201,2024-10-26,16:30,4273,Werder Bremen,4271,Bayer Leverkusen,finished,2,2
+Bundesliga,933205,2024-10-27,14:30,3113,Bochum,4270,Bayern Munich,finished,0,5
+Bundesliga,933204,2024-10-27,16:30,3775,Union Berlin,2998,Eintracht Frankfurt,finished,1,1
+Bundesliga,933200,2024-10-27,18:30,4280,Heidenheim,3297,Hoffenheim,finished,0,0
+Bundesliga,933207,2024-11-01,19:30,4271,Bayer Leverkusen,4276,Stuttgart,finished,0,0
+Bundesliga,933215,2024-11-02,14:30,4281,Holstein Kiel,4280,Heidenheim,finished,1,0
+Bundesliga,933210,2024-11-02,14:30,2998,Eintracht Frankfurt,3113,Bochum,finished,7,2
+Bundesliga,933213,2024-11-02,14:30,2983,Wolfsburg,3116,Augsburg,finished,1,1
+Bundesliga,933211,2024-11-02,14:30,3297,Hoffenheim,3339,St. Pauli,finished,0,2
+Bundesliga,933208,2024-11-02,14:30,4270,Bayern Munich,3775,Union Berlin,finished,3,0
+Bundesliga,933209,2024-11-02,17:30,3204,Borussia Dortmund,3292,RB Leipzig,finished,2,1
+Bundesliga,933212,2024-11-03,14:30,4274,Freiburg,3003,Mainz,finished,0,0
+Bundesliga,933214,2024-11-03,16:30,4272,Borussia M'gladbach,4273,Werder Bremen,finished,4,1
+Bundesliga,933222,2024-11-08,19:30,3775,Union Berlin,4274,Freiburg,finished,0,0
+Bundesliga,933219,2024-11-09,14:30,4273,Werder Bremen,4281,Holstein Kiel,finished,2,1
+Bundesliga,933224,2024-11-09,14:30,3339,St. Pauli,4270,Bayern Munich,finished,0,1
+Bundesliga,933221,2024-11-09,14:30,3003,Mainz,3204,Borussia Dortmund,finished,3,1
+Bundesliga,933223,2024-11-09,14:30,3113,Bochum,4271,Bayer Leverkusen,finished,1,1
+Bundesliga,933217,2024-11-09,17:30,3292,RB Leipzig,4272,Borussia M'gladbach,finished,0,0
+Bundesliga,933220,2024-11-10,14:30,3116,Augsburg,3297,Hoffenheim,finished,0,0
+Bundesliga,933216,2024-11-10,16:30,4276,Stuttgart,2998,Eintracht Frankfurt,finished,2,3
+Bundesliga,933218,2024-11-10,18:30,4280,Heidenheim,2983,Wolfsburg,finished,1,3
+Bundesliga,933227,2024-11-22,19:30,4270,Bayern Munich,3116,Augsburg,finished,3,0
+Bundesliga,933228,2024-11-23,14:30,3204,Borussia Dortmund,4274,Freiburg,finished,4,0
+Bundesliga,933226,2024-11-23,14:30,4276,Stuttgart,3113,Bochum,finished,2,0
+Bundesliga,933231,2024-11-23,14:30,2983,Wolfsburg,3775,Union Berlin,finished,1,0
+Bundesliga,933225,2024-11-23,14:30,4271,Bayer Leverkusen,4280,Heidenheim,finished,5,2
+Bundesliga,933230,2024-11-23,14:30,3297,Hoffenheim,3292,RB Leipzig,finished,4,3
+Bundesliga,933229,2024-11-23,17:30,2998,Eintracht Frankfurt,4273,Werder Bremen,finished,1,0
+Bundesliga,933233,2024-11-24,14:30,4281,Holstein Kiel,3003,Mainz,finished,0,3
+Bundesliga,933232,2024-11-24,16:30,4272,Borussia M'gladbach,3339,St. Pauli,finished,2,0
+Bundesliga,933242,2024-11-29,19:30,3339,St. Pauli,4281,Holstein Kiel,finished,3,1
+Bundesliga,933234,2024-11-30,14:30,3292,RB Leipzig,2983,Wolfsburg,finished,1,5
+Bundesliga,933237,2024-11-30,14:30,4273,Werder Bremen,4276,Stuttgart,finished,2,2
+Bundesliga,933239,2024-11-30,14:30,3116,Augsburg,3113,Bochum,finished,1,0
+Bundesliga,933238,2024-11-30,14:30,4274,Freiburg,4272,Borussia M'gladbach,finished,3,1
+Bundesliga,933241,2024-11-30,14:30,3775,Union Berlin,4271,Bayer Leverkusen,finished,1,2
+Bundesliga,933235,2024-11-30,17:30,3204,Borussia Dortmund,4270,Bayern Munich,finished,1,1
+Bundesliga,933240,2024-12-01,14:30,3003,Mainz,3297,Hoffenheim,finished,2,0
+Bundesliga,933236,2024-12-01,16:30,4280,Heidenheim,2998,Eintracht Frankfurt,finished,0,4
+Bundesliga,933244,2024-12-06,19:30,4276,Stuttgart,3775,Union Berlin,finished,3,2
+Bundesliga,933246,2024-12-07,14:30,2998,Eintracht Frankfurt,3116,Augsburg,finished,2,2
+Bundesliga,933245,2024-12-07,14:30,4270,Bayern Munich,4280,Heidenheim,finished,4,2
+Bundesliga,933243,2024-12-07,14:30,4271,Bayer Leverkusen,3339,St. Pauli,finished,2,1
+Bundesliga,933250,2024-12-07,14:30,3113,Bochum,4273,Werder Bremen,finished,0,1
+Bundesliga,933251,2024-12-07,14:30,4281,Holstein Kiel,3292,RB Leipzig,finished,0,2
+Bundesliga,933249,2024-12-07,17:30,4272,Borussia M'gladbach,3204,Borussia Dortmund,finished,1,1
+Bundesliga,933248,2024-12-08,14:30,2983,Wolfsburg,3003,Mainz,finished,4,3
+Bundesliga,933247,2024-12-08,16:30,3297,Hoffenheim,4274,Freiburg,finished,1,1
+Bundesliga,933255,2024-12-13,19:30,4274,Freiburg,2983,Wolfsburg,finished,3,2
+Bundesliga,933258,2024-12-14,14:30,4272,Borussia M'gladbach,4281,Holstein Kiel,finished,4,1
+Bundesliga,933257,2024-12-14,14:30,3003,Mainz,4270,Bayern Munich,finished,2,1
+Bundesliga,933259,2024-12-14,14:30,3775,Union Berlin,3113,Bochum,finished,1,1
+Bundesliga,933256,2024-12-14,14:30,3116,Augsburg,4271,Bayer Leverkusen,finished,0,2
+Bundesliga,933260,2024-12-14,17:30,3339,St. Pauli,4273,Werder Bremen,finished,0,2
+Bundesliga,933254,2024-12-15,14:30,4280,Heidenheim,4276,Stuttgart,finished,1,3
+Bundesliga,933253,2024-12-15,16:30,3204,Borussia Dortmund,3297,Hoffenheim,finished,1,1
+Bundesliga,933252,2024-12-15,18:30,3292,RB Leipzig,2998,Eintracht Frankfurt,finished,2,1
+Bundesliga,933263,2024-12-20,19:30,4270,Bayern Munich,3292,RB Leipzig,finished,5,1
+Bundesliga,933266,2024-12-21,14:30,4273,Werder Bremen,3775,Union Berlin,finished,4,1
+Bundesliga,933264,2024-12-21,14:30,2998,Eintracht Frankfurt,3003,Mainz,finished,1,3
+Bundesliga,933269,2024-12-21,14:30,4281,Holstein Kiel,3116,Augsburg,finished,5,1
+Bundesliga,933265,2024-12-21,14:30,3297,Hoffenheim,4272,Borussia M'gladbach,finished,1,2
+Bundesliga,933262,2024-12-21,14:30,4276,Stuttgart,3339,St. Pauli,finished,0,1
+Bundesliga,933261,2024-12-21,17:30,4271,Bayer Leverkusen,4274,Freiburg,finished,5,1
+Bundesliga,933268,2024-12-22,14:30,3113,Bochum,4280,Heidenheim,finished,2,0
+Bundesliga,933267,2024-12-22,16:30,2983,Wolfsburg,3204,Borussia Dortmund,finished,1,3
+Bundesliga,933271,2025-01-10,19:30,3204,Borussia Dortmund,4271,Bayer Leverkusen,finished,2,3
+Bundesliga,933274,2025-01-11,14:30,4274,Freiburg,4281,Holstein Kiel,finished,3,2
+Bundesliga,933278,2025-01-11,14:30,3339,St. Pauli,2998,Eintracht Frankfurt,finished,0,1
+Bundesliga,933276,2025-01-11,14:30,3003,Mainz,3113,Bochum,finished,2,0
+Bundesliga,933272,2025-01-11,14:30,3297,Hoffenheim,2983,Wolfsburg,finished,0,1
+Bundesliga,933273,2025-01-11,14:30,4280,Heidenheim,3775,Union Berlin,finished,2,0
+Bundesliga,933277,2025-01-11,17:30,4272,Borussia M'gladbach,4270,Bayern Munich,finished,0,1
+Bundesliga,933270,2025-01-12,14:30,3292,RB Leipzig,4273,Werder Bremen,finished,4,2
+Bundesliga,933275,2025-01-12,16:30,3116,Augsburg,4276,Stuttgart,finished,0,1
+Bundesliga,933287,2025-01-14,17:30,4281,Holstein Kiel,3204,Borussia Dortmund,finished,4,2
+Bundesliga,933282,2025-01-14,19:30,2998,Eintracht Frankfurt,4274,Freiburg,finished,4,1
+Bundesliga,933284,2025-01-14,19:30,2983,Wolfsburg,4272,Borussia M'gladbach,finished,5,1
+Bundesliga,933279,2025-01-14,19:30,4271,Bayer Leverkusen,3003,Mainz,finished,1,0
+Bundesliga,933286,2025-01-15,17:30,3113,Bochum,3339,St. Pauli,finished,1,0
+Bundesliga,933285,2025-01-15,19:30,3775,Union Berlin,3116,Augsburg,finished,0,2
+Bundesliga,933283,2025-01-15,19:30,4273,Werder Bremen,4280,Heidenheim,finished,3,3
+Bundesliga,933280,2025-01-15,19:30,4276,Stuttgart,3292,RB Leipzig,finished,2,1
+Bundesliga,933281,2025-01-15,19:30,4270,Bayern Munich,3297,Hoffenheim,finished,5,0
+Bundesliga,933291,2025-01-17,19:30,2998,Eintracht Frankfurt,3204,Borussia Dortmund,finished,2,0
+Bundesliga,933289,2025-01-18,14:30,4276,Stuttgart,4274,Freiburg,finished,4,0
+Bundesliga,933295,2025-01-18,14:30,3113,Bochum,3292,RB Leipzig,finished,3,3
+Bundesliga,933292,2025-01-18,14:30,4280,Heidenheim,3339,St. Pauli,finished,0,2
+Bundesliga,933290,2025-01-18,14:30,4270,Bayern Munich,2983,Wolfsburg,finished,3,2
+Bundesliga,933296,2025-01-18,14:30,4281,Holstein Kiel,3297,Hoffenheim,finished,1,3
+Bundesliga,933288,2025-01-18,17:30,4271,Bayer Leverkusen,4272,Borussia M'gladbach,finished,3,1
+Bundesliga,933294,2025-01-19,14:30,3775,Union Berlin,3003,Mainz,finished,2,1
+Bundesliga,933293,2025-01-19,16:30,4273,Werder Bremen,3116,Augsburg,finished,0,2
+Bundesliga,933302,2025-01-24,19:30,2983,Wolfsburg,4281,Holstein Kiel,finished,2,2
+Bundesliga,933300,2025-01-25,14:30,4274,Freiburg,4270,Bayern Munich,finished,1,2
+Bundesliga,933298,2025-01-25,14:30,3204,Borussia Dortmund,4273,Werder Bremen,finished,2,2
+Bundesliga,933301,2025-01-25,14:30,3116,Augsburg,4280,Heidenheim,finished,2,1
+Bundesliga,933303,2025-01-25,14:30,3003,Mainz,4276,Stuttgart,finished,2,0
+Bundesliga,933297,2025-01-25,14:30,3292,RB Leipzig,4271,Bayer Leverkusen,finished,2,2
+Bundesliga,933304,2025-01-25,17:30,4272,Borussia M'gladbach,3113,Bochum,finished,3,0
+Bundesliga,933299,2025-01-26,14:30,3297,Hoffenheim,2998,Eintracht Frankfurt,finished,2,2
+Bundesliga,933305,2025-01-26,16:30,3339,St. Pauli,3775,Union Berlin,finished,3,0
+Bundesliga,933311,2025-01-31,19:30,4273,Werder Bremen,3003,Mainz,finished,1,0
+Bundesliga,933313,2025-02-01,14:30,3113,Bochum,4274,Freiburg,finished,0,1
+Bundesliga,933307,2025-02-01,14:30,4276,Stuttgart,4272,Borussia M'gladbach,finished,1,2
+Bundesliga,933314,2025-02-01,14:30,3339,St. Pauli,3116,Augsburg,finished,1,1
+Bundesliga,933308,2025-02-01,14:30,4270,Bayern Munich,4281,Holstein Kiel,finished,4,3
+Bundesliga,933310,2025-02-01,14:30,4280,Heidenheim,3204,Borussia Dortmund,finished,1,2
+Bundesliga,933312,2025-02-01,17:30,3775,Union Berlin,3292,RB Leipzig,finished,0,0
+Bundesliga,933309,2025-02-02,14:30,2998,Eintracht Frankfurt,2983,Wolfsburg,finished,1,1
+Bundesliga,933306,2025-02-02,16:30,4271,Bayer Leverkusen,3297,Hoffenheim,finished,3,1
+Bundesliga,933315,2025-02-07,19:30,4270,Bayern Munich,4273,Werder Bremen,finished,3,0
+Bundesliga,933321,2025-02-08,14:30,3003,Mainz,3116,Augsburg,finished,0,0
+Bundesliga,933317,2025-02-08,14:30,3204,Borussia Dortmund,4276,Stuttgart,finished,1,2
+Bundesliga,933320,2025-02-08,14:30,2983,Wolfsburg,4271,Bayer Leverkusen,finished,0,0
+Bundesliga,933319,2025-02-08,14:30,4274,Freiburg,4280,Heidenheim,finished,1,0
+Bundesliga,933318,2025-02-08,14:30,3297,Hoffenheim,3775,Union Berlin,finished,0,4
+Bundesliga,933322,2025-02-08,17:30,4272,Borussia M'gladbach,2998,Eintracht Frankfurt,finished,1,1
+Bundesliga,933323,2025-02-09,14:30,4281,Holstein Kiel,3113,Bochum,finished,2,2
+Bundesliga,933316,2025-02-09,16:30,3292,RB Leipzig,3339,St. Pauli,finished,2,0
+Bundesliga,933329,2025-02-14,19:30,3116,Augsburg,3292,RB Leipzig,finished,0,0
+Bundesliga,933325,2025-02-15,14:30,4276,Stuttgart,2983,Wolfsburg,finished,1,2
+Bundesliga,933331,2025-02-15,14:30,3113,Bochum,3204,Borussia Dortmund,finished,2,0
+Bundesliga,933330,2025-02-15,14:30,3775,Union Berlin,4272,Borussia M'gladbach,finished,1,2
+Bundesliga,933332,2025-02-15,14:30,3339,St. Pauli,4274,Freiburg,finished,0,1
+Bundesliga,933324,2025-02-15,17:30,4271,Bayer Leverkusen,4270,Bayern Munich,finished,0,0
+Bundesliga,933328,2025-02-16,14:30,4273,Werder Bremen,3297,Hoffenheim,finished,1,3
+Bundesliga,933326,2025-02-16,16:30,2998,Eintracht Frankfurt,4281,Holstein Kiel,finished,3,1
+Bundesliga,933327,2025-02-16,18:30,4280,Heidenheim,3003,Mainz,finished,0,2
+Bundesliga,933337,2025-02-21,19:30,4274,Freiburg,4273,Werder Bremen,finished,5,0
+Bundesliga,933340,2025-02-22,14:30,4272,Borussia M'gladbach,3116,Augsburg,finished,0,3
+Bundesliga,933339,2025-02-22,14:30,3003,Mainz,3339,St. Pauli,finished,2,0
+Bundesliga,933338,2025-02-22,14:30,2983,Wolfsburg,3113,Bochum,finished,1,1
+Bundesliga,933341,2025-02-22,14:30,4281,Holstein Kiel,4271,Bayer Leverkusen,finished,0,2
+Bundesliga,933335,2025-02-22,17:30,3204,Borussia Dortmund,3775,Union Berlin,finished,6,0
+Bundesliga,933334,2025-02-23,14:30,3292,RB Leipzig,4280,Heidenheim,finished,2,2
+Bundesliga,933333,2025-02-23,16:30,4270,Bayern Munich,2998,Eintracht Frankfurt,finished,4,0
+Bundesliga,933336,2025-02-23,18:30,3297,Hoffenheim,4276,Stuttgart,finished,1,1
+Bundesliga,933342,2025-02-28,19:30,4276,Stuttgart,4270,Bayern Munich,finished,1,3
+Bundesliga,933343,2025-03-01,14:30,3292,RB Leipzig,3003,Mainz,finished,1,2
+Bundesliga,933345,2025-03-01,14:30,4280,Heidenheim,4272,Borussia M'gladbach,finished,0,3
+Bundesliga,933349,2025-03-01,14:30,3113,Bochum,3297,Hoffenheim,finished,0,1
+Bundesliga,933350,2025-03-01,14:30,3339,St. Pauli,3204,Borussia Dortmund,finished,0,2
+Bundesliga,933346,2025-03-01,14:30,4273,Werder Bremen,2983,Wolfsburg,finished,1,2
+Bundesliga,933344,2025-03-01,17:30,2998,Eintracht Frankfurt,4271,Bayer Leverkusen,finished,1,4
+Bundesliga,933348,2025-03-02,14:30,3775,Union Berlin,4281,Holstein Kiel,finished,0,1
+Bundesliga,933347,2025-03-02,16:30,3116,Augsburg,4274,Freiburg,finished,0,0
+Bundesliga,933358,2025-03-07,19:30,4272,Borussia M'gladbach,3003,Mainz,finished,1,3
+Bundesliga,933357,2025-03-08,14:30,2983,Wolfsburg,3339,St. Pauli,finished,1,1
+Bundesliga,933353,2025-03-08,14:30,3204,Borussia Dortmund,3116,Augsburg,finished,0,1
+Bundesliga,933351,2025-03-08,14:30,4271,Bayer Leverkusen,4273,Werder Bremen,finished,0,2
+Bundesliga,933359,2025-03-08,14:30,4281,Holstein Kiel,4276,Stuttgart,finished,2,2
+Bundesliga,933352,2025-03-08,14:30,4270,Bayern Munich,3113,Bochum,finished,2,3
+Bundesliga,933356,2025-03-08,17:30,4274,Freiburg,3292,RB Leipzig,finished,0,0
+Bundesliga,933354,2025-03-09,14:30,2998,Eintracht Frankfurt,3775,Union Berlin,finished,1,2
+Bundesliga,933355,2025-03-09,16:30,3297,Hoffenheim,4280,Heidenheim,finished,1,1
+Bundesliga,933368,2025-03-14,19:30,3339,St. Pauli,3297,Hoffenheim,finished,1,0
+Bundesliga,933365,2025-03-15,14:30,3003,Mainz,4274,Freiburg,finished,2,2
+Bundesliga,933363,2025-03-15,14:30,4273,Werder Bremen,4272,Borussia M'gladbach,finished,2,4
+Bundesliga,933366,2025-03-15,14:30,3775,Union Berlin,4270,Bayern Munich,finished,1,1
+Bundesliga,933364,2025-03-15,14:30,3116,Augsburg,2983,Wolfsburg,finished,1,0
+Bundesliga,933361,2025-03-15,17:30,3292,RB Leipzig,3204,Borussia Dortmund,finished,2,0
+Bundesliga,933367,2025-03-16,14:30,3113,Bochum,2998,Eintracht Frankfurt,finished,1,3
+Bundesliga,933362,2025-03-16,16:30,4280,Heidenheim,4281,Holstein Kiel,finished,3,1
+Bundesliga,933360,2025-03-16,18:30,4276,Stuttgart,4271,Bayer Leverkusen,finished,3,4
+Bundesliga,933369,2025-03-28,19:30,4271,Bayer Leverkusen,3113,Bochum,finished,3,1
+Bundesliga,933376,2025-03-29,14:30,4272,Borussia M'gladbach,3292,RB Leipzig,finished,1,0
+Bundesliga,933373,2025-03-29,14:30,3297,Hoffenheim,3116,Augsburg,finished,1,1
+Bundesliga,933375,2025-03-29,14:30,2983,Wolfsburg,4280,Heidenheim,finished,0,1
+Bundesliga,933370,2025-03-29,14:30,4270,Bayern Munich,3339,St. Pauli,finished,3,2
+Bundesliga,933377,2025-03-29,14:30,4281,Holstein Kiel,4273,Werder Bremen,finished,0,3
+Bundesliga,933372,2025-03-29,17:30,2998,Eintracht Frankfurt,4276,Stuttgart,finished,1,0
+Bundesliga,933374,2025-03-30,13:30,4274,Freiburg,3775,Union Berlin,finished,1,2
+Bundesliga,933371,2025-03-30,15:30,3204,Borussia Dortmund,3003,Mainz,finished,3,1
+Bundesliga,933382,2025-04-04,18:30,3116,Augsburg,4270,Bayern Munich,finished,1,3
+Bundesliga,933378,2025-04-05,13:30,3292,RB Leipzig,3297,Hoffenheim,finished,3,1
+Bundesliga,933385,2025-04-05,13:30,3113,Bochum,4276,Stuttgart,finished,0,4
+Bundesliga,933379,2025-04-05,13:30,4280,Heidenheim,4271,Bayer Leverkusen,finished,0,1
+Bundesliga,933381,2025-04-05,13:30,4274,Freiburg,3204,Borussia Dortmund,finished,1,4
+Bundesliga,933383,2025-04-05,13:30,3003,Mainz,4281,Holstein Kiel,finished,1,1
+Bundesliga,933380,2025-04-05,16:30,4273,Werder Bremen,2998,Eintracht Frankfurt,finished,2,0
+Bundesliga,933386,2025-04-06,13:30,3339,St. Pauli,4272,Borussia M'gladbach,finished,1,1
+Bundesliga,933384,2025-04-06,15:30,3775,Union Berlin,2983,Wolfsburg,finished,1,0
+Bundesliga,933392,2025-04-11,18:30,2983,Wolfsburg,3292,RB Leipzig,finished,2,3
+Bundesliga,933391,2025-04-12,13:30,3297,Hoffenheim,3003,Mainz,finished,2,0
+Bundesliga,933393,2025-04-12,13:30,4272,Borussia M'gladbach,4274,Freiburg,finished,1,2
+Bundesliga,933387,2025-04-12,13:30,4271,Bayer Leverkusen,3775,Union Berlin,finished,0,0
+Bundesliga,933394,2025-04-12,13:30,3113,Bochum,3116,Augsburg,finished,1,2
+Bundesliga,933395,2025-04-12,13:30,4281,Holstein Kiel,3339,St. Pauli,finished,1,2
+Bundesliga,933389,2025-04-12,16:30,4270,Bayern Munich,3204,Borussia Dortmund,finished,2,2
+Bundesliga,933388,2025-04-13,13:30,4276,Stuttgart,4273,Werder Bremen,finished,1,2
+Bundesliga,933390,2025-04-13,15:30,2998,Eintracht Frankfurt,4280,Heidenheim,finished,3,0
+Bundesliga,933400,2025-04-19,13:30,4274,Freiburg,3297,Hoffenheim,finished,3,2
+Bundesliga,933399,2025-04-19,13:30,4273,Werder Bremen,3113,Bochum,finished,1,0
+Bundesliga,933396,2025-04-19,13:30,3292,RB Leipzig,4281,Holstein Kiel,finished,1,1
+Bundesliga,933402,2025-04-19,13:30,3003,Mainz,2983,Wolfsburg,finished,2,2
+Bundesliga,933398,2025-04-19,13:30,4280,Heidenheim,4270,Bayern Munich,finished,0,4
+Bundesliga,933403,2025-04-19,16:30,3775,Union Berlin,4276,Stuttgart,finished,4,4
+Bundesliga,933401,2025-04-20,13:30,3116,Augsburg,2998,Eintracht Frankfurt,finished,0,0
+Bundesliga,933397,2025-04-20,15:30,3204,Borussia Dortmund,4272,Borussia M'gladbach,finished,3,2
+Bundesliga,933404,2025-04-20,17:30,3339,St. Pauli,4271,Bayer Leverkusen,finished,1,1
+Bundesliga,933406,2025-04-25,18:30,4276,Stuttgart,4280,Heidenheim,finished,0,1
+Bundesliga,933407,2025-04-26,13:30,4270,Bayern Munich,3003,Mainz,finished,3,0
+Bundesliga,933411,2025-04-26,13:30,2983,Wolfsburg,4274,Freiburg,finished,0,1
+Bundesliga,933413,2025-04-26,13:30,4281,Holstein Kiel,4272,Borussia M'gladbach,finished,4,3
+Bundesliga,933405,2025-04-26,13:30,4271,Bayer Leverkusen,3116,Augsburg,finished,2,0
+Bundesliga,933409,2025-04-26,13:30,3297,Hoffenheim,3204,Borussia Dortmund,finished,2,3
+Bundesliga,933408,2025-04-26,16:30,2998,Eintracht Frankfurt,3292,RB Leipzig,finished,4,0
+Bundesliga,933412,2025-04-27,13:30,3113,Bochum,3775,Union Berlin,finished,1,1
+Bundesliga,933410,2025-04-27,15:30,4273,Werder Bremen,3339,St. Pauli,finished,0,0
+Bundesliga,933416,2025-05-02,18:30,4280,Heidenheim,3113,Bochum,finished,0,0
+Bundesliga,933414,2025-05-03,13:30,3292,RB Leipzig,4270,Bayern Munich,finished,3,3
+Bundesliga,933421,2025-05-03,13:30,3775,Union Berlin,4273,Werder Bremen,finished,2,2
+Bundesliga,933420,2025-05-03,13:30,4272,Borussia M'gladbach,3297,Hoffenheim,finished,4,4
+Bundesliga,933422,2025-05-03,13:30,3339,St. Pauli,4276,Stuttgart,finished,0,1
+Bundesliga,933415,2025-05-03,16:30,3204,Borussia Dortmund,2983,Wolfsburg,finished,4,0
+Bundesliga,933418,2025-05-04,13:30,3116,Augsburg,4281,Holstein Kiel,finished,1,3
+Bundesliga,933417,2025-05-04,15:30,4274,Freiburg,4271,Bayer Leverkusen,finished,2,2
+Bundesliga,933419,2025-05-04,17:30,3003,Mainz,2998,Eintracht Frankfurt,finished,1,1
+Bundesliga,933428,2025-05-09,18:30,2983,Wolfsburg,3297,Hoffenheim,finished,2,2
+Bundesliga,933427,2025-05-10,13:30,4273,Werder Bremen,3292,RB Leipzig,finished,0,0
+Bundesliga,933431,2025-05-10,13:30,4281,Holstein Kiel,4274,Freiburg,finished,1,2
+Bundesliga,933430,2025-05-10,13:30,3113,Bochum,3003,Mainz,finished,1,4
+Bundesliga,933429,2025-05-10,13:30,3775,Union Berlin,4280,Heidenheim,finished,0,3
+Bundesliga,933425,2025-05-10,16:30,4270,Bayern Munich,4272,Borussia M'gladbach,finished,2,0
+Bundesliga,933423,2025-05-11,13:30,4271,Bayer Leverkusen,3204,Borussia Dortmund,finished,2,4
+Bundesliga,933426,2025-05-11,15:30,2998,Eintracht Frankfurt,3339,St. Pauli,finished,2,2
+Bundesliga,933424,2025-05-11,17:30,4276,Stuttgart,3116,Augsburg,finished,4,0
+Bundesliga,933436,2025-05-17,13:30,4274,Freiburg,2998,Eintracht Frankfurt,finished,1,3
+Bundesliga,933433,2025-05-17,13:30,3204,Borussia Dortmund,4281,Holstein Kiel,finished,3,0
+Bundesliga,933437,2025-05-17,13:30,3116,Augsburg,3775,Union Berlin,finished,1,2
+Bundesliga,933438,2025-05-17,13:30,3003,Mainz,4271,Bayer Leverkusen,finished,2,2
+Bundesliga,933440,2025-05-17,13:30,3339,St. Pauli,3113,Bochum,finished,0,2
+Bundesliga,933439,2025-05-17,13:30,4272,Borussia M'gladbach,2983,Wolfsburg,finished,0,1
+Bundesliga,933434,2025-05-17,13:30,3297,Hoffenheim,4270,Bayern Munich,finished,0,4
+Bundesliga,933432,2025-05-17,13:30,3292,RB Leipzig,4276,Stuttgart,finished,2,3
+Bundesliga,933435,2025-05-17,13:30,4280,Heidenheim,4273,Werder Bremen,finished,1,4

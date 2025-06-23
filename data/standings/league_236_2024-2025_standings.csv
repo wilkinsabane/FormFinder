@@ -1,0 +1,20 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+Ligue 2,1,4239,Lorient,34,71,22,5,7,68,31,37
+Ligue 2,2,4241,Paris FC,34,69,21,6,7,55,33,22
+Ligue 2,3,4238,Metz,34,65,18,11,5,64,34,30
+Ligue 2,4,4255,Dunkerque,34,56,17,5,12,47,40,7
+Ligue 2,5,4233,Bordeaux,0,0,0,0,0,0,0,0
+Ligue 2,5,4237,Guingamp,34,55,17,4,13,57,45,12
+Ligue 2,6,4259,Annecy,34,51,14,9,11,42,43,-1
+Ligue 2,7,4258,Laval,34,50,14,8,12,44,38,6
+Ligue 2,8,4256,Bastia,34,48,11,15,8,43,37,6
+Ligue 2,9,3133,Grenoble Foot 38,34,46,13,7,14,43,44,-1
+Ligue 2,10,3542,Troyes,34,44,13,5,16,36,34,2
+Ligue 2,11,3471,Amiens SC,34,43,13,4,17,38,50,-12
+Ligue 2,12,4240,Ajaccio,34,42,12,6,16,30,42,-12
+Ligue 2,13,4254,Pau,34,42,10,12,12,39,53,-14
+Ligue 2,14,4252,Rodez,34,39,9,12,13,56,54,2
+Ligue 2,15,4250,Red Star,34,38,9,11,14,37,51,-14
+Ligue 2,16,3294,Clermont,34,33,7,12,15,30,46,-16
+Ligue 2,17,6282,Martigues,34,32,9,5,20,29,56,-27
+Ligue 2,18,4236,Caen,34,22,5,7,22,31,58,-27

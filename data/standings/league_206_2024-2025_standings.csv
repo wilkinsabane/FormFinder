@@ -1,0 +1,31 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+Liga Profesional,1,3838,Argentinos Juniors,16,33,9,6,1,24,9,15
+Liga Profesional,1,3848,Rosario Central,16,35,10,5,1,22,8,14
+Liga Profesional,2,3854,Boca Juniors,16,33,10,3,3,24,11,13
+Liga Profesional,2,3847,River Plate,16,31,8,7,1,21,9,12
+Liga Profesional,3,3855,Racing Club,16,28,9,1,6,26,16,10
+Liga Profesional,3,3845,Independiente,16,29,8,5,3,23,12,11
+Liga Profesional,4,3851,San Lorenzo,16,27,7,6,3,14,10,4
+Liga Profesional,4,3844,Huracan,16,27,7,6,3,19,12,7
+Liga Profesional,5,10899,Deportivo Riestra,16,24,5,9,2,13,7,6
+Liga Profesional,5,3858,Tigre,16,27,8,3,5,18,12,6
+Liga Profesional,6,3859,Platense,16,23,6,5,5,13,11,2
+Liga Profesional,6,10898,Independiente Rivadavia,16,27,7,6,3,20,17,3
+Liga Profesional,7,2763,Lanus,16,20,4,8,4,13,11,2
+Liga Profesional,7,3841,Barracas Central,16,26,7,5,4,20,18,2
+Liga Profesional,8,3852,Estudiantes,16,21,5,6,5,18,19,-1
+Liga Profesional,8,3846,Instituto,16,18,5,3,8,16,20,-4
+Liga Profesional,9,3857,Newell's Old Boys,16,19,5,4,7,12,15,-3
+Liga Profesional,9,2814,Godoy Cruz,16,17,3,8,5,8,18,-10
+Liga Profesional,10,3840,Atletico Tucuman,16,16,5,1,10,17,21,-4
+Liga Profesional,10,3853,Defensa y Justicia,16,19,5,4,7,18,22,-4
+Liga Profesional,11,3862,Central Cordoba SdE,16,18,5,3,8,21,22,-1
+Liga Profesional,11,3843,Gimnasia La Plata,16,16,4,4,8,9,18,-9
+Liga Profesional,12,3860,Sarmiento,16,15,2,9,5,11,19,-8
+Liga Profesional,12,3856,Belgrano,16,17,3,8,5,13,23,-10
+Liga Profesional,13,3864,Aldosivi,16,15,4,3,9,18,28,-10
+Liga Profesional,13,3850,Velez Sarsfield,16,14,4,2,10,7,22,-15
+Liga Profesional,14,2813,Banfield,16,14,3,5,8,14,19,-5
+Liga Profesional,14,3849,Talleres de Cordoba,16,13,2,7,7,11,15,-4
+Liga Profesional,15,3861,Union,16,14,3,5,8,11,17,-6
+Liga Profesional,15,9269,San Martin San Juan,16,9,2,3,11,5,18,-13

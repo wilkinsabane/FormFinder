@@ -1,0 +1,183 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+First Division,932567,2024-08-23,17:00,6496,Omonia Aradippou,3496,Anorthosis,finished,0,0
+First Division,932566,2024-08-24,16:00,8387,Omonia 29is Maiou,3781,AEL,finished,2,4
+First Division,932565,2024-08-24,17:00,4081,Karmiotissa,2951,Aris Limassol,finished,1,3
+First Division,932568,2024-08-25,17:00,2922,Apollon,2905,AEK Larnaca,finished,1,2
+First Division,932570,2024-08-25,17:00,3629,Omonia Nicosia,3349,Ethnikos Achna,finished,3,0
+First Division,932576,2024-08-30,17:00,2951,Aris Limassol,8387,Omonia 29is Maiou,finished,1,0
+First Division,932575,2024-08-31,17:00,3781,AEL,6496,Omonia Aradippou,finished,1,0
+First Division,932571,2024-08-31,17:00,3347,Enosis,4081,Karmiotissa,finished,0,1
+First Division,932574,2024-08-31,17:00,3496,Anorthosis,2922,Apollon,finished,1,2
+First Division,932573,2024-09-01,15:30,2905,AEK Larnaca,2923,Pafos,finished,0,2
+First Division,932577,2024-09-01,17:00,3343,APOEL,3349,Ethnikos Achna,finished,1,3
+First Division,932572,2024-09-01,17:30,4079,Nea Salamis,3629,Omonia Nicosia,finished,2,3
+First Division,932582,2024-09-14,16:00,2923,Pafos,3496,Anorthosis,finished,3,1
+First Division,932578,2024-09-14,16:00,4081,Karmiotissa,3343,APOEL,finished,0,3
+First Division,932584,2024-09-14,16:00,3349,Ethnikos Achna,4079,Nea Salamis,finished,2,3
+First Division,932579,2024-09-15,15:00,8387,Omonia 29is Maiou,3347,Enosis,finished,0,1
+First Division,932581,2024-09-15,16:00,2922,Apollon,3781,AEL,finished,3,0
+First Division,932580,2024-09-15,17:30,6496,Omonia Aradippou,2951,Aris Limassol,finished,0,3
+First Division,932583,2024-09-16,16:00,3629,Omonia Nicosia,2905,AEK Larnaca,finished,1,0
+First Division,932564,2024-09-18,16:00,3347,Enosis,3343,APOEL,finished,0,4
+First Division,932569,2024-09-18,16:00,2923,Pafos,4079,Nea Salamis,finished,4,0
+First Division,932586,2024-09-20,16:00,4081,Karmiotissa,8387,Omonia 29is Maiou,finished,1,1
+First Division,932588,2024-09-21,16:00,3496,Anorthosis,3629,Omonia Nicosia,finished,1,0
+First Division,932590,2024-09-21,16:00,2951,Aris Limassol,2922,Apollon,finished,0,0
+First Division,932587,2024-09-22,16:00,2905,AEK Larnaca,3349,Ethnikos Achna,finished,2,2
+First Division,932591,2024-09-22,16:00,3343,APOEL,4079,Nea Salamis,finished,3,1
+First Division,932589,2024-09-22,16:00,3781,AEL,2923,Pafos,finished,1,3
+First Division,932585,2024-09-23,16:00,3347,Enosis,6496,Omonia Aradippou,finished,0,2
+First Division,932596,2024-09-27,16:00,3629,Omonia Nicosia,3781,AEL,finished,3,1
+First Division,932598,2024-09-27,16:00,4079,Nea Salamis,2905,AEK Larnaca,finished,1,3
+First Division,932593,2024-09-28,16:00,6496,Omonia Aradippou,4081,Karmiotissa,finished,1,1
+First Division,932597,2024-09-28,16:00,3349,Ethnikos Achna,3496,Anorthosis,finished,2,2
+First Division,932595,2024-09-29,16:00,2923,Pafos,2951,Aris Limassol,finished,1,1
+First Division,932594,2024-09-29,16:00,2922,Apollon,3347,Enosis,finished,3,1
+First Division,932592,2024-09-29,16:00,8387,Omonia 29is Maiou,3343,APOEL,finished,0,0
+First Division,932600,2024-10-04,16:00,4081,Karmiotissa,2922,Apollon,finished,2,0
+First Division,932601,2024-10-05,15:00,8387,Omonia 29is Maiou,6496,Omonia Aradippou,finished,1,2
+First Division,932602,2024-10-05,16:00,3496,Anorthosis,4079,Nea Salamis,finished,3,1
+First Division,932603,2024-10-05,16:00,3781,AEL,3349,Ethnikos Achna,finished,5,2
+First Division,932599,2024-10-06,16:00,3347,Enosis,2923,Pafos,finished,1,2
+First Division,932604,2024-10-06,16:00,2951,Aris Limassol,3629,Omonia Nicosia,finished,2,0
+First Division,932605,2024-10-06,17:00,3343,APOEL,2905,AEK Larnaca,finished,0,1
+First Division,932609,2024-10-19,15:00,3629,Omonia Nicosia,3347,Enosis,finished,0,1
+First Division,932606,2024-10-19,15:00,6496,Omonia Aradippou,3343,APOEL,finished,0,5
+First Division,932608,2024-10-19,16:00,2923,Pafos,4081,Karmiotissa,finished,4,0
+First Division,932610,2024-10-20,13:30,3349,Ethnikos Achna,2951,Aris Limassol,finished,1,2
+First Division,932607,2024-10-20,16:00,2922,Apollon,8387,Omonia 29is Maiou,finished,2,0
+First Division,932612,2024-10-20,16:00,2905,AEK Larnaca,3496,Anorthosis,finished,1,0
+First Division,932611,2024-10-21,16:00,4079,Nea Salamis,3781,AEL,finished,0,2
+First Division,932613,2024-10-26,14:00,3347,Enosis,3349,Ethnikos Achna,finished,1,1
+First Division,932618,2024-10-26,16:00,2951,Aris Limassol,4079,Nea Salamis,finished,2,1
+First Division,932616,2024-10-27,15:00,6496,Omonia Aradippou,2922,Apollon,finished,0,1
+First Division,932617,2024-10-27,17:00,3781,AEL,2905,AEK Larnaca,finished,1,1
+First Division,932615,2024-10-28,17:00,8387,Omonia 29is Maiou,2923,Pafos,finished,1,2
+First Division,932614,2024-10-28,17:00,4081,Karmiotissa,3629,Omonia Nicosia,finished,2,6
+First Division,932619,2024-10-28,18:00,3343,APOEL,3496,Anorthosis,finished,2,0
+First Division,932624,2024-11-01,17:00,4079,Nea Salamis,3347,Enosis,finished,1,0
+First Division,932620,2024-11-02,16:00,2922,Apollon,3343,APOEL,finished,0,0
+First Division,932622,2024-11-02,17:00,3629,Omonia Nicosia,8387,Omonia 29is Maiou,finished,1,1
+First Division,932621,2024-11-03,12:30,2923,Pafos,6496,Omonia Aradippou,finished,4,0
+First Division,932623,2024-11-03,15:00,3349,Ethnikos Achna,4081,Karmiotissa,finished,3,2
+First Division,932625,2024-11-03,17:00,2905,AEK Larnaca,2951,Aris Limassol,finished,2,0
+First Division,932626,2024-11-04,17:00,3496,Anorthosis,3781,AEL,finished,1,0
+First Division,932629,2024-11-08,17:00,8387,Omonia 29is Maiou,3349,Ethnikos Achna,finished,1,2
+First Division,932627,2024-11-09,15:00,3347,Enosis,2905,AEK Larnaca,finished,0,0
+First Division,932628,2024-11-09,17:00,4081,Karmiotissa,4079,Nea Salamis,finished,2,2
+First Division,932632,2024-11-09,17:30,2951,Aris Limassol,3496,Anorthosis,finished,3,0
+First Division,932630,2024-11-10,15:00,6496,Omonia Aradippou,3629,Omonia Nicosia,finished,3,5
+First Division,932631,2024-11-10,17:00,2922,Apollon,2923,Pafos,finished,0,1
+First Division,932633,2024-11-10,17:00,3343,APOEL,3781,AEL,finished,4,0
+First Division,932634,2024-11-23,15:00,2923,Pafos,3343,APOEL,finished,2,1
+First Division,932637,2024-11-23,16:00,4079,Nea Salamis,8387,Omonia 29is Maiou,finished,0,1
+First Division,932635,2024-11-23,17:00,3629,Omonia Nicosia,2922,Apollon,finished,3,1
+First Division,932636,2024-11-24,15:00,3349,Ethnikos Achna,6496,Omonia Aradippou,finished,0,0
+First Division,932639,2024-11-24,16:00,3496,Anorthosis,3347,Enosis,finished,3,2
+First Division,932640,2024-11-24,17:00,3781,AEL,2951,Aris Limassol,finished,0,3
+First Division,932638,2024-11-25,17:00,2905,AEK Larnaca,4081,Karmiotissa,finished,2,0
+First Division,932641,2024-11-30,15:00,3347,Enosis,3781,AEL,finished,0,0
+First Division,932642,2024-11-30,16:00,4081,Karmiotissa,3496,Anorthosis,finished,1,1
+First Division,932645,2024-11-30,17:30,2922,Apollon,3349,Ethnikos Achna,finished,2,2
+First Division,932644,2024-12-01,15:00,6496,Omonia Aradippou,4079,Nea Salamis,finished,1,0
+First Division,932643,2024-12-01,17:00,8387,Omonia 29is Maiou,2905,AEK Larnaca,finished,1,5
+First Division,932646,2024-12-02,17:00,2923,Pafos,3629,Omonia Nicosia,finished,0,1
+First Division,932647,2024-12-02,17:00,3343,APOEL,2951,Aris Limassol,finished,1,2
+First Division,932654,2024-12-06,16:00,2951,Aris Limassol,3347,Enosis,finished,2,1
+First Division,932651,2024-12-06,17:00,2905,AEK Larnaca,6496,Omonia Aradippou,finished,1,0
+First Division,932648,2024-12-07,15:00,3629,Omonia Nicosia,3343,APOEL,finished,2,2
+First Division,932652,2024-12-07,17:00,3496,Anorthosis,8387,Omonia 29is Maiou,finished,2,0
+First Division,932649,2024-12-08,12:30,3349,Ethnikos Achna,2923,Pafos,finished,0,2
+First Division,932653,2024-12-08,15:00,3781,AEL,4081,Karmiotissa,finished,4,0
+First Division,932650,2024-12-08,17:00,4079,Nea Salamis,2922,Apollon,finished,1,0
+First Division,932656,2024-12-13,17:00,2951,Aris Limassol,4081,Karmiotissa,finished,1,1
+First Division,932657,2024-12-14,15:00,3781,AEL,8387,Omonia 29is Maiou,finished,1,1
+First Division,932658,2024-12-14,17:00,3496,Anorthosis,6496,Omonia Aradippou,finished,3,0
+First Division,932659,2024-12-15,15:00,2905,AEK Larnaca,2922,Apollon,finished,4,0
+First Division,932655,2024-12-15,16:00,3343,APOEL,3347,Enosis,finished,2,0
+First Division,932661,2024-12-15,17:00,3349,Ethnikos Achna,3629,Omonia Nicosia,finished,1,0
+First Division,932660,2024-12-16,17:00,4079,Nea Salamis,2923,Pafos,finished,0,2
+First Division,932667,2024-12-21,14:00,8387,Omonia 29is Maiou,2951,Aris Limassol,finished,0,3
+First Division,932662,2024-12-21,15:00,4081,Karmiotissa,3347,Enosis,finished,2,0
+First Division,932665,2024-12-21,17:00,2922,Apollon,3496,Anorthosis,finished,2,0
+First Division,932666,2024-12-22,15:00,6496,Omonia Aradippou,3781,AEL,finished,2,2
+First Division,932664,2024-12-22,16:00,2923,Pafos,2905,AEK Larnaca,finished,0,1
+First Division,932663,2024-12-22,17:00,3629,Omonia Nicosia,4079,Nea Salamis,finished,3,0
+First Division,932668,2024-12-23,17:00,3349,Ethnikos Achna,3343,APOEL,finished,2,2
+First Division,932673,2025-01-02,17:00,3496,Anorthosis,2923,Pafos,finished,0,2
+First Division,932672,2025-01-02,17:00,3781,AEL,2922,Apollon,finished,0,1
+First Division,932670,2025-01-03,15:00,3347,Enosis,8387,Omonia 29is Maiou,finished,2,1
+First Division,932671,2025-01-03,17:00,2951,Aris Limassol,6496,Omonia Aradippou,finished,2,0
+First Division,932674,2025-01-03,17:30,2905,AEK Larnaca,3629,Omonia Nicosia,finished,0,3
+First Division,932669,2025-01-04,16:00,3343,APOEL,4081,Karmiotissa,finished,3,0
+First Division,932675,2025-01-04,17:00,4079,Nea Salamis,3349,Ethnikos Achna,finished,0,3
+First Division,932680,2025-01-06,17:00,2923,Pafos,3781,AEL,finished,4,0
+First Division,932676,2025-01-07,15:00,6496,Omonia Aradippou,3347,Enosis,finished,2,0
+First Division,932681,2025-01-07,17:00,2922,Apollon,2951,Aris Limassol,finished,1,1
+First Division,932679,2025-01-07,17:30,3629,Omonia Nicosia,3496,Anorthosis,finished,0,2
+First Division,932677,2025-01-08,15:00,8387,Omonia 29is Maiou,4081,Karmiotissa,finished,1,2
+First Division,932678,2025-01-08,17:00,3349,Ethnikos Achna,2905,AEK Larnaca,finished,2,2
+First Division,932682,2025-01-08,17:30,4079,Nea Salamis,3343,APOEL,finished,1,1
+First Division,932685,2025-01-11,15:00,3347,Enosis,2922,Apollon,finished,0,1
+First Division,932686,2025-01-11,17:00,2951,Aris Limassol,2923,Pafos,finished,1,0
+First Division,932689,2025-01-12,15:00,2905,AEK Larnaca,4079,Nea Salamis,finished,2,0
+First Division,932683,2025-01-12,16:00,3343,APOEL,8387,Omonia 29is Maiou,finished,4,0
+First Division,932687,2025-01-12,17:00,3781,AEL,3629,Omonia Nicosia,finished,0,4
+First Division,932684,2025-01-13,16:30,4081,Karmiotissa,6496,Omonia Aradippou,finished,3,1
+First Division,932688,2025-01-13,17:30,3496,Anorthosis,3349,Ethnikos Achna,finished,2,1
+First Division,932691,2025-01-18,16:00,2922,Apollon,4081,Karmiotissa,finished,3,0
+First Division,932693,2025-01-18,17:00,4079,Nea Salamis,3496,Anorthosis,finished,0,4
+First Division,932694,2025-01-19,14:00,3349,Ethnikos Achna,3781,AEL,finished,0,0
+First Division,932690,2025-01-19,16:00,2923,Pafos,3347,Enosis,finished,2,0
+First Division,932695,2025-01-19,17:00,3629,Omonia Nicosia,2951,Aris Limassol,finished,0,0
+First Division,932696,2025-01-20,17:00,2905,AEK Larnaca,3343,APOEL,finished,2,1
+First Division,932692,2025-01-21,17:00,6496,Omonia Aradippou,8387,Omonia 29is Maiou,finished,1,0
+First Division,932700,2025-01-24,17:00,3347,Enosis,3629,Omonia Nicosia,finished,0,2
+First Division,932702,2025-01-24,17:00,3781,AEL,4079,Nea Salamis,finished,0,0
+First Division,932698,2025-01-25,15:00,8387,Omonia 29is Maiou,2922,Apollon,finished,2,1
+First Division,932703,2025-01-25,17:00,3496,Anorthosis,2905,AEK Larnaca,finished,2,2
+First Division,932699,2025-01-26,15:00,4081,Karmiotissa,2923,Pafos,finished,0,2
+First Division,932697,2025-01-26,15:00,3343,APOEL,6496,Omonia Aradippou,finished,7,0
+First Division,932701,2025-01-26,17:00,2951,Aris Limassol,3349,Ethnikos Achna,finished,6,1
+First Division,932709,2025-02-01,16:00,4079,Nea Salamis,2951,Aris Limassol,finished,2,2
+First Division,932705,2025-02-01,17:00,3629,Omonia Nicosia,4081,Karmiotissa,finished,3,0
+First Division,932704,2025-02-02,14:00,3349,Ethnikos Achna,3347,Enosis,finished,0,1
+First Division,932707,2025-02-02,15:00,2922,Apollon,6496,Omonia Aradippou,finished,1,0
+First Division,932708,2025-02-02,17:00,2905,AEK Larnaca,3781,AEL,finished,2,0
+First Division,932706,2025-02-03,15:00,2923,Pafos,8387,Omonia 29is Maiou,finished,2,1
+First Division,932710,2025-02-03,18:00,3496,Anorthosis,3343,APOEL,finished,2,2
+First Division,932713,2025-02-07,17:00,8387,Omonia 29is Maiou,3629,Omonia Nicosia,finished,2,3
+First Division,932711,2025-02-08,15:00,3343,APOEL,2922,Apollon,finished,0,0
+First Division,932712,2025-02-08,16:00,6496,Omonia Aradippou,2923,Pafos,finished,0,2
+First Division,932717,2025-02-08,17:00,3781,AEL,3496,Anorthosis,finished,0,1
+First Division,932714,2025-02-09,14:00,4081,Karmiotissa,3349,Ethnikos Achna,finished,0,0
+First Division,932715,2025-02-09,15:00,3347,Enosis,4079,Nea Salamis,finished,2,0
+First Division,932716,2025-02-09,17:00,2951,Aris Limassol,2905,AEK Larnaca,finished,1,1
+First Division,932719,2025-02-14,16:30,4079,Nea Salamis,4081,Karmiotissa,finished,2,1
+First Division,932718,2025-02-14,17:30,2905,AEK Larnaca,3347,Enosis,finished,4,1
+First Division,932720,2025-02-15,14:00,3349,Ethnikos Achna,8387,Omonia 29is Maiou,finished,1,0
+First Division,932723,2025-02-15,17:00,3496,Anorthosis,2951,Aris Limassol,finished,0,3
+First Division,932722,2025-02-16,15:00,2923,Pafos,2922,Apollon,finished,1,0
+First Division,932721,2025-02-16,15:00,3629,Omonia Nicosia,6496,Omonia Aradippou,finished,3,1
+First Division,932724,2025-02-16,17:00,3781,AEL,3343,APOEL,finished,1,2
+First Division,932729,2025-02-22,15:00,4081,Karmiotissa,2905,AEK Larnaca,finished,0,3
+First Division,932728,2025-02-22,17:00,8387,Omonia 29is Maiou,4079,Nea Salamis,finished,2,1
+First Division,932727,2025-02-23,14:00,6496,Omonia Aradippou,3349,Ethnikos Achna,finished,2,2
+First Division,932731,2025-02-23,17:00,2951,Aris Limassol,3781,AEL,finished,4,0
+First Division,932725,2025-02-24,17:00,3343,APOEL,2923,Pafos,finished,0,2
+First Division,932730,2025-02-24,17:00,3347,Enosis,3496,Anorthosis,finished,2,2
+First Division,932726,2025-02-24,17:00,2922,Apollon,3629,Omonia Nicosia,finished,1,1
+First Division,932736,2025-02-28,15:00,3349,Ethnikos Achna,2922,Apollon,finished,0,1
+First Division,932733,2025-02-28,17:00,3496,Anorthosis,4081,Karmiotissa,finished,1,2
+First Division,932732,2025-02-28,17:00,3781,AEL,3347,Enosis,finished,2,1
+First Division,932735,2025-03-01,14:00,4079,Nea Salamis,6496,Omonia Aradippou,finished,2,3
+First Division,932738,2025-03-01,15:00,2951,Aris Limassol,3343,APOEL,finished,3,0
+First Division,932737,2025-03-01,17:00,3629,Omonia Nicosia,2923,Pafos,finished,2,1
+First Division,932734,2025-03-02,17:00,2905,AEK Larnaca,8387,Omonia 29is Maiou,finished,2,0
+First Division,932744,2025-03-07,16:00,4081,Karmiotissa,3781,AEL,finished,2,1
+First Division,932743,2025-03-08,17:00,8387,Omonia 29is Maiou,3496,Anorthosis,finished,0,0
+First Division,932739,2025-03-08,17:00,3343,APOEL,3629,Omonia Nicosia,finished,2,1
+First Division,932741,2025-03-08,17:00,2922,Apollon,4079,Nea Salamis,finished,1,1
+First Division,932745,2025-03-09,14:00,3347,Enosis,2951,Aris Limassol,finished,1,2
+First Division,932740,2025-03-09,17:00,2923,Pafos,3349,Ethnikos Achna,finished,0,0
+First Division,932742,2025-03-09,17:00,6496,Omonia Aradippou,2905,AEK Larnaca,finished,2,0

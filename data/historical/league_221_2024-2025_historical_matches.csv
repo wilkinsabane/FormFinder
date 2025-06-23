@@ -1,0 +1,133 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Primera Division,925900,2024-07-20,01:00,4071,Guanacasteca,4058,San Carlos,finished,0,3
+Primera Division,925902,2024-07-20,02:00,4072,Puntarenas,5060,Municipal Liberia,finished,0,0
+Primera Division,925899,2024-07-20,23:00,4062,Cartagines,13340,Santa Ana,finished,4,0
+Primera Division,925903,2024-07-21,00:00,4070,Sporting San Jose,4059,Deportivo Saprissa,finished,3,1
+Primera Division,925901,2024-07-21,02:00,4060,Perez Zeledon,4061,Herediano,finished,0,0
+Primera Division,925898,2024-07-22,00:00,4063,Alajuelense,4065,Santos de Guapiles,finished,2,1
+Primera Division,925904,2024-07-23,23:00,13340,Santa Ana,4070,Sporting San Jose,finished,0,2
+Primera Division,925905,2024-07-24,02:00,4061,Herediano,4072,Puntarenas,finished,2,0
+Primera Division,925906,2024-07-25,00:00,5060,Municipal Liberia,4063,Alajuelense,finished,1,2
+Primera Division,925907,2024-07-25,00:00,4058,San Carlos,4062,Cartagines,finished,0,0
+Primera Division,925908,2024-07-25,02:30,4059,Deportivo Saprissa,4071,Guanacasteca,finished,3,1
+Primera Division,925909,2024-07-26,00:00,4065,Santos de Guapiles,4060,Perez Zeledon,finished,3,3
+Primera Division,925912,2024-07-28,01:00,4071,Guanacasteca,4061,Herediano,finished,2,1
+Primera Division,925915,2024-07-28,02:00,4058,San Carlos,5060,Municipal Liberia,finished,1,2
+Primera Division,925911,2024-07-28,17:00,4062,Cartagines,4065,Santos de Guapiles,finished,2,1
+Primera Division,925913,2024-07-28,21:00,4072,Puntarenas,4059,Deportivo Saprissa,finished,2,3
+Primera Division,925910,2024-07-29,00:00,4063,Alajuelense,13340,Santa Ana,finished,1,1
+Primera Division,925914,2024-07-30,01:00,4060,Perez Zeledon,4070,Sporting San Jose,finished,0,2
+Primera Division,925921,2024-08-03,01:00,4065,Santos de Guapiles,4072,Puntarenas,finished,0,0
+Primera Division,925918,2024-08-03,21:00,4070,Sporting San Jose,4071,Guanacasteca,finished,2,2
+Primera Division,925920,2024-08-03,23:00,4059,Deportivo Saprissa,5060,Municipal Liberia,finished,2,2
+Primera Division,925919,2024-08-04,02:00,13340,Santa Ana,4061,Herediano,finished,1,1
+Primera Division,925916,2024-08-04,17:00,4062,Cartagines,4063,Alajuelense,finished,0,1
+Primera Division,925917,2024-08-04,22:00,4060,Perez Zeledon,4058,San Carlos,finished,0,0
+Primera Division,925925,2024-08-10,02:00,5060,Municipal Liberia,4065,Santos de Guapiles,finished,4,0
+Primera Division,925923,2024-08-10,23:00,4071,Guanacasteca,4062,Cartagines,finished,1,3
+Primera Division,925927,2024-08-11,00:00,4058,San Carlos,13340,Santa Ana,finished,5,1
+Primera Division,925922,2024-08-11,02:00,4063,Alajuelense,4060,Perez Zeledon,finished,2,1
+Primera Division,925926,2024-08-11,22:00,4072,Puntarenas,4070,Sporting San Jose,finished,1,2
+Primera Division,925924,2024-08-12,00:00,4061,Herediano,4059,Deportivo Saprissa,finished,2,0
+Primera Division,925933,2024-08-17,02:00,13340,Santa Ana,4059,Deportivo Saprissa,finished,0,3
+Primera Division,925929,2024-08-18,00:00,4065,Santos de Guapiles,4058,San Carlos,finished,0,4
+Primera Division,925928,2024-08-18,17:00,4062,Cartagines,4061,Herediano,finished,3,1
+Primera Division,925930,2024-08-18,22:00,4060,Perez Zeledon,4072,Puntarenas,finished,1,0
+Primera Division,925932,2024-08-19,00:00,4070,Sporting San Jose,5060,Municipal Liberia,finished,1,0
+Primera Division,925938,2024-08-25,01:00,4058,San Carlos,4063,Alajuelense,finished,0,0
+Primera Division,925939,2024-08-25,02:00,4059,Deportivo Saprissa,4062,Cartagines,finished,1,0
+Primera Division,925936,2024-08-25,21:00,5060,Municipal Liberia,4060,Perez Zeledon,finished,1,0
+Primera Division,925937,2024-08-25,21:00,4072,Puntarenas,13340,Santa Ana,finished,1,2
+Primera Division,925935,2024-08-26,00:00,4061,Herediano,4070,Sporting San Jose,finished,2,0
+Primera Division,925945,2024-08-31,01:00,4070,Sporting San Jose,4058,San Carlos,finished,2,3
+Primera Division,925944,2024-08-31,02:00,13340,Santa Ana,5060,Municipal Liberia,finished,2,1
+Primera Division,925941,2024-09-01,00:00,4062,Cartagines,4072,Puntarenas,finished,1,0
+Primera Division,925943,2024-09-01,02:00,4065,Santos de Guapiles,4061,Herediano,finished,3,4
+Primera Division,925940,2024-09-01,22:00,4063,Alajuelense,4059,Deportivo Saprissa,finished,1,1
+Primera Division,925942,2024-09-02,01:00,4060,Perez Zeledon,4071,Guanacasteca,finished,1,1
+Primera Division,925931,2024-09-08,01:00,4063,Alajuelense,4071,Guanacasteca,finished,4,0
+Primera Division,925949,2024-09-10,22:00,5060,Municipal Liberia,4062,Cartagines,finished,3,0
+Primera Division,925947,2024-09-11,02:00,4061,Herediano,4058,San Carlos,finished,1,2
+Primera Division,925950,2024-09-11,02:30,4070,Sporting San Jose,4065,Santos de Guapiles,finished,1,1
+Primera Division,925946,2024-09-11,22:00,4071,Guanacasteca,13340,Santa Ana,finished,1,0
+Primera Division,925951,2024-09-12,02:00,4059,Deportivo Saprissa,4060,Perez Zeledon,finished,2,2
+Primera Division,925948,2024-09-12,21:00,4072,Puntarenas,4063,Alajuelense,finished,1,1
+Primera Division,925953,2024-09-14,22:00,4065,Santos de Guapiles,4059,Deportivo Saprissa,finished,1,2
+Primera Division,925954,2024-09-15,02:00,5060,Municipal Liberia,4071,Guanacasteca,finished,0,1
+Primera Division,925952,2024-09-15,17:00,4062,Cartagines,4070,Sporting San Jose,finished,1,0
+Primera Division,925957,2024-09-15,22:00,13340,Santa Ana,4060,Perez Zeledon,finished,0,0
+Primera Division,925956,2024-09-16,00:00,4058,San Carlos,4072,Puntarenas,finished,2,1
+Primera Division,925958,2024-09-18,02:00,4061,Herediano,5060,Municipal Liberia,finished,5,4
+Primera Division,925963,2024-09-18,22:00,13340,Santa Ana,4065,Santos de Guapiles,finished,1,1
+Primera Division,925962,2024-09-19,00:30,4072,Puntarenas,4071,Guanacasteca,finished,0,0
+Primera Division,925959,2024-09-19,02:00,4059,Deportivo Saprissa,4058,San Carlos,finished,3,2
+Primera Division,925960,2024-09-20,02:00,4070,Sporting San Jose,4063,Alajuelense,finished,0,1
+Primera Division,925961,2024-09-20,02:00,4060,Perez Zeledon,4062,Cartagines,finished,0,0
+Primera Division,925965,2024-09-22,02:00,4061,Herediano,13340,Santa Ana,finished,2,1
+Primera Division,925969,2024-09-22,21:00,4072,Puntarenas,4060,Perez Zeledon,finished,1,1
+Primera Division,925967,2024-09-22,22:00,4063,Alajuelense,4062,Cartagines,finished,2,1
+Primera Division,925964,2024-09-23,01:00,4071,Guanacasteca,4070,Sporting San Jose,finished,2,1
+Primera Division,925968,2024-09-24,01:00,4058,San Carlos,4065,Santos de Guapiles,finished,2,2
+Primera Division,925970,2024-09-28,02:00,13340,Santa Ana,4058,San Carlos,finished,3,4
+Primera Division,925974,2024-09-28,21:00,4065,Santos de Guapiles,5060,Municipal Liberia,finished,0,1
+Primera Division,925972,2024-09-28,23:00,4062,Cartagines,4071,Guanacasteca,finished,1,1
+Primera Division,925973,2024-09-29,02:00,4059,Deportivo Saprissa,4061,Herediano,finished,1,0
+Primera Division,925971,2024-09-29,23:00,4060,Perez Zeledon,4063,Alajuelense,finished,2,2
+Primera Division,925975,2024-10-01,01:00,4070,Sporting San Jose,4072,Puntarenas,finished,1,0
+Primera Division,925977,2024-10-05,02:00,5060,Municipal Liberia,13340,Santa Ana,finished,2,3
+Primera Division,925976,2024-10-05,22:00,4071,Guanacasteca,4060,Perez Zeledon,finished,1,0
+Primera Division,925978,2024-10-06,01:00,4058,San Carlos,4070,Sporting San Jose,finished,2,0
+Primera Division,925980,2024-10-06,02:00,4061,Herediano,4062,Cartagines,finished,0,2
+Primera Division,925979,2024-10-06,21:00,4065,Santos de Guapiles,4063,Alajuelense,finished,1,3
+Primera Division,925981,2024-10-06,22:00,4059,Deportivo Saprissa,4072,Puntarenas,finished,2,3
+Primera Division,925934,2024-10-13,01:00,4071,Guanacasteca,4065,Santos de Guapiles,finished,2,1
+Primera Division,925985,2024-10-16,22:00,4060,Perez Zeledon,4065,Santos de Guapiles,finished,3,1
+Primera Division,925987,2024-10-17,02:00,4072,Puntarenas,4061,Herediano,finished,0,2
+Primera Division,925982,2024-10-17,02:00,4063,Alajuelense,5060,Municipal Liberia,finished,2,2
+Primera Division,925983,2024-10-17,22:00,4062,Cartagines,4058,San Carlos,finished,4,4
+Primera Division,925986,2024-10-18,00:00,4070,Sporting San Jose,13340,Santa Ana,finished,1,0
+Primera Division,925984,2024-10-18,02:00,4071,Guanacasteca,4059,Deportivo Saprissa,finished,2,0
+Primera Division,925989,2024-10-19,23:00,5060,Municipal Liberia,4072,Puntarenas,finished,4,2
+Primera Division,925988,2024-10-20,02:00,4061,Herediano,4063,Alajuelense,finished,1,1
+Primera Division,925992,2024-10-20,21:00,4065,Santos de Guapiles,4071,Guanacasteca,finished,4,0
+Primera Division,925990,2024-10-20,22:00,4059,Deportivo Saprissa,4070,Sporting San Jose,finished,1,0
+Primera Division,925993,2024-10-21,00:30,4058,San Carlos,4060,Perez Zeledon,finished,1,1
+Primera Division,925991,2024-10-22,02:00,13340,Santa Ana,4062,Cartagines,finished,2,1
+Primera Division,925997,2024-10-26,01:00,4072,Puntarenas,4065,Santos de Guapiles,finished,1,0
+Primera Division,925998,2024-10-26,02:00,4060,Perez Zeledon,13340,Santa Ana,finished,2,1
+Primera Division,925995,2024-10-26,23:00,4062,Cartagines,4059,Deportivo Saprissa,finished,2,1
+Primera Division,925994,2024-10-27,02:00,4063,Alajuelense,4058,San Carlos,finished,3,1
+Primera Division,925996,2024-10-27,21:00,4071,Guanacasteca,5060,Municipal Liberia,finished,2,0
+Primera Division,925999,2024-10-27,22:00,4070,Sporting San Jose,4061,Herediano,finished,1,3
+Primera Division,926004,2024-11-02,01:00,4058,San Carlos,4071,Guanacasteca,finished,2,2
+Primera Division,926001,2024-11-02,02:00,5060,Municipal Liberia,4070,Sporting San Jose,finished,1,1
+Primera Division,926003,2024-11-02,22:00,4065,Santos de Guapiles,4062,Cartagines,finished,1,0
+Primera Division,926002,2024-11-03,02:00,4059,Deportivo Saprissa,4063,Alajuelense,finished,3,0
+Primera Division,926005,2024-11-03,17:00,13340,Santa Ana,4072,Puntarenas,finished,1,1
+Primera Division,926000,2024-11-03,22:00,4061,Herediano,4060,Perez Zeledon,finished,4,1
+Primera Division,926007,2024-11-06,02:00,4062,Cartagines,5060,Municipal Liberia,finished,2,1
+Primera Division,926011,2024-11-07,01:00,4058,San Carlos,4061,Herediano,finished,0,0
+Primera Division,926006,2024-11-07,02:00,4063,Alajuelense,4070,Sporting San Jose,finished,1,0
+Primera Division,926009,2024-11-07,21:00,4065,Santos de Guapiles,13340,Santa Ana,finished,1,0
+Primera Division,926010,2024-11-08,02:00,4060,Perez Zeledon,4059,Deportivo Saprissa,finished,1,2
+Primera Division,926014,2024-11-10,00:00,4072,Puntarenas,4062,Cartagines,finished,3,2
+Primera Division,926015,2024-11-10,02:00,4061,Herediano,4071,Guanacasteca,finished,2,1
+Primera Division,926013,2024-11-10,17:00,13340,Santa Ana,4063,Alajuelense,finished,0,2
+Primera Division,926016,2024-11-10,22:00,4059,Deportivo Saprissa,4065,Santos de Guapiles,finished,3,3
+Primera Division,926017,2024-11-11,00:00,4070,Sporting San Jose,4060,Perez Zeledon,finished,0,1
+Primera Division,926012,2024-11-19,22:00,5060,Municipal Liberia,4058,San Carlos,finished,1,2
+Primera Division,925955,2024-11-20,02:00,4063,Alajuelense,4061,Herediano,finished,2,0
+Primera Division,926008,2024-11-21,01:00,4071,Guanacasteca,4072,Puntarenas,finished,2,1
+Primera Division,926020,2024-11-23,22:00,4065,Santos de Guapiles,4070,Sporting San Jose,finished,2,1
+Primera Division,926023,2024-11-24,01:00,4058,San Carlos,4059,Deportivo Saprissa,finished,0,0
+Primera Division,926018,2024-11-24,02:00,4063,Alajuelense,4072,Puntarenas,finished,4,0
+Primera Division,926019,2024-11-24,17:00,4062,Cartagines,4060,Perez Zeledon,finished,2,0
+Primera Division,926022,2024-11-24,22:00,5060,Municipal Liberia,4061,Herediano,finished,1,1
+Primera Division,926021,2024-11-26,02:00,13340,Santa Ana,4071,Guanacasteca,finished,2,1
+Primera Division,925966,2024-11-29,02:00,5060,Municipal Liberia,4059,Deportivo Saprissa,finished,0,1
+Primera Division,926024,2024-11-30,23:00,4071,Guanacasteca,4063,Alajuelense,finished,1,0
+Primera Division,926029,2024-12-01,02:00,4060,Perez Zeledon,5060,Municipal Liberia,finished,0,1
+Primera Division,926027,2024-12-01,21:00,4059,Deportivo Saprissa,13340,Santa Ana,finished,2,1
+Primera Division,926025,2024-12-01,21:00,4061,Herediano,4065,Santos de Guapiles,finished,0,2
+Primera Division,926026,2024-12-01,21:00,4072,Puntarenas,4058,San Carlos,finished,0,1
+Primera Division,926028,2024-12-01,21:00,4070,Sporting San Jose,4062,Cartagines,finished,6,2

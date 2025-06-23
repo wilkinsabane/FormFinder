@@ -1,0 +1,181 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Superliga,938696,2024-08-18,18:00,3783,Teuta Durres,3166,Bylis,finished,2,1
+Superliga,938697,2024-08-18,18:00,3057,Dinamo Tirana,3640,Egnatia Rrogozhine,finished,0,2
+Superliga,938698,2024-08-19,15:00,3528,Laci,3084,Tirana,finished,0,0
+Superliga,938694,2024-08-19,18:00,3171,Partizani Tirana,3614,Vllaznia Shkoder,finished,0,1
+Superliga,938695,2024-08-19,18:00,3806,Skenderbeu Korce,3536,AF Elbasani,finished,1,1
+Superliga,938700,2024-08-25,15:00,3640,Egnatia Rrogozhine,3528,Laci,finished,2,1
+Superliga,938699,2024-08-25,18:00,3171,Partizani Tirana,3806,Skenderbeu Korce,finished,2,1
+Superliga,938703,2024-08-25,18:00,3614,Vllaznia Shkoder,3084,Tirana,finished,2,2
+Superliga,938701,2024-08-26,15:00,3166,Bylis,3057,Dinamo Tirana,finished,1,0
+Superliga,938702,2024-08-26,18:00,3536,AF Elbasani,3783,Teuta Durres,finished,3,0
+Superliga,938707,2024-08-31,15:00,3528,Laci,3166,Bylis,finished,0,0
+Superliga,938704,2024-08-31,18:00,3806,Skenderbeu Korce,3614,Vllaznia Shkoder,finished,1,0
+Superliga,938705,2024-08-31,18:00,3783,Teuta Durres,3171,Partizani Tirana,finished,0,2
+Superliga,938708,2024-09-01,18:00,3084,Tirana,3640,Egnatia Rrogozhine,finished,1,1
+Superliga,938706,2024-09-01,18:00,3057,Dinamo Tirana,3536,AF Elbasani,finished,2,1
+Superliga,938711,2024-09-11,14:00,3166,Bylis,3084,Tirana,finished,2,2
+Superliga,938713,2024-09-11,17:00,3614,Vllaznia Shkoder,3640,Egnatia Rrogozhine,finished,3,1
+Superliga,938710,2024-09-11,17:00,3806,Skenderbeu Korce,3783,Teuta Durres,finished,2,3
+Superliga,938709,2024-09-12,17:00,3171,Partizani Tirana,3057,Dinamo Tirana,finished,2,2
+Superliga,938712,2024-09-12,17:00,3536,AF Elbasani,3528,Laci,finished,1,0
+Superliga,938718,2024-09-15,14:00,3640,Egnatia Rrogozhine,3166,Bylis,finished,4,0
+Superliga,938714,2024-09-15,17:00,3783,Teuta Durres,3614,Vllaznia Shkoder,finished,1,2
+Superliga,938716,2024-09-16,14:00,3528,Laci,3171,Partizani Tirana,finished,1,1
+Superliga,938715,2024-09-16,17:00,3057,Dinamo Tirana,3806,Skenderbeu Korce,finished,2,1
+Superliga,938717,2024-09-16,17:00,3084,Tirana,3536,AF Elbasani,finished,1,1
+Superliga,938720,2024-09-21,15:00,3806,Skenderbeu Korce,3528,Laci,finished,2,1
+Superliga,938719,2024-09-21,18:00,3171,Partizani Tirana,3084,Tirana,finished,0,0
+Superliga,938723,2024-09-22,15:00,3614,Vllaznia Shkoder,3166,Bylis,finished,2,0
+Superliga,938721,2024-09-22,18:00,3783,Teuta Durres,3057,Dinamo Tirana,finished,1,1
+Superliga,938722,2024-09-22,18:00,3536,AF Elbasani,3640,Egnatia Rrogozhine,finished,0,0
+Superliga,938727,2024-09-27,14:00,3640,Egnatia Rrogozhine,3171,Partizani Tirana,finished,0,2
+Superliga,938725,2024-09-28,14:00,3528,Laci,3783,Teuta Durres,finished,0,1
+Superliga,938724,2024-09-28,17:00,3057,Dinamo Tirana,3614,Vllaznia Shkoder,finished,2,1
+Superliga,938728,2024-09-29,14:00,3166,Bylis,3536,AF Elbasani,finished,0,1
+Superliga,938726,2024-09-29,17:00,3084,Tirana,3806,Skenderbeu Korce,finished,2,1
+Superliga,938732,2024-10-04,17:00,3057,Dinamo Tirana,3528,Laci,finished,2,1
+Superliga,938730,2024-10-05,17:00,3806,Skenderbeu Korce,3640,Egnatia Rrogozhine,finished,0,1
+Superliga,938729,2024-10-05,17:00,3171,Partizani Tirana,3166,Bylis,finished,1,0
+Superliga,938731,2024-10-06,17:00,3783,Teuta Durres,3084,Tirana,finished,3,1
+Superliga,938733,2024-10-06,17:00,3614,Vllaznia Shkoder,3536,AF Elbasani,finished,0,0
+Superliga,938735,2024-10-19,12:00,3084,Tirana,3057,Dinamo Tirana,finished,0,0
+Superliga,938736,2024-10-19,12:00,3640,Egnatia Rrogozhine,3783,Teuta Durres,finished,0,0
+Superliga,938734,2024-10-19,12:00,3528,Laci,3614,Vllaznia Shkoder,finished,3,1
+Superliga,938737,2024-10-20,12:00,3166,Bylis,3806,Skenderbeu Korce,finished,0,1
+Superliga,938738,2024-10-20,15:00,3536,AF Elbasani,3171,Partizani Tirana,finished,1,1
+Superliga,938742,2024-10-25,12:00,3640,Egnatia Rrogozhine,3057,Dinamo Tirana,finished,1,1
+Superliga,938741,2024-10-25,12:00,3166,Bylis,3783,Teuta Durres,finished,4,0
+Superliga,938740,2024-10-26,15:00,3536,AF Elbasani,3806,Skenderbeu Korce,finished,1,1
+Superliga,938743,2024-10-26,15:00,3084,Tirana,3528,Laci,finished,1,1
+Superliga,938739,2024-10-26,17:30,3614,Vllaznia Shkoder,3171,Partizani Tirana,finished,2,2
+Superliga,938748,2024-10-30,13:00,3084,Tirana,3614,Vllaznia Shkoder,finished,3,4
+Superliga,938745,2024-10-30,13:00,3528,Laci,3640,Egnatia Rrogozhine,finished,2,0
+Superliga,938744,2024-10-30,16:00,3806,Skenderbeu Korce,3171,Partizani Tirana,finished,0,2
+Superliga,938746,2024-10-31,16:00,3057,Dinamo Tirana,3166,Bylis,finished,1,1
+Superliga,938747,2024-10-31,16:00,3783,Teuta Durres,3536,AF Elbasani,finished,0,0
+Superliga,938753,2024-11-03,13:00,3640,Egnatia Rrogozhine,3084,Tirana,finished,1,0
+Superliga,938749,2024-11-03,16:00,3614,Vllaznia Shkoder,3806,Skenderbeu Korce,finished,2,0
+Superliga,938752,2024-11-04,13:00,3166,Bylis,3528,Laci,finished,0,0
+Superliga,938751,2024-11-04,17:00,3536,AF Elbasani,3057,Dinamo Tirana,finished,0,5
+Superliga,938750,2024-11-04,17:00,3171,Partizani Tirana,3783,Teuta Durres,finished,1,1
+Superliga,938758,2024-11-09,13:00,3640,Egnatia Rrogozhine,3614,Vllaznia Shkoder,finished,1,1
+Superliga,938755,2024-11-09,16:00,3783,Teuta Durres,3806,Skenderbeu Korce,finished,1,1
+Superliga,938754,2024-11-09,16:00,3057,Dinamo Tirana,3171,Partizani Tirana,finished,1,2
+Superliga,938757,2024-11-10,13:00,3528,Laci,3536,AF Elbasani,finished,1,1
+Superliga,938756,2024-11-10,16:00,3084,Tirana,3166,Bylis,finished,4,0
+Superliga,938759,2024-11-23,16:00,3614,Vllaznia Shkoder,3783,Teuta Durres,finished,2,1
+Superliga,938760,2024-11-23,16:00,3806,Skenderbeu Korce,3057,Dinamo Tirana,finished,2,2
+Superliga,938763,2024-11-24,12:30,3166,Bylis,3640,Egnatia Rrogozhine,finished,0,2
+Superliga,938761,2024-11-24,16:00,3171,Partizani Tirana,3528,Laci,finished,1,0
+Superliga,938762,2024-11-24,16:00,3536,AF Elbasani,3084,Tirana,finished,1,1
+Superliga,938768,2024-11-29,12:30,3166,Bylis,3614,Vllaznia Shkoder,finished,1,0
+Superliga,938767,2024-11-30,12:30,3640,Egnatia Rrogozhine,3536,AF Elbasani,finished,3,1
+Superliga,938765,2024-11-30,12:30,3528,Laci,3806,Skenderbeu Korce,finished,1,0
+Superliga,938766,2024-11-30,15:30,3057,Dinamo Tirana,3783,Teuta Durres,finished,2,0
+Superliga,938764,2024-12-01,18:00,3084,Tirana,3171,Partizani Tirana,finished,0,0
+Superliga,938773,2024-12-04,15:30,3536,AF Elbasani,3166,Bylis,finished,3,1
+Superliga,938770,2024-12-04,15:30,3783,Teuta Durres,3528,Laci,finished,1,1
+Superliga,938769,2024-12-04,18:30,3614,Vllaznia Shkoder,3057,Dinamo Tirana,finished,2,3
+Superliga,938772,2024-12-05,16:00,3171,Partizani Tirana,3640,Egnatia Rrogozhine,finished,1,1
+Superliga,938771,2024-12-05,16:00,3806,Skenderbeu Korce,3084,Tirana,finished,0,0
+Superliga,938777,2024-12-08,12:30,3528,Laci,3057,Dinamo Tirana,finished,0,0
+Superliga,938775,2024-12-08,12:30,3640,Egnatia Rrogozhine,3806,Skenderbeu Korce,finished,1,0
+Superliga,938778,2024-12-08,15:30,3536,AF Elbasani,3614,Vllaznia Shkoder,finished,1,2
+Superliga,938774,2024-12-09,12:30,3166,Bylis,3171,Partizani Tirana,finished,2,1
+Superliga,938776,2024-12-09,16:00,3084,Tirana,3783,Teuta Durres,finished,0,0
+Superliga,938779,2024-12-14,15:00,3614,Vllaznia Shkoder,3528,Laci,finished,2,1
+Superliga,938780,2024-12-14,18:00,3057,Dinamo Tirana,3084,Tirana,finished,2,1
+Superliga,938783,2024-12-14,18:00,3171,Partizani Tirana,3536,AF Elbasani,finished,2,2
+Superliga,938782,2024-12-15,15:30,3806,Skenderbeu Korce,3166,Bylis,finished,2,2
+Superliga,938781,2024-12-15,15:30,3783,Teuta Durres,3640,Egnatia Rrogozhine,finished,2,1
+Superliga,938785,2024-12-20,15:30,3806,Skenderbeu Korce,3536,AF Elbasani,finished,0,2
+Superliga,938784,2024-12-20,18:00,3171,Partizani Tirana,3614,Vllaznia Shkoder,finished,2,0
+Superliga,938788,2024-12-21,12:30,3528,Laci,3084,Tirana,finished,3,1
+Superliga,938787,2024-12-21,15:30,3057,Dinamo Tirana,3640,Egnatia Rrogozhine,finished,2,1
+Superliga,938786,2024-12-22,15:30,3783,Teuta Durres,3166,Bylis,finished,0,0
+Superliga,938791,2025-01-10,12:30,3166,Bylis,3057,Dinamo Tirana,finished,2,1
+Superliga,938790,2025-01-10,12:30,3640,Egnatia Rrogozhine,3528,Laci,finished,1,0
+Superliga,938793,2025-01-10,16:00,3614,Vllaznia Shkoder,3084,Tirana,finished,2,1
+Superliga,938789,2025-01-11,16:00,3171,Partizani Tirana,3806,Skenderbeu Korce,finished,1,1
+Superliga,938792,2025-01-11,16:00,3536,AF Elbasani,3783,Teuta Durres,finished,3,1
+Superliga,938797,2025-01-18,12:30,3528,Laci,3166,Bylis,finished,0,3
+Superliga,938798,2025-01-18,15:30,3084,Tirana,3640,Egnatia Rrogozhine,finished,0,4
+Superliga,938794,2025-01-19,15:30,3806,Skenderbeu Korce,3614,Vllaznia Shkoder,finished,0,4
+Superliga,938795,2025-01-19,15:30,3783,Teuta Durres,3171,Partizani Tirana,finished,0,2
+Superliga,938796,2025-01-19,18:30,3057,Dinamo Tirana,3536,AF Elbasani,finished,3,1
+Superliga,938801,2025-01-25,12:30,3166,Bylis,3084,Tirana,finished,0,3
+Superliga,938799,2025-01-25,15:30,3171,Partizani Tirana,3057,Dinamo Tirana,finished,1,1
+Superliga,938800,2025-01-25,15:30,3806,Skenderbeu Korce,3783,Teuta Durres,finished,2,1
+Superliga,938802,2025-01-26,16:00,3536,AF Elbasani,3528,Laci,finished,1,2
+Superliga,938803,2025-01-26,16:00,3614,Vllaznia Shkoder,3640,Egnatia Rrogozhine,finished,0,2
+Superliga,938808,2025-01-31,12:30,3640,Egnatia Rrogozhine,3166,Bylis,finished,2,1
+Superliga,938804,2025-01-31,15:30,3783,Teuta Durres,3614,Vllaznia Shkoder,finished,1,3
+Superliga,938806,2025-02-01,12:30,3528,Laci,3171,Partizani Tirana,finished,0,0
+Superliga,938805,2025-02-01,15:30,3057,Dinamo Tirana,3806,Skenderbeu Korce,finished,1,1
+Superliga,938807,2025-02-01,15:30,3084,Tirana,3536,AF Elbasani,finished,1,1
+Superliga,938809,2025-02-09,13:00,3171,Partizani Tirana,3084,Tirana,finished,1,1
+Superliga,938813,2025-02-09,16:00,3614,Vllaznia Shkoder,3166,Bylis,finished,3,0
+Superliga,938812,2025-02-09,16:00,3536,AF Elbasani,3640,Egnatia Rrogozhine,finished,1,2
+Superliga,938810,2025-02-10,16:00,3806,Skenderbeu Korce,3528,Laci,finished,0,2
+Superliga,938811,2025-02-10,16:00,3783,Teuta Durres,3057,Dinamo Tirana,finished,0,0
+Superliga,938817,2025-02-15,12:30,3640,Egnatia Rrogozhine,3171,Partizani Tirana,finished,2,0
+Superliga,938818,2025-02-15,12:30,3166,Bylis,3536,AF Elbasani,finished,1,1
+Superliga,938814,2025-02-15,15:30,3057,Dinamo Tirana,3614,Vllaznia Shkoder,finished,0,0
+Superliga,938815,2025-02-16,12:30,3528,Laci,3783,Teuta Durres,finished,3,0
+Superliga,938816,2025-02-16,15:30,3084,Tirana,3806,Skenderbeu Korce,finished,1,0
+Superliga,938822,2025-02-21,14:00,3057,Dinamo Tirana,3528,Laci,finished,2,0
+Superliga,938823,2025-02-21,16:30,3614,Vllaznia Shkoder,3536,AF Elbasani,finished,1,1
+Superliga,938819,2025-02-21,16:30,3171,Partizani Tirana,3166,Bylis,finished,2,3
+Superliga,938820,2025-02-22,16:00,3806,Skenderbeu Korce,3640,Egnatia Rrogozhine,finished,1,0
+Superliga,938821,2025-02-22,16:00,3783,Teuta Durres,3084,Tirana,finished,2,1
+Superliga,938824,2025-03-01,13:00,3528,Laci,3614,Vllaznia Shkoder,finished,2,2
+Superliga,938828,2025-03-01,16:00,3536,AF Elbasani,3171,Partizani Tirana,finished,2,0
+Superliga,938827,2025-03-02,13:00,3166,Bylis,3806,Skenderbeu Korce,finished,0,3
+Superliga,938825,2025-03-02,16:00,3084,Tirana,3057,Dinamo Tirana,finished,1,4
+Superliga,938826,2025-03-02,16:00,3640,Egnatia Rrogozhine,3783,Teuta Durres,finished,1,1
+Superliga,938829,2025-03-05,15:30,3614,Vllaznia Shkoder,3171,Partizani Tirana,finished,2,0
+Superliga,938832,2025-03-05,15:30,3640,Egnatia Rrogozhine,3057,Dinamo Tirana,finished,2,0
+Superliga,938831,2025-03-06,12:30,3166,Bylis,3783,Teuta Durres,finished,1,0
+Superliga,938833,2025-03-06,15:30,3084,Tirana,3528,Laci,finished,4,1
+Superliga,938830,2025-03-06,15:30,3536,AF Elbasani,3806,Skenderbeu Korce,finished,0,0
+Superliga,938836,2025-03-10,16:00,3057,Dinamo Tirana,3166,Bylis,finished,3,1
+Superliga,938834,2025-03-10,16:00,3806,Skenderbeu Korce,3171,Partizani Tirana,finished,1,2
+Superliga,938835,2025-03-11,12:30,3528,Laci,3640,Egnatia Rrogozhine,finished,1,1
+Superliga,938838,2025-03-11,15:30,3084,Tirana,3614,Vllaznia Shkoder,finished,0,0
+Superliga,938837,2025-03-11,15:45,3783,Teuta Durres,3536,AF Elbasani,finished,0,0
+Superliga,938843,2025-03-15,17:00,3640,Egnatia Rrogozhine,3084,Tirana,finished,1,1
+Superliga,938839,2025-03-15,17:00,3614,Vllaznia Shkoder,3806,Skenderbeu Korce,finished,1,2
+Superliga,938842,2025-03-16,14:00,3166,Bylis,3528,Laci,finished,0,0
+Superliga,938841,2025-03-16,17:00,3536,AF Elbasani,3057,Dinamo Tirana,finished,1,1
+Superliga,938840,2025-03-16,17:00,3171,Partizani Tirana,3783,Teuta Durres,finished,0,0
+Superliga,938847,2025-03-26,14:00,3528,Laci,3536,AF Elbasani,finished,0,1
+Superliga,938846,2025-03-26,17:00,3084,Tirana,3166,Bylis,finished,2,2
+Superliga,938845,2025-03-27,16:00,3783,Teuta Durres,3806,Skenderbeu Korce,finished,1,0
+Superliga,938844,2025-03-27,16:00,3057,Dinamo Tirana,3171,Partizani Tirana,finished,1,0
+Superliga,938848,2025-03-27,19:00,3640,Egnatia Rrogozhine,3614,Vllaznia Shkoder,finished,2,2
+Superliga,938851,2025-03-30,15:00,3171,Partizani Tirana,3528,Laci,finished,1,0
+Superliga,938850,2025-03-30,15:00,3806,Skenderbeu Korce,3057,Dinamo Tirana,finished,4,1
+Superliga,938849,2025-03-30,18:00,3614,Vllaznia Shkoder,3783,Teuta Durres,finished,0,0
+Superliga,938853,2025-03-31,13:00,3166,Bylis,3640,Egnatia Rrogozhine,finished,0,2
+Superliga,938852,2025-03-31,16:00,3536,AF Elbasani,3084,Tirana,finished,2,1
+Superliga,938855,2025-04-06,13:00,3528,Laci,3806,Skenderbeu Korce,finished,1,2
+Superliga,938858,2025-04-06,13:00,3166,Bylis,3614,Vllaznia Shkoder,finished,1,0
+Superliga,938856,2025-04-06,16:00,3057,Dinamo Tirana,3783,Teuta Durres,finished,1,1
+Superliga,938857,2025-04-07,15:00,3640,Egnatia Rrogozhine,3536,AF Elbasani,finished,1,2
+Superliga,938854,2025-04-07,18:00,3084,Tirana,3171,Partizani Tirana,finished,3,0
+Superliga,938859,2025-04-12,13:30,3614,Vllaznia Shkoder,3057,Dinamo Tirana,finished,3,0
+Superliga,938863,2025-04-12,13:30,3536,AF Elbasani,3166,Bylis,finished,1,0
+Superliga,938862,2025-04-12,13:30,3171,Partizani Tirana,3640,Egnatia Rrogozhine,finished,1,0
+Superliga,938861,2025-04-12,13:30,3806,Skenderbeu Korce,3084,Tirana,finished,1,1
+Superliga,938860,2025-04-12,13:30,3783,Teuta Durres,3528,Laci,finished,1,0
+Superliga,938865,2025-04-19,13:30,3640,Egnatia Rrogozhine,3806,Skenderbeu Korce,finished,0,0
+Superliga,938867,2025-04-19,13:30,3528,Laci,3057,Dinamo Tirana,finished,1,0
+Superliga,938868,2025-04-19,13:30,3536,AF Elbasani,3614,Vllaznia Shkoder,finished,1,1
+Superliga,938864,2025-04-19,13:30,3166,Bylis,3171,Partizani Tirana,finished,1,0
+Superliga,938866,2025-04-19,13:30,3084,Tirana,3783,Teuta Durres,finished,0,1
+Superliga,938871,2025-04-27,13:30,3783,Teuta Durres,3640,Egnatia Rrogozhine,finished,2,1
+Superliga,938873,2025-04-27,13:30,3171,Partizani Tirana,3536,AF Elbasani,finished,2,0
+Superliga,938872,2025-04-27,13:30,3806,Skenderbeu Korce,3166,Bylis,finished,1,2
+Superliga,938870,2025-04-27,13:30,3057,Dinamo Tirana,3084,Tirana,finished,0,2
+Superliga,938869,2025-04-27,13:30,3614,Vllaznia Shkoder,3528,Laci,finished,1,1

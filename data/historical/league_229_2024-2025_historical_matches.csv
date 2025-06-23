@@ -1,0 +1,553 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Championship,928426,2024-08-09,19:00,2908,Blackburn Rovers,3064,Derby County,finished,4,2
+Championship,928427,2024-08-09,19:00,4154,Preston North End,4146,Sheffield United,finished,0,2
+Championship,928430,2024-08-10,11:30,4147,Leeds United,4165,Portsmouth,finished,3,3
+Championship,928428,2024-08-10,11:30,3285,Cardiff City,3073,Sunderland,finished,0,2
+Championship,928435,2024-08-10,11:30,4143,Stoke City,4161,Coventry City,finished,1,0
+Championship,928429,2024-08-10,11:30,4153,Hull City,4151,Bristol City,finished,1,1
+Championship,928434,2024-08-10,11:30,4155,Queens Park Rangers,4144,West Bromwich Albion,finished,1,3
+Championship,928431,2024-08-10,11:30,4150,Middlesbrough,3318,Swansea City,finished,1,0
+Championship,928432,2024-08-10,11:30,3308,Millwall,2826,Watford,finished,2,3
+Championship,928433,2024-08-10,11:30,4168,Oxford United,3311,Norwich City,finished,2,0
+Championship,928436,2024-08-11,15:00,4152,Sheffield Wednesday,4164,Plymouth Argyle,finished,4,0
+Championship,928437,2024-08-12,19:00,4158,Luton Town,3104,Burnley,finished,1,4
+Championship,928440,2024-08-16,19:00,4161,Coventry City,4168,Oxford United,finished,3,2
+Championship,928441,2024-08-17,11:30,3064,Derby County,4150,Middlesbrough,finished,1,0
+Championship,928444,2024-08-17,11:30,4165,Portsmouth,4158,Luton Town,finished,0,0
+Championship,928449,2024-08-17,11:30,4144,West Bromwich Albion,4147,Leeds United,finished,0,0
+Championship,928439,2024-08-17,14:00,3104,Burnley,3285,Cardiff City,finished,5,0
+Championship,928448,2024-08-17,14:00,2826,Watford,4143,Stoke City,finished,3,0
+Championship,928443,2024-08-17,14:00,4164,Plymouth Argyle,4153,Hull City,finished,1,1
+Championship,928447,2024-08-17,14:00,3318,Swansea City,4154,Preston North End,finished,3,0
+Championship,928438,2024-08-17,14:00,4151,Bristol City,3308,Millwall,finished,4,3
+Championship,928442,2024-08-17,14:00,3311,Norwich City,2908,Blackburn Rovers,finished,2,2
+Championship,928445,2024-08-17,14:00,4146,Sheffield United,4155,Queens Park Rangers,finished,2,2
+Championship,928446,2024-08-18,11:00,3073,Sunderland,4152,Sheffield Wednesday,finished,4,0
+Championship,928457,2024-08-23,19:00,4152,Sheffield Wednesday,4147,Leeds United,finished,0,2
+Championship,928456,2024-08-24,11:30,4155,Queens Park Rangers,4164,Plymouth Argyle,finished,1,1
+Championship,928452,2024-08-24,11:30,4153,Hull City,3308,Millwall,finished,0,0
+Championship,928451,2024-08-24,11:30,4151,Bristol City,4161,Coventry City,finished,1,1
+Championship,928454,2024-08-24,14:00,3311,Norwich City,4146,Sheffield United,finished,1,1
+Championship,928459,2024-08-24,14:00,3073,Sunderland,3104,Burnley,finished,1,0
+Championship,928458,2024-08-24,14:00,4143,Stoke City,4144,West Bromwich Albion,finished,1,2
+Championship,928450,2024-08-24,14:00,2908,Blackburn Rovers,4168,Oxford United,finished,2,1
+Championship,928453,2024-08-24,14:00,4150,Middlesbrough,4165,Portsmouth,finished,2,2
+Championship,928455,2024-08-24,14:00,4154,Preston North End,4158,Luton Town,finished,1,0
+Championship,928461,2024-08-24,14:00,2826,Watford,3064,Derby County,finished,2,1
+Championship,928460,2024-08-25,14:00,3318,Swansea City,3285,Cardiff City,finished,1,1
+Championship,928467,2024-08-30,19:00,4158,Luton Town,4155,Queens Park Rangers,finished,1,2
+Championship,928464,2024-08-31,11:30,4161,Coventry City,3311,Norwich City,finished,0,1
+Championship,928463,2024-08-31,11:30,3285,Cardiff City,4150,Middlesbrough,finished,0,2
+Championship,928462,2024-08-31,11:30,3104,Burnley,2908,Blackburn Rovers,finished,1,1
+Championship,928466,2024-08-31,14:00,4147,Leeds United,4153,Hull City,finished,2,0
+Championship,928465,2024-08-31,14:00,3064,Derby County,4151,Bristol City,finished,3,0
+Championship,928470,2024-08-31,14:00,4164,Plymouth Argyle,4143,Stoke City,finished,0,1
+Championship,928473,2024-08-31,14:00,4144,West Bromwich Albion,3318,Swansea City,finished,1,0
+Championship,928468,2024-08-31,14:00,3308,Millwall,4152,Sheffield Wednesday,finished,3,0
+Championship,928469,2024-08-31,14:00,4168,Oxford United,4154,Preston North End,finished,3,1
+Championship,928471,2024-08-31,14:00,4165,Portsmouth,3073,Sunderland,finished,1,3
+Championship,928472,2024-09-01,14:00,4146,Sheffield United,2826,Watford,finished,1,0
+Championship,928476,2024-09-13,19:00,4153,Hull City,4146,Sheffield United,finished,0,2
+Championship,928479,2024-09-14,11:30,3308,Millwall,4158,Luton Town,finished,0,1
+Championship,928480,2024-09-14,11:30,4168,Oxford United,4143,Stoke City,finished,1,0
+Championship,928477,2024-09-14,11:30,4147,Leeds United,3104,Burnley,finished,0,1
+Championship,928485,2024-09-14,14:00,2826,Watford,4161,Coventry City,finished,1,1
+Championship,928474,2024-09-14,14:00,2908,Blackburn Rovers,4151,Bristol City,finished,3,0
+Championship,928483,2024-09-14,14:00,4152,Sheffield Wednesday,4155,Queens Park Rangers,finished,1,1
+Championship,928484,2024-09-14,14:00,3318,Swansea City,3311,Norwich City,finished,1,0
+Championship,928475,2024-09-14,14:00,3064,Derby County,3285,Cardiff City,finished,1,0
+Championship,928481,2024-09-14,14:00,4164,Plymouth Argyle,3073,Sunderland,finished,3,2
+Championship,928478,2024-09-14,14:00,4150,Middlesbrough,4154,Preston North End,finished,1,1
+Championship,928482,2024-09-15,14:00,4165,Portsmouth,4144,West Bromwich Albion,finished,0,3
+Championship,928495,2024-09-20,19:00,4143,Stoke City,4153,Hull City,finished,1,3
+Championship,928496,2024-09-21,11:30,3073,Sunderland,4150,Middlesbrough,finished,1,0
+Championship,928493,2024-09-21,11:30,4155,Queens Park Rangers,3308,Millwall,finished,1,1
+Championship,928491,2024-09-21,11:30,3311,Norwich City,2826,Watford,finished,4,1
+Championship,928490,2024-09-21,14:00,4158,Luton Town,4152,Sheffield Wednesday,finished,2,1
+Championship,928494,2024-09-21,14:00,4146,Sheffield United,3064,Derby County,finished,1,0
+Championship,928497,2024-09-21,14:00,4144,West Bromwich Albion,4164,Plymouth Argyle,finished,1,0
+Championship,928488,2024-09-21,14:00,3285,Cardiff City,4147,Leeds United,finished,0,2
+Championship,928487,2024-09-21,14:00,3104,Burnley,4165,Portsmouth,finished,2,1
+Championship,928489,2024-09-21,14:00,4161,Coventry City,3318,Swansea City,finished,1,2
+Championship,928486,2024-09-21,14:00,4151,Bristol City,4168,Oxford United,finished,2,1
+Championship,928492,2024-09-22,11:00,4154,Preston North End,2908,Blackburn Rovers,finished,0,0
+Championship,928511,2024-09-27,19:00,4164,Plymouth Argyle,4158,Luton Town,finished,3,1
+Championship,928499,2024-09-28,11:30,3064,Derby County,3311,Norwich City,finished,2,3
+Championship,928498,2024-09-28,11:30,2908,Blackburn Rovers,4155,Queens Park Rangers,finished,2,0
+Championship,928515,2024-09-28,11:30,4152,Sheffield Wednesday,4144,West Bromwich Albion,finished,3,2
+Championship,928503,2024-09-28,14:00,4147,Leeds United,4161,Coventry City,finished,3,0
+Championship,928513,2024-09-28,14:00,4165,Portsmouth,4146,Sheffield United,finished,0,0
+Championship,928509,2024-09-28,14:00,4168,Oxford United,3104,Burnley,finished,0,0
+Championship,928501,2024-09-28,14:00,4153,Hull City,3285,Cardiff City,finished,4,1
+Championship,928519,2024-09-28,14:00,2826,Watford,3073,Sunderland,finished,2,1
+Championship,928507,2024-09-28,14:00,3308,Millwall,4154,Preston North End,finished,3,1
+Championship,928505,2024-09-28,14:00,4150,Middlesbrough,4143,Stoke City,finished,2,0
+Championship,928517,2024-09-29,14:00,3318,Swansea City,4151,Bristol City,finished,1,1
+Championship,928527,2024-10-01,18:45,4158,Luton Town,4168,Oxford United,finished,2,2
+Championship,928529,2024-10-01,18:45,4155,Queens Park Rangers,4153,Hull City,finished,1,3
+Championship,928539,2024-10-01,18:45,3311,Norwich City,4147,Leeds United,finished,1,1
+Championship,928533,2024-10-01,18:45,3073,Sunderland,3064,Derby County,finished,2,0
+Championship,928523,2024-10-01,18:45,3285,Cardiff City,3308,Millwall,finished,1,0
+Championship,928525,2024-10-01,18:45,4161,Coventry City,2908,Blackburn Rovers,finished,3,0
+Championship,928521,2024-10-01,18:45,3104,Burnley,4164,Plymouth Argyle,finished,1,0
+Championship,928535,2024-10-01,19:00,4144,West Bromwich Albion,4150,Middlesbrough,finished,0,1
+Championship,928541,2024-10-02,18:45,4154,Preston North End,2826,Watford,finished,3,0
+Championship,928531,2024-10-02,18:45,4146,Sheffield United,3318,Swansea City,finished,1,0
+Championship,928543,2024-10-02,18:45,4143,Stoke City,4165,Portsmouth,finished,6,1
+Championship,928537,2024-10-02,19:00,4151,Bristol City,4152,Sheffield Wednesday,finished,0,0
+Championship,928562,2024-10-04,19:00,3073,Sunderland,4147,Leeds United,finished,2,2
+Championship,928557,2024-10-05,11:30,4165,Portsmouth,4168,Oxford United,finished,1,1
+Championship,928547,2024-10-05,11:30,3104,Burnley,4154,Preston North End,finished,0,0
+Championship,928553,2024-10-05,11:30,3311,Norwich City,4153,Hull City,finished,4,0
+Championship,928568,2024-10-05,14:00,4144,West Bromwich Albion,3308,Millwall,finished,0,0
+Championship,928563,2024-10-05,14:00,3318,Swansea City,4143,Stoke City,finished,0,0
+Championship,928555,2024-10-05,14:00,4164,Plymouth Argyle,2908,Blackburn Rovers,finished,2,1
+Championship,928559,2024-10-05,14:00,4146,Sheffield United,4158,Luton Town,finished,2,0
+Championship,928566,2024-10-05,14:00,2826,Watford,4150,Middlesbrough,finished,2,1
+Championship,928551,2024-10-05,14:00,3064,Derby County,4155,Queens Park Rangers,finished,2,0
+Championship,928549,2024-10-05,14:00,4161,Coventry City,4152,Sheffield Wednesday,finished,1,2
+Championship,928545,2024-10-06,14:00,4151,Bristol City,3285,Cardiff City,finished,1,1
+Championship,928576,2024-10-18,19:00,4147,Leeds United,4146,Sheffield United,finished,2,0
+Championship,928572,2024-10-19,11:30,3285,Cardiff City,4164,Plymouth Argyle,finished,5,0
+Championship,928578,2024-10-19,11:30,4158,Luton Town,2826,Watford,finished,3,0
+Championship,928584,2024-10-19,11:30,4168,Oxford United,4144,West Bromwich Albion,finished,1,1
+Championship,928586,2024-10-19,11:30,4154,Preston North End,4161,Coventry City,finished,1,0
+Championship,928588,2024-10-19,14:00,4155,Queens Park Rangers,4165,Portsmouth,finished,1,2
+Championship,928580,2024-10-19,14:00,4150,Middlesbrough,4151,Bristol City,finished,0,2
+Championship,928570,2024-10-19,14:00,2908,Blackburn Rovers,3318,Swansea City,finished,1,0
+Championship,928590,2024-10-19,14:00,4152,Sheffield Wednesday,3104,Burnley,finished,0,2
+Championship,928592,2024-10-19,14:00,4143,Stoke City,3311,Norwich City,finished,1,1
+Championship,928582,2024-10-19,14:00,3308,Millwall,3064,Derby County,finished,1,1
+Championship,928574,2024-10-20,14:00,4153,Hull City,3073,Sunderland,finished,0,1
+Championship,928598,2024-10-22,18:45,4147,Leeds United,2826,Watford,finished,2,1
+Championship,928594,2024-10-22,18:45,3285,Cardiff City,4165,Portsmouth,finished,2,0
+Championship,928608,2024-10-22,18:45,4143,Stoke City,4151,Bristol City,finished,2,2
+Championship,928602,2024-10-22,18:45,4154,Preston North End,3311,Norwich City,finished,2,2
+Championship,928600,2024-10-22,18:45,4168,Oxford United,3064,Derby County,finished,1,1
+Championship,928606,2024-10-22,18:45,4152,Sheffield Wednesday,3318,Swansea City,finished,0,0
+Championship,928604,2024-10-22,19:00,4155,Queens Park Rangers,4161,Coventry City,finished,1,1
+Championship,928596,2024-10-23,18:45,4153,Hull City,3104,Burnley,finished,1,1
+Championship,928612,2024-10-23,18:45,4158,Luton Town,3073,Sunderland,finished,1,2
+Championship,928610,2024-10-23,18:45,2908,Blackburn Rovers,4144,West Bromwich Albion,finished,0,0
+Championship,928616,2024-10-23,18:45,3308,Millwall,4164,Plymouth Argyle,finished,1,0
+Championship,928614,2024-10-23,19:00,4150,Middlesbrough,4146,Sheffield United,finished,1,0
+Championship,928630,2024-10-25,19:00,4165,Portsmouth,4152,Sheffield Wednesday,finished,1,2
+Championship,928622,2024-10-26,11:30,4161,Coventry City,4158,Luton Town,finished,3,2
+Championship,928638,2024-10-26,11:30,2826,Watford,2908,Blackburn Rovers,finished,1,0
+Championship,928618,2024-10-26,11:30,4151,Bristol City,4147,Leeds United,finished,0,0
+Championship,928640,2024-10-26,14:00,4144,West Bromwich Albion,3285,Cardiff City,finished,0,0
+Championship,928632,2024-10-26,14:00,4146,Sheffield United,4143,Stoke City,finished,2,0
+Championship,928636,2024-10-26,14:00,3318,Swansea City,3308,Millwall,finished,0,1
+Championship,928620,2024-10-26,14:00,3104,Burnley,4155,Queens Park Rangers,finished,0,0
+Championship,928634,2024-10-26,14:00,3073,Sunderland,4168,Oxford United,finished,2,0
+Championship,928624,2024-10-26,14:00,3064,Derby County,4153,Hull City,finished,1,1
+Championship,928628,2024-10-26,14:00,4164,Plymouth Argyle,4154,Preston North End,finished,3,3
+Championship,928626,2024-10-27,15:00,3311,Norwich City,4150,Middlesbrough,finished,3,3
+Championship,928650,2024-11-01,20:00,4158,Luton Town,4144,West Bromwich Albion,finished,1,1
+Championship,928642,2024-11-02,12:30,2908,Blackburn Rovers,4146,Sheffield United,finished,0,2
+Championship,928664,2024-11-02,12:30,4143,Stoke City,3064,Derby County,finished,2,1
+Championship,928656,2024-11-02,12:30,4168,Oxford United,3318,Swansea City,finished,1,2
+Championship,928657,2024-11-02,15:00,4154,Preston North End,4151,Bristol City,finished,1,3
+Championship,928644,2024-11-02,15:00,3285,Cardiff City,3311,Norwich City,finished,2,1
+Championship,928660,2024-11-02,15:00,4155,Queens Park Rangers,3073,Sunderland,finished,0,0
+Championship,928662,2024-11-02,15:00,4152,Sheffield Wednesday,2826,Watford,finished,2,6
+Championship,928648,2024-11-02,15:00,4147,Leeds United,4164,Plymouth Argyle,finished,3,0
+Championship,928652,2024-11-02,15:00,4150,Middlesbrough,4161,Coventry City,finished,0,3
+Championship,928646,2024-11-02,15:00,4153,Hull City,4165,Portsmouth,finished,1,1
+Championship,928654,2024-11-03,15:00,3308,Millwall,3104,Burnley,finished,1,0
+Championship,928669,2024-11-05,19:45,4168,Oxford United,4153,Hull City,finished,1,0
+Championship,928666,2024-11-05,19:45,4151,Bristol City,4146,Sheffield United,finished,1,2
+Championship,928673,2024-11-05,19:45,4155,Queens Park Rangers,4150,Middlesbrough,finished,1,4
+Championship,928675,2024-11-05,19:45,4152,Sheffield Wednesday,3311,Norwich City,finished,2,0
+Championship,928671,2024-11-05,20:00,4164,Plymouth Argyle,4165,Portsmouth,finished,1,0
+Championship,928677,2024-11-05,20:00,3318,Swansea City,2826,Watford,finished,1,0
+Championship,928668,2024-11-06,19:45,3308,Millwall,4147,Leeds United,finished,1,0
+Championship,928683,2024-11-06,19:45,4161,Coventry City,3064,Derby County,finished,1,2
+Championship,928681,2024-11-06,19:45,2908,Blackburn Rovers,4143,Stoke City,finished,0,2
+Championship,928685,2024-11-06,20:00,4158,Luton Town,3285,Cardiff City,finished,1,0
+Championship,928687,2024-11-06,20:00,4154,Preston North End,3073,Sunderland,finished,0,0
+Championship,928679,2024-11-07,20:00,4144,West Bromwich Albion,3104,Burnley,finished,0,0
+Championship,928711,2024-11-08,20:00,2826,Watford,4168,Oxford United,finished,1,0
+Championship,928691,2024-11-09,12:30,3285,Cardiff City,2908,Blackburn Rovers,finished,1,3
+Championship,928699,2024-11-09,12:30,4150,Middlesbrough,4158,Luton Town,finished,5,1
+Championship,928707,2024-11-09,12:30,4143,Stoke City,3308,Millwall,finished,1,1
+Championship,928701,2024-11-09,15:00,3311,Norwich City,4151,Bristol City,finished,0,2
+Championship,928697,2024-11-09,15:00,4147,Leeds United,4155,Queens Park Rangers,finished,2,0
+Championship,928693,2024-11-09,15:00,3064,Derby County,4164,Plymouth Argyle,finished,1,1
+Championship,928703,2024-11-09,15:00,4165,Portsmouth,4154,Preston North End,finished,3,1
+Championship,928709,2024-11-09,15:00,3073,Sunderland,4161,Coventry City,finished,2,2
+Championship,928705,2024-11-10,12:30,4146,Sheffield United,4152,Sheffield Wednesday,finished,1,0
+Championship,928695,2024-11-10,13:00,4153,Hull City,4144,West Bromwich Albion,finished,1,2
+Championship,928689,2024-11-10,15:00,3104,Burnley,3318,Swansea City,finished,1,0
+Championship,928725,2024-11-22,20:00,4164,Plymouth Argyle,2826,Watford,finished,2,2
+Championship,928731,2024-11-23,12:30,4152,Sheffield Wednesday,3285,Cardiff City,finished,1,1
+Championship,928715,2024-11-23,12:30,4151,Bristol City,3104,Burnley,finished,0,1
+Championship,928717,2024-11-23,12:30,4161,Coventry City,4146,Sheffield United,finished,2,2
+Championship,928727,2024-11-23,15:00,4154,Preston North End,3064,Derby County,finished,1,1
+Championship,928723,2024-11-23,15:00,4168,Oxford United,4150,Middlesbrough,finished,2,6
+Championship,928719,2024-11-23,15:00,4158,Luton Town,4153,Hull City,finished,1,0
+Championship,928729,2024-11-23,15:00,4155,Queens Park Rangers,4143,Stoke City,finished,1,1
+Championship,928735,2024-11-23,15:00,4144,West Bromwich Albion,3311,Norwich City,finished,2,2
+Championship,928721,2024-11-23,15:00,3308,Millwall,3073,Sunderland,finished,1,1
+Championship,928733,2024-11-24,15:00,3318,Swansea City,4147,Leeds United,finished,3,4
+Championship,928752,2024-11-26,19:45,2826,Watford,4151,Bristol City,finished,1,0
+Championship,928744,2024-11-26,19:45,3311,Norwich City,4164,Plymouth Argyle,finished,6,1
+Championship,928737,2024-11-26,19:45,3104,Burnley,4161,Coventry City,finished,2,0
+Championship,928748,2024-11-26,19:45,4143,Stoke City,4154,Preston North End,finished,0,0
+Championship,928746,2024-11-26,19:45,4146,Sheffield United,4168,Oxford United,finished,3,0
+Championship,928739,2024-11-26,19:45,4153,Hull City,4152,Sheffield Wednesday,finished,0,2
+Championship,928750,2024-11-26,20:00,3073,Sunderland,4144,West Bromwich Albion,finished,0,0
+Championship,928742,2024-11-27,19:45,4147,Leeds United,4158,Luton Town,finished,3,0
+Championship,928754,2024-11-27,19:45,3285,Cardiff City,4155,Queens Park Rangers,finished,0,2
+Championship,928758,2024-11-27,19:45,4150,Middlesbrough,2908,Blackburn Rovers,finished,0,1
+Championship,928756,2024-11-27,20:00,3064,Derby County,3318,Swansea City,finished,1,2
+Championship,928778,2024-11-29,20:00,4146,Sheffield United,3073,Sunderland,finished,1,0
+Championship,928774,2024-11-30,12:30,4168,Oxford United,3308,Millwall,finished,1,1
+Championship,928770,2024-11-30,12:30,4150,Middlesbrough,4153,Hull City,finished,3,1
+Championship,928784,2024-11-30,12:30,2826,Watford,4155,Queens Park Rangers,finished,0,0
+Championship,928762,2024-11-30,13:30,2908,Blackburn Rovers,4147,Leeds United,finished,1,0
+Championship,928780,2024-11-30,15:00,4143,Stoke City,3104,Burnley,finished,0,2
+Championship,928776,2024-11-30,15:00,4154,Preston North End,4144,West Bromwich Albion,finished,1,1
+Championship,928772,2024-11-30,15:00,3311,Norwich City,4158,Luton Town,finished,4,2
+Championship,928766,2024-11-30,15:00,4161,Coventry City,3285,Cardiff City,finished,2,2
+Championship,928764,2024-11-30,15:00,4151,Bristol City,4164,Plymouth Argyle,finished,4,0
+Championship,928782,2024-11-30,15:00,3318,Swansea City,4165,Portsmouth,finished,2,2
+Championship,928768,2024-12-01,15:00,3064,Derby County,4152,Sheffield Wednesday,finished,1,2
+Championship,928786,2024-12-06,20:00,3104,Burnley,4150,Middlesbrough,finished,1,1
+Championship,928804,2024-12-07,12:30,4152,Sheffield Wednesday,4154,Preston North End,finished,1,1
+Championship,928806,2024-12-07,12:30,3073,Sunderland,4143,Stoke City,finished,2,1
+Championship,928792,2024-12-07,12:30,4147,Leeds United,3064,Derby County,finished,2,0
+Championship,928791,2024-12-07,15:00,4153,Hull City,2908,Blackburn Rovers,finished,0,1
+Championship,928796,2024-12-07,15:00,3308,Millwall,4161,Coventry City,finished,0,1
+Championship,928794,2024-12-07,15:00,4158,Luton Town,3318,Swansea City,finished,1,1
+Championship,928800,2024-12-07,15:00,4165,Portsmouth,4151,Bristol City,finished,3,0
+Championship,928802,2024-12-07,15:00,4155,Queens Park Rangers,3311,Norwich City,finished,3,0
+Championship,928808,2024-12-08,15:00,4144,West Bromwich Albion,4146,Sheffield United,finished,2,2
+Championship,928820,2024-12-10,19:45,4165,Portsmouth,3311,Norwich City,finished,0,0
+Championship,928814,2024-12-10,19:45,4158,Luton Town,4143,Stoke City,finished,2,1
+Championship,928818,2024-12-10,19:45,4164,Plymouth Argyle,3318,Swansea City,finished,1,2
+Championship,928824,2024-12-10,19:45,3073,Sunderland,4151,Bristol City,finished,1,1
+Championship,928810,2024-12-10,19:45,3104,Burnley,3064,Derby County,finished,0,0
+Championship,928822,2024-12-10,19:45,4152,Sheffield Wednesday,2908,Blackburn Rovers,finished,0,1
+Championship,928812,2024-12-10,20:00,4147,Leeds United,4150,Middlesbrough,finished,3,1
+Championship,928816,2024-12-11,19:45,3308,Millwall,4146,Sheffield United,finished,0,1
+Championship,928830,2024-12-11,19:45,4155,Queens Park Rangers,4168,Oxford United,finished,2,0
+Championship,928826,2024-12-11,19:45,3285,Cardiff City,4154,Preston North End,finished,0,2
+Championship,928828,2024-12-11,19:45,4153,Hull City,2826,Watford,finished,1,1
+Championship,928833,2024-12-11,20:00,4144,West Bromwich Albion,4161,Coventry City,finished,2,0
+Championship,928841,2024-12-13,20:00,3064,Derby County,4165,Portsmouth,finished,4,0
+Championship,928848,2024-12-14,12:30,4154,Preston North End,4147,Leeds United,finished,1,1
+Championship,928838,2024-12-14,12:30,4161,Coventry City,4153,Hull City,finished,2,1
+Championship,928837,2024-12-14,12:30,4151,Bristol City,4155,Queens Park Rangers,finished,1,1
+Championship,928850,2024-12-14,15:00,4146,Sheffield United,4164,Plymouth Argyle,finished,2,0
+Championship,928846,2024-12-14,15:00,4168,Oxford United,4152,Sheffield Wednesday,finished,1,3
+Championship,928835,2024-12-14,15:00,2908,Blackburn Rovers,4158,Luton Town,finished,2,0
+Championship,928842,2024-12-14,15:00,4150,Middlesbrough,3308,Millwall,finished,1,0
+Championship,928854,2024-12-14,15:00,3318,Swansea City,3073,Sunderland,finished,2,3
+Championship,928852,2024-12-14,15:00,4143,Stoke City,3285,Cardiff City,finished,2,2
+Championship,928856,2024-12-15,14:00,2826,Watford,4144,West Bromwich Albion,finished,2,1
+Championship,928844,2024-12-15,15:00,3311,Norwich City,3104,Burnley,finished,1,2
+Championship,928866,2024-12-20,20:00,4158,Luton Town,3064,Derby County,finished,2,1
+Championship,928876,2024-12-21,12:30,4152,Sheffield Wednesday,4143,Stoke City,finished,2,0
+Championship,928862,2024-12-21,12:30,4153,Hull City,3318,Swansea City,finished,2,1
+Championship,928872,2024-12-21,12:30,4165,Portsmouth,4161,Coventry City,finished,4,1
+Championship,928858,2024-12-21,15:00,3104,Burnley,2826,Watford,finished,2,1
+Championship,928860,2024-12-21,15:00,3285,Cardiff City,4146,Sheffield United,finished,0,2
+Championship,928864,2024-12-21,15:00,4147,Leeds United,4168,Oxford United,finished,4,0
+Championship,928868,2024-12-21,15:00,3308,Millwall,2908,Blackburn Rovers,finished,1,0
+Championship,928874,2024-12-21,15:00,4155,Queens Park Rangers,4154,Preston North End,finished,2,1
+Championship,928870,2024-12-21,15:00,4164,Plymouth Argyle,4150,Middlesbrough,finished,3,3
+Championship,928878,2024-12-21,15:00,3073,Sunderland,3311,Norwich City,finished,2,1
+Championship,928880,2024-12-22,15:00,4144,West Bromwich Albion,4151,Bristol City,finished,2,0
+Championship,928904,2024-12-26,15:00,2826,Watford,4165,Portsmouth,finished,2,1
+Championship,928886,2024-12-26,15:00,4161,Coventry City,4164,Plymouth Argyle,finished,4,0
+Championship,928898,2024-12-26,15:00,4146,Sheffield United,3104,Burnley,finished,0,2
+Championship,928894,2024-12-26,15:00,4168,Oxford United,3285,Cardiff City,finished,3,2
+Championship,928902,2024-12-26,15:00,3318,Swansea City,4155,Queens Park Rangers,finished,3,0
+Championship,928882,2024-12-26,15:00,2908,Blackburn Rovers,3073,Sunderland,finished,2,2
+Championship,928884,2024-12-26,15:00,4151,Bristol City,4158,Luton Town,finished,1,0
+Championship,928892,2024-12-26,15:00,3311,Norwich City,3308,Millwall,finished,2,1
+Championship,928896,2024-12-26,15:00,4154,Preston North End,4153,Hull City,finished,1,0
+Championship,928890,2024-12-26,15:00,4150,Middlesbrough,4152,Sheffield Wednesday,finished,3,3
+Championship,928888,2024-12-26,17:30,3064,Derby County,4144,West Bromwich Albion,finished,2,1
+Championship,928900,2024-12-26,20:00,4143,Stoke City,4147,Leeds United,finished,0,2
+Championship,928920,2024-12-29,12:30,4154,Preston North End,4152,Sheffield Wednesday,finished,3,1
+Championship,928916,2024-12-29,12:30,3311,Norwich City,4155,Queens Park Rangers,finished,1,1
+Championship,928922,2024-12-29,12:30,4146,Sheffield United,4144,West Bromwich Albion,finished,1,1
+Championship,928926,2024-12-29,15:00,3318,Swansea City,4158,Luton Town,finished,2,1
+Championship,928918,2024-12-29,15:00,4168,Oxford United,4164,Plymouth Argyle,finished,2,0
+Championship,928910,2024-12-29,15:00,4161,Coventry City,3308,Millwall,finished,0,0
+Championship,928924,2024-12-29,15:00,4143,Stoke City,3073,Sunderland,finished,1,0
+Championship,928908,2024-12-29,15:00,4151,Bristol City,4165,Portsmouth,finished,3,0
+Championship,928906,2024-12-29,15:00,2908,Blackburn Rovers,4153,Hull City,finished,0,1
+Championship,928928,2024-12-29,15:00,2826,Watford,3285,Cardiff City,finished,1,2
+Championship,928912,2024-12-29,17:45,3064,Derby County,4147,Leeds United,finished,0,1
+Championship,928914,2024-12-29,20:00,4150,Middlesbrough,3104,Burnley,finished,0,0
+Championship,928942,2025-01-01,12:30,4164,Plymouth Argyle,4151,Bristol City,finished,2,2
+Championship,928945,2025-01-01,12:30,4155,Queens Park Rangers,2826,Watford,finished,3,1
+Championship,928939,2025-01-01,13:00,3308,Millwall,4168,Oxford United,finished,0,1
+Championship,928932,2025-01-01,15:00,3285,Cardiff City,4161,Coventry City,finished,1,1
+Championship,928943,2025-01-01,15:00,4165,Portsmouth,3318,Swansea City,finished,4,0
+Championship,928937,2025-01-01,15:00,4158,Luton Town,3311,Norwich City,finished,0,1
+Championship,928936,2025-01-01,15:00,4147,Leeds United,2908,Blackburn Rovers,finished,1,1
+Championship,928947,2025-01-01,15:00,4152,Sheffield Wednesday,3064,Derby County,finished,4,2
+Championship,928951,2025-01-01,15:00,4144,West Bromwich Albion,4154,Preston North End,finished,3,1
+Championship,928930,2025-01-01,15:00,3104,Burnley,4143,Stoke City,finished,0,0
+Championship,928934,2025-01-01,17:30,4153,Hull City,4150,Middlesbrough,finished,0,1
+Championship,928949,2025-01-01,20:00,3073,Sunderland,4146,Sheffield United,finished,2,1
+Championship,928969,2025-01-04,12:30,4143,Stoke City,4164,Plymouth Argyle,finished,0,0
+Championship,928973,2025-01-04,12:30,3318,Swansea City,4144,West Bromwich Albion,finished,1,1
+Championship,928953,2025-01-04,12:30,2908,Blackburn Rovers,3104,Burnley,finished,0,1
+Championship,928975,2025-01-04,15:00,2826,Watford,4146,Sheffield United,finished,1,2
+Championship,928967,2025-01-04,15:00,4152,Sheffield Wednesday,3308,Millwall,finished,2,2
+Championship,928957,2025-01-04,15:00,4153,Hull City,4147,Leeds United,finished,3,3
+Championship,928959,2025-01-04,15:00,4150,Middlesbrough,3285,Cardiff City,finished,1,1
+Championship,928955,2025-01-04,15:00,4151,Bristol City,3064,Derby County,finished,1,0
+Championship,928961,2025-01-04,15:00,3311,Norwich City,4161,Coventry City,finished,2,1
+Championship,928963,2025-01-04,15:00,4154,Preston North End,4168,Oxford United,finished,1,1
+Championship,928971,2025-01-05,15:00,3073,Sunderland,4165,Portsmouth,finished,1,0
+Championship,928965,2025-01-06,20:00,4155,Queens Park Rangers,4158,Luton Town,finished,2,1
+Championship,928798,2025-01-14,19:45,4164,Plymouth Argyle,4168,Oxford United,finished,1,1
+Championship,928788,2025-01-14,19:45,3285,Cardiff City,2826,Watford,finished,1,1
+Championship,928713,2025-01-15,19:45,2908,Blackburn Rovers,4165,Portsmouth,finished,3,0
+Championship,928977,2025-01-17,20:00,3104,Burnley,3073,Sunderland,finished,0,0
+Championship,928979,2025-01-18,12:30,3285,Cardiff City,3318,Swansea City,finished,3,0
+Championship,928993,2025-01-18,12:30,4164,Plymouth Argyle,4155,Queens Park Rangers,finished,0,1
+Championship,928989,2025-01-18,12:30,3308,Millwall,4153,Hull City,finished,0,1
+Championship,928999,2025-01-18,15:00,4144,West Bromwich Albion,4143,Stoke City,finished,1,1
+Championship,928997,2025-01-18,15:00,4146,Sheffield United,3311,Norwich City,finished,2,0
+Championship,928983,2025-01-18,15:00,3064,Derby County,2826,Watford,finished,0,2
+Championship,928995,2025-01-18,15:00,4165,Portsmouth,4150,Middlesbrough,finished,2,1
+Championship,928991,2025-01-18,15:00,4168,Oxford United,2908,Blackburn Rovers,finished,1,0
+Championship,928981,2025-01-18,15:00,4161,Coventry City,4151,Bristol City,finished,1,0
+Championship,928987,2025-01-18,15:00,4158,Luton Town,4154,Preston North End,finished,0,0
+Championship,928985,2025-01-19,12:00,4147,Leeds United,4152,Sheffield Wednesday,finished,3,0
+Championship,929003,2025-01-21,19:45,3064,Derby County,3073,Sunderland,finished,0,1
+Championship,929007,2025-01-21,19:45,4150,Middlesbrough,4144,West Bromwich Albion,finished,2,0
+Championship,929015,2025-01-21,19:45,2826,Watford,4154,Preston North End,finished,1,2
+Championship,929005,2025-01-21,19:45,4153,Hull City,4155,Queens Park Rangers,finished,1,2
+Championship,929011,2025-01-21,19:45,4168,Oxford United,4158,Luton Town,finished,3,2
+Championship,929013,2025-01-21,19:45,3318,Swansea City,4146,Sheffield United,finished,1,2
+Championship,929001,2025-01-21,19:45,2908,Blackburn Rovers,4161,Coventry City,finished,0,2
+Championship,929009,2025-01-21,20:00,3308,Millwall,3285,Cardiff City,finished,2,2
+Championship,929023,2025-01-22,19:45,4152,Sheffield Wednesday,4151,Bristol City,finished,2,2
+Championship,929021,2025-01-22,19:45,4165,Portsmouth,4143,Stoke City,finished,3,1
+Championship,929017,2025-01-22,19:45,4147,Leeds United,3311,Norwich City,finished,2,0
+Championship,929019,2025-01-22,20:00,4164,Plymouth Argyle,3104,Burnley,finished,0,5
+Championship,929041,2025-01-24,20:00,4146,Sheffield United,4153,Hull City,finished,0,3
+Championship,929043,2025-01-25,12:30,4143,Stoke City,4168,Oxford United,finished,0,0
+Championship,929033,2025-01-25,12:30,4158,Luton Town,3308,Millwall,finished,0,1
+Championship,929035,2025-01-25,12:30,3311,Norwich City,3318,Swansea City,finished,5,1
+Championship,929031,2025-01-25,15:00,4161,Coventry City,2826,Watford,finished,2,1
+Championship,929029,2025-01-25,15:00,3285,Cardiff City,3064,Derby County,finished,2,1
+Championship,929025,2025-01-25,15:00,4151,Bristol City,2908,Blackburn Rovers,finished,2,1
+Championship,929045,2025-01-25,15:00,3073,Sunderland,4164,Plymouth Argyle,finished,2,2
+Championship,929039,2025-01-25,15:00,4155,Queens Park Rangers,4152,Sheffield Wednesday,finished,0,2
+Championship,929037,2025-01-25,15:00,4154,Preston North End,4150,Middlesbrough,finished,2,1
+Championship,929047,2025-01-25,15:00,4144,West Bromwich Albion,4165,Portsmouth,finished,5,1
+Championship,929027,2025-01-27,20:00,3104,Burnley,4147,Leeds United,finished,0,0
+Championship,928760,2025-01-28,19:45,4165,Portsmouth,3308,Millwall,finished,0,1
+Championship,929049,2025-01-31,20:00,2908,Blackburn Rovers,4154,Preston North End,finished,2,1
+Championship,929063,2025-02-01,12:30,4164,Plymouth Argyle,4144,West Bromwich Albion,finished,2,1
+Championship,929071,2025-02-01,12:30,2826,Watford,3311,Norwich City,finished,0,1
+Championship,929061,2025-02-01,12:30,4168,Oxford United,4151,Bristol City,finished,1,1
+Championship,929069,2025-02-01,15:00,3318,Swansea City,4161,Coventry City,finished,0,2
+Championship,929055,2025-02-01,15:00,4147,Leeds United,3285,Cardiff City,finished,7,0
+Championship,929053,2025-02-01,15:00,4153,Hull City,4143,Stoke City,finished,1,2
+Championship,929051,2025-02-01,15:00,3064,Derby County,4146,Sheffield United,finished,0,1
+Championship,929067,2025-02-01,15:00,4152,Sheffield Wednesday,4158,Luton Town,finished,1,1
+Championship,929065,2025-02-01,15:00,4165,Portsmouth,3104,Burnley,finished,0,0
+Championship,929059,2025-02-01,15:00,3308,Millwall,4155,Queens Park Rangers,finished,2,1
+Championship,929057,2025-02-03,20:00,4150,Middlesbrough,3073,Sunderland,finished,2,3
+Championship,929088,2025-02-04,19:45,4155,Queens Park Rangers,2908,Blackburn Rovers,finished,2,1
+Championship,929075,2025-02-04,19:45,3104,Burnley,4168,Oxford United,finished,1,0
+Championship,929079,2025-02-05,19:45,4161,Coventry City,4147,Leeds United,finished,0,2
+Championship,929096,2025-02-08,12:30,4144,West Bromwich Albion,4152,Sheffield Wednesday,finished,2,1
+Championship,929094,2025-02-08,12:30,3073,Sunderland,2826,Watford,finished,2,2
+Championship,929090,2025-02-08,15:00,4146,Sheffield United,4165,Portsmouth,finished,2,1
+Championship,929084,2025-02-08,15:00,3311,Norwich City,3064,Derby County,finished,1,1
+Championship,929073,2025-02-09,12:00,4151,Bristol City,3318,Swansea City,finished,0,1
+Championship,929112,2025-02-11,19:45,2826,Watford,4147,Leeds United,finished,0,4
+Championship,929102,2025-02-11,19:45,3064,Derby County,4168,Oxford United,finished,0,0
+Championship,929100,2025-02-11,19:45,4161,Coventry City,4155,Queens Park Rangers,finished,1,0
+Championship,929108,2025-02-11,19:45,4165,Portsmouth,3285,Cardiff City,finished,2,1
+Championship,929104,2025-02-11,20:00,3311,Norwich City,4154,Preston North End,finished,0,1
+Championship,929118,2025-02-12,19:45,3073,Sunderland,4158,Luton Town,finished,2,0
+Championship,929106,2025-02-12,19:45,4164,Plymouth Argyle,3308,Millwall,finished,5,1
+Championship,929110,2025-02-12,19:45,3318,Swansea City,4152,Sheffield Wednesday,finished,0,1
+Championship,929114,2025-02-12,19:45,3104,Burnley,4153,Hull City,finished,2,0
+Championship,929098,2025-02-12,19:45,4151,Bristol City,4143,Stoke City,finished,2,0
+Championship,929120,2025-02-12,20:00,4144,West Bromwich Albion,2908,Blackburn Rovers,finished,0,2
+Championship,929116,2025-02-12,20:00,4146,Sheffield United,4150,Middlesbrough,finished,3,1
+Championship,929141,2025-02-14,20:00,4155,Queens Park Rangers,3064,Derby County,finished,4,0
+Championship,929137,2025-02-15,12:30,4168,Oxford United,4165,Portsmouth,finished,0,2
+Championship,929124,2025-02-15,12:30,3285,Cardiff City,4151,Bristol City,finished,1,1
+Championship,929139,2025-02-15,12:30,4154,Preston North End,3104,Burnley,finished,0,0
+Championship,929126,2025-02-15,15:00,4153,Hull City,3311,Norwich City,finished,1,1
+Championship,929135,2025-02-15,15:00,3308,Millwall,4144,West Bromwich Albion,finished,1,1
+Championship,929143,2025-02-15,15:00,4152,Sheffield Wednesday,4161,Coventry City,finished,1,2
+Championship,929132,2025-02-15,15:00,4150,Middlesbrough,2826,Watford,finished,0,1
+Championship,929122,2025-02-15,15:00,2908,Blackburn Rovers,4164,Plymouth Argyle,finished,2,0
+Championship,929145,2025-02-15,15:00,4143,Stoke City,3318,Swansea City,finished,3,1
+Championship,929130,2025-02-15,15:00,4158,Luton Town,4146,Sheffield United,finished,0,1
+Championship,929128,2025-02-17,20:00,4147,Leeds United,3073,Sunderland,finished,2,1
+Championship,929086,2025-02-18,19:45,4154,Preston North End,3308,Millwall,finished,1,1
+Championship,929082,2025-02-19,19:45,4158,Luton Town,4164,Plymouth Argyle,finished,1,1
+Championship,929147,2025-02-21,19:45,4151,Bristol City,4150,Middlesbrough,finished,2,1
+Championship,929149,2025-02-21,20:00,3104,Burnley,4152,Sheffield Wednesday,finished,4,0
+Championship,929157,2025-02-22,12:30,4164,Plymouth Argyle,3285,Cardiff City,finished,1,1
+Championship,929163,2025-02-22,12:30,3073,Sunderland,4153,Hull City,finished,0,1
+Championship,929153,2025-02-22,12:30,3064,Derby County,3308,Millwall,finished,0,1
+Championship,929169,2025-02-22,15:00,4144,West Bromwich Albion,4168,Oxford United,finished,2,0
+Championship,929159,2025-02-22,15:00,4165,Portsmouth,4155,Queens Park Rangers,finished,2,1
+Championship,929155,2025-02-22,15:00,3311,Norwich City,4143,Stoke City,finished,4,2
+Championship,929151,2025-02-22,15:00,4161,Coventry City,4154,Preston North End,finished,2,1
+Championship,929165,2025-02-22,15:00,3318,Swansea City,2908,Blackburn Rovers,finished,3,0
+Championship,929167,2025-02-23,12:00,2826,Watford,4158,Luton Town,finished,2,0
+Championship,929161,2025-02-24,20:00,4146,Sheffield United,4147,Leeds United,finished,1,3
+Championship,929091,2025-02-25,19:45,4143,Stoke City,4150,Middlesbrough,finished,1,3
+Championship,929077,2025-02-25,19:45,3285,Cardiff City,4153,Hull City,finished,1,0
+Championship,929191,2025-02-28,20:00,4152,Sheffield Wednesday,3073,Sunderland,finished,1,2
+Championship,929171,2025-03-01,12:30,2908,Blackburn Rovers,3311,Norwich City,finished,1,1
+Championship,929177,2025-03-01,12:30,4147,Leeds United,4144,West Bromwich Albion,finished,1,1
+Championship,929185,2025-03-01,12:30,4168,Oxford United,4161,Coventry City,finished,2,3
+Championship,929189,2025-03-01,15:00,4155,Queens Park Rangers,4146,Sheffield United,finished,1,2
+Championship,929193,2025-03-01,15:00,4143,Stoke City,2826,Watford,finished,0,0
+Championship,929179,2025-03-01,15:00,4158,Luton Town,4165,Portsmouth,finished,1,0
+Championship,929181,2025-03-01,15:00,4150,Middlesbrough,3064,Derby County,finished,1,0
+Championship,929173,2025-03-04,19:45,3285,Cardiff City,3104,Burnley,finished,1,2
+Championship,929175,2025-03-04,19:45,4153,Hull City,4164,Plymouth Argyle,finished,2,0
+Championship,929187,2025-03-04,19:45,4154,Preston North End,3318,Swansea City,finished,0,0
+Championship,929183,2025-03-04,19:45,3308,Millwall,4151,Bristol City,finished,0,2
+Championship,929203,2025-03-07,20:00,3311,Norwich City,4168,Oxford United,finished,1,1
+Championship,929215,2025-03-08,12:30,2826,Watford,3308,Millwall,finished,1,2
+Championship,929199,2025-03-08,12:30,4161,Coventry City,4143,Stoke City,finished,3,2
+Championship,929205,2025-03-08,15:00,4164,Plymouth Argyle,4152,Sheffield Wednesday,finished,0,3
+Championship,929201,2025-03-08,15:00,3064,Derby County,2908,Blackburn Rovers,finished,2,1
+Championship,929209,2025-03-08,15:00,4146,Sheffield United,4154,Preston North End,finished,1,0
+Championship,929213,2025-03-08,15:00,3318,Swansea City,4150,Middlesbrough,finished,1,0
+Championship,929197,2025-03-08,15:00,3104,Burnley,4158,Luton Town,finished,4,0
+Championship,929195,2025-03-08,15:00,4151,Bristol City,4153,Hull City,finished,1,1
+Championship,929217,2025-03-08,15:00,4144,West Bromwich Albion,4155,Queens Park Rangers,finished,1,0
+Championship,929211,2025-03-08,15:00,3073,Sunderland,3285,Cardiff City,finished,2,1
+Championship,929207,2025-03-09,12:00,4165,Portsmouth,4147,Leeds United,finished,1,0
+Championship,929237,2025-03-11,19:45,3311,Norwich City,4152,Sheffield Wednesday,finished,2,3
+Championship,929221,2025-03-11,19:45,3285,Cardiff City,4158,Luton Town,finished,1,2
+Championship,929219,2025-03-11,19:45,3104,Burnley,4144,West Bromwich Albion,finished,1,1
+Championship,929232,2025-03-11,19:45,3073,Sunderland,4154,Preston North End,finished,1,1
+Championship,929226,2025-03-11,19:45,4150,Middlesbrough,4155,Queens Park Rangers,finished,2,1
+Championship,929223,2025-03-11,19:45,3064,Derby County,4161,Coventry City,finished,2,0
+Championship,929239,2025-03-11,20:00,4146,Sheffield United,4151,Bristol City,finished,1,1
+Championship,929241,2025-03-12,19:45,2826,Watford,3318,Swansea City,finished,1,0
+Championship,929234,2025-03-12,19:45,4153,Hull City,4168,Oxford United,finished,2,1
+Championship,929228,2025-03-12,19:45,4165,Portsmouth,4164,Plymouth Argyle,finished,1,2
+Championship,929236,2025-03-12,19:45,4147,Leeds United,3308,Millwall,finished,2,0
+Championship,929230,2025-03-12,20:00,4143,Stoke City,2908,Blackburn Rovers,finished,1,0
+Championship,929246,2025-03-14,20:00,4151,Bristol City,3311,Norwich City,finished,2,1
+Championship,929260,2025-03-15,12:30,4155,Queens Park Rangers,4147,Leeds United,finished,2,2
+Championship,929252,2025-03-15,12:30,3308,Millwall,4143,Stoke City,finished,1,0
+Championship,929256,2025-03-15,15:00,4164,Plymouth Argyle,3064,Derby County,finished,2,3
+Championship,929254,2025-03-15,15:00,4168,Oxford United,2826,Watford,finished,1,0
+Championship,929266,2025-03-15,15:00,4144,West Bromwich Albion,4153,Hull City,finished,1,1
+Championship,929244,2025-03-15,15:00,2908,Blackburn Rovers,3285,Cardiff City,finished,1,2
+Championship,929264,2025-03-15,15:00,3318,Swansea City,3104,Burnley,finished,0,2
+Championship,929250,2025-03-15,15:00,4158,Luton Town,4150,Middlesbrough,finished,0,0
+Championship,929258,2025-03-15,15:00,4154,Preston North End,4165,Portsmouth,finished,2,1
+Championship,929248,2025-03-15,15:00,4161,Coventry City,3073,Sunderland,finished,3,0
+Championship,929262,2025-03-16,12:30,4152,Sheffield Wednesday,4146,Sheffield United,finished,0,1
+Championship,929284,2025-03-28,20:00,4146,Sheffield United,4161,Coventry City,finished,3,1
+Championship,929290,2025-03-29,12:30,2826,Watford,4164,Plymouth Argyle,finished,0,0
+Championship,929274,2025-03-29,12:30,4153,Hull City,4158,Luton Town,finished,0,1
+Championship,929270,2025-03-29,15:00,3285,Cardiff City,4152,Sheffield Wednesday,finished,1,1
+Championship,929278,2025-03-29,15:00,4150,Middlesbrough,4168,Oxford United,finished,2,1
+Championship,929276,2025-03-29,15:00,4147,Leeds United,3318,Swansea City,finished,2,2
+Championship,929282,2025-03-29,15:00,4165,Portsmouth,2908,Blackburn Rovers,finished,1,0
+Championship,929288,2025-03-29,15:00,3073,Sunderland,3308,Millwall,finished,1,0
+Championship,929268,2025-03-29,15:00,3104,Burnley,4151,Bristol City,finished,1,0
+Championship,929286,2025-03-29,15:00,4143,Stoke City,4155,Queens Park Rangers,finished,3,1
+Championship,929280,2025-03-29,15:00,3311,Norwich City,4144,West Bromwich Albion,finished,1,0
+Championship,929272,2025-04-02,18:45,3064,Derby County,4154,Preston North End,finished,2,0
+Championship,929292,2025-04-04,19:00,2908,Blackburn Rovers,4150,Middlesbrough,finished,0,2
+Championship,929298,2025-04-05,11:30,4158,Luton Town,4147,Leeds United,finished,1,1
+Championship,929313,2025-04-05,11:30,4144,West Bromwich Albion,3073,Sunderland,finished,0,1
+Championship,929296,2025-04-05,11:30,4161,Coventry City,3104,Burnley,finished,1,2
+Championship,929300,2025-04-05,14:00,3308,Millwall,4165,Portsmouth,finished,2,1
+Championship,929310,2025-04-05,14:00,4152,Sheffield Wednesday,4153,Hull City,finished,0,1
+Championship,929308,2025-04-05,14:00,4155,Queens Park Rangers,3285,Cardiff City,finished,0,0
+Championship,929302,2025-04-05,14:00,4168,Oxford United,4146,Sheffield United,finished,1,0
+Championship,929311,2025-04-05,14:00,3318,Swansea City,3064,Derby County,finished,1,0
+Championship,929294,2025-04-05,14:00,4151,Bristol City,2826,Watford,finished,2,1
+Championship,929306,2025-04-05,14:00,4154,Preston North End,4143,Stoke City,finished,1,1
+Championship,929304,2025-04-05,14:00,4164,Plymouth Argyle,3311,Norwich City,finished,2,1
+Championship,929318,2025-04-08,18:45,4151,Bristol City,4144,West Bromwich Albion,finished,2,1
+Championship,929334,2025-04-08,18:45,3064,Derby County,3104,Burnley,finished,0,0
+Championship,929322,2025-04-08,18:45,3311,Norwich City,3073,Sunderland,finished,0,0
+Championship,929330,2025-04-08,18:45,2826,Watford,4153,Hull City,finished,1,0
+Championship,929315,2025-04-08,18:45,2908,Blackburn Rovers,4152,Sheffield Wednesday,finished,2,2
+Championship,929324,2025-04-08,18:45,4154,Preston North End,3285,Cardiff City,finished,2,2
+Championship,929326,2025-04-08,18:45,4146,Sheffield United,3308,Millwall,finished,0,1
+Championship,929328,2025-04-08,18:45,4143,Stoke City,4158,Luton Town,finished,1,1
+Championship,929320,2025-04-08,19:00,4150,Middlesbrough,4147,Leeds United,finished,0,1
+Championship,929338,2025-04-09,18:45,3318,Swansea City,4164,Plymouth Argyle,finished,3,0
+Championship,929336,2025-04-09,18:45,4168,Oxford United,4155,Queens Park Rangers,finished,1,3
+Championship,929332,2025-04-09,19:00,4161,Coventry City,4165,Portsmouth,finished,1,0
+Championship,929340,2025-04-11,19:00,3104,Burnley,3311,Norwich City,finished,2,1
+Championship,929352,2025-04-12,11:30,4164,Plymouth Argyle,4146,Sheffield United,finished,2,1
+Championship,929346,2025-04-12,11:30,4147,Leeds United,4154,Preston North End,finished,2,1
+Championship,929360,2025-04-12,14:00,3073,Sunderland,3318,Swansea City,finished,0,1
+Championship,929356,2025-04-12,14:00,4155,Queens Park Rangers,4151,Bristol City,finished,1,1
+Championship,929348,2025-04-12,14:00,4158,Luton Town,2908,Blackburn Rovers,finished,0,1
+Championship,929354,2025-04-12,14:00,4165,Portsmouth,3064,Derby County,finished,2,2
+Championship,929358,2025-04-12,14:00,4152,Sheffield Wednesday,4168,Oxford United,finished,0,1
+Championship,929362,2025-04-12,14:00,4144,West Bromwich Albion,2826,Watford,finished,2,1
+Championship,929350,2025-04-12,14:00,3308,Millwall,4150,Middlesbrough,finished,1,0
+Championship,929343,2025-04-12,14:00,3285,Cardiff City,4143,Stoke City,finished,0,1
+Championship,929345,2025-04-14,19:00,4153,Hull City,4161,Coventry City,finished,1,1
+Championship,929370,2025-04-18,11:30,3064,Derby County,4158,Luton Town,finished,0,1
+Championship,929368,2025-04-18,14:00,4161,Coventry City,4144,West Bromwich Albion,finished,2,0
+Championship,929382,2025-04-18,14:00,4143,Stoke City,4152,Sheffield Wednesday,finished,2,0
+Championship,929384,2025-04-18,14:00,3318,Swansea City,4153,Hull City,finished,1,0
+Championship,929364,2025-04-18,14:00,2908,Blackburn Rovers,3308,Millwall,finished,4,1
+Championship,929366,2025-04-18,14:00,4151,Bristol City,3073,Sunderland,finished,2,1
+Championship,929372,2025-04-18,14:00,4150,Middlesbrough,4164,Plymouth Argyle,finished,2,1
+Championship,929374,2025-04-18,14:00,3311,Norwich City,4165,Portsmouth,finished,3,5
+Championship,929378,2025-04-18,14:00,4154,Preston North End,4155,Queens Park Rangers,finished,1,2
+Championship,929386,2025-04-18,14:00,2826,Watford,3104,Burnley,finished,1,2
+Championship,929380,2025-04-18,16:30,4146,Sheffield United,3285,Cardiff City,finished,2,0
+Championship,929376,2025-04-18,19:00,4168,Oxford United,4147,Leeds United,finished,0,1
+Championship,929404,2025-04-21,14:00,4155,Queens Park Rangers,3318,Swansea City,finished,1,2
+Championship,929402,2025-04-21,14:00,4165,Portsmouth,2826,Watford,finished,1,0
+Championship,929408,2025-04-21,14:00,3073,Sunderland,2908,Blackburn Rovers,finished,0,1
+Championship,929400,2025-04-21,14:00,4164,Plymouth Argyle,4161,Coventry City,finished,3,1
+Championship,929390,2025-04-21,14:00,3285,Cardiff City,4168,Oxford United,finished,1,1
+Championship,929396,2025-04-21,14:00,4158,Luton Town,4151,Bristol City,finished,3,1
+Championship,929392,2025-04-21,14:00,4153,Hull City,4154,Preston North End,finished,2,1
+Championship,929406,2025-04-21,14:00,4152,Sheffield Wednesday,4150,Middlesbrough,finished,2,1
+Championship,929410,2025-04-21,14:00,4144,West Bromwich Albion,3064,Derby County,finished,1,3
+Championship,929398,2025-04-21,14:00,3308,Millwall,3311,Norwich City,finished,3,1
+Championship,929394,2025-04-21,14:00,4147,Leeds United,4143,Stoke City,finished,6,0
+Championship,929388,2025-04-21,16:30,3104,Burnley,4146,Sheffield United,finished,2,1
+Championship,929434,2025-04-25,19:00,4143,Stoke City,4146,Sheffield United,finished,0,2
+Championship,929420,2025-04-26,11:30,4158,Luton Town,4161,Coventry City,finished,1,0
+Championship,929430,2025-04-26,11:30,4155,Queens Park Rangers,3104,Burnley,finished,0,5
+Championship,929426,2025-04-26,14:00,4168,Oxford United,3073,Sunderland,finished,2,0
+Championship,929416,2025-04-26,14:00,4153,Hull City,3064,Derby County,finished,0,1
+Championship,929414,2025-04-26,14:00,3285,Cardiff City,4144,West Bromwich Albion,finished,0,0
+Championship,929412,2025-04-26,14:00,2908,Blackburn Rovers,2826,Watford,finished,2,1
+Championship,929424,2025-04-26,14:00,3308,Millwall,3318,Swansea City,finished,1,0
+Championship,929432,2025-04-26,14:00,4152,Sheffield Wednesday,4165,Portsmouth,finished,1,1
+Championship,929428,2025-04-26,14:00,4154,Preston North End,4164,Plymouth Argyle,finished,1,2
+Championship,929422,2025-04-26,14:00,4150,Middlesbrough,3311,Norwich City,finished,0,0
+Championship,929418,2025-04-28,19:00,4147,Leeds United,4151,Bristol City,finished,4,0
+Championship,929456,2025-05-03,11:30,2826,Watford,4152,Sheffield Wednesday,finished,1,1
+Championship,929450,2025-05-03,11:30,4146,Sheffield United,2908,Blackburn Rovers,finished,1,1
+Championship,929448,2025-05-03,11:30,4165,Portsmouth,4153,Hull City,finished,1,1
+Championship,929442,2025-05-03,11:30,3064,Derby County,4143,Stoke City,finished,0,0
+Championship,929452,2025-05-03,11:30,3073,Sunderland,4155,Queens Park Rangers,finished,0,1
+Championship,929440,2025-05-03,11:30,4161,Coventry City,4150,Middlesbrough,finished,2,0
+Championship,929436,2025-05-03,11:30,4151,Bristol City,4154,Preston North End,finished,2,2
+Championship,929446,2025-05-03,11:30,4164,Plymouth Argyle,4147,Leeds United,finished,1,2
+Championship,929458,2025-05-03,11:30,4144,West Bromwich Albion,4158,Luton Town,finished,5,3
+Championship,929444,2025-05-03,11:30,3311,Norwich City,3285,Cardiff City,finished,4,2
+Championship,929454,2025-05-03,11:30,3318,Swansea City,4168,Oxford United,finished,3,3
+Championship,929438,2025-05-03,11:30,3104,Burnley,3308,Millwall,finished,3,1

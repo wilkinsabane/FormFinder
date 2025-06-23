@@ -1,0 +1,26 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+Championship,1,4147,Leeds United,46,100,29,13,4,95,30,65
+Championship,2,3104,Burnley,46,100,28,16,2,69,16,53
+Championship,3,4146,Sheffield United,46,90,28,8,10,63,36,27
+Championship,4,3073,Sunderland,46,76,21,13,12,58,44,14
+Championship,5,4161,Coventry City,46,69,20,9,17,64,58,6
+Championship,6,4151,Bristol City,46,68,17,17,12,59,55,4
+Championship,7,2908,Blackburn Rovers,46,66,19,9,18,53,48,5
+Championship,8,3308,Millwall,46,66,18,12,16,47,49,-2
+Championship,9,4144,West Bromwich Albion,46,64,15,19,12,57,47,10
+Championship,10,4150,Middlesbrough,46,64,18,10,18,64,56,8
+Championship,11,3318,Swansea City,46,61,17,10,19,51,56,-5
+Championship,12,4152,Sheffield Wednesday,46,58,15,13,18,60,69,-9
+Championship,13,3311,Norwich City,46,57,14,15,17,71,68,3
+Championship,14,2826,Watford,46,57,16,9,21,53,61,-8
+Championship,15,4155,Queens Park Rangers,46,56,14,14,18,53,63,-10
+Championship,16,4165,Portsmouth,46,54,14,12,20,58,71,-13
+Championship,17,4168,Oxford United,46,53,13,14,19,49,65,-16
+Championship,18,4143,Stoke City,46,51,12,15,19,45,62,-17
+Championship,19,3064,Derby County,46,50,13,11,22,48,56,-8
+Championship,20,4154,Preston North End,46,50,10,20,16,48,59,-11
+Championship,21,4153,Hull City,46,49,12,13,21,44,54,-10
+Championship,22,4158,Luton Town,46,49,13,10,23,45,69,-24
+Championship,23,4164,Plymouth Argyle,46,46,11,13,22,51,88,-37
+Championship,24,3285,Cardiff City,46,44,9,17,20,48,73,-25
+Championship,24,3830,JSM Skikda,46,44,9,17,20,48,73,-25

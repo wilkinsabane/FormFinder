@@ -1,0 +1,7 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+First Division A,1,3911,Union Saint-Gilloise,40,56,24,11,5,71,28,43
+First Division A,2,2963,Club Brugge,40,53,24,10,6,86,42,44
+First Division A,3,3427,Genk,40,47,25,6,9,69,44,25
+First Division A,4,3193,Anderlecht,40,36,18,7,15,62,40,22
+First Division A,5,2994,Antwerp,40,32,14,13,13,57,50,7
+First Division A,6,2991,Gent,40,26,12,12,16,45,65,-20

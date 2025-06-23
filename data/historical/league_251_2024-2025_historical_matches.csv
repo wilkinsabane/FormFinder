@@ -1,0 +1,307 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Liga 1,938089,2024-08-09,12:00,4382,Persib,15128,PSBS Biak Numfor,finished,4,1
+Liga 1,938091,2024-08-10,08:30,4388,PSM,4398,Persis Solo,finished,3,0
+Liga 1,938090,2024-08-10,08:30,4381,Madura United,15438,Malut United,finished,1,1
+Liga 1,938092,2024-08-10,12:00,4386,Persija,4389,Barito Putera,finished,3,0
+Liga 1,938094,2024-08-11,08:30,4396,Persik Kediri,3230,Bali United,finished,1,3
+Liga 1,938093,2024-08-11,08:30,4390,PSIS Semarang,4397,Persita,finished,0,1
+Liga 1,938095,2024-08-11,12:00,4378,Persebaya Surabaya,4384,PSS Sleman,finished,1,0
+Liga 1,938096,2024-08-12,08:30,4385,Arema,4399,Dewa United,finished,0,0
+Liga 1,938097,2024-08-12,12:00,4393,Semen Padang,4383,Borneo,finished,1,3
+Liga 1,938099,2024-08-16,08:30,15438,Malut United,4378,Persebaya Surabaya,finished,0,0
+Liga 1,938098,2024-08-16,08:30,15128,PSBS Biak Numfor,4388,PSM,finished,1,2
+Liga 1,938100,2024-08-16,12:00,4389,Barito Putera,4381,Madura United,finished,1,0
+Liga 1,938101,2024-08-17,08:30,4385,Arema,4383,Borneo,finished,0,2
+Liga 1,938102,2024-08-17,12:00,4398,Persis Solo,4390,PSIS Semarang,finished,0,1
+Liga 1,938103,2024-08-18,08:30,3230,Bali United,4393,Semen Padang,finished,2,0
+Liga 1,938104,2024-08-18,12:00,4397,Persita,4386,Persija,finished,0,0
+Liga 1,938105,2024-08-19,08:30,4384,PSS Sleman,4396,Persik Kediri,finished,0,2
+Liga 1,938106,2024-08-19,12:00,4399,Dewa United,4382,Persib,finished,2,2
+Liga 1,938107,2024-08-23,08:30,4390,PSIS Semarang,15128,PSBS Biak Numfor,finished,1,0
+Liga 1,938108,2024-08-23,12:00,4378,Persebaya Surabaya,4389,Barito Putera,finished,2,1
+Liga 1,938109,2024-08-24,08:30,4381,Madura United,4397,Persita,finished,0,1
+Liga 1,938110,2024-08-24,12:00,4386,Persija,4398,Persis Solo,finished,2,1
+Liga 1,938111,2024-08-25,08:30,4396,Persik Kediri,15438,Malut United,finished,0,0
+Liga 1,938112,2024-08-25,12:00,4382,Persib,4385,Arema,finished,1,1
+Liga 1,938113,2024-08-26,08:30,4393,Semen Padang,4384,PSS Sleman,finished,1,0
+Liga 1,938114,2024-08-26,12:00,4388,PSM,4399,Dewa United,finished,3,1
+Liga 1,938115,2024-08-27,12:00,4383,Borneo,3230,Bali United,finished,2,0
+Liga 1,938118,2024-09-11,08:30,4388,PSM,4382,Persib,finished,0,0
+Liga 1,938117,2024-09-11,08:30,4399,Dewa United,4390,PSIS Semarang,finished,2,1
+Liga 1,938116,2024-09-11,08:30,3230,Bali United,4385,Arema,finished,0,0
+Liga 1,938119,2024-09-12,08:30,4384,PSS Sleman,4383,Borneo,finished,1,1
+Liga 1,938120,2024-09-12,12:00,15128,PSBS Biak Numfor,4386,Persija,finished,3,1
+Liga 1,938121,2024-09-13,08:30,15438,Malut United,4393,Semen Padang,finished,2,1
+Liga 1,938122,2024-09-13,12:00,4398,Persis Solo,4381,Madura United,finished,4,0
+Liga 1,938123,2024-09-14,08:30,4389,Barito Putera,4396,Persik Kediri,finished,2,2
+Liga 1,938124,2024-09-14,12:00,4397,Persita,4378,Persebaya Surabaya,finished,0,1
+Liga 1,938125,2024-09-15,08:30,4388,PSM,4385,Arema,finished,0,1
+Liga 1,938126,2024-09-15,12:00,4382,Persib,4390,PSIS Semarang,finished,2,1
+Liga 1,938127,2024-09-16,08:30,3230,Bali United,4384,PSS Sleman,finished,0,0
+Liga 1,938128,2024-09-16,12:00,4386,Persija,4399,Dewa United,finished,0,0
+Liga 1,938129,2024-09-17,08:30,15128,PSBS Biak Numfor,4381,Madura United,finished,2,1
+Liga 1,938130,2024-09-17,12:00,4383,Borneo,15438,Malut United,finished,1,0
+Liga 1,938132,2024-09-18,08:30,4396,Persik Kediri,4397,Persita,finished,1,0
+Liga 1,938131,2024-09-18,08:30,4393,Semen Padang,4389,Barito Putera,finished,1,2
+Liga 1,938133,2024-09-18,12:00,4378,Persebaya Surabaya,4398,Persis Solo,finished,2,1
+Liga 1,938134,2024-09-20,08:30,4384,PSS Sleman,4385,Arema,finished,3,1
+Liga 1,938135,2024-09-20,12:00,4388,PSM,4390,PSIS Semarang,finished,0,0
+Liga 1,938136,2024-09-21,08:30,4399,Dewa United,4381,Madura United,finished,3,3
+Liga 1,938137,2024-09-21,12:00,15438,Malut United,3230,Bali United,finished,1,4
+Liga 1,938138,2024-09-22,08:30,4397,Persita,4393,Semen Padang,finished,1,0
+Liga 1,938139,2024-09-22,12:00,15128,PSBS Biak Numfor,4378,Persebaya Surabaya,finished,0,1
+Liga 1,938141,2024-09-23,08:30,4382,Persib,4386,Persija,finished,2,0
+Liga 1,938140,2024-09-23,08:30,4398,Persis Solo,4396,Persik Kediri,finished,0,1
+Liga 1,938142,2024-09-23,12:00,4389,Barito Putera,4383,Borneo,finished,1,1
+Liga 1,938143,2024-09-26,08:30,4390,PSIS Semarang,4385,Arema,finished,1,2
+Liga 1,938144,2024-09-26,12:00,4384,PSS Sleman,15438,Malut United,finished,0,1
+Liga 1,938145,2024-09-27,08:30,3230,Bali United,4389,Barito Putera,finished,3,2
+Liga 1,938146,2024-09-27,12:00,4378,Persebaya Surabaya,4399,Dewa United,finished,0,0
+Liga 1,938147,2024-09-28,08:30,4396,Persik Kediri,15128,PSBS Biak Numfor,finished,0,1
+Liga 1,938149,2024-09-28,12:00,4381,Madura United,4382,Persib,finished,2,2
+Liga 1,938150,2024-09-29,08:30,4393,Semen Padang,4398,Persis Solo,finished,0,0
+Liga 1,938151,2024-09-29,12:00,4386,Persija,4388,PSM,finished,1,1
+Liga 1,938148,2024-09-30,12:00,4383,Borneo,4397,Persita,finished,0,0
+Liga 1,938152,2024-10-17,08:30,4399,Dewa United,4396,Persik Kediri,finished,2,3
+Liga 1,938153,2024-10-17,12:00,4390,PSIS Semarang,4386,Persija,finished,0,2
+Liga 1,938155,2024-10-18,08:30,4382,Persib,4378,Persebaya Surabaya,finished,2,0
+Liga 1,938154,2024-10-18,08:30,15128,PSBS Biak Numfor,4393,Semen Padang,finished,3,2
+Liga 1,938156,2024-10-18,12:00,4388,PSM,4381,Madura United,finished,2,0
+Liga 1,938157,2024-10-19,08:30,4385,Arema,15438,Malut United,finished,3,1
+Liga 1,938158,2024-10-19,12:00,4398,Persis Solo,4383,Borneo,finished,3,2
+Liga 1,938159,2024-10-20,08:30,4389,Barito Putera,4384,PSS Sleman,finished,0,3
+Liga 1,938160,2024-10-20,12:00,4397,Persita,3230,Bali United,finished,0,1
+Liga 1,938161,2024-10-23,08:30,4381,Madura United,4390,PSIS Semarang,finished,2,0
+Liga 1,938162,2024-10-23,12:00,4378,Persebaya Surabaya,4388,PSM,finished,1,1
+Liga 1,938163,2024-10-25,08:30,4393,Semen Padang,4399,Dewa United,finished,1,8
+Liga 1,938164,2024-10-25,12:00,4383,Borneo,15128,PSBS Biak Numfor,finished,3,0
+Liga 1,938165,2024-10-26,08:30,15438,Malut United,4389,Barito Putera,finished,0,0
+Liga 1,938166,2024-10-26,12:00,4385,Arema,4386,Persija,finished,1,2
+Liga 1,938167,2024-10-27,08:30,4384,PSS Sleman,4397,Persita,finished,1,2
+Liga 1,938168,2024-10-27,12:00,3230,Bali United,4398,Persis Solo,finished,3,0
+Liga 1,938169,2024-10-28,12:00,4396,Persik Kediri,4382,Persib,finished,0,2
+Liga 1,938170,2024-11-01,08:30,4389,Barito Putera,4385,Arema,finished,1,3
+Liga 1,938171,2024-11-01,12:00,4382,Persib,4393,Semen Padang,finished,1,1
+Liga 1,938172,2024-11-02,08:30,4390,PSIS Semarang,4378,Persebaya Surabaya,finished,0,1
+Liga 1,938173,2024-11-02,12:00,4383,Borneo,4399,Dewa United,finished,1,0
+Liga 1,938174,2024-11-03,08:30,15128,PSBS Biak Numfor,3230,Bali United,finished,2,0
+Liga 1,938175,2024-11-03,12:00,4398,Persis Solo,4384,PSS Sleman,finished,0,2
+Liga 1,938176,2024-11-04,08:30,4397,Persita,15438,Malut United,finished,1,1
+Liga 1,938177,2024-11-04,12:00,4388,PSM,4396,Persik Kediri,finished,1,1
+Liga 1,938178,2024-11-06,12:00,4386,Persija,4381,Madura United,finished,4,1
+Liga 1,938179,2024-11-21,08:30,15438,Malut United,4398,Persis Solo,finished,3,0
+Liga 1,938180,2024-11-21,08:30,4381,Madura United,4385,Arema,finished,2,4
+Liga 1,938181,2024-11-21,12:00,4393,Semen Padang,4388,PSM,finished,1,1
+Liga 1,938183,2024-11-22,08:30,4378,Persebaya Surabaya,4386,Persija,finished,2,1
+Liga 1,938182,2024-11-22,08:30,4384,PSS Sleman,15128,PSBS Biak Numfor,finished,0,1
+Liga 1,938184,2024-11-22,12:00,4382,Persib,4383,Borneo,finished,1,0
+Liga 1,938185,2024-11-23,08:30,4396,Persik Kediri,4390,PSIS Semarang,finished,0,1
+Liga 1,938186,2024-11-23,08:30,4389,Barito Putera,4397,Persita,finished,0,2
+Liga 1,938187,2024-11-23,12:00,4399,Dewa United,3230,Bali United,finished,1,0
+Liga 1,938188,2024-12-01,08:30,4390,PSIS Semarang,4393,Semen Padang,finished,1,0
+Liga 1,938190,2024-12-01,08:30,4386,Persija,4396,Persik Kediri,finished,2,0
+Liga 1,938191,2024-12-02,08:30,15128,PSBS Biak Numfor,15438,Malut United,finished,1,3
+Liga 1,938192,2024-12-02,08:30,4388,PSM,4383,Borneo,finished,1,0
+Liga 1,938193,2024-12-02,12:00,4381,Madura United,4378,Persebaya Surabaya,finished,1,2
+Liga 1,938195,2024-12-03,08:30,4399,Dewa United,4384,PSS Sleman,finished,2,1
+Liga 1,938194,2024-12-03,08:30,4385,Arema,4397,Persita,finished,3,0
+Liga 1,938196,2024-12-03,12:00,4398,Persis Solo,4389,Barito Putera,finished,0,0
+Liga 1,938197,2024-12-06,08:30,4396,Persik Kediri,4381,Madura United,finished,1,0
+Liga 1,938198,2024-12-06,08:30,4383,Borneo,4390,PSIS Semarang,finished,0,0
+Liga 1,938199,2024-12-06,12:00,4393,Semen Padang,4386,Persija,finished,0,1
+Liga 1,938200,2024-12-07,08:30,4378,Persebaya Surabaya,4385,Arema,finished,3,2
+Liga 1,938201,2024-12-07,08:30,15438,Malut United,4399,Dewa United,finished,1,1
+Liga 1,938202,2024-12-07,12:00,3230,Bali United,4388,PSM,finished,1,1
+Liga 1,938203,2024-12-08,08:30,4389,Barito Putera,15128,PSBS Biak Numfor,finished,0,3
+Liga 1,938204,2024-12-08,12:00,4397,Persita,4398,Persis Solo,finished,2,0
+Liga 1,938205,2024-12-09,12:00,4384,PSS Sleman,4382,Persib,finished,1,2
+Liga 1,938206,2024-12-10,08:30,4381,Madura United,4393,Semen Padang,finished,0,1
+Liga 1,938207,2024-12-10,12:00,4386,Persija,4383,Borneo,finished,1,1
+Liga 1,938208,2024-12-11,08:30,4378,Persebaya Surabaya,4396,Persik Kediri,finished,4,1
+Liga 1,938209,2024-12-11,12:00,4390,PSIS Semarang,3230,Bali United,finished,2,1
+Liga 1,938210,2024-12-12,08:30,15128,PSBS Biak Numfor,4397,Persita,finished,1,3
+Liga 1,938211,2024-12-12,08:30,4385,Arema,4398,Persis Solo,finished,1,1
+Liga 1,938212,2024-12-12,12:00,4399,Dewa United,4389,Barito Putera,finished,1,1
+Liga 1,938213,2024-12-13,08:30,4388,PSM,4384,PSS Sleman,finished,1,1
+Liga 1,938214,2024-12-13,12:00,4382,Persib,15438,Malut United,finished,2,0
+Liga 1,938215,2024-12-14,12:00,4383,Borneo,4381,Madura United,finished,5,0
+Liga 1,938216,2024-12-15,08:30,4393,Semen Padang,4378,Persebaya Surabaya,finished,0,0
+Liga 1,938217,2024-12-15,12:00,3230,Bali United,4386,Persija,finished,3,1
+Liga 1,938219,2024-12-16,08:30,4397,Persita,4399,Dewa United,finished,0,4
+Liga 1,938218,2024-12-16,08:30,4396,Persik Kediri,4385,Arema,finished,1,0
+Liga 1,938220,2024-12-16,12:00,4398,Persis Solo,15128,PSBS Biak Numfor,finished,1,1
+Liga 1,938221,2024-12-17,08:30,15438,Malut United,4388,PSM,finished,2,2
+Liga 1,938222,2024-12-17,12:00,4384,PSS Sleman,4390,PSIS Semarang,finished,2,1
+Liga 1,938223,2024-12-18,12:00,4389,Barito Putera,4382,Persib,finished,1,2
+Liga 1,938224,2024-12-20,08:30,4381,Madura United,3230,Bali United,finished,2,1
+Liga 1,938225,2024-12-20,12:00,4378,Persebaya Surabaya,4383,Borneo,finished,2,1
+Liga 1,938227,2024-12-21,08:30,4396,Persik Kediri,4393,Semen Padang,finished,3,1
+Liga 1,938226,2024-12-21,08:30,4385,Arema,15128,PSBS Biak Numfor,finished,3,2
+Liga 1,938228,2024-12-21,12:00,4399,Dewa United,4398,Persis Solo,finished,2,0
+Liga 1,938229,2024-12-21,12:00,4386,Persija,4384,PSS Sleman,finished,3,1
+Liga 1,938230,2024-12-22,08:30,4390,PSIS Semarang,15438,Malut United,finished,1,3
+Liga 1,938231,2024-12-22,08:30,4388,PSM,4389,Barito Putera,finished,3,2
+Liga 1,938232,2024-12-22,12:00,4382,Persib,4397,Persita,finished,3,1
+Liga 1,938233,2024-12-27,08:30,4393,Semen Padang,4385,Arema,finished,1,2
+Liga 1,938235,2024-12-27,12:00,4384,PSS Sleman,4381,Madura United,finished,4,0
+Liga 1,938234,2024-12-27,12:00,4383,Borneo,4396,Persik Kediri,finished,0,4
+Liga 1,938236,2024-12-28,08:30,15128,PSBS Biak Numfor,4399,Dewa United,finished,3,1
+Liga 1,938237,2024-12-28,08:30,15438,Malut United,4386,Persija,finished,0,1
+Liga 1,938238,2024-12-28,12:00,3230,Bali United,4378,Persebaya Surabaya,finished,2,0
+Liga 1,938239,2024-12-29,08:30,4397,Persita,4388,PSM,finished,2,1
+Liga 1,938240,2024-12-29,12:00,4389,Barito Putera,4390,PSIS Semarang,finished,0,0
+Liga 1,938241,2024-12-29,12:00,4398,Persis Solo,4382,Persib,finished,0,1
+Liga 1,938189,2025-01-07,12:00,3230,Bali United,4382,Persib,finished,1,1
+Liga 1,938242,2025-01-10,08:30,15438,Malut United,4381,Madura United,finished,0,1
+Liga 1,938243,2025-01-10,08:30,4389,Barito Putera,4386,Persija,finished,2,3
+Liga 1,938244,2025-01-11,06:30,15128,PSBS Biak Numfor,4382,Persib,finished,1,1
+Liga 1,938245,2025-01-11,08:30,4384,PSS Sleman,4378,Persebaya Surabaya,finished,3,1
+Liga 1,938246,2025-01-11,12:00,4399,Dewa United,4385,Arema,finished,2,0
+Liga 1,938247,2025-01-12,08:30,4397,Persita,4390,PSIS Semarang,finished,2,1
+Liga 1,938248,2025-01-12,12:00,3230,Bali United,4396,Persik Kediri,finished,1,3
+Liga 1,938249,2025-01-13,12:00,4398,Persis Solo,4388,PSM,finished,0,1
+Liga 1,938250,2025-01-14,12:00,4383,Borneo,4393,Semen Padang,finished,1,3
+Liga 1,938251,2025-01-17,08:30,4378,Persebaya Surabaya,15438,Malut United,finished,0,2
+Liga 1,938252,2025-01-17,12:00,4382,Persib,4399,Dewa United,finished,0,2
+Liga 1,938253,2025-01-18,08:30,4388,PSM,15128,PSBS Biak Numfor,finished,1,1
+Liga 1,938254,2025-01-18,12:00,4381,Madura United,4389,Barito Putera,finished,2,4
+Liga 1,938255,2025-01-19,08:30,4396,Persik Kediri,4384,PSS Sleman,finished,0,0
+Liga 1,938256,2025-01-19,08:30,4383,Borneo,4385,Arema,finished,3,1
+Liga 1,938257,2025-01-19,12:00,4386,Persija,4397,Persita,finished,2,0
+Liga 1,938258,2025-01-20,08:30,4393,Semen Padang,3230,Bali United,finished,1,5
+Liga 1,938259,2025-01-20,12:00,4390,PSIS Semarang,4398,Persis Solo,finished,1,2
+Liga 1,938260,2025-01-24,08:30,4385,Arema,4382,Persib,finished,1,3
+Liga 1,938261,2025-01-24,12:00,4397,Persita,4381,Madura United,finished,1,1
+Liga 1,938262,2025-01-25,08:00,15438,Malut United,4396,Persik Kediri,finished,2,1
+Liga 1,938263,2025-01-25,12:00,4389,Barito Putera,4378,Persebaya Surabaya,finished,3,0
+Liga 1,938264,2025-01-26,06:30,15128,PSBS Biak Numfor,4390,PSIS Semarang,finished,1,3
+Liga 1,938265,2025-01-26,08:30,4384,PSS Sleman,4393,Semen Padang,finished,2,4
+Liga 1,938266,2025-01-26,12:00,4398,Persis Solo,4386,Persija,finished,3,3
+Liga 1,938267,2025-01-27,08:30,4399,Dewa United,4388,PSM,finished,3,2
+Liga 1,938268,2025-01-28,12:00,3230,Bali United,4383,Borneo,finished,3,2
+Liga 1,938269,2025-01-31,08:30,4396,Persik Kediri,4389,Barito Putera,finished,1,1
+Liga 1,938270,2025-01-31,12:00,4378,Persebaya Surabaya,4397,Persita,finished,1,1
+Liga 1,938271,2025-02-01,08:30,4381,Madura United,4398,Persis Solo,finished,2,0
+Liga 1,938272,2025-02-01,12:00,4382,Persib,4388,PSM,finished,1,0
+Liga 1,938273,2025-02-02,08:30,4383,Borneo,4384,PSS Sleman,finished,1,0
+Liga 1,938274,2025-02-02,08:30,4393,Semen Padang,15438,Malut United,finished,1,1
+Liga 1,938275,2025-02-02,12:00,4386,Persija,15128,PSBS Biak Numfor,finished,2,2
+Liga 1,938276,2025-02-03,08:30,4385,Arema,3230,Bali United,finished,1,0
+Liga 1,938277,2025-02-03,12:00,4390,PSIS Semarang,4399,Dewa United,finished,1,4
+Liga 1,938278,2025-02-07,08:30,4397,Persita,4396,Persik Kediri,finished,1,0
+Liga 1,938279,2025-02-07,12:00,4398,Persis Solo,4378,Persebaya Surabaya,finished,2,1
+Liga 1,938280,2025-02-08,08:30,4389,Barito Putera,4393,Semen Padang,finished,2,1
+Liga 1,938281,2025-02-08,08:30,4381,Madura United,15128,PSBS Biak Numfor,finished,0,0
+Liga 1,938282,2025-02-08,12:00,4399,Dewa United,4386,Persija,finished,2,1
+Liga 1,938283,2025-02-09,08:30,4384,PSS Sleman,3230,Bali United,finished,1,2
+Liga 1,938284,2025-02-09,12:00,4390,PSIS Semarang,4382,Persib,finished,0,1
+Liga 1,938286,2025-02-10,08:30,4385,Arema,4388,PSM,finished,1,1
+Liga 1,938285,2025-02-10,12:00,15438,Malut United,4383,Borneo,finished,3,0
+Liga 1,938287,2025-02-14,08:30,4393,Semen Padang,4397,Persita,finished,2,0
+Liga 1,938288,2025-02-14,12:00,4396,Persik Kediri,4398,Persis Solo,finished,0,0
+Liga 1,938289,2025-02-15,08:30,4381,Madura United,4399,Dewa United,finished,3,1
+Liga 1,938290,2025-02-15,12:00,4378,Persebaya Surabaya,15128,PSBS Biak Numfor,finished,1,0
+Liga 1,938292,2025-02-16,08:30,4383,Borneo,4389,Barito Putera,finished,2,1
+Liga 1,938291,2025-02-16,08:30,4386,Persija,4382,Persib,finished,2,2
+Liga 1,938293,2025-02-16,12:00,4390,PSIS Semarang,4388,PSM,finished,1,1
+Liga 1,938294,2025-02-17,08:30,4385,Arema,4384,PSS Sleman,finished,6,2
+Liga 1,938295,2025-02-17,12:00,3230,Bali United,15438,Malut United,finished,1,1
+Liga 1,938297,2025-02-21,08:30,4398,Persis Solo,4393,Semen Padang,finished,1,1
+Liga 1,938296,2025-02-21,08:30,15128,PSBS Biak Numfor,4396,Persik Kediri,finished,1,1
+Liga 1,938298,2025-02-21,12:00,4399,Dewa United,4378,Persebaya Surabaya,finished,2,0
+Liga 1,938299,2025-02-22,08:30,4397,Persita,4383,Borneo,finished,1,2
+Liga 1,938300,2025-02-22,12:00,4382,Persib,4381,Madura United,finished,0,0
+Liga 1,938302,2025-02-23,08:30,4388,PSM,4386,Persija,finished,1,0
+Liga 1,938301,2025-02-23,12:00,15438,Malut United,4384,PSS Sleman,finished,1,0
+Liga 1,938303,2025-02-24,08:30,4385,Arema,4390,PSIS Semarang,finished,2,2
+Liga 1,938304,2025-02-24,12:00,4389,Barito Putera,3230,Bali United,finished,3,1
+Liga 1,938306,2025-03-01,13:30,4396,Persik Kediri,4399,Dewa United,finished,1,2
+Liga 1,938307,2025-03-01,13:30,4378,Persebaya Surabaya,4382,Persib,finished,4,1
+Liga 1,938305,2025-03-01,14:00,4393,Semen Padang,15128,PSBS Biak Numfor,finished,1,1
+Liga 1,938309,2025-03-02,13:30,3230,Bali United,4397,Persita,finished,1,1
+Liga 1,938310,2025-03-02,13:30,4381,Madura United,4388,PSM,finished,1,3
+Liga 1,938308,2025-03-02,13:30,4383,Borneo,4398,Persis Solo,finished,0,1
+Liga 1,938311,2025-03-03,13:30,4384,PSS Sleman,4389,Barito Putera,finished,1,2
+Liga 1,938312,2025-03-04,12:30,15438,Malut United,4385,Arema,finished,2,1
+Liga 1,938314,2025-03-05,13:30,4399,Dewa United,4393,Semen Padang,finished,6,0
+Liga 1,938315,2025-03-05,13:30,4382,Persib,4396,Persik Kediri,finished,4,1
+Liga 1,938313,2025-03-05,13:30,4386,Persija,4390,PSIS Semarang,finished,2,0
+Liga 1,938317,2025-03-06,13:30,4398,Persis Solo,3230,Bali United,finished,2,2
+Liga 1,938316,2025-03-06,13:30,15128,PSBS Biak Numfor,4383,Borneo,finished,1,0
+Liga 1,938319,2025-03-07,13:30,4397,Persita,4384,PSS Sleman,finished,1,2
+Liga 1,938318,2025-03-07,13:30,4388,PSM,4378,Persebaya Surabaya,finished,0,1
+Liga 1,938320,2025-03-08,13:30,4389,Barito Putera,15438,Malut United,finished,1,1
+Liga 1,938322,2025-03-09,13:30,4386,Persija,4385,Arema,finished,1,3
+Liga 1,938323,2025-03-10,13:30,4399,Dewa United,4383,Borneo,finished,0,1
+Liga 1,938324,2025-03-10,14:00,4393,Semen Padang,4382,Persib,finished,1,4
+Liga 1,938327,2025-03-11,13:30,4396,Persik Kediri,4388,PSM,finished,2,2
+Liga 1,938326,2025-03-11,13:30,4384,PSS Sleman,4398,Persis Solo,finished,1,4
+Liga 1,938325,2025-03-11,13:30,3230,Bali United,15128,PSBS Biak Numfor,finished,0,2
+Liga 1,938328,2025-03-12,12:30,15438,Malut United,4397,Persita,finished,2,1
+Liga 1,938329,2025-03-12,13:30,4378,Persebaya Surabaya,4390,PSIS Semarang,finished,1,1
+Liga 1,938331,2025-03-13,13:30,4385,Arema,4389,Barito Putera,finished,4,2
+Liga 1,938321,2025-03-16,13:30,4390,PSIS Semarang,4381,Madura United,finished,1,2
+Liga 1,938330,2025-04-06,12:00,4381,Madura United,4386,Persija,finished,1,0
+Liga 1,938333,2025-04-10,08:30,4388,PSM,4393,Semen Padang,finished,2,0
+Liga 1,938334,2025-04-10,12:00,3230,Bali United,4399,Dewa United,finished,0,0
+Liga 1,938332,2025-04-11,08:30,15128,PSBS Biak Numfor,4384,PSS Sleman,finished,2,1
+Liga 1,938335,2025-04-11,08:30,4390,PSIS Semarang,4396,Persik Kediri,finished,0,0
+Liga 1,938336,2025-04-11,12:00,4383,Borneo,4382,Persib,finished,2,2
+Liga 1,938337,2025-04-12,08:30,4398,Persis Solo,15438,Malut United,finished,1,3
+Liga 1,938338,2025-04-12,12:00,4386,Persija,4378,Persebaya Surabaya,finished,1,1
+Liga 1,938339,2025-04-13,12:00,4397,Persita,4389,Barito Putera,finished,2,1
+Liga 1,938341,2025-04-17,08:30,4393,Semen Padang,4390,PSIS Semarang,finished,3,2
+Liga 1,938342,2025-04-17,12:00,4384,PSS Sleman,4399,Dewa United,finished,0,1
+Liga 1,938344,2025-04-18,08:30,4383,Borneo,4388,PSM,finished,1,1
+Liga 1,938345,2025-04-18,12:00,4382,Persib,3230,Bali United,finished,2,1
+Liga 1,938343,2025-04-18,12:00,15438,Malut United,15128,PSBS Biak Numfor,finished,1,1
+Liga 1,938346,2025-04-19,12:00,4389,Barito Putera,4398,Persis Solo,finished,0,1
+Liga 1,938347,2025-04-19,12:00,4396,Persik Kediri,4386,Persija,finished,0,1
+Liga 1,938348,2025-04-20,08:30,4397,Persita,4385,Arema,finished,3,2
+Liga 1,938349,2025-04-20,12:00,4378,Persebaya Surabaya,4381,Madura United,finished,1,0
+Liga 1,938340,2025-04-24,12:00,4385,Arema,4381,Madura United,finished,0,1
+Liga 1,938350,2025-04-25,08:30,4390,PSIS Semarang,4383,Borneo,finished,2,5
+Liga 1,938351,2025-04-25,08:30,4399,Dewa United,15438,Malut United,finished,1,2
+Liga 1,938352,2025-04-25,12:00,4388,PSM,3230,Bali United,finished,0,1
+Liga 1,938353,2025-04-26,08:30,15128,PSBS Biak Numfor,4389,Barito Putera,finished,2,1
+Liga 1,938354,2025-04-26,12:00,4382,Persib,4384,PSS Sleman,finished,3,0
+Liga 1,938355,2025-04-27,08:30,4398,Persis Solo,4397,Persita,finished,1,0
+Liga 1,938356,2025-04-27,12:00,4386,Persija,4393,Semen Padang,finished,0,2
+Liga 1,938357,2025-04-28,08:30,4385,Arema,4378,Persebaya Surabaya,finished,1,1
+Liga 1,938358,2025-04-28,12:00,4381,Madura United,4396,Persik Kediri,finished,2,1
+Liga 1,938359,2025-05-01,12:00,3230,Bali United,4390,PSIS Semarang,finished,4,0
+Liga 1,938361,2025-05-02,08:30,4389,Barito Putera,4399,Dewa United,finished,1,1
+Liga 1,938360,2025-05-02,12:00,15438,Malut United,4382,Persib,finished,1,0
+Liga 1,938362,2025-05-03,08:30,4397,Persita,15128,PSBS Biak Numfor,finished,0,2
+Liga 1,938363,2025-05-03,12:00,4384,PSS Sleman,4388,PSM,finished,3,1
+Liga 1,938364,2025-05-04,08:30,4393,Semen Padang,4381,Madura United,finished,2,1
+Liga 1,938365,2025-05-04,12:00,4383,Borneo,4386,Persija,finished,1,0
+Liga 1,938366,2025-05-05,08:30,4396,Persik Kediri,4378,Persebaya Surabaya,finished,3,3
+Liga 1,938367,2025-05-05,12:00,4398,Persis Solo,4385,Arema,finished,0,1
+Liga 1,938369,2025-05-09,08:30,4399,Dewa United,4397,Persita,finished,3,0
+Liga 1,938368,2025-05-09,08:30,4390,PSIS Semarang,4384,PSS Sleman,finished,1,2
+Liga 1,938370,2025-05-09,12:00,4382,Persib,4389,Barito Putera,finished,1,1
+Liga 1,938372,2025-05-10,08:30,4381,Madura United,4383,Borneo,finished,2,3
+Liga 1,938371,2025-05-10,08:30,4388,PSM,15438,Malut United,finished,3,2
+Liga 1,938373,2025-05-10,12:00,4386,Persija,3230,Bali United,finished,3,0
+Liga 1,938374,2025-05-11,06:30,15128,PSBS Biak Numfor,4398,Persis Solo,finished,0,2
+Liga 1,938375,2025-05-11,08:30,4385,Arema,4396,Persik Kediri,finished,0,3
+Liga 1,938376,2025-05-11,12:00,4378,Persebaya Surabaya,4393,Semen Padang,finished,1,1
+Liga 1,938378,2025-05-16,08:30,4397,Persita,4382,Persib,finished,2,2
+Liga 1,938377,2025-05-16,12:00,15438,Malut United,4390,PSIS Semarang,finished,5,1
+Liga 1,938380,2025-05-17,08:30,3230,Bali United,4381,Madura United,finished,0,2
+Liga 1,938379,2025-05-17,08:30,4389,Barito Putera,4388,PSM,finished,1,4
+Liga 1,938381,2025-05-17,12:00,4384,PSS Sleman,4386,Persija,finished,2,1
+Liga 1,938382,2025-05-17,12:00,4398,Persis Solo,4399,Dewa United,finished,1,1
+Liga 1,938383,2025-05-18,06:30,15128,PSBS Biak Numfor,4385,Arema,finished,2,2
+Liga 1,938384,2025-05-18,08:30,4393,Semen Padang,4396,Persik Kediri,finished,1,1
+Liga 1,938385,2025-05-18,12:00,4383,Borneo,4378,Persebaya Surabaya,finished,1,1
+Liga 1,938386,2025-05-23,08:30,4396,Persik Kediri,4383,Borneo,finished,1,2
+Liga 1,938388,2025-05-23,12:00,4386,Persija,15438,Malut United,finished,0,0
+Liga 1,938391,2025-05-23,12:00,4388,PSM,4397,Persita,finished,1,0
+Liga 1,938387,2025-05-23,12:00,4378,Persebaya Surabaya,3230,Bali United,finished,1,3
+Liga 1,938392,2025-05-23,12:00,4399,Dewa United,15128,PSBS Biak Numfor,finished,4,0
+Liga 1,938394,2025-05-24,09:00,4382,Persib,4398,Persis Solo,finished,3,2
+Liga 1,938390,2025-05-24,09:00,4390,PSIS Semarang,4389,Barito Putera,finished,1,2
+Liga 1,938389,2025-05-24,09:00,4385,Arema,4393,Semen Padang,finished,0,2
+Liga 1,938393,2025-05-24,09:00,4381,Madura United,4384,PSS Sleman,finished,0,3

@@ -1,0 +1,14 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+A-League,1,17114,Auckland,26,53,15,8,3,49,27,22
+A-League,2,3873,Melbourne City,26,48,14,6,6,41,25,16
+A-League,3,3878,Western United,26,47,14,5,7,55,37,18
+A-League,4,3876,Western Sydney Wanderers,26,46,13,7,6,58,40,18
+A-League,5,3871,Melbourne Victory,26,43,12,7,7,44,36,8
+A-League,6,3872,Adelaide United,26,38,10,8,8,53,55,-2
+A-League,7,3870,Sydney,26,37,10,7,9,53,46,7
+A-League,8,3879,Macarthur,26,33,9,6,11,50,45,5
+A-League,9,3875,Newcastle Jets,26,30,8,6,12,43,44,-1
+A-League,10,3877,Central Coast Mariners,26,26,5,11,10,29,51,-22
+A-League,11,3874,Wellington Phoenix,26,24,6,6,14,27,43,-16
+A-League,12,2788,Brisbane Roar,26,21,5,6,15,32,51,-19
+A-League,13,2992,Perth Glory,26,17,4,5,17,22,56,-34

@@ -1,0 +1,7 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+Superliga,1,3772,FC Copenhagen,32,63,18,9,5,60,33,27
+Superliga,2,3046,Midtjylland,32,62,19,5,8,64,42,22
+Superliga,3,2986,Brondby,32,51,13,12,7,58,46,12
+Superliga,4,3773,Randers,32,48,13,9,10,57,50,7
+Superliga,5,3337,Nordsjaelland,32,46,13,7,12,53,56,-3
+Superliga,6,3636,AGF,32,40,10,10,12,53,46,7

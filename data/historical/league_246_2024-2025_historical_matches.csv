@@ -1,0 +1,97 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Liga Nacional,923193,2024-08-03,02:00,4327,Malacateco,4337,Achuapa,finished,0,2
+Liga Nacional,923192,2024-08-03,21:00,4335,Mixco,2705,Municipal,finished,0,0
+Liga Nacional,923194,2024-08-04,00:00,4326,Comunicaciones,4324,Antigua GFC,finished,1,1
+Liga Nacional,923196,2024-08-04,02:00,4330,Xelaju,10132,Marquense,finished,3,1
+Liga Nacional,923762,2024-08-04,21:00,4328,Guastatoya,10130,Zacapa Tellioz,finished,0,0
+Liga Nacional,923195,2024-08-04,23:00,4340,Xinabajul,4325,Coban Imperial,finished,0,3
+Liga Nacional,923199,2024-08-10,02:00,10132,Marquense,4335,Mixco,finished,2,0
+Liga Nacional,923201,2024-08-10,21:00,4325,Coban Imperial,4326,Comunicaciones,finished,2,3
+Liga Nacional,923200,2024-08-11,00:00,4324,Antigua GFC,4328,Guastatoya,finished,1,0
+Liga Nacional,923763,2024-08-11,02:00,10130,Zacapa Tellioz,4340,Xinabajul,finished,0,2
+Liga Nacional,923198,2024-08-11,17:00,2705,Municipal,4327,Malacateco,finished,0,0
+Liga Nacional,923197,2024-08-11,21:00,4337,Achuapa,4330,Xelaju,finished,0,0
+Liga Nacional,923206,2024-08-17,21:00,4335,Mixco,4337,Achuapa,finished,0,1
+Liga Nacional,923764,2024-08-18,00:00,4326,Comunicaciones,10130,Zacapa Tellioz,finished,2,0
+Liga Nacional,923204,2024-08-18,02:00,4330,Xelaju,4327,Malacateco,finished,0,0
+Liga Nacional,923203,2024-08-18,21:00,4325,Coban Imperial,4324,Antigua GFC,finished,3,3
+Liga Nacional,923202,2024-08-18,23:00,4340,Xinabajul,4328,Guastatoya,finished,1,0
+Liga Nacional,923205,2024-08-19,02:00,10132,Marquense,2705,Municipal,finished,0,0
+Liga Nacional,923213,2024-08-21,18:30,2705,Municipal,4337,Achuapa,finished,3,0
+Liga Nacional,923209,2024-08-24,02:00,4327,Malacateco,4335,Mixco,finished,0,1
+Liga Nacional,923211,2024-08-24,21:00,4328,Guastatoya,4326,Comunicaciones,finished,1,2
+Liga Nacional,923208,2024-08-25,02:00,4330,Xelaju,2705,Municipal,finished,0,0
+Liga Nacional,923207,2024-08-25,21:00,4337,Achuapa,10132,Marquense,finished,3,0
+Liga Nacional,923765,2024-08-26,00:00,10130,Zacapa Tellioz,4325,Coban Imperial,finished,0,0
+Liga Nacional,923210,2024-08-26,02:00,4340,Xinabajul,4324,Antigua GFC,finished,2,0
+Liga Nacional,923212,2024-08-31,20:00,4325,Coban Imperial,4328,Guastatoya,finished,3,0
+Liga Nacional,923215,2024-09-01,02:00,10132,Marquense,4327,Malacateco,finished,2,2
+Liga Nacional,923766,2024-09-01,17:00,4324,Antigua GFC,10130,Zacapa Tellioz,finished,3,0
+Liga Nacional,923214,2024-09-02,01:00,4326,Comunicaciones,4340,Xinabajul,finished,1,2
+Liga Nacional,923221,2024-09-07,03:00,10132,Marquense,4325,Coban Imperial,finished,0,1
+Liga Nacional,923218,2024-09-08,00:00,4330,Xelaju,4340,Xinabajul,finished,2,0
+Liga Nacional,923219,2024-09-08,02:00,4327,Malacateco,4328,Guastatoya,finished,0,0
+Liga Nacional,923767,2024-09-08,21:00,4337,Achuapa,10130,Zacapa Tellioz,finished,2,2
+Liga Nacional,923216,2024-09-11,21:00,4335,Mixco,4330,Xelaju,finished,1,0
+Liga Nacional,923226,2024-09-12,01:00,4326,Comunicaciones,4337,Achuapa,finished,1,0
+Liga Nacional,923224,2024-09-15,00:00,4324,Antigua GFC,4327,Malacateco,finished,3,1
+Liga Nacional,923768,2024-09-15,02:00,10130,Zacapa Tellioz,10132,Marquense,finished,0,0
+Liga Nacional,923223,2024-09-15,21:00,4328,Guastatoya,4330,Xelaju,finished,1,1
+Liga Nacional,923225,2024-09-15,23:00,4340,Xinabajul,4335,Mixco,finished,3,3
+Liga Nacional,923220,2024-09-18,18:30,2705,Municipal,4324,Antigua GFC,finished,2,1
+Liga Nacional,923217,2024-09-18,21:00,4335,Mixco,4326,Comunicaciones,finished,2,1
+Liga Nacional,923230,2024-09-21,02:00,4327,Malacateco,4325,Coban Imperial,finished,1,0
+Liga Nacional,923228,2024-09-21,21:00,4335,Mixco,4328,Guastatoya,finished,1,1
+Liga Nacional,923229,2024-09-22,01:00,4330,Xelaju,4324,Antigua GFC,finished,4,1
+Liga Nacional,923231,2024-09-22,03:00,10132,Marquense,4326,Comunicaciones,finished,2,1
+Liga Nacional,923769,2024-09-22,17:00,2705,Municipal,10130,Zacapa Tellioz,finished,5,0
+Liga Nacional,923227,2024-09-23,16:00,4337,Achuapa,4340,Xinabajul,finished,1,1
+Liga Nacional,923235,2024-09-28,21:00,4325,Coban Imperial,4330,Xelaju,finished,0,0
+Liga Nacional,923770,2024-09-29,02:00,10130,Zacapa Tellioz,4327,Malacateco,finished,0,1
+Liga Nacional,923234,2024-09-29,20:00,4328,Guastatoya,4337,Achuapa,finished,1,1
+Liga Nacional,923233,2024-09-29,22:00,4340,Xinabajul,10132,Marquense,finished,3,0
+Liga Nacional,923232,2024-09-30,00:00,4326,Comunicaciones,2705,Municipal,finished,1,2
+Liga Nacional,923240,2024-10-03,18:30,2705,Municipal,4340,Xinabajul,finished,4,3
+Liga Nacional,923771,2024-10-06,01:00,4330,Xelaju,10130,Zacapa Tellioz,finished,4,0
+Liga Nacional,923241,2024-10-06,03:00,10132,Marquense,4328,Guastatoya,finished,1,1
+Liga Nacional,923245,2024-10-12,21:00,4325,Coban Imperial,4337,Achuapa,finished,3,1
+Liga Nacional,923242,2024-10-13,00:00,4324,Antigua GFC,10132,Marquense,finished,4,2
+Liga Nacional,923244,2024-10-13,23:00,4340,Xinabajul,4327,Malacateco,finished,3,1
+Liga Nacional,923246,2024-10-14,01:00,4326,Comunicaciones,4330,Xelaju,finished,0,4
+Liga Nacional,923773,2024-10-19,02:00,10130,Zacapa Tellioz,4328,Guastatoya,finished,1,1
+Liga Nacional,923247,2024-10-19,21:00,2705,Municipal,4335,Mixco,finished,3,0
+Liga Nacional,923248,2024-10-20,02:00,10132,Marquense,4330,Xelaju,finished,1,2
+Liga Nacional,923251,2024-10-20,17:00,4325,Coban Imperial,4340,Xinabajul,finished,0,0
+Liga Nacional,923249,2024-10-20,21:00,4337,Achuapa,4327,Malacateco,finished,0,2
+Liga Nacional,923238,2024-10-23,21:00,4335,Mixco,4325,Coban Imperial,finished,1,0
+Liga Nacional,923243,2024-10-23,23:00,4328,Guastatoya,2705,Municipal,finished,1,2
+Liga Nacional,923256,2024-10-26,21:00,4335,Mixco,10132,Marquense,finished,0,0
+Liga Nacional,923254,2024-10-27,00:00,4327,Malacateco,2705,Municipal,finished,4,0
+Liga Nacional,923255,2024-10-27,03:00,4330,Xelaju,4337,Achuapa,finished,2,0
+Liga Nacional,923774,2024-10-27,23:00,4340,Xinabajul,10130,Zacapa Tellioz,finished,2,0
+Liga Nacional,923258,2024-11-02,01:00,4327,Malacateco,4330,Xelaju,finished,1,0
+Liga Nacional,923259,2024-11-02,20:00,2705,Municipal,10132,Marquense,finished,2,0
+Liga Nacional,923257,2024-11-02,21:45,4337,Achuapa,4335,Mixco,finished,2,1
+Liga Nacional,923261,2024-11-03,00:00,4324,Antigua GFC,4325,Coban Imperial,finished,0,2
+Liga Nacional,923775,2024-11-03,02:00,10130,Zacapa Tellioz,4326,Comunicaciones,finished,0,0
+Liga Nacional,923260,2024-11-03,21:00,4328,Guastatoya,4340,Xinabajul,finished,5,1
+Liga Nacional,923239,2024-11-07,01:00,4327,Malacateco,4326,Comunicaciones,finished,2,0
+Liga Nacional,923236,2024-11-07,02:00,4324,Antigua GFC,4335,Mixco,finished,3,0
+Liga Nacional,923265,2024-11-09,21:00,4335,Mixco,4327,Malacateco,finished,2,0
+Liga Nacional,923262,2024-11-10,00:00,4324,Antigua GFC,4340,Xinabajul,finished,2,2
+Liga Nacional,923264,2024-11-10,17:00,2705,Municipal,4330,Xelaju,finished,1,1
+Liga Nacional,923776,2024-11-10,21:00,4325,Coban Imperial,10130,Zacapa Tellioz,finished,3,1
+Liga Nacional,923263,2024-11-11,00:00,4326,Comunicaciones,4328,Guastatoya,finished,3,0
+Liga Nacional,923266,2024-11-11,02:00,10132,Marquense,4337,Achuapa,finished,0,0
+Liga Nacional,923250,2024-11-14,02:00,4324,Antigua GFC,4326,Comunicaciones,finished,2,2
+Liga Nacional,923222,2024-11-16,21:00,4325,Coban Imperial,2705,Municipal,finished,3,0
+Liga Nacional,923237,2024-11-17,21:00,4337,Achuapa,4324,Antigua GFC,finished,1,0
+Liga Nacional,923252,2024-11-20,21:00,4328,Guastatoya,4324,Antigua GFC,finished,1,1
+Liga Nacional,923253,2024-11-21,00:00,4326,Comunicaciones,4325,Coban Imperial,finished,4,2
+Liga Nacional,923772,2024-11-21,02:00,10130,Zacapa Tellioz,4335,Mixco,finished,0,1
+Liga Nacional,923267,2024-11-24,21:00,4330,Xelaju,4335,Mixco,finished,3,2
+Liga Nacional,923268,2024-11-24,21:00,4337,Achuapa,2705,Municipal,finished,1,1
+Liga Nacional,923271,2024-11-24,21:00,4328,Guastatoya,4325,Coban Imperial,finished,2,0
+Liga Nacional,923269,2024-11-24,21:00,4327,Malacateco,10132,Marquense,finished,4,0
+Liga Nacional,923270,2024-11-24,21:00,4340,Xinabajul,4326,Comunicaciones,finished,1,2
+Liga Nacional,923777,2024-11-24,21:00,10130,Zacapa Tellioz,4324,Antigua GFC,finished,1,2

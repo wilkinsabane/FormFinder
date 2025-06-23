@@ -1,0 +1,307 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Ligue 2,926034,2024-08-16,18:00,4255,Dunkerque,4259,Annecy,finished,0,2
+Ligue 2,926035,2024-08-16,18:00,3471,Amiens SC,4250,Red Star,finished,3,0
+Ligue 2,926037,2024-08-16,18:00,4237,Guingamp,3542,Troyes,finished,4,0
+Ligue 2,926033,2024-08-16,18:00,4240,Ajaccio,4252,Rodez,finished,1,0
+Ligue 2,926032,2024-08-16,18:00,3294,Clermont,4254,Pau,finished,2,2
+Ligue 2,926036,2024-08-16,18:00,3133,Grenoble Foot 38,4258,Laval,finished,2,1
+Ligue 2,926039,2024-08-17,12:30,4236,Caen,4241,Paris FC,finished,0,2
+Ligue 2,926038,2024-08-19,18:45,4238,Metz,4256,Bastia,finished,1,1
+Ligue 2,926031,2024-08-19,18:45,6282,Martigues,4239,Lorient,finished,0,1
+Ligue 2,926043,2024-08-23,18:00,4254,Pau,4236,Caen,finished,1,0
+Ligue 2,926042,2024-08-23,18:00,4252,Rodez,4238,Metz,finished,1,3
+Ligue 2,926048,2024-08-23,18:00,4258,Laval,4237,Guingamp,finished,0,1
+Ligue 2,926046,2024-08-23,18:00,4241,Paris FC,4255,Dunkerque,finished,3,2
+Ligue 2,926045,2024-08-23,18:00,4259,Annecy,6282,Martigues,finished,2,4
+Ligue 2,926044,2024-08-23,18:00,4256,Bastia,3471,Amiens SC,finished,1,0
+Ligue 2,926040,2024-08-23,18:00,3542,Troyes,3294,Clermont,finished,0,1
+Ligue 2,926041,2024-08-24,12:30,4239,Lorient,3133,Grenoble Foot 38,finished,2,0
+Ligue 2,926047,2024-08-26,18:45,4250,Red Star,4240,Ajaccio,finished,1,0
+Ligue 2,926054,2024-08-30,18:00,4240,Ajaccio,3542,Troyes,finished,2,1
+Ligue 2,926056,2024-08-30,18:00,3294,Clermont,4241,Paris FC,finished,0,1
+Ligue 2,926050,2024-08-30,18:00,6282,Martigues,4256,Bastia,finished,0,1
+Ligue 2,926049,2024-08-30,18:00,3133,Grenoble Foot 38,4254,Pau,finished,1,1
+Ligue 2,926052,2024-08-30,18:00,4255,Dunkerque,4252,Rodez,finished,1,0
+Ligue 2,926053,2024-08-30,18:00,4237,Guingamp,4250,Red Star,finished,3,4
+Ligue 2,926051,2024-08-30,18:00,4236,Caen,4259,Annecy,finished,1,1
+Ligue 2,926055,2024-08-31,12:30,3471,Amiens SC,4239,Lorient,finished,1,0
+Ligue 2,926057,2024-08-31,12:30,4238,Metz,4258,Laval,finished,1,1
+Ligue 2,926064,2024-09-13,18:00,3294,Clermont,4255,Dunkerque,finished,0,1
+Ligue 2,926061,2024-09-13,18:00,4252,Rodez,4237,Guingamp,finished,1,2
+Ligue 2,926062,2024-09-13,18:00,4254,Pau,6282,Martigues,finished,3,0
+Ligue 2,926060,2024-09-13,18:00,4256,Bastia,3542,Troyes,finished,0,0
+Ligue 2,926065,2024-09-13,18:00,4239,Lorient,4250,Red Star,finished,2,1
+Ligue 2,926063,2024-09-13,18:00,4259,Annecy,3471,Amiens SC,finished,3,0
+Ligue 2,926066,2024-09-13,18:00,4258,Laval,4240,Ajaccio,finished,1,1
+Ligue 2,926059,2024-09-14,12:30,4241,Paris FC,4238,Metz,finished,1,2
+Ligue 2,926058,2024-09-16,18:45,3133,Grenoble Foot 38,4236,Caen,finished,3,1
+Ligue 2,926074,2024-09-20,18:00,3471,Amiens SC,3294,Clermont,finished,1,0
+Ligue 2,926071,2024-09-20,18:00,4250,Red Star,4258,Laval,finished,0,3
+Ligue 2,926073,2024-09-20,18:00,3542,Troyes,4252,Rodez,finished,0,3
+Ligue 2,926070,2024-09-20,18:00,4255,Dunkerque,4254,Pau,finished,3,2
+Ligue 2,926067,2024-09-20,18:00,6282,Martigues,3133,Grenoble Foot 38,finished,0,4
+Ligue 2,926075,2024-09-20,18:00,4236,Caen,4240,Ajaccio,finished,1,0
+Ligue 2,926068,2024-09-20,18:00,4256,Bastia,4241,Paris FC,finished,2,1
+Ligue 2,926069,2024-09-20,18:00,4237,Guingamp,4259,Annecy,finished,2,2
+Ligue 2,926072,2024-09-21,12:30,4238,Metz,4239,Lorient,finished,1,1
+Ligue 2,926076,2024-09-24,18:30,4236,Caen,3471,Amiens SC,finished,2,1
+Ligue 2,926077,2024-09-24,18:30,4259,Annecy,3542,Troyes,finished,1,0
+Ligue 2,926081,2024-09-24,18:30,4240,Ajaccio,3133,Grenoble Foot 38,finished,2,0
+Ligue 2,926084,2024-09-24,18:30,4252,Rodez,4258,Laval,finished,1,3
+Ligue 2,926082,2024-09-24,18:30,4255,Dunkerque,4256,Bastia,finished,2,1
+Ligue 2,926078,2024-09-24,18:30,4238,Metz,6282,Martigues,finished,6,0
+Ligue 2,926079,2024-09-24,18:30,4241,Paris FC,4237,Guingamp,finished,2,0
+Ligue 2,926083,2024-09-24,18:30,3294,Clermont,4250,Red Star,finished,1,1
+Ligue 2,926080,2024-09-24,18:30,4254,Pau,4239,Lorient,finished,1,0
+Ligue 2,926087,2024-09-27,18:00,4256,Bastia,4259,Annecy,finished,2,2
+Ligue 2,926091,2024-09-27,18:00,4239,Lorient,4240,Ajaccio,finished,3,0
+Ligue 2,926085,2024-09-27,18:00,3133,Grenoble Foot 38,3294,Clermont,finished,3,0
+Ligue 2,926090,2024-09-27,18:00,4258,Laval,4254,Pau,finished,3,1
+Ligue 2,926088,2024-09-27,18:00,6282,Martigues,4255,Dunkerque,finished,1,1
+Ligue 2,926086,2024-09-27,18:00,3471,Amiens SC,4252,Rodez,finished,2,1
+Ligue 2,926089,2024-09-28,12:00,4250,Red Star,4241,Paris FC,finished,1,3
+Ligue 2,926092,2024-09-28,18:00,3542,Troyes,4238,Metz,finished,2,1
+Ligue 2,926093,2024-09-30,18:45,4237,Guingamp,4236,Caen,finished,3,1
+Ligue 2,926097,2024-10-04,18:00,4255,Dunkerque,3542,Troyes,finished,2,1
+Ligue 2,926102,2024-10-04,18:00,4241,Paris FC,4258,Laval,finished,1,0
+Ligue 2,926098,2024-10-04,18:00,4252,Rodez,3133,Grenoble Foot 38,finished,2,1
+Ligue 2,926101,2024-10-04,18:00,4259,Annecy,4250,Red Star,finished,1,0
+Ligue 2,926094,2024-10-05,12:00,3294,Clermont,4237,Guingamp,finished,4,1
+Ligue 2,926100,2024-10-05,12:00,4240,Ajaccio,6282,Martigues,finished,1,1
+Ligue 2,926095,2024-10-05,12:00,4236,Caen,4239,Lorient,finished,1,2
+Ligue 2,926096,2024-10-05,18:00,4238,Metz,3471,Amiens SC,finished,3,2
+Ligue 2,926107,2024-10-18,18:00,4250,Red Star,4236,Caen,finished,2,2
+Ligue 2,926108,2024-10-18,18:00,4258,Laval,4255,Dunkerque,finished,3,2
+Ligue 2,926110,2024-10-18,18:00,3133,Grenoble Foot 38,4238,Metz,finished,2,0
+Ligue 2,926111,2024-10-18,18:00,4256,Bastia,3294,Clermont,finished,0,0
+Ligue 2,926104,2024-10-18,18:00,4237,Guingamp,4254,Pau,finished,0,1
+Ligue 2,926103,2024-10-18,18:00,6282,Martigues,4252,Rodez,finished,0,2
+Ligue 2,926105,2024-10-19,12:00,3471,Amiens SC,4240,Ajaccio,finished,3,1
+Ligue 2,926106,2024-10-19,18:00,4239,Lorient,4259,Annecy,finished,4,2
+Ligue 2,926109,2024-10-21,18:45,3542,Troyes,4241,Paris FC,finished,0,3
+Ligue 2,926099,2024-10-22,17:30,4254,Pau,4256,Bastia,finished,1,1
+Ligue 2,926115,2024-10-25,18:00,3294,Clermont,6282,Martigues,finished,0,1
+Ligue 2,926120,2024-10-25,18:00,4259,Annecy,4258,Laval,finished,2,0
+Ligue 2,926119,2024-10-25,18:00,4255,Dunkerque,4250,Red Star,finished,2,0
+Ligue 2,926112,2024-10-25,18:00,4238,Metz,4237,Guingamp,finished,1,0
+Ligue 2,926114,2024-10-25,18:00,4252,Rodez,4239,Lorient,finished,3,3
+Ligue 2,926117,2024-10-25,18:00,4254,Pau,3471,Amiens SC,finished,0,2
+Ligue 2,926113,2024-10-26,12:00,4236,Caen,3542,Troyes,finished,0,1
+Ligue 2,926116,2024-10-26,12:00,4241,Paris FC,3133,Grenoble Foot 38,finished,2,1
+Ligue 2,926123,2024-10-29,19:30,4256,Bastia,4252,Rodez,finished,2,2
+Ligue 2,926122,2024-10-29,19:30,3471,Amiens SC,4241,Paris FC,finished,0,0
+Ligue 2,926124,2024-10-29,19:30,4237,Guingamp,4240,Ajaccio,finished,1,0
+Ligue 2,926128,2024-10-29,19:30,4258,Laval,3294,Clermont,finished,1,2
+Ligue 2,926129,2024-10-29,19:30,3542,Troyes,4254,Pau,finished,3,0
+Ligue 2,926127,2024-10-29,19:30,4250,Red Star,4238,Metz,finished,1,0
+Ligue 2,926121,2024-10-29,19:30,6282,Martigues,4236,Caen,finished,0,3
+Ligue 2,926126,2024-10-29,19:30,4239,Lorient,4255,Dunkerque,finished,4,2
+Ligue 2,926125,2024-10-29,19:30,3133,Grenoble Foot 38,4259,Annecy,finished,0,0
+Ligue 2,926136,2024-11-01,19:00,4259,Annecy,4254,Pau,finished,2,0
+Ligue 2,926138,2024-11-01,19:00,6282,Martigues,4250,Red Star,finished,0,1
+Ligue 2,926137,2024-11-01,19:00,4255,Dunkerque,3471,Amiens SC,finished,3,1
+Ligue 2,926134,2024-11-01,19:00,4241,Paris FC,4252,Rodez,finished,3,3
+Ligue 2,926132,2024-11-01,19:00,3294,Clermont,4239,Lorient,finished,2,1
+Ligue 2,926131,2024-11-01,19:00,3542,Troyes,4258,Laval,finished,0,0
+Ligue 2,926133,2024-11-02,13:00,4236,Caen,4256,Bastia,finished,2,0
+Ligue 2,926135,2024-11-02,19:00,4237,Guingamp,3133,Grenoble Foot 38,finished,3,0
+Ligue 2,926130,2024-11-04,19:45,4240,Ajaccio,4238,Metz,finished,0,1
+Ligue 2,926143,2024-11-08,19:00,4258,Laval,4256,Bastia,finished,2,2
+Ligue 2,926140,2024-11-08,19:00,3471,Amiens SC,6282,Martigues,finished,1,1
+Ligue 2,926145,2024-11-08,19:00,4250,Red Star,3542,Troyes,finished,0,3
+Ligue 2,926144,2024-11-08,19:00,4240,Ajaccio,3294,Clermont,finished,2,0
+Ligue 2,926142,2024-11-08,19:00,3133,Grenoble Foot 38,4255,Dunkerque,finished,0,1
+Ligue 2,926141,2024-11-08,19:00,4252,Rodez,4259,Annecy,finished,5,1
+Ligue 2,926139,2024-11-09,13:00,4254,Pau,4241,Paris FC,finished,0,0
+Ligue 2,926147,2024-11-09,13:00,4239,Lorient,4237,Guingamp,finished,3,1
+Ligue 2,926146,2024-11-09,19:00,4238,Metz,4236,Caen,finished,1,0
+Ligue 2,926156,2024-11-22,19:00,6282,Martigues,4258,Laval,finished,0,3
+Ligue 2,926152,2024-11-22,19:00,4237,Guingamp,3471,Amiens SC,finished,3,0
+Ligue 2,926155,2024-11-22,19:00,4254,Pau,4250,Red Star,finished,4,1
+Ligue 2,926151,2024-11-22,19:00,4236,Caen,4252,Rodez,finished,3,3
+Ligue 2,926149,2024-11-22,19:00,3542,Troyes,3133,Grenoble Foot 38,finished,0,0
+Ligue 2,926150,2024-11-22,19:00,3294,Clermont,4238,Metz,finished,1,1
+Ligue 2,926153,2024-11-23,13:00,4241,Paris FC,4259,Annecy,finished,0,0
+Ligue 2,926148,2024-11-23,19:00,4256,Bastia,4239,Lorient,finished,0,0
+Ligue 2,926154,2024-11-25,19:45,4255,Dunkerque,4240,Ajaccio,finished,1,0
+Ligue 2,926118,2024-12-03,18:30,4240,Ajaccio,4256,Bastia,finished,0,0
+Ligue 2,926163,2024-12-06,19:00,4250,Red Star,4256,Bastia,finished,0,0
+Ligue 2,926158,2024-12-06,19:00,4252,Rodez,4254,Pau,finished,1,0
+Ligue 2,926164,2024-12-06,19:00,4239,Lorient,3542,Troyes,finished,2,0
+Ligue 2,926165,2024-12-06,19:00,4258,Laval,4236,Caen,finished,1,0
+Ligue 2,926161,2024-12-06,19:00,4259,Annecy,3294,Clermont,finished,2,0
+Ligue 2,926157,2024-12-06,19:00,6282,Martigues,4237,Guingamp,finished,0,1
+Ligue 2,926159,2024-12-07,13:00,3133,Grenoble Foot 38,3471,Amiens SC,finished,0,2
+Ligue 2,926160,2024-12-07,19:00,4240,Ajaccio,4241,Paris FC,finished,0,2
+Ligue 2,926162,2024-12-09,19:45,4238,Metz,4255,Dunkerque,finished,2,0
+Ligue 2,926166,2024-12-13,19:00,3542,Troyes,6282,Martigues,finished,4,0
+Ligue 2,926170,2024-12-13,19:00,4254,Pau,4240,Ajaccio,finished,1,0
+Ligue 2,926174,2024-12-13,19:00,3471,Amiens SC,4258,Laval,finished,1,3
+Ligue 2,926169,2024-12-13,19:00,4256,Bastia,4237,Guingamp,finished,3,1
+Ligue 2,926168,2024-12-13,19:00,3294,Clermont,4252,Rodez,finished,1,1
+Ligue 2,926173,2024-12-14,13:00,4250,Red Star,3133,Grenoble Foot 38,finished,3,1
+Ligue 2,926167,2024-12-14,13:00,4239,Lorient,4241,Paris FC,finished,2,0
+Ligue 2,926171,2024-12-14,19:00,4259,Annecy,4238,Metz,finished,0,0
+Ligue 2,926172,2024-12-16,19:45,4255,Dunkerque,4236,Caen,finished,3,1
+Ligue 2,926181,2025-01-03,19:00,3471,Amiens SC,3542,Troyes,finished,0,3
+Ligue 2,926175,2025-01-03,19:00,4241,Paris FC,6282,Martigues,finished,1,2
+Ligue 2,926177,2025-01-03,19:00,3133,Grenoble Foot 38,4256,Bastia,finished,3,2
+Ligue 2,926182,2025-01-03,19:00,4236,Caen,3294,Clermont,finished,0,1
+Ligue 2,926178,2025-01-03,19:00,4240,Ajaccio,4259,Annecy,finished,1,2
+Ligue 2,926180,2025-01-03,19:00,4252,Rodez,4250,Red Star,finished,0,2
+Ligue 2,926176,2025-01-04,13:00,4238,Metz,4254,Pau,finished,0,0
+Ligue 2,926179,2025-01-04,13:00,4237,Guingamp,4255,Dunkerque,finished,1,1
+Ligue 2,926183,2025-01-04,19:00,4258,Laval,4239,Lorient,finished,2,0
+Ligue 2,926191,2025-01-10,19:00,4254,Pau,4255,Dunkerque,finished,1,1
+Ligue 2,926192,2025-01-10,19:00,4258,Laval,4250,Red Star,finished,1,1
+Ligue 2,926190,2025-01-10,19:00,4259,Annecy,4237,Guingamp,finished,1,4
+Ligue 2,926187,2025-01-10,19:00,6282,Martigues,3294,Clermont,finished,0,1
+Ligue 2,926185,2025-01-10,19:00,4252,Rodez,3542,Troyes,finished,2,1
+Ligue 2,926184,2025-01-11,13:00,4236,Caen,3133,Grenoble Foot 38,finished,0,1
+Ligue 2,926188,2025-01-11,13:00,4241,Paris FC,3471,Amiens SC,finished,1,0
+Ligue 2,926189,2025-01-11,13:00,4256,Bastia,4240,Ajaccio,finished,4,0
+Ligue 2,926186,2025-01-11,19:00,4239,Lorient,4238,Metz,finished,0,0
+Ligue 2,926201,2025-01-17,19:00,4240,Ajaccio,4236,Caen,finished,2,1
+Ligue 2,926194,2025-01-17,19:00,3133,Grenoble Foot 38,6282,Martigues,finished,1,0
+Ligue 2,926197,2025-01-17,19:00,4250,Red Star,4254,Pau,finished,1,3
+Ligue 2,926195,2025-01-17,19:00,3471,Amiens SC,4256,Bastia,finished,1,0
+Ligue 2,926193,2025-01-17,19:00,4237,Guingamp,4252,Rodez,finished,3,0
+Ligue 2,926199,2025-01-18,13:00,4238,Metz,4241,Paris FC,finished,3,1
+Ligue 2,926198,2025-01-18,13:00,3294,Clermont,4258,Laval,finished,1,1
+Ligue 2,926196,2025-01-18,19:00,4255,Dunkerque,4239,Lorient,finished,0,1
+Ligue 2,926200,2025-01-20,19:45,3542,Troyes,4259,Annecy,finished,0,1
+Ligue 2,926202,2025-01-24,19:00,4236,Caen,4237,Guingamp,finished,0,1
+Ligue 2,926204,2025-01-24,19:00,4258,Laval,3542,Troyes,finished,1,0
+Ligue 2,926207,2025-01-24,19:00,4256,Bastia,4254,Pau,finished,1,1
+Ligue 2,926206,2025-01-24,19:00,6282,Martigues,3471,Amiens SC,finished,3,0
+Ligue 2,926208,2025-01-24,19:00,4252,Rodez,4240,Ajaccio,finished,1,2
+Ligue 2,926203,2025-01-24,19:00,4238,Metz,3133,Grenoble Foot 38,finished,3,0
+Ligue 2,926210,2025-01-25,13:00,4241,Paris FC,4250,Red Star,finished,4,1
+Ligue 2,926205,2025-01-25,19:00,4239,Lorient,3294,Clermont,finished,3,2
+Ligue 2,926209,2025-01-27,19:45,4259,Annecy,4255,Dunkerque,finished,0,2
+Ligue 2,926218,2025-01-31,19:00,4256,Bastia,4238,Metz,finished,1,1
+Ligue 2,926219,2025-01-31,19:00,3294,Clermont,4240,Ajaccio,finished,0,1
+Ligue 2,926214,2025-01-31,19:00,4255,Dunkerque,6282,Martigues,finished,0,1
+Ligue 2,926213,2025-01-31,19:00,3471,Amiens SC,4259,Annecy,finished,1,0
+Ligue 2,926212,2025-01-31,19:00,3133,Grenoble Foot 38,4252,Rodez,finished,2,1
+Ligue 2,926216,2025-01-31,19:00,4254,Pau,4258,Laval,finished,1,1
+Ligue 2,926215,2025-02-01,13:00,4250,Red Star,4239,Lorient,finished,1,2
+Ligue 2,926217,2025-02-01,13:00,3542,Troyes,4236,Caen,finished,3,0
+Ligue 2,926211,2025-02-01,19:00,4237,Guingamp,4241,Paris FC,finished,0,1
+Ligue 2,926220,2025-02-07,19:00,6282,Martigues,3542,Troyes,finished,1,2
+Ligue 2,926223,2025-02-07,19:00,4241,Paris FC,4254,Pau,finished,3,1
+Ligue 2,926224,2025-02-07,19:00,4252,Rodez,4256,Bastia,finished,0,2
+Ligue 2,926228,2025-02-07,19:00,4258,Laval,4259,Annecy,finished,0,1
+Ligue 2,926227,2025-02-07,19:00,3133,Grenoble Foot 38,4250,Red Star,finished,0,0
+Ligue 2,926225,2025-02-08,13:00,4240,Ajaccio,4237,Guingamp,finished,0,3
+Ligue 2,926221,2025-02-08,13:00,4239,Lorient,3471,Amiens SC,finished,3,1
+Ligue 2,926222,2025-02-08,19:00,4238,Metz,3294,Clermont,finished,3,1
+Ligue 2,926226,2025-02-10,19:45,4236,Caen,4255,Dunkerque,finished,0,2
+Ligue 2,926234,2025-02-14,19:00,4240,Ajaccio,4258,Laval,finished,3,0
+Ligue 2,926235,2025-02-14,19:00,3542,Troyes,4239,Lorient,finished,0,1
+Ligue 2,926233,2025-02-14,19:00,4250,Red Star,6282,Martigues,finished,1,0
+Ligue 2,926237,2025-02-14,19:00,3294,Clermont,4256,Bastia,finished,1,1
+Ligue 2,926230,2025-02-14,19:00,3471,Amiens SC,3133,Grenoble Foot 38,finished,1,4
+Ligue 2,926229,2025-02-14,19:00,4254,Pau,4252,Rodez,finished,0,5
+Ligue 2,926232,2025-02-15,13:00,4255,Dunkerque,4241,Paris FC,finished,1,0
+Ligue 2,926236,2025-02-15,19:00,4237,Guingamp,4238,Metz,finished,0,3
+Ligue 2,926231,2025-02-17,19:45,4259,Annecy,4236,Caen,finished,1,0
+Ligue 2,926244,2025-02-21,19:00,6282,Martigues,4259,Annecy,finished,2,0
+Ligue 2,926243,2025-02-21,19:00,4252,Rodez,3471,Amiens SC,finished,1,1
+Ligue 2,926245,2025-02-21,19:00,4255,Dunkerque,3294,Clermont,finished,3,0
+Ligue 2,926242,2025-02-21,19:00,3133,Grenoble Foot 38,4237,Guingamp,finished,1,1
+Ligue 2,926246,2025-02-21,19:00,4256,Bastia,4250,Red Star,finished,1,0
+Ligue 2,926240,2025-02-21,19:00,4241,Paris FC,3542,Troyes,finished,1,0
+Ligue 2,926238,2025-02-22,13:00,4239,Lorient,4258,Laval,finished,0,1
+Ligue 2,926241,2025-02-22,13:00,4236,Caen,4254,Pau,finished,2,2
+Ligue 2,926239,2025-02-22,19:00,4238,Metz,4240,Ajaccio,finished,0,1
+Ligue 2,926248,2025-02-28,19:00,4254,Pau,3133,Grenoble Foot 38,finished,1,0
+Ligue 2,926252,2025-02-28,19:00,4258,Laval,6282,Martigues,finished,0,1
+Ligue 2,926255,2025-02-28,19:00,3294,Clermont,4236,Caen,finished,0,1
+Ligue 2,926249,2025-02-28,19:00,4259,Annecy,4241,Paris FC,finished,2,3
+Ligue 2,926253,2025-02-28,19:00,3542,Troyes,4256,Bastia,finished,2,0
+Ligue 2,926251,2025-03-01,13:00,4250,Red Star,4237,Guingamp,finished,3,1
+Ligue 2,926254,2025-03-01,13:00,3471,Amiens SC,4238,Metz,finished,1,2
+Ligue 2,926247,2025-03-01,19:00,4239,Lorient,4252,Rodez,finished,3,1
+Ligue 2,926250,2025-03-03,19:45,4240,Ajaccio,4255,Dunkerque,finished,1,2
+Ligue 2,926264,2025-03-07,19:00,4250,Red Star,3471,Amiens SC,finished,2,0
+Ligue 2,926260,2025-03-07,19:00,4256,Bastia,6282,Martigues,finished,1,0
+Ligue 2,926258,2025-03-07,19:00,4254,Pau,3542,Troyes,finished,0,2
+Ligue 2,926256,2025-03-07,19:00,4237,Guingamp,3294,Clermont,finished,3,1
+Ligue 2,926261,2025-03-07,19:00,3133,Grenoble Foot 38,4240,Ajaccio,finished,2,2
+Ligue 2,926257,2025-03-07,19:00,4236,Caen,4258,Laval,finished,0,1
+Ligue 2,926259,2025-03-08,13:00,4241,Paris FC,4239,Lorient,finished,3,2
+Ligue 2,926262,2025-03-08,19:00,4238,Metz,4259,Annecy,finished,5,1
+Ligue 2,926263,2025-03-10,19:45,4252,Rodez,4255,Dunkerque,finished,5,1
+Ligue 2,926266,2025-03-14,19:00,3294,Clermont,3133,Grenoble Foot 38,finished,0,0
+Ligue 2,926269,2025-03-14,19:00,4240,Ajaccio,4250,Red Star,finished,2,1
+Ligue 2,926267,2025-03-14,19:00,4259,Annecy,4252,Rodez,finished,1,1
+Ligue 2,926265,2025-03-14,19:00,6282,Martigues,4254,Pau,finished,2,2
+Ligue 2,926271,2025-03-14,19:00,3542,Troyes,4237,Guingamp,finished,0,1
+Ligue 2,926272,2025-03-14,19:00,3471,Amiens SC,4236,Caen,finished,2,1
+Ligue 2,926270,2025-03-15,13:00,4258,Laval,4241,Paris FC,finished,3,0
+Ligue 2,926268,2025-03-15,13:00,4255,Dunkerque,4238,Metz,finished,2,3
+Ligue 2,926273,2025-03-15,19:00,4239,Lorient,4256,Bastia,finished,4,0
+Ligue 2,926276,2025-03-28,19:00,3294,Clermont,3471,Amiens SC,finished,1,1
+Ligue 2,926278,2025-03-28,19:00,6282,Martigues,4240,Ajaccio,finished,2,0
+Ligue 2,926279,2025-03-28,19:00,4254,Pau,4259,Annecy,finished,1,0
+Ligue 2,926277,2025-03-28,19:00,4238,Metz,3542,Troyes,finished,2,1
+Ligue 2,926281,2025-03-28,19:00,4250,Red Star,4252,Rodez,finished,1,1
+Ligue 2,926280,2025-03-28,19:00,4256,Bastia,4255,Dunkerque,finished,2,0
+Ligue 2,926274,2025-03-29,13:00,3133,Grenoble Foot 38,4239,Lorient,finished,1,2
+Ligue 2,926282,2025-03-29,19:00,4237,Guingamp,4258,Laval,finished,2,0
+Ligue 2,926275,2025-03-31,18:45,4241,Paris FC,4236,Caen,finished,4,2
+Ligue 2,926290,2025-04-04,18:00,4241,Paris FC,3294,Clermont,finished,2,0
+Ligue 2,926286,2025-04-04,18:00,4259,Annecy,4256,Bastia,finished,1,1
+Ligue 2,926283,2025-04-04,18:00,4252,Rodez,6282,Martigues,finished,1,0
+Ligue 2,926288,2025-04-04,18:00,4258,Laval,3133,Grenoble Foot 38,finished,1,2
+Ligue 2,926285,2025-04-04,18:00,4240,Ajaccio,3471,Amiens SC,finished,2,1
+Ligue 2,926289,2025-04-05,12:00,4236,Caen,4238,Metz,finished,2,2
+Ligue 2,926284,2025-04-05,18:00,4239,Lorient,4254,Pau,finished,5,0
+Ligue 2,926291,2025-04-05,18:00,3542,Troyes,4250,Red Star,finished,2,2
+Ligue 2,926287,2025-04-07,18:45,4255,Dunkerque,4237,Guingamp,finished,3,1
+Ligue 2,926298,2025-04-11,18:00,3471,Amiens SC,4255,Dunkerque,finished,1,0
+Ligue 2,926299,2025-04-11,18:00,4250,Red Star,4259,Annecy,finished,0,1
+Ligue 2,926294,2025-04-11,18:00,4252,Rodez,4236,Caen,finished,2,2
+Ligue 2,926296,2025-04-11,18:00,4254,Pau,3294,Clermont,finished,2,2
+Ligue 2,926293,2025-04-11,18:00,3542,Troyes,4240,Ajaccio,finished,0,0
+Ligue 2,926295,2025-04-11,18:00,6282,Martigues,4238,Metz,finished,1,4
+Ligue 2,926292,2025-04-12,12:00,4237,Guingamp,4239,Lorient,finished,1,2
+Ligue 2,926297,2025-04-12,18:00,3133,Grenoble Foot 38,4241,Paris FC,finished,1,2
+Ligue 2,926300,2025-04-14,18:45,4256,Bastia,4258,Laval,finished,5,2
+Ligue 2,926302,2025-04-18,18:00,3471,Amiens SC,4237,Guingamp,finished,3,2
+Ligue 2,926306,2025-04-18,18:00,4255,Dunkerque,3133,Grenoble Foot 38,finished,2,0
+Ligue 2,926309,2025-04-18,18:00,3294,Clermont,3542,Troyes,finished,0,2
+Ligue 2,926304,2025-04-18,18:00,4240,Ajaccio,4254,Pau,finished,1,1
+Ligue 2,926301,2025-04-18,18:00,4236,Caen,6282,Martigues,finished,0,3
+Ligue 2,926308,2025-04-18,18:00,4258,Laval,4252,Rodez,finished,2,1
+Ligue 2,926303,2025-04-19,12:00,4241,Paris FC,4256,Bastia,finished,1,0
+Ligue 2,926307,2025-04-19,18:00,4238,Metz,4250,Red Star,finished,2,2
+Ligue 2,926305,2025-04-21,18:45,4259,Annecy,4239,Lorient,finished,0,0
+Ligue 2,926316,2025-04-25,18:00,4259,Annecy,4240,Ajaccio,finished,2,0
+Ligue 2,926317,2025-04-25,18:00,4250,Red Star,3294,Clermont,finished,1,1
+Ligue 2,926318,2025-04-25,18:00,4258,Laval,3471,Amiens SC,finished,1,0
+Ligue 2,926315,2025-04-25,18:00,4256,Bastia,3133,Grenoble Foot 38,finished,2,3
+Ligue 2,926313,2025-04-25,18:00,4237,Guingamp,6282,Martigues,finished,2,1
+Ligue 2,926311,2025-04-25,18:00,3542,Troyes,4255,Dunkerque,finished,1,0
+Ligue 2,926312,2025-04-26,12:00,4252,Rodez,4241,Paris FC,finished,1,1
+Ligue 2,926310,2025-04-26,18:00,4239,Lorient,4236,Caen,finished,4,0
+Ligue 2,926314,2025-04-26,18:00,4254,Pau,4238,Metz,finished,2,1
+Ligue 2,926325,2025-05-02,18:00,4255,Dunkerque,4258,Laval,finished,0,0
+Ligue 2,926319,2025-05-02,18:00,4238,Metz,4252,Rodez,finished,3,3
+Ligue 2,926322,2025-05-02,18:00,4237,Guingamp,4256,Bastia,finished,2,2
+Ligue 2,926321,2025-05-02,18:00,3471,Amiens SC,4254,Pau,finished,4,2
+Ligue 2,926326,2025-05-02,18:00,3133,Grenoble Foot 38,3542,Troyes,finished,3,1
+Ligue 2,926323,2025-05-02,18:00,3294,Clermont,4259,Annecy,finished,3,2
+Ligue 2,926324,2025-05-02,18:00,4236,Caen,4250,Red Star,finished,1,1
+Ligue 2,926327,2025-05-02,18:00,4240,Ajaccio,4239,Lorient,finished,2,1
+Ligue 2,926320,2025-05-02,18:00,6282,Martigues,4241,Paris FC,finished,1,1
+Ligue 2,926335,2025-05-10,15:00,4259,Annecy,3133,Grenoble Foot 38,finished,3,1
+Ligue 2,926336,2025-05-10,15:00,4250,Red Star,4255,Dunkerque,finished,1,1
+Ligue 2,926330,2025-05-10,15:00,4258,Laval,4238,Metz,finished,2,3
+Ligue 2,926334,2025-05-10,15:00,4241,Paris FC,4240,Ajaccio,finished,2,0
+Ligue 2,926328,2025-05-10,15:00,3542,Troyes,3471,Amiens SC,finished,1,0
+Ligue 2,926332,2025-05-10,15:00,4239,Lorient,6282,Martigues,finished,5,1
+Ligue 2,926333,2025-05-10,15:00,4254,Pau,4237,Guingamp,finished,1,3
+Ligue 2,926329,2025-05-10,15:00,4256,Bastia,4236,Caen,finished,2,1
+Ligue 2,926331,2025-05-10,15:00,4252,Rodez,3294,Clermont,finished,1,1

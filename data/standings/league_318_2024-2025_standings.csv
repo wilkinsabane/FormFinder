@@ -1,0 +1,31 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+CONCACAF World Cup Qualification,1,5314,Panama,4,12,4,0,0,10,1,9
+CONCACAF World Cup Qualification,1,5304,Costa Rica,4,12,4,0,0,17,1,16
+CONCACAF World Cup Qualification,1,5513,Honduras,4,12,4,0,0,12,2,10
+CONCACAF World Cup Qualification,1,5531,Jamaica,4,12,4,0,0,8,2,6
+CONCACAF World Cup Qualification,1,5539,Curacao,4,12,4,0,0,15,2,13
+CONCACAF World Cup Qualification,1,5549,Suriname,4,10,3,1,0,10,2,8
+CONCACAF World Cup Qualification,2,5547,Nicaragua,4,9,3,0,1,9,4,5
+CONCACAF World Cup Qualification,2,5525,El Salvador,4,8,2,2,0,7,2,5
+CONCACAF World Cup Qualification,2,5528,Haiti,4,9,3,0,1,11,7,4
+CONCACAF World Cup Qualification,2,5516,Trinidad and Tobago,4,7,2,1,1,16,7,9
+CONCACAF World Cup Qualification,2,5571,Bermuda,4,7,2,1,1,9,8,1
+CONCACAF World Cup Qualification,2,5522,Guatemala,4,9,3,0,1,13,5,8
+CONCACAF World Cup Qualification,3,5562,Dominican Republic,4,6,2,0,2,11,5,6
+CONCACAF World Cup Qualification,3,5554,St. Lucia,4,4,1,1,2,5,9,-4
+CONCACAF World Cup Qualification,3,5558,Cuba,4,6,2,0,2,6,5,1
+CONCACAF World Cup Qualification,3,5551,Guyana,4,6,2,0,2,6,4,2
+CONCACAF World Cup Qualification,3,5568,Puerto Rico,4,7,2,1,1,10,2,8
+CONCACAF World Cup Qualification,3,5535,Grenada,4,7,2,1,1,11,7,4
+CONCACAF World Cup Qualification,4,5587,Montserrat,4,3,1,0,3,3,10,-7
+CONCACAF World Cup Qualification,4,5582,Cayman Islands,4,3,1,0,3,1,9,-8
+CONCACAF World Cup Qualification,4,5566,St. Kitts and Nevis,4,3,1,0,3,5,13,-8
+CONCACAF World Cup Qualification,4,5519,St. Vincent / Grenadines,4,3,1,0,3,9,9,0
+CONCACAF World Cup Qualification,4,5564,Dominica,4,3,1,0,3,5,14,-9
+CONCACAF World Cup Qualification,4,5534,Aruba,4,2,0,2,2,3,10,-7
+CONCACAF World Cup Qualification,5,5585,British Virgin Islands,4,0,0,0,4,0,11,-11
+CONCACAF World Cup Qualification,5,5561,Barbados,4,1,0,1,3,4,10,-6
+CONCACAF World Cup Qualification,5,5544,Antigua and Barbuda,4,1,0,1,3,1,5,-4
+CONCACAF World Cup Qualification,5,5541,Belize,4,0,0,0,4,1,10,-9
+CONCACAF World Cup Qualification,5,5579,Anguilla,4,0,0,0,4,0,21,-21
+CONCACAF World Cup Qualification,5,5580,Bahamas,4,0,0,0,4,1,22,-21

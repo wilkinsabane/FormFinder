@@ -1,0 +1,183 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Super League 1,937277,2024-08-17,17:00,3493,PAOK,5066,Panserraikos,finished,3,2
+Super League 1,937273,2024-08-17,17:00,2906,Volos NFC,3544,Olympiakos,finished,0,2
+Super League 1,937274,2024-08-18,16:00,3495,Levadiakos,11773,Kallithea,finished,0,0
+Super League 1,937275,2024-08-18,17:00,2822,Panathinaikos,4319,Asteras Tripolis,finished,0,1
+Super League 1,937272,2024-08-18,17:30,3115,Atromitos,2900,Aris Women,finished,1,1
+Super League 1,937271,2024-08-18,19:00,3181,AEK Athens,3524,OFI,finished,3,0
+Super League 1,937276,2024-08-19,18:00,3095,Panaitolikos,3111,Lamia,finished,0,1
+Super League 1,937281,2024-08-24,16:30,3524,OFI,3115,Atromitos,finished,1,1
+Super League 1,937283,2024-08-24,17:00,5066,Panserraikos,2900,Aris Women,finished,0,1
+Super League 1,937278,2024-08-24,18:30,3181,AEK Athens,3111,Lamia,finished,1,1
+Super League 1,937279,2024-08-25,16:00,4319,Asteras Tripolis,2906,Volos NFC,finished,0,1
+Super League 1,937284,2024-08-25,17:30,3493,PAOK,3095,Panaitolikos,finished,2,0
+Super League 1,937282,2024-08-25,18:00,2822,Panathinaikos,3495,Levadiakos,finished,1,0
+Super League 1,937280,2024-08-26,17:30,3544,Olympiakos,11773,Kallithea,finished,2,1
+Super League 1,937291,2024-08-31,16:30,3111,Lamia,3544,Olympiakos,finished,0,3
+Super League 1,937286,2024-08-31,17:00,2900,Aris Women,4319,Asteras Tripolis,finished,1,1
+Super League 1,937290,2024-08-31,19:00,3095,Panaitolikos,5066,Panserraikos,finished,3,0
+Super League 1,937289,2024-09-01,16:00,3495,Levadiakos,3181,AEK Athens,finished,0,3
+Super League 1,937288,2024-09-01,16:30,2906,Volos NFC,3524,OFI,finished,1,3
+Super League 1,937287,2024-09-01,17:30,3115,Atromitos,3493,PAOK,finished,1,2
+Super League 1,937285,2024-09-01,19:00,11773,Kallithea,2822,Panathinaikos,finished,2,2
+Super League 1,937298,2024-09-14,15:00,3111,Lamia,11773,Kallithea,finished,0,0
+Super League 1,937293,2024-09-14,17:00,4319,Asteras Tripolis,3115,Atromitos,finished,1,2
+Super League 1,937296,2024-09-15,13:30,5066,Panserraikos,3495,Levadiakos,finished,2,2
+Super League 1,937294,2024-09-15,15:30,3544,Olympiakos,3095,Panaitolikos,finished,0,0
+Super League 1,937295,2024-09-15,17:30,3524,OFI,2900,Aris Women,finished,3,2
+Super League 1,937297,2024-09-15,17:30,3493,PAOK,2822,Panathinaikos,finished,0,0
+Super League 1,937292,2024-09-16,17:00,3181,AEK Athens,2906,Volos NFC,finished,2,0
+Super League 1,937302,2024-09-21,14:00,2906,Volos NFC,3493,PAOK,finished,1,4
+Super League 1,937300,2024-09-21,17:00,2900,Aris Women,3544,Olympiakos,finished,2,1
+Super League 1,937305,2024-09-21,17:30,3095,Panaitolikos,4319,Asteras Tripolis,finished,1,1
+Super League 1,937303,2024-09-22,13:30,3495,Levadiakos,3524,OFI,finished,1,1
+Super League 1,937304,2024-09-22,15:00,2822,Panathinaikos,5066,Panserraikos,finished,3,1
+Super League 1,937301,2024-09-22,17:30,3115,Atromitos,3111,Lamia,finished,4,2
+Super League 1,937299,2024-09-22,18:00,11773,Kallithea,3181,AEK Athens,finished,0,0
+Super League 1,937308,2024-09-28,14:00,2906,Volos NFC,11773,Kallithea,finished,1,1
+Super League 1,937307,2024-09-28,17:00,4319,Asteras Tripolis,3495,Levadiakos,finished,1,1
+Super League 1,937310,2024-09-29,14:00,3524,OFI,3095,Panaitolikos,finished,1,2
+Super League 1,937309,2024-09-29,15:00,3544,Olympiakos,3115,Atromitos,finished,2,0
+Super League 1,937311,2024-09-29,17:30,3493,PAOK,2900,Aris Women,finished,0,1
+Super League 1,937306,2024-09-29,18:30,3181,AEK Athens,2822,Panathinaikos,finished,2,0
+Super League 1,937312,2024-09-30,17:00,3111,Lamia,5066,Panserraikos,finished,1,2
+Super League 1,937315,2024-10-05,15:30,3115,Atromitos,2906,Volos NFC,finished,1,2
+Super League 1,937318,2024-10-05,16:30,3095,Panaitolikos,3181,AEK Athens,finished,1,0
+Super League 1,937314,2024-10-05,17:00,2900,Aris Women,3111,Lamia,finished,2,0
+Super League 1,937319,2024-10-06,13:00,5066,Panserraikos,3524,OFI,finished,2,3
+Super League 1,937313,2024-10-06,14:00,11773,Kallithea,4319,Asteras Tripolis,finished,1,3
+Super League 1,937317,2024-10-06,17:30,2822,Panathinaikos,3544,Olympiakos,finished,0,0
+Super League 1,937316,2024-10-06,17:30,3495,Levadiakos,3493,PAOK,finished,0,2
+Super League 1,937323,2024-10-19,14:00,2906,Volos NFC,5066,Panserraikos,finished,0,1
+Super League 1,937322,2024-10-19,17:00,3115,Atromitos,3095,Panaitolikos,finished,0,2
+Super League 1,937326,2024-10-19,17:30,3111,Lamia,4319,Asteras Tripolis,finished,0,0
+Super League 1,937324,2024-10-20,13:00,3544,Olympiakos,3495,Levadiakos,finished,2,2
+Super League 1,937325,2024-10-20,15:00,3524,OFI,2822,Panathinaikos,finished,0,1
+Super League 1,937321,2024-10-20,17:00,2900,Aris Women,11773,Kallithea,finished,2,0
+Super League 1,937320,2024-10-20,17:30,3181,AEK Athens,3493,PAOK,finished,1,1
+Super League 1,937331,2024-10-26,14:00,3095,Panaitolikos,2906,Volos NFC,finished,0,1
+Super League 1,937329,2024-10-26,14:30,3495,Levadiakos,3111,Lamia,finished,2,2
+Super League 1,937332,2024-10-26,17:00,5066,Panserraikos,3181,AEK Athens,finished,1,0
+Super League 1,937327,2024-10-27,15:00,4319,Asteras Tripolis,3544,Olympiakos,finished,1,0
+Super League 1,937330,2024-10-27,16:00,2822,Panathinaikos,2900,Aris Women,finished,1,1
+Super League 1,937333,2024-10-27,19:00,3493,PAOK,3524,OFI,finished,1,2
+Super League 1,937328,2024-10-27,19:30,11773,Kallithea,3115,Atromitos,finished,0,3
+Super League 1,937339,2024-11-02,15:00,3544,Olympiakos,5066,Panserraikos,finished,2,1
+Super League 1,937335,2024-11-02,18:30,11773,Kallithea,3095,Panaitolikos,finished,1,1
+Super League 1,937336,2024-11-03,14:30,2900,Aris Women,3495,Levadiakos,finished,3,1
+Super League 1,937338,2024-11-03,15:00,2906,Volos NFC,2822,Panathinaikos,finished,0,1
+Super League 1,937340,2024-11-03,18:30,3111,Lamia,3493,PAOK,finished,1,2
+Super League 1,937337,2024-11-03,18:30,3115,Atromitos,3181,AEK Athens,finished,0,1
+Super League 1,937334,2024-11-04,15:30,4319,Asteras Tripolis,3524,OFI,finished,3,0
+Super League 1,937345,2024-11-09,15:00,3095,Panaitolikos,2900,Aris Women,finished,2,1
+Super League 1,937346,2024-11-09,16:45,5066,Panserraikos,3115,Atromitos,finished,2,3
+Super League 1,937341,2024-11-09,18:00,3181,AEK Athens,4319,Asteras Tripolis,finished,3,0
+Super League 1,937343,2024-11-10,14:00,3524,OFI,11773,Kallithea,finished,2,2
+Super League 1,937342,2024-11-10,14:30,3495,Levadiakos,2906,Volos NFC,finished,3,2
+Super League 1,937344,2024-11-10,17:30,2822,Panathinaikos,3111,Lamia,finished,1,0
+Super League 1,937347,2024-11-10,18:30,3493,PAOK,3544,Olympiakos,finished,2,3
+Super League 1,937349,2024-11-22,17:30,11773,Kallithea,5066,Panserraikos,finished,1,2
+Super League 1,937354,2024-11-23,15:00,3111,Lamia,3524,OFI,finished,1,1
+Super League 1,937350,2024-11-23,17:30,2900,Aris Women,2906,Volos NFC,finished,0,1
+Super League 1,937353,2024-11-24,15:00,3095,Panaitolikos,2822,Panathinaikos,finished,1,2
+Super League 1,937348,2024-11-24,17:30,4319,Asteras Tripolis,3493,PAOK,finished,1,2
+Super League 1,937352,2024-11-24,18:30,3544,Olympiakos,3181,AEK Athens,finished,4,1
+Super League 1,937351,2024-11-25,16:00,3115,Atromitos,3495,Levadiakos,finished,2,1
+Super League 1,937356,2024-11-30,15:00,2906,Volos NFC,3111,Lamia,finished,0,0
+Super League 1,937357,2024-11-30,17:30,3495,Levadiakos,3095,Panaitolikos,finished,1,1
+Super League 1,937355,2024-11-30,18:30,3181,AEK Athens,2900,Aris Women,finished,4,0
+Super League 1,937360,2024-12-01,13:30,5066,Panserraikos,4319,Asteras Tripolis,finished,2,1
+Super League 1,937358,2024-12-01,15:00,3524,OFI,3544,Olympiakos,finished,0,2
+Super League 1,937361,2024-12-01,17:00,3493,PAOK,11773,Kallithea,finished,2,2
+Super League 1,937359,2024-12-01,18:30,2822,Panathinaikos,3115,Atromitos,finished,1,1
+Super League 1,937365,2024-12-07,15:00,3544,Olympiakos,2906,Volos NFC,finished,3,0
+Super League 1,937364,2024-12-07,17:30,2900,Aris Women,3115,Atromitos,finished,2,1
+Super League 1,937367,2024-12-08,13:30,5066,Panserraikos,3493,PAOK,finished,1,4
+Super League 1,937366,2024-12-08,15:00,3524,OFI,3181,AEK Athens,finished,1,2
+Super League 1,937362,2024-12-08,17:00,4319,Asteras Tripolis,2822,Panathinaikos,finished,0,1
+Super League 1,937368,2024-12-08,18:30,3111,Lamia,3095,Panaitolikos,finished,0,1
+Super League 1,937363,2024-12-09,15:30,11773,Kallithea,3495,Levadiakos,finished,2,4
+Super League 1,937375,2024-12-14,15:00,3111,Lamia,3181,AEK Athens,finished,0,1
+Super League 1,937371,2024-12-14,17:30,3115,Atromitos,3524,OFI,finished,0,0
+Super League 1,937372,2024-12-14,18:30,2906,Volos NFC,4319,Asteras Tripolis,finished,2,1
+Super League 1,937370,2024-12-15,13:30,2900,Aris Women,5066,Panserraikos,finished,1,0
+Super League 1,937373,2024-12-15,16:00,3495,Levadiakos,2822,Panathinaikos,finished,0,1
+Super League 1,937374,2024-12-15,17:00,3095,Panaitolikos,3493,PAOK,finished,0,1
+Super League 1,937369,2024-12-16,18:30,11773,Kallithea,3544,Olympiakos,finished,1,1
+Super League 1,937378,2024-12-21,17:00,3544,Olympiakos,3111,Lamia,finished,1,0
+Super League 1,937381,2024-12-22,13:30,5066,Panserraikos,3095,Panaitolikos,finished,0,0
+Super League 1,937380,2024-12-22,16:00,2822,Panathinaikos,11773,Kallithea,finished,1,0
+Super League 1,937382,2024-12-22,17:30,3493,PAOK,3115,Atromitos,finished,3,0
+Super League 1,937376,2024-12-22,19:00,3181,AEK Athens,3495,Levadiakos,finished,1,1
+Super League 1,937377,2024-12-23,13:00,4319,Asteras Tripolis,2900,Aris Women,finished,2,1
+Super League 1,937379,2024-12-23,16:00,3524,OFI,2906,Volos NFC,finished,4,0
+Super League 1,937383,2025-01-04,15:00,11773,Kallithea,3111,Lamia,finished,2,1
+Super League 1,937387,2025-01-05,13:00,3495,Levadiakos,5066,Panserraikos,finished,1,0
+Super League 1,937384,2025-01-05,14:30,2900,Aris Women,3524,OFI,finished,0,2
+Super League 1,937386,2025-01-05,15:00,2906,Volos NFC,3181,AEK Athens,finished,2,4
+Super League 1,937385,2025-01-05,17:30,3115,Atromitos,4319,Asteras Tripolis,finished,0,1
+Super League 1,937388,2025-01-05,18:30,2822,Panathinaikos,3493,PAOK,finished,2,1
+Super League 1,937389,2025-01-06,16:00,3095,Panaitolikos,3544,Olympiakos,finished,0,2
+Super League 1,937392,2025-01-11,18:30,3544,Olympiakos,2900,Aris Women,finished,2,1
+Super League 1,937394,2025-01-12,14:30,5066,Panserraikos,2822,Panathinaikos,finished,2,2
+Super League 1,937396,2025-01-12,15:00,3111,Lamia,3115,Atromitos,finished,0,3
+Super League 1,937395,2025-01-12,17:30,3493,PAOK,2906,Volos NFC,finished,1,2
+Super League 1,937390,2025-01-12,18:30,3181,AEK Athens,11773,Kallithea,finished,2,0
+Super League 1,937391,2025-01-13,16:00,4319,Asteras Tripolis,3095,Panaitolikos,finished,2,0
+Super League 1,937393,2025-01-13,16:00,3524,OFI,3495,Levadiakos,finished,0,0
+Super League 1,937397,2025-01-18,15:00,11773,Kallithea,2906,Volos NFC,finished,2,0
+Super League 1,937399,2025-01-19,13:00,3115,Atromitos,3544,Olympiakos,finished,1,2
+Super League 1,937402,2025-01-19,14:30,3095,Panaitolikos,3524,OFI,finished,1,0
+Super League 1,937400,2025-01-19,14:30,3495,Levadiakos,4319,Asteras Tripolis,finished,1,2
+Super League 1,937398,2025-01-19,17:00,2900,Aris Women,3493,PAOK,finished,0,0
+Super League 1,937401,2025-01-19,18:30,2822,Panathinaikos,3181,AEK Athens,finished,1,0
+Super League 1,937403,2025-01-20,16:00,5066,Panserraikos,3111,Lamia,finished,2,0
+Super League 1,937406,2025-01-24,18:00,2906,Volos NFC,3115,Atromitos,finished,0,1
+Super League 1,937408,2025-01-25,15:00,3524,OFI,5066,Panserraikos,finished,3,2
+Super League 1,937405,2025-01-25,15:00,4319,Asteras Tripolis,11773,Kallithea,finished,1,0
+Super League 1,937404,2025-01-25,18:00,3181,AEK Athens,3095,Panaitolikos,finished,1,0
+Super League 1,937410,2025-01-26,15:00,3111,Lamia,2900,Aris Women,finished,0,2
+Super League 1,937409,2025-01-26,17:30,3493,PAOK,3495,Levadiakos,finished,1,0
+Super League 1,937407,2025-01-26,18:30,3544,Olympiakos,2822,Panathinaikos,finished,1,1
+Super League 1,937414,2025-02-01,16:00,2822,Panathinaikos,3524,OFI,finished,3,2
+Super League 1,937416,2025-02-01,17:30,5066,Panserraikos,2906,Volos NFC,finished,1,1
+Super League 1,937413,2025-02-02,14:30,3495,Levadiakos,3544,Olympiakos,finished,0,1
+Super League 1,937412,2025-02-02,15:00,11773,Kallithea,2900,Aris Women,finished,0,1
+Super League 1,937417,2025-02-02,17:30,3493,PAOK,3181,AEK Athens,finished,1,2
+Super League 1,937415,2025-02-02,18:30,3095,Panaitolikos,3115,Atromitos,finished,0,1
+Super League 1,937411,2025-02-03,16:00,4319,Asteras Tripolis,3111,Lamia,finished,1,0
+Super League 1,937421,2025-02-08,15:00,2906,Volos NFC,3095,Panaitolikos,finished,0,1
+Super League 1,937423,2025-02-08,18:00,3524,OFI,3493,PAOK,finished,0,5
+Super League 1,937422,2025-02-09,15:00,3544,Olympiakos,4319,Asteras Tripolis,finished,1,1
+Super League 1,937419,2025-02-09,17:30,2900,Aris Women,2822,Panathinaikos,finished,2,0
+Super League 1,937418,2025-02-09,18:30,3181,AEK Athens,5066,Panserraikos,finished,5,0
+Super League 1,937420,2025-02-10,16:00,3115,Atromitos,11773,Kallithea,finished,1,2
+Super League 1,937424,2025-02-10,16:00,3111,Lamia,3495,Levadiakos,finished,0,2
+Super League 1,937427,2025-02-15,15:00,3524,OFI,4319,Asteras Tripolis,finished,2,1
+Super League 1,937425,2025-02-15,18:00,3181,AEK Athens,3115,Atromitos,finished,2,1
+Super League 1,937426,2025-02-16,13:00,3495,Levadiakos,2900,Aris Women,finished,4,1
+Super League 1,937428,2025-02-16,15:00,2822,Panathinaikos,2906,Volos NFC,finished,2,1
+Super League 1,937430,2025-02-16,15:00,5066,Panserraikos,3544,Olympiakos,finished,0,4
+Super League 1,937431,2025-02-16,18:00,3493,PAOK,3111,Lamia,finished,7,0
+Super League 1,937429,2025-02-16,18:30,3095,Panaitolikos,11773,Kallithea,finished,2,0
+Super League 1,937433,2025-02-22,15:00,11773,Kallithea,3524,OFI,finished,1,3
+Super League 1,937435,2025-02-22,17:30,3115,Atromitos,5066,Panserraikos,finished,1,0
+Super League 1,937436,2025-02-22,18:00,2906,Volos NFC,3495,Levadiakos,finished,1,2
+Super League 1,937434,2025-02-23,14:30,2900,Aris Women,3095,Panaitolikos,finished,2,1
+Super League 1,937438,2025-02-23,15:00,3111,Lamia,2822,Panathinaikos,finished,3,1
+Super League 1,937432,2025-02-23,17:30,4319,Asteras Tripolis,3181,AEK Athens,finished,0,3
+Super League 1,937437,2025-02-23,18:30,3544,Olympiakos,3493,PAOK,finished,2,1
+Super League 1,937440,2025-03-01,15:00,2906,Volos NFC,2900,Aris Women,finished,1,1
+Super League 1,937444,2025-03-01,15:00,5066,Panserraikos,11773,Kallithea,finished,2,1
+Super League 1,937443,2025-03-01,18:00,2822,Panathinaikos,3095,Panaitolikos,finished,2,0
+Super League 1,937441,2025-03-02,14:30,3495,Levadiakos,3115,Atromitos,finished,1,2
+Super League 1,937442,2025-03-02,15:00,3524,OFI,3111,Lamia,finished,3,0
+Super League 1,937445,2025-03-02,17:30,3493,PAOK,4319,Asteras Tripolis,finished,2,0
+Super League 1,937439,2025-03-02,18:30,3181,AEK Athens,3544,Olympiakos,finished,0,1
+Super League 1,937452,2025-03-09,17:00,3111,Lamia,2906,Volos NFC,finished,1,0
+Super League 1,937446,2025-03-09,17:00,4319,Asteras Tripolis,5066,Panserraikos,finished,1,2
+Super League 1,937448,2025-03-09,17:00,2900,Aris Women,3181,AEK Athens,finished,0,0
+Super League 1,937447,2025-03-09,17:00,11773,Kallithea,3493,PAOK,finished,2,1
+Super League 1,937451,2025-03-09,17:00,3095,Panaitolikos,3495,Levadiakos,finished,0,0
+Super League 1,937450,2025-03-09,17:00,3544,Olympiakos,3524,OFI,finished,1,0
+Super League 1,937449,2025-03-09,17:00,3115,Atromitos,2822,Panathinaikos,finished,1,1

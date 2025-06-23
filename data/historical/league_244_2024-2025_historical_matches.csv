@@ -1,0 +1,381 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+3. Liga,936389,2024-08-02,17:00,4296,1860 Munchen,4307,Saarbrucken,finished,0,1
+3. Liga,936398,2024-08-03,12:00,4283,Sandhausen,4287,Osnabruck,finished,1,0
+3. Liga,936392,2024-08-03,12:00,3342,Erzgebirge Aue,5990,Hannover 96 II,finished,2,1
+3. Liga,936390,2024-08-03,12:00,3340,Rot-Weiss Essen,5669,Alemannia Aachen,finished,1,2
+3. Liga,936395,2024-08-03,12:00,4308,Verl,4288,Wehen Wiesbaden,finished,2,2
+3. Liga,936394,2024-08-03,12:00,4311,Borussia Dortmund II,4298,Unterhaching,finished,3,0
+3. Liga,936393,2024-08-03,14:30,4291,Hansa Rostock,5880,Stuttgart II,finished,1,1
+3. Liga,936391,2024-08-04,11:30,4299,Viktoria Koln,4282,Dynamo Dresden,finished,1,2
+3. Liga,936397,2024-08-04,14:30,6216,Energie Cottbus,4278,Arminia Bielefeld,finished,1,2
+3. Liga,936396,2024-08-04,17:30,4284,Ingolstadt,4297,Waldhof Mannheim,finished,2,1
+3. Liga,936404,2024-08-09,17:00,4282,Dynamo Dresden,6216,Energie Cottbus,finished,4,2
+3. Liga,936403,2024-08-10,12:00,4288,Wehen Wiesbaden,4291,Hansa Rostock,finished,1,0
+3. Liga,936399,2024-08-10,12:00,4298,Unterhaching,4284,Ingolstadt,finished,2,1
+3. Liga,936406,2024-08-10,12:00,4297,Waldhof Mannheim,4299,Viktoria Koln,finished,1,2
+3. Liga,936407,2024-08-10,12:00,4287,Osnabruck,3342,Erzgebirge Aue,finished,0,2
+3. Liga,936408,2024-08-10,12:00,5669,Alemannia Aachen,4308,Verl,finished,1,1
+3. Liga,936405,2024-08-10,14:30,4278,Arminia Bielefeld,4311,Borussia Dortmund II,finished,1,0
+3. Liga,936402,2024-08-11,11:30,5990,Hannover 96 II,3340,Rot-Weiss Essen,finished,1,3
+3. Liga,936401,2024-08-11,14:30,5880,Stuttgart II,4296,1860 Munchen,finished,3,1
+3. Liga,936400,2024-08-11,17:30,4307,Saarbrucken,4283,Sandhausen,finished,0,1
+3. Liga,936409,2024-08-23,17:00,3342,Erzgebirge Aue,4282,Dynamo Dresden,finished,2,0
+3. Liga,936418,2024-08-24,12:00,4283,Sandhausen,5990,Hannover 96 II,finished,0,1
+3. Liga,936416,2024-08-24,12:00,4307,Saarbrucken,4284,Ingolstadt,finished,2,3
+3. Liga,936411,2024-08-24,12:00,4287,Osnabruck,4298,Unterhaching,finished,4,2
+3. Liga,936412,2024-08-24,12:00,4291,Hansa Rostock,4311,Borussia Dortmund II,finished,1,1
+3. Liga,936413,2024-08-24,12:00,3340,Rot-Weiss Essen,4278,Arminia Bielefeld,finished,0,0
+3. Liga,936417,2024-08-24,14:30,6216,Energie Cottbus,5669,Alemannia Aachen,finished,2,1
+3. Liga,936414,2024-08-25,11:30,4296,1860 Munchen,4299,Viktoria Koln,finished,1,3
+3. Liga,936415,2024-08-25,14:30,4308,Verl,4297,Waldhof Mannheim,finished,1,1
+3. Liga,936410,2024-08-25,17:30,5880,Stuttgart II,4288,Wehen Wiesbaden,finished,2,2
+3. Liga,936427,2024-08-30,17:00,4299,Viktoria Koln,4291,Hansa Rostock,finished,3,0
+3. Liga,936422,2024-08-31,12:00,4282,Dynamo Dresden,5880,Stuttgart II,finished,2,0
+3. Liga,936419,2024-08-31,12:00,5669,Alemannia Aachen,3342,Erzgebirge Aue,finished,1,2
+3. Liga,936426,2024-08-31,12:00,4284,Ingolstadt,4296,1860 Munchen,finished,1,2
+3. Liga,936425,2024-08-31,12:00,4278,Arminia Bielefeld,4283,Sandhausen,finished,1,1
+3. Liga,936420,2024-08-31,12:00,4297,Waldhof Mannheim,4307,Saarbrucken,finished,0,1
+3. Liga,936423,2024-08-31,14:30,4311,Borussia Dortmund II,4287,Osnabruck,finished,1,1
+3. Liga,936421,2024-09-01,11:30,4288,Wehen Wiesbaden,6216,Energie Cottbus,finished,2,1
+3. Liga,936424,2024-09-01,14:30,4298,Unterhaching,3340,Rot-Weiss Essen,finished,2,0
+3. Liga,936428,2024-09-01,17:30,5990,Hannover 96 II,4308,Verl,finished,1,2
+3. Liga,936435,2024-09-13,17:00,4283,Sandhausen,4311,Borussia Dortmund II,finished,3,1
+3. Liga,936429,2024-09-14,12:00,4291,Hansa Rostock,4297,Waldhof Mannheim,finished,1,1
+3. Liga,936432,2024-09-14,12:00,3340,Rot-Weiss Essen,4288,Wehen Wiesbaden,finished,0,3
+3. Liga,936433,2024-09-14,12:00,4296,1860 Munchen,4282,Dynamo Dresden,finished,2,3
+3. Liga,936436,2024-09-14,12:00,4307,Saarbrucken,4298,Unterhaching,finished,1,1
+3. Liga,936430,2024-09-14,12:00,5880,Stuttgart II,4284,Ingolstadt,finished,3,2
+3. Liga,936438,2024-09-14,14:30,4287,Osnabruck,5990,Hannover 96 II,finished,1,1
+3. Liga,936437,2024-09-15,11:30,3342,Erzgebirge Aue,4278,Arminia Bielefeld,finished,1,3
+3. Liga,936434,2024-09-15,14:30,4308,Verl,6216,Energie Cottbus,finished,0,3
+3. Liga,936431,2024-09-15,17:30,5669,Alemannia Aachen,4299,Viktoria Koln,finished,1,0
+3. Liga,936444,2024-09-20,17:00,4298,Unterhaching,3342,Erzgebirge Aue,finished,2,2
+3. Liga,936448,2024-09-21,12:00,4282,Dynamo Dresden,4291,Hansa Rostock,finished,1,1
+3. Liga,936442,2024-09-21,12:00,4288,Wehen Wiesbaden,4283,Sandhausen,finished,1,3
+3. Liga,936439,2024-09-21,12:00,4297,Waldhof Mannheim,4287,Osnabruck,finished,3,2
+3. Liga,936440,2024-09-21,12:00,4284,Ingolstadt,3340,Rot-Weiss Essen,finished,2,2
+3. Liga,936441,2024-09-21,12:00,6216,Energie Cottbus,5880,Stuttgart II,finished,4,0
+3. Liga,936445,2024-09-21,14:30,4278,Arminia Bielefeld,4296,1860 Munchen,finished,0,1
+3. Liga,936447,2024-09-22,11:30,5990,Hannover 96 II,4307,Saarbrucken,finished,1,3
+3. Liga,936446,2024-09-22,14:30,4299,Viktoria Koln,4308,Verl,finished,2,1
+3. Liga,936443,2024-09-22,17:30,4311,Borussia Dortmund II,5669,Alemannia Aachen,finished,3,0
+3. Liga,936453,2024-09-24,17:00,3342,Erzgebirge Aue,4288,Wehen Wiesbaden,finished,2,1
+3. Liga,936452,2024-09-24,17:00,5880,Stuttgart II,4278,Arminia Bielefeld,finished,3,0
+3. Liga,936456,2024-09-24,17:00,4283,Sandhausen,4284,Ingolstadt,finished,4,3
+3. Liga,936458,2024-09-24,17:00,4287,Osnabruck,6216,Energie Cottbus,finished,2,5
+3. Liga,936449,2024-09-24,17:00,4291,Hansa Rostock,4298,Unterhaching,finished,4,1
+3. Liga,936457,2024-09-25,17:00,4307,Saarbrucken,4299,Viktoria Koln,finished,1,0
+3. Liga,936454,2024-09-25,17:00,5669,Alemannia Aachen,4297,Waldhof Mannheim,finished,0,0
+3. Liga,936450,2024-09-25,17:00,4296,1860 Munchen,5990,Hannover 96 II,finished,1,0
+3. Liga,936455,2024-09-25,17:00,3340,Rot-Weiss Essen,4311,Borussia Dortmund II,finished,3,1
+3. Liga,936451,2024-09-25,17:00,4308,Verl,4282,Dynamo Dresden,finished,0,3
+3. Liga,936464,2024-09-27,17:00,4298,Unterhaching,4283,Sandhausen,finished,0,0
+3. Liga,936460,2024-09-28,12:00,4299,Viktoria Koln,3342,Erzgebirge Aue,finished,2,0
+3. Liga,936462,2024-09-28,12:00,4288,Wehen Wiesbaden,4287,Osnabruck,finished,2,1
+3. Liga,936468,2024-09-28,12:00,5990,Hannover 96 II,5880,Stuttgart II,finished,3,1
+3. Liga,936459,2024-09-28,12:00,4297,Waldhof Mannheim,3340,Rot-Weiss Essen,finished,1,0
+3. Liga,936463,2024-09-28,12:00,4311,Borussia Dortmund II,4296,1860 Munchen,finished,1,2
+3. Liga,936461,2024-09-28,14:30,6216,Energie Cottbus,4307,Saarbrucken,finished,4,1
+3. Liga,936466,2024-09-29,11:30,4284,Ingolstadt,4291,Hansa Rostock,finished,2,1
+3. Liga,936467,2024-09-29,14:30,4282,Dynamo Dresden,5669,Alemannia Aachen,finished,0,0
+3. Liga,936465,2024-09-29,17:30,4278,Arminia Bielefeld,4308,Verl,finished,2,1
+3. Liga,936472,2024-10-04,17:00,4311,Borussia Dortmund II,4282,Dynamo Dresden,finished,2,1
+3. Liga,936469,2024-10-05,12:00,3342,Erzgebirge Aue,4291,Hansa Rostock,finished,1,2
+3. Liga,936477,2024-10-05,12:00,3340,Rot-Weiss Essen,4299,Viktoria Koln,finished,2,1
+3. Liga,936474,2024-10-05,12:00,4296,1860 Munchen,4288,Wehen Wiesbaden,finished,2,3
+3. Liga,936475,2024-10-05,12:00,4283,Sandhausen,4297,Waldhof Mannheim,finished,2,1
+3. Liga,936478,2024-10-05,12:00,4308,Verl,4298,Unterhaching,finished,2,0
+3. Liga,936473,2024-10-05,14:30,5669,Alemannia Aachen,4284,Ingolstadt,finished,1,1
+3. Liga,936476,2024-10-06,11:30,5990,Hannover 96 II,6216,Energie Cottbus,finished,0,0
+3. Liga,936470,2024-10-06,14:30,4307,Saarbrucken,4278,Arminia Bielefeld,finished,0,0
+3. Liga,936471,2024-10-06,17:30,4287,Osnabruck,5880,Stuttgart II,finished,1,0
+3. Liga,936486,2024-10-18,17:00,4297,Waldhof Mannheim,3342,Erzgebirge Aue,finished,3,0
+3. Liga,936482,2024-10-19,12:00,4288,Wehen Wiesbaden,5990,Hannover 96 II,finished,1,5
+3. Liga,936479,2024-10-19,12:00,4291,Hansa Rostock,5669,Alemannia Aachen,finished,1,2
+3. Liga,936488,2024-10-19,12:00,6216,Energie Cottbus,4283,Sandhausen,finished,1,1
+3. Liga,936480,2024-10-19,12:00,4284,Ingolstadt,4308,Verl,finished,1,1
+3. Liga,936481,2024-10-19,12:00,4299,Viktoria Koln,4311,Borussia Dortmund II,finished,3,5
+3. Liga,936487,2024-10-19,14:30,5880,Stuttgart II,4307,Saarbrucken,finished,2,3
+3. Liga,936483,2024-10-20,11:30,4282,Dynamo Dresden,3340,Rot-Weiss Essen,finished,3,3
+3. Liga,936485,2024-10-20,14:30,4278,Arminia Bielefeld,4287,Osnabruck,finished,3,1
+3. Liga,936484,2024-10-20,17:30,4298,Unterhaching,4296,1860 Munchen,finished,2,2
+3. Liga,936494,2024-10-22,17:00,4307,Saarbrucken,4291,Hansa Rostock,finished,2,0
+3. Liga,936495,2024-10-22,17:00,4299,Viktoria Koln,4284,Ingolstadt,finished,4,4
+3. Liga,936498,2024-10-22,17:00,4283,Sandhausen,5880,Stuttgart II,finished,1,1
+3. Liga,936496,2024-10-22,17:00,3342,Erzgebirge Aue,6216,Energie Cottbus,finished,1,3
+3. Liga,936497,2024-10-22,17:00,4311,Borussia Dortmund II,4297,Waldhof Mannheim,finished,0,1
+3. Liga,936490,2024-10-23,17:00,4288,Wehen Wiesbaden,4282,Dynamo Dresden,finished,1,0
+3. Liga,936489,2024-10-23,17:00,5990,Hannover 96 II,4278,Arminia Bielefeld,finished,1,4
+3. Liga,936491,2024-10-23,17:00,5669,Alemannia Aachen,4298,Unterhaching,finished,3,1
+3. Liga,936492,2024-10-23,17:00,3340,Rot-Weiss Essen,4308,Verl,finished,1,3
+3. Liga,936493,2024-10-23,17:02,4296,1860 Munchen,4287,Osnabruck,finished,2,2
+3. Liga,936506,2024-10-25,17:00,4284,Ingolstadt,4311,Borussia Dortmund II,finished,5,3
+3. Liga,936499,2024-10-26,12:00,4278,Arminia Bielefeld,5669,Alemannia Aachen,finished,1,1
+3. Liga,936508,2024-10-26,12:00,4282,Dynamo Dresden,5990,Hannover 96 II,finished,2,1
+3. Liga,936504,2024-10-26,12:00,4298,Unterhaching,4299,Viktoria Koln,finished,1,1
+3. Liga,936502,2024-10-26,12:00,4287,Osnabruck,4307,Saarbrucken,finished,1,1
+3. Liga,936503,2024-10-26,12:30,4291,Hansa Rostock,3340,Rot-Weiss Essen,finished,4,0
+3. Liga,936505,2024-10-26,14:30,4308,Verl,4283,Sandhausen,finished,1,1
+3. Liga,936507,2024-10-27,12:30,6216,Energie Cottbus,4296,1860 Munchen,finished,5,1
+3. Liga,936501,2024-10-27,15:30,5880,Stuttgart II,3342,Erzgebirge Aue,finished,0,1
+3. Liga,936500,2024-10-27,18:30,4297,Waldhof Mannheim,4288,Wehen Wiesbaden,finished,2,2
+3. Liga,936516,2024-11-01,18:00,4299,Viktoria Koln,5880,Stuttgart II,finished,2,0
+3. Liga,936509,2024-11-02,13:00,3342,Erzgebirge Aue,4307,Saarbrucken,finished,1,1
+3. Liga,936510,2024-11-02,13:00,4284,Ingolstadt,4282,Dynamo Dresden,finished,1,1
+3. Liga,936517,2024-11-02,13:00,4291,Hansa Rostock,4287,Osnabruck,finished,2,0
+3. Liga,936515,2024-11-02,13:00,4283,Sandhausen,4296,1860 Munchen,finished,0,3
+3. Liga,936514,2024-11-02,13:00,3340,Rot-Weiss Essen,6216,Energie Cottbus,finished,4,0
+3. Liga,936518,2024-11-02,15:30,5669,Alemannia Aachen,5990,Hannover 96 II,finished,0,0
+3. Liga,936513,2024-11-03,12:30,4298,Unterhaching,4297,Waldhof Mannheim,finished,1,1
+3. Liga,936511,2024-11-03,15:30,4288,Wehen Wiesbaden,4278,Arminia Bielefeld,finished,0,0
+3. Liga,936512,2024-11-03,18:30,4311,Borussia Dortmund II,4308,Verl,finished,3,1
+3. Liga,936528,2024-11-08,18:00,4308,Verl,4291,Hansa Rostock,finished,1,0
+3. Liga,936526,2024-11-09,13:00,4307,Saarbrucken,4288,Wehen Wiesbaden,finished,3,1
+3. Liga,936523,2024-11-09,13:00,6216,Energie Cottbus,4311,Borussia Dortmund II,finished,3,3
+3. Liga,936525,2024-11-09,13:00,4283,Sandhausen,5669,Alemannia Aachen,finished,4,0
+3. Liga,936522,2024-11-09,13:00,4287,Osnabruck,4282,Dynamo Dresden,finished,0,3
+3. Liga,936527,2024-11-09,13:00,4296,1860 Munchen,4297,Waldhof Mannheim,finished,3,0
+3. Liga,936524,2024-11-09,15:30,4278,Arminia Bielefeld,4299,Viktoria Koln,finished,2,0
+3. Liga,936521,2024-11-10,12:30,5990,Hannover 96 II,4284,Ingolstadt,finished,0,4
+3. Liga,936519,2024-11-10,15:30,3342,Erzgebirge Aue,3340,Rot-Weiss Essen,finished,2,1
+3. Liga,936520,2024-11-10,18:30,5880,Stuttgart II,4298,Unterhaching,finished,3,2
+3. Liga,936531,2024-11-22,18:00,4299,Viktoria Koln,6216,Energie Cottbus,finished,0,1
+3. Liga,936537,2024-11-23,13:00,5669,Alemannia Aachen,4296,1860 Munchen,finished,1,1
+3. Liga,936532,2024-11-23,13:00,4282,Dynamo Dresden,4307,Saarbrucken,finished,1,1
+3. Liga,936538,2024-11-23,13:00,4308,Verl,5880,Stuttgart II,finished,2,2
+3. Liga,936535,2024-11-23,13:00,3340,Rot-Weiss Essen,4283,Sandhausen,finished,1,1
+3. Liga,936529,2024-11-23,13:00,4291,Hansa Rostock,4278,Arminia Bielefeld,finished,2,1
+3. Liga,936534,2024-11-23,15:30,4298,Unterhaching,4288,Wehen Wiesbaden,finished,1,1
+3. Liga,936536,2024-11-24,12:30,4297,Waldhof Mannheim,5990,Hannover 96 II,finished,2,1
+3. Liga,936530,2024-11-24,15:30,4284,Ingolstadt,4287,Osnabruck,finished,4,2
+3. Liga,936533,2024-11-24,18:30,4311,Borussia Dortmund II,3342,Erzgebirge Aue,finished,3,1
+3. Liga,936544,2024-11-29,18:00,4278,Arminia Bielefeld,4284,Ingolstadt,finished,1,0
+3. Liga,936546,2024-11-30,13:00,5990,Hannover 96 II,4311,Borussia Dortmund II,finished,2,0
+3. Liga,936547,2024-11-30,13:00,3342,Erzgebirge Aue,4308,Verl,finished,2,5
+3. Liga,936545,2024-11-30,13:00,4283,Sandhausen,4282,Dynamo Dresden,finished,2,4
+3. Liga,936542,2024-11-30,13:00,6216,Energie Cottbus,4298,Unterhaching,finished,2,0
+3. Liga,936548,2024-11-30,13:00,4296,1860 Munchen,4291,Hansa Rostock,finished,1,2
+3. Liga,936540,2024-11-30,15:30,5880,Stuttgart II,4297,Waldhof Mannheim,finished,2,0
+3. Liga,936541,2024-12-01,12:30,4287,Osnabruck,5669,Alemannia Aachen,finished,1,1
+3. Liga,936539,2024-12-01,15:30,4307,Saarbrucken,3340,Rot-Weiss Essen,finished,1,0
+3. Liga,936543,2024-12-01,18:30,4288,Wehen Wiesbaden,4299,Viktoria Koln,finished,3,1
+3. Liga,936558,2024-12-06,18:00,4308,Verl,4307,Saarbrucken,finished,1,1
+3. Liga,936554,2024-12-07,13:00,4298,Unterhaching,5990,Hannover 96 II,finished,1,2
+3. Liga,936550,2024-12-07,13:00,4284,Ingolstadt,3342,Erzgebirge Aue,finished,1,0
+3. Liga,936553,2024-12-07,13:00,4311,Borussia Dortmund II,4288,Wehen Wiesbaden,finished,2,2
+3. Liga,936556,2024-12-07,13:00,4297,Waldhof Mannheim,6216,Energie Cottbus,finished,0,1
+3. Liga,936551,2024-12-07,13:00,4291,Hansa Rostock,4283,Sandhausen,finished,1,0
+3. Liga,936555,2024-12-07,15:30,5669,Alemannia Aachen,5880,Stuttgart II,finished,2,1
+3. Liga,936549,2024-12-08,12:30,3340,Rot-Weiss Essen,4296,1860 Munchen,finished,0,3
+3. Liga,936552,2024-12-08,15:30,4282,Dynamo Dresden,4278,Arminia Bielefeld,finished,3,0
+3. Liga,936557,2024-12-08,18:30,4299,Viktoria Koln,4287,Osnabruck,finished,2,0
+3. Liga,936563,2024-12-13,18:00,4282,Dynamo Dresden,4297,Waldhof Mannheim,finished,2,1
+3. Liga,936565,2024-12-14,13:00,4283,Sandhausen,3342,Erzgebirge Aue,finished,4,6
+3. Liga,936564,2024-12-14,13:00,4278,Arminia Bielefeld,4298,Unterhaching,finished,3,3
+3. Liga,936560,2024-12-14,13:00,5880,Stuttgart II,4311,Borussia Dortmund II,finished,0,3
+3. Liga,936561,2024-12-14,13:00,5990,Hannover 96 II,4299,Viktoria Koln,finished,1,2
+3. Liga,936567,2024-12-14,13:00,4288,Wehen Wiesbaden,4284,Ingolstadt,finished,2,5
+3. Liga,936568,2024-12-14,15:30,4296,1860 Munchen,4308,Verl,finished,0,4
+3. Liga,936562,2024-12-15,12:30,6216,Energie Cottbus,4291,Hansa Rostock,finished,3,1
+3. Liga,936566,2024-12-15,15:30,4287,Osnabruck,3340,Rot-Weiss Essen,finished,2,0
+3. Liga,936559,2024-12-15,18:30,4307,Saarbrucken,5669,Alemannia Aachen,finished,1,1
+3. Liga,936571,2024-12-20,18:00,4284,Ingolstadt,6216,Energie Cottbus,finished,1,1
+3. Liga,936575,2024-12-21,13:00,3340,Rot-Weiss Essen,5880,Stuttgart II,finished,2,2
+3. Liga,936573,2024-12-21,13:00,4311,Borussia Dortmund II,4307,Saarbrucken,finished,0,0
+3. Liga,936576,2024-12-21,13:00,4299,Viktoria Koln,4283,Sandhausen,finished,2,0
+3. Liga,936577,2024-12-21,13:00,4298,Unterhaching,4282,Dynamo Dresden,finished,0,3
+3. Liga,936569,2024-12-21,13:00,3342,Erzgebirge Aue,4296,1860 Munchen,finished,3,1
+3. Liga,936574,2024-12-21,15:30,5669,Alemannia Aachen,4288,Wehen Wiesbaden,finished,0,0
+3. Liga,936570,2024-12-22,12:30,4297,Waldhof Mannheim,4278,Arminia Bielefeld,finished,1,1
+3. Liga,936578,2024-12-22,15:30,4308,Verl,4287,Osnabruck,finished,1,1
+3. Liga,936572,2024-12-22,18:30,4291,Hansa Rostock,5990,Hannover 96 II,finished,1,0
+3. Liga,936583,2025-01-17,18:00,5990,Hannover 96 II,3342,Erzgebirge Aue,finished,2,1
+3. Liga,936581,2025-01-18,13:00,4307,Saarbrucken,4296,1860 Munchen,finished,4,0
+3. Liga,936586,2025-01-18,13:00,4298,Unterhaching,4311,Borussia Dortmund II,finished,1,2
+3. Liga,936582,2025-01-18,13:00,5880,Stuttgart II,4291,Hansa Rostock,finished,0,3
+3. Liga,936580,2025-01-18,13:00,4278,Arminia Bielefeld,6216,Energie Cottbus,finished,0,2
+3. Liga,936584,2025-01-18,13:00,4287,Osnabruck,4283,Sandhausen,finished,3,2
+3. Liga,936579,2025-01-18,15:30,4288,Wehen Wiesbaden,4308,Verl,finished,0,1
+3. Liga,936585,2025-01-19,12:30,4282,Dynamo Dresden,4299,Viktoria Koln,finished,2,3
+3. Liga,936587,2025-01-19,15:30,5669,Alemannia Aachen,3340,Rot-Weiss Essen,finished,2,0
+3. Liga,936588,2025-01-19,18:30,4297,Waldhof Mannheim,4284,Ingolstadt,finished,0,0
+3. Liga,936589,2025-01-24,18:00,4299,Viktoria Koln,4297,Waldhof Mannheim,finished,1,0
+3. Liga,936592,2025-01-25,13:00,4291,Hansa Rostock,4288,Wehen Wiesbaden,finished,1,4
+3. Liga,936594,2025-01-25,13:00,4296,1860 Munchen,5880,Stuttgart II,finished,1,1
+3. Liga,936598,2025-01-25,13:00,4308,Verl,5669,Alemannia Aachen,finished,2,1
+3. Liga,936591,2025-01-25,13:00,3342,Erzgebirge Aue,4287,Osnabruck,finished,0,0
+3. Liga,936596,2025-01-25,13:00,6216,Energie Cottbus,4282,Dynamo Dresden,finished,1,1
+3. Liga,936595,2025-01-25,15:30,4283,Sandhausen,4307,Saarbrucken,finished,3,4
+3. Liga,936597,2025-01-26,12:30,3340,Rot-Weiss Essen,5990,Hannover 96 II,finished,5,1
+3. Liga,936590,2025-01-26,15:30,4284,Ingolstadt,4298,Unterhaching,finished,3,1
+3. Liga,936593,2025-01-26,18:30,4311,Borussia Dortmund II,4278,Arminia Bielefeld,finished,0,4
+3. Liga,936605,2025-01-31,18:00,5669,Alemannia Aachen,6216,Energie Cottbus,finished,0,0
+3. Liga,936600,2025-02-01,13:00,4297,Waldhof Mannheim,4308,Verl,finished,2,2
+3. Liga,936602,2025-02-01,13:00,4288,Wehen Wiesbaden,5880,Stuttgart II,finished,2,0
+3. Liga,936601,2025-02-01,13:00,4284,Ingolstadt,4307,Saarbrucken,finished,1,0
+3. Liga,936603,2025-02-01,13:00,4311,Borussia Dortmund II,4291,Hansa Rostock,finished,0,2
+3. Liga,936608,2025-02-01,13:00,4282,Dynamo Dresden,3342,Erzgebirge Aue,finished,2,1
+3. Liga,936606,2025-02-01,15:30,4299,Viktoria Koln,4296,1860 Munchen,finished,1,2
+3. Liga,936599,2025-02-02,12:30,4278,Arminia Bielefeld,3340,Rot-Weiss Essen,finished,1,2
+3. Liga,936604,2025-02-02,15:30,4298,Unterhaching,4287,Osnabruck,finished,2,3
+3. Liga,936607,2025-02-02,18:30,5990,Hannover 96 II,4283,Sandhausen,finished,2,2
+3. Liga,936615,2025-02-07,18:00,4283,Sandhausen,4278,Arminia Bielefeld,finished,1,0
+3. Liga,936616,2025-02-08,13:00,5880,Stuttgart II,4282,Dynamo Dresden,finished,2,1
+3. Liga,936612,2025-02-08,13:00,6216,Energie Cottbus,4288,Wehen Wiesbaden,finished,2,1
+3. Liga,936609,2025-02-08,13:00,4307,Saarbrucken,4297,Waldhof Mannheim,finished,2,1
+3. Liga,936614,2025-02-08,13:00,3340,Rot-Weiss Essen,4298,Unterhaching,finished,1,1
+3. Liga,936611,2025-02-08,13:00,3342,Erzgebirge Aue,5669,Alemannia Aachen,finished,1,1
+3. Liga,936617,2025-02-08,15:30,4296,1860 Munchen,4284,Ingolstadt,finished,1,1
+3. Liga,936613,2025-02-09,12:30,4291,Hansa Rostock,4299,Viktoria Koln,finished,1,1
+3. Liga,936618,2025-02-09,15:30,4308,Verl,5990,Hannover 96 II,finished,1,0
+3. Liga,936610,2025-02-09,18:30,4287,Osnabruck,4311,Borussia Dortmund II,finished,1,0
+3. Liga,936621,2025-02-14,18:00,4299,Viktoria Koln,5669,Alemannia Aachen,finished,3,1
+3. Liga,936619,2025-02-15,13:00,4297,Waldhof Mannheim,4291,Hansa Rostock,finished,5,0
+3. Liga,936626,2025-02-15,13:00,4288,Wehen Wiesbaden,3340,Rot-Weiss Essen,finished,1,3
+3. Liga,936620,2025-02-15,13:00,4284,Ingolstadt,5880,Stuttgart II,finished,1,1
+3. Liga,936628,2025-02-15,13:00,4278,Arminia Bielefeld,3342,Erzgebirge Aue,finished,2,1
+3. Liga,936622,2025-02-15,13:00,5990,Hannover 96 II,4287,Osnabruck,finished,1,5
+3. Liga,936625,2025-02-15,15:30,4311,Borussia Dortmund II,4283,Sandhausen,finished,1,0
+3. Liga,936627,2025-02-16,12:30,4298,Unterhaching,4307,Saarbrucken,finished,2,0
+3. Liga,936623,2025-02-16,15:30,6216,Energie Cottbus,4308,Verl,finished,1,0
+3. Liga,936624,2025-02-16,18:30,4282,Dynamo Dresden,4296,1860 Munchen,finished,5,2
+3. Liga,936636,2025-02-21,18:00,4296,1860 Munchen,4278,Arminia Bielefeld,finished,0,3
+3. Liga,936632,2025-02-22,13:00,3342,Erzgebirge Aue,4298,Unterhaching,finished,1,0
+3. Liga,936637,2025-02-22,13:00,4308,Verl,4299,Viktoria Koln,finished,1,1
+3. Liga,936635,2025-02-22,13:00,3340,Rot-Weiss Essen,4284,Ingolstadt,finished,2,0
+3. Liga,936629,2025-02-22,13:00,4291,Hansa Rostock,4282,Dynamo Dresden,finished,1,0
+3. Liga,936634,2025-02-22,13:00,5669,Alemannia Aachen,4311,Borussia Dortmund II,finished,2,2
+3. Liga,936630,2025-02-22,15:30,4307,Saarbrucken,5990,Hannover 96 II,finished,4,1
+3. Liga,936631,2025-02-23,12:30,5880,Stuttgart II,6216,Energie Cottbus,finished,2,0
+3. Liga,936633,2025-02-23,15:30,4287,Osnabruck,4297,Waldhof Mannheim,finished,1,1
+3. Liga,936638,2025-02-23,18:30,4283,Sandhausen,4288,Wehen Wiesbaden,finished,0,1
+3. Liga,936647,2025-02-28,18:00,4299,Viktoria Koln,4307,Saarbrucken,finished,1,2
+3. Liga,936648,2025-03-01,13:00,4311,Borussia Dortmund II,3340,Rot-Weiss Essen,finished,0,1
+3. Liga,936642,2025-03-01,13:00,4288,Wehen Wiesbaden,3342,Erzgebirge Aue,finished,0,2
+3. Liga,936639,2025-03-01,13:00,6216,Energie Cottbus,4287,Osnabruck,finished,1,2
+3. Liga,936641,2025-03-01,13:00,5990,Hannover 96 II,4296,1860 Munchen,finished,1,3
+3. Liga,936640,2025-03-01,13:00,4284,Ingolstadt,4283,Sandhausen,finished,2,1
+3. Liga,936643,2025-03-01,15:30,4282,Dynamo Dresden,4308,Verl,finished,3,0
+3. Liga,936646,2025-03-02,12:30,4297,Waldhof Mannheim,5669,Alemannia Aachen,finished,2,1
+3. Liga,936645,2025-03-02,18:30,4278,Arminia Bielefeld,5880,Stuttgart II,finished,4,1
+3. Liga,936653,2025-03-07,18:00,4287,Osnabruck,4288,Wehen Wiesbaden,finished,0,1
+3. Liga,936657,2025-03-08,13:00,5669,Alemannia Aachen,4282,Dynamo Dresden,finished,0,1
+3. Liga,936656,2025-03-08,13:00,4291,Hansa Rostock,4284,Ingolstadt,finished,2,0
+3. Liga,936651,2025-03-08,13:00,5880,Stuttgart II,5990,Hannover 96 II,finished,2,1
+3. Liga,936650,2025-03-08,13:00,4307,Saarbrucken,6216,Energie Cottbus,finished,2,1
+3. Liga,936655,2025-03-08,13:00,4283,Sandhausen,4298,Unterhaching,finished,2,2
+3. Liga,936654,2025-03-08,15:30,4308,Verl,4278,Arminia Bielefeld,finished,2,1
+3. Liga,936658,2025-03-09,12:30,4296,1860 Munchen,4311,Borussia Dortmund II,finished,1,0
+3. Liga,936652,2025-03-09,15:45,3342,Erzgebirge Aue,4299,Viktoria Koln,finished,2,1
+3. Liga,936649,2025-03-09,18:30,3340,Rot-Weiss Essen,4297,Waldhof Mannheim,finished,1,0
+3. Liga,936662,2025-03-11,18:00,4298,Unterhaching,4308,Verl,finished,1,2
+3. Liga,936663,2025-03-11,18:00,4278,Arminia Bielefeld,4307,Saarbrucken,finished,3,1
+3. Liga,936665,2025-03-11,18:00,6216,Energie Cottbus,5990,Hannover 96 II,finished,2,2
+3. Liga,936661,2025-03-11,18:00,5880,Stuttgart II,4287,Osnabruck,finished,1,2
+3. Liga,936664,2025-03-11,18:00,4284,Ingolstadt,5669,Alemannia Aachen,finished,0,3
+3. Liga,936660,2025-03-12,18:00,4299,Viktoria Koln,3340,Rot-Weiss Essen,finished,1,0
+3. Liga,936668,2025-03-12,18:00,4282,Dynamo Dresden,4311,Borussia Dortmund II,finished,0,0
+3. Liga,936666,2025-03-12,18:00,4291,Hansa Rostock,3342,Erzgebirge Aue,finished,4,1
+3. Liga,936667,2025-03-12,18:00,4288,Wehen Wiesbaden,4296,1860 Munchen,finished,0,0
+3. Liga,936659,2025-03-12,18:00,4297,Waldhof Mannheim,4283,Sandhausen,finished,3,2
+3. Liga,936671,2025-03-14,18:00,4307,Saarbrucken,5880,Stuttgart II,finished,0,2
+3. Liga,936673,2025-03-15,13:00,3340,Rot-Weiss Essen,4282,Dynamo Dresden,finished,1,1
+3. Liga,936669,2025-03-15,13:00,4308,Verl,4284,Ingolstadt,finished,1,4
+3. Liga,936676,2025-03-15,13:00,4311,Borussia Dortmund II,4299,Viktoria Koln,finished,1,1
+3. Liga,936675,2025-03-15,13:00,5990,Hannover 96 II,4288,Wehen Wiesbaden,finished,3,2
+3. Liga,936674,2025-03-15,13:00,4287,Osnabruck,4278,Arminia Bielefeld,finished,0,1
+3. Liga,936678,2025-03-15,15:30,4296,1860 Munchen,4298,Unterhaching,finished,2,1
+3. Liga,936670,2025-03-16,12:30,4283,Sandhausen,6216,Energie Cottbus,finished,0,1
+3. Liga,936672,2025-03-16,15:30,3342,Erzgebirge Aue,4297,Waldhof Mannheim,finished,0,1
+3. Liga,936677,2025-03-16,18:30,5669,Alemannia Aachen,4291,Hansa Rostock,finished,2,1
+3. Liga,936685,2025-03-28,18:00,4308,Verl,3340,Rot-Weiss Essen,finished,3,0
+3. Liga,936680,2025-03-29,13:00,4297,Waldhof Mannheim,4311,Borussia Dortmund II,finished,0,0
+3. Liga,936679,2025-03-29,13:00,4287,Osnabruck,4296,1860 Munchen,finished,1,0
+3. Liga,936688,2025-03-29,13:00,6216,Energie Cottbus,3342,Erzgebirge Aue,finished,1,0
+3. Liga,936683,2025-03-29,13:00,4298,Unterhaching,5669,Alemannia Aachen,finished,0,2
+3. Liga,936681,2025-03-29,13:00,4291,Hansa Rostock,4307,Saarbrucken,finished,0,0
+3. Liga,936684,2025-03-29,15:30,4278,Arminia Bielefeld,5990,Hannover 96 II,finished,2,2
+3. Liga,936686,2025-03-30,11:30,4284,Ingolstadt,4299,Viktoria Koln,finished,3,1
+3. Liga,936682,2025-03-30,14:30,4282,Dynamo Dresden,4288,Wehen Wiesbaden,finished,2,0
+3. Liga,936687,2025-03-30,17:30,5880,Stuttgart II,4283,Sandhausen,finished,2,1
+3. Liga,936697,2025-04-04,17:00,5990,Hannover 96 II,4282,Dynamo Dresden,finished,2,3
+3. Liga,936690,2025-04-05,12:00,4299,Viktoria Koln,4298,Unterhaching,finished,3,1
+3. Liga,936694,2025-04-05,12:00,4296,1860 Munchen,6216,Energie Cottbus,finished,5,1
+3. Liga,936691,2025-04-05,12:00,3342,Erzgebirge Aue,5880,Stuttgart II,finished,2,1
+3. Liga,936692,2025-04-05,12:00,4288,Wehen Wiesbaden,4297,Waldhof Mannheim,finished,2,2
+3. Liga,936696,2025-04-05,12:00,4307,Saarbrucken,4287,Osnabruck,finished,1,1
+3. Liga,936693,2025-04-05,14:30,5669,Alemannia Aachen,4278,Arminia Bielefeld,finished,0,1
+3. Liga,936698,2025-04-06,11:30,4311,Borussia Dortmund II,4284,Ingolstadt,finished,3,3
+3. Liga,936695,2025-04-06,14:30,4283,Sandhausen,4308,Verl,finished,1,3
+3. Liga,936689,2025-04-06,17:30,3340,Rot-Weiss Essen,4291,Hansa Rostock,finished,2,1
+3. Liga,936700,2025-04-08,17:00,5880,Stuttgart II,4299,Viktoria Koln,finished,1,2
+3. Liga,936699,2025-04-08,17:00,4297,Waldhof Mannheim,4298,Unterhaching,finished,0,2
+3. Liga,936705,2025-04-08,17:00,5990,Hannover 96 II,5669,Alemannia Aachen,finished,1,1
+3. Liga,936703,2025-04-08,17:00,4278,Arminia Bielefeld,4288,Wehen Wiesbaden,finished,4,2
+3. Liga,936704,2025-04-08,17:00,4307,Saarbrucken,3342,Erzgebirge Aue,finished,2,0
+3. Liga,936701,2025-04-09,17:00,6216,Energie Cottbus,3340,Rot-Weiss Essen,finished,0,1
+3. Liga,936702,2025-04-09,17:00,4296,1860 Munchen,4283,Sandhausen,finished,2,0
+3. Liga,936708,2025-04-09,17:00,4308,Verl,4311,Borussia Dortmund II,finished,0,1
+3. Liga,936707,2025-04-09,17:00,4282,Dynamo Dresden,4284,Ingolstadt,finished,2,2
+3. Liga,936706,2025-04-09,17:00,4287,Osnabruck,4291,Hansa Rostock,finished,0,1
+3. Liga,936712,2025-04-11,17:00,4288,Wehen Wiesbaden,4307,Saarbrucken,finished,1,1
+3. Liga,936715,2025-04-12,12:00,3340,Rot-Weiss Essen,3342,Erzgebirge Aue,finished,4,2
+3. Liga,936717,2025-04-12,12:00,4282,Dynamo Dresden,4287,Osnabruck,finished,0,1
+3. Liga,936716,2025-04-12,12:00,4291,Hansa Rostock,4308,Verl,finished,4,0
+3. Liga,936710,2025-04-12,12:00,4284,Ingolstadt,5990,Hannover 96 II,finished,3,3
+3. Liga,936714,2025-04-12,12:00,4298,Unterhaching,5880,Stuttgart II,finished,2,2
+3. Liga,936718,2025-04-12,14:30,5669,Alemannia Aachen,4283,Sandhausen,finished,2,1
+3. Liga,936709,2025-04-13,11:30,4297,Waldhof Mannheim,4296,1860 Munchen,finished,0,3
+3. Liga,936713,2025-04-13,14:30,4311,Borussia Dortmund II,6216,Energie Cottbus,finished,4,1
+3. Liga,936711,2025-04-13,17:30,4299,Viktoria Koln,4278,Arminia Bielefeld,finished,0,2
+3. Liga,936725,2025-04-19,12:00,4283,Sandhausen,3340,Rot-Weiss Essen,finished,0,2
+3. Liga,936727,2025-04-19,12:00,4288,Wehen Wiesbaden,4298,Unterhaching,finished,3,0
+3. Liga,936724,2025-04-19,12:00,4296,1860 Munchen,5669,Alemannia Aachen,finished,2,1
+3. Liga,936728,2025-04-19,12:00,4278,Arminia Bielefeld,4291,Hansa Rostock,finished,4,0
+3. Liga,936726,2025-04-19,12:00,6216,Energie Cottbus,4299,Viktoria Koln,finished,1,0
+3. Liga,936720,2025-04-19,14:30,5880,Stuttgart II,4308,Verl,finished,1,1
+3. Liga,936723,2025-04-19,14:30,4287,Osnabruck,4284,Ingolstadt,finished,1,0
+3. Liga,936719,2025-04-20,11:30,4307,Saarbrucken,4282,Dynamo Dresden,finished,1,4
+3. Liga,936721,2025-04-20,14:30,5990,Hannover 96 II,4297,Waldhof Mannheim,finished,1,1
+3. Liga,936722,2025-04-20,17:30,3342,Erzgebirge Aue,4311,Borussia Dortmund II,finished,2,1
+3. Liga,936729,2025-04-25,17:00,4291,Hansa Rostock,4296,1860 Munchen,finished,1,0
+3. Liga,936732,2025-04-26,12:00,4311,Borussia Dortmund II,5990,Hannover 96 II,finished,0,4
+3. Liga,936733,2025-04-26,12:00,4298,Unterhaching,6216,Energie Cottbus,finished,1,1
+3. Liga,936731,2025-04-26,12:00,4282,Dynamo Dresden,4283,Sandhausen,finished,2,1
+3. Liga,936734,2025-04-26,12:00,3340,Rot-Weiss Essen,4307,Saarbrucken,finished,0,3
+3. Liga,936730,2025-04-26,12:00,4299,Viktoria Koln,4288,Wehen Wiesbaden,finished,2,0
+3. Liga,936735,2025-04-26,14:30,4308,Verl,3342,Erzgebirge Aue,finished,5,1
+3. Liga,936737,2025-04-27,11:30,4284,Ingolstadt,4278,Arminia Bielefeld,finished,0,3
+3. Liga,936738,2025-04-27,14:30,5669,Alemannia Aachen,4287,Osnabruck,finished,1,0
+3. Liga,936736,2025-04-27,17:30,4297,Waldhof Mannheim,5880,Stuttgart II,finished,0,0
+3. Liga,936747,2025-05-02,17:00,4287,Osnabruck,4299,Viktoria Koln,finished,2,0
+3. Liga,936740,2025-05-03,12:00,4307,Saarbrucken,4308,Verl,finished,4,3
+3. Liga,936743,2025-05-03,12:00,4288,Wehen Wiesbaden,4311,Borussia Dortmund II,finished,4,2
+3. Liga,936745,2025-05-03,12:00,4283,Sandhausen,4291,Hansa Rostock,finished,0,3
+3. Liga,936739,2025-05-03,12:00,4296,1860 Munchen,3340,Rot-Weiss Essen,finished,1,3
+3. Liga,936741,2025-05-03,12:00,5880,Stuttgart II,5669,Alemannia Aachen,finished,2,1
+3. Liga,936744,2025-05-03,14:30,4278,Arminia Bielefeld,4282,Dynamo Dresden,finished,1,1
+3. Liga,936748,2025-05-04,11:30,6216,Energie Cottbus,4297,Waldhof Mannheim,finished,2,4
+3. Liga,936742,2025-05-04,14:30,3342,Erzgebirge Aue,4284,Ingolstadt,finished,1,0
+3. Liga,936746,2025-05-04,17:30,5990,Hannover 96 II,4298,Unterhaching,finished,0,0
+3. Liga,936644,2025-05-07,17:00,4298,Unterhaching,4291,Hansa Rostock,finished,0,2
+3. Liga,936758,2025-05-09,17:00,4311,Borussia Dortmund II,5880,Stuttgart II,finished,0,1
+3. Liga,936749,2025-05-10,12:00,5669,Alemannia Aachen,4307,Saarbrucken,finished,4,2
+3. Liga,936756,2025-05-10,12:00,4297,Waldhof Mannheim,4282,Dynamo Dresden,finished,1,0
+3. Liga,936752,2025-05-10,12:00,4291,Hansa Rostock,6216,Energie Cottbus,finished,1,3
+3. Liga,936757,2025-05-10,12:00,3342,Erzgebirge Aue,4283,Sandhausen,finished,2,3
+3. Liga,936755,2025-05-10,12:00,4308,Verl,4296,1860 Munchen,finished,2,2
+3. Liga,936750,2025-05-10,14:30,4284,Ingolstadt,4288,Wehen Wiesbaden,finished,2,3
+3. Liga,936753,2025-05-11,11:30,4298,Unterhaching,4278,Arminia Bielefeld,finished,1,2
+3. Liga,936754,2025-05-11,14:30,3340,Rot-Weiss Essen,4287,Osnabruck,finished,3,1
+3. Liga,936751,2025-05-11,17:30,4299,Viktoria Koln,5990,Hannover 96 II,finished,2,0
+3. Liga,936759,2025-05-17,11:30,4307,Saarbrucken,4311,Borussia Dortmund II,finished,2,1
+3. Liga,936763,2025-05-17,11:30,6216,Energie Cottbus,4284,Ingolstadt,finished,1,4
+3. Liga,936768,2025-05-17,11:30,4283,Sandhausen,4299,Viktoria Koln,finished,0,4
+3. Liga,936762,2025-05-17,11:30,4287,Osnabruck,4308,Verl,finished,0,3
+3. Liga,936761,2025-05-17,11:30,5990,Hannover 96 II,4291,Hansa Rostock,finished,2,1
+3. Liga,936760,2025-05-17,11:30,5880,Stuttgart II,3340,Rot-Weiss Essen,finished,1,1
+3. Liga,936766,2025-05-17,11:30,4296,1860 Munchen,3342,Erzgebirge Aue,finished,1,1
+3. Liga,936764,2025-05-17,11:30,4288,Wehen Wiesbaden,5669,Alemannia Aachen,finished,2,1
+3. Liga,936767,2025-05-17,11:30,4278,Arminia Bielefeld,4297,Waldhof Mannheim,finished,1,0
+3. Liga,936765,2025-05-17,11:30,4282,Dynamo Dresden,4298,Unterhaching,finished,3,0

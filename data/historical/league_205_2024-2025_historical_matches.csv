@@ -1,0 +1,136 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+First Division,938881,2024-09-14,18:30,5055,Pas de la Casa,3483,Ordino,finished,1,2
+First Division,938880,2024-09-15,09:00,3456,UE Santa Coloma,3487,FC Santa Coloma,finished,0,1
+First Division,938878,2024-09-15,11:30,3546,Inter Club d'Escaldes,3490,La Massana,finished,6,1
+First Division,938879,2024-09-15,14:00,12117,Ranger's,5054,Esperanca d'Andorra,finished,4,0
+First Division,938877,2024-09-15,16:30,3484,Penya Encarnada,3482,Atletic Club d'Escaldes,finished,0,0
+First Division,938885,2024-09-21,18:30,3487,FC Santa Coloma,12117,Ranger's,finished,1,1
+First Division,938884,2024-09-22,09:00,5054,Esperanca d'Andorra,3546,Inter Club d'Escaldes,finished,0,3
+First Division,938882,2024-09-22,11:30,3482,Atletic Club d'Escaldes,5055,Pas de la Casa,finished,3,2
+First Division,938883,2024-09-22,14:00,3490,La Massana,3484,Penya Encarnada,finished,1,3
+First Division,938886,2024-09-22,16:30,3483,Ordino,3456,UE Santa Coloma,finished,0,2
+First Division,938891,2024-09-28,18:30,5055,Pas de la Casa,3456,UE Santa Coloma,finished,2,2
+First Division,938890,2024-09-29,09:00,12117,Ranger's,3483,Ordino,finished,3,0
+First Division,938888,2024-09-29,11:30,3484,Penya Encarnada,5054,Esperanca d'Andorra,finished,4,1
+First Division,938889,2024-09-29,14:00,3546,Inter Club d'Escaldes,3487,FC Santa Coloma,finished,2,0
+First Division,938887,2024-09-29,16:30,3482,Atletic Club d'Escaldes,3490,La Massana,finished,3,1
+First Division,938893,2024-10-05,18:30,5054,Esperanca d'Andorra,3482,Atletic Club d'Escaldes,finished,0,5
+First Division,938892,2024-10-06,09:00,3490,La Massana,5055,Pas de la Casa,finished,0,4
+First Division,938896,2024-10-06,11:30,3456,UE Santa Coloma,12117,Ranger's,finished,0,1
+First Division,938895,2024-10-06,14:00,3483,Ordino,3546,Inter Club d'Escaldes,finished,0,4
+First Division,938894,2024-10-06,16:30,3487,FC Santa Coloma,3484,Penya Encarnada,finished,2,1
+First Division,938897,2024-10-19,18:30,3490,La Massana,5054,Esperanca d'Andorra,finished,1,1
+First Division,938898,2024-10-20,09:00,3482,Atletic Club d'Escaldes,3487,FC Santa Coloma,finished,4,2
+First Division,938899,2024-10-20,11:30,3484,Penya Encarnada,3483,Ordino,finished,0,0
+First Division,938900,2024-10-20,14:00,3546,Inter Club d'Escaldes,3456,UE Santa Coloma,finished,3,2
+First Division,938901,2024-10-20,16:30,5055,Pas de la Casa,12117,Ranger's,finished,0,0
+First Division,938904,2024-10-26,18:30,3483,Ordino,3482,Atletic Club d'Escaldes,finished,2,2
+First Division,938905,2024-10-27,10:00,3456,UE Santa Coloma,3484,Penya Encarnada,finished,2,1
+First Division,938903,2024-10-27,12:30,3487,FC Santa Coloma,3490,La Massana,finished,2,0
+First Division,938902,2024-10-27,15:00,5054,Esperanca d'Andorra,5055,Pas de la Casa,finished,0,2
+First Division,938906,2024-10-27,17:30,12117,Ranger's,3546,Inter Club d'Escaldes,finished,2,2
+First Division,938910,2024-11-02,19:30,3484,Penya Encarnada,12117,Ranger's,finished,0,6
+First Division,938907,2024-11-03,10:00,5054,Esperanca d'Andorra,3487,FC Santa Coloma,finished,0,2
+First Division,938911,2024-11-03,12:30,5055,Pas de la Casa,3546,Inter Club d'Escaldes,finished,1,1
+First Division,938909,2024-11-03,15:00,3482,Atletic Club d'Escaldes,3456,UE Santa Coloma,finished,0,0
+First Division,938908,2024-11-03,17:30,3490,La Massana,3483,Ordino,finished,0,3
+First Division,938916,2024-11-09,19:30,3546,Inter Club d'Escaldes,3484,Penya Encarnada,finished,5,1
+First Division,938914,2024-11-10,10:00,3456,UE Santa Coloma,3490,La Massana,finished,5,0
+First Division,938913,2024-11-10,12:30,3483,Ordino,5054,Esperanca d'Andorra,finished,3,1
+First Division,938912,2024-11-10,15:00,5055,Pas de la Casa,3487,FC Santa Coloma,finished,2,0
+First Division,938915,2024-11-10,17:30,12117,Ranger's,3482,Atletic Club d'Escaldes,finished,3,2
+First Division,938921,2024-11-23,19:30,3484,Penya Encarnada,5055,Pas de la Casa,finished,1,0
+First Division,938917,2024-11-24,10:00,3487,FC Santa Coloma,3483,Ordino,finished,3,1
+First Division,938920,2024-11-24,12:30,3482,Atletic Club d'Escaldes,3546,Inter Club d'Escaldes,finished,3,1
+First Division,938919,2024-11-24,15:00,3490,La Massana,12117,Ranger's,finished,0,4
+First Division,938918,2024-11-24,17:30,5054,Esperanca d'Andorra,3456,UE Santa Coloma,finished,0,5
+First Division,938925,2024-11-30,19:30,3456,UE Santa Coloma,3484,Penya Encarnada,finished,2,0
+First Division,938924,2024-12-01,10:00,3546,Inter Club d'Escaldes,12117,Ranger's,finished,0,0
+First Division,938923,2024-12-01,12:30,3482,Atletic Club d'Escaldes,3487,FC Santa Coloma,finished,0,0
+First Division,938922,2024-12-01,15:00,3483,Ordino,3490,La Massana,finished,2,1
+First Division,938926,2024-12-01,17:30,5055,Pas de la Casa,5054,Esperanca d'Andorra,finished,1,0
+First Division,938930,2024-12-08,12:30,3484,Penya Encarnada,12117,Ranger's,finished,0,0
+First Division,938928,2024-12-08,15:00,3483,Ordino,3487,FC Santa Coloma,finished,0,1
+First Division,938929,2024-12-08,17:30,3546,Inter Club d'Escaldes,3482,Atletic Club d'Escaldes,finished,0,0
+First Division,938931,2024-12-10,09:30,5055,Pas de la Casa,3456,UE Santa Coloma,finished,1,2
+First Division,938927,2024-12-11,19:45,3490,La Massana,5054,Esperanca d'Andorra,finished,3,0
+First Division,938932,2024-12-14,19:30,3490,La Massana,3487,FC Santa Coloma,finished,0,4
+First Division,938933,2024-12-15,10:00,3546,Inter Club d'Escaldes,3483,Ordino,finished,3,0
+First Division,938936,2024-12-15,12:30,3456,UE Santa Coloma,5054,Esperanca d'Andorra,finished,4,0
+First Division,938934,2024-12-15,15:00,3482,Atletic Club d'Escaldes,3484,Penya Encarnada,finished,6,1
+First Division,938935,2024-12-15,17:30,12117,Ranger's,5055,Pas de la Casa,finished,0,1
+First Division,938938,2025-01-18,19:30,3546,Inter Club d'Escaldes,3490,La Massana,finished,9,0
+First Division,938940,2025-01-19,10:00,5055,Pas de la Casa,3482,Atletic Club d'Escaldes,finished,2,2
+First Division,938941,2025-01-19,12:30,3456,UE Santa Coloma,12117,Ranger's,finished,1,1
+First Division,938937,2025-01-19,15:00,3487,FC Santa Coloma,5054,Esperanca d'Andorra,finished,3,2
+First Division,938939,2025-01-19,17:30,3483,Ordino,3484,Penya Encarnada,finished,0,1
+First Division,938946,2025-01-25,19:30,5054,Esperanca d'Andorra,12117,Ranger's,finished,0,7
+First Division,938943,2025-01-26,10:00,3490,La Massana,3484,Penya Encarnada,finished,0,0
+First Division,938944,2025-01-26,12:30,3483,Ordino,5055,Pas de la Casa,finished,2,1
+First Division,938945,2025-01-26,15:00,3456,UE Santa Coloma,3482,Atletic Club d'Escaldes,finished,1,0
+First Division,938942,2025-01-26,17:30,3487,FC Santa Coloma,3546,Inter Club d'Escaldes,finished,2,2
+First Division,938950,2025-02-01,19:30,3456,UE Santa Coloma,3483,Ordino,finished,2,2
+First Division,938947,2025-02-02,10:00,3546,Inter Club d'Escaldes,5054,Esperanca d'Andorra,finished,9,1
+First Division,938948,2025-02-02,12:30,3484,Penya Encarnada,3487,FC Santa Coloma,finished,0,1
+First Division,938949,2025-02-02,15:00,5055,Pas de la Casa,3490,La Massana,finished,4,0
+First Division,938951,2025-02-02,17:30,3482,Atletic Club d'Escaldes,12117,Ranger's,finished,3,1
+First Division,938953,2025-02-08,19:30,3487,FC Santa Coloma,5055,Pas de la Casa,finished,1,0
+First Division,938955,2025-02-09,10:00,3483,Ordino,12117,Ranger's,finished,2,1
+First Division,938954,2025-02-09,12:30,3490,La Massana,3456,UE Santa Coloma,finished,0,6
+First Division,938952,2025-02-09,15:00,3484,Penya Encarnada,3546,Inter Club d'Escaldes,finished,1,1
+First Division,938956,2025-02-09,17:30,5054,Esperanca d'Andorra,3482,Atletic Club d'Escaldes,finished,0,5
+First Division,938961,2025-02-15,19:30,3482,Atletic Club d'Escaldes,3483,Ordino,finished,3,0
+First Division,938959,2025-02-16,10:00,3487,FC Santa Coloma,3456,UE Santa Coloma,finished,1,1
+First Division,938958,2025-02-16,12:30,5055,Pas de la Casa,3546,Inter Club d'Escaldes,finished,1,3
+First Division,938960,2025-02-16,15:00,12117,Ranger's,3490,La Massana,finished,2,0
+First Division,938957,2025-02-16,17:30,5054,Esperanca d'Andorra,3484,Penya Encarnada,finished,1,2
+First Division,938963,2025-02-22,19:30,3546,Inter Club d'Escaldes,3456,UE Santa Coloma,finished,3,0
+First Division,938962,2025-02-23,10:00,3484,Penya Encarnada,5055,Pas de la Casa,finished,1,0
+First Division,938964,2025-02-23,12:30,12117,Ranger's,3487,FC Santa Coloma,finished,1,0
+First Division,938966,2025-02-23,15:00,5054,Esperanca d'Andorra,3483,Ordino,finished,2,2
+First Division,938965,2025-02-23,17:30,3490,La Massana,3482,Atletic Club d'Escaldes,finished,0,6
+First Division,938971,2025-03-01,19:30,12117,Ranger's,3484,Penya Encarnada,finished,6,2
+First Division,938967,2025-03-02,10:00,3487,FC Santa Coloma,5054,Esperanca d'Andorra,finished,4,0
+First Division,938969,2025-03-02,12:30,3482,Atletic Club d'Escaldes,3483,Ordino,finished,4,0
+First Division,938968,2025-03-02,15:00,3456,UE Santa Coloma,5055,Pas de la Casa,finished,2,1
+First Division,938970,2025-03-02,17:30,3490,La Massana,3546,Inter Club d'Escaldes,finished,0,6
+First Division,938975,2025-03-08,19:30,3546,Inter Club d'Escaldes,3482,Atletic Club d'Escaldes,finished,0,0
+First Division,938972,2025-03-09,10:00,5054,Esperanca d'Andorra,12117,Ranger's,finished,1,1
+First Division,938976,2025-03-09,12:30,3484,Penya Encarnada,3490,La Massana,finished,2,0
+First Division,938974,2025-03-09,15:00,3483,Ordino,3456,UE Santa Coloma,finished,1,3
+First Division,938973,2025-03-09,17:30,5055,Pas de la Casa,3487,FC Santa Coloma,finished,1,2
+First Division,938979,2025-03-29,19:30,3456,UE Santa Coloma,3546,Inter Club d'Escaldes,finished,0,0
+First Division,938981,2025-03-30,09:00,12117,Ranger's,3490,La Massana,finished,5,0
+First Division,938977,2025-03-30,11:30,5054,Esperanca d'Andorra,5055,Pas de la Casa,finished,0,1
+First Division,938980,2025-03-30,14:00,3482,Atletic Club d'Escaldes,3484,Penya Encarnada,finished,1,0
+First Division,938978,2025-03-30,16:30,3487,FC Santa Coloma,3483,Ordino,finished,0,1
+First Division,938984,2025-04-05,18:30,3546,Inter Club d'Escaldes,3487,FC Santa Coloma,finished,1,0
+First Division,938986,2025-04-06,09:00,3490,La Massana,3482,Atletic Club d'Escaldes,finished,0,4
+First Division,938983,2025-04-06,11:30,3483,Ordino,5054,Esperanca d'Andorra,finished,1,1
+First Division,938982,2025-04-06,14:00,5055,Pas de la Casa,12117,Ranger's,finished,0,0
+First Division,938985,2025-04-06,16:30,3484,Penya Encarnada,3456,UE Santa Coloma,finished,2,2
+First Division,938991,2025-04-12,18:30,12117,Ranger's,3482,Atletic Club d'Escaldes,finished,1,1
+First Division,938987,2025-04-13,09:00,5055,Pas de la Casa,3483,Ordino,finished,1,2
+First Division,938990,2025-04-13,11:30,3456,UE Santa Coloma,3490,La Massana,finished,6,0
+First Division,938988,2025-04-13,14:00,5054,Esperanca d'Andorra,3546,Inter Club d'Escaldes,finished,0,7
+First Division,938989,2025-04-13,16:30,3487,FC Santa Coloma,3484,Penya Encarnada,finished,1,0
+First Division,938995,2025-04-26,17:00,3490,La Massana,3487,FC Santa Coloma,finished,1,4
+First Division,938996,2025-04-27,09:00,3482,Atletic Club d'Escaldes,3456,UE Santa Coloma,finished,2,0
+First Division,938992,2025-04-27,11:30,3483,Ordino,12117,Ranger's,finished,0,2
+First Division,938994,2025-04-27,14:00,3484,Penya Encarnada,5054,Esperanca d'Andorra,finished,4,1
+First Division,938993,2025-04-27,16:30,3546,Inter Club d'Escaldes,5055,Pas de la Casa,finished,3,0
+First Division,938998,2025-05-03,17:00,5055,Pas de la Casa,3484,Penya Encarnada,finished,0,2
+First Division,938997,2025-05-04,09:00,3483,Ordino,3546,Inter Club d'Escaldes,finished,0,4
+First Division,939000,2025-05-04,11:30,3487,FC Santa Coloma,3482,Atletic Club d'Escaldes,finished,3,1
+First Division,939001,2025-05-04,14:00,12117,Ranger's,3456,UE Santa Coloma,finished,0,1
+First Division,938999,2025-05-04,16:30,5054,Esperanca d'Andorra,3490,La Massana,finished,1,0
+First Division,939002,2025-05-11,09:00,12117,Ranger's,3546,Inter Club d'Escaldes,finished,2,3
+First Division,939006,2025-05-11,09:00,3456,UE Santa Coloma,3487,FC Santa Coloma,finished,1,2
+First Division,939005,2025-05-11,09:00,3482,Atletic Club d'Escaldes,5054,Esperanca d'Andorra,finished,5,1
+First Division,939004,2025-05-11,09:00,3490,La Massana,5055,Pas de la Casa,finished,0,5
+First Division,939003,2025-05-11,11:30,3484,Penya Encarnada,3483,Ordino,finished,1,1
+First Division,939007,2025-05-16,08:30,3546,Inter Club d'Escaldes,3484,Penya Encarnada,finished,3,2
+First Division,939008,2025-05-18,09:00,3483,Ordino,3490,La Massana,finished,5,1
+First Division,939010,2025-05-18,09:00,5054,Esperanca d'Andorra,3456,UE Santa Coloma,finished,0,4
+First Division,939009,2025-05-18,11:30,5055,Pas de la Casa,3482,Atletic Club d'Escaldes,finished,1,5
+First Division,939011,2025-05-18,14:00,3487,FC Santa Coloma,12117,Ranger's,finished,0,5

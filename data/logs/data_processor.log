@@ -1,0 +1,158 @@
+2025-06-23 11:13:49,091 - INFO - Found 31 historical CSV files in data/historical
+2025-06-23 11:13:49,092 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-06-23 11:13:49,093 - INFO - Created output directory: processed_data
+2025-06-23 11:13:49,093 - INFO - Processing historical file: league_199_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,100 - INFO - Date parsing results: 240 valid dates, 0 invalid dates
+2025-06-23 11:13:49,101 - INFO - Loaded 240 matches from data/historical\league_199_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,182 - INFO - Identified 1 high-form teams from data/historical\league_199_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,188 - INFO - Saved 1 high-form teams to processed_data\league_199_high_form_teams.csv
+2025-06-23 11:13:49,188 - INFO - Processing historical file: league_203_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,194 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-06-23 11:13:49,196 - INFO - Loaded 180 matches from data/historical\league_203_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,233 - INFO - No high-form teams met threshold from data/historical\league_203_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,234 - INFO - No high-form teams identified. Saving empty file with headers to processed_data\league_203_high_form_teams.csv
+2025-06-23 11:13:49,236 - INFO - Processing historical file: league_204_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,243 - INFO - Date parsing results: 240 valid dates, 0 invalid dates
+2025-06-23 11:13:49,244 - INFO - Loaded 240 matches from data/historical\league_204_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,304 - INFO - Identified 1 high-form teams from data/historical\league_204_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,309 - INFO - Saved 1 high-form teams to processed_data\league_204_high_form_teams.csv
+2025-06-23 11:13:49,309 - INFO - Processing historical file: league_205_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,313 - INFO - Date parsing results: 135 valid dates, 0 invalid dates
+2025-06-23 11:13:49,314 - INFO - Loaded 135 matches from data/historical\league_205_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,347 - INFO - Identified 2 high-form teams from data/historical\league_205_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,351 - INFO - Saved 2 high-form teams to processed_data\league_205_high_form_teams.csv
+2025-06-23 11:13:49,351 - INFO - Processing historical file: league_207_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,355 - INFO - Date parsing results: 161 valid dates, 0 invalid dates
+2025-06-23 11:13:49,355 - INFO - Loaded 161 matches from data/historical\league_207_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,405 - INFO - Identified 2 high-form teams from data/historical\league_207_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,408 - INFO - Saved 2 high-form teams to processed_data\league_207_high_form_teams.csv
+2025-06-23 11:13:49,408 - INFO - Processing historical file: league_208_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,417 - INFO - Date parsing results: 169 valid dates, 0 invalid dates
+2025-06-23 11:13:49,418 - INFO - Loaded 169 matches from data/historical\league_208_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,462 - INFO - Identified 2 high-form teams from data/historical\league_208_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,468 - INFO - Saved 2 high-form teams to processed_data\league_208_high_form_teams.csv
+2025-06-23 11:13:49,469 - INFO - Processing historical file: league_209_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,473 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-06-23 11:13:49,473 - INFO - Loaded 132 matches from data/historical\league_209_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,512 - INFO - Identified 1 high-form teams from data/historical\league_209_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,515 - INFO - Saved 1 high-form teams to processed_data\league_209_high_form_teams.csv
+2025-06-23 11:13:49,516 - INFO - Processing historical file: league_210_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,520 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-06-23 11:13:49,520 - INFO - Loaded 180 matches from data/historical\league_210_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,554 - INFO - Identified 2 high-form teams from data/historical\league_210_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,556 - INFO - Saved 2 high-form teams to processed_data\league_210_high_form_teams.csv
+2025-06-23 11:13:49,557 - INFO - Processing historical file: league_214_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,562 - INFO - Date parsing results: 198 valid dates, 0 invalid dates
+2025-06-23 11:13:49,563 - INFO - Loaded 198 matches from data/historical\league_214_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,603 - INFO - Identified 3 high-form teams from data/historical\league_214_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,608 - INFO - Saved 3 high-form teams to processed_data\league_214_high_form_teams.csv
+2025-06-23 11:13:49,609 - INFO - Processing historical file: league_221_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,613 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-06-23 11:13:49,614 - INFO - Loaded 132 matches from data/historical\league_221_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,666 - INFO - No high-form teams met threshold from data/historical\league_221_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,667 - INFO - No high-form teams identified. Saving empty file with headers to processed_data\league_221_high_form_teams.csv
+2025-06-23 11:13:49,672 - INFO - Processing historical file: league_222_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,679 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-06-23 11:13:49,680 - INFO - Loaded 180 matches from data/historical\league_222_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,730 - INFO - No high-form teams met threshold from data/historical\league_222_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,731 - INFO - No high-form teams identified. Saving empty file with headers to processed_data\league_222_high_form_teams.csv
+2025-06-23 11:13:49,734 - INFO - Processing historical file: league_223_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,738 - INFO - Date parsing results: 182 valid dates, 0 invalid dates
+2025-06-23 11:13:49,738 - INFO - Loaded 182 matches from data/historical\league_223_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,787 - INFO - Identified 1 high-form teams from data/historical\league_223_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,790 - INFO - Saved 1 high-form teams to processed_data\league_223_high_form_teams.csv
+2025-06-23 11:13:49,791 - INFO - Processing historical file: league_224_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,795 - INFO - Date parsing results: 4 valid dates, 0 invalid dates
+2025-06-23 11:13:49,796 - INFO - Loaded 4 matches from data/historical\league_224_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,807 - INFO - No high-form teams met threshold from data/historical\league_224_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,808 - INFO - No high-form teams identified. Saving empty file with headers to processed_data\league_224_high_form_teams.csv
+2025-06-23 11:13:49,812 - INFO - Processing historical file: league_225_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,816 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-06-23 11:13:49,817 - INFO - Loaded 132 matches from data/historical\league_225_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,856 - INFO - Identified 1 high-form teams from data/historical\league_225_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,862 - INFO - Saved 1 high-form teams to processed_data\league_225_high_form_teams.csv
+2025-06-23 11:13:49,862 - INFO - Processing historical file: league_227_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,867 - INFO - Date parsing results: 153 valid dates, 0 invalid dates
+2025-06-23 11:13:49,868 - INFO - Loaded 153 matches from data/historical\league_227_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,925 - INFO - Identified 2 high-form teams from data/historical\league_227_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,928 - INFO - Saved 2 high-form teams to processed_data\league_227_high_form_teams.csv
+2025-06-23 11:13:49,928 - INFO - Processing historical file: league_229_2024-2025_historical_matches.csv
+2025-06-23 11:13:49,933 - INFO - Date parsing results: 552 valid dates, 0 invalid dates
+2025-06-23 11:13:49,934 - INFO - Loaded 552 matches from data/historical\league_229_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,096 - INFO - Identified 2 high-form teams from data/historical\league_229_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,099 - INFO - Saved 2 high-form teams to processed_data\league_229_high_form_teams.csv
+2025-06-23 11:13:50,099 - INFO - Processing historical file: league_230_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,104 - INFO - Date parsing results: 40 valid dates, 0 invalid dates
+2025-06-23 11:13:50,104 - INFO - Loaded 40 matches from data/historical\league_230_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,377 - INFO - Identified 29 high-form teams from data/historical\league_230_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,380 - INFO - Saved 29 high-form teams to processed_data\league_230_high_form_teams.csv
+2025-06-23 11:13:50,380 - INFO - Processing historical file: league_232_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,385 - INFO - Date parsing results: 552 valid dates, 0 invalid dates
+2025-06-23 11:13:50,385 - INFO - Loaded 552 matches from data/historical\league_232_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,464 - INFO - No high-form teams met threshold from data/historical\league_232_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,465 - INFO - No high-form teams identified. Saving empty file with headers to processed_data\league_232_high_form_teams.csv
+2025-06-23 11:13:50,469 - INFO - Processing historical file: league_235_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,477 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-06-23 11:13:50,478 - INFO - Loaded 306 matches from data/historical\league_235_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,546 - INFO - Identified 1 high-form teams from data/historical\league_235_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,549 - INFO - Saved 1 high-form teams to processed_data\league_235_high_form_teams.csv
+2025-06-23 11:13:50,549 - INFO - Processing historical file: league_236_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,553 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-06-23 11:13:50,554 - INFO - Loaded 306 matches from data/historical\league_236_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,616 - INFO - Identified 2 high-form teams from data/historical\league_236_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,618 - INFO - Saved 2 high-form teams to processed_data\league_236_high_form_teams.csv
+2025-06-23 11:13:50,619 - INFO - Processing historical file: league_237_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,622 - INFO - Date parsing results: 35 valid dates, 0 invalid dates
+2025-06-23 11:13:50,622 - INFO - Loaded 35 matches from data/historical\league_237_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,776 - INFO - Identified 29 high-form teams from data/historical\league_237_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,780 - INFO - Saved 29 high-form teams to processed_data\league_237_high_form_teams.csv
+2025-06-23 11:13:50,780 - INFO - Processing historical file: league_241_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,784 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-06-23 11:13:50,784 - INFO - Loaded 306 matches from data/historical\league_241_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,841 - INFO - Identified 1 high-form teams from data/historical\league_241_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,846 - INFO - Saved 1 high-form teams to processed_data\league_241_high_form_teams.csv
+2025-06-23 11:13:50,847 - INFO - Processing historical file: league_243_2024-2025_historical_matches.csv
+2025-06-23 11:13:50,850 - INFO - Date parsing results: 32 valid dates, 0 invalid dates
+2025-06-23 11:13:50,851 - INFO - Loaded 32 matches from data/historical\league_243_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,009 - INFO - Identified 27 high-form teams from data/historical\league_243_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,013 - INFO - Saved 27 high-form teams to processed_data\league_243_high_form_teams.csv
+2025-06-23 11:13:51,013 - INFO - Processing historical file: league_244_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,017 - INFO - Date parsing results: 380 valid dates, 0 invalid dates
+2025-06-23 11:13:51,018 - INFO - Loaded 380 matches from data/historical\league_244_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,094 - INFO - Identified 1 high-form teams from data/historical\league_244_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,098 - INFO - Saved 1 high-form teams to processed_data\league_244_high_form_teams.csv
+2025-06-23 11:13:51,098 - INFO - Processing historical file: league_245_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,102 - INFO - Date parsing results: 182 valid dates, 0 invalid dates
+2025-06-23 11:13:51,103 - INFO - Loaded 182 matches from data/historical\league_245_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,159 - INFO - Identified 2 high-form teams from data/historical\league_245_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,162 - INFO - Saved 2 high-form teams to processed_data\league_245_high_form_teams.csv
+2025-06-23 11:13:51,162 - INFO - Processing historical file: league_246_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,166 - INFO - Date parsing results: 96 valid dates, 0 invalid dates
+2025-06-23 11:13:51,167 - INFO - Loaded 96 matches from data/historical\league_246_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,215 - INFO - Identified 1 high-form teams from data/historical\league_246_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,219 - INFO - Saved 1 high-form teams to processed_data\league_246_high_form_teams.csv
+2025-06-23 11:13:51,220 - INFO - Processing historical file: league_247_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,225 - INFO - Date parsing results: 90 valid dates, 0 invalid dates
+2025-06-23 11:13:51,226 - INFO - Loaded 90 matches from data/historical\league_247_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,263 - INFO - Identified 1 high-form teams from data/historical\league_247_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,266 - INFO - Saved 1 high-form teams to processed_data\league_247_high_form_teams.csv
+2025-06-23 11:13:51,267 - INFO - Processing historical file: league_248_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,271 - INFO - Date parsing results: 198 valid dates, 0 invalid dates
+2025-06-23 11:13:51,271 - INFO - Loaded 198 matches from data/historical\league_248_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,322 - INFO - Identified 1 high-form teams from data/historical\league_248_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,328 - INFO - Saved 1 high-form teams to processed_data\league_248_high_form_teams.csv
+2025-06-23 11:13:51,328 - INFO - Processing historical file: league_250_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,336 - INFO - Date parsing results: 156 valid dates, 0 invalid dates
+2025-06-23 11:13:51,337 - INFO - Loaded 156 matches from data/historical\league_250_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,393 - INFO - Identified 2 high-form teams from data/historical\league_250_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,397 - INFO - Saved 2 high-form teams to processed_data\league_250_high_form_teams.csv
+2025-06-23 11:13:51,397 - INFO - Processing historical file: league_251_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,401 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-06-23 11:13:51,402 - INFO - Loaded 306 matches from data/historical\league_251_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,468 - INFO - No high-form teams met threshold from data/historical\league_251_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,468 - INFO - No high-form teams identified. Saving empty file with headers to processed_data\league_251_high_form_teams.csv
+2025-06-23 11:13:51,472 - INFO - Processing historical file: league_311_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,477 - INFO - Date parsing results: 95 valid dates, 0 invalid dates
+2025-06-23 11:13:51,477 - INFO - Loaded 95 matches from data/historical\league_311_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,560 - INFO - Identified 4 high-form teams from data/historical\league_311_2024-2025_historical_matches.csv
+2025-06-23 11:13:51,563 - INFO - Saved 4 high-form teams to processed_data\league_311_high_form_teams.csv

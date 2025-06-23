@@ -1,0 +1,170 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+A-League,939157,2024-10-18,08:35,3877,Central Coast Mariners,3871,Melbourne Victory,finished,0,0
+A-League,939158,2024-10-19,04:00,17114,Auckland,2788,Brisbane Roar,finished,2,0
+A-League,939159,2024-10-19,06:00,3875,Newcastle Jets,3873,Melbourne City,finished,0,1
+A-League,939160,2024-10-19,08:35,3876,Western Sydney Wanderers,3870,Sydney,finished,1,2
+A-League,939161,2024-10-20,03:00,3874,Wellington Phoenix,3878,Western United,finished,1,1
+A-League,939162,2024-10-20,05:00,3879,Macarthur,2992,Perth Glory,finished,6,1
+A-League,939163,2024-10-25,08:35,3879,Macarthur,3875,Newcastle Jets,finished,1,2
+A-League,939164,2024-10-26,06:00,3872,Adelaide United,3877,Central Coast Mariners,finished,1,1
+A-League,939165,2024-10-26,08:35,3873,Melbourne City,3871,Melbourne Victory,finished,1,3
+A-League,939166,2024-10-26,10:45,2992,Perth Glory,3874,Wellington Phoenix,finished,0,2
+A-League,939167,2024-10-27,03:00,17114,Auckland,3870,Sydney,finished,1,0
+A-League,939168,2024-10-27,05:00,3878,Western United,3876,Western Sydney Wanderers,finished,1,1
+A-League,939169,2024-11-01,08:35,2788,Brisbane Roar,3870,Sydney,finished,2,3
+A-League,939170,2024-11-02,04:00,3874,Wellington Phoenix,17114,Auckland,finished,0,2
+A-League,939171,2024-11-02,06:00,3877,Central Coast Mariners,2992,Perth Glory,finished,0,0
+A-League,939172,2024-11-02,08:35,3876,Western Sydney Wanderers,3872,Adelaide United,finished,3,4
+A-League,939173,2024-11-03,05:00,3871,Melbourne Victory,3879,Macarthur,finished,2,1
+A-League,939174,2024-11-04,08:00,3878,Western United,3873,Melbourne City,finished,0,1
+A-League,939175,2024-11-08,08:35,3876,Western Sydney Wanderers,3875,Newcastle Jets,finished,4,1
+A-League,939176,2024-11-09,06:00,3871,Melbourne Victory,2788,Brisbane Roar,finished,2,0
+A-League,939178,2024-11-09,08:35,3872,Adelaide United,3878,Western United,finished,2,1
+A-League,939179,2024-11-10,05:00,3877,Central Coast Mariners,3874,Wellington Phoenix,finished,0,3
+A-League,939177,2024-11-10,07:00,3870,Sydney,3879,Macarthur,finished,1,2
+A-League,939180,2024-11-10,09:45,2992,Perth Glory,3873,Melbourne City,finished,0,5
+A-League,939181,2024-11-22,06:30,2992,Perth Glory,3878,Western United,finished,1,3
+A-League,939182,2024-11-22,09:00,3875,Newcastle Jets,3877,Central Coast Mariners,finished,1,2
+A-League,939183,2024-11-23,06:00,2788,Brisbane Roar,3872,Adelaide United,finished,2,3
+A-League,939184,2024-11-23,08:35,3870,Sydney,3876,Western Sydney Wanderers,finished,4,2
+A-League,939185,2024-11-24,02:30,3874,Wellington Phoenix,3871,Melbourne Victory,finished,1,0
+A-League,939186,2024-11-24,05:00,3879,Macarthur,17114,Auckland,finished,0,1
+A-League,939187,2024-11-29,08:35,3872,Adelaide United,2992,Perth Glory,finished,2,2
+A-League,939188,2024-11-30,04:00,17114,Auckland,3875,Newcastle Jets,finished,2,0
+A-League,939189,2024-11-30,06:00,3873,Melbourne City,3876,Western Sydney Wanderers,finished,0,2
+A-League,939191,2024-11-30,08:35,3879,Macarthur,2788,Brisbane Roar,finished,4,4
+A-League,939190,2024-12-01,05:00,3878,Western United,3871,Melbourne Victory,finished,1,3
+A-League,939192,2024-12-06,08:35,2788,Brisbane Roar,3873,Melbourne City,finished,1,4
+A-League,939193,2024-12-07,04:00,17114,Auckland,3874,Wellington Phoenix,finished,2,1
+A-League,939195,2024-12-07,07:00,3878,Western United,3879,Macarthur,finished,0,0
+A-League,939194,2024-12-07,07:00,3875,Newcastle Jets,3872,Adelaide United,finished,0,1
+A-League,939197,2024-12-08,06:00,3871,Melbourne Victory,2992,Perth Glory,finished,2,0
+A-League,939196,2024-12-08,07:00,3877,Central Coast Mariners,3870,Sydney,finished,2,1
+A-League,939198,2024-12-13,08:35,3877,Central Coast Mariners,3872,Adelaide United,finished,0,4
+A-League,939199,2024-12-14,04:00,3874,Wellington Phoenix,3879,Macarthur,finished,1,2
+A-League,939200,2024-12-14,06:00,3870,Sydney,3878,Western United,finished,3,4
+A-League,939201,2024-12-14,08:35,3876,Western Sydney Wanderers,2788,Brisbane Roar,finished,2,2
+A-League,939202,2024-12-14,10:45,2992,Perth Glory,3875,Newcastle Jets,finished,0,4
+A-League,939203,2024-12-15,06:00,3873,Melbourne City,17114,Auckland,finished,2,2
+A-League,939204,2024-12-20,08:35,3872,Adelaide United,3870,Sydney,finished,3,3
+A-League,939205,2024-12-21,04:00,17114,Auckland,3878,Western United,finished,0,4
+A-League,939206,2024-12-21,06:00,2788,Brisbane Roar,2992,Perth Glory,finished,0,1
+A-League,939207,2024-12-21,08:35,3871,Melbourne Victory,3873,Melbourne City,finished,1,1
+A-League,939208,2024-12-22,06:00,3876,Western Sydney Wanderers,3874,Wellington Phoenix,finished,4,1
+A-League,939209,2024-12-23,08:00,3879,Macarthur,3877,Central Coast Mariners,finished,1,1
+A-League,939210,2024-12-27,08:35,3872,Adelaide United,3876,Western Sydney Wanderers,finished,2,3
+A-League,939211,2024-12-27,11:45,2992,Perth Glory,3879,Macarthur,finished,0,3
+A-League,939212,2024-12-28,04:00,3874,Wellington Phoenix,3875,Newcastle Jets,finished,2,1
+A-League,939213,2024-12-28,06:00,3877,Central Coast Mariners,17114,Auckland,finished,1,4
+A-League,939214,2024-12-28,08:35,3870,Sydney,3871,Melbourne Victory,finished,3,0
+A-League,939215,2024-12-29,06:00,3878,Western United,2788,Brisbane Roar,finished,1,0
+A-League,939216,2024-12-31,08:00,3877,Central Coast Mariners,3873,Melbourne City,finished,1,1
+A-League,939217,2025-01-01,04:00,17114,Auckland,3871,Melbourne Victory,finished,0,0
+A-League,939218,2025-01-01,07:00,3876,Western Sydney Wanderers,3879,Macarthur,finished,2,3
+A-League,939221,2025-01-03,06:00,3873,Melbourne City,3874,Wellington Phoenix,finished,2,0
+A-League,939222,2025-01-03,08:35,2788,Brisbane Roar,3877,Central Coast Mariners,finished,1,3
+A-League,939223,2025-01-03,10:45,2992,Perth Glory,3878,Western United,finished,2,3
+A-League,939224,2025-01-04,06:00,3875,Newcastle Jets,3870,Sydney,finished,2,2
+A-League,939225,2025-01-04,08:35,3871,Melbourne Victory,3876,Western Sydney Wanderers,finished,2,2
+A-League,939226,2025-01-06,08:00,3879,Macarthur,3872,Adelaide United,finished,1,2
+A-League,939250,2025-01-07,07:00,3873,Melbourne City,3878,Western United,finished,2,0
+A-League,939219,2025-01-07,09:00,2788,Brisbane Roar,3875,Newcastle Jets,finished,0,1
+A-League,939220,2025-01-08,08:00,3870,Sydney,2992,Perth Glory,finished,3,0
+A-League,939227,2025-01-10,08:35,3871,Melbourne Victory,3878,Western United,finished,3,4
+A-League,939228,2025-01-11,04:00,3874,Wellington Phoenix,3872,Adelaide United,finished,1,2
+A-League,939229,2025-01-11,06:00,3873,Melbourne City,2788,Brisbane Roar,finished,1,0
+A-League,939230,2025-01-11,08:35,3870,Sydney,3877,Central Coast Mariners,finished,4,1
+A-League,939231,2025-01-11,10:45,2992,Perth Glory,17114,Auckland,finished,1,0
+A-League,939232,2025-01-12,06:00,3875,Newcastle Jets,3879,Macarthur,finished,1,3
+A-League,939233,2025-01-14,10:45,2992,Perth Glory,3876,Western Sydney Wanderers,finished,1,2
+A-League,939234,2025-01-15,06:00,3874,Wellington Phoenix,3870,Sydney,finished,0,0
+A-League,939241,2025-01-17,06:00,3878,Western United,3875,Newcastle Jets,finished,3,1
+A-League,939238,2025-01-17,08:35,3876,Western Sydney Wanderers,3877,Central Coast Mariners,finished,1,3
+A-League,939239,2025-01-18,04:00,17114,Auckland,3873,Melbourne City,finished,3,0
+A-League,939240,2025-01-18,06:00,3870,Sydney,2788,Brisbane Roar,finished,3,4
+A-League,939242,2025-01-18,08:35,3872,Adelaide United,3871,Melbourne Victory,finished,3,2
+A-League,939243,2025-01-20,08:00,3879,Macarthur,3874,Wellington Phoenix,finished,1,2
+A-League,939235,2025-01-22,08:30,3872,Adelaide United,17114,Auckland,finished,2,2
+A-League,939244,2025-01-24,08:35,3871,Melbourne Victory,3870,Sydney,finished,2,0
+A-League,939245,2025-01-25,04:00,3874,Wellington Phoenix,3877,Central Coast Mariners,finished,0,0
+A-League,939247,2025-01-25,06:00,3875,Newcastle Jets,2992,Perth Glory,finished,2,2
+A-League,939248,2025-01-25,08:35,3879,Macarthur,3873,Melbourne City,finished,1,0
+A-League,939249,2025-01-26,06:00,3876,Western Sydney Wanderers,17114,Auckland,finished,0,1
+A-League,939236,2025-01-29,08:00,3878,Western United,3877,Central Coast Mariners,finished,2,2
+A-League,939251,2025-01-31,08:35,2788,Brisbane Roar,3876,Western Sydney Wanderers,finished,0,1
+A-League,939252,2025-02-01,04:00,17114,Auckland,3879,Macarthur,finished,2,1
+A-League,939253,2025-02-01,06:00,3870,Sydney,3872,Adelaide United,finished,4,1
+A-League,939254,2025-02-01,08:35,3877,Central Coast Mariners,3875,Newcastle Jets,finished,2,2
+A-League,939255,2025-02-01,10:45,2992,Perth Glory,3871,Melbourne Victory,finished,0,2
+A-League,939256,2025-02-06,04:00,3874,Wellington Phoenix,2788,Brisbane Roar,finished,1,1
+A-League,939257,2025-02-07,08:35,3872,Adelaide United,3873,Melbourne City,finished,1,0
+A-League,939258,2025-02-07,10:45,2992,Perth Glory,3877,Central Coast Mariners,finished,1,1
+A-League,939259,2025-02-08,06:00,3875,Newcastle Jets,3871,Melbourne Victory,finished,3,0
+A-League,939260,2025-02-08,08:35,3870,Sydney,3876,Western Sydney Wanderers,finished,3,3
+A-League,939261,2025-02-09,06:00,3879,Macarthur,3878,Western United,finished,2,2
+A-League,939262,2025-02-14,08:35,3871,Melbourne Victory,3874,Wellington Phoenix,finished,1,0
+A-League,939263,2025-02-15,06:00,3873,Melbourne City,2992,Perth Glory,finished,1,0
+A-League,939264,2025-02-15,07:00,3878,Western United,17114,Auckland,finished,0,2
+A-League,939265,2025-02-15,08:35,3872,Adelaide United,3875,Newcastle Jets,finished,1,2
+A-League,939266,2025-02-16,06:00,3876,Western Sydney Wanderers,3879,Macarthur,finished,2,1
+A-League,939267,2025-02-21,08:35,3875,Newcastle Jets,2788,Brisbane Roar,finished,3,1
+A-League,939268,2025-02-22,04:00,17114,Auckland,3874,Wellington Phoenix,finished,6,1
+A-League,939269,2025-02-22,06:00,3877,Central Coast Mariners,3876,Western Sydney Wanderers,finished,0,4
+A-League,939270,2025-02-22,08:35,3871,Melbourne Victory,3873,Melbourne City,finished,2,2
+A-League,939271,2025-02-22,10:45,2992,Perth Glory,3870,Sydney,finished,0,0
+A-League,939272,2025-02-23,06:00,3878,Western United,3872,Adelaide United,finished,3,0
+A-League,939273,2025-02-28,06:30,3874,Wellington Phoenix,3873,Melbourne City,finished,0,1
+A-League,939274,2025-02-28,08:35,3877,Central Coast Mariners,3878,Western United,finished,1,3
+A-League,939275,2025-03-01,04:00,17114,Auckland,3872,Adelaide United,finished,4,4
+A-League,939276,2025-03-01,06:00,2788,Brisbane Roar,3871,Melbourne Victory,finished,1,1
+A-League,939277,2025-03-01,08:35,3879,Macarthur,3870,Sydney,finished,0,2
+A-League,939278,2025-03-02,06:00,3876,Western Sydney Wanderers,2992,Perth Glory,finished,4,1
+A-League,939279,2025-03-07,08:35,3873,Melbourne City,3879,Macarthur,finished,2,0
+A-League,939280,2025-03-08,06:00,3872,Adelaide United,2788,Brisbane Roar,finished,1,1
+A-League,939281,2025-03-08,07:00,3878,Western United,3874,Wellington Phoenix,finished,4,1
+A-League,939282,2025-03-08,08:35,3871,Melbourne Victory,3877,Central Coast Mariners,finished,3,0
+A-League,939283,2025-03-09,06:00,3875,Newcastle Jets,17114,Auckland,finished,1,1
+A-League,939237,2025-03-12,08:00,3873,Melbourne City,3875,Newcastle Jets,finished,0,1
+A-League,939284,2025-03-14,08:35,3872,Adelaide United,3879,Macarthur,finished,4,5
+A-League,939286,2025-03-15,08:30,3876,Western Sydney Wanderers,3871,Melbourne Victory,finished,4,2
+A-League,939287,2025-03-15,10:45,2992,Perth Glory,2788,Brisbane Roar,finished,1,3
+A-League,939288,2025-03-16,04:00,17114,Auckland,3877,Central Coast Mariners,finished,2,2
+A-League,939289,2025-03-16,06:00,3875,Newcastle Jets,3878,Western United,finished,2,6
+A-League,939285,2025-03-16,08:00,3870,Sydney,3874,Wellington Phoenix,finished,1,1
+A-League,939290,2025-03-28,08:35,3879,Macarthur,3875,Newcastle Jets,finished,3,3
+A-League,939291,2025-03-29,04:00,3874,Wellington Phoenix,3876,Western Sydney Wanderers,finished,2,2
+A-League,939292,2025-03-29,06:00,3870,Sydney,3873,Melbourne City,finished,2,3
+A-League,939293,2025-03-29,08:35,3871,Melbourne Victory,3872,Adelaide United,finished,5,3
+A-League,939294,2025-03-30,04:00,3877,Central Coast Mariners,2992,Perth Glory,finished,3,1
+A-League,939295,2025-03-30,06:00,2788,Brisbane Roar,17114,Auckland,finished,0,2
+A-League,939296,2025-04-04,08:35,2788,Brisbane Roar,3879,Macarthur,finished,1,5
+A-League,939297,2025-04-05,04:00,17114,Auckland,3876,Western Sydney Wanderers,finished,1,1
+A-League,939298,2025-04-05,06:00,3873,Melbourne City,3877,Central Coast Mariners,finished,1,0
+A-League,939299,2025-04-05,07:00,3878,Western United,2992,Perth Glory,finished,3,1
+A-League,939300,2025-04-05,08:35,3872,Adelaide United,3870,Sydney,finished,2,3
+A-League,939301,2025-04-06,07:00,3875,Newcastle Jets,3874,Wellington Phoenix,finished,1,2
+A-League,939302,2025-04-11,09:35,3873,Melbourne City,2788,Brisbane Roar,finished,3,2
+A-League,939303,2025-04-12,05:00,3874,Wellington Phoenix,3871,Melbourne Victory,finished,2,3
+A-League,939304,2025-04-12,07:00,3870,Sydney,17114,Auckland,finished,2,2
+A-League,939305,2025-04-12,09:35,3875,Newcastle Jets,3877,Central Coast Mariners,finished,6,0
+A-League,939306,2025-04-12,11:45,2992,Perth Glory,3872,Adelaide United,finished,4,1
+A-League,939307,2025-04-13,07:00,3876,Western Sydney Wanderers,3878,Western United,finished,2,0
+A-League,939308,2025-04-17,09:35,2788,Brisbane Roar,3878,Western United,finished,2,1
+A-League,939309,2025-04-18,09:35,3872,Adelaide United,3874,Wellington Phoenix,finished,3,2
+A-League,939310,2025-04-19,07:00,3871,Melbourne Victory,17114,Auckland,finished,0,2
+A-League,939311,2025-04-19,09:35,3876,Western Sydney Wanderers,3873,Melbourne City,finished,2,2
+A-League,939312,2025-04-20,05:00,3870,Sydney,3875,Newcastle Jets,finished,3,2
+A-League,939313,2025-04-20,07:00,3877,Central Coast Mariners,3879,Macarthur,finished,2,2
+A-League,939246,2025-04-22,09:00,2788,Brisbane Roar,3872,Adelaide United,finished,1,1
+A-League,939314,2025-04-25,09:35,3879,Macarthur,3871,Melbourne Victory,finished,1,2
+A-League,939315,2025-04-26,05:00,2788,Brisbane Roar,3874,Wellington Phoenix,finished,1,0
+A-League,939316,2025-04-26,07:00,3875,Newcastle Jets,3876,Western Sydney Wanderers,finished,0,1
+A-League,939317,2025-04-26,09:35,3873,Melbourne City,3872,Adelaide United,finished,0,0
+A-League,939318,2025-04-27,05:00,17114,Auckland,2992,Perth Glory,finished,1,0
+A-League,939319,2025-04-27,07:00,3878,Western United,3870,Sydney,finished,1,0
+A-League,939321,2025-05-02,09:35,3877,Central Coast Mariners,2788,Brisbane Roar,finished,1,2
+A-League,939322,2025-05-03,07:00,3873,Melbourne City,3870,Sydney,finished,5,1
+A-League,939323,2025-05-03,08:00,3878,Western United,17114,Auckland,finished,4,2
+A-League,939324,2025-05-03,09:35,3879,Macarthur,3876,Western Sydney Wanderers,finished,1,3
+A-League,939320,2025-05-04,05:00,3874,Wellington Phoenix,2992,Perth Glory,finished,0,2
+A-League,939325,2025-05-04,07:00,3871,Melbourne Victory,3875,Newcastle Jets,finished,1,1

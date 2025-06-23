@@ -1,0 +1,199 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Premijer Liga,933747,2024-08-03,16:45,3940,GOSK Gabela,3935,Radnik Bijeljina,finished,0,1
+Premijer Liga,933752,2024-08-03,19:00,3259,Zeljeznicar,3793,Siroki Brijeg,finished,0,1
+Premijer Liga,933750,2024-08-04,15:30,3942,Posusje,3945,Igman Konjic,finished,1,0
+Premijer Liga,933749,2024-08-04,19:00,3404,Sarajevo,3261,Sloboda Tuzla,finished,3,1
+Premijer Liga,933756,2024-08-10,16:45,3261,Sloboda Tuzla,3942,Posusje,finished,0,2
+Premijer Liga,933754,2024-08-10,19:00,3258,Velez,3259,Zeljeznicar,finished,1,2
+Premijer Liga,933753,2024-08-11,16:45,3935,Radnik Bijeljina,3793,Siroki Brijeg,finished,1,1
+Premijer Liga,933758,2024-08-11,19:00,3940,GOSK Gabela,3263,Zrinjski,finished,1,4
+Premijer Liga,933757,2024-08-12,15:30,3264,Sloga Doboj,3404,Sarajevo,finished,1,3
+Premijer Liga,933761,2024-08-17,15:30,3942,Posusje,3264,Sloga Doboj,finished,1,1
+Premijer Liga,933763,2024-08-17,19:00,3259,Zeljeznicar,3945,Igman Konjic,finished,3,1
+Premijer Liga,933764,2024-08-18,16:45,3793,Siroki Brijeg,3258,Velez,finished,0,2
+Premijer Liga,933762,2024-08-18,19:00,3262,Borac Banja Luka,3261,Sloboda Tuzla,finished,2,0
+Premijer Liga,933760,2024-08-19,19:00,3404,Sarajevo,3940,GOSK Gabela,finished,3,1
+Premijer Liga,933766,2024-08-23,15:30,3945,Igman Konjic,3793,Siroki Brijeg,finished,0,3
+Premijer Liga,933765,2024-08-24,16:45,3935,Radnik Bijeljina,3258,Velez,finished,4,3
+Premijer Liga,933767,2024-08-24,19:00,3261,Sloboda Tuzla,3259,Zeljeznicar,finished,0,1
+Premijer Liga,933769,2024-08-26,19:00,3940,GOSK Gabela,3942,Posusje,finished,0,1
+Premijer Liga,933771,2024-08-30,19:00,3404,Sarajevo,3935,Radnik Bijeljina,finished,2,0
+Premijer Liga,933776,2024-08-31,19:00,3258,Velez,3945,Igman Konjic,finished,1,1
+Premijer Liga,933774,2024-09-01,16:45,3259,Zeljeznicar,3264,Sloga Doboj,finished,1,1
+Premijer Liga,933775,2024-09-01,19:00,3793,Siroki Brijeg,3261,Sloboda Tuzla,finished,1,1
+Premijer Liga,933773,2024-09-02,19:00,3262,Borac Banja Luka,3940,GOSK Gabela,finished,3,0
+Premijer Liga,933838,2024-09-03,19:00,3263,Zrinjski,3942,Posusje,finished,1,0
+Premijer Liga,933748,2024-09-11,18:15,3263,Zrinjski,3264,Sloga Doboj,finished,3,1
+Premijer Liga,933777,2024-09-13,16:00,3935,Radnik Bijeljina,3945,Igman Konjic,finished,0,1
+Premijer Liga,933778,2024-09-14,14:00,3261,Sloboda Tuzla,3258,Velez,finished,1,1
+Premijer Liga,933782,2024-09-14,18:45,3404,Sarajevo,3942,Posusje,finished,2,2
+Premijer Liga,933779,2024-09-15,13:00,3264,Sloga Doboj,3793,Siroki Brijeg,finished,1,0
+Premijer Liga,933781,2024-09-15,17:45,3263,Zrinjski,3262,Borac Banja Luka,finished,1,1
+Premijer Liga,933780,2024-09-16,16:00,3940,GOSK Gabela,3259,Zeljeznicar,finished,0,3
+Premijer Liga,933788,2024-09-20,14:00,3945,Igman Konjic,3261,Sloboda Tuzla,finished,1,0
+Premijer Liga,933787,2024-09-20,16:00,3258,Velez,3264,Sloga Doboj,finished,0,0
+Premijer Liga,933786,2024-09-20,18:15,3793,Siroki Brijeg,3940,GOSK Gabela,finished,2,2
+Premijer Liga,933784,2024-09-21,14:00,3262,Borac Banja Luka,3404,Sarajevo,finished,0,1
+Premijer Liga,933783,2024-09-21,16:30,3942,Posusje,3935,Radnik Bijeljina,finished,3,1
+Premijer Liga,933785,2024-09-21,18:45,3259,Zeljeznicar,3263,Zrinjski,finished,0,2
+Premijer Liga,933789,2024-09-24,14:00,3935,Radnik Bijeljina,3261,Sloboda Tuzla,finished,2,0
+Premijer Liga,933791,2024-09-24,16:15,3940,GOSK Gabela,3258,Velez,finished,0,4
+Premijer Liga,933792,2024-09-24,18:30,3263,Zrinjski,3793,Siroki Brijeg,finished,3,0
+Premijer Liga,933790,2024-09-25,14:00,3264,Sloga Doboj,3945,Igman Konjic,finished,0,2
+Premijer Liga,933794,2024-09-25,16:00,3942,Posusje,3262,Borac Banja Luka,finished,0,2
+Premijer Liga,933793,2024-09-25,18:30,3404,Sarajevo,3259,Zeljeznicar,finished,1,1
+Premijer Liga,933800,2024-09-28,14:00,3261,Sloboda Tuzla,3264,Sloga Doboj,finished,0,3
+Premijer Liga,933798,2024-09-28,18:45,3258,Velez,3263,Zrinjski,finished,0,1
+Premijer Liga,933799,2024-09-29,11:00,3945,Igman Konjic,3940,GOSK Gabela,finished,3,2
+Premijer Liga,933796,2024-09-29,13:00,3259,Zeljeznicar,3942,Posusje,finished,1,0
+Premijer Liga,933795,2024-09-29,19:00,3262,Borac Banja Luka,3935,Radnik Bijeljina,finished,2,0
+Premijer Liga,933797,2024-09-30,16:00,3793,Siroki Brijeg,3404,Sarajevo,finished,3,3
+Premijer Liga,933751,2024-10-12,16:00,3262,Borac Banja Luka,3258,Velez,finished,2,1
+Premijer Liga,933755,2024-10-16,12:00,3945,Igman Konjic,3262,Borac Banja Luka,finished,0,4
+Premijer Liga,933759,2024-10-16,16:00,3263,Zrinjski,3935,Radnik Bijeljina,finished,2,0
+Premijer Liga,933805,2024-10-18,16:00,3942,Posusje,3793,Siroki Brijeg,finished,1,2
+Premijer Liga,933802,2024-10-19,11:30,3940,GOSK Gabela,3261,Sloboda Tuzla,finished,2,0
+Premijer Liga,933804,2024-10-19,18:45,3404,Sarajevo,3258,Velez,finished,4,0
+Premijer Liga,933801,2024-10-20,13:00,3935,Radnik Bijeljina,3264,Sloga Doboj,finished,2,1
+Premijer Liga,933806,2024-10-20,17:45,3262,Borac Banja Luka,3259,Zeljeznicar,finished,1,0
+Premijer Liga,933803,2024-10-21,16:00,3263,Zrinjski,3945,Igman Konjic,finished,7,1
+Premijer Liga,933807,2024-10-25,16:00,3259,Zeljeznicar,3935,Radnik Bijeljina,finished,2,0
+Premijer Liga,933812,2024-10-26,11:30,3264,Sloga Doboj,3940,GOSK Gabela,finished,2,0
+Premijer Liga,933811,2024-10-26,14:00,3261,Sloboda Tuzla,3263,Zrinjski,finished,0,1
+Premijer Liga,933809,2024-10-26,18:45,3258,Velez,3942,Posusje,finished,3,0
+Premijer Liga,933810,2024-10-27,12:00,3945,Igman Konjic,3404,Sarajevo,finished,0,3
+Premijer Liga,933808,2024-10-28,17:00,3793,Siroki Brijeg,3262,Borac Banja Luka,finished,2,3
+Premijer Liga,933814,2024-11-02,12:30,3264,Sloga Doboj,3263,Zrinjski,finished,0,1
+Premijer Liga,933817,2024-11-02,15:00,3258,Velez,3262,Borac Banja Luka,finished,0,0
+Premijer Liga,933815,2024-11-02,19:45,3261,Sloboda Tuzla,3404,Sarajevo,finished,0,6
+Premijer Liga,933816,2024-11-03,12:00,3945,Igman Konjic,3942,Posusje,finished,0,3
+Premijer Liga,933818,2024-11-03,18:45,3793,Siroki Brijeg,3259,Zeljeznicar,finished,0,3
+Premijer Liga,933813,2024-11-04,17:00,3935,Radnik Bijeljina,3940,GOSK Gabela,finished,3,1
+Premijer Liga,933770,2024-11-06,17:00,3263,Zrinjski,3404,Sarajevo,finished,1,1
+Premijer Liga,933822,2024-11-08,17:00,3942,Posusje,3261,Sloboda Tuzla,finished,2,0
+Premijer Liga,933823,2024-11-09,15:00,3404,Sarajevo,3264,Sloga Doboj,finished,2,0
+Premijer Liga,933820,2024-11-10,12:00,3259,Zeljeznicar,3258,Velez,finished,2,1
+Premijer Liga,933819,2024-11-10,18:45,3793,Siroki Brijeg,3935,Radnik Bijeljina,finished,2,0
+Premijer Liga,933824,2024-11-11,15:00,3263,Zrinjski,3940,GOSK Gabela,finished,3,0
+Premijer Liga,933821,2024-11-11,17:00,3262,Borac Banja Luka,3945,Igman Konjic,finished,4,0
+Premijer Liga,933768,2024-11-20,12:00,3264,Sloga Doboj,3262,Borac Banja Luka,finished,0,2
+Premijer Liga,933829,2024-11-22,12:00,3945,Igman Konjic,3259,Zeljeznicar,finished,0,2
+Premijer Liga,933830,2024-11-23,19:45,3258,Velez,3793,Siroki Brijeg,finished,3,1
+Premijer Liga,933826,2024-11-24,18:45,3940,GOSK Gabela,3404,Sarajevo,finished,0,3
+Premijer Liga,933836,2024-11-29,17:00,3404,Sarajevo,3263,Zrinjski,finished,0,1
+Premijer Liga,933831,2024-11-29,19:15,3258,Velez,3935,Radnik Bijeljina,finished,2,1
+Premijer Liga,933835,2024-11-30,12:30,3942,Posusje,3940,GOSK Gabela,finished,1,2
+Premijer Liga,933833,2024-11-30,15:00,3259,Zeljeznicar,3261,Sloboda Tuzla,finished,3,0
+Premijer Liga,933832,2024-11-30,19:45,3793,Siroki Brijeg,3945,Igman Konjic,finished,4,2
+Premijer Liga,933834,2024-12-01,12:00,3262,Borac Banja Luka,3264,Sloga Doboj,finished,4,0
+Premijer Liga,933842,2024-12-03,12:00,3945,Igman Konjic,3258,Velez,finished,1,1
+Premijer Liga,933837,2024-12-03,15:00,3935,Radnik Bijeljina,3404,Sarajevo,finished,2,3
+Premijer Liga,933772,2024-12-03,17:30,3942,Posusje,3263,Zrinjski,finished,1,2
+Premijer Liga,933840,2024-12-04,12:00,3264,Sloga Doboj,3259,Zeljeznicar,finished,4,2
+Premijer Liga,933841,2024-12-04,15:00,3261,Sloboda Tuzla,3793,Siroki Brijeg,finished,0,2
+Premijer Liga,933839,2024-12-04,17:30,3940,GOSK Gabela,3262,Borac Banja Luka,finished,0,2
+Premijer Liga,933848,2024-12-07,12:00,3942,Posusje,3404,Sarajevo,finished,0,0
+Premijer Liga,933844,2024-12-07,19:45,3258,Velez,3261,Sloboda Tuzla,finished,1,0
+Premijer Liga,933843,2024-12-08,12:00,3945,Igman Konjic,3935,Radnik Bijeljina,finished,2,3
+Premijer Liga,933847,2024-12-08,14:00,3262,Borac Banja Luka,3263,Zrinjski,finished,0,1
+Premijer Liga,933845,2024-12-08,16:00,3793,Siroki Brijeg,3264,Sloga Doboj,finished,0,1
+Premijer Liga,933846,2024-12-09,17:00,3259,Zeljeznicar,3940,GOSK Gabela,finished,4,1
+Premijer Liga,933827,2024-12-15,12:00,3264,Sloga Doboj,3942,Posusje,finished,3,1
+Premijer Liga,933825,2024-12-15,14:15,3935,Radnik Bijeljina,3263,Zrinjski,finished,2,0
+Premijer Liga,933828,2024-12-15,16:30,3261,Sloboda Tuzla,3262,Borac Banja Luka,finished,2,3
+Premijer Liga,933854,2025-02-14,17:00,3261,Sloboda Tuzla,3945,Igman Konjic,finished,0,1
+Premijer Liga,933849,2025-02-15,12:00,3935,Radnik Bijeljina,3942,Posusje,finished,2,1
+Premijer Liga,933852,2025-02-15,15:00,3940,GOSK Gabela,3793,Siroki Brijeg,finished,1,2
+Premijer Liga,933853,2025-02-16,12:00,3264,Sloga Doboj,3258,Velez,finished,0,0
+Premijer Liga,933851,2025-02-16,14:15,3263,Zrinjski,3259,Zeljeznicar,finished,1,0
+Premijer Liga,933856,2025-02-21,12:00,3945,Igman Konjic,3264,Sloga Doboj,finished,1,2
+Premijer Liga,933858,2025-02-21,17:00,3793,Siroki Brijeg,3263,Zrinjski,finished,1,1
+Premijer Liga,933857,2025-02-22,15:00,3258,Velez,3940,GOSK Gabela,finished,2,2
+Premijer Liga,933859,2025-02-22,15:00,3259,Zeljeznicar,3404,Sarajevo,finished,0,0
+Premijer Liga,933855,2025-02-23,12:00,3261,Sloboda Tuzla,3935,Radnik Bijeljina,finished,1,0
+Premijer Liga,933860,2025-02-23,18:45,3262,Borac Banja Luka,3942,Posusje,finished,2,0
+Premijer Liga,933865,2025-02-28,17:00,3940,GOSK Gabela,3945,Igman Konjic,finished,0,2
+Premijer Liga,933866,2025-03-01,12:00,3264,Sloga Doboj,3261,Sloboda Tuzla,finished,1,0
+Premijer Liga,933864,2025-03-01,15:00,3263,Zrinjski,3258,Velez,finished,1,0
+Premijer Liga,933861,2025-03-01,20:00,3935,Radnik Bijeljina,3262,Borac Banja Luka,finished,0,1
+Premijer Liga,933862,2025-03-02,12:00,3942,Posusje,3259,Zeljeznicar,finished,1,1
+Premijer Liga,933863,2025-03-02,18:45,3404,Sarajevo,3793,Siroki Brijeg,finished,1,0
+Premijer Liga,933868,2025-03-07,17:00,3261,Sloboda Tuzla,3940,GOSK Gabela,finished,1,1
+Premijer Liga,933869,2025-03-08,12:00,3945,Igman Konjic,3263,Zrinjski,finished,0,3
+Premijer Liga,933870,2025-03-08,15:00,3258,Velez,3404,Sarajevo,finished,0,0
+Premijer Liga,933867,2025-03-09,12:00,3264,Sloga Doboj,3935,Radnik Bijeljina,finished,1,0
+Premijer Liga,933871,2025-03-09,14:15,3793,Siroki Brijeg,3942,Posusje,finished,1,0
+Premijer Liga,933872,2025-03-09,18:45,3259,Zeljeznicar,3262,Borac Banja Luka,finished,1,1
+Premijer Liga,933878,2025-03-15,12:30,3940,GOSK Gabela,3264,Sloga Doboj,finished,0,3
+Premijer Liga,933876,2025-03-15,15:00,3404,Sarajevo,3945,Igman Konjic,finished,2,1
+Premijer Liga,933875,2025-03-16,12:00,3942,Posusje,3258,Velez,finished,1,1
+Premijer Liga,933873,2025-03-16,16:00,3935,Radnik Bijeljina,3259,Zeljeznicar,finished,2,3
+Premijer Liga,933877,2025-03-16,18:45,3263,Zrinjski,3261,Sloboda Tuzla,finished,3,2
+Premijer Liga,933874,2025-03-17,17:00,3262,Borac Banja Luka,3793,Siroki Brijeg,finished,3,0
+Premijer Liga,933850,2025-03-26,20:00,3404,Sarajevo,3262,Borac Banja Luka,finished,0,2
+Premijer Liga,952257,2025-03-28,15:30,3263,Zrinjski,3261,Sloboda Tuzla,finished,5,0
+Premijer Liga,952254,2025-03-28,17:30,3793,Siroki Brijeg,3258,Velez,finished,2,5
+Premijer Liga,952259,2025-03-28,19:45,3259,Zeljeznicar,3942,Posusje,finished,3,2
+Premijer Liga,952255,2025-03-29,12:30,3264,Sloga Doboj,3935,Radnik Bijeljina,finished,2,1
+Premijer Liga,952258,2025-03-29,15:00,3404,Sarajevo,3945,Igman Konjic,finished,3,0
+Premijer Liga,952256,2025-03-29,19:45,3262,Borac Banja Luka,3940,GOSK Gabela,finished,1,0
+Premijer Liga,952264,2025-04-04,16:00,3261,Sloboda Tuzla,3258,Velez,finished,1,1
+Premijer Liga,952262,2025-04-05,13:00,3945,Igman Konjic,3259,Zeljeznicar,finished,0,1
+Premijer Liga,952265,2025-04-05,14:00,3935,Radnik Bijeljina,3793,Siroki Brijeg,finished,1,1
+Premijer Liga,952263,2025-04-05,18:45,3940,GOSK Gabela,3404,Sarajevo,finished,0,2
+Premijer Liga,952260,2025-04-06,11:00,3942,Posusje,3264,Sloga Doboj,finished,0,0
+Premijer Liga,952261,2025-04-06,17:45,3263,Zrinjski,3262,Borac Banja Luka,finished,0,1
+Premijer Liga,952267,2025-04-11,16:00,3404,Sarajevo,3263,Zrinjski,finished,0,0
+Premijer Liga,952271,2025-04-11,18:15,3262,Borac Banja Luka,3261,Sloboda Tuzla,finished,2,0
+Premijer Liga,952269,2025-04-12,14:00,3793,Siroki Brijeg,3942,Posusje,finished,0,0
+Premijer Liga,952270,2025-04-12,15:00,3259,Zeljeznicar,3940,GOSK Gabela,finished,3,2
+Premijer Liga,952268,2025-04-13,11:00,3264,Sloga Doboj,3945,Igman Konjic,finished,0,1
+Premijer Liga,952266,2025-04-13,17:45,3258,Velez,3935,Radnik Bijeljina,finished,3,2
+Premijer Liga,952274,2025-04-17,16:45,3942,Posusje,3258,Velez,finished,2,0
+Premijer Liga,952272,2025-04-18,14:00,3261,Sloboda Tuzla,3935,Radnik Bijeljina,finished,2,3
+Premijer Liga,952277,2025-04-18,16:00,3940,GOSK Gabela,3264,Sloga Doboj,finished,1,2
+Premijer Liga,952276,2025-04-19,11:30,3945,Igman Konjic,3793,Siroki Brijeg,finished,2,1
+Premijer Liga,952275,2025-04-19,15:30,3263,Zrinjski,3259,Zeljeznicar,finished,5,0
+Premijer Liga,952273,2025-04-19,18:45,3262,Borac Banja Luka,3404,Sarajevo,finished,2,0
+Premijer Liga,952281,2025-04-22,16:00,3935,Radnik Bijeljina,3942,Posusje,finished,2,1
+Premijer Liga,952279,2025-04-22,19:00,3258,Velez,3945,Igman Konjic,finished,2,2
+Premijer Liga,952283,2025-04-22,19:00,3404,Sarajevo,3261,Sloboda Tuzla,finished,0,0
+Premijer Liga,952280,2025-04-23,14:00,3264,Sloga Doboj,3263,Zrinjski,finished,0,4
+Premijer Liga,952278,2025-04-23,16:00,3793,Siroki Brijeg,3940,GOSK Gabela,finished,2,0
+Premijer Liga,952282,2025-04-23,18:45,3259,Zeljeznicar,3262,Borac Banja Luka,finished,2,1
+Premijer Liga,952287,2025-04-26,14:00,3945,Igman Konjic,3935,Radnik Bijeljina,finished,1,1
+Premijer Liga,952288,2025-04-26,18:45,3261,Sloboda Tuzla,3942,Posusje,finished,0,3
+Premijer Liga,952285,2025-04-27,13:00,3404,Sarajevo,3259,Zeljeznicar,finished,2,1
+Premijer Liga,952289,2025-04-27,15:30,3940,GOSK Gabela,3258,Velez,finished,0,1
+Premijer Liga,952286,2025-04-27,17:45,3263,Zrinjski,3793,Siroki Brijeg,finished,2,1
+Premijer Liga,952284,2025-04-28,19:00,3262,Borac Banja Luka,3264,Sloga Doboj,finished,3,1
+Premijer Liga,952290,2025-05-02,18:15,3942,Posusje,3945,Igman Konjic,finished,2,1
+Premijer Liga,952294,2025-05-03,11:30,3264,Sloga Doboj,3404,Sarajevo,finished,0,4
+Premijer Liga,952293,2025-05-03,14:00,3258,Velez,3263,Zrinjski,finished,0,1
+Premijer Liga,952292,2025-05-03,18:45,3793,Siroki Brijeg,3262,Borac Banja Luka,finished,0,1
+Premijer Liga,952295,2025-05-04,13:00,3259,Zeljeznicar,3261,Sloboda Tuzla,finished,3,2
+Premijer Liga,952291,2025-05-04,17:45,3935,Radnik Bijeljina,3940,GOSK Gabela,finished,5,0
+Premijer Liga,952301,2025-05-09,18:00,3261,Sloboda Tuzla,3945,Igman Konjic,finished,2,2
+Premijer Liga,952300,2025-05-10,14:00,3263,Zrinjski,3935,Radnik Bijeljina,finished,5,0
+Premijer Liga,952298,2025-05-10,16:30,3404,Sarajevo,3793,Siroki Brijeg,finished,0,1
+Premijer Liga,952296,2025-05-10,18:45,3262,Borac Banja Luka,3258,Velez,finished,1,0
+Premijer Liga,952299,2025-05-11,15:30,3259,Zeljeznicar,3264,Sloga Doboj,finished,1,0
+Premijer Liga,952297,2025-05-11,17:45,3940,GOSK Gabela,3942,Posusje,finished,1,2
+Premijer Liga,952305,2025-05-17,11:30,3264,Sloga Doboj,3261,Sloboda Tuzla,finished,4,1
+Premijer Liga,952304,2025-05-17,14:00,3945,Igman Konjic,3940,GOSK Gabela,finished,1,2
+Premijer Liga,952303,2025-05-17,16:30,3942,Posusje,3263,Zrinjski,finished,1,2
+Premijer Liga,952302,2025-05-18,13:15,3935,Radnik Bijeljina,3262,Borac Banja Luka,finished,1,0
+Premijer Liga,952306,2025-05-18,15:00,3258,Velez,3404,Sarajevo,finished,2,2
+Premijer Liga,952307,2025-05-18,17:45,3793,Siroki Brijeg,3259,Zeljeznicar,finished,3,2
+Premijer Liga,952313,2025-05-23,18:00,3261,Sloboda Tuzla,3940,GOSK Gabela,finished,3,3
+Premijer Liga,952309,2025-05-25,13:00,3262,Borac Banja Luka,3942,Posusje,finished,1,0
+Premijer Liga,952312,2025-05-25,13:00,3263,Zrinjski,3945,Igman Konjic,finished,3,0
+Premijer Liga,952311,2025-05-25,13:00,3404,Sarajevo,3935,Radnik Bijeljina,finished,1,1
+Premijer Liga,952310,2025-05-25,13:00,3259,Zeljeznicar,3258,Velez,finished,2,1
+Premijer Liga,952308,2025-05-25,13:00,3264,Sloga Doboj,3793,Siroki Brijeg,finished,0,1
+Premijer Liga,952318,2025-05-30,15:00,3940,GOSK Gabela,3263,Zrinjski,finished,3,2
+Premijer Liga,952316,2025-05-30,15:00,3945,Igman Konjic,3262,Borac Banja Luka,finished,0,1
+Premijer Liga,952314,2025-05-30,18:00,3793,Siroki Brijeg,3261,Sloboda Tuzla,finished,3,1
+Premijer Liga,952317,2025-05-31,15:00,3942,Posusje,3404,Sarajevo,finished,1,2
+Premijer Liga,952319,2025-05-31,15:00,3935,Radnik Bijeljina,3259,Zeljeznicar,finished,1,2
+Premijer Liga,952315,2025-05-31,15:00,3258,Velez,3264,Sloga Doboj,finished,3,0

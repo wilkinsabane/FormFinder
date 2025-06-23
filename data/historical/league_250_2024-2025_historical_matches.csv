@@ -1,0 +1,157 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Super League,939901,2024-09-13,14:00,4376,Mohun Bagan SG,4367,Mumbai City,finished,2,2
+Super League,939902,2024-09-14,11:30,4372,Odisha,4374,Chennaiyin,finished,2,3
+Super League,939903,2024-09-14,14:00,4365,Bengaluru,4377,East Bengal,finished,1,0
+Super League,939904,2024-09-15,14:00,4373,Kerala Blasters,11167,Punjab FC,finished,1,2
+Super League,939905,2024-09-16,14:00,9276,Mohammedan,4368,NorthEast United,finished,0,1
+Super League,939906,2024-09-17,14:00,4366,Goa,4369,Jamshedpur,finished,1,2
+Super League,939907,2024-09-19,14:00,4365,Bengaluru,4375,Hyderabad,finished,3,0
+Super League,939908,2024-09-20,14:00,11167,Punjab FC,4372,Odisha,finished,2,1
+Super League,939909,2024-09-21,11:30,4369,Jamshedpur,4367,Mumbai City,finished,3,2
+Super League,939910,2024-09-21,14:00,9276,Mohammedan,4366,Goa,finished,1,1
+Super League,939911,2024-09-22,14:00,4373,Kerala Blasters,4377,East Bengal,finished,2,1
+Super League,939912,2024-09-23,14:00,4376,Mohun Bagan SG,4368,NorthEast United,finished,3,2
+Super League,939913,2024-09-25,14:00,11167,Punjab FC,4375,Hyderabad,finished,2,0
+Super League,939914,2024-09-26,14:00,4374,Chennaiyin,9276,Mohammedan,finished,0,1
+Super League,939915,2024-09-27,14:00,4377,East Bengal,4366,Goa,finished,2,3
+Super League,939916,2024-09-28,11:30,4372,Odisha,4369,Jamshedpur,finished,2,1
+Super League,939917,2024-09-28,14:00,4365,Bengaluru,4376,Mohun Bagan SG,finished,3,0
+Super League,939918,2024-09-29,14:00,4368,NorthEast United,4373,Kerala Blasters,finished,1,1
+Super League,939919,2024-10-01,14:00,4375,Hyderabad,4374,Chennaiyin,finished,0,0
+Super League,939920,2024-10-02,14:00,4367,Mumbai City,4365,Bengaluru,finished,0,0
+Super League,939921,2024-10-03,14:00,4372,Odisha,4373,Kerala Blasters,finished,2,2
+Super League,939922,2024-10-04,14:00,4366,Goa,4368,NorthEast United,finished,3,3
+Super League,939923,2024-10-05,11:30,4369,Jamshedpur,4377,East Bengal,finished,2,0
+Super League,939924,2024-10-05,14:00,4376,Mohun Bagan SG,9276,Mohammedan,finished,3,0
+Super League,939925,2024-10-17,14:00,4368,NorthEast United,4374,Chennaiyin,finished,2,3
+Super League,939926,2024-10-18,14:00,4365,Bengaluru,11167,Punjab FC,finished,1,0
+Super League,939927,2024-10-19,11:30,4366,Goa,4367,Mumbai City,finished,1,2
+Super League,939928,2024-10-19,14:00,4377,East Bengal,4376,Mohun Bagan SG,finished,0,2
+Super League,939929,2024-10-20,14:00,9276,Mohammedan,4373,Kerala Blasters,finished,1,2
+Super League,939930,2024-10-21,14:00,4369,Jamshedpur,4375,Hyderabad,finished,2,1
+Super League,939931,2024-10-22,14:00,4372,Odisha,4377,East Bengal,finished,2,1
+Super League,939932,2024-10-24,14:00,4374,Chennaiyin,4366,Goa,finished,2,2
+Super League,939933,2024-10-25,14:00,4373,Kerala Blasters,4365,Bengaluru,finished,1,3
+Super League,939934,2024-10-26,11:30,4368,NorthEast United,4369,Jamshedpur,finished,5,0
+Super League,939935,2024-10-26,14:00,9276,Mohammedan,4375,Hyderabad,finished,0,4
+Super League,939936,2024-10-27,14:00,4367,Mumbai City,4372,Odisha,finished,1,1
+Super League,939937,2024-10-30,14:00,4375,Hyderabad,4376,Mohun Bagan SG,finished,0,2
+Super League,939938,2024-10-31,14:00,11167,Punjab FC,4374,Chennaiyin,finished,3,2
+Super League,939939,2024-11-02,14:00,4366,Goa,4365,Bengaluru,finished,3,0
+Super League,939940,2024-11-03,11:30,4368,NorthEast United,4372,Odisha,finished,3,2
+Super League,939941,2024-11-03,14:00,4367,Mumbai City,4373,Kerala Blasters,finished,4,2
+Super League,939942,2024-11-04,14:00,4369,Jamshedpur,4374,Chennaiyin,finished,1,5
+Super League,939943,2024-11-06,14:00,4366,Goa,11167,Punjab FC,finished,2,1
+Super League,939944,2024-11-07,14:00,4373,Kerala Blasters,4375,Hyderabad,finished,1,2
+Super League,939945,2024-11-08,14:00,4365,Bengaluru,4368,NorthEast United,finished,2,2
+Super League,939946,2024-11-09,11:30,4374,Chennaiyin,4367,Mumbai City,finished,1,1
+Super League,939947,2024-11-09,14:00,4377,East Bengal,9276,Mohammedan,finished,0,0
+Super League,939948,2024-11-10,14:00,4372,Odisha,4376,Mohun Bagan SG,finished,1,1
+Super League,939949,2024-11-23,11:30,11167,Punjab FC,4368,NorthEast United,finished,1,2
+Super League,939950,2024-11-23,14:00,4376,Mohun Bagan SG,4369,Jamshedpur,finished,3,0
+Super League,939951,2024-11-24,14:00,4373,Kerala Blasters,4374,Chennaiyin,finished,3,0
+Super League,939952,2024-11-25,14:00,4375,Hyderabad,4372,Odisha,finished,0,6
+Super League,939953,2024-11-26,14:00,4367,Mumbai City,11167,Punjab FC,finished,0,3
+Super League,939954,2024-11-27,14:00,9276,Mohammedan,4365,Bengaluru,finished,1,2
+Super League,939955,2024-11-28,14:00,4373,Kerala Blasters,4366,Goa,finished,0,1
+Super League,939956,2024-11-29,14:00,4377,East Bengal,4368,NorthEast United,finished,1,0
+Super League,939957,2024-11-30,11:30,4367,Mumbai City,4375,Hyderabad,finished,1,0
+Super League,939958,2024-11-30,14:00,4376,Mohun Bagan SG,4374,Chennaiyin,finished,1,0
+Super League,939959,2024-12-01,14:00,4372,Odisha,4365,Bengaluru,finished,4,2
+Super League,939960,2024-12-02,14:00,4369,Jamshedpur,9276,Mohammedan,finished,3,1
+Super League,939961,2024-12-04,14:00,4375,Hyderabad,4366,Goa,finished,0,2
+Super League,939962,2024-12-05,14:00,4372,Odisha,4367,Mumbai City,finished,0,0
+Super League,939963,2024-12-06,14:00,11167,Punjab FC,9276,Mohammedan,finished,2,0
+Super League,939964,2024-12-07,11:30,4374,Chennaiyin,4377,East Bengal,finished,0,2
+Super League,939965,2024-12-07,14:00,4365,Bengaluru,4373,Kerala Blasters,finished,4,2
+Super League,939966,2024-12-08,14:00,4368,NorthEast United,4376,Mohun Bagan SG,finished,0,2
+Super League,939967,2024-12-11,14:00,4374,Chennaiyin,4375,Hyderabad,finished,1,0
+Super League,939968,2024-12-12,14:00,4377,East Bengal,4372,Odisha,finished,1,2
+Super League,939969,2024-12-13,14:00,4369,Jamshedpur,11167,Punjab FC,finished,2,1
+Super League,939970,2024-12-14,11:30,4365,Bengaluru,4366,Goa,finished,2,2
+Super League,939971,2024-12-14,14:00,4376,Mohun Bagan SG,4373,Kerala Blasters,finished,3,2
+Super League,939972,2024-12-15,14:00,9276,Mohammedan,4367,Mumbai City,finished,0,1
+Super League,939973,2024-12-17,14:00,4377,East Bengal,11167,Punjab FC,finished,4,2
+Super League,939974,2024-12-20,14:00,4366,Goa,4376,Mohun Bagan SG,finished,2,1
+Super League,939975,2024-12-21,11:30,4367,Mumbai City,4374,Chennaiyin,finished,1,0
+Super League,939976,2024-12-21,14:00,4377,East Bengal,4369,Jamshedpur,finished,1,0
+Super League,939977,2024-12-22,14:00,4373,Kerala Blasters,9276,Mohammedan,finished,3,0
+Super League,939978,2024-12-23,14:00,4375,Hyderabad,4368,NorthEast United,finished,2,5
+Super League,939979,2024-12-26,14:00,11167,Punjab FC,4376,Mohun Bagan SG,finished,1,3
+Super League,939980,2024-12-27,14:00,9276,Mohammedan,4372,Odisha,finished,0,0
+Super League,939981,2024-12-28,11:30,4375,Hyderabad,4377,East Bengal,finished,1,1
+Super League,939982,2024-12-28,14:00,4374,Chennaiyin,4365,Bengaluru,finished,2,4
+Super League,939983,2024-12-29,14:00,4369,Jamshedpur,4373,Kerala Blasters,finished,1,0
+Super League,939984,2024-12-30,14:00,4367,Mumbai City,4368,NorthEast United,finished,0,3
+Super League,941620,2025-01-02,14:00,4376,Mohun Bagan SG,4375,Hyderabad,finished,3,0
+Super League,941621,2025-01-03,14:00,4368,NorthEast United,9276,Mohammedan,finished,0,0
+Super League,941622,2025-01-04,11:30,4372,Odisha,4366,Goa,finished,2,4
+Super League,941623,2025-01-04,14:00,4369,Jamshedpur,4365,Bengaluru,finished,2,1
+Super League,941624,2025-01-05,14:00,11167,Punjab FC,4373,Kerala Blasters,finished,0,1
+Super League,941625,2025-01-06,14:00,4377,East Bengal,4367,Mumbai City,finished,2,3
+Super League,941626,2025-01-08,14:00,4366,Goa,4375,Hyderabad,finished,1,1
+Super League,941627,2025-01-09,14:00,4374,Chennaiyin,4372,Odisha,finished,2,2
+Super League,941628,2025-01-10,14:00,4368,NorthEast United,11167,Punjab FC,finished,1,1
+Super League,941629,2025-01-11,11:30,4365,Bengaluru,9276,Mohammedan,finished,0,1
+Super League,941630,2025-01-11,14:00,4376,Mohun Bagan SG,4377,East Bengal,finished,1,0
+Super League,941631,2025-01-12,14:00,4367,Mumbai City,4369,Jamshedpur,finished,0,3
+Super League,941632,2025-01-13,14:00,4373,Kerala Blasters,4372,Odisha,finished,3,2
+Super League,941633,2025-01-14,14:00,4368,NorthEast United,4366,Goa,finished,1,1
+Super League,941634,2025-01-15,14:00,9276,Mohammedan,4374,Chennaiyin,finished,2,2
+Super League,941635,2025-01-16,14:00,11167,Punjab FC,4367,Mumbai City,finished,1,1
+Super League,941636,2025-01-17,14:00,4369,Jamshedpur,4376,Mohun Bagan SG,finished,1,1
+Super League,941637,2025-01-18,11:30,4375,Hyderabad,4365,Bengaluru,finished,1,1
+Super League,941638,2025-01-18,14:00,4373,Kerala Blasters,4368,NorthEast United,finished,0,0
+Super League,941639,2025-01-19,14:00,4366,Goa,4377,East Bengal,finished,1,0
+Super League,941640,2025-01-21,14:00,4374,Chennaiyin,4376,Mohun Bagan SG,finished,0,0
+Super League,941641,2025-01-22,14:00,4365,Bengaluru,4372,Odisha,finished,2,3
+Super League,941642,2025-01-23,14:00,4375,Hyderabad,4369,Jamshedpur,finished,3,2
+Super League,941643,2025-01-24,14:00,4377,East Bengal,4373,Kerala Blasters,finished,2,1
+Super League,941644,2025-01-25,14:00,4366,Goa,4374,Chennaiyin,finished,2,0
+Super League,941645,2025-01-26,14:00,4367,Mumbai City,9276,Mohammedan,finished,3,0
+Super League,941646,2025-01-27,14:00,4376,Mohun Bagan SG,4365,Bengaluru,finished,1,0
+Super League,941647,2025-01-28,14:00,11167,Punjab FC,4369,Jamshedpur,finished,1,2
+Super League,941648,2025-01-29,14:00,4368,NorthEast United,4375,Hyderabad,finished,4,1
+Super League,941649,2025-01-30,14:00,4374,Chennaiyin,4373,Kerala Blasters,finished,1,3
+Super League,941650,2025-01-31,14:00,4367,Mumbai City,4377,East Bengal,finished,0,0
+Super League,941651,2025-02-01,11:30,11167,Punjab FC,4365,Bengaluru,finished,3,2
+Super League,941652,2025-02-01,14:00,9276,Mohammedan,4376,Mohun Bagan SG,finished,0,4
+Super League,941653,2025-02-02,14:00,4369,Jamshedpur,4366,Goa,finished,3,1
+Super League,941654,2025-02-03,14:00,4372,Odisha,4368,NorthEast United,finished,2,2
+Super League,941655,2025-02-05,14:00,4376,Mohun Bagan SG,11167,Punjab FC,finished,3,0
+Super League,941656,2025-02-06,14:00,4366,Goa,4372,Odisha,finished,2,1
+Super League,941657,2025-02-07,14:00,4368,NorthEast United,4367,Mumbai City,finished,0,2
+Super League,941658,2025-02-08,11:30,4375,Hyderabad,9276,Mohammedan,finished,3,1
+Super League,941659,2025-02-08,14:00,4377,East Bengal,4374,Chennaiyin,finished,0,3
+Super League,941660,2025-02-09,14:00,4365,Bengaluru,4369,Jamshedpur,finished,3,0
+Super League,941661,2025-02-10,14:00,4372,Odisha,11167,Punjab FC,finished,1,1
+Super League,941662,2025-02-12,14:00,4367,Mumbai City,4366,Goa,finished,1,3
+Super League,941663,2025-02-13,14:00,4369,Jamshedpur,4368,NorthEast United,finished,0,2
+Super League,941664,2025-02-14,14:00,4372,Odisha,4375,Hyderabad,finished,3,1
+Super League,941665,2025-02-15,11:30,4374,Chennaiyin,11167,Punjab FC,finished,2,1
+Super League,941666,2025-02-15,14:00,4373,Kerala Blasters,4376,Mohun Bagan SG,finished,0,3
+Super League,941667,2025-02-16,14:00,9276,Mohammedan,4377,East Bengal,finished,1,3
+Super League,941668,2025-02-19,14:00,4375,Hyderabad,4367,Mumbai City,finished,0,0
+Super League,941669,2025-02-20,14:00,9276,Mohammedan,4369,Jamshedpur,finished,0,2
+Super League,941670,2025-02-21,14:00,4368,NorthEast United,4365,Bengaluru,finished,0,2
+Super League,941671,2025-02-22,11:30,11167,Punjab FC,4377,East Bengal,finished,1,3
+Super League,941672,2025-02-22,14:00,4366,Goa,4373,Kerala Blasters,finished,2,0
+Super League,941673,2025-02-23,14:00,4376,Mohun Bagan SG,4372,Odisha,finished,1,0
+Super League,941674,2025-02-25,14:00,4365,Bengaluru,4374,Chennaiyin,finished,1,0
+Super League,941675,2025-02-26,14:00,4377,East Bengal,4375,Hyderabad,finished,2,0
+Super League,941676,2025-02-27,14:00,11167,Punjab FC,4366,Goa,finished,0,1
+Super League,941677,2025-02-28,14:00,4372,Odisha,9276,Mohammedan,finished,0,0
+Super League,941678,2025-03-01,11:30,4367,Mumbai City,4376,Mohun Bagan SG,finished,2,2
+Super League,941679,2025-03-01,14:00,4373,Kerala Blasters,4369,Jamshedpur,finished,1,1
+Super League,941680,2025-03-02,14:00,4377,East Bengal,4365,Bengaluru,finished,1,1
+Super League,941681,2025-03-03,14:00,4374,Chennaiyin,4368,NorthEast United,finished,0,3
+Super League,941682,2025-03-04,14:00,4366,Goa,9276,Mohammedan,finished,2,0
+Super League,941683,2025-03-05,14:00,4369,Jamshedpur,4372,Odisha,finished,2,3
+Super League,941684,2025-03-06,14:00,4375,Hyderabad,11167,Punjab FC,finished,1,3
+Super League,941685,2025-03-07,14:00,4373,Kerala Blasters,4367,Mumbai City,finished,1,0
+Super League,941686,2025-03-08,11:30,4368,NorthEast United,4377,East Bengal,finished,4,0
+Super League,941687,2025-03-08,14:00,4376,Mohun Bagan SG,4366,Goa,finished,2,0
+Super League,941688,2025-03-09,14:00,4374,Chennaiyin,4369,Jamshedpur,finished,5,2
+Super League,941689,2025-03-10,14:00,9276,Mohammedan,11167,Punjab FC,finished,2,2
+Super League,941690,2025-03-11,14:00,4365,Bengaluru,4367,Mumbai City,finished,0,2
+Super League,941691,2025-03-12,14:00,4375,Hyderabad,4373,Kerala Blasters,finished,1,1

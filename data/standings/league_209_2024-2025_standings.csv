@@ -1,0 +1,13 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+Bundesliga,1,3880,Sturm Graz,22,46,14,4,4,51,28,23
+Bundesliga,2,3584,Austria Vienna,22,46,14,4,4,36,19,17
+Bundesliga,3,2996,Salzburg,22,38,10,8,4,33,22,11
+Bundesliga,4,3107,Wolfsberger AC,22,36,11,3,8,44,30,14
+Bundesliga,5,2927,Rapid Vienna,22,34,9,7,6,32,24,8
+Bundesliga,6,5057,Blau-Weiss Linz,22,33,10,3,9,30,29,1
+Bundesliga,7,3112,LASK,22,31,9,4,9,32,33,-1
+Bundesliga,8,3389,Hartberg,22,26,6,8,8,24,31,-7
+Bundesliga,9,2833,Austria Klagenfurt,22,21,5,6,11,22,44,-22
+Bundesliga,10,3886,WSG Tirol,22,19,4,7,11,20,31,-11
+Bundesliga,11,5742,Grazer AK,22,16,3,7,12,27,45,-18
+Bundesliga,12,3883,Rheindorf Altach,22,16,3,7,12,20,35,-15

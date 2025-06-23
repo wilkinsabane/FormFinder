@@ -1,0 +1,199 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+NB I,925714,2024-07-26,16:00,3635,Zalaegerszegi TE,3158,MTK,finished,0,1
+NB I,925713,2024-07-26,18:15,6016,Nyiregyhaza Spartacus,5838,Gyori ETO,finished,2,1
+NB I,925715,2024-07-28,16:50,3135,Ujpest,3134,Puskas,finished,1,2
+NB I,925717,2024-07-28,16:50,3132,Kecskemeti TE,3130,Fehervar,finished,0,0
+NB I,925716,2024-07-28,16:50,3159,Diosgyor,4351,Paksi FC,finished,2,2
+NB I,925724,2024-08-02,16:50,5838,Gyori ETO,3796,Debrecen,finished,0,3
+NB I,925720,2024-08-03,14:00,3130,Fehervar,3159,Diosgyor,finished,3,1
+NB I,925723,2024-08-03,17:45,3158,MTK,6016,Nyiregyhaza Spartacus,finished,3,0
+NB I,925719,2024-08-03,17:45,2937,Ferencvaros,3132,Kecskemeti TE,finished,1,0
+NB I,925721,2024-08-04,16:50,4351,Paksi FC,3135,Ujpest,finished,2,1
+NB I,925722,2024-08-04,16:50,3134,Puskas,3635,Zalaegerszegi TE,finished,2,1
+NB I,925728,2024-08-09,16:50,3132,Kecskemeti TE,3796,Debrecen,finished,1,1
+NB I,925727,2024-08-10,14:00,3159,Diosgyor,2937,Ferencvaros,finished,0,2
+NB I,925725,2024-08-10,17:45,3635,Zalaegerszegi TE,4351,Paksi FC,finished,3,1
+NB I,925729,2024-08-11,13:45,5838,Gyori ETO,3158,MTK,finished,1,2
+NB I,925726,2024-08-11,16:00,3135,Ujpest,3130,Fehervar,finished,4,1
+NB I,926344,2024-08-11,18:15,3134,Puskas,6016,Nyiregyhaza Spartacus,finished,3,1
+NB I,925730,2024-08-16,18:00,3132,Kecskemeti TE,5838,Gyori ETO,finished,2,1
+NB I,925731,2024-08-17,15:00,3796,Debrecen,3159,Diosgyor,finished,0,1
+NB I,925732,2024-08-17,17:30,2937,Ferencvaros,3135,Ujpest,finished,1,0
+NB I,925733,2024-08-18,13:30,3130,Fehervar,3635,Zalaegerszegi TE,finished,1,1
+NB I,925734,2024-08-18,15:45,4351,Paksi FC,6016,Nyiregyhaza Spartacus,finished,2,1
+NB I,925735,2024-08-18,18:00,3134,Puskas,3158,MTK,finished,1,0
+NB I,925738,2024-08-23,18:00,3135,Ujpest,3796,Debrecen,finished,3,0
+NB I,925739,2024-08-24,14:45,3159,Diosgyor,3132,Kecskemeti TE,finished,1,0
+NB I,925736,2024-08-25,15:45,6016,Nyiregyhaza Spartacus,3130,Fehervar,finished,3,3
+NB I,925745,2024-08-30,18:00,3130,Fehervar,3158,MTK,finished,1,0
+NB I,925744,2024-08-31,15:45,3796,Debrecen,3635,Zalaegerszegi TE,finished,3,1
+NB I,925742,2024-08-31,18:00,3159,Diosgyor,5838,Gyori ETO,finished,0,0
+NB I,925743,2024-09-01,13:00,3132,Kecskemeti TE,3135,Ujpest,finished,1,3
+NB I,925746,2024-09-01,15:30,4351,Paksi FC,3134,Puskas,finished,2,1
+NB I,926338,2024-09-01,17:45,2937,Ferencvaros,6016,Nyiregyhaza Spartacus,finished,2,1
+NB I,925750,2024-09-20,18:00,3158,MTK,2937,Ferencvaros,finished,1,3
+NB I,925747,2024-09-21,12:30,3635,Zalaegerszegi TE,3132,Kecskemeti TE,finished,2,1
+NB I,925748,2024-09-21,15:00,3135,Ujpest,3159,Diosgyor,finished,0,0
+NB I,926339,2024-09-21,17:30,6016,Nyiregyhaza Spartacus,3796,Debrecen,finished,3,2
+NB I,925749,2024-09-22,14:30,3134,Puskas,3130,Fehervar,finished,3,0
+NB I,925751,2024-09-22,17:00,5838,Gyori ETO,4351,Paksi FC,finished,2,1
+NB I,925752,2024-09-27,18:00,3135,Ujpest,5838,Gyori ETO,finished,0,0
+NB I,925753,2024-09-28,13:00,3159,Diosgyor,3635,Zalaegerszegi TE,finished,2,1
+NB I,926340,2024-09-28,15:00,3132,Kecskemeti TE,6016,Nyiregyhaza Spartacus,finished,0,2
+NB I,925754,2024-09-28,17:30,3796,Debrecen,3158,MTK,finished,2,3
+NB I,925756,2024-09-29,13:30,3130,Fehervar,4351,Paksi FC,finished,1,2
+NB I,925755,2024-09-29,16:00,2937,Ferencvaros,3134,Puskas,finished,3,0
+NB I,925759,2024-10-04,18:00,3134,Puskas,3796,Debrecen,finished,1,0
+NB I,925761,2024-10-05,12:30,5838,Gyori ETO,3130,Fehervar,finished,3,1
+NB I,925760,2024-10-05,15:00,3158,MTK,3132,Kecskemeti TE,finished,3,1
+NB I,926341,2024-10-05,17:30,6016,Nyiregyhaza Spartacus,3159,Diosgyor,finished,0,2
+NB I,925757,2024-10-06,13:30,3635,Zalaegerszegi TE,3135,Ujpest,finished,0,2
+NB I,925758,2024-10-06,16:00,4351,Paksi FC,2937,Ferencvaros,finished,3,1
+NB I,925766,2024-10-19,13:00,3796,Debrecen,4351,Paksi FC,finished,0,5
+NB I,925764,2024-10-19,15:30,3159,Diosgyor,3158,MTK,finished,0,2
+NB I,925763,2024-10-19,17:30,3135,Ujpest,6016,Nyiregyhaza Spartacus,finished,1,0
+NB I,925765,2024-10-20,11:00,3132,Kecskemeti TE,3134,Puskas,finished,0,3
+NB I,925762,2024-10-20,13:15,3635,Zalaegerszegi TE,5838,Gyori ETO,finished,1,2
+NB I,925767,2024-10-20,15:45,2937,Ferencvaros,3130,Fehervar,finished,2,0
+NB I,925770,2024-10-26,12:45,3134,Puskas,3159,Diosgyor,finished,1,1
+NB I,925768,2024-10-26,15:15,3130,Fehervar,3796,Debrecen,finished,2,0
+NB I,925771,2024-10-26,18:45,3158,MTK,3135,Ujpest,finished,4,1
+NB I,926342,2024-10-27,12:00,6016,Nyiregyhaza Spartacus,3635,Zalaegerszegi TE,finished,1,1
+NB I,925769,2024-10-27,14:15,4351,Paksi FC,3132,Kecskemeti TE,finished,1,0
+NB I,925772,2024-10-27,16:45,5838,Gyori ETO,2937,Ferencvaros,finished,1,1
+NB I,925773,2024-11-02,11:30,3158,MTK,3635,Zalaegerszegi TE,finished,1,1
+NB I,925774,2024-11-02,15:30,3134,Puskas,3135,Ujpest,finished,1,1
+NB I,926343,2024-11-02,18:00,5838,Gyori ETO,6016,Nyiregyhaza Spartacus,finished,1,1
+NB I,925775,2024-11-03,11:30,4351,Paksi FC,3159,Diosgyor,finished,3,4
+NB I,925777,2024-11-03,13:45,2937,Ferencvaros,3796,Debrecen,finished,2,2
+NB I,925776,2024-11-03,16:00,3130,Fehervar,3132,Kecskemeti TE,finished,6,1
+NB I,925782,2024-11-08,19:00,6016,Nyiregyhaza Spartacus,3158,MTK,finished,2,0
+NB I,925781,2024-11-09,12:30,3635,Zalaegerszegi TE,3134,Puskas,finished,4,2
+NB I,925783,2024-11-09,15:00,3796,Debrecen,5838,Gyori ETO,finished,2,2
+NB I,925780,2024-11-09,17:30,3135,Ujpest,4351,Paksi FC,finished,0,0
+NB I,925779,2024-11-10,14:30,3159,Diosgyor,3130,Fehervar,finished,1,0
+NB I,925778,2024-11-10,17:00,3132,Kecskemeti TE,2937,Ferencvaros,finished,0,1
+NB I,926337,2024-11-23,12:30,6016,Nyiregyhaza Spartacus,3134,Puskas,finished,0,3
+NB I,925788,2024-11-23,15:00,3158,MTK,5838,Gyori ETO,finished,2,2
+NB I,925785,2024-11-23,17:30,3130,Fehervar,3135,Ujpest,finished,0,1
+NB I,925784,2024-11-24,12:00,4351,Paksi FC,3635,Zalaegerszegi TE,finished,2,2
+NB I,925786,2024-11-24,14:30,2937,Ferencvaros,3159,Diosgyor,finished,3,3
+NB I,925787,2024-11-24,16:45,3796,Debrecen,3132,Kecskemeti TE,finished,2,2
+NB I,925793,2024-11-29,19:00,6016,Nyiregyhaza Spartacus,4351,Paksi FC,finished,4,2
+NB I,925794,2024-11-30,11:30,3158,MTK,3134,Puskas,finished,0,1
+NB I,925789,2024-11-30,13:30,5838,Gyori ETO,3132,Kecskemeti TE,finished,1,2
+NB I,925790,2024-11-30,15:30,3159,Diosgyor,3796,Debrecen,finished,3,1
+NB I,925792,2024-12-01,16:00,3635,Zalaegerszegi TE,3130,Fehervar,finished,0,1
+NB I,925791,2024-12-01,18:30,3135,Ujpest,2937,Ferencvaros,finished,0,0
+NB I,925740,2024-12-03,18:00,3158,MTK,4351,Paksi FC,finished,3,1
+NB I,925741,2024-12-04,18:00,5838,Gyori ETO,3134,Puskas,finished,0,2
+NB I,925718,2024-12-05,19:00,3796,Debrecen,2937,Ferencvaros,finished,5,4
+NB I,925797,2024-12-07,12:30,3132,Kecskemeti TE,3159,Diosgyor,finished,0,0
+NB I,925799,2024-12-07,15:45,3134,Puskas,5838,Gyori ETO,finished,0,3
+NB I,925798,2024-12-07,18:15,4351,Paksi FC,3158,MTK,finished,4,2
+NB I,926345,2024-12-08,13:45,3130,Fehervar,6016,Nyiregyhaza Spartacus,finished,2,0
+NB I,925796,2024-12-08,16:00,3796,Debrecen,3135,Ujpest,finished,1,2
+NB I,925795,2024-12-08,19:00,2937,Ferencvaros,3635,Zalaegerszegi TE,finished,1,0
+NB I,925804,2024-12-14,11:00,3158,MTK,3130,Fehervar,finished,3,2
+NB I,925802,2024-12-14,13:30,3635,Zalaegerszegi TE,3796,Debrecen,finished,2,1
+NB I,925800,2024-12-14,16:00,5838,Gyori ETO,3159,Diosgyor,finished,3,4
+NB I,925805,2024-12-14,18:30,3134,Puskas,4351,Paksi FC,finished,3,1
+NB I,925801,2024-12-15,12:00,3135,Ujpest,3132,Kecskemeti TE,finished,1,1
+NB I,925803,2024-12-15,14:30,6016,Nyiregyhaza Spartacus,2937,Ferencvaros,finished,0,1
+NB I,925810,2025-02-01,13:30,4351,Paksi FC,5838,Gyori ETO,finished,1,1
+NB I,925808,2025-02-01,16:00,3130,Fehervar,3134,Puskas,finished,1,0
+NB I,925807,2025-02-01,18:30,3159,Diosgyor,3135,Ujpest,finished,1,1
+NB I,926346,2025-02-02,11:45,3796,Debrecen,6016,Nyiregyhaza Spartacus,finished,3,1
+NB I,925806,2025-02-02,16:30,3132,Kecskemeti TE,3635,Zalaegerszegi TE,finished,1,0
+NB I,925809,2025-02-02,19:15,2937,Ferencvaros,3158,MTK,finished,0,0
+NB I,925737,2025-02-05,18:30,3635,Zalaegerszegi TE,2937,Ferencvaros,finished,2,2
+NB I,925814,2025-02-07,19:00,3158,MTK,3796,Debrecen,finished,0,2
+NB I,925813,2025-02-08,13:30,6016,Nyiregyhaza Spartacus,3132,Kecskemeti TE,finished,0,0
+NB I,925816,2025-02-08,16:00,4351,Paksi FC,3130,Fehervar,finished,2,0
+NB I,925811,2025-02-08,18:30,5838,Gyori ETO,3135,Ujpest,finished,3,0
+NB I,925812,2025-02-09,14:30,3635,Zalaegerszegi TE,3159,Diosgyor,finished,2,1
+NB I,925815,2025-02-09,17:00,3134,Puskas,2937,Ferencvaros,finished,1,0
+NB I,925822,2025-02-14,19:00,3130,Fehervar,5838,Gyori ETO,finished,0,1
+NB I,925821,2025-02-15,13:30,3132,Kecskemeti TE,3158,MTK,finished,5,0
+NB I,925817,2025-02-15,16:00,3159,Diosgyor,6016,Nyiregyhaza Spartacus,finished,1,2
+NB I,925820,2025-02-15,18:30,3796,Debrecen,3134,Puskas,finished,1,2
+NB I,925818,2025-02-16,14:30,3135,Ujpest,3635,Zalaegerszegi TE,finished,1,2
+NB I,925819,2025-02-16,17:00,2937,Ferencvaros,4351,Paksi FC,finished,0,2
+NB I,925825,2025-02-21,19:00,3158,MTK,3159,Diosgyor,finished,4,0
+NB I,925826,2025-02-22,13:30,3134,Puskas,3132,Kecskemeti TE,finished,4,2
+NB I,925827,2025-02-22,16:00,4351,Paksi FC,3796,Debrecen,finished,4,3
+NB I,925824,2025-02-22,18:30,6016,Nyiregyhaza Spartacus,3135,Ujpest,finished,0,0
+NB I,925823,2025-02-23,14:30,5838,Gyori ETO,3635,Zalaegerszegi TE,finished,2,0
+NB I,925828,2025-02-23,17:00,3130,Fehervar,2937,Ferencvaros,finished,1,3
+NB I,925829,2025-03-01,13:30,3635,Zalaegerszegi TE,6016,Nyiregyhaza Spartacus,finished,0,0
+NB I,925832,2025-03-01,16:00,3159,Diosgyor,3134,Puskas,finished,2,1
+NB I,925833,2025-03-01,18:30,3135,Ujpest,3158,MTK,finished,1,5
+NB I,925830,2025-03-02,13:00,3796,Debrecen,3130,Fehervar,finished,1,2
+NB I,925831,2025-03-02,15:30,3132,Kecskemeti TE,4351,Paksi FC,finished,2,2
+NB I,925834,2025-03-02,17:00,2937,Ferencvaros,5838,Gyori ETO,finished,2,2
+NB I,925838,2025-03-07,19:00,3132,Kecskemeti TE,3130,Fehervar,finished,2,2
+NB I,926347,2025-03-08,13:30,6016,Nyiregyhaza Spartacus,5838,Gyori ETO,finished,0,1
+NB I,925835,2025-03-08,16:00,3635,Zalaegerszegi TE,3158,MTK,finished,1,1
+NB I,925837,2025-03-08,18:30,3159,Diosgyor,4351,Paksi FC,finished,0,2
+NB I,925836,2025-03-09,14:30,3135,Ujpest,3134,Puskas,finished,1,1
+NB I,925839,2025-03-09,17:00,3796,Debrecen,2937,Ferencvaros,finished,0,1
+NB I,925845,2025-03-14,17:00,5838,Gyori ETO,3796,Debrecen,finished,0,0
+NB I,925842,2025-03-14,19:30,4351,Paksi FC,3135,Ujpest,finished,6,1
+NB I,925841,2025-03-16,11:30,3130,Fehervar,3159,Diosgyor,finished,0,0
+NB I,925840,2025-03-16,14:00,2937,Ferencvaros,3132,Kecskemeti TE,finished,4,0
+NB I,925844,2025-03-16,16:15,3158,MTK,6016,Nyiregyhaza Spartacus,finished,3,0
+NB I,925843,2025-03-16,18:30,3134,Puskas,3635,Zalaegerszegi TE,finished,2,1
+NB I,925850,2025-03-28,19:00,3132,Kecskemeti TE,3796,Debrecen,finished,1,3
+NB I,925851,2025-03-29,13:30,5838,Gyori ETO,3158,MTK,finished,2,1
+NB I,925847,2025-03-29,16:00,3635,Zalaegerszegi TE,4351,Paksi FC,finished,1,1
+NB I,925846,2025-03-29,18:30,6016,Nyiregyhaza Spartacus,3134,Puskas,finished,0,2
+NB I,925848,2025-03-30,12:30,3135,Ujpest,3130,Fehervar,finished,2,2
+NB I,925849,2025-03-30,15:00,3159,Diosgyor,2937,Ferencvaros,finished,1,1
+NB I,925852,2025-04-05,12:30,3132,Kecskemeti TE,5838,Gyori ETO,finished,1,1
+NB I,926348,2025-04-05,15:00,4351,Paksi FC,6016,Nyiregyhaza Spartacus,finished,2,0
+NB I,925853,2025-04-05,17:30,3796,Debrecen,3159,Diosgyor,finished,4,1
+NB I,925855,2025-04-06,12:00,3130,Fehervar,3635,Zalaegerszegi TE,finished,0,2
+NB I,925856,2025-04-06,14:30,3134,Puskas,3158,MTK,finished,1,1
+NB I,925854,2025-04-06,17:00,2937,Ferencvaros,3135,Ujpest,finished,2,0
+NB I,925859,2025-04-11,16:00,3159,Diosgyor,3132,Kecskemeti TE,finished,2,1
+NB I,925860,2025-04-11,18:30,3158,MTK,4351,Paksi FC,finished,1,2
+NB I,925861,2025-04-12,12:15,5838,Gyori ETO,3134,Puskas,finished,2,0
+NB I,925857,2025-04-12,17:45,3635,Zalaegerszegi TE,2937,Ferencvaros,finished,0,2
+NB I,925858,2025-04-13,12:00,3135,Ujpest,3796,Debrecen,finished,2,1
+NB I,926349,2025-04-13,17:00,6016,Nyiregyhaza Spartacus,3130,Fehervar,finished,1,0
+NB I,925864,2025-04-19,11:15,3796,Debrecen,3635,Zalaegerszegi TE,finished,4,3
+NB I,925862,2025-04-19,14:15,3159,Diosgyor,5838,Gyori ETO,finished,2,4
+NB I,925867,2025-04-19,18:30,4351,Paksi FC,3134,Puskas,finished,2,2
+NB I,925866,2025-04-20,11:15,3130,Fehervar,3158,MTK,finished,1,1
+NB I,925865,2025-04-20,13:45,2937,Ferencvaros,6016,Nyiregyhaza Spartacus,finished,7,0
+NB I,925863,2025-04-21,16:30,3132,Kecskemeti TE,3135,Ujpest,finished,0,0
+NB I,925868,2025-04-25,18:00,6016,Nyiregyhaza Spartacus,3796,Debrecen,finished,1,0
+NB I,925871,2025-04-26,13:15,3134,Puskas,3130,Fehervar,finished,3,1
+NB I,925873,2025-04-26,15:30,5838,Gyori ETO,4351,Paksi FC,finished,2,0
+NB I,925870,2025-04-26,18:00,3135,Ujpest,3159,Diosgyor,finished,1,1
+NB I,925872,2025-04-27,13:30,3158,MTK,2937,Ferencvaros,finished,2,3
+NB I,925869,2025-04-27,16:00,3635,Zalaegerszegi TE,3132,Kecskemeti TE,finished,0,0
+NB I,925874,2025-05-03,11:00,3135,Ujpest,5838,Gyori ETO,finished,2,3
+NB I,925877,2025-05-03,13:30,3796,Debrecen,3158,MTK,finished,0,0
+NB I,925878,2025-05-03,17:30,2937,Ferencvaros,3134,Puskas,finished,1,1
+NB I,925875,2025-05-04,11:30,3159,Diosgyor,3635,Zalaegerszegi TE,finished,1,1
+NB I,925876,2025-05-04,14:00,3132,Kecskemeti TE,6016,Nyiregyhaza Spartacus,finished,2,2
+NB I,925879,2025-05-04,16:30,3130,Fehervar,4351,Paksi FC,finished,0,2
+NB I,925885,2025-05-09,18:00,5838,Gyori ETO,3130,Fehervar,finished,1,0
+NB I,925883,2025-05-10,12:30,3134,Puskas,3796,Debrecen,finished,4,2
+NB I,925884,2025-05-10,15:45,3158,MTK,3132,Kecskemeti TE,finished,2,1
+NB I,925882,2025-05-10,17:30,4351,Paksi FC,2937,Ferencvaros,finished,2,3
+NB I,925881,2025-05-11,11:00,3635,Zalaegerszegi TE,3135,Ujpest,finished,0,0
+NB I,925880,2025-05-11,13:30,6016,Nyiregyhaza Spartacus,3159,Diosgyor,finished,1,0
+NB I,925889,2025-05-16,16:15,3132,Kecskemeti TE,3134,Puskas,finished,0,1
+NB I,925887,2025-05-16,18:30,3135,Ujpest,6016,Nyiregyhaza Spartacus,finished,2,2
+NB I,925886,2025-05-17,11:45,3635,Zalaegerszegi TE,5838,Gyori ETO,finished,0,0
+NB I,925888,2025-05-17,18:00,3159,Diosgyor,3158,MTK,finished,2,1
+NB I,925890,2025-05-18,14:45,3796,Debrecen,4351,Paksi FC,finished,0,0
+NB I,925891,2025-05-18,17:30,2937,Ferencvaros,3130,Fehervar,finished,3,0
+NB I,925894,2025-05-23,18:15,4351,Paksi FC,3132,Kecskemeti TE,finished,1,1
+NB I,925896,2025-05-24,13:00,3158,MTK,3135,Ujpest,finished,1,3
+NB I,925893,2025-05-24,15:30,3130,Fehervar,3796,Debrecen,finished,0,3
+NB I,925897,2025-05-24,18:00,5838,Gyori ETO,2937,Ferencvaros,finished,1,2
+NB I,925895,2025-05-24,18:00,3134,Puskas,3159,Diosgyor,finished,4,3
+NB I,925892,2025-05-25,12:15,6016,Nyiregyhaza Spartacus,3635,Zalaegerszegi TE,finished,0,0

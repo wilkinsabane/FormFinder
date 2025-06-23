@@ -1,0 +1,162 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Premier League,936862,2024-08-02,15:00,3246,BKMA,3253,Shirak,finished,0,2
+Premier League,936866,2024-08-03,15:00,3243,Ararat,2890,Alashkert,finished,2,0
+Premier League,936868,2024-08-04,13:00,3254,Van,3245,Ararat-Armenia,finished,0,2
+Premier League,936870,2024-08-05,15:00,3631,Urartu,2766,Pyunik,finished,0,0
+Premier League,939335,2024-08-09,13:00,2890,Alashkert,3254,Van,finished,1,1
+Premier League,939336,2024-08-09,15:00,5056,West Armenia,3246,BKMA,finished,2,5
+Premier League,939337,2024-08-10,15:00,12012,Gandzasar,3243,Ararat,finished,0,2
+Premier League,939339,2024-08-11,15:00,3253,Shirak,3247,Noah,finished,0,5
+Premier League,939472,2024-08-16,13:00,3254,Van,12012,Gandzasar,finished,6,1
+Premier League,939473,2024-08-17,14:00,3243,Ararat,3253,Shirak,finished,1,2
+Premier League,939474,2024-08-18,14:00,2766,Pyunik,2890,Alashkert,finished,0,2
+Premier League,939476,2024-08-19,15:00,3631,Urartu,3245,Ararat-Armenia,finished,3,1
+Premier League,939477,2024-08-24,13:00,5056,West Armenia,3243,Ararat,finished,1,2
+Premier League,939478,2024-08-24,15:00,2890,Alashkert,3631,Urartu,finished,0,3
+Premier League,939481,2024-08-25,16:00,3246,BKMA,3247,Noah,finished,1,2
+Premier League,939480,2024-08-26,13:00,3253,Shirak,3254,Van,finished,0,2
+Premier League,939862,2024-08-30,13:00,3243,Ararat,3246,BKMA,finished,2,2
+Premier League,939863,2024-08-30,15:00,3245,Ararat-Armenia,2890,Alashkert,finished,3,1
+Premier League,939864,2024-08-31,13:00,3254,Van,5056,West Armenia,finished,6,0
+Premier League,939865,2024-08-31,15:00,3631,Urartu,12012,Gandzasar,finished,2,0
+Premier League,939866,2024-09-01,12:30,2766,Pyunik,3253,Shirak,finished,2,0
+Premier League,940708,2024-09-13,13:00,3246,BKMA,3254,Van,finished,0,1
+Premier League,940709,2024-09-13,15:00,5056,West Armenia,2766,Pyunik,finished,1,3
+Premier League,940710,2024-09-14,12:00,12012,Gandzasar,3245,Ararat-Armenia,finished,0,3
+Premier League,940711,2024-09-14,14:00,3253,Shirak,3631,Urartu,finished,0,2
+Premier League,940712,2024-09-15,15:00,3243,Ararat,3247,Noah,finished,2,1
+Premier League,940713,2024-09-18,13:00,2890,Alashkert,12012,Gandzasar,finished,2,2
+Premier League,940714,2024-09-18,15:00,3631,Urartu,5056,West Armenia,finished,1,2
+Premier League,940715,2024-09-19,12:00,3254,Van,3247,Noah,finished,1,1
+Premier League,940716,2024-09-19,14:00,3245,Ararat-Armenia,3253,Shirak,finished,4,0
+Premier League,940717,2024-09-20,15:00,2766,Pyunik,3246,BKMA,finished,4,1
+Premier League,940718,2024-09-23,13:00,3243,Ararat,3254,Van,finished,0,3
+Premier League,940719,2024-09-23,15:00,3253,Shirak,2890,Alashkert,finished,0,0
+Premier League,940720,2024-09-24,13:00,5056,West Armenia,3245,Ararat-Armenia,finished,1,2
+Premier League,940721,2024-09-24,15:00,3247,Noah,2766,Pyunik,finished,2,0
+Premier League,940722,2024-09-25,14:00,3246,BKMA,3631,Urartu,finished,2,1
+Premier League,940723,2024-09-27,13:00,12012,Gandzasar,3253,Shirak,finished,1,2
+Premier League,940724,2024-09-28,12:00,2890,Alashkert,5056,West Armenia,finished,0,2
+Premier League,940725,2024-09-28,14:00,2766,Pyunik,3243,Ararat,finished,3,0
+Premier League,940726,2024-09-29,13:00,3245,Ararat-Armenia,3246,BKMA,finished,2,0
+Premier League,940727,2024-09-29,15:00,3631,Urartu,3247,Noah,finished,2,1
+Premier League,939338,2024-10-03,14:00,3245,Ararat-Armenia,2766,Pyunik,finished,1,3
+Premier League,941217,2024-10-06,10:30,3254,Van,2766,Pyunik,finished,1,3
+Premier League,941218,2024-10-06,11:00,3243,Ararat,3631,Urartu,finished,0,1
+Premier League,941219,2024-10-07,13:00,3246,BKMA,2890,Alashkert,finished,1,0
+Premier League,941220,2024-10-07,15:00,5056,West Armenia,12012,Gandzasar,finished,2,0
+Premier League,941440,2024-10-16,14:00,2890,Alashkert,3247,Noah,finished,0,6
+Premier League,941441,2024-10-16,15:00,3631,Urartu,3254,Van,finished,3,1
+Premier League,941442,2024-10-17,15:00,3253,Shirak,5056,West Armenia,finished,2,0
+Premier League,941443,2024-10-18,14:00,3245,Ararat-Armenia,3243,Ararat,finished,3,2
+Premier League,941444,2024-10-19,11:00,12012,Gandzasar,3246,BKMA,finished,1,6
+Premier League,941445,2024-10-20,15:00,3247,Noah,3254,Van,finished,5,0
+Premier League,941446,2024-10-21,15:00,5056,West Armenia,3631,Urartu,finished,2,2
+Premier League,941447,2024-10-22,15:00,3253,Shirak,3245,Ararat-Armenia,finished,0,3
+Premier League,941448,2024-10-23,12:00,12012,Gandzasar,2890,Alashkert,finished,0,1
+Premier League,941449,2024-10-23,14:00,3246,BKMA,2766,Pyunik,finished,1,2
+Premier League,941450,2024-10-26,12:00,3631,Urartu,3243,Ararat,finished,1,0
+Premier League,941452,2024-10-27,11:00,2890,Alashkert,3246,BKMA,finished,2,0
+Premier League,941451,2024-10-27,11:00,12012,Gandzasar,5056,West Armenia,finished,0,1
+Premier League,941453,2024-10-28,13:00,2766,Pyunik,3254,Van,finished,1,0
+Premier League,941454,2024-10-28,15:00,3245,Ararat-Armenia,3247,Noah,finished,0,1
+Premier League,941869,2024-10-31,12:00,5056,West Armenia,2890,Alashkert,finished,2,0
+Premier League,941870,2024-10-31,14:00,3253,Shirak,12012,Gandzasar,finished,0,0
+Premier League,941871,2024-11-01,15:00,3247,Noah,3631,Urartu,finished,2,1
+Premier League,941872,2024-11-02,13:00,3243,Ararat,2766,Pyunik,finished,0,2
+Premier League,941873,2024-11-02,15:00,3246,BKMA,3245,Ararat-Armenia,finished,2,4
+Premier League,941874,2024-11-04,11:00,2890,Alashkert,3253,Shirak,finished,1,3
+Premier League,941875,2024-11-05,11:00,3254,Van,3243,Ararat,finished,4,0
+Premier League,941876,2024-11-06,13:00,3245,Ararat-Armenia,5056,West Armenia,finished,3,0
+Premier League,941877,2024-11-06,15:00,3631,Urartu,3246,BKMA,finished,4,2
+Premier League,939479,2024-11-07,11:00,12012,Gandzasar,2766,Pyunik,finished,0,5
+Premier League,941880,2024-11-09,15:00,5056,West Armenia,3253,Shirak,finished,0,0
+Premier League,941881,2024-11-10,11:00,3243,Ararat,3245,Ararat-Armenia,finished,0,0
+Premier League,941882,2024-11-10,15:00,3247,Noah,2890,Alashkert,finished,4,0
+Premier League,941879,2024-11-11,11:00,3254,Van,3631,Urartu,finished,3,1
+Premier League,941912,2024-11-20,13:00,3631,Urartu,3253,Shirak,finished,1,2
+Premier League,941913,2024-11-20,14:00,3247,Noah,3243,Ararat,finished,4,0
+Premier League,941915,2024-11-21,13:00,2766,Pyunik,5056,West Armenia,finished,3,0
+Premier League,941914,2024-11-21,14:00,3245,Ararat-Armenia,12012,Gandzasar,finished,3,0
+Premier League,941916,2024-11-22,11:00,3254,Van,3246,BKMA,finished,2,3
+Premier League,941878,2024-11-24,15:00,2766,Pyunik,3247,Noah,finished,1,3
+Premier League,941917,2024-11-26,11:00,5056,West Armenia,3254,Van,finished,0,2
+Premier League,941919,2024-11-27,11:00,2890,Alashkert,3245,Ararat-Armenia,finished,2,2
+Premier League,941918,2024-11-27,13:00,3246,BKMA,3243,Ararat,finished,1,1
+Premier League,941921,2024-11-28,10:00,12012,Gandzasar,3631,Urartu,finished,0,4
+Premier League,941920,2024-11-28,15:00,3253,Shirak,2766,Pyunik,finished,1,0
+Premier League,941924,2024-12-02,10:00,3254,Van,3253,Shirak,finished,1,0
+Premier League,941923,2024-12-02,14:00,2766,Pyunik,12012,Gandzasar,finished,1,0
+Premier League,941926,2024-12-03,11:00,3243,Ararat,5056,West Armenia,finished,2,3
+Premier League,941925,2024-12-03,14:00,3631,Urartu,2890,Alashkert,finished,1,0
+Premier League,941216,2024-12-04,14:00,3247,Noah,3245,Ararat-Armenia,finished,2,1
+Premier League,941883,2024-12-05,13:00,3246,BKMA,12012,Gandzasar,finished,2,1
+Premier League,936864,2024-12-08,15:00,3247,Noah,12012,Gandzasar,finished,7,0
+Premier League,939475,2024-12-15,13:00,3247,Noah,5056,West Armenia,finished,7,1
+Premier League,946714,2025-02-24,12:00,5056,West Armenia,3247,Noah,finished,0,4
+Premier League,946715,2025-02-25,10:00,2890,Alashkert,2766,Pyunik,finished,0,2
+Premier League,946716,2025-02-25,12:00,3245,Ararat-Armenia,3631,Urartu,finished,1,2
+Premier League,946719,2025-03-01,11:00,3254,Van,2890,Alashkert,finished,1,1
+Premier League,946718,2025-03-01,15:00,2766,Pyunik,3245,Ararat-Armenia,finished,1,2
+Premier League,946721,2025-03-02,09:00,5056,West Armenia,3246,BKMA,finished,1,0
+Premier League,946720,2025-03-02,14:30,3247,Noah,3253,Shirak,finished,4,0
+Premier League,951256,2025-03-08,10:00,2890,Alashkert,3243,Ararat,finished,0,1
+Premier League,951257,2025-03-08,14:00,3253,Shirak,3246,BKMA,finished,0,0
+Premier League,951258,2025-03-09,12:00,2766,Pyunik,3631,Urartu,finished,0,3
+Premier League,951259,2025-03-10,11:30,12012,Gandzasar,3247,Noah,finished,0,3
+Premier League,951260,2025-03-10,14:00,3245,Ararat-Armenia,3254,Van,finished,1,1
+Premier League,951261,2025-03-13,11:00,3243,Ararat,3246,BKMA,finished,1,1
+Premier League,951262,2025-03-14,15:00,2766,Pyunik,3253,Shirak,finished,6,1
+Premier League,951263,2025-03-15,11:00,3631,Urartu,12012,Gandzasar,finished,2,1
+Premier League,951264,2025-03-15,12:00,3245,Ararat-Armenia,2890,Alashkert,finished,3,0
+Premier League,951265,2025-03-16,11:00,3254,Van,5056,West Armenia,finished,2,0
+Premier League,951915,2025-03-27,12:00,3246,BKMA,5056,West Armenia,finished,3,0
+Premier League,951916,2025-03-27,14:00,3243,Ararat,12012,Gandzasar,finished,1,1
+Premier League,951917,2025-03-28,15:00,3245,Ararat-Armenia,2766,Pyunik,finished,3,2
+Premier League,951918,2025-03-29,10:00,2890,Alashkert,3254,Van,finished,2,2
+Premier League,951919,2025-03-29,15:00,3253,Shirak,3247,Noah,finished,1,2
+Premier League,951920,2025-04-04,14:00,3243,Ararat,3253,Shirak,finished,1,2
+Premier League,951921,2025-04-05,12:00,2766,Pyunik,2890,Alashkert,finished,1,1
+Premier League,951922,2025-04-05,15:00,3631,Urartu,3245,Ararat-Armenia,finished,0,3
+Premier League,951923,2025-04-06,12:00,3254,Van,12012,Gandzasar,finished,2,0
+Premier League,951924,2025-04-06,15:00,3247,Noah,5056,West Armenia,finished,5,1
+Premier League,946712,2025-04-08,14:30,3253,Shirak,3243,Ararat,finished,1,3
+Premier League,941922,2025-04-09,12:00,3247,Noah,3246,BKMA,finished,3,0
+Premier League,952395,2025-04-11,12:00,2890,Alashkert,3631,Urartu,finished,1,1
+Premier League,952397,2025-04-12,12:00,12012,Gandzasar,2766,Pyunik,finished,1,3
+Premier League,952398,2025-04-12,15:00,3253,Shirak,3254,Van,finished,0,1
+Premier League,952396,2025-04-13,14:30,3246,BKMA,3247,Noah,finished,1,5
+Premier League,952399,2025-04-14,12:00,5056,West Armenia,3243,Ararat,finished,2,1
+Premier League,952629,2025-04-18,12:00,3243,Ararat,2890,Alashkert,finished,3,2
+Premier League,952630,2025-04-18,14:30,3246,BKMA,3253,Shirak,finished,3,2
+Premier League,952631,2025-04-19,12:00,2766,Pyunik,3631,Urartu,finished,1,4
+Premier League,952632,2025-04-20,12:00,3254,Van,3245,Ararat-Armenia,finished,2,3
+Premier League,952633,2025-04-20,15:00,3247,Noah,12012,Gandzasar,finished,1,0
+Premier League,952634,2025-04-23,12:00,5056,West Armenia,2766,Pyunik,finished,0,1
+Premier League,952635,2025-04-25,12:00,12012,Gandzasar,3245,Ararat-Armenia,finished,0,4
+Premier League,952636,2025-04-26,12:00,3246,BKMA,3254,Van,finished,1,1
+Premier League,952637,2025-04-26,15:00,3247,Noah,3243,Ararat,finished,3,0
+Premier League,952638,2025-04-27,15:00,3253,Shirak,3631,Urartu,finished,1,1
+Premier League,952639,2025-05-02,12:00,2890,Alashkert,12012,Gandzasar,finished,1,0
+Premier League,952640,2025-05-03,12:00,3245,Ararat-Armenia,3253,Shirak,finished,5,1
+Premier League,952641,2025-05-03,15:00,3631,Urartu,5056,West Armenia,finished,8,0
+Premier League,952642,2025-05-04,12:00,3254,Van,3247,Noah,finished,2,2
+Premier League,952643,2025-05-04,15:00,2766,Pyunik,3246,BKMA,finished,1,2
+Premier League,953011,2025-05-08,12:00,3243,Ararat,3254,Van,finished,2,1
+Premier League,953012,2025-05-09,12:00,5056,West Armenia,3245,Ararat-Armenia,finished,0,3
+Premier League,953013,2025-05-09,14:30,3247,Noah,2766,Pyunik,finished,2,1
+Premier League,953014,2025-05-10,14:30,3253,Shirak,2890,Alashkert,finished,4,0
+Premier League,953015,2025-05-11,11:30,3246,BKMA,3631,Urartu,finished,0,1
+Premier League,946713,2025-05-12,12:00,12012,Gandzasar,3254,Van,finished,1,2
+Premier League,953301,2025-05-17,12:00,12012,Gandzasar,3253,Shirak,finished,1,0
+Premier League,953302,2025-05-17,14:30,2766,Pyunik,3243,Ararat,finished,5,2
+Premier League,953303,2025-05-18,11:00,3245,Ararat-Armenia,3246,BKMA,finished,4,0
+Premier League,953304,2025-05-18,13:00,3631,Urartu,3247,Noah,finished,3,3
+Premier League,953306,2025-05-22,15:00,3246,BKMA,2890,Alashkert,finished,2,0
+Premier League,953307,2025-05-23,12:00,3254,Van,2766,Pyunik,finished,3,2
+Premier League,953308,2025-05-24,12:00,3243,Ararat,3631,Urartu,finished,2,4
+Premier League,953309,2025-05-24,15:00,3247,Noah,3245,Ararat-Armenia,finished,2,0
+Premier League,953310,2025-05-26,12:00,12012,Gandzasar,3246,BKMA,finished,2,2
+Premier League,953311,2025-05-27,12:00,2890,Alashkert,3247,Noah,finished,1,0
+Premier League,953314,2025-05-28,15:00,3245,Ararat-Armenia,3243,Ararat,finished,6,0
+Premier League,953313,2025-05-28,15:00,3631,Urartu,3254,Van,finished,0,2

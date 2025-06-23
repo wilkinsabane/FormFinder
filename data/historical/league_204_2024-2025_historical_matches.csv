@@ -1,0 +1,241 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Ligue 1,936836,2024-09-19,17:00,3814,ES Setif,3833,El Bayadh,finished,1,0
+Ligue 1,936834,2024-09-20,17:00,15015,Olympique Akbou,3827,NC Magra,finished,1,0
+Ligue 1,936831,2024-09-21,15:00,3812,Paradou AC,3825,ASO Chlef,finished,2,0
+Ligue 1,936833,2024-09-24,17:00,3818,MC Oran,3813,Saoura,finished,2,0
+Ligue 1,936839,2024-09-27,15:00,3833,El Bayadh,3826,US Biskra,finished,0,1
+Ligue 1,936845,2024-09-27,15:00,3501,MC Alger,3812,Paradou AC,finished,1,1
+Ligue 1,936840,2024-09-27,15:00,3816,Belouizdad,3814,ES Setif,finished,0,0
+Ligue 1,936838,2024-09-27,16:45,3267,Kabylie,15015,Olympique Akbou,finished,2,1
+Ligue 1,936844,2024-09-27,17:00,3825,ASO Chlef,3815,CS Constantine,finished,0,0
+Ligue 1,936842,2024-09-28,15:00,3813,Saoura,3834,Khenchela,finished,1,1
+Ligue 1,936841,2024-09-28,15:00,3827,NC Magra,3811,USM Alger,finished,0,0
+Ligue 1,936843,2024-09-28,17:00,8914,ES Mostaganem,3818,MC Oran,finished,2,1
+Ligue 1,936830,2024-10-01,17:00,3267,Kabylie,3501,MC Alger,finished,1,2
+Ligue 1,936832,2024-10-02,15:00,3815,CS Constantine,8914,ES Mostaganem,finished,0,0
+Ligue 1,936835,2024-10-02,15:00,3834,Khenchela,3816,Belouizdad,finished,0,0
+Ligue 1,936837,2024-10-02,18:00,3811,USM Alger,3826,US Biskra,finished,2,1
+Ligue 1,936850,2024-10-04,15:00,15015,Olympique Akbou,3813,Saoura,finished,2,1
+Ligue 1,936852,2024-10-04,17:00,3814,ES Setif,3827,NC Magra,finished,0,0
+Ligue 1,936849,2024-10-04,19:30,3818,MC Oran,3825,ASO Chlef,finished,0,0
+Ligue 1,936848,2024-10-06,15:00,3815,CS Constantine,3501,MC Alger,finished,1,1
+Ligue 1,936851,2024-10-06,15:00,3834,Khenchela,8914,ES Mostaganem,finished,2,0
+Ligue 1,936847,2024-10-06,15:00,3812,Paradou AC,3267,Kabylie,finished,0,3
+Ligue 1,936846,2024-10-06,16:45,3826,US Biskra,3816,Belouizdad,finished,0,0
+Ligue 1,936853,2024-10-06,17:00,3811,USM Alger,3833,El Bayadh,finished,1,0
+Ligue 1,936855,2024-10-11,15:00,3812,Paradou AC,15015,Olympique Akbou,finished,1,3
+Ligue 1,936858,2024-10-11,15:00,3813,Saoura,3814,ES Setif,finished,3,2
+Ligue 1,936861,2024-10-11,19:30,3501,MC Alger,3818,MC Oran,finished,1,0
+Ligue 1,936857,2024-10-12,15:00,3827,NC Magra,3826,US Biskra,finished,2,2
+Ligue 1,936854,2024-10-12,16:45,3267,Kabylie,3815,CS Constantine,finished,2,3
+Ligue 1,936856,2024-10-12,18:00,3816,Belouizdad,3833,El Bayadh,finished,2,3
+Ligue 1,936872,2024-10-18,15:00,3834,Khenchela,3501,MC Alger,finished,0,1
+Ligue 1,936871,2024-10-18,15:00,15015,Olympique Akbou,3825,ASO Chlef,finished,0,0
+Ligue 1,936873,2024-10-18,17:00,3814,ES Setif,8914,ES Mostaganem,finished,1,0
+Ligue 1,936874,2024-10-18,18:00,3811,USM Alger,3816,Belouizdad,finished,0,0
+Ligue 1,936867,2024-10-19,15:00,3815,CS Constantine,3812,Paradou AC,finished,2,1
+Ligue 1,936865,2024-10-19,15:00,3833,El Bayadh,3827,NC Magra,finished,4,0
+Ligue 1,936863,2024-10-19,16:45,3826,US Biskra,3813,Saoura,finished,2,1
+Ligue 1,936869,2024-10-19,18:00,3818,MC Oran,3267,Kabylie,finished,2,0
+Ligue 1,936860,2024-10-22,15:00,3825,ASO Chlef,3834,Khenchela,finished,1,1
+Ligue 1,936859,2024-10-22,16:30,8914,ES Mostaganem,3811,USM Alger,finished,0,1
+Ligue 1,936882,2024-10-24,19:30,3501,MC Alger,15015,Olympique Akbou,finished,0,0
+Ligue 1,936878,2024-10-25,14:00,3827,NC Magra,3816,Belouizdad,finished,1,0
+Ligue 1,936879,2024-10-25,15:00,3813,Saoura,3833,El Bayadh,finished,1,0
+Ligue 1,936877,2024-10-25,15:00,3815,CS Constantine,3814,ES Setif,finished,2,1
+Ligue 1,936876,2024-10-25,18:30,3812,Paradou AC,3818,MC Oran,finished,2,2
+Ligue 1,936881,2024-10-26,15:00,3825,ASO Chlef,3811,USM Alger,finished,0,0
+Ligue 1,936875,2024-10-26,16:30,3267,Kabylie,3834,Khenchela,finished,1,0
+Ligue 1,936880,2024-10-26,16:45,8914,ES Mostaganem,3826,US Biskra,finished,1,0
+Ligue 1,936884,2024-11-02,14:00,3833,El Bayadh,3812,Paradou AC,finished,1,1
+Ligue 1,936888,2024-11-02,14:00,3834,Khenchela,3827,NC Magra,finished,1,0
+Ligue 1,936886,2024-11-02,16:45,3818,MC Oran,3815,CS Constantine,finished,1,0
+Ligue 1,936889,2024-11-02,16:45,3814,ES Setif,3825,ASO Chlef,finished,1,0
+Ligue 1,936883,2024-11-03,15:00,3826,US Biskra,3267,Kabylie,finished,0,1
+Ligue 1,936887,2024-11-03,16:30,15015,Olympique Akbou,8914,ES Mostaganem,finished,1,2
+Ligue 1,936894,2024-11-07,18:30,3818,MC Oran,3814,ES Setif,finished,1,0
+Ligue 1,936897,2024-11-08,14:00,3825,ASO Chlef,3833,El Bayadh,finished,2,0
+Ligue 1,936892,2024-11-08,15:45,3812,Paradou AC,3834,Khenchela,finished,4,0
+Ligue 1,936893,2024-11-08,16:45,3815,CS Constantine,15015,Olympique Akbou,finished,2,1
+Ligue 1,936895,2024-11-09,15:00,3813,Saoura,3827,NC Magra,finished,1,0
+Ligue 1,936891,2024-11-09,16:30,3267,Kabylie,3811,USM Alger,finished,0,0
+Ligue 1,936898,2024-11-09,16:45,3501,MC Alger,3826,US Biskra,finished,0,0
+Ligue 1,936896,2024-11-09,17:00,8914,ES Mostaganem,3816,Belouizdad,finished,0,2
+Ligue 1,936900,2024-11-15,14:00,3833,El Bayadh,3501,MC Alger,finished,0,1
+Ligue 1,936903,2024-11-15,14:00,15015,Olympique Akbou,3818,MC Oran,finished,3,1
+Ligue 1,936904,2024-11-15,14:00,3834,Khenchela,3815,CS Constantine,finished,1,0
+Ligue 1,936902,2024-11-16,14:00,3827,NC Magra,8914,ES Mostaganem,finished,1,0
+Ligue 1,936899,2024-11-16,16:00,3826,US Biskra,3825,ASO Chlef,finished,1,2
+Ligue 1,936906,2024-11-16,16:30,3811,USM Alger,3813,Saoura,finished,2,0
+Ligue 1,936914,2024-11-20,19:00,3501,MC Alger,3816,Belouizdad,finished,1,3
+Ligue 1,936909,2024-11-21,19:00,3815,CS Constantine,3811,USM Alger,finished,1,0
+Ligue 1,936910,2024-11-22,16:45,3818,MC Oran,3834,Khenchela,finished,0,0
+Ligue 1,936911,2024-11-23,14:00,15015,Olympique Akbou,3814,ES Setif,finished,0,1
+Ligue 1,936913,2024-11-23,14:00,3825,ASO Chlef,3827,NC Magra,finished,2,2
+Ligue 1,936912,2024-11-23,15:00,8914,ES Mostaganem,3813,Saoura,finished,1,1
+Ligue 1,936918,2024-11-30,14:00,3827,NC Magra,3818,MC Oran,finished,2,1
+Ligue 1,936916,2024-11-30,14:00,3833,El Bayadh,8914,ES Mostaganem,finished,1,1
+Ligue 1,936920,2024-11-30,14:00,3834,Khenchela,15015,Olympique Akbou,finished,1,0
+Ligue 1,936921,2024-12-01,16:30,3814,ES Setif,3501,MC Alger,finished,0,0
+Ligue 1,936917,2024-12-01,16:45,3816,Belouizdad,3825,ASO Chlef,finished,2,0
+Ligue 1,936919,2024-12-02,15:00,3813,Saoura,3267,Kabylie,finished,1,1
+Ligue 1,936915,2024-12-02,16:30,3826,US Biskra,3815,CS Constantine,finished,1,1
+Ligue 1,936929,2024-12-07,14:00,3825,ASO Chlef,8914,ES Mostaganem,finished,2,0
+Ligue 1,936928,2024-12-07,14:00,3834,Khenchela,3814,ES Setif,finished,2,3
+Ligue 1,936923,2024-12-08,16:45,3267,Kabylie,3827,NC Magra,finished,2,1
+Ligue 1,936926,2024-12-08,19:00,3818,MC Oran,3826,US Biskra,finished,1,0
+Ligue 1,936934,2024-12-13,14:00,3827,NC Magra,3812,Paradou AC,finished,1,1
+Ligue 1,936932,2024-12-13,14:00,3833,El Bayadh,3818,MC Oran,finished,1,0
+Ligue 1,936935,2024-12-13,15:00,3813,Saoura,3825,ASO Chlef,finished,1,1
+Ligue 1,936937,2024-12-13,16:00,3814,ES Setif,3267,Kabylie,finished,2,2
+Ligue 1,936931,2024-12-14,16:00,3826,US Biskra,15015,Olympique Akbou,finished,0,1
+Ligue 1,936885,2024-12-17,15:30,3816,Belouizdad,3813,Saoura,finished,3,0
+Ligue 1,936907,2024-12-17,16:30,3267,Kabylie,3833,El Bayadh,finished,3,0
+Ligue 1,936905,2024-12-17,16:30,3814,ES Setif,3812,Paradou AC,finished,1,2
+Ligue 1,936944,2024-12-20,14:00,3834,Khenchela,3826,US Biskra,finished,0,0
+Ligue 1,936946,2024-12-20,15:30,3501,MC Alger,3825,ASO Chlef,finished,0,0
+Ligue 1,936943,2024-12-21,14:00,15015,Olympique Akbou,3833,El Bayadh,finished,0,1
+Ligue 1,936940,2024-12-21,15:00,3812,Paradou AC,3813,Saoura,finished,2,0
+Ligue 1,936941,2024-12-21,15:30,3815,CS Constantine,3827,NC Magra,finished,0,0
+Ligue 1,936939,2024-12-21,16:00,3267,Kabylie,8914,ES Mostaganem,finished,2,1
+Ligue 1,936945,2024-12-21,16:00,3814,ES Setif,3811,USM Alger,finished,1,1
+Ligue 1,936950,2024-12-26,14:00,3827,NC Magra,3501,MC Alger,finished,1,2
+Ligue 1,936952,2024-12-26,16:00,8914,ES Mostaganem,3812,Paradou AC,finished,0,2
+Ligue 1,936954,2024-12-26,18:00,3811,USM Alger,3818,MC Oran,finished,3,0
+Ligue 1,936951,2024-12-27,15:00,3813,Saoura,3815,CS Constantine,finished,2,0
+Ligue 1,936947,2024-12-27,15:00,3826,US Biskra,3814,ES Setif,finished,0,0
+Ligue 1,936949,2024-12-27,15:00,3816,Belouizdad,15015,Olympique Akbou,finished,1,0
+Ligue 1,936948,2024-12-28,14:00,3833,El Bayadh,3834,Khenchela,finished,1,2
+Ligue 1,936953,2024-12-28,14:00,3825,ASO Chlef,3267,Kabylie,finished,1,0
+Ligue 1,936908,2025-01-01,15:00,3812,Paradou AC,3826,US Biskra,finished,2,1
+Ligue 1,936901,2025-01-21,16:45,3816,Belouizdad,3267,Kabylie,finished,1,1
+Ligue 1,936890,2025-01-24,17:00,3811,USM Alger,3501,MC Alger,finished,0,3
+Ligue 1,936925,2025-01-25,15:00,3815,CS Constantine,3833,El Bayadh,finished,0,1
+Ligue 1,936924,2025-01-25,16:00,3812,Paradou AC,3816,Belouizdad,finished,1,2
+Ligue 1,936922,2025-01-28,18:00,3811,USM Alger,3812,Paradou AC,finished,1,1
+Ligue 1,936930,2025-01-29,16:00,3501,MC Alger,3813,Saoura,finished,1,0
+Ligue 1,936933,2025-01-30,18:00,3816,Belouizdad,3815,CS Constantine,finished,0,2
+Ligue 1,936927,2025-02-01,14:00,15015,Olympique Akbou,3811,USM Alger,finished,0,0
+Ligue 1,936936,2025-02-02,15:00,8914,ES Mostaganem,3501,MC Alger,finished,1,1
+Ligue 1,936942,2025-02-03,17:00,3818,MC Oran,3816,Belouizdad,finished,1,2
+Ligue 1,936938,2025-02-05,16:00,3811,USM Alger,3834,Khenchela,finished,3,0
+Ligue 1,936961,2025-02-11,14:00,3833,El Bayadh,3814,ES Setif,finished,1,0
+Ligue 1,936956,2025-02-11,14:00,3825,ASO Chlef,3812,Paradou AC,finished,2,0
+Ligue 1,936958,2025-02-12,15:30,3813,Saoura,3818,MC Oran,finished,2,0
+Ligue 1,936960,2025-02-12,18:00,3816,Belouizdad,3834,Khenchela,finished,3,0
+Ligue 1,936957,2025-02-13,15:00,8914,ES Mostaganem,3815,CS Constantine,finished,0,0
+Ligue 1,936955,2025-02-13,19:00,3501,MC Alger,3267,Kabylie,finished,3,2
+Ligue 1,936959,2025-02-14,14:00,3827,NC Magra,15015,Olympique Akbou,finished,1,1
+Ligue 1,936962,2025-02-14,16:00,3826,US Biskra,3811,USM Alger,finished,0,0
+Ligue 1,936967,2025-02-18,14:30,3834,Khenchela,3813,Saoura,finished,1,3
+Ligue 1,936969,2025-02-18,16:00,3815,CS Constantine,3825,ASO Chlef,finished,2,2
+Ligue 1,936966,2025-02-18,19:00,3811,USM Alger,3827,NC Magra,finished,2,0
+Ligue 1,936963,2025-02-19,14:30,15015,Olympique Akbou,3267,Kabylie,finished,0,0
+Ligue 1,936968,2025-02-19,16:00,3818,MC Oran,8914,ES Mostaganem,finished,1,0
+Ligue 1,936964,2025-02-19,16:00,3826,US Biskra,3833,El Bayadh,finished,0,0
+Ligue 1,936965,2025-02-20,15:45,3814,ES Setif,3816,Belouizdad,finished,1,0
+Ligue 1,936970,2025-02-23,19:00,3812,Paradou AC,3501,MC Alger,finished,1,3
+Ligue 1,936974,2025-02-25,14:30,3825,ASO Chlef,3818,MC Oran,finished,1,0
+Ligue 1,936976,2025-02-25,17:00,8914,ES Mostaganem,3834,Khenchela,finished,2,0
+Ligue 1,936977,2025-02-26,14:30,3827,NC Magra,3814,ES Setif,finished,0,0
+Ligue 1,936971,2025-02-26,19:00,3816,Belouizdad,3826,US Biskra,finished,2,0
+Ligue 1,936978,2025-02-27,14:30,3833,El Bayadh,3811,USM Alger,finished,2,1
+Ligue 1,936975,2025-02-27,16:00,3813,Saoura,15015,Olympique Akbou,finished,2,1
+Ligue 1,936972,2025-02-28,15:45,3267,Kabylie,3812,Paradou AC,finished,2,1
+Ligue 1,936973,2025-02-28,18:00,3501,MC Alger,3815,CS Constantine,finished,2,1
+Ligue 1,936981,2025-03-06,14:30,3833,El Bayadh,3816,Belouizdad,finished,0,0
+Ligue 1,936984,2025-03-06,21:00,3811,USM Alger,8914,ES Mostaganem,finished,1,0
+Ligue 1,936980,2025-03-06,21:00,15015,Olympique Akbou,3812,Paradou AC,finished,1,2
+Ligue 1,936986,2025-03-06,21:00,3818,MC Oran,3501,MC Alger,finished,0,2
+Ligue 1,936985,2025-03-07,14:00,3834,Khenchela,3825,ASO Chlef,finished,3,2
+Ligue 1,936983,2025-03-07,21:00,3814,ES Setif,3813,Saoura,finished,1,0
+Ligue 1,936982,2025-03-07,21:00,3826,US Biskra,3827,NC Magra,finished,1,0
+Ligue 1,936979,2025-03-08,21:00,3815,CS Constantine,3267,Kabylie,finished,1,1
+Ligue 1,936989,2025-03-14,21:00,3812,Paradou AC,3815,CS Constantine,finished,2,0
+Ligue 1,936990,2025-03-14,21:00,3267,Kabylie,3818,MC Oran,finished,2,1
+Ligue 1,936987,2025-03-14,21:00,3813,Saoura,3826,US Biskra,finished,2,0
+Ligue 1,936993,2025-03-14,21:00,8914,ES Mostaganem,3814,ES Setif,finished,1,0
+Ligue 1,936991,2025-03-15,14:00,3825,ASO Chlef,15015,Olympique Akbou,finished,0,0
+Ligue 1,936992,2025-03-15,21:00,3501,MC Alger,3834,Khenchela,finished,2,2
+Ligue 1,936988,2025-03-16,14:00,3827,NC Magra,3833,El Bayadh,finished,0,0
+Ligue 1,936994,2025-03-16,21:00,3816,Belouizdad,3811,USM Alger,finished,1,1
+Ligue 1,936995,2025-04-04,15:00,3834,Khenchela,3267,Kabylie,finished,0,1
+Ligue 1,937000,2025-04-04,15:00,3826,US Biskra,8914,ES Mostaganem,finished,0,0
+Ligue 1,936996,2025-04-04,17:00,3818,MC Oran,3812,Paradou AC,finished,2,0
+Ligue 1,936999,2025-04-05,15:00,3833,El Bayadh,3813,Saoura,finished,1,0
+Ligue 1,936998,2025-04-05,16:00,3816,Belouizdad,3827,NC Magra,finished,4,0
+Ligue 1,937007,2025-04-10,18:00,8914,ES Mostaganem,15015,Olympique Akbou,finished,1,1
+Ligue 1,937005,2025-04-10,18:00,3813,Saoura,3816,Belouizdad,finished,1,3
+Ligue 1,937009,2025-04-11,15:00,3825,ASO Chlef,3814,ES Setif,finished,0,1
+Ligue 1,937004,2025-04-11,16:00,3812,Paradou AC,3833,El Bayadh,finished,0,0
+Ligue 1,937008,2025-04-12,15:00,3827,NC Magra,3834,Khenchela,finished,2,0
+Ligue 1,937003,2025-04-12,16:00,3267,Kabylie,3826,US Biskra,finished,0,0
+Ligue 1,937002,2025-04-15,15:30,15015,Olympique Akbou,3501,MC Alger,finished,1,0
+Ligue 1,937015,2025-04-18,14:30,3827,NC Magra,3813,Saoura,finished,2,0
+Ligue 1,937012,2025-04-18,15:00,3834,Khenchela,3812,Paradou AC,finished,2,2
+Ligue 1,937014,2025-04-18,17:00,3814,ES Setif,3818,MC Oran,finished,1,0
+Ligue 1,937017,2025-04-19,15:00,3833,El Bayadh,3825,ASO Chlef,finished,2,1
+Ligue 1,937018,2025-04-19,15:30,3826,US Biskra,3501,MC Alger,finished,0,1
+Ligue 1,937016,2025-04-19,16:00,3816,Belouizdad,8914,ES Mostaganem,finished,3,2
+Ligue 1,937011,2025-04-19,18:00,3811,USM Alger,3267,Kabylie,finished,0,1
+Ligue 1,937025,2025-04-24,17:00,3812,Paradou AC,3814,ES Setif,finished,0,0
+Ligue 1,937019,2025-04-25,15:00,3825,ASO Chlef,3826,US Biskra,finished,1,1
+Ligue 1,937023,2025-04-25,17:00,3818,MC Oran,15015,Olympique Akbou,finished,1,0
+Ligue 1,937022,2025-04-26,15:00,8914,ES Mostaganem,3827,NC Magra,finished,2,1
+Ligue 1,937020,2025-04-26,16:00,3501,MC Alger,3833,El Bayadh,finished,0,0
+Ligue 1,937026,2025-04-26,17:00,3813,Saoura,3811,USM Alger,finished,2,1
+Ligue 1,937021,2025-04-26,18:00,3267,Kabylie,3816,Belouizdad,finished,3,2
+Ligue 1,937001,2025-04-30,17:00,3811,USM Alger,3825,ASO Chlef,finished,1,2
+Ligue 1,937030,2025-05-10,15:00,3834,Khenchela,3818,MC Oran,finished,2,1
+Ligue 1,937033,2025-05-10,15:00,3827,NC Magra,3825,ASO Chlef,finished,2,0
+Ligue 1,937032,2025-05-10,17:00,3813,Saoura,8914,ES Mostaganem,finished,0,0
+Ligue 1,937031,2025-05-11,16:00,3814,ES Setif,15015,Olympique Akbou,finished,1,0
+Ligue 1,937029,2025-05-11,18:00,3811,USM Alger,3815,CS Constantine,finished,2,1
+Ligue 1,937027,2025-05-12,16:00,3833,El Bayadh,3267,Kabylie,finished,1,2
+Ligue 1,937034,2025-05-12,16:00,3816,Belouizdad,3501,MC Alger,finished,1,1
+Ligue 1,937028,2025-05-12,17:00,3826,US Biskra,3812,Paradou AC,finished,0,1
+Ligue 1,936997,2025-05-15,17:00,3814,ES Setif,3815,CS Constantine,finished,0,1
+Ligue 1,937040,2025-05-16,15:30,15015,Olympique Akbou,3834,Khenchela,finished,2,1
+Ligue 1,937038,2025-05-16,15:30,3818,MC Oran,3827,NC Magra,finished,2,1
+Ligue 1,937039,2025-05-17,16:00,3267,Kabylie,3813,Saoura,finished,1,2
+Ligue 1,937042,2025-05-17,18:30,3812,Paradou AC,3811,USM Alger,finished,3,1
+Ligue 1,937036,2025-05-18,15:00,8914,ES Mostaganem,3833,El Bayadh,finished,0,0
+Ligue 1,937035,2025-05-18,17:00,3815,CS Constantine,3826,US Biskra,finished,3,0
+Ligue 1,937037,2025-05-19,16:00,3825,ASO Chlef,3816,Belouizdad,finished,1,1
+Ligue 1,937041,2025-05-19,16:00,3501,MC Alger,3814,ES Setif,finished,4,1
+Ligue 1,937006,2025-05-22,17:00,3815,CS Constantine,3818,MC Oran,finished,2,2
+Ligue 1,937010,2025-05-23,19:00,3501,MC Alger,3811,USM Alger,finished,1,0
+Ligue 1,937043,2025-05-25,16:00,3827,NC Magra,3267,Kabylie,finished,1,3
+Ligue 1,937049,2025-05-25,16:00,8914,ES Mostaganem,3825,ASO Chlef,finished,1,0
+Ligue 1,937048,2025-05-25,16:00,3814,ES Setif,3834,Khenchela,finished,0,1
+Ligue 1,937046,2025-05-26,16:45,3826,US Biskra,3818,MC Oran,finished,0,2
+Ligue 1,937047,2025-05-26,19:00,3811,USM Alger,15015,Olympique Akbou,finished,1,1
+Ligue 1,937045,2025-05-27,16:00,3833,El Bayadh,3815,CS Constantine,finished,1,1
+Ligue 1,937050,2025-05-27,18:00,3813,Saoura,3501,MC Alger,finished,0,0
+Ligue 1,937044,2025-05-27,18:00,3816,Belouizdad,3812,Paradou AC,finished,2,1
+Ligue 1,937013,2025-05-30,16:00,15015,Olympique Akbou,3815,CS Constantine,finished,0,0
+Ligue 1,937024,2025-06-03,16:00,3815,CS Constantine,3834,Khenchela,finished,2,1
+Ligue 1,937052,2025-06-11,16:00,3818,MC Oran,3833,El Bayadh,finished,3,2
+Ligue 1,937051,2025-06-11,16:00,15015,Olympique Akbou,3826,US Biskra,finished,2,0
+Ligue 1,937058,2025-06-11,16:00,3834,Khenchela,3811,USM Alger,finished,1,0
+Ligue 1,937055,2025-06-11,16:00,3825,ASO Chlef,3813,Saoura,finished,1,2
+Ligue 1,937057,2025-06-12,20:00,3267,Kabylie,3814,ES Setif,finished,2,0
+Ligue 1,937054,2025-06-12,20:00,3812,Paradou AC,3827,NC Magra,finished,2,0
+Ligue 1,937056,2025-06-12,20:00,3501,MC Alger,8914,ES Mostaganem,finished,5,2
+Ligue 1,937053,2025-06-12,20:00,3815,CS Constantine,3816,Belouizdad,finished,0,2
+Ligue 1,937064,2025-06-16,19:00,3826,US Biskra,3834,Khenchela,finished,1,2
+Ligue 1,937065,2025-06-16,20:00,3811,USM Alger,3814,ES Setif,finished,1,0
+Ligue 1,937061,2025-06-17,16:30,3827,NC Magra,3815,CS Constantine,finished,2,1
+Ligue 1,937066,2025-06-17,16:30,3825,ASO Chlef,3501,MC Alger,finished,0,0
+Ligue 1,937062,2025-06-17,16:30,3816,Belouizdad,3818,MC Oran,finished,2,0
+Ligue 1,937063,2025-06-17,16:30,3833,El Bayadh,15015,Olympique Akbou,finished,0,1
+Ligue 1,937059,2025-06-17,16:30,8914,ES Mostaganem,3267,Kabylie,finished,0,0
+Ligue 1,937060,2025-06-17,19:00,3813,Saoura,3812,Paradou AC,finished,3,2
+Ligue 1,937067,2025-06-20,16:00,3814,ES Setif,3826,US Biskra,finished,1,0
+Ligue 1,937071,2025-06-20,17:00,3815,CS Constantine,3813,Saoura,finished,2,2
+Ligue 1,937074,2025-06-20,17:00,3818,MC Oran,3811,USM Alger,finished,4,0
+Ligue 1,937068,2025-06-21,16:00,3834,Khenchela,3833,El Bayadh,finished,1,0
+Ligue 1,937073,2025-06-21,16:45,3267,Kabylie,3825,ASO Chlef,finished,1,0
+Ligue 1,937070,2025-06-21,16:45,3501,MC Alger,3827,NC Magra,finished,0,0
+Ligue 1,937069,2025-06-21,16:45,15015,Olympique Akbou,3816,Belouizdad,finished,0,0
+Ligue 1,937072,2025-06-21,16:45,3812,Paradou AC,8914,ES Mostaganem,finished,1,3

@@ -1,0 +1,815 @@
+{
+  "timestamp": "2025-06-23T11:12:31.719042",
+  "leagues": {
+    "203": {
+      "historical_matches": 180,
+      "standings": 10,
+      "fixtures": 0,
+      "files_created": [
+        "league_203_2024-2025_historical_matches.csv",
+        "league_203_2024-2025_standings.csv"
+      ]
+    },
+    "204": {
+      "historical_matches": 240,
+      "standings": 16,
+      "fixtures": 0,
+      "files_created": [
+        "league_204_2024-2025_historical_matches.csv",
+        "league_204_2024-2025_standings.csv"
+      ]
+    },
+    "205": {
+      "historical_matches": 135,
+      "standings": 10,
+      "fixtures": 0,
+      "files_created": [
+        "league_205_2024-2025_historical_matches.csv",
+        "league_205_2024-2025_standings.csv"
+      ]
+    },
+    "206": {
+      "historical_matches": 0,
+      "standings": 30,
+      "fixtures": 0,
+      "files_created": [
+        "league_206_2024-2025_standings.csv"
+      ]
+    },
+    "207": {
+      "historical_matches": 161,
+      "standings": 11,
+      "fixtures": 0,
+      "files_created": [
+        "league_207_2024-2025_historical_matches.csv",
+        "league_207_2024-2025_standings.csv"
+      ]
+    },
+    "208": {
+      "historical_matches": 169,
+      "standings": 13,
+      "fixtures": 0,
+      "files_created": [
+        "league_208_2024-2025_historical_matches.csv",
+        "league_208_2024-2025_standings.csv"
+      ]
+    },
+    "209": {
+      "historical_matches": 132,
+      "standings": 12,
+      "fixtures": 0,
+      "files_created": [
+        "league_209_2024-2025_historical_matches.csv",
+        "league_209_2024-2025_standings.csv"
+      ]
+    },
+    "210": {
+      "historical_matches": 180,
+      "standings": 10,
+      "fixtures": 0,
+      "files_created": [
+        "league_210_2024-2025_historical_matches.csv",
+        "league_210_2024-2025_standings.csv"
+      ]
+    },
+    "211": {
+      "historical_matches": 0,
+      "standings": 16,
+      "fixtures": 0,
+      "files_created": [
+        "league_211_2024-2025_standings.csv"
+      ]
+    },
+    "212": {
+      "historical_matches": 0,
+      "standings": 6,
+      "fixtures": 0,
+      "files_created": [
+        "league_212_2024-2025_standings.csv"
+      ]
+    },
+    "213": {
+      "historical_matches": 0,
+      "standings": 16,
+      "fixtures": 0,
+      "files_created": [
+        "league_213_2024-2025_standings.csv"
+      ]
+    },
+    "214": {
+      "historical_matches": 198,
+      "standings": 12,
+      "fixtures": 0,
+      "files_created": [
+        "league_214_2024-2025_historical_matches.csv",
+        "league_214_2024-2025_standings.csv"
+      ]
+    },
+    "215": {
+      "historical_matches": 0,
+      "standings": 20,
+      "fixtures": 0,
+      "files_created": [
+        "league_215_2024-2025_standings.csv"
+      ]
+    },
+    "217": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "216": {
+      "historical_matches": 0,
+      "standings": 21,
+      "fixtures": 0,
+      "files_created": [
+        "league_216_2024-2025_standings.csv"
+      ]
+    },
+    "199": {
+      "historical_matches": 240,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": [
+        "league_199_2024-2025_historical_matches.csv"
+      ]
+    },
+    "197": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "219": {
+      "historical_matches": 0,
+      "standings": 16,
+      "fixtures": 0,
+      "files_created": [
+        "league_219_2024-2025_standings.csv"
+      ]
+    },
+    "181": {
+      "historical_matches": 0,
+      "standings": 16,
+      "fixtures": 0,
+      "files_created": [
+        "league_181_2024-2025_standings.csv"
+      ]
+    },
+    "220": {
+      "historical_matches": 0,
+      "standings": 2,
+      "fixtures": 0,
+      "files_created": [
+        "league_220_2024-2025_standings.csv"
+      ]
+    },
+    "221": {
+      "historical_matches": 132,
+      "standings": 12,
+      "fixtures": 0,
+      "files_created": [
+        "league_221_2024-2025_historical_matches.csv",
+        "league_221_2024-2025_standings.csv"
+      ]
+    },
+    "222": {
+      "historical_matches": 180,
+      "standings": 10,
+      "fixtures": 0,
+      "files_created": [
+        "league_222_2024-2025_historical_matches.csv",
+        "league_222_2024-2025_standings.csv"
+      ]
+    },
+    "223": {
+      "historical_matches": 182,
+      "standings": 6,
+      "fixtures": 0,
+      "files_created": [
+        "league_223_2024-2025_historical_matches.csv",
+        "league_223_2024-2025_standings.csv"
+      ]
+    },
+    "224": {
+      "historical_matches": 4,
+      "standings": 6,
+      "fixtures": 0,
+      "files_created": [
+        "league_224_2024-2025_historical_matches.csv",
+        "league_224_2024-2025_standings.csv"
+      ]
+    },
+    "225": {
+      "historical_matches": 132,
+      "standings": 6,
+      "fixtures": 0,
+      "files_created": [
+        "league_225_2024-2025_historical_matches.csv",
+        "league_225_2024-2025_standings.csv"
+      ]
+    },
+    "226": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "227": {
+      "historical_matches": 153,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": [
+        "league_227_2024-2025_historical_matches.csv"
+      ]
+    },
+    "232": {
+      "historical_matches": 552,
+      "standings": 24,
+      "fixtures": 0,
+      "files_created": [
+        "league_232_2024-2025_historical_matches.csv",
+        "league_232_2024-2025_standings.csv"
+      ]
+    },
+    "229": {
+      "historical_matches": 552,
+      "standings": 25,
+      "fixtures": 0,
+      "files_created": [
+        "league_229_2024-2025_historical_matches.csv",
+        "league_229_2024-2025_standings.csv"
+      ]
+    },
+    "237": {
+      "historical_matches": 35,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": [
+        "league_237_2024-2025_historical_matches.csv"
+      ]
+    },
+    "228": {
+      "historical_matches": 0,
+      "standings": 20,
+      "fixtures": 0,
+      "files_created": [
+        "league_228_2024-2025_standings.csv"
+      ]
+    },
+    "230": {
+      "historical_matches": 40,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": [
+        "league_230_2024-2025_historical_matches.csv"
+      ]
+    },
+    "231": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "200": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "326": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "310": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "322": {
+      "historical_matches": 0,
+      "standings": 10,
+      "fixtures": 0,
+      "files_created": [
+        "league_322_2024-2025_standings.csv"
+      ]
+    },
+    "323": {
+      "historical_matches": 0,
+      "standings": 24,
+      "fixtures": 0,
+      "files_created": [
+        "league_323_2024-2025_standings.csv"
+      ]
+    },
+    "198": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "233": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "234": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "238": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "236": {
+      "historical_matches": 306,
+      "standings": 19,
+      "fixtures": 0,
+      "files_created": [
+        "league_236_2024-2025_historical_matches.csv",
+        "league_236_2024-2025_standings.csv"
+      ]
+    },
+    "235": {
+      "historical_matches": 306,
+      "standings": 18,
+      "fixtures": 0,
+      "files_created": [
+        "league_235_2024-2025_historical_matches.csv",
+        "league_235_2024-2025_standings.csv"
+      ]
+    },
+    "240": {
+      "historical_matches": 0,
+      "standings": 10,
+      "fixtures": 0,
+      "files_created": [
+        "league_240_2024-2025_standings.csv"
+      ]
+    },
+    "244": {
+      "historical_matches": 380,
+      "standings": 20,
+      "fixtures": 0,
+      "files_created": [
+        "league_244_2024-2025_historical_matches.csv",
+        "league_244_2024-2025_standings.csv"
+      ]
+    },
+    "241": {
+      "historical_matches": 306,
+      "standings": 18,
+      "fixtures": 0,
+      "files_created": [
+        "league_241_2024-2025_historical_matches.csv",
+        "league_241_2024-2025_standings.csv"
+      ]
+    },
+    "242": {
+      "historical_matches": 0,
+      "standings": 18,
+      "fixtures": 0,
+      "files_created": [
+        "league_242_2024-2025_standings.csv"
+      ]
+    },
+    "243": {
+      "historical_matches": 32,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": [
+        "league_243_2024-2025_historical_matches.csv"
+      ]
+    },
+    "245": {
+      "historical_matches": 182,
+      "standings": 4,
+      "fixtures": 0,
+      "files_created": [
+        "league_245_2024-2025_historical_matches.csv",
+        "league_245_2024-2025_standings.csv"
+      ]
+    },
+    "246": {
+      "historical_matches": 96,
+      "standings": 13,
+      "fixtures": 0,
+      "files_created": [
+        "league_246_2024-2025_historical_matches.csv",
+        "league_246_2024-2025_standings.csv"
+      ]
+    },
+    "247": {
+      "historical_matches": 90,
+      "standings": 10,
+      "fixtures": 0,
+      "files_created": [
+        "league_247_2024-2025_historical_matches.csv",
+        "league_247_2024-2025_standings.csv"
+      ]
+    },
+    "248": {
+      "historical_matches": 198,
+      "standings": 12,
+      "fixtures": 0,
+      "files_created": [
+        "league_248_2024-2025_historical_matches.csv",
+        "league_248_2024-2025_standings.csv"
+      ]
+    },
+    "249": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "250": {
+      "historical_matches": 156,
+      "standings": 13,
+      "fixtures": 0,
+      "files_created": [
+        "league_250_2024-2025_historical_matches.csv",
+        "league_250_2024-2025_standings.csv"
+      ]
+    },
+    "251": {
+      "historical_matches": 306,
+      "standings": 18,
+      "fixtures": 0,
+      "files_created": [
+        "league_251_2024-2025_historical_matches.csv",
+        "league_251_2024-2025_standings.csv"
+      ]
+    },
+    "315": {
+      "historical_matches": 0,
+      "standings": 8,
+      "fixtures": 0,
+      "files_created": [
+        "league_315_2024-2025_standings.csv"
+      ]
+    },
+    "311": {
+      "historical_matches": 95,
+      "standings": 24,
+      "fixtures": 0,
+      "files_created": [
+        "league_311_2024-2025_historical_matches.csv",
+        "league_311_2024-2025_standings.csv"
+      ]
+    },
+    "312": {
+      "historical_matches": 0,
+      "standings": 16,
+      "fixtures": 0,
+      "files_created": [
+        "league_312_2024-2025_standings.csv"
+      ]
+    },
+    "313": {
+      "historical_matches": 0,
+      "standings": 8,
+      "fixtures": 0,
+      "files_created": [
+        "league_313_2024-2025_standings.csv"
+      ]
+    },
+    "314": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "316": {
+      "historical_matches": 0,
+      "standings": 55,
+      "fixtures": 0,
+      "files_created": [
+        "league_316_2024-2025_standings.csv"
+      ]
+    },
+    "317": {
+      "historical_matches": 0,
+      "standings": 37,
+      "fixtures": 0,
+      "files_created": [
+        "league_317_2024-2025_standings.csv"
+      ]
+    },
+    "318": {
+      "historical_matches": 0,
+      "standings": 30,
+      "fixtures": 0,
+      "files_created": [
+        "league_318_2024-2025_standings.csv"
+      ]
+    },
+    "319": {
+      "historical_matches": 0,
+      "standings": 54,
+      "fixtures": 0,
+      "files_created": [
+        "league_319_2024-2025_standings.csv"
+      ]
+    },
+    "320": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "321": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "325": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "285": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "284": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "252": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "255": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "253": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "254": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "256": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "257": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "258": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "260": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "261": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "262": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "271": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "263": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "264": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "265": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "266": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "267": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "270": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "269": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "268": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "272": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "275": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "273": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "274": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "276": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "277": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "278": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "279": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "282": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "280": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "281": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "283": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "286": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "287": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "288": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "290": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "289": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "291": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "292": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "293": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "294": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "295": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "296": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    },
+    "259": {
+      "historical_matches": 0,
+      "standings": 0,
+      "fixtures": 0,
+      "files_created": []
+    }
+  },
+  "total_files": 78,
+  "total_size_mb": 0.527369499206543
+}

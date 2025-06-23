@@ -1,0 +1,181 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+HNL,923273,2024-08-02,19:00,2920,Dinamo Zagreb,2797,Istra 1961,finished,5,0
+HNL,923274,2024-08-03,19:00,2928,HNK Gorica,4074,Varazdin,finished,0,0
+HNL,923275,2024-08-04,16:50,2989,Rijeka,3156,Lokomotiva Zagreb,finished,4,0
+HNL,923276,2024-08-04,19:00,2997,Hajduk Split,4073,Slaven Koprivnica,finished,2,1
+HNL,923272,2024-08-04,19:00,3599,Osijek,3543,Sibenik,finished,1,2
+HNL,923277,2024-08-09,16:30,3543,Sibenik,4073,Slaven Koprivnica,finished,2,0
+HNL,923280,2024-08-10,19:00,2797,Istra 1961,2928,HNK Gorica,finished,2,1
+HNL,923278,2024-08-11,16:30,3156,Lokomotiva Zagreb,2997,Hajduk Split,finished,1,1
+HNL,923279,2024-08-11,19:00,4074,Varazdin,2989,Rijeka,finished,0,0
+HNL,923281,2024-08-11,19:00,3599,Osijek,2920,Dinamo Zagreb,finished,1,2
+HNL,923282,2024-08-16,19:00,2920,Dinamo Zagreb,3543,Sibenik,finished,3,0
+HNL,923286,2024-08-17,19:00,4073,Slaven Koprivnica,3156,Lokomotiva Zagreb,finished,2,2
+HNL,923285,2024-08-18,16:50,2997,Hajduk Split,4074,Varazdin,finished,2,1
+HNL,923283,2024-08-18,19:00,2928,HNK Gorica,3599,Osijek,finished,2,2
+HNL,923284,2024-08-18,19:00,2989,Rijeka,2797,Istra 1961,finished,4,0
+HNL,923332,2024-08-23,18:00,3156,Lokomotiva Zagreb,3543,Sibenik,finished,0,1
+HNL,923288,2024-08-24,16:15,4074,Varazdin,4073,Slaven Koprivnica,finished,2,0
+HNL,923291,2024-08-24,18:30,2920,Dinamo Zagreb,2928,HNK Gorica,finished,2,1
+HNL,923289,2024-08-25,16:15,2797,Istra 1961,2997,Hajduk Split,finished,1,1
+HNL,923290,2024-08-25,18:45,3599,Osijek,2989,Rijeka,finished,0,2
+HNL,923292,2024-08-30,18:00,2928,HNK Gorica,3543,Sibenik,finished,2,1
+HNL,923295,2024-08-31,16:15,4073,Slaven Koprivnica,2797,Istra 1961,finished,0,1
+HNL,923294,2024-08-31,18:45,2997,Hajduk Split,3599,Osijek,finished,1,0
+HNL,923296,2024-09-01,16:15,3156,Lokomotiva Zagreb,4074,Varazdin,finished,0,1
+HNL,923293,2024-09-01,18:45,2989,Rijeka,2920,Dinamo Zagreb,finished,1,1
+HNL,923300,2024-09-13,18:00,2920,Dinamo Zagreb,2997,Hajduk Split,finished,0,1
+HNL,923298,2024-09-14,15:30,2797,Istra 1961,3156,Lokomotiva Zagreb,finished,0,2
+HNL,923301,2024-09-14,18:00,2928,HNK Gorica,2989,Rijeka,finished,0,1
+HNL,923299,2024-09-15,15:30,3599,Osijek,4073,Slaven Koprivnica,finished,1,0
+HNL,923297,2024-09-15,18:00,3543,Sibenik,4074,Varazdin,finished,0,0
+HNL,923306,2024-09-20,16:00,4074,Varazdin,2797,Istra 1961,finished,1,0
+HNL,923304,2024-09-21,15:30,4073,Slaven Koprivnica,2920,Dinamo Zagreb,finished,4,1
+HNL,923303,2024-09-21,18:00,2997,Hajduk Split,2928,HNK Gorica,finished,4,1
+HNL,923305,2024-09-22,15:30,3156,Lokomotiva Zagreb,3599,Osijek,finished,0,1
+HNL,923302,2024-09-22,18:00,2989,Rijeka,3543,Sibenik,finished,3,0
+HNL,923307,2024-09-27,16:00,3543,Sibenik,2797,Istra 1961,finished,0,0
+HNL,923309,2024-09-28,18:00,2920,Dinamo Zagreb,3156,Lokomotiva Zagreb,finished,5,1
+HNL,923308,2024-09-29,15:30,3599,Osijek,4074,Varazdin,finished,2,1
+HNL,923311,2024-09-29,18:00,2989,Rijeka,2997,Hajduk Split,finished,0,0
+HNL,923310,2024-09-30,14:00,2928,HNK Gorica,4073,Slaven Koprivnica,finished,2,1
+HNL,923316,2024-10-04,16:00,2797,Istra 1961,3599,Osijek,finished,2,1
+HNL,923314,2024-10-05,14:00,3156,Lokomotiva Zagreb,2928,HNK Gorica,finished,2,0
+HNL,923313,2024-10-05,16:30,4073,Slaven Koprivnica,2989,Rijeka,finished,0,0
+HNL,923315,2024-10-06,14:00,4074,Varazdin,2920,Dinamo Zagreb,finished,0,1
+HNL,923312,2024-10-06,16:30,2997,Hajduk Split,3543,Sibenik,finished,4,0
+HNL,923320,2024-10-18,16:00,3156,Lokomotiva Zagreb,2989,Rijeka,finished,2,2
+HNL,923317,2024-10-19,14:00,3543,Sibenik,3599,Osijek,finished,1,3
+HNL,923318,2024-10-19,16:30,2797,Istra 1961,2920,Dinamo Zagreb,finished,2,2
+HNL,923321,2024-10-20,14:00,4073,Slaven Koprivnica,2997,Hajduk Split,finished,0,2
+HNL,923319,2024-10-20,16:30,4074,Varazdin,2928,HNK Gorica,finished,2,1
+HNL,923322,2024-10-25,16:00,4073,Slaven Koprivnica,3543,Sibenik,finished,2,2
+HNL,923323,2024-10-26,14:00,2997,Hajduk Split,3156,Lokomotiva Zagreb,finished,2,1
+HNL,923324,2024-10-26,16:30,2989,Rijeka,4074,Varazdin,finished,1,1
+HNL,923326,2024-10-27,15:00,2920,Dinamo Zagreb,3599,Osijek,finished,2,4
+HNL,923325,2024-10-27,17:30,2928,HNK Gorica,2797,Istra 1961,finished,1,0
+HNL,923327,2024-11-01,17:00,3543,Sibenik,2920,Dinamo Zagreb,finished,0,4
+HNL,923331,2024-11-02,14:00,3156,Lokomotiva Zagreb,4073,Slaven Koprivnica,finished,0,1
+HNL,923328,2024-11-02,16:30,3599,Osijek,2928,HNK Gorica,finished,2,0
+HNL,923329,2024-11-03,14:00,2797,Istra 1961,2989,Rijeka,finished,0,1
+HNL,923330,2024-11-03,16:30,4074,Varazdin,2997,Hajduk Split,finished,1,0
+HNL,923287,2024-11-08,17:00,3543,Sibenik,3156,Lokomotiva Zagreb,finished,0,3
+HNL,923336,2024-11-09,14:00,2928,HNK Gorica,2920,Dinamo Zagreb,finished,2,2
+HNL,923334,2024-11-09,16:30,2997,Hajduk Split,2797,Istra 1961,finished,1,1
+HNL,923333,2024-11-10,14:00,4073,Slaven Koprivnica,4074,Varazdin,finished,1,1
+HNL,923335,2024-11-10,16:45,2989,Rijeka,3599,Osijek,finished,1,1
+HNL,923340,2024-11-22,17:00,2797,Istra 1961,4073,Slaven Koprivnica,finished,2,3
+HNL,923341,2024-11-23,14:00,4074,Varazdin,3156,Lokomotiva Zagreb,finished,1,1
+HNL,923338,2024-11-23,16:45,2920,Dinamo Zagreb,2989,Rijeka,finished,0,0
+HNL,923339,2024-11-24,14:00,3599,Osijek,2997,Hajduk Split,finished,2,2
+HNL,923337,2024-11-24,16:45,3543,Sibenik,2928,HNK Gorica,finished,1,0
+HNL,923342,2024-11-29,17:00,4074,Varazdin,3543,Sibenik,finished,2,1
+HNL,923344,2024-11-30,14:00,4073,Slaven Koprivnica,3599,Osijek,finished,3,2
+HNL,923346,2024-11-30,16:30,2989,Rijeka,2928,HNK Gorica,finished,1,0
+HNL,923343,2024-12-01,14:00,3156,Lokomotiva Zagreb,2797,Istra 1961,finished,1,2
+HNL,923345,2024-12-01,16:45,2997,Hajduk Split,2920,Dinamo Zagreb,finished,1,0
+HNL,923349,2024-12-06,17:00,2920,Dinamo Zagreb,4073,Slaven Koprivnica,finished,1,1
+HNL,923351,2024-12-07,14:00,2797,Istra 1961,4074,Varazdin,finished,0,0
+HNL,923348,2024-12-07,16:30,2928,HNK Gorica,2997,Hajduk Split,finished,1,0
+HNL,923347,2024-12-08,14:00,3543,Sibenik,2989,Rijeka,finished,0,1
+HNL,923350,2024-12-08,16:30,3599,Osijek,3156,Lokomotiva Zagreb,finished,3,0
+HNL,923355,2024-12-13,17:00,4073,Slaven Koprivnica,2928,HNK Gorica,finished,2,1
+HNL,923354,2024-12-14,14:00,3156,Lokomotiva Zagreb,2920,Dinamo Zagreb,finished,3,1
+HNL,923352,2024-12-14,16:30,2797,Istra 1961,3543,Sibenik,finished,3,3
+HNL,923353,2024-12-15,14:00,4074,Varazdin,3599,Osijek,finished,0,0
+HNL,923356,2024-12-15,16:45,2997,Hajduk Split,2989,Rijeka,finished,2,2
+HNL,923361,2024-12-20,17:00,3599,Osijek,2797,Istra 1961,finished,2,2
+HNL,923359,2024-12-21,14:00,2928,HNK Gorica,3156,Lokomotiva Zagreb,finished,1,4
+HNL,923360,2024-12-22,12:00,2920,Dinamo Zagreb,4074,Varazdin,finished,3,2
+HNL,923358,2024-12-22,14:00,2989,Rijeka,4073,Slaven Koprivnica,finished,2,0
+HNL,923357,2024-12-22,16:30,3543,Sibenik,2997,Hajduk Split,finished,1,2
+HNL,923362,2025-01-24,17:00,3599,Osijek,3543,Sibenik,finished,2,2
+HNL,923364,2025-01-25,14:00,2928,HNK Gorica,4074,Varazdin,finished,1,1
+HNL,923363,2025-01-25,16:30,2920,Dinamo Zagreb,2797,Istra 1961,finished,3,1
+HNL,923365,2025-01-26,14:00,2989,Rijeka,3156,Lokomotiva Zagreb,finished,4,1
+HNL,923366,2025-01-26,16:30,2997,Hajduk Split,4073,Slaven Koprivnica,finished,0,0
+HNL,923370,2025-01-31,16:00,2797,Istra 1961,2928,HNK Gorica,finished,0,0
+HNL,923367,2025-02-01,14:00,3543,Sibenik,4073,Slaven Koprivnica,finished,1,1
+HNL,923369,2025-02-01,16:30,4074,Varazdin,2989,Rijeka,finished,1,0
+HNL,923368,2025-02-02,11:50,3156,Lokomotiva Zagreb,2997,Hajduk Split,finished,3,2
+HNL,923371,2025-02-02,14:00,3599,Osijek,2920,Dinamo Zagreb,finished,2,1
+HNL,923372,2025-02-07,17:00,2920,Dinamo Zagreb,3543,Sibenik,finished,3,0
+HNL,923373,2025-02-08,14:00,2928,HNK Gorica,3599,Osijek,finished,1,0
+HNL,923375,2025-02-08,16:30,2997,Hajduk Split,4074,Varazdin,finished,1,0
+HNL,923374,2025-02-09,14:00,2989,Rijeka,2797,Istra 1961,finished,0,1
+HNL,923376,2025-02-09,16:45,4073,Slaven Koprivnica,3156,Lokomotiva Zagreb,finished,2,1
+HNL,923377,2025-02-14,17:00,3543,Sibenik,3156,Lokomotiva Zagreb,finished,1,2
+HNL,923379,2025-02-15,14:00,2797,Istra 1961,2997,Hajduk Split,finished,1,1
+HNL,923381,2025-02-15,16:30,2920,Dinamo Zagreb,2928,HNK Gorica,finished,3,1
+HNL,923378,2025-02-16,14:00,4074,Varazdin,4073,Slaven Koprivnica,finished,0,1
+HNL,923380,2025-02-16,16:45,3599,Osijek,2989,Rijeka,finished,0,2
+HNL,923386,2025-02-21,17:00,3156,Lokomotiva Zagreb,4074,Varazdin,finished,1,0
+HNL,923384,2025-02-22,14:00,2997,Hajduk Split,3599,Osijek,finished,4,0
+HNL,923383,2025-02-22,16:45,2989,Rijeka,2920,Dinamo Zagreb,finished,4,0
+HNL,923382,2025-02-23,14:00,2928,HNK Gorica,3543,Sibenik,finished,1,0
+HNL,923385,2025-02-23,16:30,4073,Slaven Koprivnica,2797,Istra 1961,finished,0,0
+HNL,923388,2025-02-28,17:00,2797,Istra 1961,3156,Lokomotiva Zagreb,finished,3,2
+HNL,923391,2025-03-01,14:00,2928,HNK Gorica,2989,Rijeka,finished,0,0
+HNL,923389,2025-03-01,16:30,3599,Osijek,4073,Slaven Koprivnica,finished,1,2
+HNL,923390,2025-03-02,14:00,2920,Dinamo Zagreb,2997,Hajduk Split,finished,2,2
+HNL,923387,2025-03-02,16:45,3543,Sibenik,4074,Varazdin,finished,0,2
+HNL,923392,2025-03-07,17:00,2989,Rijeka,3543,Sibenik,finished,1,1
+HNL,923396,2025-03-08,14:00,4074,Varazdin,2797,Istra 1961,finished,0,0
+HNL,923395,2025-03-08,16:30,3156,Lokomotiva Zagreb,3599,Osijek,finished,3,0
+HNL,923393,2025-03-09,14:00,2997,Hajduk Split,2928,HNK Gorica,finished,2,1
+HNL,923394,2025-03-09,16:30,4073,Slaven Koprivnica,2920,Dinamo Zagreb,finished,0,1
+HNL,923400,2025-03-14,17:00,2928,HNK Gorica,4073,Slaven Koprivnica,finished,0,3
+HNL,923397,2025-03-15,14:00,3543,Sibenik,2797,Istra 1961,finished,1,0
+HNL,923399,2025-03-15,16:30,2920,Dinamo Zagreb,3156,Lokomotiva Zagreb,finished,3,0
+HNL,923398,2025-03-16,14:00,3599,Osijek,4074,Varazdin,finished,0,0
+HNL,923401,2025-03-16,16:45,2989,Rijeka,2997,Hajduk Split,finished,3,0
+HNL,923404,2025-03-28,17:00,3156,Lokomotiva Zagreb,2928,HNK Gorica,finished,1,1
+HNL,923406,2025-03-29,15:00,2797,Istra 1961,3599,Osijek,finished,2,1
+HNL,923403,2025-03-29,17:45,4073,Slaven Koprivnica,2989,Rijeka,finished,2,1
+HNL,923402,2025-03-30,14:00,2997,Hajduk Split,3543,Sibenik,finished,1,0
+HNL,923405,2025-03-30,16:45,4074,Varazdin,2920,Dinamo Zagreb,finished,1,1
+HNL,923409,2025-04-04,16:00,4074,Varazdin,2928,HNK Gorica,finished,0,0
+HNL,923411,2025-04-05,14:00,4073,Slaven Koprivnica,2997,Hajduk Split,finished,0,1
+HNL,923408,2025-04-05,16:45,2797,Istra 1961,2920,Dinamo Zagreb,finished,3,0
+HNL,923410,2025-04-06,14:00,3156,Lokomotiva Zagreb,2989,Rijeka,finished,0,1
+HNL,923407,2025-04-06,16:45,3543,Sibenik,3599,Osijek,finished,4,1
+HNL,923412,2025-04-11,16:00,4073,Slaven Koprivnica,3543,Sibenik,finished,2,0
+HNL,923415,2025-04-12,14:00,2928,HNK Gorica,2797,Istra 1961,finished,3,2
+HNL,923416,2025-04-12,16:45,2920,Dinamo Zagreb,3599,Osijek,finished,2,0
+HNL,923414,2025-04-13,14:00,2989,Rijeka,4074,Varazdin,finished,1,0
+HNL,923413,2025-04-13,16:45,2997,Hajduk Split,3156,Lokomotiva Zagreb,finished,1,1
+HNL,923417,2025-04-17,16:00,3543,Sibenik,2920,Dinamo Zagreb,finished,0,4
+HNL,923421,2025-04-18,14:00,3156,Lokomotiva Zagreb,4073,Slaven Koprivnica,finished,0,2
+HNL,923420,2025-04-18,16:45,4074,Varazdin,2997,Hajduk Split,finished,1,1
+HNL,923418,2025-04-19,14:00,3599,Osijek,2928,HNK Gorica,finished,0,1
+HNL,923419,2025-04-19,16:45,2797,Istra 1961,2989,Rijeka,finished,2,0
+HNL,923423,2025-04-22,15:00,4073,Slaven Koprivnica,4074,Varazdin,finished,0,1
+HNL,923422,2025-04-22,17:15,3156,Lokomotiva Zagreb,3543,Sibenik,finished,1,2
+HNL,923426,2025-04-23,13:00,2928,HNK Gorica,2920,Dinamo Zagreb,finished,1,0
+HNL,923424,2025-04-23,15:30,2997,Hajduk Split,2797,Istra 1961,finished,0,1
+HNL,923425,2025-04-23,18:00,2989,Rijeka,3599,Osijek,finished,0,2
+HNL,923431,2025-04-26,16:00,4074,Varazdin,3156,Lokomotiva Zagreb,finished,2,1
+HNL,923429,2025-04-27,14:00,3599,Osijek,2997,Hajduk Split,finished,2,0
+HNL,923428,2025-04-27,16:45,2920,Dinamo Zagreb,2989,Rijeka,finished,1,0
+HNL,923430,2025-04-28,15:00,2797,Istra 1961,4073,Slaven Koprivnica,finished,1,1
+HNL,923427,2025-04-28,17:15,3543,Sibenik,2928,HNK Gorica,finished,0,0
+HNL,923432,2025-05-02,16:00,4074,Varazdin,3543,Sibenik,finished,1,1
+HNL,923435,2025-05-03,14:00,2997,Hajduk Split,2920,Dinamo Zagreb,finished,1,3
+HNL,923433,2025-05-03,16:45,3156,Lokomotiva Zagreb,2797,Istra 1961,finished,0,0
+HNL,923434,2025-05-04,14:00,4073,Slaven Koprivnica,3599,Osijek,finished,1,4
+HNL,923436,2025-05-04,16:15,2989,Rijeka,2928,HNK Gorica,finished,2,1
+HNL,923440,2025-05-09,16:00,3599,Osijek,3156,Lokomotiva Zagreb,finished,1,1
+HNL,923437,2025-05-10,15:00,3543,Sibenik,2989,Rijeka,finished,0,1
+HNL,923439,2025-05-10,17:45,2920,Dinamo Zagreb,4073,Slaven Koprivnica,finished,5,0
+HNL,923438,2025-05-11,14:00,2928,HNK Gorica,2997,Hajduk Split,finished,1,1
+HNL,923441,2025-05-11,16:15,2797,Istra 1961,4074,Varazdin,finished,0,0
+HNL,923442,2025-05-16,16:00,2797,Istra 1961,3543,Sibenik,finished,3,0
+HNL,923443,2025-05-17,15:00,4074,Varazdin,3599,Osijek,finished,2,1
+HNL,923444,2025-05-17,17:15,3156,Lokomotiva Zagreb,2920,Dinamo Zagreb,finished,1,1
+HNL,923445,2025-05-18,14:00,4073,Slaven Koprivnica,2928,HNK Gorica,finished,4,0
+HNL,923446,2025-05-18,16:45,2997,Hajduk Split,2989,Rijeka,finished,2,1
+HNL,923449,2025-05-24,17:15,2928,HNK Gorica,3156,Lokomotiva Zagreb,finished,0,3
+HNL,923450,2025-05-25,15:00,2920,Dinamo Zagreb,4074,Varazdin,finished,1,0
+HNL,923451,2025-05-25,15:00,3599,Osijek,2797,Istra 1961,finished,1,1
+HNL,923448,2025-05-25,15:00,2989,Rijeka,4073,Slaven Koprivnica,finished,2,0
+HNL,923447,2025-05-25,15:00,3543,Sibenik,2997,Hajduk Split,finished,0,1

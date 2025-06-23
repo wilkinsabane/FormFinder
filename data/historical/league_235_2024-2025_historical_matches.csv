@@ -1,0 +1,307 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Ligue 1,926767,2024-08-16,18:45,3139,Le Havre,4228,PSG,finished,1,4
+Ligue 1,926760,2024-08-17,15:00,3199,Brest,3769,Marseille,finished,1,5
+Ligue 1,926765,2024-08-17,17:00,3354,Reims,4229,Lille,finished,0,2
+Ligue 1,926764,2024-08-17,19:00,4234,Monaco,3386,Saint-Etienne,finished,1,0
+Ligue 1,926766,2024-08-18,13:00,3002,Auxerre,3027,Nice,finished,2,1
+Ligue 1,926761,2024-08-18,15:00,3375,Montpellier,4231,Strasbourg,finished,1,1
+Ligue 1,926763,2024-08-18,15:00,2849,Angers,3295,Lens,finished,0,1
+Ligue 1,926762,2024-08-18,15:00,3129,Toulouse,4232,Nantes,finished,0,0
+Ligue 1,926768,2024-08-18,18:45,3001,Rennes,4230,Lyon,finished,3,0
+Ligue 1,926769,2024-08-23,18:45,4228,PSG,3375,Montpellier,finished,6,0
+Ligue 1,926776,2024-08-24,15:00,4230,Lyon,4234,Monaco,finished,0,2
+Ligue 1,926773,2024-08-24,17:00,4229,Lille,2849,Angers,finished,2,0
+Ligue 1,926772,2024-08-24,19:00,3386,Saint-Etienne,3139,Le Havre,finished,0,2
+Ligue 1,926775,2024-08-25,13:00,3295,Lens,3199,Brest,finished,2,0
+Ligue 1,926770,2024-08-25,15:00,4231,Strasbourg,3001,Rennes,finished,3,1
+Ligue 1,926774,2024-08-25,15:00,3027,Nice,3129,Toulouse,finished,1,1
+Ligue 1,926771,2024-08-25,15:00,4232,Nantes,3002,Auxerre,finished,2,0
+Ligue 1,926777,2024-08-25,18:45,3769,Marseille,3354,Reims,finished,2,2
+Ligue 1,926779,2024-08-30,18:45,4230,Lyon,4231,Strasbourg,finished,4,3
+Ligue 1,926780,2024-08-31,15:00,3199,Brest,3386,Saint-Etienne,finished,4,0
+Ligue 1,926781,2024-08-31,17:00,3375,Montpellier,4232,Nantes,finished,1,3
+Ligue 1,926786,2024-08-31,19:00,3129,Toulouse,3769,Marseille,finished,1,3
+Ligue 1,926783,2024-09-01,13:00,4234,Monaco,3295,Lens,finished,1,1
+Ligue 1,926785,2024-09-01,15:00,3354,Reims,3001,Rennes,finished,2,1
+Ligue 1,926784,2024-09-01,15:00,3139,Le Havre,3002,Auxerre,finished,3,1
+Ligue 1,926782,2024-09-01,15:00,2849,Angers,3027,Nice,finished,1,4
+Ligue 1,926778,2024-09-01,18:45,4229,Lille,4228,PSG,finished,1,3
+Ligue 1,926793,2024-09-13,18:45,3386,Saint-Etienne,4229,Lille,finished,1,0
+Ligue 1,926794,2024-09-14,15:00,3769,Marseille,3027,Nice,finished,2,0
+Ligue 1,926787,2024-09-14,17:00,3002,Auxerre,4234,Monaco,finished,0,3
+Ligue 1,926795,2024-09-14,19:00,4228,PSG,3199,Brest,finished,3,1
+Ligue 1,926788,2024-09-15,13:00,3001,Rennes,3375,Montpellier,finished,3,0
+Ligue 1,926790,2024-09-15,15:00,4232,Nantes,3354,Reims,finished,1,2
+Ligue 1,926792,2024-09-15,15:00,4231,Strasbourg,2849,Angers,finished,1,1
+Ligue 1,926791,2024-09-15,15:00,3129,Toulouse,3139,Le Havre,finished,2,0
+Ligue 1,926789,2024-09-15,18:45,3295,Lens,4230,Lyon,finished,0,0
+Ligue 1,926797,2024-09-20,18:45,3027,Nice,3386,Saint-Etienne,finished,8,0
+Ligue 1,926802,2024-09-21,15:00,4229,Lille,4231,Strasbourg,finished,3,3
+Ligue 1,926803,2024-09-21,17:00,3001,Rennes,3295,Lens,finished,1,1
+Ligue 1,926798,2024-09-21,19:00,3354,Reims,4228,PSG,finished,1,1
+Ligue 1,926804,2024-09-22,13:00,4234,Monaco,3139,Le Havre,finished,3,1
+Ligue 1,926800,2024-09-22,15:00,2849,Angers,4232,Nantes,finished,1,1
+Ligue 1,926799,2024-09-22,15:00,3199,Brest,3129,Toulouse,finished,2,0
+Ligue 1,926801,2024-09-22,15:00,3375,Montpellier,3002,Auxerre,finished,3,2
+Ligue 1,926796,2024-09-22,18:45,4230,Lyon,3769,Marseille,finished,2,3
+Ligue 1,926807,2024-09-27,17:00,3002,Auxerre,3199,Brest,finished,3,0
+Ligue 1,926806,2024-09-27,19:00,4228,PSG,3001,Rennes,finished,3,1
+Ligue 1,926808,2024-09-28,15:00,3295,Lens,3027,Nice,finished,0,0
+Ligue 1,926810,2024-09-28,17:00,3139,Le Havre,4229,Lille,finished,0,3
+Ligue 1,926812,2024-09-28,19:00,4234,Monaco,3375,Montpellier,finished,2,1
+Ligue 1,926811,2024-09-29,13:00,3129,Toulouse,4230,Lyon,finished,1,2
+Ligue 1,926809,2024-09-29,15:00,4232,Nantes,3386,Saint-Etienne,finished,2,2
+Ligue 1,926813,2024-09-29,15:00,2849,Angers,3354,Reims,finished,1,3
+Ligue 1,926805,2024-09-29,18:45,4231,Strasbourg,3769,Marseille,finished,1,0
+Ligue 1,926819,2024-10-04,18:45,3769,Marseille,2849,Angers,finished,1,1
+Ligue 1,926817,2024-10-05,15:00,3386,Saint-Etienne,3002,Auxerre,finished,3,1
+Ligue 1,926816,2024-10-05,17:00,4229,Lille,3129,Toulouse,finished,2,1
+Ligue 1,926820,2024-10-05,19:00,3001,Rennes,4234,Monaco,finished,1,2
+Ligue 1,926814,2024-10-06,13:00,4230,Lyon,4232,Nantes,finished,2,0
+Ligue 1,926818,2024-10-06,15:00,3199,Brest,3139,Le Havre,finished,2,0
+Ligue 1,926821,2024-10-06,15:00,4231,Strasbourg,3295,Lens,finished,2,2
+Ligue 1,926822,2024-10-06,15:00,3354,Reims,3375,Montpellier,finished,4,2
+Ligue 1,926815,2024-10-06,18:45,3027,Nice,4228,PSG,finished,1,1
+Ligue 1,926828,2024-10-18,18:45,4234,Monaco,4229,Lille,finished,0,0
+Ligue 1,926830,2024-10-19,15:00,3199,Brest,3001,Rennes,finished,1,1
+Ligue 1,926829,2024-10-19,17:00,3386,Saint-Etienne,3295,Lens,finished,0,2
+Ligue 1,926831,2024-10-19,19:00,4228,PSG,4231,Strasbourg,finished,4,2
+Ligue 1,926825,2024-10-20,13:00,3139,Le Havre,4230,Lyon,finished,0,4
+Ligue 1,926826,2024-10-20,15:00,4232,Nantes,3027,Nice,finished,1,1
+Ligue 1,926823,2024-10-20,15:00,3002,Auxerre,3354,Reims,finished,2,1
+Ligue 1,926824,2024-10-20,15:00,3129,Toulouse,2849,Angers,finished,1,1
+Ligue 1,926827,2024-10-20,18:45,3375,Montpellier,3769,Marseille,finished,0,5
+Ligue 1,926838,2024-10-25,18:45,3001,Rennes,3139,Le Havre,finished,1,0
+Ligue 1,926839,2024-10-26,15:00,2849,Angers,3386,Saint-Etienne,finished,4,2
+Ligue 1,926840,2024-10-26,17:00,3354,Reims,3199,Brest,finished,1,2
+Ligue 1,926833,2024-10-26,19:00,3295,Lens,4229,Lille,finished,0,2
+Ligue 1,926835,2024-10-27,14:00,4230,Lyon,3002,Auxerre,finished,2,2
+Ligue 1,926837,2024-10-27,16:00,4231,Strasbourg,4232,Nantes,finished,3,1
+Ligue 1,926836,2024-10-27,16:00,3375,Montpellier,3129,Toulouse,finished,0,3
+Ligue 1,926832,2024-10-27,16:00,3027,Nice,4234,Monaco,finished,2,1
+Ligue 1,926834,2024-10-27,19:45,3769,Marseille,4228,PSG,finished,0,3
+Ligue 1,926843,2024-11-01,18:00,4234,Monaco,2849,Angers,finished,0,1
+Ligue 1,926846,2024-11-01,20:00,4229,Lille,4230,Lyon,finished,1,1
+Ligue 1,926849,2024-11-02,16:00,4228,PSG,3295,Lens,finished,1,0
+Ligue 1,926848,2024-11-02,18:00,3199,Brest,3027,Nice,finished,0,1
+Ligue 1,926847,2024-11-02,20:00,3386,Saint-Etienne,4231,Strasbourg,finished,2,0
+Ligue 1,926842,2024-11-03,14:00,3129,Toulouse,3354,Reims,finished,1,0
+Ligue 1,926841,2024-11-03,16:00,3002,Auxerre,3001,Rennes,finished,4,0
+Ligue 1,926844,2024-11-03,16:00,3139,Le Havre,3375,Montpellier,finished,1,0
+Ligue 1,926845,2024-11-03,19:45,4232,Nantes,3769,Marseille,finished,1,2
+Ligue 1,926850,2024-11-08,19:45,3769,Marseille,3002,Auxerre,finished,1,3
+Ligue 1,926854,2024-11-09,16:00,4231,Strasbourg,4234,Monaco,finished,1,3
+Ligue 1,926855,2024-11-09,18:00,3295,Lens,4232,Nantes,finished,3,2
+Ligue 1,926858,2024-11-09,20:00,2849,Angers,4228,PSG,finished,2,4
+Ligue 1,926857,2024-11-10,14:00,3027,Nice,4229,Lille,finished,2,2
+Ligue 1,926852,2024-11-10,16:00,3375,Montpellier,3199,Brest,finished,3,1
+Ligue 1,926853,2024-11-10,16:00,3139,Le Havre,3354,Reims,finished,0,3
+Ligue 1,926856,2024-11-10,16:00,3001,Rennes,3129,Toulouse,finished,0,2
+Ligue 1,926851,2024-11-10,19:45,4230,Lyon,3386,Saint-Etienne,finished,1,0
+Ligue 1,926865,2024-11-22,18:00,4234,Monaco,3199,Brest,finished,3,2
+Ligue 1,926859,2024-11-22,20:00,4228,PSG,3129,Toulouse,finished,3,0
+Ligue 1,926860,2024-11-23,16:00,3295,Lens,3769,Marseille,finished,1,3
+Ligue 1,926862,2024-11-23,18:00,3386,Saint-Etienne,3375,Montpellier,finished,1,0
+Ligue 1,926867,2024-11-23,20:00,3354,Reims,4230,Lyon,finished,1,1
+Ligue 1,926863,2024-11-24,14:00,4229,Lille,3001,Rennes,finished,1,0
+Ligue 1,926866,2024-11-24,16:00,3002,Auxerre,2849,Angers,finished,1,0
+Ligue 1,926864,2024-11-24,16:00,4232,Nantes,3139,Le Havre,finished,0,2
+Ligue 1,926861,2024-11-24,19:45,3027,Nice,4231,Strasbourg,finished,2,1
+Ligue 1,926868,2024-11-29,19:45,3354,Reims,3295,Lens,finished,0,2
+Ligue 1,926869,2024-11-30,16:00,3001,Rennes,3386,Saint-Etienne,finished,5,0
+Ligue 1,926872,2024-11-30,18:00,3199,Brest,4231,Strasbourg,finished,3,1
+Ligue 1,926874,2024-11-30,20:00,4228,PSG,4232,Nantes,finished,1,1
+Ligue 1,926873,2024-12-01,14:00,3375,Montpellier,4229,Lille,finished,2,2
+Ligue 1,926870,2024-12-01,16:00,3139,Le Havre,2849,Angers,finished,0,1
+Ligue 1,926876,2024-12-01,16:00,4230,Lyon,3027,Nice,finished,4,1
+Ligue 1,926871,2024-12-01,16:00,3129,Toulouse,3002,Auxerre,finished,2,0
+Ligue 1,926875,2024-12-01,19:45,3769,Marseille,4234,Monaco,finished,2,1
+Ligue 1,926881,2024-12-06,18:00,4229,Lille,3199,Brest,finished,3,1
+Ligue 1,926878,2024-12-06,20:00,3002,Auxerre,4228,PSG,finished,0,0
+Ligue 1,926885,2024-12-07,16:00,4234,Monaco,3129,Toulouse,finished,2,0
+Ligue 1,926877,2024-12-07,18:00,3027,Nice,3139,Le Havre,finished,2,1
+Ligue 1,926880,2024-12-07,20:00,2849,Angers,4230,Lyon,finished,0,3
+Ligue 1,926882,2024-12-08,14:00,3295,Lens,3375,Montpellier,finished,2,0
+Ligue 1,926883,2024-12-08,16:00,4231,Strasbourg,3354,Reims,finished,0,0
+Ligue 1,926884,2024-12-08,16:00,4232,Nantes,3001,Rennes,finished,1,0
+Ligue 1,926879,2024-12-08,19:45,3386,Saint-Etienne,3769,Marseille,finished,0,2
+Ligue 1,926890,2024-12-13,19:45,3129,Toulouse,3386,Saint-Etienne,finished,2,1
+Ligue 1,926893,2024-12-14,16:00,3769,Marseille,4229,Lille,finished,1,1
+Ligue 1,926889,2024-12-14,18:00,3002,Auxerre,3295,Lens,finished,2,2
+Ligue 1,926888,2024-12-14,20:00,3354,Reims,4234,Monaco,finished,0,0
+Ligue 1,926891,2024-12-15,14:00,3375,Montpellier,3027,Nice,finished,2,2
+Ligue 1,926886,2024-12-15,16:00,3001,Rennes,2849,Angers,finished,2,0
+Ligue 1,926892,2024-12-15,16:00,3199,Brest,4232,Nantes,finished,4,1
+Ligue 1,926887,2024-12-15,16:00,3139,Le Havre,4231,Strasbourg,finished,0,3
+Ligue 1,926894,2024-12-15,19:45,4228,PSG,4230,Lyon,finished,3,1
+Ligue 1,926895,2024-12-18,20:00,4234,Monaco,4228,PSG,finished,2,4
+Ligue 1,926903,2025-01-03,20:00,3027,Nice,3001,Rennes,finished,3,2
+Ligue 1,926898,2025-01-04,16:00,3386,Saint-Etienne,3354,Reims,finished,3,1
+Ligue 1,926900,2025-01-04,18:00,4229,Lille,4232,Nantes,finished,1,1
+Ligue 1,926896,2025-01-04,20:00,4230,Lyon,3375,Montpellier,finished,1,0
+Ligue 1,926899,2025-01-05,14:00,2849,Angers,3199,Brest,finished,2,0
+Ligue 1,926897,2025-01-05,14:00,3295,Lens,3129,Toulouse,finished,0,1
+Ligue 1,926902,2025-01-05,14:00,4231,Strasbourg,3002,Auxerre,finished,3,1
+Ligue 1,926901,2025-01-05,19:45,3769,Marseille,3139,Le Havre,finished,5,1
+Ligue 1,926905,2025-01-10,18:00,4232,Nantes,4234,Monaco,finished,2,2
+Ligue 1,926906,2025-01-10,20:05,3002,Auxerre,4229,Lille,finished,0,0
+Ligue 1,926910,2025-01-11,16:00,3199,Brest,4230,Lyon,finished,2,1
+Ligue 1,926907,2025-01-11,18:00,3354,Reims,3027,Nice,finished,2,4
+Ligue 1,926912,2025-01-11,20:05,3001,Rennes,3769,Marseille,finished,1,2
+Ligue 1,926908,2025-01-12,14:00,3139,Le Havre,3295,Lens,finished,1,2
+Ligue 1,926909,2025-01-12,16:15,3375,Montpellier,2849,Angers,finished,1,3
+Ligue 1,926904,2025-01-12,16:15,3129,Toulouse,4231,Strasbourg,finished,1,2
+Ligue 1,926911,2025-01-12,19:45,4228,PSG,3386,Saint-Etienne,finished,2,1
+Ligue 1,926918,2025-01-17,18:00,3375,Montpellier,4234,Monaco,finished,2,1
+Ligue 1,926915,2025-01-17,20:05,4229,Lille,3027,Nice,finished,2,1
+Ligue 1,926914,2025-01-18,16:00,3295,Lens,4228,PSG,finished,1,2
+Ligue 1,926921,2025-01-18,18:00,3001,Rennes,3199,Brest,finished,1,2
+Ligue 1,926916,2025-01-18,20:05,4230,Lyon,3129,Toulouse,finished,0,0
+Ligue 1,926917,2025-01-19,14:00,3386,Saint-Etienne,4232,Nantes,finished,1,1
+Ligue 1,926919,2025-01-19,16:15,3354,Reims,3139,Le Havre,finished,1,1
+Ligue 1,926920,2025-01-19,16:15,2849,Angers,3002,Auxerre,finished,2,0
+Ligue 1,926913,2025-01-19,19:45,3769,Marseille,4231,Strasbourg,finished,1,1
+Ligue 1,926927,2025-01-24,19:45,3002,Auxerre,3386,Saint-Etienne,finished,1,1
+Ligue 1,926924,2025-01-25,16:00,4234,Monaco,3001,Rennes,finished,3,2
+Ligue 1,926922,2025-01-25,18:00,4231,Strasbourg,4229,Lille,finished,2,1
+Ligue 1,926929,2025-01-25,20:05,4228,PSG,3354,Reims,finished,1,1
+Ligue 1,926926,2025-01-26,14:00,3139,Le Havre,3199,Brest,finished,0,1
+Ligue 1,926923,2025-01-26,16:15,4232,Nantes,4230,Lyon,finished,1,1
+Ligue 1,926928,2025-01-26,16:15,3295,Lens,2849,Angers,finished,1,0
+Ligue 1,926925,2025-01-26,16:15,3129,Toulouse,3375,Montpellier,finished,1,2
+Ligue 1,926930,2025-01-26,19:45,3027,Nice,3769,Marseille,finished,2,0
+Ligue 1,926933,2025-01-31,19:45,3375,Montpellier,3295,Lens,finished,0,2
+Ligue 1,926932,2025-02-01,16:00,3199,Brest,4228,PSG,finished,2,5
+Ligue 1,926939,2025-02-01,18:00,4234,Monaco,3002,Auxerre,finished,4,2
+Ligue 1,926934,2025-02-01,20:05,4229,Lille,3386,Saint-Etienne,finished,4,1
+Ligue 1,926937,2025-02-02,14:00,3129,Toulouse,3027,Nice,finished,1,1
+Ligue 1,926938,2025-02-02,16:15,3001,Rennes,4231,Strasbourg,finished,1,0
+Ligue 1,926936,2025-02-02,16:15,2849,Angers,3139,Le Havre,finished,1,1
+Ligue 1,926935,2025-02-02,16:15,3354,Reims,4232,Nantes,finished,1,2
+Ligue 1,926931,2025-02-02,19:45,3769,Marseille,4230,Lyon,finished,3,2
+Ligue 1,926941,2025-02-07,18:00,4232,Nantes,3199,Brest,finished,0,2
+Ligue 1,926945,2025-02-07,20:05,4228,PSG,4234,Monaco,finished,4,1
+Ligue 1,926948,2025-02-08,16:00,3027,Nice,3295,Lens,finished,2,0
+Ligue 1,926943,2025-02-08,18:00,4229,Lille,3139,Le Havre,finished,1,2
+Ligue 1,926944,2025-02-08,20:05,3386,Saint-Etienne,3001,Rennes,finished,0,2
+Ligue 1,926946,2025-02-09,14:00,4230,Lyon,3354,Reims,finished,4,0
+Ligue 1,926942,2025-02-09,16:15,4231,Strasbourg,3375,Montpellier,finished,2,0
+Ligue 1,926940,2025-02-09,16:15,3002,Auxerre,3129,Toulouse,finished,2,2
+Ligue 1,926947,2025-02-09,19:45,2849,Angers,3769,Marseille,finished,0,2
+Ligue 1,926953,2025-02-14,19:45,3199,Brest,3002,Auxerre,finished,2,2
+Ligue 1,926950,2025-02-15,16:00,3769,Marseille,3386,Saint-Etienne,finished,5,1
+Ligue 1,926957,2025-02-15,18:00,4234,Monaco,4232,Nantes,finished,7,1
+Ligue 1,926949,2025-02-15,20:05,3129,Toulouse,4228,PSG,finished,0,1
+Ligue 1,926951,2025-02-16,14:00,3375,Montpellier,4230,Lyon,finished,1,4
+Ligue 1,926952,2025-02-16,16:15,3295,Lens,4231,Strasbourg,finished,0,2
+Ligue 1,926956,2025-02-16,16:15,3139,Le Havre,3027,Nice,finished,1,3
+Ligue 1,926955,2025-02-16,16:15,3354,Reims,2849,Angers,finished,0,1
+Ligue 1,926954,2025-02-16,19:45,3001,Rennes,4229,Lille,finished,0,2
+Ligue 1,926958,2025-02-21,19:45,3001,Rennes,3354,Reims,finished,1,0
+Ligue 1,926960,2025-02-22,16:00,4229,Lille,4234,Monaco,finished,2,1
+Ligue 1,926963,2025-02-22,18:00,3386,Saint-Etienne,2849,Angers,finished,3,3
+Ligue 1,926964,2025-02-22,20:05,3002,Auxerre,3769,Marseille,finished,3,0
+Ligue 1,926962,2025-02-23,14:00,4232,Nantes,3295,Lens,finished,3,1
+Ligue 1,926961,2025-02-23,16:15,4231,Strasbourg,3199,Brest,finished,0,0
+Ligue 1,926959,2025-02-23,16:15,3139,Le Havre,3129,Toulouse,finished,1,4
+Ligue 1,926965,2025-02-23,16:15,3027,Nice,3375,Montpellier,finished,2,0
+Ligue 1,926966,2025-02-23,19:45,4230,Lyon,4228,PSG,finished,2,3
+Ligue 1,926974,2025-02-28,19:45,4234,Monaco,3354,Reims,finished,3,0
+Ligue 1,926971,2025-03-01,16:00,3386,Saint-Etienne,3027,Nice,finished,1,3
+Ligue 1,926972,2025-03-01,18:00,3295,Lens,3139,Le Havre,finished,3,4
+Ligue 1,926967,2025-03-01,20:05,4228,PSG,4229,Lille,finished,4,1
+Ligue 1,926969,2025-03-02,14:00,4230,Lyon,3199,Brest,finished,2,1
+Ligue 1,926970,2025-03-02,16:15,3375,Montpellier,3001,Rennes,finished,0,4
+Ligue 1,926975,2025-03-02,16:15,2849,Angers,3129,Toulouse,finished,0,4
+Ligue 1,926973,2025-03-02,16:15,3002,Auxerre,4231,Strasbourg,finished,0,1
+Ligue 1,926968,2025-03-02,19:45,3769,Marseille,4232,Nantes,finished,2,0
+Ligue 1,926979,2025-03-07,19:45,3129,Toulouse,4234,Monaco,finished,1,1
+Ligue 1,926983,2025-03-08,16:00,3001,Rennes,4228,PSG,finished,1,4
+Ligue 1,926982,2025-03-08,18:00,4229,Lille,3375,Montpellier,finished,1,0
+Ligue 1,926984,2025-03-08,20:05,3769,Marseille,3295,Lens,finished,0,1
+Ligue 1,926981,2025-03-09,14:00,3199,Brest,2849,Angers,finished,2,0
+Ligue 1,926978,2025-03-09,16:15,4232,Nantes,4231,Strasbourg,finished,0,1
+Ligue 1,926976,2025-03-09,16:15,3139,Le Havre,3386,Saint-Etienne,finished,1,1
+Ligue 1,926977,2025-03-09,16:15,3354,Reims,3002,Auxerre,finished,0,2
+Ligue 1,926980,2025-03-09,19:45,3027,Nice,4230,Lyon,finished,0,2
+Ligue 1,926986,2025-03-14,19:45,3027,Nice,3002,Auxerre,finished,1,1
+Ligue 1,926992,2025-03-15,16:00,4232,Nantes,4229,Lille,finished,1,0
+Ligue 1,926993,2025-03-15,18:00,2849,Angers,4234,Monaco,finished,0,2
+Ligue 1,926990,2025-03-15,20:05,3295,Lens,3001,Rennes,finished,1,0
+Ligue 1,926989,2025-03-16,14:00,4230,Lyon,3139,Le Havre,finished,4,2
+Ligue 1,926991,2025-03-16,16:15,4231,Strasbourg,3129,Toulouse,finished,2,1
+Ligue 1,926988,2025-03-16,16:15,3199,Brest,3354,Reims,finished,0,0
+Ligue 1,926987,2025-03-16,16:15,3375,Montpellier,3386,Saint-Etienne,finished,0,2
+Ligue 1,926985,2025-03-16,19:45,4228,PSG,3769,Marseille,finished,3,1
+Ligue 1,926997,2025-03-28,19:45,4231,Strasbourg,4230,Lyon,finished,4,2
+Ligue 1,927000,2025-03-29,16:00,3354,Reims,3769,Marseille,finished,3,1
+Ligue 1,926999,2025-03-29,18:00,3386,Saint-Etienne,4228,PSG,finished,1,6
+Ligue 1,927002,2025-03-29,20:05,4234,Monaco,3027,Nice,finished,2,1
+Ligue 1,926998,2025-03-30,13:00,3129,Toulouse,3199,Brest,finished,2,4
+Ligue 1,926996,2025-03-30,15:15,3139,Le Havre,4232,Nantes,finished,3,2
+Ligue 1,926994,2025-03-30,15:15,2849,Angers,3001,Rennes,finished,0,3
+Ligue 1,926995,2025-03-30,15:15,3002,Auxerre,3375,Montpellier,finished,1,0
+Ligue 1,927001,2025-03-30,18:45,4229,Lille,3295,Lens,finished,1,0
+Ligue 1,927004,2025-04-04,18:45,3027,Nice,4232,Nantes,finished,1,2
+Ligue 1,927009,2025-04-05,15:00,4228,PSG,2849,Angers,finished,1,0
+Ligue 1,927005,2025-04-05,17:00,3199,Brest,4234,Monaco,finished,2,1
+Ligue 1,927007,2025-04-05,19:05,4230,Lyon,4229,Lille,finished,2,1
+Ligue 1,927008,2025-04-06,13:00,3295,Lens,3386,Saint-Etienne,finished,1,0
+Ligue 1,927010,2025-04-06,15:15,3354,Reims,4231,Strasbourg,finished,0,1
+Ligue 1,927011,2025-04-06,15:15,3001,Rennes,3002,Auxerre,finished,0,1
+Ligue 1,927006,2025-04-06,15:15,3375,Montpellier,3139,Le Havre,finished,0,2
+Ligue 1,927003,2025-04-06,18:45,3769,Marseille,3129,Toulouse,finished,3,2
+Ligue 1,927019,2025-04-11,18:45,3295,Lens,3354,Reims,finished,0,2
+Ligue 1,927020,2025-04-12,15:00,4234,Monaco,3769,Marseille,finished,3,0
+Ligue 1,927012,2025-04-12,17:00,3129,Toulouse,4229,Lille,finished,1,2
+Ligue 1,927016,2025-04-12,19:05,4231,Strasbourg,3027,Nice,finished,2,2
+Ligue 1,927017,2025-04-13,13:00,3386,Saint-Etienne,3199,Brest,finished,3,3
+Ligue 1,927013,2025-04-13,15:15,3139,Le Havre,3001,Rennes,finished,1,5
+Ligue 1,927018,2025-04-13,15:15,2849,Angers,3375,Montpellier,finished,2,0
+Ligue 1,927014,2025-04-13,18:45,3002,Auxerre,4230,Lyon,finished,1,3
+Ligue 1,927029,2025-04-18,18:45,3001,Rennes,4232,Nantes,finished,2,1
+Ligue 1,927025,2025-04-19,15:00,4228,PSG,3139,Le Havre,finished,2,1
+Ligue 1,927028,2025-04-19,17:00,4234,Monaco,4231,Strasbourg,finished,0,0
+Ligue 1,927026,2025-04-19,19:05,3769,Marseille,3375,Montpellier,finished,5,1
+Ligue 1,927024,2025-04-20,13:00,4229,Lille,3002,Auxerre,finished,3,1
+Ligue 1,927027,2025-04-20,15:15,3354,Reims,3129,Toulouse,finished,1,0
+Ligue 1,927022,2025-04-20,15:15,3027,Nice,2849,Angers,finished,2,1
+Ligue 1,927023,2025-04-20,15:15,3199,Brest,3295,Lens,finished,1,3
+Ligue 1,927021,2025-04-20,18:45,3386,Saint-Etienne,4230,Lyon,finished,2,1
+Ligue 1,927015,2025-04-22,18:45,4232,Nantes,4228,PSG,finished,1,1
+Ligue 1,927036,2025-04-25,18:45,4228,PSG,3027,Nice,finished,1,3
+Ligue 1,927031,2025-04-26,15:00,4231,Strasbourg,3386,Saint-Etienne,finished,3,1
+Ligue 1,927030,2025-04-26,17:00,3139,Le Havre,4234,Monaco,finished,1,1
+Ligue 1,927038,2025-04-26,19:05,4230,Lyon,3001,Rennes,finished,4,1
+Ligue 1,927035,2025-04-27,13:00,2849,Angers,4229,Lille,finished,0,2
+Ligue 1,927034,2025-04-27,15:15,3295,Lens,3002,Auxerre,finished,0,4
+Ligue 1,927033,2025-04-27,15:15,3375,Montpellier,3354,Reims,finished,0,0
+Ligue 1,927032,2025-04-27,15:15,4232,Nantes,3129,Toulouse,finished,0,0
+Ligue 1,927037,2025-04-27,18:45,3769,Marseille,3199,Brest,finished,4,1
+Ligue 1,927041,2025-05-02,18:45,3027,Nice,3354,Reims,finished,1,0
+Ligue 1,927046,2025-05-03,15:00,4231,Strasbourg,4228,PSG,finished,2,1
+Ligue 1,927045,2025-05-03,17:00,3129,Toulouse,3001,Rennes,finished,2,1
+Ligue 1,927043,2025-05-03,19:05,3386,Saint-Etienne,4234,Monaco,finished,1,3
+Ligue 1,927044,2025-05-04,13:00,4232,Nantes,2849,Angers,finished,0,1
+Ligue 1,927042,2025-05-04,15:15,3199,Brest,3375,Montpellier,finished,1,0
+Ligue 1,927047,2025-05-04,15:15,3002,Auxerre,3139,Le Havre,finished,1,2
+Ligue 1,927039,2025-05-04,15:15,4230,Lyon,3295,Lens,finished,1,2
+Ligue 1,927040,2025-05-04,18:45,4229,Lille,3769,Marseille,finished,1,1
+Ligue 1,927052,2025-05-10,19:00,3001,Rennes,3027,Nice,finished,2,0
+Ligue 1,927056,2025-05-10,19:00,4234,Monaco,4230,Lyon,finished,2,0
+Ligue 1,927050,2025-05-10,19:00,2849,Angers,4231,Strasbourg,finished,2,1
+Ligue 1,927053,2025-05-10,19:00,3375,Montpellier,4228,PSG,finished,1,4
+Ligue 1,927048,2025-05-10,19:00,3354,Reims,3386,Saint-Etienne,finished,0,2
+Ligue 1,927054,2025-05-10,19:00,3129,Toulouse,3295,Lens,finished,1,1
+Ligue 1,927049,2025-05-10,19:00,3002,Auxerre,4232,Nantes,finished,1,1
+Ligue 1,927051,2025-05-10,19:00,3139,Le Havre,3769,Marseille,finished,1,3
+Ligue 1,927055,2025-05-10,19:00,3199,Brest,4229,Lille,finished,2,0
+Ligue 1,927058,2025-05-17,19:00,4230,Lyon,2849,Angers,finished,2,0
+Ligue 1,927064,2025-05-17,19:00,3295,Lens,4234,Monaco,finished,4,0
+Ligue 1,927059,2025-05-17,19:00,3027,Nice,3199,Brest,finished,6,0
+Ligue 1,927063,2025-05-17,19:00,4232,Nantes,3375,Montpellier,finished,3,0
+Ligue 1,927065,2025-05-17,19:00,4228,PSG,3002,Auxerre,finished,3,1
+Ligue 1,927060,2025-05-17,19:00,3386,Saint-Etienne,3129,Toulouse,finished,2,3
+Ligue 1,927061,2025-05-17,19:00,4229,Lille,3354,Reims,finished,2,1
+Ligue 1,927062,2025-05-17,19:00,4231,Strasbourg,3139,Le Havre,finished,2,3
+Ligue 1,927057,2025-05-17,19:00,3769,Marseille,3001,Rennes,finished,4,2

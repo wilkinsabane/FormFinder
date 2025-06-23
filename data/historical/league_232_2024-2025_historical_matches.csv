@@ -1,0 +1,553 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+League Two,929566,2024-08-09,19:00,5977,Chesterfield,2713,Swindon Town,finished,1,1
+League Two,929567,2024-08-10,14:00,4174,AFC Wimbledon,3066,Colchester United,finished,4,2
+League Two,929572,2024-08-10,14:00,4169,Gillingham,4189,Carlisle United,finished,4,1
+League Two,929570,2024-08-10,14:00,4166,Doncaster Rovers,4170,Accrington Stanley,finished,4,1
+League Two,929569,2024-08-10,14:00,3453,Cheltenham Town,3065,Newport County,finished,3,2
+League Two,929568,2024-08-10,14:00,4197,Barrow,4180,Crewe Alexandra,finished,1,0
+League Two,929575,2024-08-10,14:00,4195,Salford City,4184,Port Vale,finished,0,2
+League Two,929573,2024-08-10,14:00,2701,Harrogate Town,6170,Bromley,finished,0,2
+League Two,929574,2024-08-10,14:00,4178,Milton Keynes Dons,3075,Bradford City,finished,1,2
+League Two,929571,2024-08-10,14:00,4167,Fleetwood Town,3450,Grimsby Town,finished,1,0
+League Two,929576,2024-08-10,14:00,4179,Tranmere Rovers,4193,Notts County,finished,0,0
+League Two,929577,2024-08-10,14:00,4175,Walsall,4182,Morecambe,finished,1,0
+League Two,929581,2024-08-17,11:30,4189,Carlisle United,4197,Barrow,finished,1,0
+League Two,929580,2024-08-17,11:30,6170,Bromley,4174,AFC Wimbledon,finished,2,0
+League Two,929589,2024-08-17,14:00,2713,Swindon Town,4175,Walsall,finished,0,4
+League Two,929584,2024-08-17,14:00,3450,Grimsby Town,3453,Cheltenham Town,finished,3,2
+League Two,929583,2024-08-17,14:00,4180,Crewe Alexandra,5977,Chesterfield,finished,0,5
+League Two,929588,2024-08-17,14:00,4184,Port Vale,4179,Tranmere Rovers,finished,0,0
+League Two,929582,2024-08-17,14:00,3066,Colchester United,4178,Milton Keynes Dons,finished,2,0
+League Two,929579,2024-08-17,14:00,3075,Bradford City,4195,Salford City,finished,0,0
+League Two,929578,2024-08-17,14:00,4170,Accrington Stanley,2701,Harrogate Town,finished,3,3
+League Two,929586,2024-08-17,14:00,3065,Newport County,4166,Doncaster Rovers,finished,3,1
+League Two,929585,2024-08-17,14:00,4182,Morecambe,4169,Gillingham,finished,0,1
+League Two,929587,2024-08-18,12:00,4193,Notts County,4167,Fleetwood Town,finished,2,2
+League Two,929600,2024-08-22,19:00,4193,Notts County,3450,Grimsby Town,finished,4,1
+League Two,929595,2024-08-24,11:30,4180,Crewe Alexandra,2713,Swindon Town,finished,0,0
+League Two,929601,2024-08-24,11:30,4179,Tranmere Rovers,4175,Walsall,finished,1,0
+League Two,929596,2024-08-24,14:00,4166,Doncaster Rovers,4182,Morecambe,finished,1,0
+League Two,929592,2024-08-24,14:00,3453,Cheltenham Town,4174,AFC Wimbledon,finished,0,1
+League Two,929597,2024-08-24,14:00,4167,Fleetwood Town,4169,Gillingham,finished,0,0
+League Two,929599,2024-08-24,14:00,3065,Newport County,4170,Accrington Stanley,finished,3,1
+League Two,929594,2024-08-24,14:00,3066,Colchester United,2701,Harrogate Town,finished,0,1
+League Two,929590,2024-08-24,14:00,4197,Barrow,4184,Port Vale,finished,4,0
+League Two,929593,2024-08-24,14:00,5977,Chesterfield,4195,Salford City,finished,1,1
+League Two,929591,2024-08-24,14:00,3075,Bradford City,6170,Bromley,finished,3,1
+League Two,929598,2024-08-24,14:00,4178,Milton Keynes Dons,4189,Carlisle United,finished,3,0
+League Two,929606,2024-08-31,11:30,4169,Gillingham,5977,Chesterfield,finished,1,0
+League Two,929610,2024-08-31,11:30,4184,Port Vale,4166,Doncaster Rovers,finished,2,3
+League Two,929603,2024-08-31,14:00,4170,Accrington Stanley,3066,Colchester United,finished,1,1
+League Two,929613,2024-08-31,14:00,4175,Walsall,3453,Cheltenham Town,finished,2,1
+League Two,929604,2024-08-31,14:00,6170,Bromley,4180,Crewe Alexandra,finished,1,2
+League Two,929608,2024-08-31,14:00,2701,Harrogate Town,4197,Barrow,finished,0,1
+League Two,929609,2024-08-31,14:00,4182,Morecambe,3065,Newport County,finished,0,1
+League Two,929612,2024-08-31,14:00,2713,Swindon Town,4193,Notts County,finished,1,2
+League Two,929605,2024-08-31,14:00,4189,Carlisle United,4179,Tranmere Rovers,finished,1,2
+League Two,929607,2024-08-31,14:00,3450,Grimsby Town,3075,Bradford City,finished,2,1
+League Two,929602,2024-08-31,14:00,4174,AFC Wimbledon,4167,Fleetwood Town,finished,1,0
+League Two,929611,2024-09-02,19:00,4195,Salford City,4178,Milton Keynes Dons,finished,1,0
+League Two,929614,2024-09-07,14:00,4197,Barrow,2713,Swindon Town,finished,1,1
+League Two,929620,2024-09-07,14:00,4166,Doncaster Rovers,4169,Gillingham,finished,1,0
+League Two,929624,2024-09-07,14:00,4193,Notts County,4170,Accrington Stanley,finished,2,0
+League Two,929623,2024-09-07,14:00,3065,Newport County,4184,Port Vale,finished,1,4
+League Two,929622,2024-09-07,14:00,4178,Milton Keynes Dons,4175,Walsall,finished,1,0
+League Two,929618,2024-09-07,14:00,3066,Colchester United,6170,Bromley,finished,1,1
+League Two,929617,2024-09-07,14:00,5977,Chesterfield,3450,Grimsby Town,finished,2,1
+League Two,929616,2024-09-07,14:00,3453,Cheltenham Town,2701,Harrogate Town,finished,1,0
+League Two,929615,2024-09-07,14:00,3075,Bradford City,4189,Carlisle United,finished,2,1
+League Two,929619,2024-09-07,14:00,4180,Crewe Alexandra,4182,Morecambe,finished,1,0
+League Two,929632,2024-09-12,19:00,2701,Harrogate Town,4166,Doncaster Rovers,finished,2,0
+League Two,929636,2024-09-14,11:30,2713,Swindon Town,3065,Newport County,finished,4,0
+League Two,929626,2024-09-14,11:30,4174,AFC Wimbledon,4178,Milton Keynes Dons,finished,3,0
+League Two,929628,2024-09-14,14:00,6170,Bromley,4193,Notts County,finished,2,4
+League Two,929627,2024-09-14,14:00,4170,Accrington Stanley,4180,Crewe Alexandra,finished,0,1
+League Two,929629,2024-09-14,14:00,4189,Carlisle United,4167,Fleetwood Town,finished,2,3
+League Two,929630,2024-09-14,14:00,4169,Gillingham,4179,Tranmere Rovers,finished,3,0
+League Two,929631,2024-09-14,14:00,3450,Grimsby Town,4197,Barrow,finished,1,2
+League Two,929634,2024-09-14,14:00,4184,Port Vale,5977,Chesterfield,finished,1,0
+League Two,929637,2024-09-14,14:00,4175,Walsall,3075,Bradford City,finished,2,1
+League Two,929635,2024-09-14,14:00,4195,Salford City,3453,Cheltenham Town,finished,2,1
+League Two,929633,2024-09-14,14:00,4182,Morecambe,3066,Colchester United,finished,3,3
+League Two,929638,2024-09-21,11:30,4170,Accrington Stanley,4184,Port Vale,finished,2,2
+League Two,929641,2024-09-21,11:30,5977,Chesterfield,3453,Cheltenham Town,finished,1,1
+League Two,929640,2024-09-21,14:00,3075,Bradford City,4174,AFC Wimbledon,finished,0,0
+League Two,929648,2024-09-21,14:00,4195,Salford City,4175,Walsall,finished,0,2
+League Two,929647,2024-09-21,14:00,4193,Notts County,4169,Gillingham,finished,0,1
+League Two,929646,2024-09-21,14:00,4178,Milton Keynes Dons,4166,Doncaster Rovers,finished,1,1
+League Two,929639,2024-09-21,14:00,4197,Barrow,3065,Newport County,finished,2,0
+League Two,929642,2024-09-21,14:00,3066,Colchester United,4179,Tranmere Rovers,finished,3,0
+League Two,929643,2024-09-21,14:00,4180,Crewe Alexandra,2701,Harrogate Town,finished,3,0
+League Two,929645,2024-09-21,14:00,3450,Grimsby Town,6170,Bromley,finished,1,0
+League Two,929649,2024-09-21,14:00,2713,Swindon Town,4189,Carlisle United,finished,0,2
+League Two,929644,2024-09-23,19:00,4167,Fleetwood Town,4182,Morecambe,finished,2,2
+League Two,929660,2024-09-27,18:45,4179,Tranmere Rovers,4195,Salford City,finished,0,0
+League Two,929661,2024-09-28,11:30,4175,Walsall,3066,Colchester United,finished,4,0
+League Two,929656,2024-09-28,11:30,2701,Harrogate Town,3075,Bradford City,finished,2,1
+League Two,929651,2024-09-28,14:00,6170,Bromley,4178,Milton Keynes Dons,finished,1,1
+League Two,929657,2024-09-28,14:00,4182,Morecambe,4193,Notts County,finished,1,1
+League Two,929658,2024-09-28,14:00,3065,Newport County,4180,Crewe Alexandra,finished,2,1
+League Two,929653,2024-09-28,14:00,3453,Cheltenham Town,4167,Fleetwood Town,finished,0,2
+League Two,929655,2024-09-28,14:00,4169,Gillingham,4197,Barrow,finished,2,0
+League Two,929652,2024-09-28,14:00,4189,Carlisle United,3450,Grimsby Town,finished,2,3
+League Two,929659,2024-09-28,14:00,4184,Port Vale,2713,Swindon Town,finished,2,1
+League Two,929654,2024-09-28,14:00,4166,Doncaster Rovers,5977,Chesterfield,finished,0,3
+League Two,929671,2024-10-01,18:45,4184,Port Vale,3066,Colchester United,finished,1,1
+League Two,929667,2024-10-01,18:45,4169,Gillingham,3450,Grimsby Town,finished,0,1
+League Two,929665,2024-10-01,18:45,3453,Cheltenham Town,4170,Accrington Stanley,finished,2,1
+League Two,929668,2024-10-01,18:45,2701,Harrogate Town,4178,Milton Keynes Dons,finished,1,5
+League Two,929669,2024-10-01,18:45,4182,Morecambe,3075,Bradford City,finished,1,1
+League Two,929664,2024-10-01,18:45,4189,Carlisle United,4193,Notts County,finished,0,2
+League Two,929666,2024-10-01,18:45,4166,Doncaster Rovers,4197,Barrow,finished,1,0
+League Two,929670,2024-10-01,18:45,3065,Newport County,4195,Salford City,finished,3,1
+League Two,929672,2024-10-01,18:45,4179,Tranmere Rovers,2713,Swindon Town,finished,1,1
+League Two,929663,2024-10-01,18:45,6170,Bromley,5977,Chesterfield,finished,2,2
+League Two,929673,2024-10-01,18:45,4175,Walsall,4167,Fleetwood Town,finished,2,6
+League Two,929681,2024-10-05,11:30,3450,Grimsby Town,4166,Doncaster Rovers,finished,0,3
+League Two,929680,2024-10-05,11:30,4167,Fleetwood Town,6170,Bromley,finished,0,0
+League Two,929675,2024-10-05,14:00,4197,Barrow,3453,Cheltenham Town,finished,2,1
+League Two,929683,2024-10-05,14:00,4193,Notts County,4184,Port Vale,finished,0,1
+League Two,929677,2024-10-05,14:00,5977,Chesterfield,4175,Walsall,finished,2,2
+League Two,929685,2024-10-05,14:00,2713,Swindon Town,2701,Harrogate Town,finished,0,0
+League Two,929678,2024-10-05,14:00,3066,Colchester United,4189,Carlisle United,finished,0,0
+League Two,929684,2024-10-05,14:00,4195,Salford City,4174,AFC Wimbledon,finished,1,0
+League Two,929682,2024-10-05,14:00,4178,Milton Keynes Dons,4179,Tranmere Rovers,finished,1,1
+League Two,929679,2024-10-05,14:00,4180,Crewe Alexandra,4169,Gillingham,finished,2,0
+League Two,929674,2024-10-05,14:00,4170,Accrington Stanley,4182,Morecambe,finished,2,1
+League Two,929676,2024-10-07,19:00,3075,Bradford City,3065,Newport County,finished,3,1
+League Two,929689,2024-10-12,11:30,5977,Chesterfield,4193,Notts County,finished,2,2
+League Two,929687,2024-10-12,14:00,4197,Barrow,4182,Morecambe,finished,0,1
+League Two,929688,2024-10-12,14:00,3453,Cheltenham Town,2713,Swindon Town,finished,2,3
+League Two,929694,2024-10-12,14:00,4178,Milton Keynes Dons,4184,Port Vale,finished,0,1
+League Two,929693,2024-10-12,14:00,2701,Harrogate Town,3065,Newport County,finished,1,0
+League Two,929695,2024-10-12,14:00,4195,Salford City,3450,Grimsby Town,finished,1,2
+League Two,929696,2024-10-12,14:00,4179,Tranmere Rovers,3075,Bradford City,finished,0,2
+League Two,929686,2024-10-12,14:00,4174,AFC Wimbledon,4189,Carlisle United,finished,4,0
+League Two,929690,2024-10-12,14:00,4166,Doncaster Rovers,4180,Crewe Alexandra,finished,1,1
+League Two,929692,2024-10-12,14:00,4169,Gillingham,4170,Accrington Stanley,finished,1,2
+League Two,929706,2024-10-18,19:00,3065,Newport County,5977,Chesterfield,finished,0,3
+League Two,929698,2024-10-19,11:30,4170,Accrington Stanley,4197,Barrow,finished,1,0
+League Two,929707,2024-10-19,14:00,4193,Notts County,4174,AFC Wimbledon,finished,1,0
+League Two,929701,2024-10-19,14:00,4189,Carlisle United,2701,Harrogate Town,finished,1,1
+League Two,929708,2024-10-19,14:00,4184,Port Vale,4167,Fleetwood Town,finished,3,1
+League Two,929704,2024-10-19,14:00,3450,Grimsby Town,4175,Walsall,finished,1,4
+League Two,929699,2024-10-19,14:00,3075,Bradford City,4169,Gillingham,finished,2,1
+League Two,929703,2024-10-19,14:00,4180,Crewe Alexandra,4195,Salford City,finished,1,1
+League Two,929700,2024-10-19,14:00,6170,Bromley,4179,Tranmere Rovers,finished,1,2
+League Two,929702,2024-10-19,14:00,3066,Colchester United,3453,Cheltenham Town,finished,1,2
+League Two,929705,2024-10-19,14:00,4182,Morecambe,4178,Milton Keynes Dons,finished,1,3
+League Two,929709,2024-10-19,14:00,2713,Swindon Town,4166,Doncaster Rovers,finished,1,2
+League Two,929716,2024-10-22,18:45,4169,Gillingham,3065,Newport County,finished,0,2
+League Two,929711,2024-10-22,18:45,4197,Barrow,4193,Notts County,finished,1,1
+League Two,929712,2024-10-22,18:45,3453,Cheltenham Town,3075,Bradford City,finished,1,1
+League Two,929713,2024-10-22,18:45,5977,Chesterfield,3066,Colchester United,finished,1,1
+League Two,929714,2024-10-22,18:45,4166,Doncaster Rovers,6170,Bromley,finished,0,1
+League Two,929715,2024-10-22,18:45,4167,Fleetwood Town,4180,Crewe Alexandra,finished,0,1
+League Two,929721,2024-10-22,18:45,4175,Walsall,4189,Carlisle United,finished,3,1
+League Two,929718,2024-10-22,18:45,4178,Milton Keynes Dons,4170,Accrington Stanley,finished,2,1
+League Two,929719,2024-10-22,18:45,4195,Salford City,2713,Swindon Town,finished,2,1
+League Two,929717,2024-10-22,18:45,2701,Harrogate Town,4184,Port Vale,finished,0,1
+League Two,929710,2024-10-22,18:45,4174,AFC Wimbledon,4182,Morecambe,finished,3,0
+League Two,929720,2024-10-22,18:45,4179,Tranmere Rovers,3450,Grimsby Town,finished,0,1
+League Two,929726,2024-10-26,11:30,3066,Colchester United,4195,Salford City,finished,1,2
+League Two,929729,2024-10-26,11:30,4182,Morecambe,5977,Chesterfield,finished,2,5
+League Two,929731,2024-10-26,14:00,4193,Notts County,2701,Harrogate Town,finished,1,0
+League Two,929733,2024-10-26,14:00,2713,Swindon Town,4169,Gillingham,finished,1,1
+League Two,929724,2024-10-26,14:00,6170,Bromley,4197,Barrow,finished,1,1
+League Two,929725,2024-10-26,14:00,4189,Carlisle United,3453,Cheltenham Town,finished,0,1
+League Two,929728,2024-10-26,14:00,3450,Grimsby Town,4178,Milton Keynes Dons,finished,1,3
+League Two,929732,2024-10-26,14:00,4184,Port Vale,4174,AFC Wimbledon,finished,3,2
+League Two,929730,2024-10-26,14:00,3065,Newport County,4167,Fleetwood Town,finished,0,0
+League Two,929727,2024-10-26,14:00,4180,Crewe Alexandra,4179,Tranmere Rovers,finished,3,1
+League Two,929723,2024-10-26,14:00,3075,Bradford City,4166,Doncaster Rovers,finished,1,2
+League Two,929722,2024-10-26,14:00,4170,Accrington Stanley,4175,Walsall,finished,0,0
+League Two,929621,2024-10-29,19:45,4167,Fleetwood Town,4195,Salford City,finished,2,2
+League Two,929741,2024-11-09,12:30,2701,Harrogate Town,4182,Morecambe,finished,1,2
+League Two,929743,2024-11-09,12:30,4195,Salford City,4189,Carlisle United,finished,0,1
+League Two,929739,2024-11-09,15:00,4167,Fleetwood Town,3075,Bradford City,finished,1,0
+League Two,929740,2024-11-09,15:00,4169,Gillingham,4184,Port Vale,finished,1,0
+League Two,929735,2024-11-09,15:00,4197,Barrow,3066,Colchester United,finished,1,1
+League Two,929738,2024-11-09,15:00,4166,Doncaster Rovers,4193,Notts County,finished,1,1
+League Two,929737,2024-11-09,15:00,5977,Chesterfield,4170,Accrington Stanley,finished,0,3
+League Two,929744,2024-11-09,15:00,4179,Tranmere Rovers,3065,Newport County,finished,2,1
+League Two,929745,2024-11-09,15:00,4175,Walsall,4180,Crewe Alexandra,finished,1,1
+League Two,929736,2024-11-09,15:00,3453,Cheltenham Town,6170,Bromley,finished,1,1
+League Two,929734,2024-11-09,15:00,4174,AFC Wimbledon,3450,Grimsby Town,finished,0,1
+League Two,929742,2024-11-09,15:00,4178,Milton Keynes Dons,2713,Swindon Town,finished,3,1
+League Two,929754,2024-11-16,15:00,4182,Morecambe,4184,Port Vale,finished,0,1
+League Two,929747,2024-11-16,15:00,4197,Barrow,4174,AFC Wimbledon,finished,1,3
+League Two,929752,2024-11-16,15:00,2701,Harrogate Town,5977,Chesterfield,finished,2,1
+League Two,929751,2024-11-16,15:00,4166,Doncaster Rovers,4195,Salford City,finished,1,1
+League Two,929750,2024-11-16,15:00,4180,Crewe Alexandra,4193,Notts County,finished,2,0
+League Two,929755,2024-11-16,15:00,3065,Newport County,3450,Grimsby Town,finished,0,0
+League Two,929753,2024-11-16,15:00,4178,Milton Keynes Dons,3453,Cheltenham Town,finished,3,2
+League Two,929746,2024-11-16,15:00,4170,Accrington Stanley,2713,Swindon Town,finished,2,2
+League Two,929748,2024-11-16,15:00,6170,Bromley,4189,Carlisle United,finished,1,1
+League Two,929749,2024-11-16,15:00,3066,Colchester United,3075,Bradford City,finished,1,1
+League Two,929650,2024-11-19,19:45,4174,AFC Wimbledon,4170,Accrington Stanley,finished,2,2
+League Two,929761,2024-11-22,19:45,3453,Cheltenham Town,4179,Tranmere Rovers,finished,1,0
+League Two,929765,2024-11-23,12:30,3450,Grimsby Town,3066,Colchester United,finished,0,1
+League Two,929766,2024-11-23,12:30,4193,Notts County,3065,Newport County,finished,0,0
+League Two,929769,2024-11-23,15:00,2713,Swindon Town,4182,Morecambe,finished,2,3
+League Two,929764,2024-11-23,15:00,4169,Gillingham,2701,Harrogate Town,finished,1,2
+League Two,929762,2024-11-23,15:00,5977,Chesterfield,4197,Barrow,finished,1,0
+League Two,929760,2024-11-23,15:00,4189,Carlisle United,4166,Doncaster Rovers,finished,0,0
+League Two,929758,2024-11-23,15:00,4174,AFC Wimbledon,4175,Walsall,finished,0,1
+League Two,929767,2024-11-25,20:00,4184,Port Vale,4180,Crewe Alexandra,finished,1,1
+League Two,929697,2024-11-26,19:45,4175,Walsall,6170,Bromley,finished,2,2
+League Two,929625,2024-11-26,19:45,4179,Tranmere Rovers,4174,AFC Wimbledon,finished,0,2
+League Two,929691,2024-11-30,12:30,4167,Fleetwood Town,3066,Colchester United,finished,0,0
+League Two,929773,2024-11-30,12:30,4189,Carlisle United,4180,Crewe Alexandra,finished,1,1
+League Two,929780,2024-12-03,19:45,4179,Tranmere Rovers,4182,Morecambe,finished,2,2
+League Two,929779,2024-12-03,19:45,4195,Salford City,2701,Harrogate Town,finished,2,0
+League Two,929777,2024-12-03,19:45,3450,Grimsby Town,4170,Accrington Stanley,finished,5,2
+League Two,929778,2024-12-03,19:45,4178,Milton Keynes Dons,5977,Chesterfield,finished,3,0
+League Two,929775,2024-12-03,19:45,3066,Colchester United,2713,Swindon Town,finished,4,0
+League Two,929774,2024-12-03,19:45,3453,Cheltenham Town,4184,Port Vale,finished,1,1
+League Two,929770,2024-12-03,19:45,4174,AFC Wimbledon,3065,Newport County,finished,2,2
+League Two,929771,2024-12-03,19:45,3075,Bradford City,4197,Barrow,finished,1,1
+League Two,929781,2024-12-03,19:45,4175,Walsall,4193,Notts County,finished,3,2
+League Two,929776,2024-12-04,19:45,4167,Fleetwood Town,4166,Doncaster Rovers,finished,2,4
+League Two,929772,2024-12-04,19:45,6170,Bromley,4169,Gillingham,finished,2,1
+League Two,929785,2024-12-07,12:30,4180,Crewe Alexandra,3075,Bradford City,finished,1,1
+League Two,929792,2024-12-07,12:30,4184,Port Vale,4175,Walsall,finished,0,1
+League Two,929793,2024-12-07,15:00,2713,Swindon Town,4167,Fleetwood Town,finished,3,1
+League Two,929789,2024-12-07,15:00,4182,Morecambe,3450,Grimsby Town,finished,0,3
+League Two,929788,2024-12-07,15:00,2701,Harrogate Town,4174,AFC Wimbledon,finished,0,3
+League Two,929782,2024-12-07,15:00,4170,Accrington Stanley,6170,Bromley,finished,1,2
+League Two,929786,2024-12-07,15:00,4166,Doncaster Rovers,3453,Cheltenham Town,finished,2,2
+League Two,929787,2024-12-07,15:00,4169,Gillingham,4195,Salford City,finished,1,0
+League Two,929784,2024-12-07,15:00,5977,Chesterfield,4179,Tranmere Rovers,finished,3,0
+League Two,929803,2024-12-14,12:30,4195,Salford City,4193,Notts County,finished,3,0
+League Two,929804,2024-12-14,12:30,4179,Tranmere Rovers,2701,Harrogate Town,finished,2,1
+League Two,929801,2024-12-14,15:00,3450,Grimsby Town,4180,Crewe Alexandra,finished,0,2
+League Two,929796,2024-12-14,15:00,6170,Bromley,4184,Port Vale,finished,0,0
+League Two,929797,2024-12-14,15:00,4189,Carlisle United,5977,Chesterfield,finished,0,2
+League Two,929805,2024-12-14,15:00,4175,Walsall,4197,Barrow,finished,1,0
+League Two,929802,2024-12-14,15:00,4178,Milton Keynes Dons,4169,Gillingham,finished,0,1
+League Two,929798,2024-12-14,15:00,3453,Cheltenham Town,4182,Morecambe,finished,2,0
+League Two,929799,2024-12-14,15:00,3066,Colchester United,3065,Newport County,finished,0,0
+League Two,929795,2024-12-14,15:00,3075,Bradford City,2713,Swindon Town,finished,1,0
+League Two,929794,2024-12-14,15:00,4174,AFC Wimbledon,4166,Doncaster Rovers,finished,1,0
+League Two,929800,2024-12-16,20:00,4167,Fleetwood Town,4170,Accrington Stanley,finished,1,1
+League Two,929811,2024-12-20,19:45,4169,Gillingham,3453,Cheltenham Town,finished,2,2
+League Two,929809,2024-12-20,19:45,4180,Crewe Alexandra,3066,Colchester United,finished,0,0
+League Two,929810,2024-12-21,12:30,4166,Doncaster Rovers,4179,Tranmere Rovers,finished,3,1
+League Two,929807,2024-12-21,12:30,4197,Barrow,4167,Fleetwood Town,finished,2,0
+League Two,929812,2024-12-21,15:00,2701,Harrogate Town,4175,Walsall,finished,0,2
+League Two,929814,2024-12-21,15:00,3065,Newport County,4178,Milton Keynes Dons,finished,6,3
+League Two,929813,2024-12-21,15:00,4182,Morecambe,6170,Bromley,finished,0,2
+League Two,929806,2024-12-21,15:00,4170,Accrington Stanley,4195,Salford City,finished,0,2
+League Two,929808,2024-12-21,15:00,5977,Chesterfield,4174,AFC Wimbledon,finished,1,0
+League Two,929816,2024-12-21,15:00,4184,Port Vale,4189,Carlisle United,finished,0,0
+League Two,929815,2024-12-21,15:00,4193,Notts County,3075,Bradford City,finished,3,0
+League Two,929817,2024-12-21,15:00,2713,Swindon Town,3450,Grimsby Town,finished,3,1
+League Two,929829,2024-12-26,15:00,4175,Walsall,4166,Doncaster Rovers,finished,2,0
+League Two,929819,2024-12-26,15:00,3075,Bradford City,4184,Port Vale,finished,2,1
+League Two,929825,2024-12-26,15:00,3450,Grimsby Town,2701,Harrogate Town,finished,2,1
+League Two,929826,2024-12-26,15:00,4178,Milton Keynes Dons,4193,Notts County,finished,0,2
+League Two,929818,2024-12-26,15:00,4174,AFC Wimbledon,2713,Swindon Town,finished,1,1
+League Two,929827,2024-12-26,15:00,4195,Salford City,4197,Barrow,finished,3,0
+League Two,929822,2024-12-26,15:00,3453,Cheltenham Town,4180,Crewe Alexandra,finished,2,1
+League Two,929823,2024-12-26,15:00,3066,Colchester United,4169,Gillingham,finished,2,0
+League Two,929824,2024-12-26,15:00,4167,Fleetwood Town,5977,Chesterfield,finished,2,0
+League Two,929820,2024-12-26,15:00,6170,Bromley,3065,Newport County,finished,5,2
+League Two,929821,2024-12-26,15:00,4189,Carlisle United,4182,Morecambe,finished,0,1
+League Two,929833,2024-12-29,12:30,4189,Carlisle United,4170,Accrington Stanley,finished,2,1
+League Two,929832,2024-12-29,12:30,6170,Bromley,2713,Swindon Town,finished,1,1
+League Two,929840,2024-12-29,15:00,4179,Tranmere Rovers,4197,Barrow,finished,1,1
+League Two,929834,2024-12-29,15:00,3453,Cheltenham Town,4193,Notts County,finished,3,5
+League Two,929836,2024-12-29,15:00,4167,Fleetwood Town,2701,Harrogate Town,finished,1,1
+League Two,929831,2024-12-29,15:00,3075,Bradford City,5977,Chesterfield,finished,2,1
+League Two,929841,2024-12-29,15:00,4175,Walsall,3065,Newport County,finished,2,0
+League Two,929835,2024-12-29,15:00,3066,Colchester United,4166,Doncaster Rovers,finished,1,1
+League Two,929838,2024-12-29,15:00,4178,Milton Keynes Dons,4180,Crewe Alexandra,finished,1,1
+League Two,929837,2024-12-29,15:00,3450,Grimsby Town,4184,Port Vale,finished,3,0
+League Two,929839,2024-12-29,15:00,4195,Salford City,4182,Morecambe,finished,1,0
+League Two,929830,2024-12-30,20:00,4174,AFC Wimbledon,4169,Gillingham,finished,1,0
+League Two,929849,2025-01-01,15:00,4182,Morecambe,4179,Tranmere Rovers,finished,2,0
+League Two,929852,2025-01-01,15:00,4184,Port Vale,3453,Cheltenham Town,finished,0,0
+League Two,929845,2025-01-01,15:00,4180,Crewe Alexandra,4189,Carlisle United,finished,3,2
+League Two,929842,2025-01-01,15:00,4170,Accrington Stanley,3450,Grimsby Town,finished,3,2
+League Two,929853,2025-01-01,15:00,2713,Swindon Town,3066,Colchester United,finished,3,2
+League Two,929844,2025-01-01,15:00,5977,Chesterfield,4178,Milton Keynes Dons,finished,1,2
+League Two,929851,2025-01-01,15:00,4193,Notts County,4175,Walsall,finished,1,2
+League Two,929848,2025-01-01,15:00,2701,Harrogate Town,4195,Salford City,finished,0,2
+League Two,929843,2025-01-01,15:00,4197,Barrow,3075,Bradford City,finished,2,2
+League Two,929846,2025-01-01,15:00,4166,Doncaster Rovers,4167,Fleetwood Town,finished,2,1
+League Two,929850,2025-01-02,19:45,3065,Newport County,4174,AFC Wimbledon,finished,1,2
+League Two,929847,2025-01-02,19:45,4169,Gillingham,6170,Bromley,finished,0,3
+League Two,929864,2025-01-04,12:30,4193,Notts County,2713,Swindon Town,finished,2,0
+League Two,929855,2025-01-04,13:00,3075,Bradford City,3450,Grimsby Town,finished,3,1
+League Two,929865,2025-01-04,15:00,4179,Tranmere Rovers,4189,Carlisle United,finished,1,0
+League Two,929862,2025-01-04,15:00,4178,Milton Keynes Dons,4195,Salford City,finished,0,1
+League Two,929854,2025-01-04,15:00,4197,Barrow,2701,Harrogate Town,finished,0,2
+League Two,929858,2025-01-04,15:00,3066,Colchester United,4170,Accrington Stanley,finished,0,2
+League Two,929860,2025-01-04,15:00,4166,Doncaster Rovers,4184,Port Vale,finished,1,2
+League Two,929859,2025-01-05,15:00,4180,Crewe Alexandra,6170,Bromley,finished,4,1
+League Two,929877,2025-01-11,12:30,4175,Walsall,4179,Tranmere Rovers,finished,5,1
+League Two,929876,2025-01-11,15:00,2713,Swindon Town,4180,Crewe Alexandra,finished,0,0
+League Two,929884,2025-01-17,19:45,2701,Harrogate Town,3453,Cheltenham Town,finished,2,0
+League Two,929881,2025-01-18,12:30,4189,Carlisle United,3075,Bradford City,finished,0,1
+League Two,929882,2025-01-18,12:30,4169,Gillingham,4166,Doncaster Rovers,finished,0,1
+League Two,929879,2025-01-18,15:00,4170,Accrington Stanley,4193,Notts County,finished,0,3
+League Two,929885,2025-01-18,15:00,4182,Morecambe,4180,Crewe Alexandra,finished,0,1
+League Two,929878,2025-01-18,15:00,4174,AFC Wimbledon,4179,Tranmere Rovers,finished,2,0
+League Two,929888,2025-01-18,15:00,2713,Swindon Town,4197,Barrow,finished,2,0
+League Two,929889,2025-01-18,15:00,4175,Walsall,4178,Milton Keynes Dons,finished,4,2
+League Two,929880,2025-01-18,15:00,6170,Bromley,3066,Colchester United,finished,0,1
+League Two,929887,2025-01-18,15:00,4195,Salford City,4167,Fleetwood Town,finished,0,2
+League Two,929883,2025-01-18,15:00,3450,Grimsby Town,5977,Chesterfield,finished,1,1
+League Two,929886,2025-01-18,15:00,4184,Port Vale,3065,Newport County,finished,3,2
+League Two,929763,2025-01-21,19:45,4167,Fleetwood Town,4178,Milton Keynes Dons,finished,2,1
+League Two,929872,2025-01-21,19:45,2701,Harrogate Town,3066,Colchester United,finished,0,0
+League Two,929899,2025-01-24,19:45,3065,Newport County,2713,Swindon Town,finished,1,2
+League Two,929891,2025-01-25,12:30,3075,Bradford City,4175,Walsall,finished,3,0
+League Two,929898,2025-01-25,12:30,4178,Milton Keynes Dons,4174,AFC Wimbledon,finished,0,0
+League Two,929896,2025-01-25,15:00,4166,Doncaster Rovers,2701,Harrogate Town,finished,1,0
+League Two,929900,2025-01-25,15:00,4193,Notts County,6170,Bromley,finished,1,1
+League Two,929894,2025-01-25,15:00,3066,Colchester United,4182,Morecambe,finished,1,0
+League Two,929890,2025-01-25,15:00,4197,Barrow,3450,Grimsby Town,finished,3,0
+League Two,929893,2025-01-25,15:00,5977,Chesterfield,4184,Port Vale,finished,1,1
+League Two,929897,2025-01-25,15:00,4167,Fleetwood Town,4189,Carlisle United,finished,1,2
+League Two,929901,2025-01-25,15:00,4179,Tranmere Rovers,4169,Gillingham,finished,1,1
+League Two,929892,2025-01-25,15:00,3453,Cheltenham Town,4195,Salford City,finished,2,1
+League Two,929895,2025-01-25,15:00,4180,Crewe Alexandra,4170,Accrington Stanley,finished,0,1
+League Two,929912,2025-01-28,19:45,4195,Salford City,3065,Newport County,finished,1,1
+League Two,929910,2025-01-28,19:45,4178,Milton Keynes Dons,2701,Harrogate Town,finished,2,1
+League Two,929902,2025-01-28,19:45,4170,Accrington Stanley,3453,Cheltenham Town,finished,0,0
+League Two,929907,2025-01-28,19:45,4180,Crewe Alexandra,4174,AFC Wimbledon,finished,1,1
+League Two,929911,2025-01-28,19:45,4193,Notts County,4189,Carlisle United,finished,1,0
+League Two,929913,2025-01-28,19:45,2713,Swindon Town,4179,Tranmere Rovers,finished,3,1
+League Two,929909,2025-01-28,19:45,3450,Grimsby Town,4169,Gillingham,finished,1,1
+League Two,929908,2025-01-28,19:45,4167,Fleetwood Town,4175,Walsall,finished,2,0
+League Two,929904,2025-01-28,19:45,3075,Bradford City,4182,Morecambe,finished,1,0
+League Two,929905,2025-01-28,19:45,5977,Chesterfield,6170,Bromley,finished,3,0
+League Two,929903,2025-01-29,20:00,4197,Barrow,4166,Doncaster Rovers,finished,1,3
+League Two,929917,2025-02-01,12:30,3453,Cheltenham Town,5977,Chesterfield,finished,1,0
+League Two,929919,2025-02-01,12:30,4169,Gillingham,4193,Notts County,finished,1,2
+League Two,929918,2025-02-01,15:00,4166,Doncaster Rovers,4178,Milton Keynes Dons,finished,2,1
+League Two,929921,2025-02-01,15:00,4182,Morecambe,4167,Fleetwood Town,finished,4,2
+League Two,929914,2025-02-01,15:00,4174,AFC Wimbledon,3075,Bradford City,finished,1,0
+League Two,929915,2025-02-01,15:00,6170,Bromley,3450,Grimsby Town,finished,0,2
+League Two,929916,2025-02-01,15:00,4189,Carlisle United,2713,Swindon Town,finished,1,5
+League Two,929920,2025-02-01,15:00,2701,Harrogate Town,4180,Crewe Alexandra,finished,1,1
+League Two,929922,2025-02-01,15:00,3065,Newport County,4197,Barrow,finished,1,0
+League Two,929924,2025-02-01,15:00,4179,Tranmere Rovers,3066,Colchester United,finished,1,3
+League Two,929925,2025-02-01,15:00,4175,Walsall,4195,Salford City,finished,2,2
+League Two,929923,2025-02-01,15:00,4184,Port Vale,4170,Accrington Stanley,finished,2,1
+League Two,929768,2025-02-04,19:45,4195,Salford City,6170,Bromley,finished,3,3
+League Two,929863,2025-02-04,19:45,3065,Newport County,4182,Morecambe,finished,2,1
+League Two,929929,2025-02-06,19:45,5977,Chesterfield,4166,Doncaster Rovers,finished,5,2
+League Two,929928,2025-02-08,12:30,3075,Bradford City,2701,Harrogate Town,finished,1,0
+League Two,929937,2025-02-08,12:30,2713,Swindon Town,4184,Port Vale,finished,3,3
+League Two,929936,2025-02-08,15:00,4195,Salford City,4179,Tranmere Rovers,finished,2,0
+League Two,929935,2025-02-08,15:00,4193,Notts County,4182,Morecambe,finished,2,0
+League Two,929932,2025-02-08,15:00,4167,Fleetwood Town,3453,Cheltenham Town,finished,2,0
+League Two,929933,2025-02-08,15:00,3450,Grimsby Town,4189,Carlisle United,finished,2,1
+League Two,929930,2025-02-08,15:00,3066,Colchester United,4175,Walsall,finished,2,1
+League Two,929926,2025-02-08,15:00,4170,Accrington Stanley,4174,AFC Wimbledon,finished,0,0
+League Two,929934,2025-02-08,15:00,4178,Milton Keynes Dons,6170,Bromley,finished,0,1
+League Two,929931,2025-02-08,15:00,4180,Crewe Alexandra,3065,Newport County,finished,0,3
+League Two,929927,2025-02-08,15:00,4197,Barrow,4169,Gillingham,finished,3,0
+League Two,929759,2025-02-11,19:45,3075,Bradford City,4170,Accrington Stanley,finished,1,0
+League Two,929790,2025-02-11,19:45,3065,Newport County,4189,Carlisle United,finished,1,0
+League Two,929783,2025-02-11,19:45,4197,Barrow,4178,Milton Keynes Dons,finished,2,1
+League Two,929756,2025-02-11,19:45,4179,Tranmere Rovers,4167,Fleetwood Town,finished,0,0
+League Two,929757,2025-02-11,19:45,4175,Walsall,4169,Gillingham,finished,1,1
+League Two,929662,2025-02-11,19:45,4174,AFC Wimbledon,4180,Crewe Alexandra,finished,3,0
+League Two,929947,2025-02-13,20:00,4184,Port Vale,4193,Notts County,finished,1,0
+League Two,929942,2025-02-15,12:30,4166,Doncaster Rovers,3450,Grimsby Town,finished,1,2
+League Two,929938,2025-02-15,12:30,4174,AFC Wimbledon,4195,Salford City,finished,1,0
+League Two,929945,2025-02-15,15:00,4182,Morecambe,4170,Accrington Stanley,finished,2,0
+League Two,929946,2025-02-15,15:00,3065,Newport County,3075,Bradford City,finished,0,0
+League Two,929941,2025-02-15,15:00,3453,Cheltenham Town,4197,Barrow,finished,3,2
+League Two,929944,2025-02-15,15:00,2701,Harrogate Town,2713,Swindon Town,finished,1,0
+League Two,929943,2025-02-15,15:00,4169,Gillingham,4180,Crewe Alexandra,finished,0,0
+League Two,929939,2025-02-15,15:00,6170,Bromley,4167,Fleetwood Town,finished,1,0
+League Two,929949,2025-02-15,15:00,4175,Walsall,5977,Chesterfield,finished,3,1
+League Two,929940,2025-02-15,15:00,4189,Carlisle United,3066,Colchester United,finished,0,0
+League Two,929948,2025-02-15,15:00,4179,Tranmere Rovers,4178,Milton Keynes Dons,finished,1,1
+League Two,929873,2025-02-18,19:45,4182,Morecambe,4166,Doncaster Rovers,finished,0,1
+League Two,929861,2025-02-18,19:45,4167,Fleetwood Town,4174,AFC Wimbledon,finished,0,0
+League Two,929791,2025-02-18,19:45,4193,Notts County,3066,Colchester United,finished,1,1
+League Two,929955,2025-02-22,12:30,4180,Crewe Alexandra,4197,Barrow,finished,3,0
+League Two,929957,2025-02-22,12:30,4182,Morecambe,4175,Walsall,finished,0,2
+League Two,929958,2025-02-22,15:00,3065,Newport County,3453,Cheltenham Town,finished,0,3
+League Two,929953,2025-02-22,15:00,4189,Carlisle United,4169,Gillingham,finished,0,0
+League Two,929951,2025-02-22,15:00,3075,Bradford City,4178,Milton Keynes Dons,finished,2,0
+League Two,929952,2025-02-22,15:00,6170,Bromley,2701,Harrogate Town,finished,2,0
+League Two,929961,2025-02-22,15:00,2713,Swindon Town,5977,Chesterfield,finished,1,0
+League Two,929960,2025-02-22,15:00,4184,Port Vale,4195,Salford City,finished,2,1
+League Two,929959,2025-02-22,15:00,4193,Notts County,4179,Tranmere Rovers,finished,2,1
+League Two,929950,2025-02-22,15:00,4170,Accrington Stanley,4166,Doncaster Rovers,finished,1,2
+League Two,929954,2025-02-22,15:00,3066,Colchester United,4174,AFC Wimbledon,finished,1,1
+League Two,929956,2025-02-22,15:00,3450,Grimsby Town,4167,Fleetwood Town,finished,2,1
+League Two,929870,2025-02-25,19:45,4169,Gillingham,4167,Fleetwood Town,finished,1,2
+League Two,929856,2025-02-25,19:45,3453,Cheltenham Town,4175,Walsall,finished,2,2
+League Two,929868,2025-02-25,19:45,6170,Bromley,3075,Bradford City,finished,0,1
+League Two,929828,2025-02-25,19:45,4179,Tranmere Rovers,4170,Accrington Stanley,finished,0,1
+League Two,929963,2025-02-27,20:00,4197,Barrow,4189,Carlisle United,finished,0,1
+League Two,929971,2025-03-01,12:30,4195,Salford City,3075,Bradford City,finished,1,2
+League Two,929972,2025-03-01,12:30,4179,Tranmere Rovers,4184,Port Vale,finished,1,1
+League Two,929966,2025-03-01,15:00,4166,Doncaster Rovers,3065,Newport County,finished,3,0
+League Two,929973,2025-03-01,15:00,4175,Walsall,2713,Swindon Town,finished,0,1
+League Two,929969,2025-03-01,15:00,2701,Harrogate Town,4170,Accrington Stanley,finished,2,1
+League Two,929968,2025-03-01,15:00,4169,Gillingham,4182,Morecambe,finished,1,0
+League Two,929967,2025-03-01,15:00,4167,Fleetwood Town,4193,Notts County,finished,2,2
+League Two,929970,2025-03-01,15:00,4178,Milton Keynes Dons,3066,Colchester United,finished,0,1
+League Two,929964,2025-03-01,15:00,3453,Cheltenham Town,3450,Grimsby Town,finished,1,1
+League Two,929965,2025-03-01,15:00,5977,Chesterfield,4180,Crewe Alexandra,finished,1,3
+League Two,929962,2025-03-01,15:00,4174,AFC Wimbledon,6170,Bromley,finished,0,1
+League Two,929978,2025-03-04,19:45,3066,Colchester United,5977,Chesterfield,finished,1,0
+League Two,929976,2025-03-04,19:45,6170,Bromley,4166,Doncaster Rovers,finished,1,0
+League Two,929980,2025-03-04,19:45,3450,Grimsby Town,4179,Tranmere Rovers,finished,1,1
+League Two,929983,2025-03-04,19:45,4193,Notts County,4197,Barrow,finished,1,2
+League Two,929977,2025-03-04,19:45,4189,Carlisle United,4175,Walsall,finished,1,1
+League Two,929979,2025-03-04,19:45,4180,Crewe Alexandra,4167,Fleetwood Town,finished,1,4
+League Two,929984,2025-03-04,19:45,4184,Port Vale,2701,Harrogate Town,finished,0,0
+League Two,929981,2025-03-04,19:45,4182,Morecambe,4174,AFC Wimbledon,finished,1,0
+League Two,929982,2025-03-04,19:45,3065,Newport County,4169,Gillingham,finished,3,1
+League Two,929974,2025-03-04,19:45,4170,Accrington Stanley,4178,Milton Keynes Dons,finished,2,0
+League Two,929975,2025-03-04,19:45,3075,Bradford City,3453,Cheltenham Town,finished,3,0
+League Two,929985,2025-03-04,19:45,2713,Swindon Town,4195,Salford City,finished,2,2
+League Two,929997,2025-03-08,12:30,4175,Walsall,3450,Grimsby Town,finished,1,3
+League Two,929986,2025-03-08,12:30,4174,AFC Wimbledon,4193,Notts County,finished,2,0
+League Two,929990,2025-03-08,15:00,4166,Doncaster Rovers,2713,Swindon Town,finished,2,2
+League Two,929995,2025-03-08,15:00,4195,Salford City,4180,Crewe Alexandra,finished,1,1
+League Two,929989,2025-03-08,15:00,5977,Chesterfield,3065,Newport County,finished,2,1
+League Two,929987,2025-03-08,15:00,4197,Barrow,4170,Accrington Stanley,finished,2,0
+League Two,929992,2025-03-08,15:00,4169,Gillingham,3075,Bradford City,finished,1,0
+League Two,929996,2025-03-08,15:00,4179,Tranmere Rovers,6170,Bromley,finished,2,1
+League Two,929994,2025-03-08,15:00,4178,Milton Keynes Dons,4182,Morecambe,finished,2,1
+League Two,929993,2025-03-08,15:00,2701,Harrogate Town,4189,Carlisle United,finished,1,0
+League Two,929988,2025-03-08,15:00,3453,Cheltenham Town,3066,Colchester United,finished,0,1
+League Two,929991,2025-03-08,15:00,4167,Fleetwood Town,4184,Port Vale,finished,1,1
+League Two,929871,2025-03-11,19:45,3450,Grimsby Town,4193,Notts County,finished,0,2
+League Two,929867,2025-03-11,19:45,4170,Accrington Stanley,3065,Newport County,finished,5,0
+League Two,929906,2025-03-11,19:45,3066,Colchester United,4184,Port Vale,finished,2,1
+League Two,929875,2025-03-11,19:45,4195,Salford City,5977,Chesterfield,finished,0,4
+League Two,929866,2025-03-11,19:45,4174,AFC Wimbledon,3453,Cheltenham Town,finished,1,2
+League Two,930000,2025-03-13,20:00,6170,Bromley,4175,Walsall,finished,2,2
+League Two,930009,2025-03-15,12:30,2713,Swindon Town,3453,Cheltenham Town,finished,3,3
+League Two,930003,2025-03-15,12:30,4180,Crewe Alexandra,4166,Doncaster Rovers,finished,1,1
+League Two,930007,2025-03-15,15:00,4193,Notts County,5977,Chesterfield,finished,1,2
+League Two,930008,2025-03-15,15:00,4184,Port Vale,4178,Milton Keynes Dons,finished,3,0
+League Two,929999,2025-03-15,15:00,3075,Bradford City,4179,Tranmere Rovers,finished,0,1
+League Two,930002,2025-03-15,15:00,3066,Colchester United,4167,Fleetwood Town,finished,3,0
+League Two,930005,2025-03-15,15:00,4182,Morecambe,4197,Barrow,finished,2,2
+League Two,930006,2025-03-15,15:00,3065,Newport County,2701,Harrogate Town,finished,3,0
+League Two,929998,2025-03-15,15:00,4170,Accrington Stanley,4169,Gillingham,finished,1,1
+League Two,930001,2025-03-15,15:00,4189,Carlisle United,4174,AFC Wimbledon,finished,1,2
+League Two,930004,2025-03-15,15:00,3450,Grimsby Town,4195,Salford City,finished,0,1
+League Two,930018,2025-03-22,12:30,4193,Notts County,4180,Crewe Alexandra,finished,0,0
+League Two,930015,2025-03-22,15:00,4167,Fleetwood Town,4179,Tranmere Rovers,finished,0,0
+League Two,930017,2025-03-22,15:00,3450,Grimsby Town,3065,Newport County,finished,1,0
+League Two,930013,2025-03-22,15:00,3453,Cheltenham Town,4178,Milton Keynes Dons,finished,0,1
+League Two,930010,2025-03-22,15:00,4174,AFC Wimbledon,4197,Barrow,finished,2,2
+League Two,930011,2025-03-22,15:00,3075,Bradford City,3066,Colchester United,finished,4,1
+League Two,930016,2025-03-22,15:00,4169,Gillingham,4175,Walsall,finished,0,0
+League Two,930012,2025-03-22,15:00,4189,Carlisle United,6170,Bromley,finished,2,1
+League Two,930021,2025-03-22,15:00,2713,Swindon Town,4170,Accrington Stanley,finished,0,0
+League Two,930019,2025-03-22,15:00,4184,Port Vale,4182,Morecambe,finished,1,0
+League Two,930014,2025-03-22,15:00,5977,Chesterfield,2701,Harrogate Town,finished,0,0
+League Two,929874,2025-03-25,19:30,4184,Port Vale,4197,Barrow,finished,0,1
+League Two,929869,2025-03-25,19:45,4189,Carlisle United,4178,Milton Keynes Dons,finished,2,2
+League Two,930025,2025-03-28,19:45,3066,Colchester United,3450,Grimsby Town,finished,1,2
+League Two,930032,2025-03-28,19:45,4179,Tranmere Rovers,3453,Cheltenham Town,finished,2,0
+League Two,930022,2025-03-29,12:30,4170,Accrington Stanley,3075,Bradford City,finished,0,0
+League Two,930026,2025-03-29,12:30,4180,Crewe Alexandra,4184,Port Vale,finished,0,1
+League Two,930024,2025-03-29,15:00,6170,Bromley,4195,Salford City,finished,2,3
+League Two,930031,2025-03-29,15:00,3065,Newport County,4193,Notts County,finished,0,2
+League Two,930028,2025-03-29,15:00,2701,Harrogate Town,4169,Gillingham,finished,1,1
+League Two,930030,2025-03-29,15:00,4182,Morecambe,2713,Swindon Town,finished,1,0
+League Two,930029,2025-03-29,15:00,4178,Milton Keynes Dons,4167,Fleetwood Town,finished,2,4
+League Two,930033,2025-03-29,15:00,4175,Walsall,4174,AFC Wimbledon,finished,1,1
+League Two,930027,2025-03-29,15:00,4166,Doncaster Rovers,4189,Carlisle United,finished,3,0
+League Two,930023,2025-03-29,15:00,4197,Barrow,5977,Chesterfield,finished,0,1
+League Two,930037,2025-04-01,18:45,4180,Crewe Alexandra,3450,Grimsby Town,finished,2,0
+League Two,930035,2025-04-01,18:45,4197,Barrow,4195,Salford City,finished,1,1
+League Two,930045,2025-04-01,18:45,2713,Swindon Town,4174,AFC Wimbledon,finished,2,1
+League Two,930039,2025-04-01,18:45,4169,Gillingham,3066,Colchester United,finished,1,1
+League Two,930042,2025-04-01,18:45,3065,Newport County,6170,Bromley,finished,1,1
+League Two,930041,2025-04-01,18:45,4182,Morecambe,3453,Cheltenham Town,finished,2,0
+League Two,930044,2025-04-01,18:45,4184,Port Vale,3075,Bradford City,finished,2,0
+League Two,930038,2025-04-01,18:45,4166,Doncaster Rovers,4175,Walsall,finished,2,2
+League Two,930040,2025-04-01,18:45,2701,Harrogate Town,4179,Tranmere Rovers,finished,3,2
+League Two,930036,2025-04-01,18:45,5977,Chesterfield,4189,Carlisle United,finished,2,1
+League Two,930034,2025-04-01,18:45,4170,Accrington Stanley,4167,Fleetwood Town,finished,1,4
+League Two,930043,2025-04-02,18:45,4193,Notts County,4178,Milton Keynes Dons,finished,3,0
+League Two,930050,2025-04-05,11:30,3453,Cheltenham Town,4166,Doncaster Rovers,finished,0,2
+League Two,930057,2025-04-05,11:30,4175,Walsall,4184,Port Vale,finished,2,3
+League Two,930056,2025-04-05,11:45,4179,Tranmere Rovers,5977,Chesterfield,finished,4,0
+League Two,930047,2025-04-05,14:00,3075,Bradford City,4180,Crewe Alexandra,finished,2,0
+League Two,930054,2025-04-05,14:00,4178,Milton Keynes Dons,4197,Barrow,finished,0,3
+League Two,930053,2025-04-05,14:00,3450,Grimsby Town,4182,Morecambe,finished,3,1
+League Two,930051,2025-04-05,14:00,3066,Colchester United,4193,Notts County,finished,1,0
+League Two,930049,2025-04-05,14:00,4189,Carlisle United,3065,Newport County,finished,3,2
+League Two,930048,2025-04-05,14:00,6170,Bromley,4170,Accrington Stanley,finished,4,0
+League Two,930046,2025-04-05,14:00,4174,AFC Wimbledon,2701,Harrogate Town,finished,1,0
+League Two,930055,2025-04-05,14:00,4195,Salford City,4169,Gillingham,finished,2,2
+League Two,930052,2025-04-05,14:00,4167,Fleetwood Town,2713,Swindon Town,finished,0,4
+League Two,929857,2025-04-08,18:45,5977,Chesterfield,4169,Gillingham,finished,1,1
+League Two,930061,2025-04-10,19:00,4180,Crewe Alexandra,3453,Cheltenham Town,finished,2,3
+League Two,930067,2025-04-11,18:45,4193,Notts County,4195,Salford City,finished,1,3
+League Two,930062,2025-04-12,11:30,4166,Doncaster Rovers,4174,AFC Wimbledon,finished,1,1
+League Two,930069,2025-04-12,11:30,2713,Swindon Town,3075,Bradford City,finished,5,4
+League Two,930059,2025-04-12,14:00,4197,Barrow,4175,Walsall,finished,2,0
+League Two,930058,2025-04-12,14:00,4170,Accrington Stanley,4179,Tranmere Rovers,finished,3,3
+League Two,930060,2025-04-12,14:00,5977,Chesterfield,4167,Fleetwood Town,finished,3,0
+League Two,930068,2025-04-12,14:00,4184,Port Vale,6170,Bromley,finished,5,0
+League Two,930065,2025-04-12,14:00,4182,Morecambe,4189,Carlisle United,finished,0,2
+League Two,930064,2025-04-12,14:00,2701,Harrogate Town,3450,Grimsby Town,finished,2,2
+League Two,930063,2025-04-12,14:00,4169,Gillingham,4178,Milton Keynes Dons,finished,1,0
+League Two,930066,2025-04-12,14:00,3065,Newport County,3066,Colchester United,finished,0,2
+League Two,930020,2025-04-15,18:45,4195,Salford City,4166,Doncaster Rovers,finished,1,1
+League Two,930071,2025-04-17,19:00,3075,Bradford City,4193,Notts County,finished,1,1
+League Two,930079,2025-04-18,14:00,4195,Salford City,4170,Accrington Stanley,finished,1,2
+League Two,930076,2025-04-18,14:00,4167,Fleetwood Town,4197,Barrow,finished,0,0
+League Two,930077,2025-04-18,14:00,3450,Grimsby Town,2713,Swindon Town,finished,0,4
+League Two,930070,2025-04-18,14:00,4174,AFC Wimbledon,5977,Chesterfield,finished,0,0
+League Two,930072,2025-04-18,14:00,6170,Bromley,4182,Morecambe,finished,1,0
+League Two,930074,2025-04-18,14:00,3453,Cheltenham Town,4169,Gillingham,finished,1,1
+League Two,930075,2025-04-18,14:00,3066,Colchester United,4180,Crewe Alexandra,finished,0,0
+League Two,930073,2025-04-18,14:00,4189,Carlisle United,4184,Port Vale,finished,3,2
+League Two,930080,2025-04-18,14:00,4179,Tranmere Rovers,4166,Doncaster Rovers,finished,0,3
+League Two,930081,2025-04-18,14:00,4175,Walsall,2701,Harrogate Town,finished,2,2
+League Two,930078,2025-04-18,14:00,4178,Milton Keynes Dons,3065,Newport County,finished,0,0
+League Two,930090,2025-04-21,11:30,3065,Newport County,4175,Walsall,finished,0,0
+League Two,930085,2025-04-21,14:00,4180,Crewe Alexandra,4178,Milton Keynes Dons,finished,0,1
+League Two,930092,2025-04-21,14:00,4184,Port Vale,3450,Grimsby Town,finished,2,2
+League Two,930086,2025-04-21,14:00,4166,Doncaster Rovers,3066,Colchester United,finished,3,0
+League Two,930084,2025-04-21,14:00,5977,Chesterfield,3075,Bradford City,finished,3,3
+League Two,930087,2025-04-21,14:00,4169,Gillingham,4174,AFC Wimbledon,finished,1,0
+League Two,930083,2025-04-21,14:00,4197,Barrow,4179,Tranmere Rovers,finished,0,0
+League Two,930082,2025-04-21,14:00,4170,Accrington Stanley,4189,Carlisle United,finished,1,1
+League Two,930089,2025-04-21,14:00,4182,Morecambe,4195,Salford City,finished,1,3
+League Two,930091,2025-04-21,14:00,4193,Notts County,3453,Cheltenham Town,finished,1,2
+League Two,930093,2025-04-21,14:00,2713,Swindon Town,6170,Bromley,finished,0,1
+League Two,930088,2025-04-21,14:00,2701,Harrogate Town,4167,Fleetwood Town,finished,3,1
+League Two,930094,2025-04-26,11:30,4174,AFC Wimbledon,4184,Port Vale,finished,0,2
+League Two,930098,2025-04-26,11:30,4166,Doncaster Rovers,3075,Bradford City,finished,2,1
+League Two,930101,2025-04-26,12:00,2701,Harrogate Town,4193,Notts County,finished,1,3
+League Two,930100,2025-04-26,14:00,4169,Gillingham,2713,Swindon Town,finished,1,1
+League Two,930097,2025-04-26,14:00,5977,Chesterfield,4182,Morecambe,finished,4,1
+League Two,930103,2025-04-26,14:00,4195,Salford City,3066,Colchester United,finished,4,1
+League Two,930095,2025-04-26,14:00,4197,Barrow,6170,Bromley,finished,3,3
+League Two,930096,2025-04-26,14:00,3453,Cheltenham Town,4189,Carlisle United,finished,3,2
+League Two,930105,2025-04-26,14:00,4175,Walsall,4170,Accrington Stanley,finished,0,1
+League Two,930099,2025-04-26,14:00,4167,Fleetwood Town,3065,Newport County,finished,2,0
+League Two,930104,2025-04-26,14:00,4179,Tranmere Rovers,4180,Crewe Alexandra,finished,2,0
+League Two,930102,2025-04-26,14:00,4178,Milton Keynes Dons,3450,Grimsby Town,finished,0,0
+League Two,930113,2025-05-03,14:00,4182,Morecambe,2701,Harrogate Town,finished,1,2
+League Two,930106,2025-05-03,14:00,4170,Accrington Stanley,5977,Chesterfield,finished,0,1
+League Two,930117,2025-05-03,14:00,2713,Swindon Town,4178,Milton Keynes Dons,finished,0,0
+League Two,930110,2025-05-03,14:00,3066,Colchester United,4197,Barrow,finished,0,0
+League Two,930109,2025-05-03,14:00,4189,Carlisle United,4195,Salford City,finished,2,2
+League Two,930114,2025-05-03,14:00,3065,Newport County,4179,Tranmere Rovers,finished,1,4
+League Two,930108,2025-05-03,14:00,6170,Bromley,3453,Cheltenham Town,finished,3,0
+League Two,930107,2025-05-03,14:00,3075,Bradford City,4167,Fleetwood Town,finished,1,0
+League Two,930111,2025-05-03,14:00,4180,Crewe Alexandra,4175,Walsall,finished,0,1
+League Two,930112,2025-05-03,14:00,3450,Grimsby Town,4174,AFC Wimbledon,finished,0,1
+League Two,930115,2025-05-03,14:00,4193,Notts County,4166,Doncaster Rovers,finished,1,2
+League Two,930116,2025-05-03,14:00,4184,Port Vale,4169,Gillingham,finished,0,1

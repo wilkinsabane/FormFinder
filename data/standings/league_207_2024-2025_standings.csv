@@ -1,0 +1,12 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+Premier League,1,3247,Noah,30,75,24,3,3,92,20,72
+Premier League,2,3245,Ararat-Armenia,30,66,21,3,6,75,28,47
+Premier League,3,3631,Urartu,30,62,19,5,6,64,31,33
+Premier League,4,2766,Pyunik,30,53,17,2,11,59,37,22
+Premier League,5,3254,Van,30,52,15,7,8,56,36,20
+Premier League,6,3246,BKMA,30,36,10,6,14,44,54,-10
+Premier League,7,3253,Shirak,30,35,10,5,15,30,50,-20
+Premier League,8,3243,Ararat,30,32,9,5,16,36,59,-23
+Premier League,9,2890,Alashkert,30,26,6,8,16,24,52,-28
+Premier League,10,12012,Gandzasar,30,10,2,4,24,16,73,-57
+Premier League,11,5056,West Armenia,30,23,7,2,21,22,78,-56

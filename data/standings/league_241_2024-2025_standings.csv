@@ -1,0 +1,19 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+Bundesliga,1,4270,Bayern Munich,34,82,25,7,2,99,32,67
+Bundesliga,2,4271,Bayer Leverkusen,34,69,19,12,3,72,43,29
+Bundesliga,3,2998,Eintracht Frankfurt,34,60,17,9,8,68,46,22
+Bundesliga,4,3204,Borussia Dortmund,34,57,17,6,11,71,51,20
+Bundesliga,5,4274,Freiburg,34,55,16,7,11,49,53,-4
+Bundesliga,6,3003,Mainz,34,52,14,10,10,55,43,12
+Bundesliga,7,3292,RB Leipzig,34,51,13,12,9,53,48,5
+Bundesliga,8,4273,Werder Bremen,34,51,14,9,11,54,57,-3
+Bundesliga,9,4276,Stuttgart,34,50,14,8,12,64,53,11
+Bundesliga,10,4272,Borussia M'gladbach,34,45,13,6,15,55,57,-2
+Bundesliga,11,2983,Wolfsburg,34,43,11,10,13,56,54,2
+Bundesliga,12,3116,Augsburg,34,43,11,10,13,35,51,-16
+Bundesliga,13,3775,Union Berlin,34,40,10,10,14,35,51,-16
+Bundesliga,14,3339,St. Pauli,34,32,8,8,18,28,41,-13
+Bundesliga,15,3297,Hoffenheim,34,32,7,11,16,46,68,-22
+Bundesliga,16,4280,Heidenheim,34,29,8,5,21,37,64,-27
+Bundesliga,17,4281,Holstein Kiel,34,25,6,7,21,49,80,-31
+Bundesliga,18,3113,Bochum,34,25,6,7,21,33,67,-34

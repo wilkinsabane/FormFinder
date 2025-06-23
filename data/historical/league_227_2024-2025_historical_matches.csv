@@ -1,0 +1,154 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Premier League,941716,2024-10-30,14:00,4121,Haras El Hodood,4123,Smouha,finished,1,3
+Premier League,941717,2024-10-30,17:00,4117,El Geish,4113,Al Masry,finished,0,2
+Premier League,941718,2024-10-31,14:00,4124,El Gouna,4129,ZED,finished,0,0
+Premier League,941719,2024-10-31,17:00,4133,Future,4118,ENPPI,finished,0,0
+Premier League,941721,2024-11-01,15:00,4112,Pyramids,4125,Petrojet,finished,1,1
+Premier League,941720,2024-11-01,15:00,4134,Pharco,4120,Al Ittihad,finished,0,1
+Premier League,941722,2024-11-01,18:00,4111,Zamalek,4132,National Bank of Egypt,finished,3,2
+Premier League,941723,2024-11-02,15:00,4116,Ismaily,4131,Ghazl El Mehalla,finished,0,0
+Premier League,941724,2024-11-02,18:00,4110,Al Ahly,4130,Ceramica Cleopatra,finished,5,2
+Premier League,941725,2024-11-07,15:00,4131,Ghazl El Mehalla,4117,El Geish,finished,2,3
+Premier League,941726,2024-11-07,15:00,4120,Al Ittihad,4121,Haras El Hodood,finished,1,0
+Premier League,941727,2024-11-07,18:00,4129,ZED,4110,Al Ahly,finished,0,1
+Premier League,941728,2024-11-08,15:00,4123,Smouha,4111,Zamalek,finished,0,2
+Premier League,941729,2024-11-08,15:00,4125,Petrojet,4133,Future,finished,1,1
+Premier League,941730,2024-11-08,18:00,4118,ENPPI,4112,Pyramids,finished,1,2
+Premier League,941731,2024-11-09,15:00,4132,National Bank of Egypt,4134,Pharco,finished,0,0
+Premier League,941732,2024-11-09,15:00,4113,Al Masry,4124,El Gouna,finished,0,0
+Premier League,941733,2024-11-09,18:00,4130,Ceramica Cleopatra,4116,Ismaily,finished,1,0
+Premier League,941734,2024-11-22,15:00,4134,Pharco,4118,ENPPI,finished,4,3
+Premier League,941735,2024-11-22,15:00,4112,Pyramids,4132,National Bank of Egypt,finished,3,1
+Premier League,941736,2024-11-22,18:00,4110,Al Ahly,4120,Al Ittihad,finished,1,1
+Premier League,941738,2024-11-23,15:00,4124,El Gouna,4131,Ghazl El Mehalla,finished,0,1
+Premier League,941737,2024-11-23,15:00,4117,El Geish,4123,Smouha,finished,0,0
+Premier League,941739,2024-11-23,18:00,4111,Zamalek,4113,Al Masry,finished,0,1
+Premier League,941740,2024-11-24,15:00,4116,Ismaily,4125,Petrojet,finished,1,0
+Premier League,941742,2024-11-24,18:00,4133,Future,4129,ZED,finished,0,0
+Premier League,941741,2024-11-24,18:00,4121,Haras El Hodood,4130,Ceramica Cleopatra,finished,0,0
+Premier League,941743,2024-11-30,15:00,4129,ZED,4121,Haras El Hodood,finished,2,0
+Premier League,941744,2024-11-30,15:00,4130,Ceramica Cleopatra,4133,Future,finished,4,1
+Premier League,941745,2024-11-30,18:00,4120,Al Ittihad,4117,El Geish,finished,0,1
+Premier League,941746,2024-12-01,15:00,4132,National Bank of Egypt,4110,Al Ahly,finished,0,0
+Premier League,941748,2024-12-01,18:00,4118,ENPPI,4116,Ismaily,finished,1,0
+Premier League,941747,2024-12-01,18:00,4123,Smouha,4124,El Gouna,finished,0,0
+Premier League,941750,2024-12-02,15:00,4125,Petrojet,4134,Pharco,finished,1,2
+Premier League,941749,2024-12-02,15:00,4113,Al Masry,4112,Pyramids,finished,1,0
+Premier League,941751,2024-12-02,18:00,4131,Ghazl El Mehalla,4111,Zamalek,finished,0,4
+Premier League,941752,2024-12-19,15:00,4117,El Geish,4125,Petrojet,finished,0,1
+Premier League,941753,2024-12-19,15:00,4121,Haras El Hodood,4113,Al Masry,finished,0,0
+Premier League,941754,2024-12-19,18:00,4111,Zamalek,4130,Ceramica Cleopatra,finished,1,1
+Premier League,941755,2024-12-20,15:00,4133,Future,4132,National Bank of Egypt,finished,0,1
+Premier League,941756,2024-12-20,15:00,4124,El Gouna,4118,ENPPI,finished,1,0
+Premier League,941757,2024-12-20,18:00,4134,Pharco,4129,ZED,finished,1,2
+Premier League,941758,2024-12-21,15:00,4131,Ghazl El Mehalla,4120,Al Ittihad,finished,0,0
+Premier League,941759,2024-12-21,18:00,4116,Ismaily,4112,Pyramids,finished,1,1
+Premier League,941761,2024-12-24,15:00,4129,ZED,4118,ENPPI,finished,0,0
+Premier League,941762,2024-12-24,18:00,4117,El Geish,4111,Zamalek,finished,2,2
+Premier League,941763,2024-12-25,15:00,4120,Al Ittihad,4133,Future,finished,0,0
+Premier League,941764,2024-12-25,15:00,4116,Ismaily,4121,Haras El Hodood,finished,2,2
+Premier League,941765,2024-12-25,18:00,4112,Pyramids,4134,Pharco,finished,3,0
+Premier League,941766,2024-12-26,15:00,4132,National Bank of Egypt,4130,Ceramica Cleopatra,finished,1,2
+Premier League,941767,2024-12-26,15:00,4123,Smouha,4131,Ghazl El Mehalla,finished,2,4
+Premier League,941769,2024-12-26,18:00,4125,Petrojet,4124,El Gouna,finished,1,0
+Premier League,941768,2024-12-26,18:00,4113,Al Masry,4110,Al Ahly,finished,0,2
+Premier League,941770,2024-12-29,15:00,4121,Haras El Hodood,4117,El Geish,finished,3,0
+Premier League,941771,2024-12-29,18:00,4111,Zamalek,4120,Al Ittihad,finished,2,0
+Premier League,941772,2024-12-30,15:00,4118,ENPPI,4110,Al Ahly,finished,0,0
+Premier League,941773,2024-12-30,15:00,4124,El Gouna,4112,Pyramids,finished,0,1
+Premier League,941775,2024-12-30,18:00,4129,ZED,4125,Petrojet,finished,1,1
+Premier League,941774,2024-12-30,18:00,4134,Pharco,4123,Smouha,finished,2,1
+Premier League,941776,2024-12-31,13:00,4130,Ceramica Cleopatra,4113,Al Masry,finished,1,1
+Premier League,941777,2025-01-01,15:00,4133,Future,4116,Ismaily,finished,0,0
+Premier League,941778,2025-01-01,18:00,4131,Ghazl El Mehalla,4132,National Bank of Egypt,finished,0,1
+Premier League,941760,2025-01-07,14:00,4110,Al Ahly,4123,Smouha,finished,2,0
+Premier League,941779,2025-01-10,14:00,4125,Petrojet,4118,ENPPI,finished,0,0
+Premier League,941781,2025-01-10,17:00,4117,El Geish,4130,Ceramica Cleopatra,finished,0,1
+Premier League,941782,2025-01-11,14:00,4132,National Bank of Egypt,4116,Ismaily,finished,1,0
+Premier League,941783,2025-01-11,17:00,4120,Al Ittihad,4129,ZED,finished,0,1
+Premier League,941780,2025-01-12,17:00,4123,Smouha,4133,Future,finished,1,0
+Premier League,941784,2025-01-15,14:00,4112,Pyramids,4131,Ghazl El Mehalla,finished,3,0
+Premier League,941785,2025-01-15,17:00,4110,Al Ahly,4124,El Gouna,finished,2,0
+Premier League,941786,2025-01-16,14:00,4111,Zamalek,4121,Haras El Hodood,finished,3,2
+Premier League,941787,2025-01-16,17:00,4113,Al Masry,4134,Pharco,finished,1,0
+Premier League,941788,2025-01-21,14:00,4124,El Gouna,4132,National Bank of Egypt,finished,1,2
+Premier League,941789,2025-01-21,14:00,4131,Ghazl El Mehalla,4121,Haras El Hodood,finished,0,1
+Premier League,941790,2025-01-21,17:00,4118,ENPPI,4117,El Geish,finished,0,1
+Premier League,941791,2025-01-21,17:00,4116,Ismaily,4123,Smouha,finished,1,0
+Premier League,941792,2025-01-22,14:00,4134,Pharco,4110,Al Ahly,finished,1,1
+Premier League,941794,2025-01-22,17:00,4129,ZED,4112,Pyramids,finished,0,1
+Premier League,941793,2025-01-22,17:00,4130,Ceramica Cleopatra,4120,Al Ittihad,finished,1,1
+Premier League,941795,2025-01-23,14:00,4125,Petrojet,4113,Al Masry,finished,2,1
+Premier League,941796,2025-01-23,17:00,4133,Future,4111,Zamalek,finished,1,0
+Premier League,941798,2025-01-26,14:00,4120,Al Ittihad,4116,Ismaily,finished,1,0
+Premier League,941797,2025-01-26,14:00,4117,El Geish,4134,Pharco,finished,0,0
+Premier League,941799,2025-01-26,17:00,4131,Ghazl El Mehalla,4130,Ceramica Cleopatra,finished,0,1
+Premier League,941800,2025-01-26,17:00,4110,Al Ahly,4112,Pyramids,finished,2,2
+Premier League,941801,2025-01-27,14:00,4111,Zamalek,4124,El Gouna,finished,4,1
+Premier League,941803,2025-01-27,17:00,4113,Al Masry,4118,ENPPI,finished,2,1
+Premier League,941802,2025-01-27,17:00,4121,Haras El Hodood,4133,Future,finished,1,0
+Premier League,941804,2025-01-28,14:00,4132,National Bank of Egypt,4125,Petrojet,finished,0,2
+Premier League,941805,2025-01-28,17:00,4123,Smouha,4129,ZED,finished,2,1
+Premier League,941807,2025-01-31,14:00,4124,El Gouna,4121,Haras El Hodood,finished,0,1
+Premier League,941806,2025-01-31,14:00,4116,Ismaily,4117,El Geish,finished,1,2
+Premier League,941808,2025-01-31,17:00,4112,Pyramids,4111,Zamalek,finished,3,0
+Premier League,941810,2025-02-01,14:00,4129,ZED,4113,Al Masry,finished,1,1
+Premier League,941809,2025-02-01,14:00,4118,ENPPI,4132,National Bank of Egypt,finished,0,1
+Premier League,941812,2025-02-01,17:00,4125,Petrojet,4120,Al Ittihad,finished,0,0
+Premier League,941811,2025-02-01,17:00,4134,Pharco,4131,Ghazl El Mehalla,finished,3,2
+Premier League,941813,2025-02-02,14:00,4130,Ceramica Cleopatra,4123,Smouha,finished,0,1
+Premier League,941814,2025-02-02,17:00,4133,Future,4110,Al Ahly,finished,1,3
+Premier League,941816,2025-02-06,14:00,4130,Ceramica Cleopatra,4134,Pharco,finished,1,2
+Premier League,941815,2025-02-06,14:00,4131,Ghazl El Mehalla,4133,Future,finished,2,1
+Premier League,941817,2025-02-06,17:00,4110,Al Ahly,4125,Petrojet,finished,2,1
+Premier League,941819,2025-02-07,14:00,4121,Haras El Hodood,4118,ENPPI,finished,1,0
+Premier League,941818,2025-02-07,14:00,4123,Smouha,4112,Pyramids,finished,0,1
+Premier League,941821,2025-02-07,17:00,4111,Zamalek,4116,Ismaily,finished,2,0
+Premier League,941820,2025-02-07,17:00,4117,El Geish,4124,El Gouna,finished,0,0
+Premier League,941822,2025-02-08,14:00,4120,Al Ittihad,4113,Al Masry,finished,1,2
+Premier League,941823,2025-02-08,17:00,4132,National Bank of Egypt,4129,ZED,finished,1,1
+Premier League,941824,2025-02-11,14:00,4134,Pharco,4111,Zamalek,finished,0,1
+Premier League,941825,2025-02-11,14:00,4125,Petrojet,4123,Smouha,finished,0,1
+Premier League,941826,2025-02-11,17:00,4110,Al Ahly,4131,Ghazl El Mehalla,finished,1,0
+Premier League,941828,2025-02-12,14:00,4124,El Gouna,4116,Ismaily,finished,2,0
+Premier League,941827,2025-02-12,14:00,4129,ZED,4130,Ceramica Cleopatra,finished,1,1
+Premier League,941830,2025-02-12,17:00,4112,Pyramids,4121,Haras El Hodood,finished,3,0
+Premier League,941829,2025-02-12,17:00,4113,Al Masry,4132,National Bank of Egypt,finished,0,0
+Premier League,941831,2025-02-13,14:00,4133,Future,4117,El Geish,finished,0,0
+Premier League,941832,2025-02-13,17:00,4118,ENPPI,4120,Al Ittihad,finished,1,1
+Premier League,941833,2025-02-16,14:00,4111,Zamalek,4125,Petrojet,finished,1,1
+Premier League,941834,2025-02-16,14:00,4123,Smouha,4132,National Bank of Egypt,finished,1,4
+Premier League,941835,2025-02-16,16:30,4121,Haras El Hodood,4134,Pharco,finished,2,0
+Premier League,941836,2025-02-16,17:00,4116,Ismaily,4110,Al Ahly,finished,0,4
+Premier League,941837,2025-02-17,14:00,4130,Ceramica Cleopatra,4118,ENPPI,finished,2,2
+Premier League,941838,2025-02-17,17:00,4120,Al Ittihad,4124,El Gouna,finished,1,0
+Premier League,941839,2025-02-17,17:00,4133,Future,4112,Pyramids,finished,0,1
+Premier League,941840,2025-02-18,14:00,4117,El Geish,4129,ZED,finished,1,0
+Premier League,941841,2025-02-18,17:00,4131,Ghazl El Mehalla,4113,Al Masry,finished,1,0
+Premier League,941843,2025-02-21,14:00,4134,Pharco,4133,Future,finished,0,0
+Premier League,941842,2025-02-21,14:00,4118,ENPPI,4123,Smouha,finished,1,0
+Premier League,941844,2025-02-21,17:00,4125,Petrojet,4121,Haras El Hodood,finished,2,2
+Premier League,941845,2025-02-21,17:00,4132,National Bank of Egypt,4120,Al Ittihad,finished,3,2
+Premier League,941846,2025-02-22,14:00,4113,Al Masry,4116,Ismaily,finished,0,0
+Premier League,941847,2025-02-22,14:00,4124,El Gouna,4130,Ceramica Cleopatra,finished,2,0
+Premier League,941848,2025-02-22,17:00,4110,Al Ahly,4111,Zamalek,finished,1,1
+Premier League,941849,2025-02-23,14:00,4129,ZED,4131,Ghazl El Mehalla,finished,2,0
+Premier League,941850,2025-02-23,17:00,4112,Pyramids,4117,El Geish,finished,2,1
+Premier League,941851,2025-02-26,14:00,4133,Future,4124,El Gouna,finished,2,3
+Premier League,941852,2025-02-26,14:00,4121,Haras El Hodood,4110,Al Ahly,finished,0,1
+Premier League,941853,2025-02-26,17:00,4116,Ismaily,4134,Pharco,finished,0,2
+Premier League,941854,2025-02-27,14:00,4123,Smouha,4113,Al Masry,finished,0,3
+Premier League,941855,2025-02-27,14:00,4117,El Geish,4132,National Bank of Egypt,finished,2,2
+Premier League,941856,2025-02-27,17:00,4111,Zamalek,4129,ZED,finished,1,1
+Premier League,941857,2025-02-28,14:00,4131,Ghazl El Mehalla,4118,ENPPI,finished,3,0
+Premier League,941859,2025-02-28,17:00,4120,Al Ittihad,4112,Pyramids,finished,1,3
+Premier League,941858,2025-02-28,17:00,4130,Ceramica Cleopatra,4125,Petrojet,finished,4,1
+Premier League,941861,2025-03-03,19:00,4134,Pharco,4124,El Gouna,finished,0,0
+Premier League,941862,2025-03-03,19:00,4113,Al Masry,4133,Future,finished,4,2
+Premier League,941860,2025-03-03,19:00,4132,National Bank of Egypt,4121,Haras El Hodood,finished,2,1
+Premier League,941864,2025-03-04,19:00,4129,ZED,4116,Ismaily,finished,2,2
+Premier League,941863,2025-03-04,19:00,4118,ENPPI,4111,Zamalek,finished,0,3
+Premier League,941865,2025-03-04,19:00,4120,Al Ittihad,4123,Smouha,finished,0,1
+Premier League,941867,2025-03-05,19:00,4125,Petrojet,4131,Ghazl El Mehalla,finished,2,1
+Premier League,941868,2025-03-05,19:00,4112,Pyramids,4130,Ceramica Cleopatra,finished,2,1
+Premier League,941866,2025-03-05,19:00,4110,Al Ahly,4117,El Geish,finished,2,0

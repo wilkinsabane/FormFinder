@@ -1,0 +1,17 @@
+league_name,position,team_id,team_name,games_played,points,wins,draws,losses,goals_for,goals_against,goal_difference
+CSL,1,10782,Shanghai Shenhua,13,32,10,2,1,30,12,18
+CSL,2,10779,Chengdu Rongcheng,13,30,9,3,1,23,8,15
+CSL,3,10776,Beijing Guoan,12,26,7,5,0,28,13,15
+CSL,4,10773,Shanghai Port,12,24,7,3,2,26,16,10
+CSL,5,10783,Shandong Taishan,13,21,6,3,4,28,23,5
+CSL,6,10780,Tianjin Jinmen Tiger,13,19,5,4,4,20,20,0
+CSL,7,11709,Yunnan Yukun,13,18,5,3,5,19,21,-2
+CSL,8,11682,Qingdao West Coast,12,17,4,5,3,20,22,-2
+CSL,9,10774,Zhejiang,13,16,4,4,5,24,22,2
+CSL,10,11873,Dalian Zhixing,13,14,3,5,5,13,21,-8
+CSL,11,10777,Meizhou Hakka,13,12,3,3,7,20,28,-8
+CSL,12,10772,Wuhan Three Towns,12,12,3,3,6,15,24,-9
+CSL,13,10778,Henan,12,11,3,2,7,17,20,-3
+CSL,14,11789,Sichuan Jiuniu,12,11,3,2,7,12,25,-13
+CSL,15,10785,Qingdao Hainiu,13,8,1,5,7,13,19,-6
+CSL,16,10775,Changchun Yatai,13,5,1,2,10,11,25,-14

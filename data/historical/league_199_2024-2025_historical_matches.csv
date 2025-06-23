@@ -1,0 +1,241 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+First League,927685,2024-07-19,15:45,3654,Cherno more,3628,CSKA 1948 Sofia,finished,0,0
+First League,927690,2024-07-19,18:15,3797,Krumovgrad,3658,Slavia Sofia,finished,1,0
+First League,927689,2024-07-20,16:00,3656,Lokomotiv Plovdiv,3657,Arda,finished,1,0
+First League,927687,2024-07-20,18:15,3364,Lokomotiv Sofia 1929,3595,Levski Sofia,finished,1,6
+First League,927688,2024-07-21,16:00,3365,Botev Vratsa,3102,Botev Plovdiv,finished,1,3
+First League,927691,2024-07-21,18:15,3141,Ludogorets,3355,CSKA Sofia,finished,1,0
+First League,927692,2024-07-22,16:00,3358,Hebar 1918,3249,Spartak Varna,finished,0,2
+First League,927686,2024-07-22,18:15,2746,Septemvri Sofia,3361,Beroe,finished,0,1
+First League,927696,2024-07-26,16:00,3657,Arda,3797,Krumovgrad,finished,1,0
+First League,927698,2024-07-26,18:15,3595,Levski Sofia,3365,Botev Vratsa,finished,4,0
+First League,927694,2024-07-27,16:00,3355,CSKA Sofia,3358,Hebar 1918,finished,3,1
+First League,927693,2024-07-28,16:00,3628,CSKA 1948 Sofia,3249,Spartak Varna,finished,2,2
+First League,927697,2024-07-28,18:15,3102,Botev Plovdiv,3656,Lokomotiv Plovdiv,finished,2,2
+First League,927699,2024-07-29,16:00,3361,Beroe,3364,Lokomotiv Sofia 1929,finished,0,0
+First League,927700,2024-07-29,18:15,3654,Cherno more,2746,Septemvri Sofia,finished,2,0
+First League,927707,2024-08-02,16:00,3358,Hebar 1918,3658,Slavia Sofia,finished,1,1
+First League,927704,2024-08-02,18:15,3656,Lokomotiv Plovdiv,3595,Levski Sofia,finished,0,2
+First League,927708,2024-08-03,16:00,3249,Spartak Varna,3355,CSKA Sofia,finished,3,0
+First League,927706,2024-08-03,18:15,3141,Ludogorets,3657,Arda,finished,5,1
+First League,927702,2024-08-04,16:00,3364,Lokomotiv Sofia 1929,3654,Cherno more,finished,2,1
+First League,927705,2024-08-04,18:15,3797,Krumovgrad,3102,Botev Plovdiv,finished,0,1
+First League,927703,2024-08-05,18:15,3365,Botev Vratsa,3361,Beroe,finished,1,2
+First League,927710,2024-08-09,16:00,3658,Slavia Sofia,3249,Spartak Varna,finished,3,1
+First League,927711,2024-08-09,18:15,3657,Arda,3358,Hebar 1918,finished,2,1
+First League,927714,2024-08-10,16:00,3361,Beroe,3656,Lokomotiv Plovdiv,finished,0,2
+First League,927713,2024-08-10,18:15,3595,Levski Sofia,3797,Krumovgrad,finished,3,0
+First League,927716,2024-08-12,16:00,2746,Septemvri Sofia,3364,Lokomotiv Sofia 1929,finished,0,1
+First League,927715,2024-08-12,18:15,3654,Cherno more,3365,Botev Vratsa,finished,2,1
+First League,927723,2024-08-16,16:00,3249,Spartak Varna,3657,Arda,finished,1,0
+First League,927720,2024-08-16,18:15,3797,Krumovgrad,3361,Beroe,finished,0,1
+First League,927724,2024-08-17,16:00,3355,CSKA Sofia,3658,Slavia Sofia,finished,0,1
+First League,927721,2024-08-17,18:15,3141,Ludogorets,3595,Levski Sofia,finished,1,0
+First League,927717,2024-08-18,16:00,3364,Lokomotiv Sofia 1929,3628,CSKA 1948 Sofia,finished,0,0
+First League,927722,2024-08-18,18:15,3358,Hebar 1918,3102,Botev Plovdiv,finished,0,1
+First League,927718,2024-08-19,16:00,3365,Botev Vratsa,2746,Septemvri Sofia,finished,2,0
+First League,927719,2024-08-19,18:15,3656,Lokomotiv Plovdiv,3654,Cherno more,finished,1,2
+First League,927732,2024-08-23,16:00,3364,Lokomotiv Sofia 1929,3365,Botev Vratsa,finished,0,1
+First League,927728,2024-08-23,18:15,3595,Levski Sofia,3358,Hebar 1918,finished,1,0
+First League,927726,2024-08-24,16:00,3657,Arda,3355,CSKA Sofia,finished,2,1
+First League,927727,2024-08-24,18:15,3102,Botev Plovdiv,3249,Spartak Varna,finished,0,1
+First League,927725,2024-08-25,16:00,3628,CSKA 1948 Sofia,3658,Slavia Sofia,finished,2,0
+First League,927729,2024-08-25,18:15,3361,Beroe,3141,Ludogorets,finished,0,1
+First League,927731,2024-08-26,16:00,2746,Septemvri Sofia,3656,Lokomotiv Plovdiv,finished,2,3
+First League,927730,2024-08-26,18:15,3654,Cherno more,3797,Krumovgrad,finished,3,0
+First League,927740,2024-08-30,14:00,3658,Slavia Sofia,3657,Arda,finished,1,1
+First League,927733,2024-08-30,16:15,3365,Botev Vratsa,3628,CSKA 1948 Sofia,finished,0,3
+First League,927739,2024-08-30,18:30,3355,CSKA Sofia,3102,Botev Plovdiv,finished,0,1
+First League,927738,2024-08-31,16:00,3249,Spartak Varna,3595,Levski Sofia,finished,0,0
+First League,927735,2024-08-31,18:15,3797,Krumovgrad,2746,Septemvri Sofia,finished,2,0
+First League,927734,2024-09-01,14:00,3656,Lokomotiv Plovdiv,3364,Lokomotiv Sofia 1929,finished,1,1
+First League,927737,2024-09-01,16:15,3358,Hebar 1918,3361,Beroe,finished,3,1
+First League,927736,2024-09-01,18:30,3141,Ludogorets,3654,Cherno more,finished,0,0
+First League,927779,2024-09-13,14:00,3656,Lokomotiv Plovdiv,3358,Hebar 1918,finished,3,3
+First League,927778,2024-09-13,16:30,3365,Botev Vratsa,3249,Spartak Varna,finished,1,1
+First League,927776,2024-09-14,14:30,2746,Septemvri Sofia,3658,Slavia Sofia,finished,3,2
+First League,927774,2024-09-14,17:00,3361,Beroe,3102,Botev Plovdiv,finished,0,1
+First League,927775,2024-09-15,14:00,3654,Cherno more,3657,Arda,finished,1,1
+First League,927773,2024-09-15,16:15,3628,CSKA 1948 Sofia,3595,Levski Sofia,finished,2,4
+First League,927780,2024-09-15,18:30,3797,Krumovgrad,3141,Ludogorets,finished,0,3
+First League,927777,2024-09-16,16:45,3364,Lokomotiv Sofia 1929,3355,CSKA Sofia,finished,0,3
+First League,927695,2024-09-18,14:30,3658,Slavia Sofia,3141,Ludogorets,finished,0,1
+First League,927749,2024-09-19,14:00,3656,Lokomotiv Plovdiv,3628,CSKA 1948 Sofia,finished,0,2
+First League,927752,2024-09-20,14:00,3358,Hebar 1918,2746,Septemvri Sofia,finished,1,2
+First League,927754,2024-09-21,14:30,3355,CSKA Sofia,3361,Beroe,finished,1,0
+First League,927751,2024-09-21,17:00,3141,Ludogorets,3364,Lokomotiv Sofia 1929,finished,2,0
+First League,927755,2024-09-22,14:30,3658,Slavia Sofia,3595,Levski Sofia,finished,0,1
+First League,927753,2024-09-22,17:00,3249,Spartak Varna,3654,Cherno more,finished,0,2
+First League,927750,2024-09-23,14:30,3797,Krumovgrad,3365,Botev Vratsa,finished,3,0
+First League,927756,2024-09-23,17:00,3657,Arda,3102,Botev Plovdiv,finished,1,0
+First League,927701,2024-09-25,14:30,2746,Septemvri Sofia,3628,CSKA 1948 Sofia,finished,1,1
+First League,927762,2024-09-27,14:30,3364,Lokomotiv Sofia 1929,3358,Hebar 1918,finished,0,0
+First League,927759,2024-09-27,17:00,3361,Beroe,3658,Slavia Sofia,finished,1,0
+First League,927764,2024-09-28,14:00,3656,Lokomotiv Plovdiv,3797,Krumovgrad,finished,0,2
+First League,927760,2024-09-28,17:00,3654,Cherno more,3355,CSKA Sofia,finished,0,0
+First League,927757,2024-09-29,13:15,3628,CSKA 1948 Sofia,3102,Botev Plovdiv,finished,0,1
+First League,927758,2024-09-29,15:45,3595,Levski Sofia,3657,Arda,finished,2,1
+First League,927763,2024-09-29,18:15,3365,Botev Vratsa,3141,Ludogorets,finished,0,2
+First League,927761,2024-09-30,17:00,2746,Septemvri Sofia,3249,Spartak Varna,finished,0,1
+First League,927765,2024-10-04,12:00,3797,Krumovgrad,3628,CSKA 1948 Sofia,finished,1,1
+First League,927771,2024-10-04,14:30,3657,Arda,3361,Beroe,finished,1,1
+First League,927770,2024-10-04,17:00,3658,Slavia Sofia,3654,Cherno more,finished,1,0
+First League,927769,2024-10-05,14:30,3355,CSKA Sofia,2746,Septemvri Sofia,finished,0,1
+First League,927772,2024-10-05,17:00,3102,Botev Plovdiv,3595,Levski Sofia,finished,1,0
+First League,927767,2024-10-06,12:00,3358,Hebar 1918,3365,Botev Vratsa,finished,1,1
+First League,927768,2024-10-06,14:30,3249,Spartak Varna,3364,Lokomotiv Sofia 1929,finished,3,2
+First League,927766,2024-10-06,17:00,3141,Ludogorets,3656,Lokomotiv Plovdiv,finished,1,0
+First League,927744,2024-10-18,14:00,3361,Beroe,3249,Spartak Varna,finished,3,0
+First League,927748,2024-10-18,16:30,3365,Botev Vratsa,3656,Lokomotiv Plovdiv,finished,0,0
+First League,927747,2024-10-19,09:45,3364,Lokomotiv Sofia 1929,3797,Krumovgrad,finished,0,0
+First League,927743,2024-10-19,12:45,3595,Levski Sofia,3355,CSKA Sofia,finished,1,0
+First League,927742,2024-10-19,15:45,3102,Botev Plovdiv,3658,Slavia Sofia,finished,1,0
+First League,927745,2024-10-20,13:45,3654,Cherno more,3358,Hebar 1918,finished,1,0
+First League,927746,2024-10-20,16:15,2746,Septemvri Sofia,3141,Ludogorets,finished,0,2
+First League,927741,2024-10-21,15:00,3628,CSKA 1948 Sofia,3657,Arda,finished,1,2
+First League,927783,2024-10-23,14:30,3249,Spartak Varna,3656,Lokomotiv Plovdiv,finished,1,0
+First League,927785,2024-10-24,12:00,3658,Slavia Sofia,3364,Lokomotiv Sofia 1929,finished,3,2
+First League,927784,2024-10-24,14:30,3355,CSKA Sofia,3365,Botev Vratsa,finished,2,0
+First League,927786,2024-10-25,11:00,3657,Arda,2746,Septemvri Sofia,finished,2,1
+First League,927787,2024-10-25,13:30,3102,Botev Plovdiv,3654,Cherno more,finished,1,0
+First League,927788,2024-10-25,16:00,3595,Levski Sofia,3361,Beroe,finished,0,2
+First League,927782,2024-10-26,11:00,3358,Hebar 1918,3797,Krumovgrad,finished,0,0
+First League,927781,2024-10-28,16:00,3141,Ludogorets,3628,CSKA 1948 Sofia,finished,3,0
+First League,927793,2024-11-01,15:30,3365,Botev Vratsa,3658,Slavia Sofia,finished,3,2
+First League,927792,2024-11-02,10:00,3364,Lokomotiv Sofia 1929,3657,Arda,finished,0,2
+First League,927794,2024-11-02,12:30,3656,Lokomotiv Plovdiv,3355,CSKA Sofia,finished,2,2
+First League,927795,2024-11-02,15:00,3797,Krumovgrad,3249,Spartak Varna,finished,0,1
+First League,927789,2024-11-03,10:30,3628,CSKA 1948 Sofia,3361,Beroe,finished,1,1
+First League,927796,2024-11-03,13:00,3141,Ludogorets,3358,Hebar 1918,finished,3,0
+First League,927790,2024-11-03,15:30,3654,Cherno more,3595,Levski Sofia,finished,2,1
+First League,927791,2024-11-04,15:30,2746,Septemvri Sofia,3102,Botev Plovdiv,finished,1,0
+First League,927709,2024-11-07,15:30,3628,CSKA 1948 Sofia,3355,CSKA Sofia,finished,1,3
+First League,927801,2024-11-08,13:00,3657,Arda,3365,Botev Vratsa,finished,2,0
+First League,927802,2024-11-08,15:30,3102,Botev Plovdiv,3364,Lokomotiv Sofia 1929,finished,2,0
+First League,927800,2024-11-09,10:30,3658,Slavia Sofia,3656,Lokomotiv Plovdiv,finished,2,1
+First League,927804,2024-11-09,13:00,3361,Beroe,3654,Cherno more,finished,0,1
+First League,927803,2024-11-09,15:30,3595,Levski Sofia,2746,Septemvri Sofia,finished,2,3
+First League,927797,2024-11-10,10:30,3358,Hebar 1918,3628,CSKA 1948 Sofia,finished,1,1
+First League,927799,2024-11-10,13:00,3355,CSKA Sofia,3797,Krumovgrad,finished,2,2
+First League,927798,2024-11-10,15:30,3249,Spartak Varna,3141,Ludogorets,finished,1,3
+First League,927812,2024-11-22,15:00,3249,Spartak Varna,3358,Hebar 1918,finished,4,0
+First League,927809,2024-11-23,10:30,3657,Arda,3656,Lokomotiv Plovdiv,finished,4,2
+First League,927808,2024-11-23,13:00,3102,Botev Plovdiv,3365,Botev Vratsa,finished,3,1
+First League,927807,2024-11-23,15:30,3595,Levski Sofia,3364,Lokomotiv Sofia 1929,finished,2,0
+First League,927806,2024-11-24,10:15,3361,Beroe,2746,Septemvri Sofia,finished,2,0
+First League,927805,2024-11-24,12:30,3628,CSKA 1948 Sofia,3654,Cherno more,finished,0,4
+First League,927811,2024-11-24,15:00,3355,CSKA Sofia,3141,Ludogorets,finished,2,2
+First League,927810,2024-11-25,15:30,3658,Slavia Sofia,3797,Krumovgrad,finished,0,1
+First League,927813,2024-11-29,12:30,3249,Spartak Varna,3628,CSKA 1948 Sofia,finished,1,1
+First League,927820,2024-11-29,15:00,2746,Septemvri Sofia,3654,Cherno more,finished,1,2
+First League,927819,2024-11-30,10:30,3364,Lokomotiv Sofia 1929,3361,Beroe,finished,2,1
+First League,927818,2024-11-30,13:00,3365,Botev Vratsa,3595,Levski Sofia,finished,0,2
+First League,927814,2024-11-30,15:30,3358,Hebar 1918,3355,CSKA Sofia,finished,0,1
+First League,927817,2024-12-01,10:30,3656,Lokomotiv Plovdiv,3102,Botev Plovdiv,finished,0,1
+First League,927816,2024-12-01,13:00,3797,Krumovgrad,3657,Arda,finished,0,0
+First League,927815,2024-12-01,15:30,3141,Ludogorets,3658,Slavia Sofia,finished,2,0
+First League,927821,2024-12-03,10:30,3628,CSKA 1948 Sofia,2746,Septemvri Sofia,finished,2,0
+First League,927822,2024-12-03,13:00,3654,Cherno more,3364,Lokomotiv Sofia 1929,finished,4,0
+First League,927828,2024-12-03,15:30,3355,CSKA Sofia,3249,Spartak Varna,finished,3,1
+First League,927823,2024-12-04,10:30,3361,Beroe,3365,Botev Vratsa,finished,5,1
+First League,927826,2024-12-04,13:00,3657,Arda,3141,Ludogorets,finished,0,4
+First League,927824,2024-12-04,15:30,3595,Levski Sofia,3656,Lokomotiv Plovdiv,finished,2,1
+First League,927827,2024-12-05,13:00,3658,Slavia Sofia,3358,Hebar 1918,finished,3,2
+First League,927825,2024-12-05,15:30,3102,Botev Plovdiv,3797,Krumovgrad,finished,1,0
+First League,927834,2024-12-07,10:30,3656,Lokomotiv Plovdiv,3361,Beroe,finished,1,2
+First League,927835,2024-12-07,13:00,3365,Botev Vratsa,3654,Cherno more,finished,2,3
+First League,927829,2024-12-07,15:30,3355,CSKA Sofia,3628,CSKA 1948 Sofia,finished,2,2
+First League,927836,2024-12-08,10:00,3364,Lokomotiv Sofia 1929,2746,Septemvri Sofia,finished,1,2
+First League,927833,2024-12-08,12:30,3797,Krumovgrad,3595,Levski Sofia,finished,0,2
+First League,927832,2024-12-08,15:00,3141,Ludogorets,3102,Botev Plovdiv,finished,3,0
+First League,927831,2024-12-09,12:45,3358,Hebar 1918,3657,Arda,finished,0,2
+First League,927830,2024-12-09,15:00,3249,Spartak Varna,3658,Slavia Sofia,finished,1,3
+First League,927712,2024-12-19,15:00,3102,Botev Plovdiv,3141,Ludogorets,finished,2,4
+First League,927843,2025-02-07,15:30,3657,Arda,3249,Spartak Varna,finished,2,2
+First League,927838,2025-02-08,10:30,2746,Septemvri Sofia,3365,Botev Vratsa,finished,2,2
+First League,927839,2025-02-08,13:00,3654,Cherno more,3656,Lokomotiv Plovdiv,finished,1,2
+First League,927844,2025-02-08,15:30,3658,Slavia Sofia,3355,CSKA Sofia,finished,1,0
+First League,927837,2025-02-09,10:00,3628,CSKA 1948 Sofia,3364,Lokomotiv Sofia 1929,finished,1,4
+First League,927842,2025-02-09,12:30,3102,Botev Plovdiv,3358,Hebar 1918,finished,1,1
+First League,927841,2025-02-09,15:15,3595,Levski Sofia,3141,Ludogorets,finished,2,1
+First League,927840,2025-02-10,15:30,3361,Beroe,3797,Krumovgrad,finished,0,0
+First League,927852,2025-02-14,15:30,3365,Botev Vratsa,3364,Lokomotiv Sofia 1929,finished,0,3
+First League,927850,2025-02-15,10:30,3797,Krumovgrad,3654,Cherno more,finished,1,1
+First League,927847,2025-02-15,13:00,3249,Spartak Varna,3102,Botev Plovdiv,finished,1,0
+First League,927848,2025-02-15,15:30,3358,Hebar 1918,3595,Levski Sofia,finished,1,4
+First League,927851,2025-02-16,10:30,3656,Lokomotiv Plovdiv,2746,Septemvri Sofia,finished,0,1
+First League,927849,2025-02-16,13:00,3141,Ludogorets,3361,Beroe,finished,2,1
+First League,927846,2025-02-16,15:30,3355,CSKA Sofia,3657,Arda,finished,2,0
+First League,927845,2025-02-17,16:00,3658,Slavia Sofia,3628,CSKA 1948 Sofia,finished,1,1
+First League,927853,2025-02-21,10:45,3628,CSKA 1948 Sofia,3365,Botev Vratsa,finished,1,0
+First League,927857,2025-02-21,13:15,3361,Beroe,3358,Hebar 1918,finished,2,1
+First League,927858,2025-02-21,15:45,3595,Levski Sofia,3249,Spartak Varna,finished,2,0
+First League,927860,2025-02-22,10:30,3657,Arda,3658,Slavia Sofia,finished,1,1
+First League,927859,2025-02-22,13:00,3102,Botev Plovdiv,3355,CSKA Sofia,finished,0,3
+First League,927856,2025-02-22,15:30,3654,Cherno more,3141,Ludogorets,finished,1,1
+First League,927854,2025-02-23,15:00,3364,Lokomotiv Sofia 1929,3656,Lokomotiv Plovdiv,finished,0,1
+First League,927855,2025-02-24,15:30,2746,Septemvri Sofia,3797,Krumovgrad,finished,1,0
+First League,927867,2025-03-01,10:00,3797,Krumovgrad,3364,Lokomotiv Sofia 1929,finished,0,2
+First League,927868,2025-03-01,12:30,3656,Lokomotiv Plovdiv,3365,Botev Vratsa,finished,1,0
+First League,927864,2025-03-01,14:45,3249,Spartak Varna,3361,Beroe,finished,0,3
+First League,927863,2025-03-02,12:00,3355,CSKA Sofia,3595,Levski Sofia,finished,2,2
+First League,927865,2025-03-02,15:15,3358,Hebar 1918,3654,Cherno more,finished,0,1
+First League,927861,2025-03-03,10:30,3657,Arda,3628,CSKA 1948 Sofia,finished,1,0
+First League,927862,2025-03-03,13:00,3658,Slavia Sofia,3102,Botev Plovdiv,finished,3,2
+First League,927866,2025-03-03,15:30,3141,Ludogorets,2746,Septemvri Sofia,finished,0,0
+First League,927870,2025-03-07,15:30,3365,Botev Vratsa,3797,Krumovgrad,finished,0,0
+First League,927869,2025-03-08,10:30,3628,CSKA 1948 Sofia,3656,Lokomotiv Plovdiv,finished,2,1
+First League,927874,2025-03-08,13:00,3361,Beroe,3355,CSKA Sofia,finished,0,2
+First League,927873,2025-03-08,15:30,3654,Cherno more,3249,Spartak Varna,finished,1,1
+First League,927876,2025-03-09,10:00,3102,Botev Plovdiv,3657,Arda,finished,1,1
+First League,927875,2025-03-09,12:30,3595,Levski Sofia,3658,Slavia Sofia,finished,3,3
+First League,927871,2025-03-09,15:00,3364,Lokomotiv Sofia 1929,3141,Ludogorets,finished,1,2
+First League,927872,2025-03-10,15:30,2746,Septemvri Sofia,3358,Hebar 1918,finished,6,1
+First League,927879,2025-03-14,13:15,3658,Slavia Sofia,3361,Beroe,finished,2,1
+First League,927884,2025-03-14,15:45,3797,Krumovgrad,3656,Lokomotiv Plovdiv,finished,0,0
+First League,927882,2025-03-15,10:30,3358,Hebar 1918,3364,Lokomotiv Sofia 1929,finished,2,1
+First League,927883,2025-03-15,13:00,3141,Ludogorets,3365,Botev Vratsa,finished,3,0
+First League,927880,2025-03-15,15:30,3355,CSKA Sofia,3654,Cherno more,finished,1,1
+First League,927881,2025-03-16,10:00,3249,Spartak Varna,2746,Septemvri Sofia,finished,4,2
+First League,927877,2025-03-16,12:30,3102,Botev Plovdiv,3628,CSKA 1948 Sofia,finished,0,5
+First League,927878,2025-03-16,15:00,3657,Arda,3595,Levski Sofia,finished,1,1
+First League,927888,2025-03-28,14:15,3364,Lokomotiv Sofia 1929,3249,Spartak Varna,finished,2,1
+First League,927887,2025-03-28,16:45,3365,Botev Vratsa,3358,Hebar 1918,finished,1,0
+First League,927885,2025-03-29,10:15,3628,CSKA 1948 Sofia,3797,Krumovgrad,finished,4,1
+First League,927890,2025-03-29,12:45,3654,Cherno more,3658,Slavia Sofia,finished,1,1
+First League,927889,2025-03-29,15:15,2746,Septemvri Sofia,3355,CSKA Sofia,finished,0,1
+First League,927891,2025-03-30,10:30,3361,Beroe,3657,Arda,finished,1,4
+First League,927886,2025-03-30,13:00,3656,Lokomotiv Plovdiv,3141,Ludogorets,finished,1,0
+First League,927892,2025-03-30,15:30,3595,Levski Sofia,3102,Botev Plovdiv,finished,1,1
+First League,927898,2025-04-01,13:15,3249,Spartak Varna,3365,Botev Vratsa,finished,1,0
+First League,927896,2025-04-01,15:45,3658,Slavia Sofia,2746,Septemvri Sofia,finished,2,3
+First League,927895,2025-04-02,11:15,3657,Arda,3654,Cherno more,finished,4,0
+First League,927894,2025-04-02,13:45,3102,Botev Plovdiv,3361,Beroe,finished,0,0
+First League,927897,2025-04-02,16:15,3355,CSKA Sofia,3364,Lokomotiv Sofia 1929,finished,1,0
+First League,927899,2025-04-03,11:30,3358,Hebar 1918,3656,Lokomotiv Plovdiv,finished,0,0
+First League,927900,2025-04-03,14:00,3141,Ludogorets,3797,Krumovgrad,finished,3,0
+First League,927893,2025-04-03,16:30,3595,Levski Sofia,3628,CSKA 1948 Sofia,finished,2,0
+First League,927907,2025-04-05,13:30,3654,Cherno more,3102,Botev Plovdiv,finished,1,1
+First League,927904,2025-04-05,16:00,3365,Botev Vratsa,3355,CSKA Sofia,finished,1,1
+First League,927902,2025-04-06,09:15,3797,Krumovgrad,3358,Hebar 1918,finished,1,0
+First League,927905,2025-04-06,11:45,3364,Lokomotiv Sofia 1929,3658,Slavia Sofia,finished,3,2
+First League,927908,2025-04-06,14:15,3361,Beroe,3595,Levski Sofia,finished,0,1
+First League,927906,2025-04-07,12:00,2746,Septemvri Sofia,3657,Arda,finished,0,4
+First League,927903,2025-04-07,14:30,3656,Lokomotiv Plovdiv,3249,Spartak Varna,finished,1,2
+First League,927901,2025-04-07,17:00,3628,CSKA 1948 Sofia,3141,Ludogorets,finished,1,3
+First League,927915,2025-04-11,13:30,3249,Spartak Varna,3797,Krumovgrad,finished,1,0
+First League,927909,2025-04-11,16:00,3361,Beroe,3628,CSKA 1948 Sofia,finished,2,0
+First League,927911,2025-04-12,11:00,3102,Botev Plovdiv,2746,Septemvri Sofia,finished,3,0
+First League,927914,2025-04-12,13:30,3355,CSKA Sofia,3656,Lokomotiv Plovdiv,finished,2,0
+First League,927912,2025-04-13,12:00,3657,Arda,3364,Lokomotiv Sofia 1929,finished,5,0
+First League,927910,2025-04-13,14:30,3595,Levski Sofia,3654,Cherno more,finished,1,2
+First League,927913,2025-04-14,14:30,3658,Slavia Sofia,3365,Botev Vratsa,finished,4,2
+First League,927916,2025-04-14,17:00,3358,Hebar 1918,3141,Ludogorets,finished,0,2
+First League,927922,2025-04-18,11:00,3364,Lokomotiv Sofia 1929,3102,Botev Plovdiv,finished,1,1
+First League,927924,2025-04-18,13:30,3654,Cherno more,3361,Beroe,finished,1,1
+First League,927919,2025-04-18,16:00,3797,Krumovgrad,3355,CSKA Sofia,finished,1,0
+First League,927921,2025-04-19,11:00,3365,Botev Vratsa,3657,Arda,finished,3,1
+First League,927920,2025-04-19,13:30,3656,Lokomotiv Plovdiv,3658,Slavia Sofia,finished,0,1
+First League,927918,2025-04-19,16:00,3141,Ludogorets,3249,Spartak Varna,finished,2,1
+First League,927923,2025-04-21,13:30,2746,Septemvri Sofia,3595,Levski Sofia,finished,0,1
+First League,927917,2025-04-21,16:00,3628,CSKA 1948 Sofia,3358,Hebar 1918,finished,1,3

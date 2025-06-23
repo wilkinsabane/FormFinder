@@ -1,0 +1,133 @@
+league_name,match_id,date,time,home_team_id,home_team_name,away_team_id,away_team_name,status,home_score,away_score
+Superliga,923778,2024-07-19,16:00,3636,AGF,3046,Midtjylland,finished,1,1
+Superliga,923779,2024-07-19,18:00,3337,Nordsjaelland,3048,AaB,finished,3,0
+Superliga,923780,2024-07-21,12:00,3039,Silkeborg,3044,SonderjyskE,finished,1,0
+Superliga,923781,2024-07-21,14:00,4085,Vejle,3773,Randers,finished,2,3
+Superliga,923782,2024-07-21,16:00,3591,Viborg,2986,Brondby,finished,3,3
+Superliga,923783,2024-07-22,17:00,2726,Lyngby,3772,FC Copenhagen,finished,0,2
+Superliga,923784,2024-07-26,17:00,3044,SonderjyskE,2726,Lyngby,finished,1,1
+Superliga,923785,2024-07-27,14:00,3337,Nordsjaelland,3046,Midtjylland,finished,2,2
+Superliga,923786,2024-07-28,12:00,3773,Randers,3591,Viborg,finished,3,1
+Superliga,923787,2024-07-28,14:00,3048,AaB,3039,Silkeborg,finished,2,1
+Superliga,923788,2024-07-28,16:00,3772,FC Copenhagen,3636,AGF,finished,3,2
+Superliga,923789,2024-07-29,17:00,2986,Brondby,4085,Vejle,finished,2,1
+Superliga,923791,2024-08-02,17:00,3636,AGF,3044,SonderjyskE,finished,4,0
+Superliga,923790,2024-08-03,14:00,3046,Midtjylland,3048,AaB,finished,2,0
+Superliga,923792,2024-08-04,12:00,3039,Silkeborg,3591,Viborg,finished,3,2
+Superliga,923793,2024-08-04,14:00,3772,FC Copenhagen,3773,Randers,finished,1,1
+Superliga,923794,2024-08-04,16:00,2726,Lyngby,2986,Brondby,finished,0,2
+Superliga,923795,2024-08-05,17:00,4085,Vejle,3337,Nordsjaelland,finished,0,1
+Superliga,923796,2024-08-09,17:00,3046,Midtjylland,4085,Vejle,finished,2,0
+Superliga,923797,2024-08-11,12:00,3773,Randers,3039,Silkeborg,finished,0,2
+Superliga,923798,2024-08-11,12:00,3337,Nordsjaelland,2726,Lyngby,finished,1,1
+Superliga,923799,2024-08-11,14:00,2986,Brondby,3636,AGF,finished,0,1
+Superliga,923800,2024-08-11,16:00,3044,SonderjyskE,3772,FC Copenhagen,finished,0,2
+Superliga,923801,2024-08-12,17:00,3591,Viborg,3048,AaB,finished,2,3
+Superliga,923802,2024-08-16,17:00,2726,Lyngby,3046,Midtjylland,finished,1,2
+Superliga,923804,2024-08-18,12:00,3039,Silkeborg,3337,Nordsjaelland,finished,4,1
+Superliga,923803,2024-08-18,12:00,3773,Randers,3044,SonderjyskE,finished,1,2
+Superliga,923805,2024-08-18,14:00,3772,FC Copenhagen,3591,Viborg,finished,1,1
+Superliga,923806,2024-08-18,16:00,3048,AaB,2986,Brondby,finished,0,4
+Superliga,923807,2024-08-19,17:00,3636,AGF,4085,Vejle,finished,5,1
+Superliga,923809,2024-08-23,17:00,3048,AaB,3636,AGF,finished,0,4
+Superliga,923808,2024-08-24,14:00,3046,Midtjylland,3044,SonderjyskE,finished,3,2
+Superliga,923810,2024-08-25,12:00,4085,Vejle,3039,Silkeborg,finished,1,3
+Superliga,923811,2024-08-25,14:00,3337,Nordsjaelland,3772,FC Copenhagen,finished,3,2
+Superliga,923812,2024-08-25,16:00,2986,Brondby,3773,Randers,finished,2,2
+Superliga,923813,2024-08-26,17:00,3591,Viborg,2726,Lyngby,finished,1,0
+Superliga,923814,2024-08-30,17:00,2726,Lyngby,4085,Vejle,finished,1,0
+Superliga,923815,2024-08-31,14:00,3636,AGF,3337,Nordsjaelland,finished,4,2
+Superliga,923817,2024-09-01,12:00,3772,FC Copenhagen,2986,Brondby,finished,3,1
+Superliga,923816,2024-09-01,12:00,3044,SonderjyskE,3591,Viborg,finished,2,2
+Superliga,923818,2024-09-01,14:00,3039,Silkeborg,3046,Midtjylland,finished,1,3
+Superliga,923819,2024-09-01,16:00,3773,Randers,3048,AaB,finished,1,0
+Superliga,923824,2024-09-13,17:00,3048,AaB,2726,Lyngby,finished,2,1
+Superliga,923825,2024-09-14,16:00,3046,Midtjylland,3772,FC Copenhagen,finished,2,1
+Superliga,923820,2024-09-15,12:00,3636,AGF,3039,Silkeborg,finished,1,1
+Superliga,923823,2024-09-15,14:00,4085,Vejle,3591,Viborg,finished,0,5
+Superliga,923821,2024-09-15,16:00,2986,Brondby,3044,SonderjyskE,finished,2,0
+Superliga,923822,2024-09-16,17:00,3337,Nordsjaelland,3773,Randers,finished,1,1
+Superliga,923830,2024-09-20,17:00,3591,Viborg,3337,Nordsjaelland,finished,3,2
+Superliga,923829,2024-09-22,12:00,3773,Randers,3046,Midtjylland,finished,2,2
+Superliga,923826,2024-09-22,12:00,3044,SonderjyskE,4085,Vejle,finished,2,1
+Superliga,923827,2024-09-22,14:00,2726,Lyngby,3636,AGF,finished,0,0
+Superliga,923828,2024-09-22,16:00,3039,Silkeborg,2986,Brondby,finished,3,3
+Superliga,923831,2024-09-23,17:00,3772,FC Copenhagen,3048,AaB,finished,2,0
+Superliga,923832,2024-09-28,14:00,3636,AGF,3773,Randers,finished,2,2
+Superliga,923833,2024-09-29,12:00,3046,Midtjylland,3591,Viborg,finished,3,1
+Superliga,923835,2024-09-29,12:00,3048,AaB,3044,SonderjyskE,finished,3,0
+Superliga,923834,2024-09-29,14:00,2726,Lyngby,3039,Silkeborg,finished,2,2
+Superliga,923837,2024-09-29,16:00,4085,Vejle,3772,FC Copenhagen,finished,1,2
+Superliga,923836,2024-09-30,17:00,3337,Nordsjaelland,2986,Brondby,finished,4,1
+Superliga,923843,2024-10-04,17:00,4085,Vejle,3048,AaB,finished,2,2
+Superliga,923842,2024-10-06,12:00,3773,Randers,2726,Lyngby,finished,1,1
+Superliga,923841,2024-10-06,12:00,3044,SonderjyskE,3337,Nordsjaelland,finished,1,4
+Superliga,923839,2024-10-06,14:00,3591,Viborg,3636,AGF,finished,1,1
+Superliga,923838,2024-10-06,16:00,2986,Brondby,3046,Midtjylland,finished,2,0
+Superliga,923840,2024-10-06,18:00,3039,Silkeborg,3772,FC Copenhagen,finished,2,2
+Superliga,923845,2024-10-18,17:00,3772,FC Copenhagen,4085,Vejle,finished,3,1
+Superliga,923848,2024-10-20,12:00,3048,AaB,3773,Randers,finished,0,2
+Superliga,923847,2024-10-20,12:00,2726,Lyngby,3591,Viborg,finished,0,0
+Superliga,923846,2024-10-20,14:00,3337,Nordsjaelland,3039,Silkeborg,finished,1,1
+Superliga,923849,2024-10-20,16:00,3044,SonderjyskE,3046,Midtjylland,finished,3,2
+Superliga,923844,2024-10-21,17:00,3636,AGF,2986,Brondby,finished,1,0
+Superliga,923855,2024-10-25,17:00,3039,Silkeborg,3048,AaB,finished,1,1
+Superliga,923850,2024-10-27,11:00,2986,Brondby,3772,FC Copenhagen,finished,0,0
+Superliga,923853,2024-10-27,13:00,4085,Vejle,2726,Lyngby,finished,2,0
+Superliga,923854,2024-10-27,15:00,3591,Viborg,3044,SonderjyskE,finished,4,2
+Superliga,923851,2024-10-27,17:00,3046,Midtjylland,3636,AGF,finished,2,0
+Superliga,923852,2024-10-28,18:00,3773,Randers,3337,Nordsjaelland,finished,4,0
+Superliga,923861,2024-11-02,16:00,3044,SonderjyskE,3773,Randers,finished,1,4
+Superliga,923858,2024-11-03,13:00,3337,Nordsjaelland,3591,Viborg,finished,2,1
+Superliga,923860,2024-11-03,13:00,3046,Midtjylland,2986,Brondby,finished,1,5
+Superliga,923856,2024-11-03,15:00,3636,AGF,2726,Lyngby,finished,2,1
+Superliga,923859,2024-11-03,17:00,3048,AaB,4085,Vejle,finished,3,3
+Superliga,923857,2024-11-04,18:00,3772,FC Copenhagen,3039,Silkeborg,finished,2,2
+Superliga,923866,2024-11-08,18:00,4085,Vejle,3044,SonderjyskE,finished,1,1
+Superliga,923867,2024-11-10,13:00,2726,Lyngby,3048,AaB,finished,2,2
+Superliga,923865,2024-11-10,13:00,3039,Silkeborg,3773,Randers,finished,1,0
+Superliga,923864,2024-11-10,15:00,3591,Viborg,3046,Midtjylland,finished,1,0
+Superliga,923862,2024-11-10,17:00,3636,AGF,3772,FC Copenhagen,finished,1,1
+Superliga,923863,2024-11-10,19:00,2986,Brondby,3337,Nordsjaelland,finished,1,1
+Superliga,923872,2024-11-22,18:00,3337,Nordsjaelland,3636,AGF,finished,1,0
+Superliga,923870,2024-11-24,13:00,3773,Randers,4085,Vejle,finished,2,0
+Superliga,923871,2024-11-24,13:00,3048,AaB,3591,Viborg,finished,0,0
+Superliga,923873,2024-11-24,15:00,3044,SonderjyskE,2986,Brondby,finished,2,2
+Superliga,923868,2024-11-24,17:00,3772,FC Copenhagen,2726,Lyngby,finished,2,1
+Superliga,923869,2024-11-25,18:00,3046,Midtjylland,3039,Silkeborg,finished,1,0
+Superliga,923879,2024-11-29,18:00,2986,Brondby,3048,AaB,finished,1,0
+Superliga,923878,2024-12-01,13:00,3591,Viborg,3773,Randers,finished,1,2
+Superliga,923875,2024-12-01,13:00,2726,Lyngby,3044,SonderjyskE,finished,0,2
+Superliga,923877,2024-12-01,15:00,4085,Vejle,3046,Midtjylland,finished,0,3
+Superliga,923876,2024-12-01,17:00,3039,Silkeborg,3636,AGF,finished,1,1
+Superliga,923874,2024-12-02,18:00,3772,FC Copenhagen,3337,Nordsjaelland,finished,3,1
+Superliga,923880,2025-02-14,18:00,2986,Brondby,3591,Viborg,finished,4,1
+Superliga,923881,2025-02-16,13:00,3039,Silkeborg,4085,Vejle,finished,0,1
+Superliga,923883,2025-02-16,15:00,3044,SonderjyskE,3636,AGF,finished,1,4
+Superliga,923885,2025-02-16,17:00,3046,Midtjylland,2726,Lyngby,finished,1,0
+Superliga,923884,2025-02-17,18:00,3773,Randers,3772,FC Copenhagen,finished,1,2
+Superliga,923888,2025-02-21,18:00,2726,Lyngby,3773,Randers,finished,0,0
+Superliga,923887,2025-02-23,13:00,3337,Nordsjaelland,3044,SonderjyskE,finished,3,2
+Superliga,923891,2025-02-23,13:00,3636,AGF,3048,AaB,finished,4,0
+Superliga,923889,2025-02-23,15:00,4085,Vejle,2986,Brondby,finished,2,2
+Superliga,923886,2025-02-23,17:00,3772,FC Copenhagen,3046,Midtjylland,finished,1,0
+Superliga,923890,2025-02-24,18:00,3591,Viborg,3039,Silkeborg,finished,1,4
+Superliga,923882,2025-02-26,18:30,3048,AaB,3337,Nordsjaelland,finished,1,2
+Superliga,923895,2025-02-28,18:00,3773,Randers,3636,AGF,finished,1,1
+Superliga,923897,2025-03-02,13:00,3591,Viborg,4085,Vejle,finished,3,1
+Superliga,923896,2025-03-02,13:00,3044,SonderjyskE,3039,Silkeborg,finished,1,3
+Superliga,923893,2025-03-02,15:00,3046,Midtjylland,3337,Nordsjaelland,finished,2,1
+Superliga,923894,2025-03-02,17:00,3048,AaB,3772,FC Copenhagen,finished,0,0
+Superliga,923892,2025-03-03,18:00,2986,Brondby,2726,Lyngby,finished,1,1
+Superliga,923900,2025-03-07,18:00,3337,Nordsjaelland,4085,Vejle,finished,3,1
+Superliga,923903,2025-03-09,13:00,3039,Silkeborg,2726,Lyngby,finished,0,1
+Superliga,923901,2025-03-09,13:00,3048,AaB,3046,Midtjylland,finished,1,4
+Superliga,923898,2025-03-09,15:00,3636,AGF,3591,Viborg,finished,1,1
+Superliga,923899,2025-03-09,17:00,3772,FC Copenhagen,3044,SonderjyskE,finished,1,1
+Superliga,923902,2025-03-10,18:00,3773,Randers,2986,Brondby,finished,4,2
+Superliga,923907,2025-03-16,16:00,4085,Vejle,3636,AGF,finished,3,2
+Superliga,923906,2025-03-16,16:00,2726,Lyngby,3337,Nordsjaelland,finished,1,0
+Superliga,923904,2025-03-16,16:00,2986,Brondby,3039,Silkeborg,finished,2,2
+Superliga,923905,2025-03-16,16:00,3046,Midtjylland,3773,Randers,finished,4,2
+Superliga,923909,2025-03-16,16:00,3044,SonderjyskE,3048,AaB,finished,0,3
+Superliga,923908,2025-03-16,16:00,3591,Viborg,3772,FC Copenhagen,finished,3,2
