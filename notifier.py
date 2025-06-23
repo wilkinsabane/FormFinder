@@ -203,5 +203,20 @@ def main():
 
     logging.info("Notifier script finished.")
 
+from prefect import task
+
+@task(name="Run Notifier")
+def run_notifier_task():
+    """Prefect task to run the notifier script."""
+    try:
+        main() # main function from notifier.py encapsulates its logic
+        logging.info("Notifier task completed successfully.")
+    except Exception as e:
+        logging.error(f"Notifier: Critical error during execution: {e}", exc_info=True)
+        # Decide if this should fail the flow or just log. For now, let it fail.
+        raise
+
 if __name__ == "__main__":
-    main()
+    # Example of how to run the task directly (for testing)
+    # run_notifier_task()
+    pass

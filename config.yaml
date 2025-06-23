@@ -1,0 +1,68 @@
+# Main Application Configuration for FormFinder
+
+database_url: "sqlite:///formfinder.db" # Relative to project root, will be prefixed in config.py
+
+data_fetcher:
+  api:
+    auth_token: "320cae54d49a09f11c5cd23da43204a5543fb394" # Example token
+    base_url: "https://api.soccerdataapi.com"
+    rate_limit_requests: 300
+    rate_limit_period: 60 # seconds
+    timeout: 15 # seconds
+    max_retries: 2
+  processing:
+    league_ids: [
+        203, 204, 205, 207, 208, 209, 210, 214, 221, 222, 223, 224, 225,
+        227, 229, 230, 232, 235, 236, 237, 241, 243, 244, 245, 246, 247,
+        248, 250, 251, 311
+        # Add more or use a smaller subset for testing if needed
+        # Example subset from original sdata_config.json:
+        # 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 217, 216,
+        # 199, 197, 219, 181, 220, 221, 222, 223, 224, 225, 226, 227, 232, 229, 237,
+        # 228, 230, 231, 200, 326, 310, 322, 323, 198, 233, 234, 238, 236, 235, 240,
+        # 244, 241, 242, 243, 245, 246, 247, 248, 249, 250, 251, 315, 311, 312, 313,
+        # 314, 316, 317, 318, 319, 320, 321, 325, 285, 284, 252, 255, 253, 254, 256,
+        # 257, 258, 260, 261, 262, 271, 263, 264, 265, 266, 267, 270, 269, 268, 272,
+        # 275, 273, 274, 276, 277, 278, 279, 282, 280, 281, 283, 286, 287, 288, 290,
+        # 289, 291, 292, 293, 294, 295, 296, 259
+    ]
+    season_year: "2024-2025"
+    max_concurrent_requests: 10
+    cache_ttl_hours: 24
+  # log_dir and cache_dir have defaults in Pydantic model, can override here if needed
+  # log_dir: "data/logs"
+  # cache_dir: "data/cache"
+
+data_processor:
+  recent_period: 10
+  win_rate_threshold: 0.70
+  season_year: "2024-2025" # Should match data_fetcher.processing.season_year
+  # log_dir has default
+
+predictor_outputter:
+  days_ahead: 7
+  output_dir: "data/predictions" # Default is PROJECT_ROOT/data/predictions
+  season_year: "2024-2025" # Should match data_fetcher/processor
+  recent_period_for_form: 10 # Should match data_processor.recent_period
+  # log_dir has default
+
+notifier:
+  email:
+    enabled: false # Disabled by default for safety
+    sender_email: "your_email@example.com"
+    sender_password: "YOUR_EMAIL_PASSWORD_OR_APP_PASSWORD"
+    receiver_email: "receiver_email@example.com"
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    subject_prefix: "[FormFinder]"
+    max_matches_in_email_body: 20
+  sms:
+    enabled: false # Disabled by default
+    service_provider: "twilio"
+    twilio_account_sid: "YOUR_TWILIO_ACCOUNT_SID"
+    twilio_auth_token: "YOUR_TWILIO_AUTH_TOKEN"
+    twilio_from_number: "+1234567890" # Your Twilio number
+    receiver_phone_number: "+0987654321" # Receiver's number
+    max_matches_in_sms: 1
+  predictions_dir: "data/predictions" # Default is PROJECT_ROOT/data/predictions
+  # log_dir has default

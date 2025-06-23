@@ -1,227 +1,265 @@
 import pandas as pd
 import os
-from datetime import datetime
+from datetime import datetime, date as DateObject, timedelta
 import logging
+import json # For loading sdata_init_config.json temporarily
 
-# Define the log directory (aligning with DataFetcher's log dir structure)
-LOG_PREDICTOR_DIR = 'data/logs' # Changed to data/logs
-os.makedirs(LOG_PREDICTOR_DIR, exist_ok=True)
+# Database imports
+from sqlalchemy.orm import Session, joinedload, aliased
+from sqlalchemy import and_, or_, func
+from database_setup import SessionLocal, League, Team, Match as DBMatch, HighFormTeam as DBHighFormTeam
 
-# Configure logging
+from typing import Optional
+# Configuration import
+from config.config import app_config, PredictorOutputterAppConfig
+
+
+# Configure logging (similar to DataProcessor, respect AppConfig)
+if app_config and app_config.predictor_outputter and app_config.predictor_outputter.log_dir:
+    LOG_PREDICTOR_DIR_PATH = app_config.predictor_outputter.log_dir
+else:
+    LOG_PREDICTOR_DIR_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'logs') # Fallback
+os.makedirs(LOG_PREDICTOR_DIR_PATH, exist_ok=True)
+
 logging.basicConfig(
-    filename=os.path.join(LOG_PREDICTOR_DIR, 'predictor_outputter.log'), # Changed path
+    filename=os.path.join(LOG_PREDICTOR_DIR_PATH,'predictor_outputter.log'),
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
-console = logging.StreamHandler()
-console.setLevel(logging.INFO)
-logging.getLogger('').addHandler(console)
-
-def load_high_form_teams(filepath):
-    """Load high-form teams data from a CSV file."""
-    try:
-        # Ensure team_id is read as string first to handle N/A or mixed types, then convert
-        df = pd.read_csv(filepath, dtype={'team_id': str})
-        df['team_id'] = pd.to_numeric(df['team_id'], errors='coerce')
-        # df.dropna(subset=['team_id'], inplace=True) # Optional: remove rows where team_id became NaN
-        # df['team_id'] = df['team_id'].astype(int) # Convert to int if all are valid numbers
-        logging.info(f"Loaded {len(df)} high-form teams from {filepath}")
-        return df
-    except pd.errors.EmptyDataError:
-        logging.info(f"High-form teams file is empty: {filepath}")
-        return pd.DataFrame(columns=['team_id', 'team_name', 'win_rate']) # Return empty df with expected columns
-    except FileNotFoundError:
-        logging.warning(f"High-form teams file not found: {filepath}")
-        return pd.DataFrame(columns=['team_id', 'team_name', 'win_rate'])
-    except Exception as e:
-        logging.error(f"Failed to load high-form teams from {filepath}: {e}")
-        return pd.DataFrame(columns=['team_id', 'team_name', 'win_rate'])
+logger = logging.getLogger(__name__)
+# console_handler_po = logging.StreamHandler() # Avoid re-defining if using root logger's stream
+# console_handler_po.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+# logger.addHandler(console_handler_po)
+# logger.propagate = False
 
 
-def load_fixtures(filepath):
-    """Load upcoming fixtures data from a CSV file."""
-    try:
-        # Ensure team_ids are read as strings first, then convert
-        df = pd.read_csv(filepath, dtype={'home_team_id': str, 'away_team_id': str})
-        df['home_team_id'] = pd.to_numeric(df['home_team_id'], errors='coerce')
-        df['away_team_id'] = pd.to_numeric(df['away_team_id'], errors='coerce')
-        # df.dropna(subset=['home_team_id', 'away_team_id'], how='any', inplace=True) # Optional
-        # df['home_team_id'] = df['home_team_id'].astype(int) # Optional
-        # df['away_team_id'] = df['away_team_id'].astype(int) # Optional
-        logging.info(f"Loaded {len(df)} fixtures from {filepath}")
-        return df
-    except pd.errors.EmptyDataError:
-        logging.info(f"Fixtures file is empty: {filepath}")
-        return pd.DataFrame() # Return empty df
-    except FileNotFoundError:
-        logging.warning(f"Fixtures file not found: {filepath}")
-        return pd.DataFrame()
-    except Exception as e:
-        logging.error(f"Failed to load fixtures from {filepath}: {e}")
-        return pd.DataFrame()
+class PredictorOutputter:
+    def __init__(self, db_session: Session, config: PredictorOutputterAppConfig):
+        self.db_session = db_session
+        self.config = config
+        self.season_year = config.season_year
+        self.recent_period_for_form = config.recent_period_for_form
+        self.days_ahead_default = config.days_ahead # For default in generate_predictions
+        logger.info(f"Initialized PredictorOutputter for season {self.season_year}, form period {self.recent_period_for_form}, days ahead {self.days_ahead_default}")
 
-# extract_league_id is identical to the one in DataProcessor
-# To avoid duplication, this could be in a shared utility module
-def extract_league_id(filename):
-    """Extract league ID from a filename: league_{league_id}_...csv"""
-    if filename.startswith('league_') and filename.endswith('.csv'):
-        parts = filename.split('_')
-        if len(parts) > 1:
-            try:
-                return int(parts[1])
-            except ValueError:
-                logging.warning(f"Could not parse league_id from {parts[1]} in {filename}")
-                pass
-    logging.warning(f"Cannot extract league_id from filename: {filename}")
-    return None
+    def get_upcoming_fixtures(self, days_ahead: Optional[int] = None) -> pd.DataFrame:
+        """
+        Retrieves upcoming fixtures from the database for the configured season,
+        up to 'days_ahead'. Uses class default if days_ahead not provided.
+        """
+        current_days_ahead = days_ahead if days_ahead is not None else self.days_ahead_default
+        today = DateObject.today()
+        future_date_limit = today + timedelta(days=current_days_ahead)
 
+        fixtures_query = self.db_session.query(
+                DBMatch.api_match_id.label("match_id"),
+                DBMatch.date,
+                DBMatch.time,
+                League.name.label("league_name"),
+                League.id.label("league_db_id"), # Keep DB ID for internal use
+                Team_home.name.label("home_team_name"),
+                Team_home.id.label("home_team_db_id"), # DB ID
+                Team_away.name.label("away_team_name"),
+                Team_away.id.label("away_team_db_id")  # DB ID
+            ).\
+            join(League, DBMatch.league_id == League.id).\
+            join(Team_home, DBMatch.home_team_id == Team_home.id).\
+            join(Team_away, DBMatch.away_team_id == Team_away.id).\
+            filter(DBMatch.is_fixture == 1).\
+            filter(DBMatch.date >= today).\
+            filter(DBMatch.date <= future_date_limit).\
+            filter(League.standings.any(season_year=self.season_year)).\
+            order_by(DBMatch.date, DBMatch.time) # Ensure chronological order
 
-def process_league(league_id, high_form_file_path, fixtures_file_path): # Renamed params for clarity
-    """Process a single league to find flagged matches with high win potential."""
-    high_form_teams = load_high_form_teams(high_form_file_path)
-    if high_form_teams.empty: # load_high_form_teams now returns empty df on error/empty file
-        logging.info(f"No high-form teams data available for league ID {league_id} from {high_form_file_path}, skipping processing for this league.")
-        return pd.DataFrame() # Return empty DataFrame
-    
-    fixtures = load_fixtures(fixtures_file_path)
-    if fixtures.empty: # load_fixtures now returns empty df on error/empty file
-        logging.info(f"No fixtures data available for league ID {league_id} from {fixtures_file_path}, skipping processing for this league.")
-        return pd.DataFrame()
-    
-    # Ensure team_id columns are numeric for merging/mapping
-    # High form teams 'team_id' should already be numeric from load_high_form_teams
-    # Fixtures 'home_team_id' and 'away_team_id' should be numeric from load_fixtures
-
-    # Create a dictionary for win rates: team_id -> win_rate
-    # Filter out NaN team_ids from high_form_teams before setting index
-    high_form_teams_cleaned = high_form_teams.dropna(subset=['team_id'])
-    if 'team_id' not in high_form_teams_cleaned.columns or 'win_rate' not in high_form_teams_cleaned.columns:
-        logging.error(f"High form teams data for league {league_id} is missing 'team_id' or 'win_rate' columns.")
-        return pd.DataFrame()
-
-    win_rate_dict = high_form_teams_cleaned.set_index('team_id')['win_rate'].to_dict()
-    
-    # Add league_id to fixtures (useful for combined output)
-    fixtures['league_id'] = league_id # This is the ID extracted from filename
-    if 'league_name' not in fixtures.columns and 'league_name' in high_form_teams.columns:
-         # If league_name is in high_form_teams (e.g. from datafetcher CSV column), map it
-        league_name_map = high_form_teams.drop_duplicates(subset=['team_id']).set_index('team_id')['league_name'].to_dict()
-        # This part is tricky if a team can be in multiple leagues in high_form_teams.
-        # Assuming for now high_form_teams is per league_id.
-        # Or, get league_name from the fixture file if it has it.
-        # For simplicity, we'll just use the league_id for now.
-        pass
-
-
-    # Map win rates to home and away teams in fixtures
-    fixtures['home_win_rate'] = fixtures['home_team_id'].map(win_rate_dict)
-    fixtures['away_win_rate'] = fixtures['away_team_id'].map(win_rate_dict)
-    
-    # Filter for matches where at least one team has a win rate (i.e., is in high_form_teams)
-    flagged_fixtures = fixtures[
-        fixtures['home_win_rate'].notnull() | fixtures['away_win_rate'].notnull()
-    ].copy() # Use .copy()
-    
-    # Select and order output columns
-    # Add 'league_name' if available and desired in the final output
-    output_columns = [
-        'league_id', 'match_id', 'date', 'time', 
-        'home_team_name', 'home_win_rate',
-        'away_team_name', 'away_win_rate'
-    ]
-    # Ensure all output columns exist in flagged_fixtures, add if missing (e.g. with None or N/A)
-    for col in output_columns:
-        if col not in flagged_fixtures.columns:
-            flagged_fixtures[col] = None # or pd.NA
-
-    return flagged_fixtures[output_columns]
-
-
-def run_predictor_outputter(fixtures_dir='data/fixtures', processed_dir='processed_data', output_dir='data/predictions'):
-    """Run the Predictor/Outputter to generate daily predictions."""
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-        logging.info(f"Created output directory: {output_dir}")
-    
-    if not os.path.exists(fixtures_dir):
-        logging.error(f"Fixtures directory {fixtures_dir} does not exist. Cannot run predictor.")
-        return
-    if not os.path.exists(processed_dir):
-        logging.error(f"Processed data directory {processed_dir} does not exist. Cannot run predictor.")
-        return
-
-    # Expecting filenames like: league_{id}_upcoming_fixtures.csv
-    fixture_filenames = [f for f in os.listdir(fixtures_dir) if f.startswith('league_') and f.endswith('_upcoming_fixtures.csv')]
-    logging.info(f"Found {len(fixture_filenames)} fixture files to process in {fixtures_dir}")
-    
-    all_flagged_matches_list = []
-    
-    for fixture_filename in fixture_filenames:
-        league_id = extract_league_id(fixture_filename) # Expects league_{id}_...
-        if league_id is None:
-            logging.warning(f"Could not extract league_id from {fixture_filename}, skipping.")
-            continue
+        # Aliases for team joins
+        Team_home = aliased(Team, name="home_team_alias")
+        Team_away = aliased(Team, name="away_team_alias")
         
-        # Construct paths to input files for this league
-        # high_form_teams file is named without league_name or season
-        high_form_file_path = os.path.join(processed_dir, f"league_{league_id}_high_form_teams.csv")
-        # fixture_file path uses the exact filename found in the directory
-        fixtures_file_path = os.path.join(fixtures_dir, fixture_filename)
+        # Rebuild query with aliases (SQLAlchemy quirk, alias needs to be defined before use in join)
+        fixtures_query = self.db_session.query(
+                DBMatch.api_match_id.label("match_id"),
+                DBMatch.date,
+                DBMatch.time,
+                League.name.label("league_name"),
+                League.id.label("league_db_id"),
+                Team_home.name.label("home_team_name"),
+                Team_home.id.label("home_team_db_id"),
+                Team_away.name.label("away_team_name"),
+                Team_away.id.label("away_team_db_id")
+            ).\
+            join(League, DBMatch.league_id == League.id).\
+            join(Team_home, DBMatch.home_team_id == Team_home.id).\
+            join(Team_away, DBMatch.away_team_id == Team_away.id).\
+            filter(DBMatch.is_fixture == 1).\
+            filter(DBMatch.date >= today).\
+            filter(DBMatch.date <= future_date_limit).\
+            filter(League.standings.any(season_year=self.season_year)).\
+            order_by(DBMatch.date, DBMatch.time)
+
+        fixtures_df = pd.read_sql(fixtures_query.statement, self.db_session.bind)
+        logger.info(f"Fetched {len(fixtures_df)} upcoming fixtures from DB for season {self.season_year} up to {future_date_limit}.")
+        return fixtures_df
+
+    def get_high_form_teams_for_season(self) -> pd.DataFrame:
+        """
+        Retrieves all high-form teams for the configured season and recent_period_for_form.
+        """
+        high_form_query = self.db_session.query(
+                DBHighFormTeam.team_id.label("team_db_id"), # This is Team.id from DB
+                DBHighFormTeam.win_rate,
+                DBHighFormTeam.league_id.label("league_db_id") # League.id from DB
+            ).\
+            filter(DBHighFormTeam.season_year == self.season_year).\
+            filter(DBHighFormTeam.recent_period_games == self.recent_period_for_form)
+            # Ensure win_rate is also above a certain threshold if DataProcessor doesn't filter strictly
+            # filter(DBHighFormTeam.win_rate >= MIN_INTERESTING_WIN_RATE) -- already handled by DataProcessor
+
+        high_form_df = pd.read_sql(high_form_query.statement, self.db_session.bind)
+        logger.info(f"Fetched {len(high_form_df)} high-form team entries from DB for season {self.season_year} and period {self.recent_period_for_form}.")
+        return high_form_df
+
+    def generate_predictions(self, days_ahead: Optional[int] = None, output_dir: Optional[str] = None):
+        """
+        Generates predictions by combining upcoming fixtures with high-form teams
+        and saves the output to a CSV file. Uses class defaults if parameters not provided.
+        """
+        current_days_ahead = days_ahead if days_ahead is not None else self.config.days_ahead
+        current_output_dir = output_dir if output_dir is not None else str(self.config.output_dir)
+
+        if not os.path.exists(current_output_dir):
+            os.makedirs(current_output_dir)
+            logger.info(f"Created output directory: {current_output_dir}")
+
+        upcoming_fixtures_df = self.get_upcoming_fixtures(days_ahead=current_days_ahead)
+        if upcoming_fixtures_df.empty:
+            logger.info("No upcoming fixtures found. No predictions to generate.")
+            return
+
+        high_form_teams_df = self.get_high_form_teams_for_season()
+        if high_form_teams_df.empty:
+            logger.info("No high-form teams found for the season. Predictions will not show win rates.")
         
-        logging.info(f"Processing league ID {league_id}: using high-form file '{high_form_file_path}' and fixtures file '{fixtures_file_path}'")
+        # Merge fixtures with high-form teams for home team
+        # We need to ensure the merge is league-specific if a team could be high-form in one league but not another (unlikely with current setup)
+        # Current HighFormTeam table has league_id, so a merge on team_db_id AND league_db_id is more precise.
         
-        flagged_league_df = process_league(league_id, high_form_file_path, fixtures_file_path)
-        if not flagged_league_df.empty:
-            all_flagged_matches_list.append(flagged_league_df)
+        # Rename columns for merging convenience if names clash or for clarity
+        high_form_home = high_form_teams_df.rename(columns={'win_rate': 'home_win_rate', 'team_db_id': 'home_team_db_id', 'league_db_id': 'h_league_db_id'})
+        
+        # Merge for home team win rates
+        predictions_df = pd.merge(
+            upcoming_fixtures_df,
+            high_form_home[['home_team_db_id', 'home_win_rate', 'h_league_db_id']], # Select relevant columns
+            on=['home_team_db_id'], # Merge on team's DB ID
+            how='left'
+        )
+        # Filter out merges where league_db_id of fixture doesn't match league_db_id of high form entry
+        # This is important if a team_id could appear in multiple leagues' high_form_teams table (though unlikely for a single season)
+        if not high_form_teams_df.empty:
+             predictions_df = predictions_df[predictions_df['league_db_id'] == predictions_df['h_league_db_id']].drop(columns=['h_league_db_id'])
+
+
+        # Merge for away team win rates
+        high_form_away = high_form_teams_df.rename(columns={'win_rate': 'away_win_rate', 'team_db_id': 'away_team_db_id', 'league_db_id': 'a_league_db_id'})
+        predictions_df = pd.merge(
+            predictions_df,
+            high_form_away[['away_team_db_id', 'away_win_rate', 'a_league_db_id']],
+            on=['away_team_db_id'],
+            how='left'
+        )
+        if not high_form_teams_df.empty:
+            predictions_df = predictions_df[predictions_df['league_db_id'] == predictions_df['a_league_db_id']].drop(columns=['a_league_db_id'])
+
+        # Filter for matches where at least one team has a win rate (is in high-form)
+        flagged_matches_df = predictions_df[
+            predictions_df['home_win_rate'].notnull() | predictions_df['away_win_rate'].notnull()
+        ].copy()
+
+        if flagged_matches_df.empty:
+            logger.info("No matches found where at least one participating team is in high form.")
         else:
-            logging.info(f"No flagged matches found for league ID {league_id}.")
-            
-    if all_flagged_matches_list:
-        combined_flagged_matches = pd.concat(all_flagged_matches_list, ignore_index=True)
-        
-        # Convert 'date' to datetime for sorting, handle errors
-        if 'date' in combined_flagged_matches.columns:
-            try:
-                combined_flagged_matches['date_dt'] = pd.to_datetime(combined_flagged_matches['date'], format='%d/%m/%Y', errors='coerce')
-            except ValueError: # If format is mixed or different
-                 combined_flagged_matches['date_dt'] = pd.to_datetime(combined_flagged_matches['date'], errors='coerce')
+            logger.info(f"Found {len(flagged_matches_df)} matches with at least one high-form team.")
 
+        # Select and order output columns
+        output_columns = [
+            'league_name', 'match_id', 'date', 'time',
+            'home_team_name', 'home_win_rate',
+            'away_team_name', 'away_win_rate'
+        ]
+        # Ensure all output columns exist, fill with NA if necessary before reordering
+        for col in output_columns:
+            if col not in flagged_matches_df.columns:
+                flagged_matches_df[col] = pd.NA
 
-            # Sort by date (and time, if time column is consistently formatted)
-            # Ensure 'time' column is suitable for sorting, e.g., HH:MM
-            if 'time' in combined_flagged_matches.columns and 'date_dt' in combined_flagged_matches.columns:
-                combined_flagged_matches = combined_flagged_matches.sort_values(by=['date_dt', 'time'])
-            elif 'date_dt' in combined_flagged_matches.columns:
-                 combined_flagged_matches = combined_flagged_matches.sort_values(by=['date_dt'])
-            
-            if 'date_dt' in combined_flagged_matches.columns: # remove temporary sort column
-                combined_flagged_matches.drop(columns=['date_dt'], inplace=True)
+        final_predictions_df = flagged_matches_df[output_columns].sort_values(by=['date', 'time'])
+
+        # Format date for display if needed (it's already a date object from DB)
+        final_predictions_df['date'] = pd.to_datetime(final_predictions_df['date']).dt.strftime('%Y-%m-%d')
 
 
         # Save to a timestamped CSV
         date_str = datetime.now().strftime("%Y%m%d")
-        output_filename = os.path.join(output_dir, f"predictions_{date_str}.csv")
+        # Use current_output_dir which is derived from config or parameter
+        output_filename = os.path.join(current_output_dir, f"predictions_{date_str}.csv")
         try:
-            combined_flagged_matches.to_csv(output_filename, index=False)
-            logging.info(f"Saved {len(combined_flagged_matches)} total flagged matches to {output_filename}")
+            final_predictions_df.to_csv(output_filename, index=False)
+            logger.info(f"Saved {len(final_predictions_df)} flagged matches to {output_filename}")
         except Exception as e:
-            logging.error(f"Error saving combined predictions to {output_filename}: {e}")
-            
+            logger.error(f"Error saving predictions to {output_filename}: {e}")
+
+from prefect import task, get_run_logger as prefect_get_run_logger
+
+@task(name="Run Predictor Outputter")
+def run_predictor_outputter_task(db_session_override: Optional[Session] = None):
+    """Prefect task to run the PredictorOutputter."""
+    task_logger = prefect_get_run_logger()
+    if not app_config:
+        task_logger.error("PredictorOutputter: Global app_config not loaded. Cannot proceed.")
+        raise ValueError("Global app_config not loaded.")
+
+    session_managed_locally = False
+    if db_session_override:
+        db_sess = db_session_override
     else:
-        logging.info("No flagged matches found across all leagues for today.")
+        db_sess = SessionLocal()
+        session_managed_locally = True
+        task_logger.info("PredictorOutputter task created its own DB session.")
+
+    try:
+        predictor_config = app_config.predictor_outputter
+
+        # Parameter consistency checks (optional, Pydantic might handle some)
+        # These ensure that the predictor is using parameters consistent with how data was processed.
+        if predictor_config.season_year != app_config.data_processor.season_year:
+            task_logger.warning(
+                f"Predictor season_year ({predictor_config.season_year}) "
+                f"differs from DataProcessor's ({app_config.data_processor.season_year}). Using predictor's."
+            )
+        if predictor_config.recent_period_for_form != app_config.data_processor.recent_period:
+             task_logger.warning(
+                f"Predictor recent_period_for_form ({predictor_config.recent_period_for_form}) "
+                f"differs from DataProcessor's ({app_config.data_processor.recent_period}). Using predictor's."
+            )
+
+        predictor = PredictorOutputter(
+            db_session=db_sess,
+            config=predictor_config
+        )
+        # generate_predictions will use days_ahead and output_dir from its own config by default
+        predictor.generate_predictions()
+        task_logger.info("PredictorOutputter task completed successfully.")
+    except Exception as e:
+        task_logger.error(f"PredictorOutputter: Critical error during execution: {e}", exc_info=True)
+        raise
+    finally:
+        if session_managed_locally:
+            db_sess.close()
+            task_logger.info("PredictorOutputter task closed its locally managed DB session.")
 
 if __name__ == "__main__":
-    # Define directories or load from a config
-    FIXTURES_INPUT_DIR = 'data/fixtures'
-    PROCESSED_INPUT_DIR = 'processed_data'
-    PREDICTIONS_OUTPUT_DIR = 'data/predictions' # This should match the LOG_DIR for output if desired
-                                                # or a separate 'output' dir within data/predictions
-    
-    # Create the main output directory for predictions CSVs if it doesn't exist
-    os.makedirs(PREDICTIONS_OUTPUT_DIR, exist_ok=True)
-
-    run_predictor_outputter(
-        fixtures_dir=FIXTURES_INPUT_DIR,
-        processed_dir=PROCESSED_INPUT_DIR,
-        output_dir=PREDICTIONS_OUTPUT_DIR
-    )
+    # Example of how to run the task directly (for testing)
+    # if app_config:
+    #     run_predictor_outputter_task() # This would create its own session
+    # else:
+    #     print("Cannot run standalone PredictorOutputter: app_config not loaded (config.yaml missing or invalid).")
+    pass

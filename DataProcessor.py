@@ -2,258 +2,232 @@ import pandas as pd
 import logging
 import os
 import json
+from datetime import datetime, timedelta
 
-# Ensure sdata_init_config.json is in the same directory or provide correct path
-# It's better to pass these as arguments or load them inside the class/main
-try:
-    with open('sdata_init_config.json', 'r') as f:
-        PROJECT_CONFIG = json.load(f)
-    RECENT_PERIOD = PROJECT_CONFIG['recent_period']
-    WIN_RATE_THRESHOLD = PROJECT_CONFIG['win_rate_threshold']
-except FileNotFoundError:
-    logging.warning("sdata_init_config.json not found. Using default values for RECENT_PERIOD and WIN_RATE_THRESHOLD.")
-    RECENT_PERIOD = 10
-    WIN_RATE_THRESHOLD = 0.7
-except json.JSONDecodeError:
-    logging.error("Error decoding sdata_init_config.json. Using default values.")
-    RECENT_PERIOD = 10
-    WIN_RATE_THRESHOLD = 0.7
+# Database imports
+from sqlalchemy.orm import Session, joinedload, aliased
+from sqlalchemy import desc, func
+from database_setup import SessionLocal, League, Team, Match as DBMatch, HighFormTeam as DBHighFormTeam
 
-# Configure logging (ensure this path is correct if running from cron)
-# Consider using an absolute path or a logs directory consistent with DataFetcher
-LOG_PROCESSOR_DIR = 'data/logs' # Aligning with DataFetcher's log dir structure
-os.makedirs(LOG_PROCESSOR_DIR, exist_ok=True)
+from typing import Optional
+# Configuration import
+from config.config import app_config, DataProcessorAppConfig
+
+# Configure logging (will be managed by Prefect or global config later)
+# For now, ensure basic logging is set up if run standalone, but respect AppConfig log_dir
+# This initial setup might be overridden by Prefect's logging or a central logger setup.
+if app_config and app_config.data_processor and app_config.data_processor.log_dir:
+    LOG_PROCESSOR_DIR_PATH = app_config.data_processor.log_dir
+else:
+    LOG_PROCESSOR_DIR_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'logs') # Fallback
+os.makedirs(LOG_PROCESSOR_DIR_PATH, exist_ok=True)
+
 logging.basicConfig(
-    filename=os.path.join(LOG_PROCESSOR_DIR,'data_processor.log'), # Changed path
+    filename=os.path.join(LOG_PROCESSOR_DIR_PATH,'data_processor.log'),
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
-console = logging.StreamHandler()
-console.setLevel(logging.INFO)
-logging.getLogger('').addHandler(console)
+# Adding a module-specific logger
+logger = logging.getLogger(__name__)
+# Ensure console output for Prefect tasks if needed, or rely on Prefect's log capture.
+# Prefect usually captures stdout/stderr and logger outputs.
+# console_handler = logging.StreamHandler()
+# console_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+# logger.addHandler(console_handler)
+# logger.propagate = False # To avoid double logging if root logger also has stream handler
+
 
 class DataProcessor:
-    """A class to process historical match data and identify high-form teams."""
+    """Processes match data from DB to identify and store high-form teams in DB."""
     
-    def __init__(self, recent_period=10, win_rate_threshold=0.7):
-        """Initialize the DataProcessor with configurable parameters."""
-        self.recent_period = recent_period
-        self.win_rate_threshold = win_rate_threshold
-        logging.info(f"Initialized DataProcessor with recent_period={self.recent_period}, win_rate_threshold={self.win_rate_threshold}")
+    def __init__(self, db_session: Session, config: DataProcessorAppConfig):
+        self.db_session = db_session
+        self.config = config
+        self.recent_period = config.recent_period
+        self.win_rate_threshold = config.win_rate_threshold
+        self.season_year = config.season_year
+        logger.info(f"Initialized DataProcessor with recent_period={self.recent_period}, win_rate_threshold={self.win_rate_threshold}, season_year={self.season_year}")
 
-    def load_matches(self, filepath):
-        """Load historical match data from a CSV file."""
-        try:
-            df = pd.read_csv(filepath)
-            
-            # Ensure 'date' column exists before trying to convert
-            if 'date' in df.columns:
-                # FIXED: Try multiple date formats to handle both DataFetcher output and other formats
-                original_count = len(df)
-                
-                # First, try the DataFetcher standard format (YYYY-MM-DD)
-                df['date'] = pd.to_datetime(df['date'], format='%Y-%m-%d', errors='coerce')
-                
-                # If that didn't work for all dates, try other common formats
-                mask_invalid = df['date'].isnull()
-                if mask_invalid.any():
-                    logging.info(f"Trying alternative date formats for {mask_invalid.sum()} dates")
-                    
-                    # Try DD/MM/YYYY format
-                    df.loc[mask_invalid, 'date'] = pd.to_datetime(
-                        df.loc[mask_invalid, 'date'], 
-                        format='%d/%m/%Y', 
-                        errors='coerce'
-                    )
-                    
-                    # Try general pandas inference for remaining dates
-                    mask_still_invalid = df['date'].isnull()
-                    if mask_still_invalid.any():
-                        df.loc[mask_still_invalid, 'date'] = pd.to_datetime(
-                            df.loc[mask_still_invalid, 'date'], 
-                            errors='coerce'
-                        )
-                
-                # Log results of date parsing
-                valid_dates = df['date'].notna().sum()
-                invalid_dates = original_count - valid_dates
-                
-                logging.info(f"Date parsing results: {valid_dates} valid dates, {invalid_dates} invalid dates")
-                
-                if invalid_dates > 0:
-                    logging.warning(f"Found {invalid_dates} rows with unparseable dates")
-                    # Show sample of invalid dates for debugging
-                    invalid_sample = df[df['date'].isnull()]['date'].head(5).tolist()
-                    logging.warning(f"Sample invalid dates: {invalid_sample}")
-                
-                # Optionally drop rows with invalid dates if they're critical for analysis
-                # df.dropna(subset=['date'], inplace=True)
-            else:
-                logging.warning(f"'date' column not found in {filepath}")
-            
-            logging.info(f"Loaded {len(df)} matches from {filepath}")
-            return df
-        except pd.errors.EmptyDataError:
-            logging.warning(f"No data or empty file: {filepath}")
-            return pd.DataFrame()
-        except Exception as e:
-            logging.error(f"Failed to load matches from {filepath}: {e}")
-            return pd.DataFrame()
+    def calculate_team_win_rate(self, team_db_id: int) -> float:
+        """
+        Calculate the win rate for a team based on their last N finished, non-fixture games
+        within the current season_year.
+        """
+        # Query for the team's recent matches (home or away)
+        # Ensure matches are finished, not fixtures, and within the season_year
+        # Note: DBMatch.date is a Date object, not DateTime.
+        
+        # Get current date to filter matches up to today
+        today = datetime.utcnow().date()
 
-    def calculate_win_rate(self, team_id, matches_df): # Renamed matches to matches_df
-        """Calculate the win rate for a team based on their last N games."""
-        # Filter for matches involving the team
-        team_matches = matches_df[
-            (matches_df['home_team_id'] == team_id) | (matches_df['away_team_id'] == team_id)
-        ].copy() # Use .copy() to avoid SettingWithCopyWarning
+        team_matches_query = self.db_session.query(DBMatch).join(League).\
+            filter(
+                League.standings.any(season_year=self.season_year), # Ensure league is active in this season
+                (DBMatch.home_team_id == team_db_id) | (DBMatch.away_team_id == team_db_id),
+                DBMatch.status == 'finished',
+                DBMatch.is_fixture == 0, # Explicitly non-fixtures
+                DBMatch.date <= today, # Only consider matches up to today
+                # Add a filter for season_year if matches span multiple years and league does too
+                # This might require joining DBMatch.league and checking League.season_year or similar
+                # For now, assuming matches within a league are generally for one main season at a time
+                # or that DataFetcher is already season-aware.
+                # A simple way: if DBMatch had a season_year field, or filter by date range.
+                # Let's assume for now, the `is_fixture == 0` and `status == 'finished'` along with
+                # processing per league (which is tied to a season in DataFetcher) is enough.
+                # We might need to refine this if historical data for a league_id spans many seasons.
+            ).order_by(desc(DBMatch.date), desc(DBMatch.time)).limit(self.recent_period)
         
-        if 'date' not in team_matches.columns:
-            logging.warning(f"No 'date' column found for team {team_id}. Cannot calculate win rate.")
-            return 0.0
-            
-        # FIXED: Better handling of null dates
-        valid_date_matches = team_matches.dropna(subset=['date'])
-        
-        if len(valid_date_matches) == 0:
-            logging.warning(f"No matches with valid dates for team {team_id}. Cannot calculate win rate.")
+        recent_matches = team_matches_query.all()
+
+        if not recent_matches:
+            logger.debug(f"No recent finished matches found for team DB ID {team_db_id} in season {self.season_year}.")
             return 0.0
 
-        # Sort by date and select the most recent N games
-        team_matches_sorted = valid_date_matches.sort_values(by='date', ascending=False).head(self.recent_period)
-        
-        if len(team_matches_sorted) == 0:
-            return 0.0
-        
         wins = 0
         valid_games_for_win_rate = 0
-        for _, match in team_matches_sorted.iterrows():
-            if match['status'] != 'finished':
-                continue
-            
-            # Convert scores to numeric, coercing errors. N/A or invalid scores become NaN.
-            home_score = pd.to_numeric(match.get('home_score'), errors='coerce')
-            away_score = pd.to_numeric(match.get('away_score'), errors='coerce')
-            
-            if pd.isna(home_score) or pd.isna(away_score):
+
+        for match in recent_matches:
+            if match.home_score is None or match.away_score is None:
+                logger.warning(f"Match API ID {match.api_match_id} for team {team_db_id} has no scores, skipping for win rate.")
                 continue
             
             valid_games_for_win_rate += 1
-
-            if (match['home_team_id'] == team_id and home_score > away_score) or \
-               (match['away_team_id'] == team_id and away_score > home_score):
+            if (match.home_team_id == team_db_id and match.home_score > match.away_score) or \
+               (match.away_team_id == team_db_id and match.away_score > match.home_score):
                 wins += 1
         
         if valid_games_for_win_rate == 0:
+            logger.debug(f"No valid games with scores for win rate calculation for team DB ID {team_db_id} among recent matches.")
             return 0.0
         
         win_rate = wins / valid_games_for_win_rate
-        logging.debug(f"Team {team_id}: win rate {win_rate:.2f} over {valid_games_for_win_rate} valid recent games.")
+        logger.debug(f"Team DB ID {team_db_id}: win rate {win_rate:.2f} over {valid_games_for_win_rate} valid recent games in season {self.season_year}.")
         return win_rate
 
-    def process_league(self, filepath):
-        """Process matches for a league and identify high-performing teams."""
-        matches = self.load_matches(filepath)
-        if matches.empty:
-            logging.info(f"No matches loaded from {filepath}, cannot process league.")
-            return pd.DataFrame(columns=['team_id', 'team_name', 'win_rate']) # Return empty df with columns
+    def process_league(self, league_db_id: int, league_name: str):
+        """Process a single league: find all teams, calculate their form, and save high-form teams to DB."""
+        logger.info(f"Processing league: {league_name} (DB ID: {league_db_id}) for season {self.season_year}")
         
-        # FIXED: Convert team IDs to string first, then to numeric to handle mixed types
-        home_team_ids = pd.to_numeric(matches['home_team_id'].astype(str), errors='coerce').dropna()
-        away_team_ids = pd.to_numeric(matches['away_team_id'].astype(str), errors='coerce').dropna()
+        teams_from_standings = self.db_session.query(Team).join(DBStandings, Team.id == DBStandings.team_id).\
+            filter(DBStandings.league_id == league_db_id).\
+            filter(DBStandings.season_year == self.season_year).distinct().all()
+
+        if not teams_from_standings:
+            logger.info(f"No teams found in standings for league {league_name} (DB ID: {league_db_id}) for season {self.season_year}. Skipping form calculation.")
+            return
+
+        logger.info(f"Found {len(teams_from_standings)} teams in standings for league {league_name} (DB ID: {league_db_id}), season {self.season_year}.")
         
-        all_team_ids = pd.concat([home_team_ids, away_team_ids]).astype(int).unique()
-        
-        high_form_teams_data = []
-        
-        for team_id in all_team_ids:
-            win_rate = self.calculate_win_rate(team_id, matches)
-            if win_rate >= self.win_rate_threshold: # Changed to >= to include threshold
-                # Attempt to get team_name, prioritize home_team_name then away_team_name
-                team_name_series = matches.loc[matches['home_team_id'] == team_id, 'home_team_name']
-                if team_name_series.empty:
-                    team_name_series = matches.loc[matches['away_team_id'] == team_id, 'away_team_name']
+        high_form_teams_count = 0
+        for team_obj in teams_from_standings:
+            team_db_id = team_obj.id
+            team_api_id = team_obj.api_team_id
+
+            win_rate = self.calculate_team_win_rate(team_db_id)
+
+            if win_rate >= self.win_rate_threshold:
+                existing_high_form_entry = self.db_session.query(DBHighFormTeam).filter_by(
+                    league_id=league_db_id,
+                    team_id=team_db_id,
+                    season_year=self.season_year,
+                    recent_period_games=self.recent_period
+                ).first()
+
+                if existing_high_form_entry:
+                    if abs(existing_high_form_entry.win_rate - win_rate) > 0.001:
+                        existing_high_form_entry.win_rate = win_rate
+                        existing_high_form_entry.calculated_at = datetime.utcnow()
+                        logger.info(f"Updating high-form entry for team API ID {team_api_id} in league {league_name} to win_rate {win_rate:.2f}")
+                    else:
+                        logger.debug(f"High-form entry for team API ID {team_api_id} in league {league_name} (win_rate {win_rate:.2f}) is unchanged.")
+                else:
+                    new_high_form_entry = DBHighFormTeam(
+                        league_id=league_db_id,
+                        team_id=team_db_id,
+                        win_rate=win_rate,
+                        recent_period_games=self.recent_period,
+                        season_year=self.season_year
+                    )
+                    self.db_session.add(new_high_form_entry)
+                    logger.info(f"Adding new high-form entry for team API ID {team_api_id} in league {league_name} with win_rate {win_rate:.2f}")
                 
-                team_name = team_name_series.iloc[0] if not team_name_series.empty else f"TeamId-{team_id}"
-                
-                high_form_teams_data.append({
-                    'team_id': team_id,
-                    'team_name': team_name,
-                    'win_rate': win_rate
-                })
+                high_form_teams_count +=1
         
-        high_form_df = pd.DataFrame(high_form_teams_data, columns=['team_id', 'team_name', 'win_rate'])
-        if not high_form_df.empty:
-            logging.info(f"Identified {len(high_form_df)} high-form teams from {filepath}")
+        if high_form_teams_count > 0:
+            try:
+                self.db_session.commit()
+                logger.info(f"Committed {high_form_teams_count} high-form team updates/inserts for league {league_name} (DB ID: {league_db_id}), season {self.season_year}.")
+            except Exception as e:
+                self.db_session.rollback()
+                logger.error(f"DB error committing high-form teams for league {league_name}: {e}", exc_info=True)
         else:
-            logging.info(f"No high-form teams met threshold from {filepath}")
-        return high_form_df
+            logger.info(f"No teams met high-form threshold for league {league_name} (DB ID: {league_db_id}), season {self.season_year}.")
 
-    def save_high_form_teams(self, high_form_df, output_filepath):
-        """Save the high-form teams to a CSV file. Creates an empty file if df is empty."""
-        expected_columns = ['team_id', 'team_name', 'win_rate']
-        if high_form_df.empty:
-            logging.info(f"No high-form teams identified. Saving empty file with headers to {output_filepath}")
-            pd.DataFrame(columns=expected_columns).to_csv(output_filepath, index=False)
-        else:
-            # Ensure DataFrame has the expected columns before saving
-            df_to_save = high_form_df.reindex(columns=expected_columns)
-            df_to_save.to_csv(output_filepath, index=False)
-            logging.info(f"Saved {len(df_to_save)} high-form teams to {output_filepath}")
+    def run(self):
+        """Process all leagues in the database for the configured season."""
+        logger.info(f"Starting DataProcessor run for season {self.season_year}...")
 
-    @staticmethod
-    def extract_league_id(filename):
-        """Extract league ID from a filename: league_{league_id}_...csv"""
-        # Example: league_123_2023-2024_historical_matches.csv -> 123
-        # Example: league_456_upcoming_fixtures.csv -> 456
-        if filename.startswith('league_') and filename.endswith('.csv'):
-            parts = filename.split('_')
-            if len(parts) > 1:
-                try:
-                    return int(parts[1])
-                except ValueError:
-                    logging.warning(f"Could not parse league_id from {parts[1]} in {filename}")
-                    pass
-        logging.warning(f"Cannot extract league_id from filename: {filename}")
-        return None
+        leagues_to_process = self.db_session.query(League).\
+            join(DBStandings, League.id == DBStandings.league_id).\
+            filter(DBStandings.season_year == self.season_year).\
+            distinct().all()
 
-    def run(self, input_filepaths, output_dir='processed_data'):
-        """Process historical match files and generate high-form team files."""
-        if not os.path.exists(output_dir):
-            os.makedirs(output_dir)
-            logging.info(f"Created output directory: {output_dir}")
+        if not leagues_to_process:
+            logger.warning(f"No leagues found with standings for season {self.season_year}. DataProcessor run will not process any leagues.")
+            return
+
+        logger.info(f"Found {len(leagues_to_process)} leagues with standings for season {self.season_year} to process.")
+
+        for league_obj in leagues_to_process:
+            self.process_league(league_db_id=league_obj.id, league_name=league_obj.name)
         
-        for filepath in input_filepaths:
-            filename = os.path.basename(filepath)
-            logging.info(f"Processing historical file: {filename}")
-            league_id = self.extract_league_id(filename) # Expects league_{id}_...
-            
-            if league_id is None:
-                logging.warning(f"Skipping {filename} as league_id could not be extracted.")
-                continue
-            
-            high_form_df = self.process_league(filepath) # Returns df, possibly empty but with columns
-            output_filepath = os.path.join(output_dir, f"league_{league_id}_high_form_teams.csv")
-            self.save_high_form_teams(high_form_df, output_filepath) # Will now always save a file
+        logger.info(f"DataProcessor run finished for season {self.season_year}.")
 
-def get_historical_files(directory='data/historical'):
-    """Retrieve all historical match CSV files from the specified directory."""
-    if not os.path.exists(directory):
-        logging.error(f"Historical data directory {directory} does not exist")
-        return []
+
+from prefect import task, get_run_logger as prefect_get_run_logger # Alias to avoid clash
+
+@task(name="Run Data Processor")
+def run_data_processor_task(db_session_override: Optional[Session] = None):
+    """Prefect task to run the DataProcessor."""
+    task_logger = prefect_get_run_logger() # Use Prefect's logger for task-level logging
+    if not app_config:
+        task_logger.error("DataProcessor: Global app_config not loaded. Cannot proceed.")
+        raise ValueError("Global app_config not loaded.")
+
+    session_managed_locally = False
+    if db_session_override:
+        db_sess = db_session_override
+    else:
+        db_sess = SessionLocal()
+        session_managed_locally = True
+        task_logger.info("DataProcessor task created its own DB session.")
     
-    # Expecting filenames like: league_{id}_{season}_historical_matches.csv
-    csv_files = [
-        os.path.join(directory, f) for f in os.listdir(directory)
-        if f.startswith('league_') and f.endswith('_historical_matches.csv') and os.path.isfile(os.path.join(directory, f))
-    ]
-    logging.info(f"Found {len(csv_files)} historical CSV files in {directory}")
-    return csv_files
+    try:
+        processor_config = app_config.data_processor
+        # Ensure season_year consistency (could also be validated in Pydantic model if DataFetcher config is passed)
+        if processor_config.season_year != app_config.data_fetcher.processing.season_year:
+            task_logger.warning(f"Season year mismatch! Processor: {processor_config.season_year}, Fetcher: {app_config.data_fetcher.processing.season_year}. Using processor's.")
+            # Decide on a consistent strategy: e.g., always use fetcher's, or make them a single top-level config.
+            # For now, proceeding with processor_config.season_year as passed.
+
+        processor = DataProcessor(
+            db_session=db_sess,
+            config=processor_config
+        )
+        processor.run()
+        task_logger.info("DataProcessor task completed successfully.")
+    except Exception as e:
+        task_logger.error(f"DataProcessor: Critical error during execution: {e}", exc_info=True)
+        raise
+    finally:
+        if session_managed_locally:
+            db_sess.close()
+            task_logger.info("DataProcessor task closed its locally managed DB session.")
 
 if __name__ == "__main__":
-    historical_input_files = get_historical_files() # Corrected variable name
-    if not historical_input_files:
-        logging.warning("No input historical files found by get_historical_files(), DataProcessor exiting.")
-    else:
-        # Use RECENT_PERIOD and WIN_RATE_THRESHOLD loaded from config or defaults
-        processor = DataProcessor(recent_period=RECENT_PERIOD, win_rate_threshold=WIN_RATE_THRESHOLD)
-        processor.run(historical_input_files)
+    # Example of how to run the task directly (for testing)
+    # if app_config: # Ensure config is loaded for standalone test
+    #     run_data_processor_task()
+    # else:
+    #     print("Cannot run standalone DataProcessor task: app_config not loaded (config.yaml missing or invalid).")
+    pass

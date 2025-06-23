@@ -22,7 +22,7 @@ import json
 import os
 import time
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from typing import Dict, List, Optional, Any, Tuple
 from dataclasses import dataclass
 from concurrent.futures import ThreadPoolExecutor
@@ -39,44 +39,15 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
+# Database imports
+from sqlalchemy.orm import Session, joinedload
+from sqlalchemy.exc import IntegrityError
+# Assuming database_setup.py is adjusted to use app_config.database_url or similar
+# For now, direct import might work if database_setup.py doesn't rely on AppConfig at import time.
+from database_setup import SessionLocal, League, Team, Match as DBMatch, Standing as DBStanding # engine might not be needed directly
 
-
-# Configuration Models
-class APIConfig(BaseModel):
-    """API configuration validation model."""
-    auth_token: str = Field(..., min_length=1)
-    base_url: str = Field(default="https://api.soccerdataapi.com")
-    rate_limit_requests: int = Field(default=100, ge=1)
-    rate_limit_period: int = Field(default=3600, ge=1)
-    timeout: int = Field(default=30, ge=1)
-    max_retries: int = Field(default=5, ge=1)
-
-class ProcessingConfig(BaseModel):
-    """Processing configuration validation model."""
-    league_ids: List[int] = Field(..., min_items=1)
-    season_year: str = Field(..., pattern=r'^(\d{4}|\d{4}-\d{4})$')  # Fixed: regex -> pattern
-    max_concurrent_requests: int = Field(default=5, ge=1, le=20)
-    inter_league_delay: int = Field(default=10, ge=0)
-    cache_ttl_hours: int = Field(default=24, ge=1)
-
-class DataFetcherConfig(BaseModel):
-    """Main configuration model."""
-    api: APIConfig
-    processing: ProcessingConfig
-   
-    @classmethod
-    def from_file(cls, config_path: str) -> 'DataFetcherConfig':
-        """Load configuration from file."""
-        if not os.path.exists(config_path):
-            raise FileNotFoundError(f"Configuration file not found: {config_path}")
-     
-        with open(config_path, 'r') as f:
-            if config_path.endswith('.yaml') or config_path.endswith('.yml'):
-                data = yaml.safe_load(f)
-            else:
-                data = json.load(f)
-      
-        return cls(**data)
+# Configuration import
+from config.config import app_config, DataFetcherAppConfig # Using the global app_config
 
 # Rate Limiter
 class RateLimiter:
@@ -283,32 +254,75 @@ class Standing:
 class EnhancedDataFetcher:
     """Enhanced soccer data fetcher with advanced features."""
     
-    def __init__(self, config: DataFetcherConfig):
-        self.config = config
-        self.logger = EnhancedLogger.setup_logger("DataFetcher")
+    def __init__(self, fetcher_config: DataFetcherAppConfig, db_session: Session):
+        self.config = fetcher_config # Changed to DataFetcherAppConfig
+        self.logger = EnhancedLogger.setup_logger("DataFetcher", log_dir=str(self.config.log_dir))
         self.rate_limiter = RateLimiter(
-            config.api.rate_limit_requests,
-            config.api.rate_limit_period
+            self.config.api.rate_limit_requests,
+            self.config.api.rate_limit_period
         )
-        self.cache = CacheManager("data/cache", config.processing.cache_ttl_hours)
+        self.cache = CacheManager(str(self.config.cache_dir), self.config.processing.cache_ttl_hours)
         
-        # Setup directories
-        self.directories = {
-            'logs': 'data/logs',
-            'historical': 'data/historical',
-            'fixtures': 'data/fixtures',
-            'standings': 'data/standings',
-            'cache': 'data/cache'
-        }
-        
-        for directory in self.directories.values():
-            os.makedirs(directory, exist_ok=True)
-        
+        # Ensure log and cache directories exist (Pydantic models ensure they are DirectoryPath objects)
+        os.makedirs(self.config.log_dir, exist_ok=True)
+        os.makedirs(self.config.cache_dir, exist_ok=True)
+
         # Setup session with retry strategy
         self.session = self._create_session()
-        
-        self.logger.info(f"Initialized EnhancedDataFetcher for {len(config.processing.league_ids)} leagues")
-    
+        self.db_session = db_session # Use passed-in session
+
+        self.logger.info(f"Initialized EnhancedDataFetcher for {len(self.config.processing.league_ids)} leagues")
+
+    def _get_or_create_league(self, api_league_id: int, league_name: str) -> League:
+        league = self.db_session.query(League).filter_by(api_league_id=api_league_id).first()
+        if not league:
+            league = League(api_league_id=api_league_id, name=league_name)
+            self.db_session.add(league)
+            try:
+                self.db_session.commit()
+                self.db_session.refresh(league)
+                self.logger.info(f"Created new league: {league_name} (API ID: {api_league_id})")
+            except IntegrityError:
+                self.db_session.rollback()
+                league = self.db_session.query(League).filter_by(api_league_id=api_league_id).first()
+                self.logger.warning(f"League {league_name} (API ID: {api_league_id}) already exists after rollback.")
+            except Exception as e:
+                self.db_session.rollback()
+                self.logger.error(f"Error creating league {league_name}: {e}")
+                raise
+        return league
+
+    def _get_or_create_team(self, api_team_id: str, team_name: str) -> Team:
+        if not api_team_id or api_team_id == 'N/A':
+            self.logger.warning(f"Attempted to get/create team with invalid API ID: {api_team_id}, Name: {team_name}")
+            return None # Or raise an error, depending on desired strictness
+
+        team = self.db_session.query(Team).filter_by(api_team_id=api_team_id).first()
+        if not team:
+            team = Team(api_team_id=api_team_id, name=team_name)
+            self.db_session.add(team)
+            try:
+                self.db_session.commit()
+                self.db_session.refresh(team)
+                self.logger.info(f"Created new team: {team_name} (API ID: {api_team_id})")
+            except IntegrityError:
+                self.db_session.rollback()
+                team = self.db_session.query(Team).filter_by(api_team_id=api_team_id).first()
+                self.logger.warning(f"Team {team_name} (API ID: {api_team_id}) already exists after rollback.")
+            except Exception as e:
+                self.db_session.rollback()
+                self.logger.error(f"Error creating team {team_name}: {e}")
+                raise
+        elif team.name != team_name: # Update team name if it changed
+            team.name = team_name
+            try:
+                self.db_session.commit()
+                self.logger.info(f"Updated team name for API ID {api_team_id} to {team_name}")
+            except Exception as e:
+                self.db_session.rollback()
+                self.logger.error(f"Error updating team name {team_name}: {e}")
+        return team
+
     def _create_session(self) -> requests.Session:
         """Create requests session with retry strategy."""
         session = requests.Session()
@@ -400,29 +414,40 @@ class EnhancedDataFetcher:
                 break
             page += 1
         
-        self.logger.info(f"Fetched {len(leagues)} leagues")
-        return leagues
+        self.logger.info(f"Fetched {len(leagues)} leagues from API")
+
+        # Store/update leagues in DB
+        for api_id, name in leagues.items():
+            self._get_or_create_league(api_league_id=api_id, league_name=name)
+
+        # Return a dict of DB league_id to name for internal use if needed, or just API IDs
+        # For now, let's assume downstream tasks will use API IDs which are then mapped to DB IDs.
+        return leagues # still returns API ID -> name mapping
     
-    async def fetch_historical_matches(self, league_id: int, league_name: str) -> List[Match]:
-        """Fetch historical matches for a league and season."""
-        self.logger.info(f"Fetching historical matches for {league_name} (ID: {league_id}), Season: {self.config.processing.season_year}")
+    async def fetch_historical_matches(self, league_api_id: int, league_name: str) -> int:
+        """Fetch historical matches for a league and season and save to DB."""
+        self.logger.info(f"Fetching historical matches for {league_name} (API ID: {league_api_id}), Season: {self.config.processing.season_year}")
         
+        db_league = self._get_or_create_league(api_league_id=league_api_id, league_name=league_name)
+        if not db_league:
+            self.logger.error(f"Could not get/create DB league for API ID {league_api_id}. Skipping historical matches.")
+            return 0
+
         url = f"{self.config.api.base_url}/matches/"
         params = {
             'auth_token': self.config.api.auth_token,
             'league_id': league_id,
             'season': self.config.processing.season_year
         }
-        
-        matches: List[Match] = [] # Initialize list to store Match objects
+        matches_processed_count = 0
         
         # Make a single request for this league/season
         # The _make_request method handles caching and basic retries for 429 internally
         api_response_data = await self._make_request(url, params) 
         
         if not api_response_data:
-            self.logger.warning(f"No data returned from API (or _make_request failed) for historical matches: {league_name} (ID: {league_id})")
-            return []
+            self.logger.warning(f"No data returned from API (or _make_request failed) for historical matches: {league_name} (API ID: {league_api_id})")
+            return 0
 
         # Expecting API response structure: list -> dict -> 'stage' (list) -> dict -> 'matches' (list)
         # Example: api_response_data = [ { "league_id": ..., "stage": [ { "stage_name": ..., "matches": [ ... ] } ] } ]
@@ -442,18 +467,67 @@ class EnhancedDataFetcher:
                     if isinstance(stage_item, dict) and \
                       'matches' in stage_item and \
                       isinstance(stage_item['matches'], list):
-                        
                         actual_matches_list = stage_item['matches']
                         num_api_matches = len(actual_matches_list)
                         self.logger.info(f"API returned {num_api_matches} match entries in stage '{stage_item.get('stage_name', 'N/A')}' for {league_name} before filtering.")
                         
-                        for match_data_dict in actual_matches_list: # Iterate through the list of match dictionaries
+                        for match_data_dict in actual_matches_list:
                             if isinstance(match_data_dict, dict) and match_data_dict.get('status') == 'finished':
                                 try:
-                                    match_obj = self._create_match_from_data(match_data_dict, league_name)
-                                    matches.append(match_obj)
+                                    match_obj = self._create_match_from_data(match_data_dict, league_name) # This is the Pydantic model
+                                    if match_obj:
+                                        # Get/Create DB Team instances
+                                        home_team_db = self._get_or_create_team(match_obj.home_team_id, match_obj.home_team_name)
+                                        away_team_db = self._get_or_create_team(match_obj.away_team_id, match_obj.away_team_name)
+
+                                        if not home_team_db or not away_team_db:
+                                            self.logger.warning(f"Skipping match {match_obj.id} due to missing team data.")
+                                            continue
+
+                                        # Parse date and time
+                                        try:
+                                            match_datetime_str = f"{match_obj.date} {match_obj.time}"
+                                            match_datetime = datetime.strptime(match_datetime_str, '%Y-%m-%d %H:%M')
+                                        except ValueError:
+                                            # Fallback if time is missing or format is unexpected
+                                            try:
+                                                match_datetime = datetime.strptime(match_obj.date, '%Y-%m-%d')
+                                            except ValueError:
+                                                self.logger.warning(f"Invalid date format for match {match_obj.id}: {match_obj.date}. Skipping.")
+                                                continue
+
+                                        # Check if match already exists
+                                        existing_match = self.db_session.query(DBMatch).filter_by(api_match_id=str(match_obj.id)).first()
+                                        if existing_match:
+                                            # Optionally update if needed, for now, we skip
+                                            # self.logger.debug(f"Match {match_obj.id} already exists. Skipping.")
+                                            continue
+
+                                        db_match_entry = DBMatch(
+                                            api_match_id=str(match_obj.id),
+                                            date=match_datetime.date(), # Store date part
+                                            time=match_datetime.strftime('%H:%M') if match_obj.time and match_obj.time != 'N/A' else None,
+                                            league_id=db_league.id,
+                                            home_team_id=home_team_db.id,
+                                            away_team_id=away_team_db.id,
+                                            status=match_obj.status,
+                                            home_score=int(match_obj.home_score) if match_obj.home_score and match_obj.home_score.isdigit() else None,
+                                            away_score=int(match_obj.away_score) if match_obj.away_score and match_obj.away_score.isdigit() else None,
+                                            is_fixture=0 # Historical match
+                                        )
+                                        self.db_session.add(db_match_entry)
+                                        matches_processed_count += 1
                                 except Exception as e:
-                                    self.logger.warning(f"Error processing/validating individual match data for ID {match_data_dict.get('id', 'N/A')} in {league_name}: {e}", exc_info=True)
+                                    self.logger.warning(f"Error processing/saving individual match data for API match ID {match_data_dict.get('id', 'N/A')} in {league_name}: {e}", exc_info=True)
+
+                        if matches_processed_count > 0:
+                            try:
+                                self.db_session.commit()
+                                self.logger.info(f"Committed {matches_processed_count} new historical matches for {league_name} to DB.")
+                            except Exception as e:
+                                self.db_session.rollback()
+                                self.logger.error(f"DB Error committing historical matches for {league_name}: {e}", exc_info=True)
+                                matches_processed_count = 0 # Reset count as commit failed
                     else:
                         self.logger.warning(f"No 'matches' list found in first stage, first stage is not a dict, or 'matches' list is not a list for {league_name}. Stage content snippet: {str(stage_item)[:200]}")
                 else:
@@ -463,11 +537,11 @@ class EnhancedDataFetcher:
                 
         except Exception as e:
             self.logger.error(f"General error during parsing of historical matches for {league_name}: {e}", exc_info=True)
-            
-        self.logger.info(f"Fetched and filtered {len(matches)} finished historical matches for {league_name}")
-        return matches
+
+        self.logger.info(f"Processed {matches_processed_count} finished historical matches for {league_name} into DB.")
+        return matches_processed_count
     
-    def _create_match_from_data(self, match_data: Dict[str, Any], league_name: str) -> Match:
+    def _create_match_from_data(self, match_data: Dict[str, Any], league_name: str) -> Match: # Returns Pydantic Model
         """Create Match object from API data."""
         return Match(
             id=str(match_data.get('id', 'N/A')),
@@ -480,39 +554,92 @@ class EnhancedDataFetcher:
             status=match_data.get('status', 'N/A'),
             home_score=str(match_data.get('goals', {}).get('home_ft_goals', 'N/A')),
             away_score=str(match_data.get('goals', {}).get('away_ft_goals', 'N/A')),
-            league_name=league_name
+            league_name=league_name # This is Pydantic model's league_name, not DB one
         )
     
-    async def fetch_upcoming_fixtures(self) -> Dict[int, List[Match]]:
-        """Fetch upcoming fixtures for all configured leagues."""
-        self.logger.info("Fetching upcoming fixtures")
+    async def fetch_upcoming_fixtures_for_league(self, league_api_id: int, league_name: str) -> int:
+        """Fetch upcoming fixtures for a specific league and save to DB."""
+        self.logger.info(f"Fetching upcoming fixtures for {league_name} (API ID: {league_api_id})")
+
+        db_league = self.db_session.query(League).filter_by(api_league_id=league_api_id).first()
+        if not db_league:
+            # Attempt to create if it wasn't picked up by initial league scan
+            db_league = self._get_or_create_league(api_league_id=league_api_id, league_name=league_name)
+            if not db_league:
+                self.logger.error(f"Could not get/create DB league for API ID {league_api_id}. Skipping fixtures.")
+                return 0
         
         url = f"{self.config.api.base_url}/match-previews-upcoming/"
-        params = {'auth_token': self.config.api.auth_token}
+        params = {
+            'auth_token': self.config.api.auth_token,
+            'league_id': league_api_id
+        }
         
         data = await self._make_request(url, params)
         if not data or 'results' not in data:
-            self.logger.error("No upcoming fixtures data received")
-            return {}
+            self.logger.error(f"No upcoming fixtures data received for {league_name}")
+            return 0
         
-        fixtures_by_league = {}
-        for league_fixture_data in data['results']:
-            league_id = league_fixture_data.get('league_id')
-            if league_id in self.config.processing.league_ids and 'match_previews' in league_fixture_data:
-                fixtures = []
-                for preview in league_fixture_data['match_previews']:
+        fixtures_processed_count = 0
+        for league_fixture_data_item in data['results']: # API returns a list of dicts, one per league
+            if league_fixture_data_item.get('league_id') == league_api_id and 'match_previews' in league_fixture_data_item:
+                for preview_data in league_fixture_data_item['match_previews']:
                     try:
-                        match = self._create_match_from_preview(preview)
-                        fixtures.append(match)
+                        match_obj = self._create_match_from_preview(preview_data, league_name) # Pydantic model
+                        if match_obj:
+                            home_team_db = self._get_or_create_team(match_obj.home_team_id, match_obj.home_team_name)
+                            away_team_db = self._get_or_create_team(match_obj.away_team_id, match_obj.away_team_name)
+
+                            if not home_team_db or not away_team_db:
+                                self.logger.warning(f"Skipping fixture {match_obj.id} due to missing team data.")
+                                continue
+
+                            try:
+                                fixture_datetime_str = f"{match_obj.date} {match_obj.time}"
+                                fixture_datetime = datetime.strptime(fixture_datetime_str, '%Y-%m-%d %H:%M')
+                            except ValueError:
+                                try:
+                                    fixture_datetime = datetime.strptime(match_obj.date, '%Y-%m-%d')
+                                except ValueError:
+                                    self.logger.warning(f"Invalid date format for fixture {match_obj.id}: {match_obj.date}. Skipping.")
+                                    continue
+
+                            existing_fixture = self.db_session.query(DBMatch).filter_by(api_match_id=str(match_obj.id), is_fixture=1).first()
+                            if existing_fixture:
+                                # Optionally update status, time, etc.
+                                # For now, skip if exists to avoid duplicates before proper update logic
+                                # self.logger.debug(f"Fixture {match_obj.id} already exists. Skipping.")
+                                continue
+
+                            db_fixture_entry = DBMatch(
+                                api_match_id=str(match_obj.id),
+                                date=fixture_datetime.date(),
+                                time=fixture_datetime.strftime('%H:%M') if match_obj.time and match_obj.time != 'N/A' else None,
+                                league_id=db_league.id,
+                                home_team_id=home_team_db.id,
+                                away_team_id=away_team_db.id,
+                                status=match_obj.status, # Should be 'scheduled' or similar
+                                is_fixture=1 # Mark as fixture
+                            )
+                            self.db_session.add(db_fixture_entry)
+                            fixtures_processed_count += 1
                     except Exception as e:
-                        self.logger.warning(f"Error processing fixture {preview.get('id')}: {e}")
-                
-                fixtures_by_league[league_id] = fixtures
+                        self.logger.warning(f"Error processing/saving fixture {preview_data.get('id')} for {league_name}: {e}", exc_info=True)
+                break # Found the league, no need to check other items in 'results'
         
-        self.logger.info(f"Fetched upcoming fixtures for {len(fixtures_by_league)} leagues")
-        return fixtures_by_league
+        if fixtures_processed_count > 0:
+            try:
+                self.db_session.commit()
+                self.logger.info(f"Committed {fixtures_processed_count} new upcoming fixtures for {league_name} to DB.")
+            except Exception as e:
+                self.db_session.rollback()
+                self.logger.error(f"DB Error committing upcoming fixtures for {league_name}: {e}", exc_info=True)
+                fixtures_processed_count = 0
+
+        self.logger.info(f"Fetched and processed {fixtures_processed_count} upcoming fixtures for {league_name}")
+        return fixtures_processed_count
     
-    def _create_match_from_preview(self, preview_data: Dict[str, Any]) -> Match:
+    def _create_match_from_preview(self, preview_data: Dict[str, Any], league_name_for_pydantic: str) -> Match: # Returns Pydantic Model
         """Create Match object from preview data."""
         return Match(
             id=str(preview_data.get('id', 'N/A')),
@@ -522,508 +649,329 @@ class EnhancedDataFetcher:
             home_team_name=preview_data.get('teams', {}).get('home', {}).get('name', 'N/A'),
             away_team_id=str(preview_data.get('teams', {}).get('away', {}).get('id', 'N/A')),
             away_team_name=preview_data.get('teams', {}).get('away', {}).get('name', 'N/A'),
-            status='scheduled',
-            home_score='N/A',
-            away_score='N/A'
+            status='scheduled', # Pydantic model field
+            home_score='N/A',   # Pydantic model field
+            away_score='N/A',   # Pydantic model field
+            league_name=league_name_for_pydantic # Pydantic model field
         )
-    
-    async def fetch_standings(self, league_id: int, league_name: str) -> List[Standing]:
-        """Fetch standings for a league."""
-        self.logger.info(f"Fetching standings for {league_name} (ID: {league_id})")
-       
+
+    async def fetch_standings(self, league_api_id: int, league_name: str) -> int:
+        """Fetch standings for a league and save to DB."""
+        self.logger.info(f"Fetching standings for {league_name} (API ID: {league_api_id})")
+
+        db_league = self._get_or_create_league(api_league_id=league_api_id, league_name=league_name)
+        if not db_league:
+            self.logger.error(f"Could not get/create DB league for API ID {league_api_id}. Skipping standings.")
+            return 0
+
         url = f"{self.config.api.base_url}/standing/"
         params = {
             'auth_token': self.config.api.auth_token,
-            'league_id': league_id
+            'league_id': league_api_id
         }
       
         data = await self._make_request(url, params)
         if not data:
-            return []
+            self.logger.warning(f"No standings data received from API for {league_name}")
+            return 0
        
-        standings = []
+        standings_processed_count = 0
        
         if 'stage' in data and data['stage']:
-            for stage_data in data['stage']:
+            for stage_data in data['stage']: # API returns list of stages
                 if isinstance(stage_data, dict) and 'standings' in stage_data:
-                    for standing_data in stage_data['standings']:
+                    for standing_data_dict in stage_data['standings']:
                         try:
-                            standing = Standing(
-                                position=int(standing_data.get('position', 0)),
-                                team_id=str(standing_data.get('team_id', 'N/A')),
-                                team_name=standing_data.get('team_name', 'N/A'),
-                                games_played=int(standing_data.get('games_played', 0)),
-                                points=int(standing_data.get('points', 0)),
-                                wins=int(standing_data.get('wins', 0)),
-                                draws=int(standing_data.get('draws', 0)),
-                                losses=int(standing_data.get('losses', 0)),
-                                goals_for=int(standing_data.get('goals_for', 0)),
-                                goals_against=int(standing_data.get('goals_against', 0)),
-                                league_name=league_name
-                            )
-                            standings.append(standing)
+                            # Use Pydantic model for validation if desired, or directly populate DB model
+                            # For simplicity, directly populating DB model here.
+                            team_api_id = str(standing_data_dict.get('team_id', 'N/A'))
+                            team_name = standing_data_dict.get('team_name', 'N/A')
+
+                            db_team = self._get_or_create_team(api_team_id=team_api_id, team_name=team_name)
+                            if not db_team:
+                                self.logger.warning(f"Could not get/create team {team_name} (API ID: {team_api_id}) for standings. Skipping.")
+                                continue
+
+                            # Upsert logic: Check if standing for this league, team, season already exists
+                            existing_standing = self.db_session.query(DBStanding).filter_by(
+                                league_id=db_league.id,
+                                team_id=db_team.id,
+                                season_year=self.config.processing.season_year
+                            ).first()
+
+                            if existing_standing:
+                                # Update existing record
+                                existing_standing.position = int(standing_data_dict.get('position', 0))
+                                existing_standing.games_played = int(standing_data_dict.get('games_played', 0))
+                                existing_standing.points = int(standing_data_dict.get('points', 0))
+                                existing_standing.wins = int(standing_data_dict.get('wins', 0))
+                                existing_standing.draws = int(standing_data_dict.get('draws', 0))
+                                existing_standing.losses = int(standing_data_dict.get('losses', 0))
+                                existing_standing.goals_for = int(standing_data_dict.get('goals_for', 0))
+                                existing_standing.goals_against = int(standing_data_dict.get('goals_against', 0))
+                                existing_standing.fetched_at = datetime.utcnow() # Update timestamp
+                                self.logger.debug(f"Updating existing standing for team {db_team.name} in league {db_league.name}")
+                            else:
+                                # Create new record
+                                db_standing_entry = DBStanding(
+                                    league_id=db_league.id,
+                                    team_id=db_team.id,
+                                    season_year=self.config.processing.season_year,
+                                    position=int(standing_data_dict.get('position', 0)),
+                                    games_played=int(standing_data_dict.get('games_played', 0)),
+                                    points=int(standing_data_dict.get('points', 0)),
+                                    wins=int(standing_data_dict.get('wins', 0)),
+                                    draws=int(standing_data_dict.get('draws', 0)),
+                                    losses=int(standing_data_dict.get('losses', 0)),
+                                    goals_for=int(standing_data_dict.get('goals_for', 0)),
+                                    goals_against=int(standing_data_dict.get('goals_against', 0))
+                                    # fetched_at has default func.now()
+                                )
+                                self.db_session.add(db_standing_entry)
+                                self.logger.debug(f"Adding new standing for team {db_team.name} in league {db_league.name}")
+
+                            standings_processed_count += 1
                         except Exception as e:
-                            self.logger.warning(f"Error processing standing: {e}")
-                    break  # Use first stage with standings
-       
-        self.logger.info(f"Fetched {len(standings)} standings for {league_name}")
-        return standings
-    
-    def save_matches_to_csv(self, matches: List[Match], filename: str, mode: str = 'w'):
-        """Save matches to CSV file."""
-        if not matches:
-            self.logger.warning(f"No matches to save to {filename}")
-            return
+                            self.logger.warning(f"Error processing/saving standing data: {e}", exc_info=True)
+                    break  # Use first stage with standings, common for most leagues
         
-        try:
-            data = []
-            for match in matches:
-                data.append({
-                    'league_name': match.league_name,
-                    'match_id': match.id,
-                    'date': match.date,
-                    'time': match.time,
-                    'home_team_id': match.home_team_id,
-                    'home_team_name': match.home_team_name,
-                    'away_team_id': match.away_team_id,
-                    'away_team_name': match.away_team_name,
-                    'status': match.status,
-                    'home_score': match.home_score,
-                    'away_score': match.away_score
-                })
-            
-            df = pd.DataFrame(data)
-            df.to_csv(filename, mode=mode, header=(mode == 'w'), index=False)
-            self.logger.info(f"Saved {len(data)} matches to {filename}")
-            
-        except Exception as e:
-            self.logger.error(f"Error saving matches to {filename}: {e}")
+        if standings_processed_count > 0:
+            try:
+                self.db_session.commit()
+                self.logger.info(f"Committed/Updated {standings_processed_count} standings for {league_name} to DB.")
+            except Exception as e:
+                self.db_session.rollback()
+                self.logger.error(f"DB Error committing standings for {league_name}: {e}", exc_info=True)
+                standings_processed_count = 0
+
+        self.logger.info(f"Fetched and processed {standings_processed_count} standings for {league_name}")
+        return standings_processed_count
     
-    def save_standings_to_csv(self, standings: List[Standing], filename: str):
-        """Save standings to CSV file."""
-        if not standings:
-            self.logger.warning(f"No standings to save to {filename}")
-            return
-        
-        try:
-            data = []
-            for standing in standings:
-                data.append({
-                    'league_name': standing.league_name,
-                    'position': standing.position,
-                    'team_id': standing.team_id,
-                    'team_name': standing.team_name,
-                    'games_played': standing.games_played,
-                    'points': standing.points,
-                    'wins': standing.wins,
-                    'draws': standing.draws,
-                    'losses': standing.losses,
-                    'goals_for': standing.goals_for,
-                    'goals_against': standing.goals_against,
-                    'goal_difference': standing.goal_difference
-                })
-            
-            df = pd.DataFrame(data)
-            df.to_csv(filename, index=False)
-            self.logger.info(f"Saved {len(data)} standings to {filename}")
-            
-        except Exception as e:
-            self.logger.error(f"Error saving standings to {filename}: {e}")
-    
-    async def process_league(self, league_id: int, league_name: str, semaphore: asyncio.Semaphore):
-        """Process data for a single league."""
-        async with semaphore:
-            self.logger.info(f"Processing league: {league_name} (ID: {league_id})")
-            
-            # Define file paths
-            historical_file = os.path.join(
-                self.directories['historical'],
-                f"league_{league_id}_{self.config.processing.season_year}_historical_matches.csv"
-            )
-            fixtures_file = os.path.join(
-                self.directories['fixtures'],
-                f"league_{league_id}_upcoming_fixtures.csv"
-            )
-            standings_file = os.path.join(
-                self.directories['standings'],
-                f"league_{league_id}_{self.config.processing.season_year}_standings.csv"
-            )
-            
-            tasks = []
-            
-            # Fetch historical matches (with file existence check)
-            if not (os.path.exists(historical_file) and os.path.getsize(historical_file) > 200):
-                tasks.append(('historical', self.fetch_historical_matches(league_id, league_name)))
-            else:
-                self.logger.info(f"Historical data exists for {league_name}, skipping fetch")
-            
-            # Fetch standings
-            tasks.append(('standings', self.fetch_standings(league_id, league_name)))
-            
-            # Execute tasks
-            results = {}
-            for task_name, task in tasks:
-                try:
-                    results[task_name] = await task
-                except Exception as e:
-                    self.logger.error(f"Error in {task_name} task for {league_name}: {e}")
-                    results[task_name] = []
-            
-            # Save results
-            if 'historical' in results and results['historical']:
-                self.save_matches_to_csv(results['historical'], historical_file)
-            
-            if 'standings' in results and results['standings']:
-                self.save_standings_to_csv(results['standings'], standings_file)
-                
-                
-    # BONUS: Summary report generation
+    # Removed save_matches_to_csv and save_standings_to_csv as data goes to DB
+
+    # BONUS: Summary report generation (can be adapted to read from DB or just count API calls)
     async def generate_summary_report(self):
-        """Generate a summary report of all fetched data."""
-        try:
-            summary = {
-                'timestamp': datetime.now().isoformat(),
-                'leagues': {},
-                'total_files': 0,
-                'total_size_mb': 0
-            }
-            
-            for league_id in self.config.processing.league_ids:
-                league_summary = {
-                    'historical_matches': 0,
-                    'standings': 0,
-                    'fixtures': 0,
-                    'files_created': []
-                }
-                
-                # Check historical matches file
-                historical_file = os.path.join(
-                    self.directories['historical'],
-                    f"league_{league_id}_{self.config.processing.season_year}_historical_matches.csv"
-                )
-                if os.path.exists(historical_file):
-                    league_summary['files_created'].append(os.path.basename(historical_file))
-                    try:
-                        df = pd.read_csv(historical_file)
-                        league_summary['historical_matches'] = len(df)
-                        summary['total_size_mb'] += os.path.getsize(historical_file) / (1024*1024)
-                        summary['total_files'] += 1
-                    except Exception as e:
-                        self.logger.warning(f"Error reading historical file for league {league_id}: {e}")
-                
-                # Check standings file
-                standings_file = os.path.join(
-                    self.directories['standings'],
-                    f"league_{league_id}_{self.config.processing.season_year}_standings.csv"
-                )
-                if os.path.exists(standings_file):
-                    league_summary['files_created'].append(os.path.basename(standings_file))
-                    try:
-                        df = pd.read_csv(standings_file)
-                        league_summary['standings'] = len(df)
-                        summary['total_size_mb'] += os.path.getsize(standings_file) / (1024*1024)
-                        summary['total_files'] += 1
-                    except Exception as e:
-                        self.logger.warning(f"Error reading standings file for league {league_id}: {e}")
-                
-                # Check fixtures file
-                fixtures_file = os.path.join(
-                    self.directories['fixtures'],
-                    f"league_{league_id}_upcoming_fixtures.csv"
-                )
-                if os.path.exists(fixtures_file):
-                    league_summary['files_created'].append(os.path.basename(fixtures_file))
-                    try:
-                        df = pd.read_csv(fixtures_file)
-                        league_summary['fixtures'] = len(df)
-                        summary['total_size_mb'] += os.path.getsize(fixtures_file) / (1024*1024)
-                        summary['total_files'] += 1
-                    except Exception as e:
-                        self.logger.warning(f"Error reading fixtures file for league {league_id}: {e}")
-                
-                summary['leagues'][league_id] = league_summary
-            
-            # Save summary report
-            summary_file = os.path.join(self.directories['logs'], 'fetch_summary.json')
-            with open(summary_file, 'w') as f:
-                json.dump(summary, f, indent=2)
-            
-            # Log summary
-            self.logger.info("=== FETCH SUMMARY ===")
-            self.logger.info(f"Total files created: {summary['total_files']}")
-            self.logger.info(f"Total data size: {summary['total_size_mb']:.2f} MB")
-            
-            for league_id, league_data in summary['leagues'].items():
-                self.logger.info(f"League {league_id}: {league_data['historical_matches']} matches, "
-                               f"{league_data['standings']} standings, {league_data['fixtures']} fixtures")
-            
-        except Exception as e:
-            self.logger.error(f"Error generating summary report: {e}", exc_info=True)
+        """Generate a summary report of data fetching activities."""
+        # This will be simpler as we don't have individual files to count/size anymore.
+        # It can report on number of leagues processed, items added/updated per type.
+        # For now, let's keep it minimal or rely on logging.
+        # A more advanced summary would query the DB for counts.
+        self.logger.info("Summary report generation needs to be adapted for DB persistence.")
+        # Example:
+        # total_leagues_in_db = self.db_session.query(League).count()
+        # total_matches_in_db = self.db_session.query(DBMatch).count()
+        # total_standings_in_db = self.db_session.query(DBStanding).count()
+        # self.logger.info(f"DB Summary: {total_leagues_in_db} leagues, {total_matches_in_db} matches, {total_standings_in_db} standings.")
+        pass
 
 
     # 4. SEPARATE TASK METHODS for better parallelization
-    async def fetch_historical_matches_task(self, league_id: int, league_name: str, semaphore: asyncio.Semaphore):
-        """Separate task for historical matches."""
+    async def fetch_historical_matches_task(self, league_api_id: int, league_name: str, semaphore: asyncio.Semaphore):
+        """Separate task for historical matches, saves to DB."""
         async with semaphore:
             try:
-                historical_file = os.path.join(
-                    self.directories['historical'],
-                    f"league_{league_id}_{self.config.processing.season_year}_historical_matches.csv"
-                )
+                # Add recency check logic here if needed (e.g., don't refetch if data for league/season is very recent)
+                # This would involve querying the DB for the latest match date for this league/season.
+                # For simplicity, this example will always try to fetch and rely on unique constraints for inserts.
                 
-                # Skip if file exists and is recent (less than 24 hours old)
-                if os.path.exists(historical_file):
-                    file_age = time.time() - os.path.getmtime(historical_file)
-                    if file_age < 24 * 3600 and os.path.getsize(historical_file) > 200:
-                        self.logger.info(f"Recent historical data exists for {league_name}, skipping")
-                        return
-                
-                self.logger.info(f"Starting historical matches task for {league_name}")
+                self.logger.info(f"Starting historical matches task for {league_name} (API ID: {league_api_id})")
                 start_time = time.time()
                 
-                matches = await self.fetch_historical_matches(league_id, league_name)
-                if matches:
-                    self.save_matches_to_csv(matches, historical_file)
-                    self.logger.info(f"Historical matches task completed for {league_name} in {time.time() - start_time:.2f}s")
+                count = await self.fetch_historical_matches(league_api_id, league_name) # Returns count of new matches added
+                if count > 0:
+                    self.logger.info(f"Historical matches task completed for {league_name} (API ID: {league_api_id}), added {count} new matches in {time.time() - start_time:.2f}s")
                 else:
-                    self.logger.warning(f"No historical matches found for {league_name}")
+                    self.logger.info(f"No new historical matches added for {league_name} (API ID: {league_api_id}) in {time.time() - start_time:.2f}s")
                     
             except Exception as e:
-                self.logger.error(f"Error in historical matches task for {league_name}: {e}", exc_info=True)
+                self.logger.error(f"Error in historical matches task for {league_name} (API ID: {league_api_id}): {e}", exc_info=True)
 
 
-    async def fetch_standings_task(self, league_id: int, league_name: str, semaphore: asyncio.Semaphore):
-        """Separate task for standings."""
+    async def fetch_standings_task(self, league_api_id: int, league_name: str, semaphore: asyncio.Semaphore):
+        """Separate task for standings, saves to DB."""
         async with semaphore:
             try:
-                standings_file = os.path.join(
-                    self.directories['standings'],
-                    f"league_{league_id}_{self.config.processing.season_year}_standings.csv"
-                )
-                
-                # Check if file exists and is recent (less than 6 hours old for standings)
-                if os.path.exists(standings_file):
-                    file_age = time.time() - os.path.getmtime(standings_file)
-                    if file_age < 6 * 3600 and os.path.getsize(standings_file) > 100:
-                        self.logger.info(f"Recent standings data exists for {league_name}, skipping")
-                        return
-                
-                self.logger.info(f"Starting standings task for {league_name}")
+                # Add recency check for standings (e.g., don't refetch if fetched_at is recent)
+                # db_league = self.db_session.query(League).filter_by(api_league_id=league_api_id).first()
+                # if db_league:
+                #    latest_standing = self.db_session.query(DBStanding.fetched_at).filter_by(league_id=db_league.id).order_by(DBStanding.fetched_at.desc()).first()
+                #    if latest_standing and (datetime.utcnow() - latest_standing[0] < timedelta(hours=6)):
+                #        self.logger.info(f"Recent standings data exists for {league_name}, skipping DB update.")
+                #        return
+
+                self.logger.info(f"Starting standings task for {league_name} (API ID: {league_api_id})")
                 start_time = time.time()
                 
-                standings = await self.fetch_standings(league_id, league_name)
-                if standings:
-                    self.save_standings_to_csv(standings, standings_file)
-                    self.logger.info(f"Standings task completed for {league_name} in {time.time() - start_time:.2f}s")
+                count = await self.fetch_standings(league_api_id, league_name) # Returns count of standings processed
+                if count > 0:
+                    self.logger.info(f"Standings task completed for {league_name} (API ID: {league_api_id}), processed {count} standings in {time.time() - start_time:.2f}s")
                 else:
-                    self.logger.warning(f"No standings found for {league_name}")
+                    self.logger.info(f"No standings processed or updated for {league_name} (API ID: {league_api_id}) in {time.time() - start_time:.2f}s")
                     
             except Exception as e:
-                self.logger.error(f"Error in standings task for {league_name}: {e}", exc_info=True)
+                self.logger.error(f"Error in standings task for {league_name} (API ID: {league_api_id}): {e}", exc_info=True)
+
+    async def fetch_all_fixtures_task(self, all_leagues_from_api: Dict[int, str], semaphore: asyncio.Semaphore):
+        """
+        Fetches upcoming fixtures for all configured leagues.
+        The current API for fixtures seems to return all leagues in one go, or can be filtered by league_id.
+        This task will iterate configured leagues and call fetch_upcoming_fixtures_for_league.
+        """
+        async with semaphore: # This semaphore might be too broad if each call below is quick.
+                              # Consider if semaphore should be inside the loop for finer control.
+            self.logger.info("Starting task to fetch fixtures for all configured leagues.")
+            fixture_tasks = []
+            for league_api_id in self.config.processing.league_ids:
+                league_name = all_leagues_from_api.get(league_api_id, f"LeagueAPI-{league_api_id}")
+                # Create a sub-task for each league's fixture fetch to run them concurrently if semaphore allows
+                # This reuses the semaphore passed in, which might not be what we want if this task itself is one of many.
+                # For now, let's run them sequentially within this task to avoid over-complicating semaphore logic.
+                # A better approach for Prefect would be to make fetch_upcoming_fixtures_for_league a task itself.
+                try:
+                    self.logger.info(f"Fetching fixtures for {league_name} (API ID: {league_api_id}) as part of all_fixtures_task")
+                    start_time_league = time.time()
+                    count = await self.fetch_upcoming_fixtures_for_league(league_api_id, league_name)
+                    if count > 0:
+                         self.logger.info(f"Fixtures sub-task for {league_name} added {count} new fixtures in {time.time() - start_time_league:.2f}s")
+                    else:
+                        self.logger.info(f"No new fixtures added for {league_name} in {time.time() - start_time_league:.2f}s")
+                except Exception as e:
+                    self.logger.error(f"Error fetching fixtures for {league_name} (API ID: {league_api_id}) in all_fixtures_task: {e}", exc_info=True)
+
+            self.logger.info("Completed fetching fixtures for all configured leagues.")
 
 
-    async def fetch_fixtures_task(self, league_id: int, league_name: str, semaphore: asyncio.Semaphore):
-        """Separate task for upcoming fixtures."""
-        async with semaphore:
-            try:
-                fixtures_file = os.path.join(
-                    self.directories['fixtures'],
-                    f"league_{league_id}_upcoming_fixtures.csv"
-                )
-                
-                # Check if file exists and is recent (less than 2 hours old for fixtures)
-                if os.path.exists(fixtures_file):
-                    file_age = time.time() - os.path.getmtime(fixtures_file)
-                    if file_age < 2 * 3600 and os.path.getsize(fixtures_file) > 100:
-                        self.logger.info(f"Recent fixtures data exists for {league_name}, skipping")
-                        return
-                
-                self.logger.info(f"Starting fixtures task for {league_name}")
-                start_time = time.time()
-                
-                # Fetch fixtures for this specific league
-                fixtures = await self.fetch_upcoming_fixtures_for_league(league_id, league_name)
-                if fixtures:
-                    # Update league names for fixtures
-                    for fixture in fixtures:
-                        fixture.league_name = league_name
-                    
-                    self.save_matches_to_csv(fixtures, fixtures_file)
-                    self.logger.info(f"Fixtures task completed for {league_name} in {time.time() - start_time:.2f}s")
-                else:
-                    self.logger.warning(f"No upcoming fixtures found for {league_name}")
-                    
-            except Exception as e:
-                self.logger.error(f"Error in fixtures task for {league_name}: {e}", exc_info=True)
-
-
-    async def fetch_upcoming_fixtures_for_league(self, league_id: int, league_name: str) -> List[Match]:
-        """Fetch upcoming fixtures for a specific league."""
-        self.logger.info(f"Fetching upcoming fixtures for {league_name} (ID: {league_id})")
-        
-        url = f"{self.config.api.base_url}/match-previews-upcoming/"
-        params = {
-            'auth_token': self.config.api.auth_token,
-            'league_id': league_id  # Filter by specific league if API supports it
-        }
-        
-        data = await self._make_request(url, params)
-        if not data or 'results' not in data:
-            self.logger.error(f"No upcoming fixtures data received for {league_name}")
-            return []
-        
-        fixtures = []
-        for league_fixture_data in data['results']:
-            # Check if this is the league we want
-            if league_fixture_data.get('league_id') == league_id and 'match_previews' in league_fixture_data:
-                for preview in league_fixture_data['match_previews']:
-                    try:
-                        match = self._create_match_from_preview(preview)
-                        match.league_name = league_name
-                        fixtures.append(match)
-                    except Exception as e:
-                        self.logger.warning(f"Error processing fixture {preview.get('id')} for {league_name}: {e}")
-                break
-        
-        self.logger.info(f"Fetched {len(fixtures)} upcoming fixtures for {league_name}")
-        return fixtures
-
-
-    # Alternative method if API doesn't support league filtering for fixtures
-    async def fetch_all_fixtures_task(self, all_leagues: Dict[int, str], semaphore: asyncio.Semaphore):
-        """Fetch all upcoming fixtures in one call and distribute by league."""
-        async with semaphore:
-            try:
-                self.logger.info("Starting combined fixtures task for all leagues")
-                start_time = time.time()
-                
-                # Fetch all upcoming fixtures
-                url = f"{self.config.api.base_url}/match-previews-upcoming/"
-                params = {'auth_token': self.config.api.auth_token}
-                
-                data = await self._make_request(url, params)
-                if not data or 'results' not in data:
-                    self.logger.error("No upcoming fixtures data received")
-                    return
-                
-                # Group fixtures by league
-                fixtures_by_league = {}
-                for league_fixture_data in data['results']:
-                    league_id = league_fixture_data.get('league_id')
-                    if league_id in self.config.processing.league_ids and 'match_previews' in league_fixture_data:
-                        fixtures = []
-                        league_name = all_leagues.get(league_id, f"League-{league_id}")
-                        
-                        for preview in league_fixture_data['match_previews']:
-                            try:
-                                match = self._create_match_from_preview(preview)
-                                match.league_name = league_name
-                                fixtures.append(match)
-                            except Exception as e:
-                                self.logger.warning(f"Error processing fixture {preview.get('id')}: {e}")
-                        
-                        fixtures_by_league[league_id] = fixtures
-                
-                # Save fixtures for each league
-                for league_id, fixtures in fixtures_by_league.items():
-                    if fixtures:
-                        league_name = all_leagues.get(league_id, f"League-{league_id}")
-                        fixtures_file = os.path.join(
-                            self.directories['fixtures'],
-                            f"league_{league_id}_upcoming_fixtures.csv"
-                        )
-                        self.save_matches_to_csv(fixtures, fixtures_file)
-                
-                self.logger.info(f"Combined fixtures task completed for {len(fixtures_by_league)} leagues in {time.time() - start_time:.2f}s")
-                
-            except Exception as e:
-                self.logger.error(f"Error in combined fixtures task: {e}", exc_info=True)
-    
     async def run(self):
         """Main execution method with parallel processing."""
-        self.logger.info("Starting enhanced data fetch process")
+        self.logger.info("Starting enhanced data fetch process using database.")
         
         try:
-            # Clear expired cache
             self.cache.clear_expired()
             
-            # Increase concurrent requests significantly
-            max_concurrent = min(self.config.processing.max_concurrent_requests * 2, 12)
+            # max_concurrent controls parallel API calls via semaphore
+            max_concurrent = self.config.processing.max_concurrent_requests
             semaphore = asyncio.Semaphore(max_concurrent)
             
-            # Fetch leagues first
-            self.logger.info("Fetching all leagues...")
-            all_leagues = await self.fetch_leagues()
-            self.logger.info(f"Found {len(all_leagues)} total leagues")
+            self.logger.info("Fetching all available leagues from API and populating/updating DB...")
+            # fetch_leagues now also stores them in the DB.
+            # all_leagues_api_map: Dict[api_league_id, league_name]
+            all_leagues_api_map = await self.fetch_leagues()
+            self.logger.info(f"Fetched/updated {len(all_leagues_api_map)} leagues in DB based on API.")
             
-            # Create separate tasks for each data type and league combination
             all_tasks = []
             
-            # Option 1: Individual tasks per league (more granular control)
-            for league_id in self.config.processing.league_ids:
-                league_name = all_leagues.get(league_id, f"League-{league_id}")
-                self.logger.info(f"Scheduling tasks for {league_name} (ID: {league_id})")
+            # Iterate through configured league_ids to schedule tasks
+            for league_api_id_to_process in self.config.processing.league_ids:
+                league_name = all_leagues_api_map.get(league_api_id_to_process)
+                if not league_name:
+                    # This case should ideally be handled by ensuring _get_or_create_league runs first
+                    # or by fetching details for unknown league_ids if necessary.
+                    # For now, we'll log and potentially create a placeholder name.
+                    self.logger.warning(f"League API ID {league_api_id_to_process} from config not found in initial API league scan. Attempting to proceed.")
+                    league_name = f"LeagueAPI-{league_api_id_to_process}"
+                    # Ensure this league is in the DB if it's in config
+                    self._get_or_create_league(api_league_id=league_api_id_to_process, league_name=league_name)
+
+
+                self.logger.info(f"Scheduling data fetch tasks for {league_name} (API ID: {league_api_id_to_process})")
                 
-                # Create separate tasks for each data type
                 all_tasks.extend([
-                    self.fetch_historical_matches_task(league_id, league_name, semaphore),
-                    self.fetch_standings_task(league_id, league_name, semaphore)
-                    # self.fetch_fixtures_task(league_id, league_name, semaphore)
+                    self.fetch_historical_matches_task(league_api_id_to_process, league_name, semaphore),
+                    self.fetch_standings_task(league_api_id_to_process, league_name, semaphore),
+                    # fetch_fixtures_task is now part of fetch_all_fixtures_task logic
                 ])
             
-            # Option 2: Combined fixtures task (uncomment if you prefer single fixtures call)
-            all_tasks.append(self.fetch_all_fixtures_task(all_leagues, semaphore))
+            # Add the task for fetching all fixtures
+            # This task iterates internally, consider if it should be broken down further
+            # if individual league fixture calls are made.
+            # If API supports bulk fixture fetch well, this is fine.
+            # The current fetch_upcoming_fixtures_for_league is per league, so fetch_all_fixtures_task iterates.
+            all_tasks.append(self.fetch_all_fixtures_task(all_leagues_api_map, semaphore))
             
-            self.logger.info(f"Executing {len(all_tasks)} tasks in parallel with max {max_concurrent} concurrent requests")
+            self.logger.info(f"Executing {len(all_tasks)} main tasks/sub-flows in parallel with max {max_concurrent} concurrent API operations")
             
-            # Execute ALL tasks in parallel
             start_time = time.time()
             results = await asyncio.gather(*all_tasks, return_exceptions=True)
             total_time = time.time() - start_time
             
-            # Process results and count successes/failures
             successful_tasks = 0
             failed_tasks = 0
-            
             for i, result in enumerate(results):
                 if isinstance(result, Exception):
-                    self.logger.error(f"Task {i+1} failed: {result}")
+                    # Detailed logging for the specific task that failed would be inside the task method itself.
+                    self.logger.error(f"A main task group (e.g., historical for one league, or all_fixtures) encountered an error: {result}", exc_info=True)
                     failed_tasks += 1
                 else:
                     successful_tasks += 1
             
-            self.logger.info(f"OPTIMIZED data fetch completed in {total_time:.2f}s")
-            self.logger.info(f"Results: {successful_tasks} successful, {failed_tasks} failed tasks")
+            self.logger.info(f"Data fetch process completed in {total_time:.2f}s")
+            self.logger.info(f"Task group results: {successful_tasks} successful, {failed_tasks} failed.")
             
-            # Generate summary report
-            await self.generate_summary_report()
+            await self.generate_summary_report() # Needs update for DB
             
         except Exception as e:
-            self.logger.error(f"Critical error in optimized run: {e}", exc_info=True)
+            self.logger.error(f"Critical error in main run loop: {e}", exc_info=True)
             raise
-
-
-
+        finally:
+            self.db_session.close() # Ensure DB session is closed
 
 
 # Main execution
-async def main():
-    """Main entry point."""
+from prefect import task, flow, get_run_logger
+
+@task(name="Run Data Fetcher")
+async def run_data_fetcher_task(db_session_override: Optional[Session] = None):
+    """Prefect task to run the DataFetcher."""
+    logger = get_run_logger()
+    if not app_config:
+        logger.error("DataFetcher: Global app_config not loaded. Cannot proceed.")
+        raise ValueError("Global app_config not loaded.")
+
+    # Determine DB session: use override if provided (for testing), else create new.
+    # The flow should ideally manage the session's lifecycle.
+    # If this task is run standalone or if db_session_override is None, it manages its own session.
+    session_managed_locally = False
+    if db_session_override:
+        db_sess = db_session_override
+    else:
+        db_sess = SessionLocal()
+        session_managed_locally = True
+        logger.info("DataFetcher task created its own DB session.")
+
+    fetcher = None # Ensure fetcher is defined for finally block
     try:
-        # Load configuration
-        config = DataFetcherConfig.from_file('sdata_config.json')  # or config.json
-        
-        # Create and run fetcher
-        fetcher = EnhancedDataFetcher(config)
+        fetcher_app_config = app_config.data_fetcher
+        fetcher = EnhancedDataFetcher(fetcher_config=fetcher_app_config, db_session=db_sess)
         await fetcher.run()
-        
-    except FileNotFoundError as e:
-        print(f"Configuration file not found: {e}")
+        logger.info("DataFetcher task completed successfully.")
+    except FileNotFoundError as e: # This might be redundant if app_config load fails earlier
+        logger.error(f"DataFetcher: Configuration file not found during task execution (should have been caught at import): {e}")
+        raise
     except ValidationError as e:
-        print(f"Configuration validation error: {e}")
+        logging.error(f"DataFetcher: Configuration validation error: {e}")
+        raise
     except Exception as e:
-        print(f"Unexpected error: {e}")
+        logging.error(f"DataFetcher: Unexpected error during execution: {e}", exc_info=True)
+        raise
+    finally:
+        # Ensure fetcher is defined (it would be if try block started)
+        # The session passed to EnhancedDataFetcher (db_sess) should be closed here
+        # ONLY if it was created locally within this task.
+        if session_managed_locally:
+            db_sess.close()
+            logger.info("DataFetcher task closed its locally managed DB session.")
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    # Example of how to run the task directly (for testing, not part of a flow yet)
+    # This will be part of a larger Prefect flow defined in pipeline.py
+
+    # To test this task directly, you'd need to set up a DB session:
+    # async def test_task():
+    #     db_session_instance = SessionLocal()
+    #     try:
+    #         await run_data_fetcher_task(db_session_override=db_session_instance) # Hypothetical override for testing
+    #     finally:
+    #         db_session_instance.close()
+    # asyncio.run(test_task())
+    pass
