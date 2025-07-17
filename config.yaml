@@ -1,0 +1,88 @@
+# FormFinder Configuration
+# Unified configuration file replacing sdata_config.json, sdata_init_config.json, and notifier_config.json
+
+api:
+  auth_token: "320cae54d49a09f11c5cd23da43204a5543fb394"
+  base_url: "https://api.soccerdataapi.com"
+  rate_limit_requests: 300
+  rate_limit_period: 60
+  timeout: 15
+  max_retries: 2
+
+processing:
+  # league_ids will be automatically loaded from leagues.json
+  # You can override by uncommenting and specifying specific league IDs:
+  # league_ids: [228, 235, 241, 253, 297]  # Example: Premier League, Ligue 1, Bundesliga, Serie A, La Liga
+  leagues_path: "leagues.json"
+  season_year: "2024-2025"
+  max_concurrent_requests: 10
+  inter_league_delay: 0
+  cache_ttl_hours: 24
+  recent_period: 10
+  win_rate_threshold: 0.70
+
+database:
+  # SQLite for local development, PostgreSQL for production
+  type: "postgresql"  # or "postgresql"
+  sqlite:
+    path: "data/formfinder.db"
+  postgresql:
+    host: "localhost"
+    port: 5432
+    database: "formfinder"
+    username: "wilkins"
+    password: "Holmes&7watson"
+
+notifications:
+  email:
+    enabled: true
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    username: "test@example.com"
+    password: "dummy_password"
+    from_address: "test@example.com"
+    to_addresses: ["test@example.com"]
+    max_matches_in_email_body: 10
+  sms:
+    enabled: false
+    provider: "twilio"  # or "aws_sns"
+    twilio:
+      account_sid: "dummy_account_sid"
+      auth_token: "dummy_auth_token"
+      from_number: "+1234567890"
+      to_number: "+1234567890"
+    max_matches_in_sms: 1
+  predictions_dir: "data/predictions"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_handler:
+    enabled: true
+    directory: "data/logs"
+    max_bytes: 10485760
+    backup_count: 5
+  console_handler:
+    enabled: true
+
+directories:
+  data_root: "data"
+  logs: "data/logs"
+  cache: "data/cache"
+  predictions: "data/predictions"
+  historical: "data/historical"
+  fixtures: "data/fixtures"
+  standings: "data/standings"
+  processed_data: "processed_data"
+
+workflow:
+  orchestrator: "prefect"
+  retry_attempts: 3
+  retry_delay_seconds: 60
+  task_timeout_seconds: 3600
+  enable_notifications: true
+
+testing:
+  test_database_url: "sqlite:///data/test_formfinder.db"
+  mock_api_responses: true
+  test_data_dir: "tests/data"

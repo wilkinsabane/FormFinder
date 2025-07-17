@@ -1,0 +1,316 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  schedule:
+    # Run tests daily at 6 AM UTC
+    - cron: '0 6 * * *'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9, 3.10, 3.11]
+        database: [sqlite, postgresql]
+        exclude:
+          # Only test PostgreSQL with Python 3.10 to reduce CI time
+          - python-version: 3.9
+            database: postgresql
+          - python-version: 3.11
+            database: postgresql
+
+    services:
+      postgres:
+        image: postgres:13
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: formfinder_test
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -e .
+
+    - name: Set up environment variables
+      run: |
+        echo "FORMFINDER_API_TOKEN=test_token_123" >> $GITHUB_ENV
+        echo "FORMFINDER_DATABASE_TYPE=${{ matrix.database }}" >> $GITHUB_ENV
+        if [ "${{ matrix.database }}" = "postgresql" ]; then
+          echo "FORMFINDER_DATABASE_POSTGRESQL_HOST=localhost" >> $GITHUB_ENV
+          echo "FORMFINDER_DATABASE_POSTGRESQL_PORT=5432" >> $GITHUB_ENV
+          echo "FORMFINDER_DATABASE_POSTGRESQL_DATABASE=formfinder_test" >> $GITHUB_ENV
+          echo "FORMFINDER_DATABASE_POSTGRESQL_USERNAME=postgres" >> $GITHUB_ENV
+          echo "FORMFINDER_DATABASE_POSTGRESQL_PASSWORD=postgres" >> $GITHUB_ENV
+        else
+          echo "FORMFINDER_DATABASE_SQLITE_PATH=:memory:" >> $GITHUB_ENV
+        fi
+
+    - name: Create test directories
+      run: |
+        mkdir -p data/logs data/cache data/predictions tests/data
+
+    - name: Run code formatting check (black)
+      run: |
+        black --check --diff formfinder/ tests/
+
+    - name: Run import sorting check (isort)
+      run: |
+        isort --check-only --diff formfinder/ tests/
+
+    - name: Run linting (flake8)
+      run: |
+        flake8 formfinder/ tests/ --max-line-length=100 --extend-ignore=E203,W503
+
+    - name: Run type checking (mypy)
+      run: |
+        mypy formfinder/ --ignore-missing-imports --no-strict-optional
+
+    - name: Run security check (bandit)
+      run: |
+        bandit -r formfinder/ -f json -o bandit-report.json || true
+        bandit -r formfinder/ --severity-level medium
+
+    - name: Run dependency vulnerability check (safety)
+      run: |
+        safety check --json --output safety-report.json || true
+        safety check
+
+    - name: Run tests with coverage
+      run: |
+        pytest tests/ \
+          --cov=formfinder \
+          --cov-report=xml \
+          --cov-report=html \
+          --cov-report=term-missing \
+          --cov-fail-under=80 \
+          --junitxml=pytest-report.xml \
+          -v
+
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage.xml
+        flags: unittests
+        name: codecov-umbrella
+        fail_ci_if_error: false
+
+    - name: Upload test results
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: test-results-${{ matrix.python-version }}-${{ matrix.database }}
+        path: |
+          pytest-report.xml
+          htmlcov/
+          bandit-report.json
+          safety-report.json
+
+  integration-test:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    services:
+      postgres:
+        image: postgres:13
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: formfinder_integration
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -e .
+
+    - name: Set up integration test environment
+      run: |
+        echo "FORMFINDER_API_TOKEN=test_token_123" >> $GITHUB_ENV
+        echo "FORMFINDER_DATABASE_TYPE=postgresql" >> $GITHUB_ENV
+        echo "FORMFINDER_DATABASE_POSTGRESQL_HOST=localhost" >> $GITHUB_ENV
+        echo "FORMFINDER_DATABASE_POSTGRESQL_PORT=5432" >> $GITHUB_ENV
+        echo "FORMFINDER_DATABASE_POSTGRESQL_DATABASE=formfinder_integration" >> $GITHUB_ENV
+        echo "FORMFINDER_DATABASE_POSTGRESQL_USERNAME=postgres" >> $GITHUB_ENV
+        echo "FORMFINDER_DATABASE_POSTGRESQL_PASSWORD=postgres" >> $GITHUB_ENV
+        mkdir -p data/logs data/cache data/predictions
+
+    - name: Run integration tests
+      run: |
+        pytest tests/test_integration.py -v --tb=short
+
+    - name: Run end-to-end workflow test
+      run: |
+        python -c "
+        from formfinder.config import FormFinderConfig
+        from formfinder.workflows import health_check_flow
+        import os
+        
+        # Create minimal config for health check
+        config = FormFinderConfig(
+            api={'token': os.getenv('FORMFINDER_API_TOKEN', 'test'), 'base_url': 'https://api.example.com'},
+            database={'type': 'postgresql', 'postgresql': {
+                'host': 'localhost', 'port': 5432, 'database': 'formfinder_integration',
+                'username': 'postgres', 'password': 'postgres'
+            }}
+        )
+        
+        # Run health check
+        try:
+            result = health_check_flow(config)
+            print(f'Health check result: {result}')
+            assert result is not None
+            print('✅ End-to-end workflow test passed')
+        except Exception as e:
+            print(f'❌ End-to-end workflow test failed: {e}')
+            raise
+        "
+
+  build-and-package:
+    runs-on: ubuntu-latest
+    needs: [test, integration-test]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install build dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build twine
+
+    - name: Build package
+      run: |
+        python -m build
+
+    - name: Check package
+      run: |
+        twine check dist/*
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: python-package
+        path: dist/
+
+  security-scan:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        scan-type: 'fs'
+        scan-ref: '.'
+        format: 'sarif'
+        output: 'trivy-results.sarif'
+
+    - name: Upload Trivy scan results to GitHub Security tab
+      uses: github/codeql-action/upload-sarif@v2
+      if: always()
+      with:
+        sarif_file: 'trivy-results.sarif'
+
+  performance-test:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest-benchmark
+        pip install -e .
+
+    - name: Run performance tests
+      run: |
+        pytest tests/ -k "test_large_dataset" --benchmark-only --benchmark-json=benchmark.json
+
+    - name: Upload performance results
+      uses: actions/upload-artifact@v3
+      with:
+        name: performance-results
+        path: benchmark.json
+
+  notify:
+    runs-on: ubuntu-latest
+    needs: [test, integration-test, build-and-package, security-scan]
+    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+    - name: Notify on success
+      if: needs.test.result == 'success' && needs.integration-test.result == 'success'
+      run: |
+        echo "✅ All CI/CD checks passed successfully!"
+        echo "Commit: ${{ github.sha }}"
+        echo "Branch: ${{ github.ref_name }}"
+        echo "Author: ${{ github.actor }}"
+
+    - name: Notify on failure
+      if: needs.test.result == 'failure' || needs.integration-test.result == 'failure'
+      run: |
+        echo "❌ CI/CD pipeline failed!"
+        echo "Commit: ${{ github.sha }}"
+        echo "Branch: ${{ github.ref_name }}"
+        echo "Author: ${{ github.actor }}"
+        echo "Failed jobs: ${{ toJson(needs) }}"
+        exit 1

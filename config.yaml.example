@@ -1,0 +1,333 @@
+# FormFinder Configuration Template
+# Copy this file to config.yaml and customize for your environment
+
+# API Configuration
+api:
+  # Your football data API token (required)
+  # Get one from: https://www.football-data.org/client/register
+  token: "YOUR_API_TOKEN_HERE"
+  
+  # Base URL for the API
+  base_url: "https://api.football-data.org/v4"
+  
+  # Request timeout in seconds
+  timeout: 30
+  
+  # Rate limiting (requests per minute)
+  rate_limit: 10
+  
+  # Retry configuration
+  max_retries: 3
+  retry_delay: 1.0
+  backoff_factor: 2.0
+
+# Database Configuration
+database:
+  # Database type: sqlite or postgresql
+  type: "sqlite"
+  
+  # SQLite configuration (for local development)
+  sqlite:
+    path: "data/formfinder.db"
+  
+  # PostgreSQL configuration (for production)
+  postgresql:
+    host: "${DATABASE_HOST:localhost}"
+    port: 5432
+    database: "${DATABASE_NAME:formfinder}"
+    username: "${DATABASE_USER:formfinder}"
+    password: "${DATABASE_PASSWORD:your_password}"
+    
+  # Connection pool settings
+  pool_size: 5
+  max_overflow: 10
+  pool_timeout: 30
+  pool_recycle: 3600
+  
+  # Enable SQL query logging (development only)
+  echo: false
+
+# Data Processing Configuration
+processing:
+  # Leagues to process (competition IDs from football-data.org)
+  leagues:
+    - id: 2021  # Premier League
+      name: "Premier League"
+      country: "England"
+    - id: 2014  # La Liga
+      name: "La Liga"
+      country: "Spain"
+    - id: 2002  # Bundesliga
+      name: "Bundesliga"
+      country: "Germany"
+    - id: 2019  # Serie A
+      name: "Serie A"
+      country: "Italy"
+    - id: 2015  # Ligue 1
+      name: "Ligue 1"
+      country: "France"
+  
+  # Data freshness settings
+  max_age_hours: 24
+  force_refresh: false
+  
+  # Historical data settings
+  seasons_to_fetch: 3
+  include_current_season: true
+  
+  # Form calculation settings
+  form_window_games: 5
+  home_away_weight: 1.2
+  recent_weight: 1.5
+  
+  # Prediction settings
+  min_games_for_prediction: 5
+  confidence_threshold: 0.6
+  
+  # Performance settings
+  batch_size: 100
+  parallel_processing: true
+  max_workers: 4
+
+# Notification Configuration
+notifications:
+  # Enable/disable notifications
+  enabled: true
+  
+  # Email notifications
+  email:
+    enabled: false
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    username: "${EMAIL_USERNAME:your_email@gmail.com}"
+    password: "${EMAIL_PASSWORD:your_app_password}"
+    from_address: "${EMAIL_FROM:formfinder@yourdomain.com}"
+    to_addresses:
+      - "recipient@example.com"
+    use_tls: true
+    
+  # SMS notifications (Twilio)
+  sms:
+    enabled: false
+    account_sid: "${TWILIO_ACCOUNT_SID:your_account_sid}"
+    auth_token: "${TWILIO_AUTH_TOKEN:your_auth_token}"
+    from_number: "${TWILIO_FROM_NUMBER:+1234567890}"
+    to_numbers:
+      - "+1234567890"
+  
+  # Webhook notifications
+  webhook:
+    enabled: false
+    url: "${WEBHOOK_URL:https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK}"
+    method: "POST"
+    headers:
+      Content-Type: "application/json"
+    
+  # Notification triggers
+  triggers:
+    pipeline_success: true
+    pipeline_failure: true
+    high_confidence_predictions: true
+    data_quality_issues: true
+    system_health_alerts: true
+
+# Logging Configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log format
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+  # File logging
+  file:
+    enabled: true
+    path: "data/logs/formfinder.log"
+    max_size_mb: 10
+    backup_count: 5
+    rotation: "time"  # time or size
+    
+  # Console logging
+  console:
+    enabled: true
+    colored: true
+    
+  # Structured logging
+  structured:
+    enabled: true
+    format: "json"
+    
+  # Log specific modules
+  loggers:
+    formfinder.api: "INFO"
+    formfinder.database: "INFO"
+    formfinder.workflows: "INFO"
+    sqlalchemy.engine: "WARNING"
+    urllib3.connectionpool: "WARNING"
+
+# Workflow Configuration
+workflows:
+  # Prefect configuration
+  prefect:
+    # Server URL (leave empty for local)
+    server_url: ""
+    
+    # Work pool configuration
+    work_pool: "default"
+    
+    # Flow run configuration
+    flow_run_name_template: "formfinder-{flow_name}-{timestamp}"
+    
+  # Scheduling
+  scheduling:
+    # Main pipeline schedule (cron format)
+    main_pipeline: "0 6 * * *"  # Daily at 6 AM
+    
+    # Quick update schedule
+    quick_update: "0 */4 * * *"  # Every 4 hours
+    
+    # Health check schedule
+    health_check: "*/15 * * * *"  # Every 15 minutes
+    
+    # Timezone for scheduling
+    timezone: "UTC"
+    
+  # Task configuration
+  tasks:
+    # Task timeouts (seconds)
+    fetch_timeout: 300
+    process_timeout: 600
+    predict_timeout: 180
+    notify_timeout: 60
+    
+    # Retry configuration
+    max_retries: 2
+    retry_delay: 30
+    
+    # Concurrency limits
+    max_concurrent_tasks: 3
+
+# Monitoring Configuration
+monitoring:
+  # Health check configuration
+  health_check:
+    enabled: true
+    interval_minutes: 15
+    timeout_seconds: 30
+    
+    # Health check endpoints
+    checks:
+      database_connection: true
+      api_connectivity: true
+      disk_space: true
+      memory_usage: true
+      
+  # Metrics collection
+  metrics:
+    enabled: true
+    
+    # Prometheus metrics
+    prometheus:
+      enabled: false
+      port: 8000
+      path: "/metrics"
+      
+  # Performance monitoring
+  performance:
+    enabled: true
+    
+    # Memory monitoring
+    memory_threshold_mb: 1024
+    
+    # Execution time monitoring
+    slow_query_threshold_seconds: 10
+    
+    # Profiling
+    profiling_enabled: false
+    profile_output_dir: "data/profiles"
+
+# Security Configuration
+security:
+  # API key encryption
+  encrypt_api_keys: false
+  encryption_key: "${ENCRYPTION_KEY:}"
+  
+  # Database security
+  database_ssl: false
+  ssl_cert_path: ""
+  ssl_key_path: ""
+  ssl_ca_path: ""
+  
+  # Access control
+  allowed_hosts:
+    - "localhost"
+    - "127.0.0.1"
+    
+  # Rate limiting
+  rate_limiting:
+    enabled: true
+    requests_per_minute: 60
+    burst_limit: 10
+
+# Development Configuration
+development:
+  # Debug mode
+  debug: false
+  
+  # Development database
+  use_test_database: false
+  test_database_path: "data/test_formfinder.db"
+  
+  # Mock API responses
+  mock_api: false
+  mock_data_path: "tests/fixtures"
+  
+  # Development server
+  dev_server:
+    enabled: false
+    host: "localhost"
+    port: 8080
+    auto_reload: true
+    
+  # Profiling
+  profiling:
+    enabled: false
+    output_dir: "data/profiles"
+    
+# Environment-specific overrides
+# These can be set via environment variables
+environment:
+  name: "${FORMFINDER_ENV:development}"
+  
+  # Environment-specific settings
+  production:
+    logging:
+      level: "WARNING"
+      console:
+        enabled: false
+    database:
+      echo: false
+    development:
+      debug: false
+      
+  development:
+    logging:
+      level: "DEBUG"
+      console:
+        enabled: true
+        colored: true
+    database:
+      echo: true
+    development:
+      debug: true
+      
+  testing:
+    logging:
+      level: "ERROR"
+    database:
+      type: "sqlite"
+      sqlite:
+        path: ":memory:"
+    development:
+      debug: false
+      mock_api: true

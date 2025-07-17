@@ -156,3 +156,43 @@
 2025-06-23 11:13:51,477 - INFO - Loaded 95 matches from data/historical\league_311_2024-2025_historical_matches.csv
 2025-06-23 11:13:51,560 - INFO - Identified 4 high-form teams from data/historical\league_311_2024-2025_historical_matches.csv
 2025-06-23 11:13:51,563 - INFO - Saved 4 high-form teams to processed_data\league_311_high_form_teams.csv
+2025-06-23 17:25:51,360 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-09 10:06:28,698 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-09 10:06:28,709 - INFO - Loaded league data for 128 leagues.
+2025-07-09 10:06:28,711 - INFO - Generated 0 predictions from 2 data items
+2025-07-09 10:08:56,946 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-09 10:08:56,961 - WARNING - Missing required column home_team_id in fixtures data
+2025-07-09 10:08:57,121 - INFO - Loaded league data for 128 leagues.
+2025-07-09 10:08:57,154 - INFO - Generated 0 predictions from 2 data items
+2025-07-09 10:09:50,266 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-09 10:09:50,266 - WARNING - Missing required column home_team_id in fixtures data
+2025-07-09 10:09:50,278 - INFO - Loaded league data for 128 leagues.
+2025-07-09 10:09:50,280 - INFO - Generated 0 predictions from 2 data items
+2025-07-09 10:10:24,555 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-09 10:10:24,557 - WARNING - Missing required column home_team_id in fixtures data
+2025-07-09 10:10:24,559 - INFO - Loaded league data for 128 leagues.
+2025-07-09 10:10:24,559 - INFO - Generated 0 predictions from 2 data items
+2025-07-09 10:17:20,705 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-09 10:17:20,705 - WARNING - Missing required column home_team_id in fixtures data
+2025-07-09 10:18:39,166 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-09 10:18:39,166 - WARNING - Missing required column home_team_id in fixtures data
+2025-07-09 10:18:39,166 - INFO - Loaded league data for 128 leagues.
+2025-07-10 14:20:30,713 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-10 14:20:30,716 - WARNING - Missing required column home_team_id in fixtures data
+2025-07-10 14:20:30,723 - INFO - Loaded league data for 128 leagues.
+2025-07-10 14:39:25,151 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-10 14:39:25,153 - WARNING - Missing required column home_team_id in fixtures data
+2025-07-10 14:39:25,157 - INFO - Loaded league data for 128 leagues.
+2025-07-10 14:39:25,158 - INFO - Generated 0 predictions from 2 data items
+2025-07-10 14:50:26,842 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-10 14:50:26,844 - WARNING - Missing required column home_team_id in fixtures data
+2025-07-10 14:50:26,850 - INFO - Loaded league data for 128 leagues.
+2025-07-10 14:50:26,851 - INFO - Generated 0 predictions from 2 data items
+2025-07-10 14:51:46,006 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-10 14:51:46,042 - WARNING - Missing required column home_team_id in fixtures data
+2025-07-10 14:51:46,135 - INFO - Loaded league data for 128 leagues.
+2025-07-10 14:51:46,152 - INFO - Generated 0 predictions from 2 data items
+2025-07-10 15:25:17,347 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-07-10 15:25:17,348 - WARNING - Missing required column home_team_id in fixtures data
+2025-07-10 15:25:17,354 - INFO - Loaded league data for 128 leagues.
+2025-07-10 15:25:17,355 - INFO - Generated 0 predictions from 2 data items
