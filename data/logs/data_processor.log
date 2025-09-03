@@ -196,3 +196,600 @@
 2025-07-10 15:25:17,348 - WARNING - Missing required column home_team_id in fixtures data
 2025-07-10 15:25:17,354 - INFO - Loaded league data for 128 leagues.
 2025-07-10 15:25:17,355 - INFO - Generated 0 predictions from 2 data items
+2025-08-12 08:49:03,464 - INFO - Starting high-form teams population...
+2025-08-12 08:49:03,587 - INFO - Database manager initialized with URL: postgresql://wilkins:Holmes&7watson@localhost:5432/formfinder
+2025-08-12 08:49:04,669 - INFO - Materialized view 'team_view' created successfully
+2025-08-12 08:49:04,670 - INFO - Database tables and views created successfully
+2025-08-12 08:49:04,670 - INFO - Database initialized successfully
+2025-08-12 08:49:04,671 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-08-12 08:49:04,673 - INFO - Found 31 historical match files
+2025-08-12 08:49:04,673 - INFO - Processing league_199_2024-2025_historical_matches.csv
+2025-08-12 08:49:04,716 - INFO - Date parsing results: 240 valid dates, 0 invalid dates
+2025-08-12 08:49:04,717 - INFO - Loaded 240 matches from data/historical\league_199_2024-2025_historical_matches.csv
+2025-08-12 08:49:04,916 - INFO - Identified 1 high-form teams from data/historical\league_199_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,002 - ERROR - Error processing league 199: name 'logger' is not defined
+2025-08-12 08:49:05,004 - INFO - Processing league_203_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,012 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-08-12 08:49:05,012 - INFO - Loaded 180 matches from data/historical\league_203_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,089 - INFO - No high-form teams met threshold from data/historical\league_203_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,090 - INFO - No high-form teams found for league 203
+2025-08-12 08:49:05,090 - INFO - Processing league_204_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,098 - INFO - Date parsing results: 240 valid dates, 0 invalid dates
+2025-08-12 08:49:05,098 - INFO - Loaded 240 matches from data/historical\league_204_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,190 - INFO - Identified 1 high-form teams from data/historical\league_204_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,193 - ERROR - Error processing league 204: name 'logger' is not defined
+2025-08-12 08:49:05,195 - INFO - Processing league_205_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,205 - INFO - Date parsing results: 135 valid dates, 0 invalid dates
+2025-08-12 08:49:05,206 - INFO - Loaded 135 matches from data/historical\league_205_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,247 - INFO - Identified 2 high-form teams from data/historical\league_205_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,250 - ERROR - Error processing league 205: name 'logger' is not defined
+2025-08-12 08:49:05,250 - INFO - Processing league_207_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,254 - INFO - Date parsing results: 161 valid dates, 0 invalid dates
+2025-08-12 08:49:05,254 - INFO - Loaded 161 matches from data/historical\league_207_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,303 - INFO - Identified 2 high-form teams from data/historical\league_207_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,305 - ERROR - Error processing league 207: name 'logger' is not defined
+2025-08-12 08:49:05,306 - INFO - Processing league_208_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,313 - INFO - Date parsing results: 169 valid dates, 0 invalid dates
+2025-08-12 08:49:05,313 - INFO - Loaded 169 matches from data/historical\league_208_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,375 - INFO - Identified 2 high-form teams from data/historical\league_208_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,379 - ERROR - Error processing league 208: name 'logger' is not defined
+2025-08-12 08:49:05,380 - INFO - Processing league_209_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,385 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-08-12 08:49:05,386 - INFO - Loaded 132 matches from data/historical\league_209_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,442 - INFO - Identified 1 high-form teams from data/historical\league_209_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,447 - ERROR - Error processing league 209: name 'logger' is not defined
+2025-08-12 08:49:05,447 - INFO - Processing league_210_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,452 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-08-12 08:49:05,453 - INFO - Loaded 180 matches from data/historical\league_210_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,494 - INFO - Identified 2 high-form teams from data/historical\league_210_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,497 - ERROR - Error processing league 210: name 'logger' is not defined
+2025-08-12 08:49:05,498 - INFO - Processing league_214_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,503 - INFO - Date parsing results: 198 valid dates, 0 invalid dates
+2025-08-12 08:49:05,504 - INFO - Loaded 198 matches from data/historical\league_214_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,557 - INFO - Identified 3 high-form teams from data/historical\league_214_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,560 - ERROR - Error processing league 214: name 'logger' is not defined
+2025-08-12 08:49:05,561 - INFO - Processing league_221_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,568 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-08-12 08:49:05,569 - INFO - Loaded 132 matches from data/historical\league_221_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,638 - INFO - No high-form teams met threshold from data/historical\league_221_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,638 - INFO - No high-form teams found for league 221
+2025-08-12 08:49:05,639 - INFO - Processing league_222_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,647 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-08-12 08:49:05,648 - INFO - Loaded 180 matches from data/historical\league_222_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,719 - INFO - No high-form teams met threshold from data/historical\league_222_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,720 - INFO - No high-form teams found for league 222
+2025-08-12 08:49:05,720 - INFO - Processing league_223_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,726 - INFO - Date parsing results: 182 valid dates, 0 invalid dates
+2025-08-12 08:49:05,727 - INFO - Loaded 182 matches from data/historical\league_223_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,794 - INFO - Identified 1 high-form teams from data/historical\league_223_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,797 - ERROR - Error processing league 223: name 'logger' is not defined
+2025-08-12 08:49:05,798 - INFO - Processing league_224_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,802 - INFO - Date parsing results: 4 valid dates, 0 invalid dates
+2025-08-12 08:49:05,802 - INFO - Loaded 4 matches from data/historical\league_224_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,817 - INFO - No high-form teams met threshold from data/historical\league_224_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,818 - INFO - No high-form teams found for league 224
+2025-08-12 08:49:05,818 - INFO - Processing league_225_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,823 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-08-12 08:49:05,823 - INFO - Loaded 132 matches from data/historical\league_225_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,873 - INFO - Identified 1 high-form teams from data/historical\league_225_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,876 - ERROR - Error processing league 225: name 'logger' is not defined
+2025-08-12 08:49:05,876 - INFO - Processing league_227_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,881 - INFO - Date parsing results: 153 valid dates, 0 invalid dates
+2025-08-12 08:49:05,881 - INFO - Loaded 153 matches from data/historical\league_227_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,942 - INFO - Identified 2 high-form teams from data/historical\league_227_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,946 - ERROR - Error processing league 227: name 'logger' is not defined
+2025-08-12 08:49:05,946 - INFO - Processing league_229_2024-2025_historical_matches.csv
+2025-08-12 08:49:05,954 - INFO - Date parsing results: 552 valid dates, 0 invalid dates
+2025-08-12 08:49:05,954 - INFO - Loaded 552 matches from data/historical\league_229_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,041 - INFO - Identified 2 high-form teams from data/historical\league_229_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,044 - ERROR - Error processing league 229: name 'logger' is not defined
+2025-08-12 08:49:06,044 - INFO - Processing league_230_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,051 - INFO - Date parsing results: 40 valid dates, 0 invalid dates
+2025-08-12 08:49:06,051 - INFO - Loaded 40 matches from data/historical\league_230_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,237 - INFO - Identified 29 high-form teams from data/historical\league_230_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,240 - ERROR - Error processing league 230: name 'logger' is not defined
+2025-08-12 08:49:06,240 - INFO - Processing league_232_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,250 - INFO - Date parsing results: 552 valid dates, 0 invalid dates
+2025-08-12 08:49:06,250 - INFO - Loaded 552 matches from data/historical\league_232_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,372 - INFO - No high-form teams met threshold from data/historical\league_232_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,373 - INFO - No high-form teams found for league 232
+2025-08-12 08:49:06,373 - INFO - Processing league_235_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,380 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-12 08:49:06,380 - INFO - Loaded 306 matches from data/historical\league_235_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,462 - INFO - Identified 1 high-form teams from data/historical\league_235_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,464 - ERROR - Error processing league 235: name 'logger' is not defined
+2025-08-12 08:49:06,465 - INFO - Processing league_236_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,471 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-12 08:49:06,471 - INFO - Loaded 306 matches from data/historical\league_236_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,533 - INFO - Identified 2 high-form teams from data/historical\league_236_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,536 - ERROR - Error processing league 236: name 'logger' is not defined
+2025-08-12 08:49:06,537 - INFO - Processing league_237_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,542 - INFO - Date parsing results: 35 valid dates, 0 invalid dates
+2025-08-12 08:49:06,542 - INFO - Loaded 35 matches from data/historical\league_237_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,714 - INFO - Identified 29 high-form teams from data/historical\league_237_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,717 - ERROR - Error processing league 237: name 'logger' is not defined
+2025-08-12 08:49:06,717 - INFO - Processing league_241_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,724 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-12 08:49:06,725 - INFO - Loaded 306 matches from data/historical\league_241_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,792 - INFO - Identified 1 high-form teams from data/historical\league_241_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,796 - ERROR - Error processing league 241: name 'logger' is not defined
+2025-08-12 08:49:06,796 - INFO - Processing league_243_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,802 - INFO - Date parsing results: 32 valid dates, 0 invalid dates
+2025-08-12 08:49:06,802 - INFO - Loaded 32 matches from data/historical\league_243_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,971 - INFO - Identified 27 high-form teams from data/historical\league_243_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,974 - ERROR - Error processing league 243: name 'logger' is not defined
+2025-08-12 08:49:06,974 - INFO - Processing league_244_2024-2025_historical_matches.csv
+2025-08-12 08:49:06,983 - INFO - Date parsing results: 380 valid dates, 0 invalid dates
+2025-08-12 08:49:06,984 - INFO - Loaded 380 matches from data/historical\league_244_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,059 - INFO - Identified 1 high-form teams from data/historical\league_244_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,063 - ERROR - Error processing league 244: name 'logger' is not defined
+2025-08-12 08:49:07,063 - INFO - Processing league_245_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,070 - INFO - Date parsing results: 182 valid dates, 0 invalid dates
+2025-08-12 08:49:07,070 - INFO - Loaded 182 matches from data/historical\league_245_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,125 - INFO - Identified 2 high-form teams from data/historical\league_245_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,127 - ERROR - Error processing league 245: name 'logger' is not defined
+2025-08-12 08:49:07,129 - INFO - Processing league_246_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,134 - INFO - Date parsing results: 96 valid dates, 0 invalid dates
+2025-08-12 08:49:07,135 - INFO - Loaded 96 matches from data/historical\league_246_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,188 - INFO - Identified 1 high-form teams from data/historical\league_246_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,191 - ERROR - Error processing league 246: name 'logger' is not defined
+2025-08-12 08:49:07,192 - INFO - Processing league_247_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,198 - INFO - Date parsing results: 90 valid dates, 0 invalid dates
+2025-08-12 08:49:07,198 - INFO - Loaded 90 matches from data/historical\league_247_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,237 - INFO - Identified 1 high-form teams from data/historical\league_247_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,240 - ERROR - Error processing league 247: name 'logger' is not defined
+2025-08-12 08:49:07,240 - INFO - Processing league_248_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,246 - INFO - Date parsing results: 198 valid dates, 0 invalid dates
+2025-08-12 08:49:07,247 - INFO - Loaded 198 matches from data/historical\league_248_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,296 - INFO - Identified 1 high-form teams from data/historical\league_248_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,298 - ERROR - Error processing league 248: name 'logger' is not defined
+2025-08-12 08:49:07,298 - INFO - Processing league_250_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,305 - INFO - Date parsing results: 156 valid dates, 0 invalid dates
+2025-08-12 08:49:07,306 - INFO - Loaded 156 matches from data/historical\league_250_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,357 - INFO - Identified 2 high-form teams from data/historical\league_250_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,359 - ERROR - Error processing league 250: name 'logger' is not defined
+2025-08-12 08:49:07,360 - INFO - Processing league_251_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,367 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-12 08:49:07,367 - INFO - Loaded 306 matches from data/historical\league_251_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,438 - INFO - No high-form teams met threshold from data/historical\league_251_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,438 - INFO - No high-form teams found for league 251
+2025-08-12 08:49:07,439 - INFO - Processing league_311_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,446 - INFO - Date parsing results: 95 valid dates, 0 invalid dates
+2025-08-12 08:49:07,446 - INFO - Loaded 95 matches from data/historical\league_311_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,526 - INFO - Identified 4 high-form teams from data/historical\league_311_2024-2025_historical_matches.csv
+2025-08-12 08:49:07,529 - ERROR - Error processing league 311: name 'logger' is not defined
+2025-08-12 08:49:07,530 - INFO - Completed! Total teams saved to database: 0
+2025-08-12 08:49:07,530 - INFO - Population complete!
+2025-08-12 08:50:06,936 - INFO - Starting high-form teams population...
+2025-08-12 08:50:07,014 - INFO - Database manager initialized with URL: postgresql://wilkins:Holmes&7watson@localhost:5432/formfinder
+2025-08-12 08:50:07,131 - INFO - Materialized view 'team_view' created successfully
+2025-08-12 08:50:07,131 - INFO - Database tables and views created successfully
+2025-08-12 08:50:07,131 - INFO - Database initialized successfully
+2025-08-12 08:50:07,132 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-08-12 08:50:07,133 - INFO - Found 31 historical match files
+2025-08-12 08:50:07,133 - INFO - Processing league_199_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,146 - INFO - Date parsing results: 240 valid dates, 0 invalid dates
+2025-08-12 08:50:07,147 - INFO - Loaded 240 matches from data/historical\league_199_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,221 - INFO - Identified 1 high-form teams from data/historical\league_199_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,283 - ERROR - Error saving high-form teams to database: (psycopg2.errors.ForeignKeyViolation) insert or update on table "high_form_teams" violates foreign key constraint "high_form_teams_team_id_fkey"
+DETAIL:  Key (team_id)=(3141) is not present in table "teams".
+
+[SQL: INSERT INTO high_form_teams (team_id, league_id, win_rate, total_matches, wins, analysis_start_date, analysis_end_date, algorithm_version, analysis_date, created_at, updated_at) VALUES (%(team_id)s, %(league_id)s, %(win_rate)s, %(total_matches)s, %(wins)s, %(analysis_start_date)s, %(analysis_end_date)s, %(algorithm_version)s, %(analysis_date)s, %(created_at)s, %(updated_at)s) RETURNING high_form_teams.id]
+[parameters: {'team_id': 3141, 'league_id': 199, 'win_rate': 0.7, 'total_matches': 10, 'wins': 7, 'analysis_start_date': datetime.datetime(2025, 6, 3, 7, 50, 7, 275010), 'analysis_end_date': datetime.datetime(2025, 8, 12, 7, 50, 7, 275010), 'algorithm_version': None, 'analysis_date': datetime.datetime(2025, 8, 12, 7, 50, 7, 279089), 'created_at': datetime.datetime(2025, 8, 12, 7, 50, 7, 279089), 'updated_at': datetime.datetime(2025, 8, 12, 7, 50, 7, 279089)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 08:50:07,285 - INFO - Saved 0 high-form teams for league 199
+2025-08-12 08:50:07,285 - INFO - Processing league_203_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,293 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-08-12 08:50:07,293 - INFO - Loaded 180 matches from data/historical\league_203_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,421 - INFO - No high-form teams met threshold from data/historical\league_203_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,430 - INFO - No high-form teams found for league 203
+2025-08-12 08:50:07,430 - INFO - Processing league_204_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,435 - INFO - Date parsing results: 240 valid dates, 0 invalid dates
+2025-08-12 08:50:07,436 - INFO - Loaded 240 matches from data/historical\league_204_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,515 - INFO - Identified 1 high-form teams from data/historical\league_204_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,521 - INFO - Saved 1 high-form teams to database for league 204
+2025-08-12 08:50:07,521 - INFO - Saved 1 high-form teams for league 204
+2025-08-12 08:50:07,522 - INFO - Processing league_205_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,528 - INFO - Date parsing results: 135 valid dates, 0 invalid dates
+2025-08-12 08:50:07,528 - INFO - Loaded 135 matches from data/historical\league_205_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,575 - INFO - Identified 2 high-form teams from data/historical\league_205_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,581 - INFO - Saved 2 high-form teams to database for league 205
+2025-08-12 08:50:07,581 - INFO - Saved 2 high-form teams for league 205
+2025-08-12 08:50:07,582 - INFO - Processing league_207_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,586 - INFO - Date parsing results: 161 valid dates, 0 invalid dates
+2025-08-12 08:50:07,587 - INFO - Loaded 161 matches from data/historical\league_207_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,623 - INFO - Identified 2 high-form teams from data/historical\league_207_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,629 - INFO - Saved 2 high-form teams to database for league 207
+2025-08-12 08:50:07,629 - INFO - Saved 2 high-form teams for league 207
+2025-08-12 08:50:07,630 - INFO - Processing league_208_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,633 - INFO - Date parsing results: 169 valid dates, 0 invalid dates
+2025-08-12 08:50:07,634 - INFO - Loaded 169 matches from data/historical\league_208_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,680 - INFO - Identified 2 high-form teams from data/historical\league_208_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,686 - INFO - Saved 2 high-form teams to database for league 208
+2025-08-12 08:50:07,686 - INFO - Saved 2 high-form teams for league 208
+2025-08-12 08:50:07,687 - INFO - Processing league_209_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,692 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-08-12 08:50:07,692 - INFO - Loaded 132 matches from data/historical\league_209_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,737 - INFO - Identified 1 high-form teams from data/historical\league_209_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,742 - INFO - Saved 1 high-form teams to database for league 209
+2025-08-12 08:50:07,742 - INFO - Saved 1 high-form teams for league 209
+2025-08-12 08:50:07,742 - INFO - Processing league_210_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,747 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-08-12 08:50:07,748 - INFO - Loaded 180 matches from data/historical\league_210_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,786 - INFO - Identified 2 high-form teams from data/historical\league_210_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,792 - INFO - Saved 2 high-form teams to database for league 210
+2025-08-12 08:50:07,793 - INFO - Saved 2 high-form teams for league 210
+2025-08-12 08:50:07,793 - INFO - Processing league_214_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,797 - INFO - Date parsing results: 198 valid dates, 0 invalid dates
+2025-08-12 08:50:07,798 - INFO - Loaded 198 matches from data/historical\league_214_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,845 - INFO - Identified 3 high-form teams from data/historical\league_214_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,853 - INFO - Saved 3 high-form teams to database for league 214
+2025-08-12 08:50:07,854 - INFO - Saved 3 high-form teams for league 214
+2025-08-12 08:50:07,854 - INFO - Processing league_221_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,860 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-08-12 08:50:07,860 - INFO - Loaded 132 matches from data/historical\league_221_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,904 - INFO - No high-form teams met threshold from data/historical\league_221_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,905 - INFO - No high-form teams found for league 221
+2025-08-12 08:50:07,906 - INFO - Processing league_222_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,910 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-08-12 08:50:07,910 - INFO - Loaded 180 matches from data/historical\league_222_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,950 - INFO - No high-form teams met threshold from data/historical\league_222_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,950 - INFO - No high-form teams found for league 222
+2025-08-12 08:50:07,951 - INFO - Processing league_223_2024-2025_historical_matches.csv
+2025-08-12 08:50:07,955 - INFO - Date parsing results: 182 valid dates, 0 invalid dates
+2025-08-12 08:50:07,955 - INFO - Loaded 182 matches from data/historical\league_223_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,008 - INFO - Identified 1 high-form teams from data/historical\league_223_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,014 - INFO - Saved 1 high-form teams to database for league 223
+2025-08-12 08:50:08,015 - INFO - Saved 1 high-form teams for league 223
+2025-08-12 08:50:08,015 - INFO - Processing league_224_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,019 - INFO - Date parsing results: 4 valid dates, 0 invalid dates
+2025-08-12 08:50:08,019 - INFO - Loaded 4 matches from data/historical\league_224_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,033 - INFO - No high-form teams met threshold from data/historical\league_224_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,033 - INFO - No high-form teams found for league 224
+2025-08-12 08:50:08,033 - INFO - Processing league_225_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,038 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-08-12 08:50:08,039 - INFO - Loaded 132 matches from data/historical\league_225_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,099 - INFO - Identified 1 high-form teams from data/historical\league_225_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,104 - INFO - Saved 1 high-form teams to database for league 225
+2025-08-12 08:50:08,105 - INFO - Saved 1 high-form teams for league 225
+2025-08-12 08:50:08,105 - INFO - Processing league_227_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,111 - INFO - Date parsing results: 153 valid dates, 0 invalid dates
+2025-08-12 08:50:08,112 - INFO - Loaded 153 matches from data/historical\league_227_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,172 - INFO - Identified 2 high-form teams from data/historical\league_227_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,181 - ERROR - Error saving high-form teams to database: (psycopg2.errors.ForeignKeyViolation) insert or update on table "high_form_teams" violates foreign key constraint "high_form_teams_league_id_fkey"
+DETAIL:  Key (league_id)=(227) is not present in table "leagues".
+
+[SQL: INSERT INTO high_form_teams (team_id, league_id, win_rate, total_matches, wins, analysis_start_date, analysis_end_date, algorithm_version, analysis_date, created_at, updated_at) SELECT p0::INTEGER, p1::INTEGER, p2::FLOAT, p3::INTEGER, p4::INTEGER, p5 ... 698 characters truncated ... p9, p10, sen_counter) ORDER BY sen_counter RETURNING high_form_teams.id, high_form_teams.id AS id__1]
+[parameters: {'win_rate__0': 0.9, 'analysis_end_date__0': datetime.datetime(2025, 8, 12, 7, 50, 8, 175861), 'total_matches__0': 10, 'algorithm_version__0': None, 'league_id__0': 227, 'updated_at__0': datetime.datetime(2025, 8, 12, 7, 50, 8, 178060), 'analysis_date__0': datetime.datetime(2025, 8, 12, 7, 50, 8, 178060), 'analysis_start_date__0': datetime.datetime(2025, 6, 3, 7, 50, 8, 175861), 'team_id__0': 4112, 'created_at__0': datetime.datetime(2025, 8, 12, 7, 50, 8, 178060), 'wins__0': 9, 'win_rate__1': 0.7, 'analysis_end_date__1': datetime.datetime(2025, 8, 12, 7, 50, 8, 177555), 'total_matches__1': 10, 'algorithm_version__1': None, 'league_id__1': 227, 'updated_at__1': datetime.datetime(2025, 8, 12, 7, 50, 8, 178060), 'analysis_date__1': datetime.datetime(2025, 8, 12, 7, 50, 8, 178060), 'analysis_start_date__1': datetime.datetime(2025, 6, 3, 7, 50, 8, 177555), 'team_id__1': 4110, 'created_at__1': datetime.datetime(2025, 8, 12, 7, 50, 8, 178060), 'wins__1': 7}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 08:50:08,182 - INFO - Saved 0 high-form teams for league 227
+2025-08-12 08:50:08,183 - INFO - Processing league_229_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,187 - INFO - Date parsing results: 552 valid dates, 0 invalid dates
+2025-08-12 08:50:08,188 - INFO - Loaded 552 matches from data/historical\league_229_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,271 - INFO - Identified 2 high-form teams from data/historical\league_229_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,279 - INFO - Saved 2 high-form teams to database for league 229
+2025-08-12 08:50:08,280 - INFO - Saved 2 high-form teams for league 229
+2025-08-12 08:50:08,280 - INFO - Processing league_230_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,284 - INFO - Date parsing results: 40 valid dates, 0 invalid dates
+2025-08-12 08:50:08,284 - INFO - Loaded 40 matches from data/historical\league_230_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,468 - INFO - Identified 29 high-form teams from data/historical\league_230_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,510 - ERROR - Error saving high-form teams to database: (psycopg2.errors.ForeignKeyViolation) insert or update on table "high_form_teams" violates foreign key constraint "high_form_teams_team_id_fkey"
+DETAIL:  Key (team_id)=(6916) is not present in table "teams".
+
+[SQL: INSERT INTO high_form_teams (team_id, league_id, win_rate, total_matches, wins, analysis_start_date, analysis_end_date, algorithm_version, analysis_date, created_at, updated_at) SELECT p0::INTEGER, p1::INTEGER, p2::FLOAT, p3::INTEGER, p4::INTEGER, p5 ... 7163 characters truncated ... p9, p10, sen_counter) ORDER BY sen_counter RETURNING high_form_teams.id, high_form_teams.id AS id__1]
+[parameters: {'win_rate__0': 1.0, 'analysis_end_date__0': datetime.datetime(2025, 8, 12, 7, 50, 8, 471905), 'total_matches__0': 1, 'algorithm_version__0': None, 'league_id__0': 230, 'updated_at__0': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_date__0': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_start_date__0': datetime.datetime(2025, 6, 3, 7, 50, 8, 471905), 'team_id__0': 6916, 'created_at__0': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'wins__0': 1, 'win_rate__1': 1.0, 'analysis_end_date__1': datetime.datetime(2025, 8, 12, 7, 50, 8, 472906), 'total_matches__1': 1, 'algorithm_version__1': None, 'league_id__1': 230, 'updated_at__1': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_date__1': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_start_date__1': datetime.datetime(2025, 6, 3, 7, 50, 8, 472906), 'team_id__1': 4193, 'created_at__1': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'wins__1': 1, 'win_rate__2': 1.0, 'analysis_end_date__2': datetime.datetime(2025, 8, 12, 7, 50, 8, 474905), 'total_matches__2': 1, 'algorithm_version__2': None, 'league_id__2': 230, 'updated_at__2': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_date__2': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_start_date__2': datetime.datetime(2025, 6, 3, 7, 50, 8, 474905), 'team_id__2': 5977, 'created_at__2': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'wins__2': 1, 'win_rate__3': 1.0, 'analysis_end_date__3': datetime.datetime(2025, 8, 12, 7, 50, 8, 475904), 'total_matches__3': 1, 'algorithm_version__3': None, 'league_id__3': 230, 'updated_at__3': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_date__3': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_start_date__3': datetime.datetime(2025, 6, 3, 7, 50, 8, 475904), 'team_id__3': 3430, 'created_at__3': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'wins__3': 1, 'win_rate__4': 1.0, 'analysis_end_date__4': datetime.datetime(2025, 8, 12, 7, 50, 8, 476904), 'total_matches__4': 1, 'algorithm_version__4': None, 'league_id__4': 230, 'updated_at__4': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182) ... 219 parameters truncated ... 'updated_at__24': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_date__24': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_start_date__24': datetime.datetime(2025, 6, 3, 7, 50, 8, 501144), 'team_id__24': 7202, 'created_at__24': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'wins__24': 1, 'win_rate__25': 1.0, 'analysis_end_date__25': datetime.datetime(2025, 8, 12, 7, 50, 8, 501144), 'total_matches__25': 1, 'algorithm_version__25': None, 'league_id__25': 230, 'updated_at__25': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_date__25': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_start_date__25': datetime.datetime(2025, 6, 3, 7, 50, 8, 501144), 'team_id__25': 4174, 'created_at__25': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'wins__25': 1, 'win_rate__26': 1.0, 'analysis_end_date__26': datetime.datetime(2025, 8, 12, 7, 50, 8, 502180), 'total_matches__26': 1, 'algorithm_version__26': None, 'league_id__26': 230, 'updated_at__26': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_date__26': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_start_date__26': datetime.datetime(2025, 6, 3, 7, 50, 8, 502180), 'team_id__26': 3063, 'created_at__26': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'wins__26': 1, 'win_rate__27': 1.0, 'analysis_end_date__27': datetime.datetime(2025, 8, 12, 7, 50, 8, 503179), 'total_matches__27': 1, 'algorithm_version__27': None, 'league_id__27': 230, 'updated_at__27': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_date__27': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_start_date__27': datetime.datetime(2025, 6, 3, 7, 50, 8, 503179), 'team_id__27': 4187, 'created_at__27': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'wins__27': 1, 'win_rate__28': 1.0, 'analysis_end_date__28': datetime.datetime(2025, 8, 12, 7, 50, 8, 504170), 'total_matches__28': 1, 'algorithm_version__28': None, 'league_id__28': 230, 'updated_at__28': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_date__28': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'analysis_start_date__28': datetime.datetime(2025, 6, 3, 7, 50, 8, 504170), 'team_id__28': 4177, 'created_at__28': datetime.datetime(2025, 8, 12, 7, 50, 8, 505182), 'wins__28': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 08:50:08,514 - INFO - Saved 0 high-form teams for league 230
+2025-08-12 08:50:08,514 - INFO - Processing league_232_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,519 - INFO - Date parsing results: 552 valid dates, 0 invalid dates
+2025-08-12 08:50:08,520 - INFO - Loaded 552 matches from data/historical\league_232_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,645 - INFO - No high-form teams met threshold from data/historical\league_232_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,646 - INFO - No high-form teams found for league 232
+2025-08-12 08:50:08,646 - INFO - Processing league_235_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,651 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-12 08:50:08,651 - INFO - Loaded 306 matches from data/historical\league_235_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,714 - INFO - Identified 1 high-form teams from data/historical\league_235_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,720 - INFO - Saved 1 high-form teams to database for league 235
+2025-08-12 08:50:08,721 - INFO - Saved 1 high-form teams for league 235
+2025-08-12 08:50:08,721 - INFO - Processing league_236_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,727 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-12 08:50:08,728 - INFO - Loaded 306 matches from data/historical\league_236_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,791 - INFO - Identified 2 high-form teams from data/historical\league_236_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,795 - INFO - Saved 2 high-form teams to database for league 236
+2025-08-12 08:50:08,795 - INFO - Saved 2 high-form teams for league 236
+2025-08-12 08:50:08,796 - INFO - Processing league_237_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,801 - INFO - Date parsing results: 35 valid dates, 0 invalid dates
+2025-08-12 08:50:08,801 - INFO - Loaded 35 matches from data/historical\league_237_2024-2025_historical_matches.csv
+2025-08-12 08:50:08,968 - INFO - Identified 29 high-form teams from data/historical\league_237_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,017 - ERROR - Error saving high-form teams to database: (psycopg2.errors.ForeignKeyViolation) insert or update on table "high_form_teams" violates foreign key constraint "high_form_teams_league_id_fkey"
+DETAIL:  Key (league_id)=(237) is not present in table "leagues".
+
+[SQL: INSERT INTO high_form_teams (team_id, league_id, win_rate, total_matches, wins, analysis_start_date, analysis_end_date, algorithm_version, analysis_date, created_at, updated_at) SELECT p0::INTEGER, p1::INTEGER, p2::FLOAT, p3::INTEGER, p4::INTEGER, p5 ... 7163 characters truncated ... p9, p10, sen_counter) ORDER BY sen_counter RETURNING high_form_teams.id, high_form_teams.id AS id__1]
+[parameters: {'win_rate__0': 1.0, 'analysis_end_date__0': datetime.datetime(2025, 8, 12, 7, 50, 8, 970696), 'total_matches__0': 1, 'algorithm_version__0': None, 'league_id__0': 237, 'updated_at__0': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'analysis_date__0': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'analysis_start_date__0': datetime.datetime(2025, 6, 3, 7, 50, 8, 970696), 'team_id__0': 4196, 'created_at__0': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'wins__0': 1, 'win_rate__1': 1.0, 'analysis_end_date__1': datetime.datetime(2025, 8, 12, 7, 50, 8, 971696), 'total_matches__1': 1, 'algorithm_version__1': None, 'league_id__1': 237, 'updated_at__1': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'analysis_date__1': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'analysis_start_date__1': datetime.datetime(2025, 6, 3, 7, 50, 8, 971696), 'team_id__1': 3318, 'created_at__1': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'wins__1': 1, 'win_rate__2': 1.0, 'analysis_end_date__2': datetime.datetime(2025, 8, 12, 7, 50, 8, 973406), 'total_matches__2': 1, 'algorithm_version__2': None, 'league_id__2': 237, 'updated_at__2': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'analysis_date__2': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'analysis_start_date__2': datetime.datetime(2025, 6, 3, 7, 50, 8, 972898), 'team_id__2': 4197, 'created_at__2': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'wins__2': 1, 'win_rate__3': 1.0, 'analysis_end_date__3': datetime.datetime(2025, 8, 12, 7, 50, 8, 975429), 'total_matches__3': 1, 'algorithm_version__3': None, 'league_id__3': 237, 'updated_at__3': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'analysis_date__3': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'analysis_start_date__3': datetime.datetime(2025, 6, 3, 7, 50, 8, 975429), 'team_id__3': 3061, 'created_at__3': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355), 'wins__3': 1, 'win_rate__4': 1.0, 'analysis_end_date__4': datetime.datetime(2025, 8, 12, 7, 50, 8, 976434), 'total_matches__4': 1, 'algorithm_version__4': None, 'league_id__4': 237, 'updated_at__4': datetime.datetime(2025, 8, 12, 7, 50, 9, 12355) ... 219 parameters truncated ... 'updated_at__24': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'analysis_date__24': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'analysis_start_date__24': datetime.datetime(2025, 6, 3, 7, 50, 9, 6321), 'team_id__24': 4174, 'created_at__24': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'wins__24': 1, 'win_rate__25': 1.0, 'analysis_end_date__25': datetime.datetime(2025, 8, 12, 7, 50, 9, 8493), 'total_matches__25': 1, 'algorithm_version__25': None, 'league_id__25': 237, 'updated_at__25': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'analysis_date__25': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'analysis_start_date__25': datetime.datetime(2025, 6, 3, 7, 50, 9, 8493), 'team_id__25': 4162, 'created_at__25': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'wins__25': 1, 'win_rate__26': 1.0, 'analysis_end_date__26': datetime.datetime(2025, 8, 12, 7, 50, 9, 9355), 'total_matches__26': 1, 'algorithm_version__26': None, 'league_id__26': 237, 'updated_at__26': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'analysis_date__26': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'analysis_start_date__26': datetime.datetime(2025, 6, 3, 7, 50, 9, 9355), 'team_id__26': 4161, 'created_at__26': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'wins__26': 1, 'win_rate__27': 1.0, 'analysis_end_date__27': datetime.datetime(2025, 8, 12, 7, 50, 9, 10355), 'total_matches__27': 1, 'algorithm_version__27': None, 'league_id__27': 237, 'updated_at__27': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'analysis_date__27': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'analysis_start_date__27': datetime.datetime(2025, 6, 3, 7, 50, 9, 10355), 'team_id__27': 4152, 'created_at__27': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'wins__27': 1, 'win_rate__28': 1.0, 'analysis_end_date__28': datetime.datetime(2025, 8, 12, 7, 50, 9, 11355), 'total_matches__28': 1, 'algorithm_version__28': None, 'league_id__28': 237, 'updated_at__28': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'analysis_date__28': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'analysis_start_date__28': datetime.datetime(2025, 6, 3, 7, 50, 9, 11355), 'team_id__28': 4150, 'created_at__28': datetime.datetime(2025, 8, 12, 7, 50, 9, 13355), 'wins__28': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 08:50:09,025 - INFO - Saved 0 high-form teams for league 237
+2025-08-12 08:50:09,025 - INFO - Processing league_241_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,033 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-12 08:50:09,034 - INFO - Loaded 306 matches from data/historical\league_241_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,165 - INFO - Identified 1 high-form teams from data/historical\league_241_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,171 - INFO - Saved 1 high-form teams to database for league 241
+2025-08-12 08:50:09,171 - INFO - Saved 1 high-form teams for league 241
+2025-08-12 08:50:09,173 - INFO - Processing league_243_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,178 - INFO - Date parsing results: 32 valid dates, 0 invalid dates
+2025-08-12 08:50:09,179 - INFO - Loaded 32 matches from data/historical\league_243_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,430 - INFO - Identified 27 high-form teams from data/historical\league_243_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,473 - ERROR - Error saving high-form teams to database: (psycopg2.errors.ForeignKeyViolation) insert or update on table "high_form_teams" violates foreign key constraint "high_form_teams_league_id_fkey"
+DETAIL:  Key (league_id)=(243) is not present in table "leagues".
+
+[SQL: INSERT INTO high_form_teams (team_id, league_id, win_rate, total_matches, wins, analysis_start_date, analysis_end_date, algorithm_version, analysis_date, created_at, updated_at) SELECT p0::INTEGER, p1::INTEGER, p2::FLOAT, p3::INTEGER, p4::INTEGER, p5 ... 6677 characters truncated ... p9, p10, sen_counter) ORDER BY sen_counter RETURNING high_form_teams.id, high_form_teams.id AS id__1]
+[parameters: {'win_rate__0': 1.0, 'analysis_end_date__0': datetime.datetime(2025, 8, 12, 7, 50, 9, 434967), 'total_matches__0': 1, 'algorithm_version__0': None, 'league_id__0': 243, 'updated_at__0': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_date__0': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_start_date__0': datetime.datetime(2025, 6, 3, 7, 50, 9, 434967), 'team_id__0': 4278, 'created_at__0': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'wins__0': 1, 'win_rate__1': 1.0, 'analysis_end_date__1': datetime.datetime(2025, 8, 12, 7, 50, 9, 435965), 'total_matches__1': 1, 'algorithm_version__1': None, 'league_id__1': 243, 'updated_at__1': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_date__1': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_start_date__1': datetime.datetime(2025, 6, 3, 7, 50, 9, 435965), 'team_id__1': 3109, 'created_at__1': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'wins__1': 1, 'win_rate__2': 1.0, 'analysis_end_date__2': datetime.datetime(2025, 8, 12, 7, 50, 9, 437965), 'total_matches__2': 1, 'algorithm_version__2': None, 'league_id__2': 243, 'updated_at__2': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_date__2': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_start_date__2': datetime.datetime(2025, 6, 3, 7, 50, 9, 437965), 'team_id__2': 4282, 'created_at__2': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'wins__2': 1, 'win_rate__3': 1.0, 'analysis_end_date__3': datetime.datetime(2025, 8, 12, 7, 50, 9, 439918), 'total_matches__3': 1, 'algorithm_version__3': None, 'league_id__3': 243, 'updated_at__3': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_date__3': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_start_date__3': datetime.datetime(2025, 6, 3, 7, 50, 9, 439918), 'team_id__3': 5925, 'created_at__3': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'wins__3': 1, 'win_rate__4': 1.0, 'analysis_end_date__4': datetime.datetime(2025, 8, 12, 7, 50, 9, 441304), 'total_matches__4': 1, 'algorithm_version__4': None, 'league_id__4': 243, 'updated_at__4': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228) ... 197 parameters truncated ... 'updated_at__22': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_date__22': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_start_date__22': datetime.datetime(2025, 6, 3, 7, 50, 9, 463218), 'team_id__22': 2983, 'created_at__22': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'wins__22': 1, 'win_rate__23': 1.0, 'analysis_end_date__23': datetime.datetime(2025, 8, 12, 7, 50, 9, 464230), 'total_matches__23': 1, 'algorithm_version__23': None, 'league_id__23': 243, 'updated_at__23': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_date__23': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_start_date__23': datetime.datetime(2025, 6, 3, 7, 50, 9, 464230), 'team_id__23': 4273, 'created_at__23': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'wins__23': 1, 'win_rate__24': 1.0, 'analysis_end_date__24': datetime.datetime(2025, 8, 12, 7, 50, 9, 465229), 'total_matches__24': 1, 'algorithm_version__24': None, 'league_id__24': 243, 'updated_at__24': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_date__24': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_start_date__24': datetime.datetime(2025, 6, 3, 7, 50, 9, 465229), 'team_id__24': 2998, 'created_at__24': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'wins__24': 1, 'win_rate__25': 1.0, 'analysis_end_date__25': datetime.datetime(2025, 8, 12, 7, 50, 9, 466228), 'total_matches__25': 1, 'algorithm_version__25': None, 'league_id__25': 243, 'updated_at__25': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_date__25': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_start_date__25': datetime.datetime(2025, 6, 3, 7, 50, 9, 466228), 'team_id__25': 4276, 'created_at__25': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'wins__25': 1, 'win_rate__26': 1.0, 'analysis_end_date__26': datetime.datetime(2025, 8, 12, 7, 50, 9, 467229), 'total_matches__26': 1, 'algorithm_version__26': None, 'league_id__26': 243, 'updated_at__26': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_date__26': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'analysis_start_date__26': datetime.datetime(2025, 6, 3, 7, 50, 9, 467229), 'team_id__26': 4271, 'created_at__26': datetime.datetime(2025, 8, 12, 7, 50, 9, 468228), 'wins__26': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 08:50:09,476 - INFO - Saved 0 high-form teams for league 243
+2025-08-12 08:50:09,477 - INFO - Processing league_244_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,484 - INFO - Date parsing results: 380 valid dates, 0 invalid dates
+2025-08-12 08:50:09,484 - INFO - Loaded 380 matches from data/historical\league_244_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,572 - INFO - Identified 1 high-form teams from data/historical\league_244_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,576 - INFO - Saved 1 high-form teams to database for league 244
+2025-08-12 08:50:09,576 - INFO - Saved 1 high-form teams for league 244
+2025-08-12 08:50:09,577 - INFO - Processing league_245_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,583 - INFO - Date parsing results: 182 valid dates, 0 invalid dates
+2025-08-12 08:50:09,584 - INFO - Loaded 182 matches from data/historical\league_245_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,647 - INFO - Identified 2 high-form teams from data/historical\league_245_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,652 - INFO - Saved 2 high-form teams to database for league 245
+2025-08-12 08:50:09,652 - INFO - Saved 2 high-form teams for league 245
+2025-08-12 08:50:09,653 - INFO - Processing league_246_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,661 - INFO - Date parsing results: 96 valid dates, 0 invalid dates
+2025-08-12 08:50:09,661 - INFO - Loaded 96 matches from data/historical\league_246_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,715 - INFO - Identified 1 high-form teams from data/historical\league_246_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,720 - INFO - Saved 1 high-form teams to database for league 246
+2025-08-12 08:50:09,720 - INFO - Saved 1 high-form teams for league 246
+2025-08-12 08:50:09,720 - INFO - Processing league_247_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,727 - INFO - Date parsing results: 90 valid dates, 0 invalid dates
+2025-08-12 08:50:09,728 - INFO - Loaded 90 matches from data/historical\league_247_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,770 - INFO - Identified 1 high-form teams from data/historical\league_247_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,775 - INFO - Saved 1 high-form teams to database for league 247
+2025-08-12 08:50:09,775 - INFO - Saved 1 high-form teams for league 247
+2025-08-12 08:50:09,776 - INFO - Processing league_248_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,782 - INFO - Date parsing results: 198 valid dates, 0 invalid dates
+2025-08-12 08:50:09,782 - INFO - Loaded 198 matches from data/historical\league_248_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,829 - INFO - Identified 1 high-form teams from data/historical\league_248_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,833 - INFO - Saved 1 high-form teams to database for league 248
+2025-08-12 08:50:09,834 - INFO - Saved 1 high-form teams for league 248
+2025-08-12 08:50:09,834 - INFO - Processing league_250_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,839 - INFO - Date parsing results: 156 valid dates, 0 invalid dates
+2025-08-12 08:50:09,840 - INFO - Loaded 156 matches from data/historical\league_250_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,894 - INFO - Identified 2 high-form teams from data/historical\league_250_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,900 - INFO - Saved 2 high-form teams to database for league 250
+2025-08-12 08:50:09,901 - INFO - Saved 2 high-form teams for league 250
+2025-08-12 08:50:09,902 - INFO - Processing league_251_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,909 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-12 08:50:09,910 - INFO - Loaded 306 matches from data/historical\league_251_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,984 - INFO - No high-form teams met threshold from data/historical\league_251_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,984 - INFO - No high-form teams found for league 251
+2025-08-12 08:50:09,985 - INFO - Processing league_311_2024-2025_historical_matches.csv
+2025-08-12 08:50:09,990 - INFO - Date parsing results: 95 valid dates, 0 invalid dates
+2025-08-12 08:50:09,990 - INFO - Loaded 95 matches from data/historical\league_311_2024-2025_historical_matches.csv
+2025-08-12 08:50:10,068 - INFO - Identified 4 high-form teams from data/historical\league_311_2024-2025_historical_matches.csv
+2025-08-12 08:50:10,079 - INFO - Saved 4 high-form teams to database for league 311
+2025-08-12 08:50:10,079 - INFO - Saved 4 high-form teams for league 311
+2025-08-12 08:50:10,079 - INFO - Completed! Total teams saved to database: 33
+2025-08-12 08:50:10,080 - INFO - Population complete!
+2025-08-13 22:00:03,394 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-08-13 22:00:03,409 - WARNING - Missing required column home_team_id in fixtures data
+2025-08-13 22:00:03,428 - INFO - Loaded league data for 128 leagues.
+2025-08-13 22:00:03,431 - INFO - Generated 0 predictions from 2 data items
+2025-08-14 12:15:09,506 - INFO - Starting high-form teams population...
+2025-08-14 12:15:09,670 - INFO - Database manager initialized with URL: postgresql://wilkins:Holmes&7watson@localhost:5432/formfinder
+2025-08-14 12:15:09,813 - INFO - Materialized view 'team_view' created successfully
+2025-08-14 12:15:09,813 - INFO - Database tables and views created successfully
+2025-08-14 12:15:09,813 - INFO - Database initialized successfully
+2025-08-14 12:15:09,814 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-08-14 12:15:09,815 - INFO - Found 31 historical match files
+2025-08-14 12:15:09,815 - INFO - Processing league_199_2024-2025_historical_matches.csv
+2025-08-14 12:15:09,854 - INFO - Date parsing results: 240 valid dates, 0 invalid dates
+2025-08-14 12:15:09,854 - INFO - Loaded 240 matches from data/historical\league_199_2024-2025_historical_matches.csv
+2025-08-14 12:15:09,919 - INFO - Identified 1 high-form teams from data/historical\league_199_2024-2025_historical_matches.csv
+2025-08-14 12:15:09,964 - ERROR - Error saving high-form teams to database: (psycopg2.errors.ForeignKeyViolation) insert or update on table "high_form_teams" violates foreign key constraint "high_form_teams_team_id_fkey"
+DETAIL:  Key (team_id)=(3141) is not present in table "teams".
+
+[SQL: INSERT INTO high_form_teams (team_id, league_id, team_name, win_rate, total_matches, wins, analysis_start_date, analysis_end_date, algorithm_version, analysis_date, created_at, updated_at) VALUES (%(team_id)s, %(league_id)s, %(team_name)s, %(win_rate)s, %(total_matches)s, %(wins)s, %(analysis_start_date)s, %(analysis_end_date)s, %(algorithm_version)s, %(analysis_date)s, %(created_at)s, %(updated_at)s) RETURNING high_form_teams.id]
+[parameters: {'team_id': 3141, 'league_id': 199, 'team_name': 'Ludogorets', 'win_rate': 0.7, 'total_matches': 10, 'wins': 7, 'analysis_start_date': datetime.datetime(2025, 6, 5, 11, 15, 9, 959402), 'analysis_end_date': datetime.datetime(2025, 8, 14, 11, 15, 9, 959402), 'algorithm_version': None, 'analysis_date': datetime.datetime(2025, 8, 14, 11, 15, 9, 961403), 'created_at': datetime.datetime(2025, 8, 14, 11, 15, 9, 961403), 'updated_at': datetime.datetime(2025, 8, 14, 11, 15, 9, 961403)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-14 12:15:09,966 - INFO - Saved 0 high-form teams for league 199
+2025-08-14 12:15:09,966 - INFO - Processing league_203_2024-2025_historical_matches.csv
+2025-08-14 12:15:09,974 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-08-14 12:15:09,974 - INFO - Loaded 180 matches from data/historical\league_203_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,019 - INFO - No high-form teams met threshold from data/historical\league_203_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,019 - INFO - No high-form teams found for league 203
+2025-08-14 12:15:10,020 - INFO - Processing league_204_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,025 - INFO - Date parsing results: 240 valid dates, 0 invalid dates
+2025-08-14 12:15:10,025 - INFO - Loaded 240 matches from data/historical\league_204_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,087 - INFO - Identified 1 high-form teams from data/historical\league_204_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,094 - INFO - Saved 1 high-form teams to database for league 204
+2025-08-14 12:15:10,094 - INFO - Saved 1 high-form teams for league 204
+2025-08-14 12:15:10,094 - INFO - Processing league_205_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,100 - INFO - Date parsing results: 135 valid dates, 0 invalid dates
+2025-08-14 12:15:10,100 - INFO - Loaded 135 matches from data/historical\league_205_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,139 - INFO - Identified 2 high-form teams from data/historical\league_205_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,145 - INFO - Saved 2 high-form teams to database for league 205
+2025-08-14 12:15:10,146 - INFO - Saved 2 high-form teams for league 205
+2025-08-14 12:15:10,146 - INFO - Processing league_207_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,151 - INFO - Date parsing results: 161 valid dates, 0 invalid dates
+2025-08-14 12:15:10,152 - INFO - Loaded 161 matches from data/historical\league_207_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,205 - INFO - Identified 2 high-form teams from data/historical\league_207_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,214 - INFO - Saved 2 high-form teams to database for league 207
+2025-08-14 12:15:10,214 - INFO - Saved 2 high-form teams for league 207
+2025-08-14 12:15:10,214 - INFO - Processing league_208_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,220 - INFO - Date parsing results: 169 valid dates, 0 invalid dates
+2025-08-14 12:15:10,221 - INFO - Loaded 169 matches from data/historical\league_208_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,263 - INFO - Identified 2 high-form teams from data/historical\league_208_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,268 - INFO - Saved 2 high-form teams to database for league 208
+2025-08-14 12:15:10,268 - INFO - Saved 2 high-form teams for league 208
+2025-08-14 12:15:10,269 - INFO - Processing league_209_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,273 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-08-14 12:15:10,273 - INFO - Loaded 132 matches from data/historical\league_209_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,333 - INFO - Identified 1 high-form teams from data/historical\league_209_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,338 - INFO - Saved 1 high-form teams to database for league 209
+2025-08-14 12:15:10,338 - INFO - Saved 1 high-form teams for league 209
+2025-08-14 12:15:10,338 - INFO - Processing league_210_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,347 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-08-14 12:15:10,347 - INFO - Loaded 180 matches from data/historical\league_210_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,392 - INFO - Identified 2 high-form teams from data/historical\league_210_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,397 - INFO - Saved 2 high-form teams to database for league 210
+2025-08-14 12:15:10,397 - INFO - Saved 2 high-form teams for league 210
+2025-08-14 12:15:10,397 - INFO - Processing league_214_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,403 - INFO - Date parsing results: 198 valid dates, 0 invalid dates
+2025-08-14 12:15:10,403 - INFO - Loaded 198 matches from data/historical\league_214_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,454 - INFO - Identified 3 high-form teams from data/historical\league_214_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,462 - INFO - Saved 3 high-form teams to database for league 214
+2025-08-14 12:15:10,463 - INFO - Saved 3 high-form teams for league 214
+2025-08-14 12:15:10,463 - INFO - Processing league_221_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,470 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-08-14 12:15:10,470 - INFO - Loaded 132 matches from data/historical\league_221_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,521 - INFO - No high-form teams met threshold from data/historical\league_221_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,522 - INFO - No high-form teams found for league 221
+2025-08-14 12:15:10,522 - INFO - Processing league_222_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,527 - INFO - Date parsing results: 180 valid dates, 0 invalid dates
+2025-08-14 12:15:10,527 - INFO - Loaded 180 matches from data/historical\league_222_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,566 - INFO - No high-form teams met threshold from data/historical\league_222_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,567 - INFO - No high-form teams found for league 222
+2025-08-14 12:15:10,568 - INFO - Processing league_223_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,574 - INFO - Date parsing results: 182 valid dates, 0 invalid dates
+2025-08-14 12:15:10,574 - INFO - Loaded 182 matches from data/historical\league_223_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,631 - INFO - Identified 1 high-form teams from data/historical\league_223_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,636 - INFO - Saved 1 high-form teams to database for league 223
+2025-08-14 12:15:10,637 - INFO - Saved 1 high-form teams for league 223
+2025-08-14 12:15:10,637 - INFO - Processing league_224_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,641 - INFO - Date parsing results: 4 valid dates, 0 invalid dates
+2025-08-14 12:15:10,642 - INFO - Loaded 4 matches from data/historical\league_224_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,655 - INFO - No high-form teams met threshold from data/historical\league_224_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,656 - INFO - No high-form teams found for league 224
+2025-08-14 12:15:10,656 - INFO - Processing league_225_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,660 - INFO - Date parsing results: 132 valid dates, 0 invalid dates
+2025-08-14 12:15:10,661 - INFO - Loaded 132 matches from data/historical\league_225_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,703 - INFO - Identified 1 high-form teams from data/historical\league_225_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,707 - INFO - Saved 1 high-form teams to database for league 225
+2025-08-14 12:15:10,707 - INFO - Saved 1 high-form teams for league 225
+2025-08-14 12:15:10,708 - INFO - Processing league_227_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,711 - INFO - Date parsing results: 153 valid dates, 0 invalid dates
+2025-08-14 12:15:10,712 - INFO - Loaded 153 matches from data/historical\league_227_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,774 - INFO - Identified 2 high-form teams from data/historical\league_227_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,778 - INFO - Saved 2 high-form teams to database for league 227
+2025-08-14 12:15:10,779 - INFO - Saved 2 high-form teams for league 227
+2025-08-14 12:15:10,779 - INFO - Processing league_229_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,787 - INFO - Date parsing results: 552 valid dates, 0 invalid dates
+2025-08-14 12:15:10,787 - INFO - Loaded 552 matches from data/historical\league_229_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,861 - INFO - Identified 2 high-form teams from data/historical\league_229_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,868 - INFO - Saved 2 high-form teams to database for league 229
+2025-08-14 12:15:10,868 - INFO - Saved 2 high-form teams for league 229
+2025-08-14 12:15:10,869 - INFO - Processing league_230_2024-2025_historical_matches.csv
+2025-08-14 12:15:10,873 - INFO - Date parsing results: 40 valid dates, 0 invalid dates
+2025-08-14 12:15:10,874 - INFO - Loaded 40 matches from data/historical\league_230_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,050 - INFO - Identified 29 high-form teams from data/historical\league_230_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,086 - ERROR - Error saving high-form teams to database: (psycopg2.errors.ForeignKeyViolation) insert or update on table "high_form_teams" violates foreign key constraint "high_form_teams_team_id_fkey"
+DETAIL:  Key (team_id)=(6916) is not present in table "teams".
+
+[SQL: INSERT INTO high_form_teams (team_id, league_id, team_name, win_rate, total_matches, wins, analysis_start_date, analysis_end_date, algorithm_version, analysis_date, created_at, updated_at) SELECT p0::INTEGER, p1::INTEGER, p2::VARCHAR, p3::FLOAT, p4:: ... 7734 characters truncated ... 10, p11, sen_counter) ORDER BY sen_counter RETURNING high_form_teams.id, high_form_teams.id AS id__1]
+[parameters: {'analysis_start_date__0': datetime.datetime(2025, 6, 5, 11, 15, 11, 53206), 'team_id__0': 6916, 'updated_at__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'league_id__0': 230, 'created_at__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'team_name__0': 'Tamworth', 'total_matches__0': 1, 'analysis_date__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'win_rate__0': 1.0, 'wins__0': 1, 'algorithm_version__0': None, 'analysis_end_date__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 53206), 'analysis_start_date__1': datetime.datetime(2025, 6, 5, 11, 15, 11, 54342), 'team_id__1': 4193, 'updated_at__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'league_id__1': 230, 'created_at__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'team_name__1': 'Notts County', 'total_matches__1': 1, 'analysis_date__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'win_rate__1': 1.0, 'wins__1': 1, 'algorithm_version__1': None, 'analysis_end_date__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 54342), 'analysis_start_date__2': datetime.datetime(2025, 6, 5, 11, 15, 11, 55447), 'team_id__2': 5977, 'updated_at__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'league_id__2': 230, 'created_at__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'team_name__2': 'Chesterfield', 'total_matches__2': 1, 'analysis_date__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'win_rate__2': 1.0, 'wins__2': 1, 'algorithm_version__2': None, 'analysis_end_date__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 55447), 'analysis_start_date__3': datetime.datetime(2025, 6, 5, 11, 15, 11, 56252), 'team_id__3': 3430, 'updated_at__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'league_id__3': 230, 'created_at__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'team_name__3': 'Reading', 'total_matches__3': 1, 'analysis_date__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'win_rate__3': 1.0, 'wins__3': 1, 'algorithm_version__3': None, 'analysis_end_date__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 56252), 'analysis_start_date__4': datetime.datetime(2025, 6, 5, 11, 15, 11, 56252), 'team_id__4': 4195 ... 248 parameters truncated ... 'algorithm_version__24': None, 'analysis_end_date__24': datetime.datetime(2025, 8, 14, 11, 15, 11, 75777), 'analysis_start_date__25': datetime.datetime(2025, 6, 5, 11, 15, 11, 76777), 'team_id__25': 4174, 'updated_at__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'league_id__25': 230, 'created_at__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'team_name__25': 'AFC Wimbledon', 'total_matches__25': 1, 'analysis_date__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'win_rate__25': 1.0, 'wins__25': 1, 'algorithm_version__25': None, 'analysis_end_date__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 76777), 'analysis_start_date__26': datetime.datetime(2025, 6, 5, 11, 15, 11, 77778), 'team_id__26': 3063, 'updated_at__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'league_id__26': 230, 'created_at__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'team_name__26': 'Birmingham City', 'total_matches__26': 1, 'analysis_date__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'win_rate__26': 1.0, 'wins__26': 1, 'algorithm_version__26': None, 'analysis_end_date__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 77778), 'analysis_start_date__27': datetime.datetime(2025, 6, 5, 11, 15, 11, 78781), 'team_id__27': 4187, 'updated_at__27': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'league_id__27': 230, 'created_at__27': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'team_name__27': 'Mansfield Town', 'total_matches__27': 1, 'analysis_date__27': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'win_rate__27': 1.0, 'wins__27': 1, 'algorithm_version__27': None, 'analysis_end_date__27': datetime.datetime(2025, 8, 14, 11, 15, 11, 78781), 'analysis_start_date__28': datetime.datetime(2025, 6, 5, 11, 15, 11, 79778), 'team_id__28': 4177, 'updated_at__28': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'league_id__28': 230, 'created_at__28': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'team_name__28': 'Lincoln City', 'total_matches__28': 1, 'analysis_date__28': datetime.datetime(2025, 8, 14, 11, 15, 11, 80777), 'win_rate__28': 1.0, 'wins__28': 1, 'algorithm_version__28': None, 'analysis_end_date__28': datetime.datetime(2025, 8, 14, 11, 15, 11, 79778)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-14 12:15:11,092 - INFO - Saved 0 high-form teams for league 230
+2025-08-14 12:15:11,092 - INFO - Processing league_232_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,102 - INFO - Date parsing results: 552 valid dates, 0 invalid dates
+2025-08-14 12:15:11,102 - INFO - Loaded 552 matches from data/historical\league_232_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,221 - INFO - No high-form teams met threshold from data/historical\league_232_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,222 - INFO - No high-form teams found for league 232
+2025-08-14 12:15:11,222 - INFO - Processing league_235_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,228 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-14 12:15:11,228 - INFO - Loaded 306 matches from data/historical\league_235_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,293 - INFO - Identified 1 high-form teams from data/historical\league_235_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,299 - INFO - Saved 1 high-form teams to database for league 235
+2025-08-14 12:15:11,299 - INFO - Saved 1 high-form teams for league 235
+2025-08-14 12:15:11,299 - INFO - Processing league_236_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,305 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-14 12:15:11,305 - INFO - Loaded 306 matches from data/historical\league_236_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,369 - INFO - Identified 2 high-form teams from data/historical\league_236_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,374 - INFO - Saved 2 high-form teams to database for league 236
+2025-08-14 12:15:11,374 - INFO - Saved 2 high-form teams for league 236
+2025-08-14 12:15:11,374 - INFO - Processing league_237_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,379 - INFO - Date parsing results: 35 valid dates, 0 invalid dates
+2025-08-14 12:15:11,379 - INFO - Loaded 35 matches from data/historical\league_237_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,539 - INFO - Identified 29 high-form teams from data/historical\league_237_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,575 - ERROR - Error saving high-form teams to database: (psycopg2.errors.ForeignKeyViolation) insert or update on table "high_form_teams" violates foreign key constraint "high_form_teams_team_id_fkey"
+DETAIL:  Key (team_id)=(4196) is not present in table "teams".
+
+[SQL: INSERT INTO high_form_teams (team_id, league_id, team_name, win_rate, total_matches, wins, analysis_start_date, analysis_end_date, algorithm_version, analysis_date, created_at, updated_at) SELECT p0::INTEGER, p1::INTEGER, p2::VARCHAR, p3::FLOAT, p4:: ... 7734 characters truncated ... 10, p11, sen_counter) ORDER BY sen_counter RETURNING high_form_teams.id, high_form_teams.id AS id__1]
+[parameters: {'analysis_start_date__0': datetime.datetime(2025, 6, 5, 11, 15, 11, 541815), 'team_id__0': 4196, 'updated_at__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'league_id__0': 237, 'created_at__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'team_name__0': 'Leyton Orient', 'total_matches__0': 1, 'analysis_date__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'win_rate__0': 1.0, 'wins__0': 1, 'algorithm_version__0': None, 'analysis_end_date__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 541815), 'analysis_start_date__1': datetime.datetime(2025, 6, 5, 11, 15, 11, 542880), 'team_id__1': 3318, 'updated_at__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'league_id__1': 237, 'created_at__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'team_name__1': 'Swansea City', 'total_matches__1': 1, 'analysis_date__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'win_rate__1': 1.0, 'wins__1': 1, 'algorithm_version__1': None, 'analysis_end_date__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 542880), 'analysis_start_date__2': datetime.datetime(2025, 6, 5, 11, 15, 11, 543871), 'team_id__2': 4197, 'updated_at__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'league_id__2': 237, 'created_at__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'team_name__2': 'Barrow', 'total_matches__2': 1, 'analysis_date__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'win_rate__2': 1.0, 'wins__2': 1, 'algorithm_version__2': None, 'analysis_end_date__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 543871), 'analysis_start_date__3': datetime.datetime(2025, 6, 5, 11, 15, 11, 544846), 'team_id__3': 3061, 'updated_at__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'league_id__3': 237, 'created_at__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'team_name__3': 'Rotherham United', 'total_matches__3': 1, 'analysis_date__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'win_rate__3': 1.0, 'wins__3': 1, 'algorithm_version__3': None, 'analysis_end_date__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 544846), 'analysis_start_date__4': datetime.datetime(2025, 6, 5, 11, 15, 11, 545839), 'team_id__4': 4141 ... 248 parameters truncated ... 'algorithm_version__24': None, 'analysis_end_date__24': datetime.datetime(2025, 8, 14, 11, 15, 11, 563854), 'analysis_start_date__25': datetime.datetime(2025, 6, 5, 11, 15, 11, 565286), 'team_id__25': 4162, 'updated_at__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'league_id__25': 237, 'created_at__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'team_name__25': 'Wycombe Wanderers', 'total_matches__25': 1, 'analysis_date__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'win_rate__25': 1.0, 'wins__25': 1, 'algorithm_version__25': None, 'analysis_end_date__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 565286), 'analysis_start_date__26': datetime.datetime(2025, 6, 5, 11, 15, 11, 566294), 'team_id__26': 4161, 'updated_at__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'league_id__26': 237, 'created_at__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'team_name__26': 'Coventry City', 'total_matches__26': 1, 'analysis_date__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'win_rate__26': 1.0, 'wins__26': 1, 'algorithm_version__26': None, 'analysis_end_date__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 566294), 'analysis_start_date__27': datetime.datetime(2025, 6, 5, 11, 15, 11, 567306), 'team_id__27': 4152, 'updated_at__27': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'league_id__27': 237, 'created_at__27': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'team_name__27': 'Sheffield Wednesday', 'total_matches__27': 1, 'analysis_date__27': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'win_rate__27': 1.0, 'wins__27': 1, 'algorithm_version__27': None, 'analysis_end_date__27': datetime.datetime(2025, 8, 14, 11, 15, 11, 567306), 'analysis_start_date__28': datetime.datetime(2025, 6, 5, 11, 15, 11, 569298), 'team_id__28': 4150, 'updated_at__28': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'league_id__28': 237, 'created_at__28': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'team_name__28': 'Middlesbrough', 'total_matches__28': 1, 'analysis_date__28': datetime.datetime(2025, 8, 14, 11, 15, 11, 570298), 'win_rate__28': 1.0, 'wins__28': 1, 'algorithm_version__28': None, 'analysis_end_date__28': datetime.datetime(2025, 8, 14, 11, 15, 11, 569298)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-14 12:15:11,579 - INFO - Saved 0 high-form teams for league 237
+2025-08-14 12:15:11,579 - INFO - Processing league_241_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,588 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-14 12:15:11,589 - INFO - Loaded 306 matches from data/historical\league_241_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,649 - INFO - Identified 1 high-form teams from data/historical\league_241_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,654 - INFO - Saved 1 high-form teams to database for league 241
+2025-08-14 12:15:11,655 - INFO - Saved 1 high-form teams for league 241
+2025-08-14 12:15:11,655 - INFO - Processing league_243_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,659 - INFO - Date parsing results: 32 valid dates, 0 invalid dates
+2025-08-14 12:15:11,660 - INFO - Loaded 32 matches from data/historical\league_243_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,799 - INFO - Identified 27 high-form teams from data/historical\league_243_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,831 - ERROR - Error saving high-form teams to database: (psycopg2.errors.ForeignKeyViolation) insert or update on table "high_form_teams" violates foreign key constraint "high_form_teams_team_id_fkey"
+DETAIL:  Key (team_id)=(5925) is not present in table "teams".
+
+[SQL: INSERT INTO high_form_teams (team_id, league_id, team_name, win_rate, total_matches, wins, analysis_start_date, analysis_end_date, algorithm_version, analysis_date, created_at, updated_at) SELECT p0::INTEGER, p1::INTEGER, p2::VARCHAR, p3::FLOAT, p4:: ... 7210 characters truncated ... 10, p11, sen_counter) ORDER BY sen_counter RETURNING high_form_teams.id, high_form_teams.id AS id__1]
+[parameters: {'analysis_start_date__0': datetime.datetime(2025, 6, 5, 11, 15, 11, 801088), 'team_id__0': 4278, 'updated_at__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'league_id__0': 243, 'created_at__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'team_name__0': 'Arminia Bielefeld', 'total_matches__0': 1, 'analysis_date__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'win_rate__0': 1.0, 'wins__0': 1, 'algorithm_version__0': None, 'analysis_end_date__0': datetime.datetime(2025, 8, 14, 11, 15, 11, 801088), 'analysis_start_date__1': datetime.datetime(2025, 6, 5, 11, 15, 11, 802123), 'team_id__1': 3109, 'updated_at__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'league_id__1': 243, 'created_at__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'team_name__1': 'Jahn Regensburg', 'total_matches__1': 1, 'analysis_date__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'win_rate__1': 1.0, 'wins__1': 1, 'algorithm_version__1': None, 'analysis_end_date__1': datetime.datetime(2025, 8, 14, 11, 15, 11, 802123), 'analysis_start_date__2': datetime.datetime(2025, 6, 5, 11, 15, 11, 803121), 'team_id__2': 4282, 'updated_at__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'league_id__2': 243, 'created_at__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'team_name__2': 'Dynamo Dresden', 'total_matches__2': 1, 'analysis_date__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'win_rate__2': 1.0, 'wins__2': 1, 'algorithm_version__2': None, 'analysis_end_date__2': datetime.datetime(2025, 8, 14, 11, 15, 11, 803121), 'analysis_start_date__3': datetime.datetime(2025, 6, 5, 11, 15, 11, 804121), 'team_id__3': 5925, 'updated_at__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'league_id__3': 243, 'created_at__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'team_name__3': 'Kickers Offenbach', 'total_matches__3': 1, 'analysis_date__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'win_rate__3': 1.0, 'wins__3': 1, 'algorithm_version__3': None, 'analysis_end_date__3': datetime.datetime(2025, 8, 14, 11, 15, 11, 804121), 'analysis_start_date__4': datetime.datetime(2025, 6, 5, 11, 15, 11, 805121), 'team_id__4': 4270 ... 224 parameters truncated ... 'algorithm_version__22': None, 'analysis_end_date__22': datetime.datetime(2025, 8, 14, 11, 15, 11, 823085), 'analysis_start_date__23': datetime.datetime(2025, 6, 5, 11, 15, 11, 824210), 'team_id__23': 4273, 'updated_at__23': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'league_id__23': 243, 'created_at__23': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'team_name__23': 'Werder Bremen', 'total_matches__23': 1, 'analysis_date__23': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'win_rate__23': 1.0, 'wins__23': 1, 'algorithm_version__23': None, 'analysis_end_date__23': datetime.datetime(2025, 8, 14, 11, 15, 11, 824210), 'analysis_start_date__24': datetime.datetime(2025, 6, 5, 11, 15, 11, 824716), 'team_id__24': 2998, 'updated_at__24': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'league_id__24': 243, 'created_at__24': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'team_name__24': 'Eintracht Frankfurt', 'total_matches__24': 1, 'analysis_date__24': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'win_rate__24': 1.0, 'wins__24': 1, 'algorithm_version__24': None, 'analysis_end_date__24': datetime.datetime(2025, 8, 14, 11, 15, 11, 824716), 'analysis_start_date__25': datetime.datetime(2025, 6, 5, 11, 15, 11, 825723), 'team_id__25': 4276, 'updated_at__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'league_id__25': 243, 'created_at__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'team_name__25': 'Stuttgart', 'total_matches__25': 1, 'analysis_date__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'win_rate__25': 1.0, 'wins__25': 1, 'algorithm_version__25': None, 'analysis_end_date__25': datetime.datetime(2025, 8, 14, 11, 15, 11, 825723), 'analysis_start_date__26': datetime.datetime(2025, 6, 5, 11, 15, 11, 826722), 'team_id__26': 4271, 'updated_at__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'league_id__26': 243, 'created_at__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'team_name__26': 'Bayer Leverkusen', 'total_matches__26': 1, 'analysis_date__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 827722), 'win_rate__26': 1.0, 'wins__26': 1, 'algorithm_version__26': None, 'analysis_end_date__26': datetime.datetime(2025, 8, 14, 11, 15, 11, 826722)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-14 12:15:11,836 - INFO - Saved 0 high-form teams for league 243
+2025-08-14 12:15:11,837 - INFO - Processing league_244_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,843 - INFO - Date parsing results: 380 valid dates, 0 invalid dates
+2025-08-14 12:15:11,843 - INFO - Loaded 380 matches from data/historical\league_244_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,914 - INFO - Identified 1 high-form teams from data/historical\league_244_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,922 - INFO - Saved 1 high-form teams to database for league 244
+2025-08-14 12:15:11,922 - INFO - Saved 1 high-form teams for league 244
+2025-08-14 12:15:11,923 - INFO - Processing league_245_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,929 - INFO - Date parsing results: 182 valid dates, 0 invalid dates
+2025-08-14 12:15:11,929 - INFO - Loaded 182 matches from data/historical\league_245_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,986 - INFO - Identified 2 high-form teams from data/historical\league_245_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,992 - INFO - Saved 2 high-form teams to database for league 245
+2025-08-14 12:15:11,993 - INFO - Saved 2 high-form teams for league 245
+2025-08-14 12:15:11,993 - INFO - Processing league_246_2024-2025_historical_matches.csv
+2025-08-14 12:15:11,998 - INFO - Date parsing results: 96 valid dates, 0 invalid dates
+2025-08-14 12:15:11,998 - INFO - Loaded 96 matches from data/historical\league_246_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,050 - INFO - Identified 1 high-form teams from data/historical\league_246_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,054 - INFO - Saved 1 high-form teams to database for league 246
+2025-08-14 12:15:12,055 - INFO - Saved 1 high-form teams for league 246
+2025-08-14 12:15:12,055 - INFO - Processing league_247_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,060 - INFO - Date parsing results: 90 valid dates, 0 invalid dates
+2025-08-14 12:15:12,060 - INFO - Loaded 90 matches from data/historical\league_247_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,097 - INFO - Identified 1 high-form teams from data/historical\league_247_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,102 - INFO - Saved 1 high-form teams to database for league 247
+2025-08-14 12:15:12,103 - INFO - Saved 1 high-form teams for league 247
+2025-08-14 12:15:12,104 - INFO - Processing league_248_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,108 - INFO - Date parsing results: 198 valid dates, 0 invalid dates
+2025-08-14 12:15:12,109 - INFO - Loaded 198 matches from data/historical\league_248_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,163 - INFO - Identified 1 high-form teams from data/historical\league_248_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,168 - INFO - Saved 1 high-form teams to database for league 248
+2025-08-14 12:15:12,169 - INFO - Saved 1 high-form teams for league 248
+2025-08-14 12:15:12,169 - INFO - Processing league_250_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,174 - INFO - Date parsing results: 156 valid dates, 0 invalid dates
+2025-08-14 12:15:12,174 - INFO - Loaded 156 matches from data/historical\league_250_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,231 - INFO - Identified 2 high-form teams from data/historical\league_250_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,238 - INFO - Saved 2 high-form teams to database for league 250
+2025-08-14 12:15:12,239 - INFO - Saved 2 high-form teams for league 250
+2025-08-14 12:15:12,239 - INFO - Processing league_251_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,246 - INFO - Date parsing results: 306 valid dates, 0 invalid dates
+2025-08-14 12:15:12,246 - INFO - Loaded 306 matches from data/historical\league_251_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,331 - INFO - No high-form teams met threshold from data/historical\league_251_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,332 - INFO - No high-form teams found for league 251
+2025-08-14 12:15:12,333 - INFO - Processing league_311_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,339 - INFO - Date parsing results: 95 valid dates, 0 invalid dates
+2025-08-14 12:15:12,339 - INFO - Loaded 95 matches from data/historical\league_311_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,422 - INFO - Identified 4 high-form teams from data/historical\league_311_2024-2025_historical_matches.csv
+2025-08-14 12:15:12,433 - INFO - Saved 4 high-form teams to database for league 311
+2025-08-14 12:15:12,434 - INFO - Saved 4 high-form teams for league 311
+2025-08-14 12:15:12,434 - INFO - Completed! Total teams saved to database: 35
+2025-08-14 12:15:12,434 - INFO - Population complete!
+2025-08-20 15:42:47,184 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-08-20 15:42:47,193 - WARNING - Missing required column home_team_id in fixtures data
+2025-08-20 15:42:47,204 - INFO - Loaded league data for 128 leagues.
+2025-08-20 15:43:27,334 - INFO - Initialized DataProcessor with recent_period=10, win_rate_threshold=0.7
+2025-08-20 15:43:27,339 - WARNING - Missing required column home_team_id in fixtures data
+2025-08-20 15:43:27,343 - INFO - Loaded league data for 128 leagues.

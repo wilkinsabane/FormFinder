@@ -194,6 +194,21 @@ class PredictorOutputter:
             fixtures['home_win_rate'].notnull() | fixtures['away_win_rate'].notnull()
         ].copy() # Use .copy()
         
+        # Deduplicate based on match characteristics to prevent duplicates with different match_ids
+        # Create a unique identifier based on league, teams, and date
+        flagged_fixtures['match_identifier'] = (
+            flagged_fixtures['league_id'].astype(str) + '_' +
+            flagged_fixtures['home_team_name'].str.lower().str.strip() + '_' +
+            flagged_fixtures['away_team_name'].str.lower().str.strip() + '_' +
+            pd.to_datetime(flagged_fixtures['date'], errors='coerce').dt.strftime('%Y-%m-%d')
+        )
+        
+        # Keep the first occurrence of each unique match (based on our identifier)
+        flagged_fixtures = flagged_fixtures.drop_duplicates(subset=['match_identifier'], keep='first')
+        
+        # Drop the temporary identifier column
+        flagged_fixtures = flagged_fixtures.drop(columns=['match_identifier'])
+        
         # Select and order output columns
         # Include league_name and country for better readability
         output_columns = [
@@ -250,6 +265,18 @@ class PredictorOutputter:
                 
         if all_flagged_matches_list:
             combined_flagged_matches = pd.concat(all_flagged_matches_list, ignore_index=True)
+            
+            # Final deduplication across all leagues to prevent duplicates
+            combined_flagged_matches['match_identifier'] = (
+                combined_flagged_matches['league_id'].astype(str) + '_' +
+                combined_flagged_matches['home_team_name'].str.lower().str.strip() + '_' +
+                combined_flagged_matches['away_team_name'].str.lower().str.strip() + '_' +
+                pd.to_datetime(combined_flagged_matches['date'], errors='coerce').dt.strftime('%Y-%m-%d')
+            )
+            
+            # Keep the first occurrence of each unique match across all leagues
+            combined_flagged_matches = combined_flagged_matches.drop_duplicates(subset=['match_identifier'], keep='first')
+            combined_flagged_matches = combined_flagged_matches.drop(columns=['match_identifier'])
             
             # Convert 'date' to datetime for sorting, handle errors
             if 'date' in combined_flagged_matches.columns:

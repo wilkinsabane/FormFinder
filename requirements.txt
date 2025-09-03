@@ -61,6 +61,31 @@ apprise==1.9.3  # Notification library
 tqdm==4.66.1  # Progress bars
 tenacity==9.1.2  # Retry library
 
+# Scheduling and async dependencies
+apscheduler==3.10.4  # Advanced Python Scheduler
+aiofiles==23.2.1  # Async file operations
+asyncio-mqtt==0.16.2  # Async MQTT client (optional)
+croniter==2.0.1  # Cron expression parsing
+
+# Streamlit dashboard
+streamlit==1.39.0
+plotly==5.24.1  # Interactive visualizations
+altair==5.4.1  # Declarative visualization
+
 # Performance monitoring
 psutil==5.9.8
 memory-profiler==0.61.0
+
+
+# ML dependencies
+numpy>=1.24.0,<2.0.0
+scikit-learn==1.7.1
+xgboost==2.1.1
+optuna==3.6.1
+imbalanced-learn==0.12.3
+mlflow==2.15.1
+
+# Sentiment analysis
+textblob==0.17.1
+newsapi-python==0.2.7
+vaderSentiment==3.3.2

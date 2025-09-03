@@ -78,7 +78,55 @@ class DatabaseDataFetcher(EnhancedDataFetcher):
         except Exception as e:
             logger.error(f"Failed to load leagues data: {e}")
             return {}
-    
+
+    def _calculate_team_form(self, session, team_id: int, league_id: int, num_games: int = 5) -> str:
+        """Calculate team form based on recent match results.
+        
+        Args:
+            session: Database session
+            team_id: Team ID
+            league_id: League ID
+            num_games: Number of recent games to consider
+            
+        Returns:
+            Form string like 'WWDLL' or empty string if no matches
+        """
+        from sqlalchemy import text
+        
+        # Get recent finished matches for the team
+        query = text("""
+            SELECT 
+                CASE 
+                    WHEN (home_team_id = :team_id AND home_score > away_score) OR 
+                         (away_team_id = :team_id AND away_score > home_score) THEN 'W'
+                    WHEN home_score = away_score THEN 'D'
+                    ELSE 'L'
+                END as result
+            FROM fixtures
+            WHERE (home_team_id = :team_id OR away_team_id = :team_id)
+                AND league_id = :league_id
+                AND status = 'finished'
+                AND home_score IS NOT NULL
+                AND away_score IS NOT NULL
+            ORDER BY match_date DESC
+            LIMIT :num_games
+        """)
+        
+        try:
+            results = session.execute(query, {
+                'team_id': team_id,
+                'league_id': league_id,
+                'num_games': num_games
+            }).fetchall()
+            
+            # Build form string from most recent to oldest
+            form_string = ''.join([result[0] for result in results])
+            return form_string
+            
+        except Exception as e:
+            logger.warning(f"Could not calculate form for team {team_id}: {e}")
+            return ""
+
     def _get_or_create_league(self, session, league_id: int, season: str) -> League:
         """Get or create a league record in the database.
         
@@ -190,7 +238,7 @@ class DatabaseDataFetcher(EnhancedDataFetcher):
                         )
                         
                         # Check if fixture already exists
-                        existing_fixture = session.query(Fixture).filter_by(id=match.id).first()
+                        existing_fixture = session.query(Fixture).filter_by(api_fixture_id=str(match.id)).first()
                         
                         if existing_fixture:
                             # Update existing fixture
@@ -217,7 +265,7 @@ class DatabaseDataFetcher(EnhancedDataFetcher):
                             
                             # Create new fixture
                             fixture = Fixture(
-                                id=match.id,
+                                api_fixture_id=str(match.id),
                                 league_id=league_id,
                                 home_team_id=match.home_team_id,
                                 away_team_id=match.away_team_id,
@@ -274,10 +322,11 @@ class DatabaseDataFetcher(EnhancedDataFetcher):
                             session, standing.team_id, standing.team_name, league_id
                         )
                         
-                        # Check if standing already exists
+                        # Check if standing already exists for this season
                         existing_standing = session.query(DBStanding).filter_by(
                             league_id=league_id,
-                            team_id=standing.team_id
+                            team_id=standing.team_id,
+                            season=season
                         ).first()
                         
                         if existing_standing:
@@ -291,14 +340,23 @@ class DatabaseDataFetcher(EnhancedDataFetcher):
                             existing_standing.goals_against = standing.goals_against
                             existing_standing.goal_difference = standing.goal_difference
                             existing_standing.points = standing.points
+                            
+                            # Calculate and update form
+                            form = self._calculate_team_form(session, standing.team_id, league_id)
+                            existing_standing.form = form
+                            
                             existing_standing.updated_at = datetime.utcnow()
                             
                             logger.debug(f"Updated standing for {standing.team_name}")
                         else:
+                            # Calculate form for new standing
+                            form = self._calculate_team_form(session, standing.team_id, league_id)
+                            
                             # Create new standing
                             db_standing = DBStanding(
                                 league_id=league_id,
                                 team_id=standing.team_id,
+                                season=season,
                                 position=standing.position,
                                 played=standing.games_played,
                                 won=standing.wins,
@@ -307,7 +365,8 @@ class DatabaseDataFetcher(EnhancedDataFetcher):
                                 goals_for=standing.goals_for,
                                 goals_against=standing.goals_against,
                                 goal_difference=standing.goal_difference,
-                                points=standing.points
+                                points=standing.points,
+                                form=form
                             )
                             
                             session.add(db_standing)

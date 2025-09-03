@@ -74,6 +74,18 @@ formfinder schedule
 formfinder db status
 formfinder db reset
 
+# Fetch historical matches
+python formfinder/historical_fetcher.py --leagues 2021 --season 2023 --verbose --save-to-db
+
+# Fetch historical matches from leagues.json
+python formfinder/historical_fetcher.py --from-json --season 2023 --verbose --save-to-db
+
+# Fetch upcoming fixtures
+python formfinder/upcoming_fetcher.py --leagues 2021 --verbose --save-to-db
+
+# Fetch upcoming fixtures from leagues.json
+python formfinder/upcoming_fetcher.py --from-json --verbose --save-to-db
+
 # View all available commands
 formfinder --help
 ```
@@ -86,6 +98,7 @@ FormFinder 2.0 uses a single, comprehensive YAML configuration file:
 api:
   token: "YOUR_API_TOKEN"  # Required: Get from football-data.org
   league_ids: [2021, 2014, 2002, 2019, 2015]  # Premier League, La Liga, etc.
+  # Note: Fetchers can use leagues.json for league IDs, with --from-json flag
 
 database:
   type: "sqlite"  # or "postgresql" for production

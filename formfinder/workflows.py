@@ -1,7 +1,7 @@
 """Prefect workflow orchestration for FormFinder pipeline."""
 
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, UTC
 from typing import List, Optional
 
 from prefect import flow, task, get_run_logger
@@ -25,7 +25,7 @@ def fetch_league_data(league_id: int, data_fetcher: DataFetcher) -> dict:
     task_logger = get_run_logger()
     task_logger.info(f"Fetching data for league {league_id}")
     
-    start_time = datetime.utcnow()
+    start_time = datetime.now(UTC)
     
     try:
         # Fetch fixtures
@@ -40,7 +40,7 @@ def fetch_league_data(league_id: int, data_fetcher: DataFetcher) -> dict:
         teams = data_fetcher.fetch_teams(league_id)
         task_logger.info(f"Fetched {len(teams)} teams for league {league_id}")
         
-        duration = (datetime.utcnow() - start_time).total_seconds()
+        duration = (datetime.now(UTC) - start_time).total_seconds()
         
         # Log successful fetch
         with get_db_session() as session:
@@ -63,7 +63,7 @@ def fetch_league_data(league_id: int, data_fetcher: DataFetcher) -> dict:
         }
         
     except Exception as e:
-        duration = (datetime.utcnow() - start_time).total_seconds()
+        duration = (datetime.now(UTC) - start_time).total_seconds()
         task_logger.error(f"Failed to fetch data for league {league_id}: {str(e)}")
         
         # Log failed fetch
@@ -107,11 +107,18 @@ def process_league_data(league_data: dict, data_processor: DataProcessor) -> dic
             teams=league_data['teams']
         )
         
-        task_logger.info(f"Successfully processed data for league {league_id}")
+        # Save high-form teams to database
+        teams_saved = data_processor.save_high_form_teams_to_database(
+            processed_data, 
+            league_id=league_id
+        )
+        
+        task_logger.info(f"Successfully processed data for league {league_id}, saved {teams_saved} high-form teams to database")
         
         return {
             'league_id': league_id,
             'processed_data': processed_data,
+            'teams_saved': teams_saved,
             'status': 'success'
         }
         
@@ -274,7 +281,7 @@ def run_main_pipeline(
     
     # Compile final results
     pipeline_result = {
-        'pipeline_start': datetime.utcnow().isoformat(),
+        'pipeline_start': datetime.now(UTC).isoformat(),
         'leagues_processed': len(league_ids),
         'successful_fetches': successful_fetches,
         'successful_processing': successful_processing,
@@ -311,7 +318,7 @@ def run_health_check(config_path: str = "config.yaml") -> dict:
     flow_logger.info("Starting FormFinder health check")
     
     health_status = {
-        'timestamp': datetime.utcnow().isoformat(),
+        'timestamp': datetime.now(UTC).isoformat(),
         'config': 'unknown',
         'database': 'unknown',
         'api': 'unknown',

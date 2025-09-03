@@ -2,6 +2,13 @@ import pandas as pd
 import logging
 import os
 import json
+from datetime import datetime, timedelta, UTC
+import numpy as np
+from typing import Dict, List, Tuple, Optional
+from pathlib import Path
+from formfinder.database import HighFormTeam, get_db_session
+
+logger = logging.getLogger(__name__)
 
 # Ensure sdata_init_config.json is in the same directory or provide correct path
 # It's better to pass these as arguments or load them inside the class/main
@@ -101,7 +108,11 @@ class DataProcessor:
             return pd.DataFrame()
 
     def calculate_win_rate(self, team_id, matches_df):
-        """Calculate the win rate for a team based on their last N games."""
+        """Calculate the win rate for a team based on their last N games.
+        
+        Returns:
+            tuple: (win_rate, wins, total_matches)
+        """
         # Filter for matches involving the team
         team_matches = matches_df[
             (matches_df['home_team_id'] == team_id) | (matches_df['away_team_id'] == team_id)
@@ -109,20 +120,20 @@ class DataProcessor:
         
         if 'date' not in team_matches.columns:
             logging.warning(f"No 'date' column found for team {team_id}. Cannot calculate win rate.")
-            return 0.0
+            return 0.0, 0, 0
             
         # FIXED: Better handling of null dates
         valid_date_matches = team_matches.dropna(subset=['date'])
         
         if len(valid_date_matches) == 0:
             logging.warning(f"No matches with valid dates for team {team_id}. Cannot calculate win rate.")
-            return 0.0
+            return 0.0, 0, 0
 
         # Sort by date and select the most recent N games
         team_matches_sorted = valid_date_matches.sort_values(by='date', ascending=False).head(self.recent_period)
         
         if len(team_matches_sorted) == 0:
-            return 0.0
+            return 0.0, 0, 0
         
         wins = 0
         valid_games_for_win_rate = 0
@@ -144,11 +155,11 @@ class DataProcessor:
                 wins += 1
         
         if valid_games_for_win_rate == 0:
-            return 0.0
+            return 0.0, 0, 0
         
         win_rate = wins / valid_games_for_win_rate
         logging.debug(f"Team {team_id}: win rate {win_rate:.2f} over {valid_games_for_win_rate} valid recent games.")
-        return win_rate
+        return win_rate, wins, valid_games_for_win_rate
 
     def process_league(self, league_id=None, fixtures=None, standings=None, teams=None, filepath=None):
         """Process matches for a league and identify high-performing teams.
@@ -204,7 +215,7 @@ class DataProcessor:
         high_form_teams_data = []
         
         for team_id in all_team_ids:
-            win_rate = self.calculate_win_rate(team_id, matches)
+            win_rate, wins, total_matches = self.calculate_win_rate(team_id, matches)
             if win_rate >= self.win_rate_threshold: # Changed to >= to include threshold
                 # Attempt to get team_name, prioritize home_team_name then away_team_name
                 team_name_series = matches.loc[matches['home_team_id'] == team_id, 'home_team_name']
@@ -216,10 +227,12 @@ class DataProcessor:
                 high_form_teams_data.append({
                     'team_id': team_id,
                     'team_name': team_name,
-                    'win_rate': win_rate
+                    'win_rate': win_rate,
+                    'wins': wins,
+                    'total_matches': total_matches
                 })
         
-        high_form_df = pd.DataFrame(high_form_teams_data, columns=['team_id', 'team_name', 'win_rate'])
+        high_form_df = pd.DataFrame(high_form_teams_data, columns=['team_id', 'team_name', 'win_rate', 'wins', 'total_matches'])
         if not high_form_df.empty:
             logging.info(f"Identified {len(high_form_df)} high-form teams from {filepath}")
         else:
@@ -228,7 +241,7 @@ class DataProcessor:
 
     def save_high_form_teams(self, high_form_df, output_filepath):
         """Save the high-form teams to a CSV file. Creates an empty file if df is empty."""
-        expected_columns = ['team_id', 'team_name', 'win_rate']
+        expected_columns = ['team_id', 'team_name', 'win_rate', 'wins', 'total_matches']
         if high_form_df.empty:
             logging.info(f"No high-form teams identified. Saving empty file with headers to {output_filepath}")
             pd.DataFrame(columns=expected_columns).to_csv(output_filepath, index=False)
@@ -237,6 +250,76 @@ class DataProcessor:
             df_to_save = high_form_df.reindex(columns=expected_columns)
             df_to_save.to_csv(output_filepath, index=False)
             logging.info(f"Saved {len(df_to_save)} high-form teams to {output_filepath}")
+
+    def save_high_form_teams_to_database(self, high_form_df, league_id, season=None):
+        """Save high-form teams data to the database.
+        
+        Args:
+            high_form_df: DataFrame containing high-form teams data
+            league_id: League ID for the teams
+            season: Optional season string
+            
+        Returns:
+            int: Number of teams saved to database
+        """
+        if high_form_df.empty:
+            logging.info("No high-form teams to save to database")
+            return 0
+        
+        saved_count = 0
+        
+        try:
+            with get_db_session() as session:
+                for _, row in high_form_df.iterrows():
+                    try:
+                        # Check if high form team already exists
+                        existing = session.query(HighFormTeam).filter_by(
+                            team_id=row['team_id'],
+                            league_id=league_id
+                        ).first()
+                        
+                        analysis_start = datetime.now(UTC) - timedelta(days=self.recent_period * 7)  # Approximate start date
+                        analysis_end = datetime.now(UTC)
+                        
+                        if existing:
+                            # Update existing record
+                            existing.win_rate = float(row['win_rate'])
+                            existing.wins = int(row['wins'])
+                            existing.total_matches = int(row['total_matches'])
+                            existing.team_name = str(row['team_name'])
+                            existing.analysis_start_date = analysis_start
+                            existing.analysis_end_date = analysis_end
+                            existing.updated_at = datetime.now(UTC)
+                            logger.debug(f"Updated high form team {row['team_name']} (ID: {row['team_id']})")
+                        else:
+                            # Create new record
+                            high_form_team = HighFormTeam(
+                                team_id=int(row['team_id']),
+                                league_id=league_id,
+                                team_name=str(row['team_name']),
+                                win_rate=float(row['win_rate']),
+                                wins=int(row['wins']),
+                                total_matches=int(row['total_matches']),
+                                analysis_start_date=analysis_start,
+                                analysis_end_date=analysis_end
+                            )
+                            session.add(high_form_team)
+                            logger.debug(f"Created high form team {row['team_name']} (ID: {row['team_id']})")
+                        
+                        saved_count += 1
+                        
+                    except Exception as e:
+                        logger.error(f"Failed to save high form team {row['team_name']} (ID: {row['team_id']}): {e}")
+                        continue
+                
+                session.commit()
+                logger.info(f"Saved {saved_count} high-form teams to database for league {league_id}")
+                
+        except Exception as e:
+            logger.error(f"Error saving high-form teams to database: {e}")
+            return 0
+        
+        return saved_count
 
     @staticmethod
     def extract_league_id(filename):

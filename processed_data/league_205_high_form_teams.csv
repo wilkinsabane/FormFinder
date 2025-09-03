@@ -1,3 +1,3 @@
-team_id,team_name,win_rate
-3546,Inter Club d'Escaldes,0.8
-3482,Atletic Club d'Escaldes,0.7
+team_id,team_name,win_rate,wins,total_matches
+3546,Inter Club d'Escaldes,0.8,8,10
+3482,Atletic Club d'Escaldes,0.7,7,10

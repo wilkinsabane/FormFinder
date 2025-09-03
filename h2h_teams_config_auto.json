@@ -1,0 +1,589 @@
+{
+  "leagues": {
+    "203": {
+      "name": "Premier League",
+      "team_pairs": [
+        {
+          "team1_id": 3530,
+          "team2_id": 3166,
+          "priority": "HIGH",
+          "description": "Recent fixture: Vora vs Bylis"
+        },
+        {
+          "team1_id": 3171,
+          "team2_id": 3057,
+          "priority": "HIGH",
+          "description": "Recent fixture: Partizani Tirana vs Dinamo Tirana"
+        },
+        {
+          "team1_id": 3783,
+          "team2_id": 3640,
+          "priority": "HIGH",
+          "description": "Recent fixture: Teuta Durres vs Egnatia Rrogozhine"
+        },
+        {
+          "team1_id": 3536,
+          "team2_id": 3084,
+          "priority": "HIGH",
+          "description": "Recent fixture: AF Elbasani vs Tirana"
+        },
+        {
+          "team1_id": 3614,
+          "team2_id": 3531,
+          "priority": "HIGH",
+          "description": "Recent fixture: Vllaznia Shkoder vs Flamurtari"
+        },
+        {
+          "team1_id": 3166,
+          "team2_id": 3536,
+          "priority": "MEDIUM",
+          "description": "Active teams: Bylis vs AF Elbasani"
+        },
+        {
+          "team1_id": 3640,
+          "team2_id": 3171,
+          "priority": "MEDIUM",
+          "description": "Active teams: Egnatia Rrogozhine vs Partizani Tirana"
+        },
+        {
+          "team1_id": 3057,
+          "team2_id": 3530,
+          "priority": "MEDIUM",
+          "description": "Active teams: Dinamo Tirana vs Vora"
+        },
+        {
+          "team1_id": 3084,
+          "team2_id": 3614,
+          "priority": "MEDIUM",
+          "description": "Active teams: Tirana vs Vllaznia Shkoder"
+        },
+        {
+          "team1_id": 3531,
+          "team2_id": 3783,
+          "priority": "MEDIUM",
+          "description": "Active teams: Flamurtari vs Teuta Durres"
+        }
+      ]
+    },
+    "204": {
+      "name": "La Liga",
+      "team_pairs": [
+        {
+          "team1_id": 3833,
+          "team2_id": 8914,
+          "priority": "HIGH",
+          "description": "Recent fixture: El Bayadh vs ES Mostaganem"
+        },
+        {
+          "team1_id": 3815,
+          "team2_id": 3813,
+          "priority": "HIGH",
+          "description": "Recent fixture: CS Constantine vs Saoura"
+        },
+        {
+          "team1_id": 3825,
+          "team2_id": 3501,
+          "priority": "HIGH",
+          "description": "Recent fixture: ASO Chlef vs MC Alger"
+        },
+        {
+          "team1_id": 3811,
+          "team2_id": 3818,
+          "priority": "HIGH",
+          "description": "Recent fixture: USM Alger vs MC Oran"
+        },
+        {
+          "team1_id": 3814,
+          "team2_id": 3812,
+          "priority": "HIGH",
+          "description": "Recent fixture: ES Setif vs Paradou AC"
+        },
+        {
+          "team1_id": 3816,
+          "team2_id": 3267,
+          "priority": "MEDIUM",
+          "description": "Active teams: Belouizdad vs Kabylie"
+        },
+        {
+          "team1_id": 14124,
+          "team2_id": 15015,
+          "priority": "MEDIUM",
+          "description": "Active teams: Ben Aknoun vs Olympique Akbou"
+        },
+        {
+          "team1_id": 17932,
+          "team2_id": 3834,
+          "priority": "MEDIUM",
+          "description": "Active teams: MB Rouisset vs Khenchela"
+        },
+        {
+          "team1_id": 3812,
+          "team2_id": 17932,
+          "priority": "MEDIUM",
+          "description": "Active teams: Paradou AC vs MB Rouisset"
+        },
+        {
+          "team1_id": 8914,
+          "team2_id": 14124,
+          "priority": "MEDIUM",
+          "description": "Active teams: ES Mostaganem vs Ben Aknoun"
+        }
+      ]
+    },
+    "205": {
+      "name": "Serie A",
+      "team_pairs": [
+        {
+          "team1_id": 3487,
+          "team2_id": 12117,
+          "priority": "HIGH",
+          "description": "Recent fixture: FC Santa Coloma vs Ranger's"
+        },
+        {
+          "team1_id": 5055,
+          "team2_id": 3482,
+          "priority": "HIGH",
+          "description": "Recent fixture: Pas de la Casa vs Atletic Club d'Escaldes"
+        },
+        {
+          "team1_id": 3483,
+          "team2_id": 3490,
+          "priority": "HIGH",
+          "description": "Recent fixture: Ordino vs La Massana"
+        },
+        {
+          "team1_id": 5054,
+          "team2_id": 3456,
+          "priority": "HIGH",
+          "description": "Recent fixture: Esperanca d'Andorra vs UE Santa Coloma"
+        },
+        {
+          "team1_id": 3546,
+          "team2_id": 3484,
+          "priority": "HIGH",
+          "description": "Recent fixture: Inter Club d'Escaldes vs Penya Encarnada"
+        },
+        {
+          "team1_id": 3484,
+          "team2_id": 3483,
+          "priority": "MEDIUM",
+          "description": "Active teams: Penya Encarnada vs Ordino"
+        },
+        {
+          "team1_id": 12117,
+          "team2_id": 3546,
+          "priority": "MEDIUM",
+          "description": "Active teams: Ranger's vs Inter Club d'Escaldes"
+        },
+        {
+          "team1_id": 3456,
+          "team2_id": 3487,
+          "priority": "MEDIUM",
+          "description": "Active teams: UE Santa Coloma vs FC Santa Coloma"
+        },
+        {
+          "team1_id": 3482,
+          "team2_id": 5054,
+          "priority": "MEDIUM",
+          "description": "Active teams: Atletic Club d'Escaldes vs Esperanca d'Andorra"
+        },
+        {
+          "team1_id": 3490,
+          "team2_id": 5055,
+          "priority": "MEDIUM",
+          "description": "Active teams: La Massana vs Pas de la Casa"
+        }
+      ]
+    },
+    "207": {
+      "name": "Bundesliga",
+      "team_pairs": [
+        {
+          "team1_id": 2890,
+          "team2_id": 3247,
+          "priority": "HIGH",
+          "description": "Recent fixture: Alashkert vs Noah"
+        },
+        {
+          "team1_id": 3245,
+          "team2_id": 3243,
+          "priority": "HIGH",
+          "description": "Recent fixture: Ararat-Armenia vs Ararat"
+        },
+        {
+          "team1_id": 12012,
+          "team2_id": 3253,
+          "priority": "HIGH",
+          "description": "Recent fixture: Gandzasar vs Shirak"
+        },
+        {
+          "team1_id": 2766,
+          "team2_id": 3631,
+          "priority": "HIGH",
+          "description": "Recent fixture: Pyunik vs Urartu"
+        },
+        {
+          "team1_id": 3254,
+          "team2_id": 3246,
+          "priority": "HIGH",
+          "description": "Recent fixture: Van vs BKMA"
+        },
+        {
+          "team1_id": 3253,
+          "team2_id": 3245,
+          "priority": "MEDIUM",
+          "description": "Active teams: Shirak vs Ararat-Armenia"
+        },
+        {
+          "team1_id": 3246,
+          "team2_id": 12012,
+          "priority": "MEDIUM",
+          "description": "Active teams: BKMA vs Gandzasar"
+        },
+        {
+          "team1_id": 3631,
+          "team2_id": 2890,
+          "priority": "MEDIUM",
+          "description": "Active teams: Urartu vs Alashkert"
+        },
+        {
+          "team1_id": 3243,
+          "team2_id": 2766,
+          "priority": "MEDIUM",
+          "description": "Active teams: Ararat vs Pyunik"
+        },
+        {
+          "team1_id": 3247,
+          "team2_id": 12012,
+          "priority": "MEDIUM",
+          "description": "Active teams: Noah vs Gandzasar"
+        }
+      ]
+    },
+    "208": {
+      "name": "Primeira Liga",
+      "team_pairs": [
+        {
+          "team1_id": 3871,
+          "team2_id": 3875,
+          "priority": "HIGH",
+          "description": "Recent fixture: Melbourne Victory vs Newcastle Jets"
+        },
+        {
+          "team1_id": 3874,
+          "team2_id": 2992,
+          "priority": "HIGH",
+          "description": "Recent fixture: Wellington Phoenix vs Perth Glory"
+        },
+        {
+          "team1_id": 3879,
+          "team2_id": 3876,
+          "priority": "HIGH",
+          "description": "Recent fixture: Macarthur vs Western Sydney Wanderers"
+        },
+        {
+          "team1_id": 3878,
+          "team2_id": 17114,
+          "priority": "HIGH",
+          "description": "Recent fixture: Western United vs Auckland"
+        },
+        {
+          "team1_id": 3873,
+          "team2_id": 3870,
+          "priority": "HIGH",
+          "description": "Recent fixture: Melbourne City vs Sydney"
+        },
+        {
+          "team1_id": 3877,
+          "team2_id": 2788,
+          "priority": "MEDIUM",
+          "description": "Active teams: Central Coast Mariners vs Brisbane Roar"
+        },
+        {
+          "team1_id": 3878,
+          "team2_id": 3870,
+          "priority": "MEDIUM",
+          "description": "Active teams: Western United vs Sydney"
+        },
+        {
+          "team1_id": 17114,
+          "team2_id": 2992,
+          "priority": "MEDIUM",
+          "description": "Active teams: Auckland vs Perth Glory"
+        },
+        {
+          "team1_id": 3873,
+          "team2_id": 3872,
+          "priority": "MEDIUM",
+          "description": "Active teams: Melbourne City vs Adelaide United"
+        },
+        {
+          "team1_id": 3875,
+          "team2_id": 3876,
+          "priority": "MEDIUM",
+          "description": "Active teams: Newcastle Jets vs Western Sydney Wanderers"
+        }
+      ]
+    },
+    "209": {
+      "name": "Eredivisie",
+      "team_pairs": [
+        {
+          "team1_id": 2927,
+          "team2_id": 2996,
+          "priority": "HIGH",
+          "description": "Recent fixture: Rapid Vienna vs Salzburg"
+        },
+        {
+          "team1_id": 3886,
+          "team2_id": 5742,
+          "priority": "HIGH",
+          "description": "Recent fixture: WSG Tirol vs Grazer AK"
+        },
+        {
+          "team1_id": 2954,
+          "team2_id": 3584,
+          "priority": "HIGH",
+          "description": "Recent fixture: Ried vs Austria Vienna"
+        },
+        {
+          "team1_id": 3880,
+          "team2_id": 3883,
+          "priority": "HIGH",
+          "description": "Recent fixture: Sturm Graz vs Rheindorf Altach"
+        },
+        {
+          "team1_id": 3112,
+          "team2_id": 3107,
+          "priority": "HIGH",
+          "description": "Recent fixture: LASK vs Wolfsberger AC"
+        },
+        {
+          "team1_id": 3389,
+          "team2_id": 5057,
+          "priority": "MEDIUM",
+          "description": "Active teams: Hartberg vs Blau-Weiss Linz"
+        },
+        {
+          "team1_id": 3584,
+          "team2_id": 3112,
+          "priority": "MEDIUM",
+          "description": "Active teams: Austria Vienna vs LASK"
+        },
+        {
+          "team1_id": 3883,
+          "team2_id": 2927,
+          "priority": "MEDIUM",
+          "description": "Active teams: Rheindorf Altach vs Rapid Vienna"
+        },
+        {
+          "team1_id": 3107,
+          "team2_id": 3880,
+          "priority": "MEDIUM",
+          "description": "Active teams: Wolfsberger AC vs Sturm Graz"
+        },
+        {
+          "team1_id": 5742,
+          "team2_id": 2954,
+          "priority": "MEDIUM",
+          "description": "Active teams: Grazer AK vs Ried"
+        }
+      ]
+    },
+    "210": {
+      "name": "Jupiler Pro League",
+      "team_pairs": [
+        {
+          "team1_id": 3795,
+          "team2_id": 15265,
+          "priority": "HIGH",
+          "description": "Recent fixture: Sabah vs Imisli"
+        },
+        {
+          "team1_id": 15272,
+          "team2_id": 2947,
+          "priority": "HIGH",
+          "description": "Recent fixture: Karvan vs Qarabag"
+        },
+        {
+          "team1_id": 5058,
+          "team2_id": 3214,
+          "priority": "HIGH",
+          "description": "Recent fixture: Araz Naxcivan vs Qabala"
+        },
+        {
+          "team1_id": 3604,
+          "team2_id": 3890,
+          "priority": "HIGH",
+          "description": "Recent fixture: Zira vs Kapaz"
+        },
+        {
+          "team1_id": 3594,
+          "team2_id": 3889,
+          "priority": "HIGH",
+          "description": "Recent fixture: Neftchi Baku vs Turan"
+        },
+        {
+          "team1_id": 3514,
+          "team2_id": 3785,
+          "priority": "MEDIUM",
+          "description": "Active teams: Sumqayit vs Shamakhi"
+        },
+        {
+          "team1_id": 3214,
+          "team2_id": 3604,
+          "priority": "MEDIUM",
+          "description": "Active teams: Qabala vs Zira"
+        },
+        {
+          "team1_id": 3889,
+          "team2_id": 5058,
+          "priority": "MEDIUM",
+          "description": "Active teams: Turan vs Araz Naxcivan"
+        },
+        {
+          "team1_id": 3785,
+          "team2_id": 3795,
+          "priority": "MEDIUM",
+          "description": "Active teams: Shamakhi vs Sabah"
+        },
+        {
+          "team1_id": 3890,
+          "team2_id": 15272,
+          "priority": "MEDIUM",
+          "description": "Active teams: Kapaz vs Karvan"
+        }
+      ]
+    },
+    "212": {
+      "name": "Premier League",
+      "team_pairs": [
+        {
+          "team1_id": 5831,
+          "team2_id": 2991,
+          "priority": "HIGH",
+          "description": "Recent fixture: Dender vs Gent"
+        },
+        {
+          "team1_id": 3000,
+          "team2_id": 3911,
+          "priority": "HIGH",
+          "description": "Recent fixture: Sint-Truiden vs Union Saint-Gilloise"
+        },
+        {
+          "team1_id": 3194,
+          "team2_id": 2994,
+          "priority": "HIGH",
+          "description": "Recent fixture: OH Leuven vs Antwerp"
+        },
+        {
+          "team1_id": 2821,
+          "team2_id": 2958,
+          "priority": "HIGH",
+          "description": "Recent fixture: Zulte Waregem vs Sporting Charleroi"
+        },
+        {
+          "team1_id": 6476,
+          "team2_id": 3427,
+          "priority": "HIGH",
+          "description": "Recent fixture: RAAL La Louviere vs Genk"
+        },
+        {
+          "team1_id": 2963,
+          "team2_id": 3906,
+          "priority": "MEDIUM",
+          "description": "Active teams: Club Brugge vs Mechelen"
+        },
+        {
+          "team1_id": 3905,
+          "team2_id": 3015,
+          "priority": "MEDIUM",
+          "description": "Active teams: Standard Liege vs Westerlo"
+        },
+        {
+          "team1_id": 3193,
+          "team2_id": 2941,
+          "priority": "MEDIUM",
+          "description": "Active teams: Anderlecht vs Cercle Brugge"
+        },
+        {
+          "team1_id": 3015,
+          "team2_id": 2963,
+          "priority": "MEDIUM",
+          "description": "Active teams: Westerlo vs Club Brugge"
+        },
+        {
+          "team1_id": 2941,
+          "team2_id": 6476,
+          "priority": "MEDIUM",
+          "description": "Active teams: Cercle Brugge vs RAAL La Louviere"
+        }
+      ]
+    },
+    "214": {
+      "name": "Liga MX",
+      "team_pairs": [
+        {
+          "team1_id": 3262,
+          "team2_id": 3942,
+          "priority": "HIGH",
+          "description": "Recent fixture: Borac Banja Luka vs Posusje"
+        },
+        {
+          "team1_id": 3263,
+          "team2_id": 3258,
+          "priority": "HIGH",
+          "description": "Recent fixture: Zrinjski vs Velez"
+        },
+        {
+          "team1_id": 3793,
+          "team2_id": 3935,
+          "priority": "HIGH",
+          "description": "Recent fixture: Siroki Brijeg vs Radnik Bijeljina"
+        },
+        {
+          "team1_id": 3404,
+          "team2_id": 3259,
+          "priority": "HIGH",
+          "description": "Recent fixture: Sarajevo vs Zeljeznicar"
+        },
+        {
+          "team1_id": 3264,
+          "team2_id": 3944,
+          "priority": "HIGH",
+          "description": "Recent fixture: Sloga Doboj vs Rudar Prijedor"
+        },
+        {
+          "team1_id": 3942,
+          "team2_id": 3264,
+          "priority": "MEDIUM",
+          "description": "Active teams: Posusje vs Sloga Doboj"
+        },
+        {
+          "team1_id": 3259,
+          "team2_id": 3793,
+          "priority": "MEDIUM",
+          "description": "Active teams: Zeljeznicar vs Siroki Brijeg"
+        },
+        {
+          "team1_id": 3944,
+          "team2_id": 3263,
+          "priority": "MEDIUM",
+          "description": "Active teams: Rudar Prijedor vs Zrinjski"
+        },
+        {
+          "team1_id": 3935,
+          "team2_id": 3262,
+          "priority": "MEDIUM",
+          "description": "Active teams: Radnik Bijeljina vs Borac Banja Luka"
+        },
+        {
+          "team1_id": 3258,
+          "team2_id": 3404,
+          "priority": "MEDIUM",
+          "description": "Active teams: Velez vs Sarajevo"
+        }
+      ]
+    }
+  }
+}

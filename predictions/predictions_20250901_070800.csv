@@ -1,0 +1,561 @@
+fixture_id,match_description,home_team,away_team,match_date,league_name,league_id,predicted_total_goals,over_2_5_probability,under_2_5_probability,prediction_timestamp
+2672,Walsall vs Chesterfield,Walsall,Chesterfield,2025-09-06 14:00:00,League Two,232,3.88,0.83,0.17,2025-09-01T07:08:00.566032
+2671,Notts County vs Fleetwood Town,Notts County,Fleetwood Town,2025-09-06 14:00:00,League Two,232,3.93,0.82,0.18,2025-09-01T07:08:00.566032
+2670,Harrogate Town vs Crawley Town,Harrogate Town,Crawley Town,2025-09-06 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2669,Barnet vs Shrewsbury Town,Barnet,Shrewsbury Town,2025-09-06 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2668,Colchester United vs Crewe Alexandra,Colchester United,Crewe Alexandra,2025-09-06 14:00:00,League Two,232,0.11,0.002,0.998,2025-09-01T07:08:00.566032
+2667,Salford City vs Tranmere Rovers,Salford City,Tranmere Rovers,2025-09-06 14:00:00,League Two,232,0.98,0.008,0.992,2025-09-01T07:08:00.566032
+2666,Milton Keynes Dons vs Grimsby Town,Milton Keynes Dons,Grimsby Town,2025-09-06 14:00:00,League Two,232,1.95,0.203,0.797,2025-09-01T07:08:00.566032
+2664,Newport County vs Bristol Rovers,Newport County,Bristol Rovers,2025-09-06 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4940,Marquense vs Mictlan,Marquense,Mictlan,2025-09-07 02:00:00,Liga Nacional,246,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4941,Aurora vs Malacateco,Aurora,Malacateco,2025-09-07 17:00:00,Liga Nacional,246,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4942,Achuapa vs Xelaju,Achuapa,Xelaju,2025-09-07 21:00:00,Liga Nacional,246,0.87,0.007,0.993,2025-09-01T07:08:00.566032
+5025,UPNFM vs Olancho,UPNFM,Olancho,2025-09-10 21:00:00,Liga Nacional,247,2.54,0.615,0.385,2025-09-01T07:08:00.566032
+5026,Real Espana vs Victoria,Real Espana,Victoria,2025-09-11 01:30:00,Liga Nacional,247,0.06,0.002,0.998,2025-09-01T07:08:00.566032
+5254,Semen Padang vs PSBS Biak Numfor,Semen Padang,PSBS Biak Numfor,2025-09-11 08:30:00,Liga 1,251,2.73,0.478,0.522,2025-09-01T07:08:00.566032
+5255,Persita vs PSM,Persita,PSM,2025-09-11 12:00:00,Liga 1,251,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+5027,Platense vs Marathon,Platense,Marathon,2025-09-11 21:00:00,Liga Nacional,247,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5028,Atletico Choloma vs Motagua,Atletico Choloma,Motagua,2025-09-11 23:15:00,Liga Nacional,247,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5029,Olimpia vs Policia NFC,Olimpia,Policia NFC,2025-09-12 01:30:00,Liga Nacional,247,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5256,Persib vs Persebaya Surabaya,Persib,Persebaya Surabaya,2025-09-12 08:30:00,Liga 1,251,2.73,0.577,0.423,2025-09-01T07:08:00.566032
+5257,Persik Kediri vs Malut United,Persik Kediri,Malut United,2025-09-12 08:30:00,Liga 1,251,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+3480,Grenoble Foot 38 vs Dunkerque,Grenoble Foot 38,Dunkerque,2025-09-12 15:00:00,Ligue 2,236,0.39,0.006,0.994,2025-09-01T07:08:00.566032
+3483,Guingamp vs Montpellier,Guingamp,Montpellier,2025-09-12 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3482,Pau vs Red Star,Pau,Red Star,2025-09-12 15:00:00,Ligue 2,236,4.95,0.909,0.091,2025-09-01T07:08:00.566032
+3481,Le Mans vs Rodez,Le Mans,Rodez,2025-09-12 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3479,Annecy vs Reims,Annecy,Reims,2025-09-12 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3478,Amiens SC vs Bastia,Amiens SC,Bastia,2025-09-12 15:00:00,Ligue 2,236,0.92,0.008,0.992,2025-09-01T07:08:00.566032
+3477,Ajaccio vs Laval,Ajaccio,Laval,2025-09-12 15:00:00,Ligue 2,236,2.61,0.615,0.385,2025-09-01T07:08:00.566032
+3476,Clermont vs Saint-Etienne,Clermont,Saint-Etienne,2025-09-12 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3475,Troyes vs Nancy,Troyes,Nancy,2025-09-12 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1612,SonderjyskE vs Randers,SonderjyskE,Randers,2025-09-12 17:00:00,Superliga,225,3.81,0.83,0.17,2025-09-01T07:08:00.566032
+3764,Bayer Leverkusen vs Eintracht Frankfurt,Bayer Leverkusen,Eintracht Frankfurt,2025-09-12 18:30:00,Bundesliga,241,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+4943,Malacateco vs Coban Imperial,Malacateco,Coban Imperial,2025-09-13 01:00:00,Liga Nacional,246,0.12,0.002,0.998,2025-09-01T07:08:00.566032
+18628,None vs None,None,None,2025-09-13 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1704,Fulham vs Leeds United,Fulham,Leeds United,2025-09-13 14:00:00,Premier League,228,4.57,0.894,0.106,2025-09-01T07:08:00.566032
+1694,None vs None,None,None,2025-09-13 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17786,None vs None,None,None,2025-09-13 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18207,None vs None,None,None,2025-09-13 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19049,None vs None,None,None,2025-09-13 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17365,None vs None,None,None,2025-09-13 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4404,Ingolstadt vs Schweinfurt,Ingolstadt,Schweinfurt,2025-09-13 12:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4403,MSV Duisburg vs Wehen Wiesbaden,MSV Duisburg,Wehen Wiesbaden,2025-09-13 12:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4405,Erzgebirge Aue vs Viktoria Koln,Erzgebirge Aue,Viktoria Koln,2025-09-13 12:00:00,3. Liga,244,2.54,0.615,0.385,2025-09-01T07:08:00.566032
+5260,Arema vs Dewa United,Arema,Dewa United,2025-09-13 12:00:00,Liga 1,251,0.87,0.007,0.993,2025-09-01T07:08:00.566032
+5258,Madura United vs Bhayangkara,Madura United,Bhayangkara,2025-09-13 12:00:00,Liga 1,251,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5259,Persis Solo vs Persijap,Persis Solo,Persijap,2025-09-13 12:00:00,Liga 1,251,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4400,Jahn Regensburg vs Rot-Weiss Essen,Jahn Regensburg,Rot-Weiss Essen,2025-09-13 12:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4401,Waldhof Mannheim vs Energie Cottbus,Waldhof Mannheim,Energie Cottbus,2025-09-13 12:00:00,3. Liga,244,2.73,0.577,0.423,2025-09-01T07:08:00.566032
+4406,Stuttgart II vs Saarbrucken,Stuttgart II,Saarbrucken,2025-09-13 12:00:00,3. Liga,244,2.73,0.577,0.423,2025-09-01T07:08:00.566032
+4402,Osnabruck vs Hansa Rostock,Osnabruck,Hansa Rostock,2025-09-13 12:00:00,3. Liga,244,0.39,0.006,0.994,2025-09-01T07:08:00.566032
+1613,Brondby vs FC Copenhagen,Brondby,FC Copenhagen,2025-09-13 13:00:00,Superliga,225,1.85,0.118,0.882,2025-09-01T07:08:00.566032
+3765,None vs None,None,None,2025-09-13 13:30:00,Bundesliga,241,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2681,Chesterfield vs Milton Keynes Dons,Chesterfield,Milton Keynes Dons,2025-09-13 14:00:00,League Two,232,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+2682,Swindon Town vs Harrogate Town,Swindon Town,Harrogate Town,2025-09-13 14:00:00,League Two,232,0.2,0.007,0.993,2025-09-01T07:08:00.566032
+2683,Accrington Stanley vs Colchester United,Accrington Stanley,Colchester United,2025-09-13 14:00:00,League Two,232,1.95,0.203,0.797,2025-09-01T07:08:00.566032
+2684,Oldham Athletic vs Bromley,Oldham Athletic,Bromley,2025-09-13 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2685,Gillingham vs Notts County,Gillingham,Notts County,2025-09-13 14:00:00,League Two,232,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+2686,Shrewsbury Town vs Salford City,Shrewsbury Town,Salford City,2025-09-13 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2687,Fleetwood Town vs Walsall,Fleetwood Town,Walsall,2025-09-13 14:00:00,League Two,232,4.64,0.925,0.075,2025-09-01T07:08:00.566032
+1699,Burnley vs Liverpool,Burnley,Liverpool,2025-09-13 14:00:00,Premier League,228,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+1700,Arsenal vs Nottingham Forest,Arsenal,Nottingham Forest,2025-09-13 14:00:00,Premier League,228,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+1701,Brentford vs Chelsea,Brentford,Chelsea,2025-09-13 14:00:00,Premier League,228,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+1702,Crystal Palace vs Sunderland,Crystal Palace,Sunderland,2025-09-13 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1703,Everton vs Aston Villa,Everton,Aston Villa,2025-09-13 14:00:00,Premier League,228,1.5,0.09,0.91,2025-09-01T07:08:00.566032
+4938,Coban Imperial vs Comunicaciones,Coban Imperial,Comunicaciones,2025-09-03 21:00:00,Liga Nacional,246,5.62,0.894,0.106,2025-09-01T07:08:00.566032
+4939,Municipal vs Mixco,Municipal,Mixco,2025-09-04 01:00:00,Liga Nacional,246,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+2665,Cheltenham Town vs Accrington Stanley,Cheltenham Town,Accrington Stanley,2025-09-06 14:00:00,League Two,232,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+2675,Cambridge United vs Oldham Athletic,Cambridge United,Oldham Athletic,2025-09-06 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2674,Bromley vs Gillingham,Bromley,Gillingham,2025-09-06 14:00:00,League Two,232,2.98,0.517,0.483,2025-09-01T07:08:00.566032
+2673,Barrow vs Swindon Town,Barrow,Swindon Town,2025-09-06 14:00:00,League Two,232,1.85,0.118,0.882,2025-09-01T07:08:00.566032
+2120,Coventry City vs Norwich City,Coventry City,Norwich City,2025-09-13 14:00:00,Championship,229,1.53,0.008,0.992,2025-09-01T07:08:00.566032
+19059,West Ham United vs Tottenham Hotspur,West Ham United,Tottenham Hotspur,2025-09-13 14:00:00,Premier League,228,3.48,0.827,0.173,2025-09-01T07:08:00.566032
+19058,Brentford vs Chelsea,Brentford,Chelsea,2025-09-13 14:00:00,Premier League,228,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+19057,Crystal Palace vs Sunderland,Crystal Palace,Sunderland,2025-09-13 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19056,Everton vs Aston Villa,Everton,Aston Villa,2025-09-13 14:00:00,Premier League,228,1.5,0.09,0.91,2025-09-01T07:08:00.566032
+18638,West Ham United vs Tottenham Hotspur,West Ham United,Tottenham Hotspur,2025-09-13 14:00:00,Premier League,228,3.48,0.827,0.173,2025-09-01T07:08:00.566032
+18637,Brentford vs Chelsea,Brentford,Chelsea,2025-09-13 14:00:00,Premier League,228,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+18636,Crystal Palace vs Sunderland,Crystal Palace,Sunderland,2025-09-13 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18635,Everton vs Aston Villa,Everton,Aston Villa,2025-09-13 14:00:00,Premier League,228,1.5,0.09,0.91,2025-09-01T07:08:00.566032
+18634,Fulham vs Leeds United,Fulham,Leeds United,2025-09-13 14:00:00,Premier League,228,4.57,0.894,0.106,2025-09-01T07:08:00.566032
+18633,AFC Bournemouth vs Brighton & Hove Albion,AFC Bournemouth,Brighton & Hove Albion,2025-09-13 14:00:00,Premier League,228,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+18632,Arsenal vs Nottingham Forest,Arsenal,Nottingham Forest,2025-09-13 14:00:00,Premier League,228,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+18631,Newcastle United vs Wolverhampton Wanderers,Newcastle United,Wolverhampton Wanderers,2025-09-13 14:00:00,Premier League,228,2.54,0.709,0.291,2025-09-01T07:08:00.566032
+18630,Manchester City vs Manchester United,Manchester City,Manchester United,2025-09-13 14:00:00,Premier League,228,1.25,0.062,0.938,2025-09-01T07:08:00.566032
+2112,Oxford United vs Leicester City,Oxford United,Leicester City,2025-09-13 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2113,Wrexham vs Queens Park Rangers,Wrexham,Queens Park Rangers,2025-09-13 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2114,West Bromwich Albion vs Derby County,West Bromwich Albion,Derby County,2025-09-13 14:00:00,Championship,229,2.78,0.519,0.481,2025-09-01T07:08:00.566032
+2115,Charlton Athletic vs Millwall,Charlton Athletic,Millwall,2025-09-13 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2116,Ipswich Town vs Sheffield United,Ipswich Town,Sheffield United,2025-09-13 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2117,Sheffield Wednesday vs Bristol City,Sheffield Wednesday,Bristol City,2025-09-13 14:00:00,Championship,229,1.63,0.012,0.988,2025-09-01T07:08:00.566032
+2118,Stoke City vs Birmingham City,Stoke City,Birmingham City,2025-09-13 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2119,Watford vs Blackburn Rovers,Watford,Blackburn Rovers,2025-09-13 14:00:00,Championship,229,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+2121,Preston North End vs Middlesbrough,Preston North End,Middlesbrough,2025-09-13 14:00:00,Championship,229,2.61,0.615,0.385,2025-09-01T07:08:00.566032
+2122,Swansea City vs Hull City,Swansea City,Hull City,2025-09-13 14:00:00,Championship,229,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+2123,Southampton vs Portsmouth,Southampton,Portsmouth,2025-09-13 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19055,Fulham vs Leeds United,Fulham,Leeds United,2025-09-13 14:00:00,Premier League,228,4.57,0.894,0.106,2025-09-01T07:08:00.566032
+19054,AFC Bournemouth vs Brighton & Hove Albion,AFC Bournemouth,Brighton & Hove Albion,2025-09-13 14:00:00,Premier League,228,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+19053,Arsenal vs Nottingham Forest,Arsenal,Nottingham Forest,2025-09-13 14:00:00,Premier League,228,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+19052,Newcastle United vs Wolverhampton Wanderers,Newcastle United,Wolverhampton Wanderers,2025-09-13 14:00:00,Premier League,228,2.54,0.709,0.291,2025-09-01T07:08:00.566032
+19051,Manchester City vs Manchester United,Manchester City,Manchester United,2025-09-13 14:00:00,Premier League,228,1.25,0.062,0.938,2025-09-01T07:08:00.566032
+19050,Burnley vs Liverpool,Burnley,Liverpool,2025-09-13 14:00:00,Premier League,228,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+4115,Karlsruhe vs Nurnberg,Karlsruhe,Nurnberg,2025-09-13 15:00:00,2. Bundesliga,242,3.81,0.83,0.17,2025-09-01T07:08:00.566032
+4114,Hannover 96 vs Hertha Berlin,Hannover 96,Hertha Berlin,2025-09-13 15:00:00,2. Bundesliga,242,0.06,0.002,0.998,2025-09-01T07:08:00.566032
+4113,Greuther Furth vs Kaiserslautern,Greuther Furth,Kaiserslautern,2025-09-13 15:00:00,2. Bundesliga,242,4.55,0.897,0.103,2025-09-01T07:08:00.566032
+3766,Bayer Leverkusen vs Eintracht Frankfurt,Bayer Leverkusen,Eintracht Frankfurt,2025-09-13 15:00:00,Bundesliga,241,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+3767,Borussia M'gladbach vs Werder Bremen,Borussia M'gladbach,Werder Bremen,2025-09-13 15:00:00,Bundesliga,241,5.69,0.925,0.075,2025-09-01T07:08:00.566032
+1695,West Ham United vs Tottenham Hotspur,West Ham United,Tottenham Hotspur,2025-09-13 14:00:00,Premier League,228,3.48,0.827,0.173,2025-09-01T07:08:00.566032
+1696,Manchester City vs Manchester United,Manchester City,Manchester United,2025-09-13 14:00:00,Premier League,228,1.25,0.062,0.938,2025-09-01T07:08:00.566032
+1697,Newcastle United vs Wolverhampton Wanderers,Newcastle United,Wolverhampton Wanderers,2025-09-13 14:00:00,Premier League,228,2.54,0.709,0.291,2025-09-01T07:08:00.566032
+1698,AFC Bournemouth vs Brighton & Hove Albion,AFC Bournemouth,Brighton & Hove Albion,2025-09-13 14:00:00,Premier League,228,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+18629,Burnley vs Liverpool,Burnley,Liverpool,2025-09-13 14:00:00,Premier League,228,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+18217,West Ham United vs Tottenham Hotspur,West Ham United,Tottenham Hotspur,2025-09-13 14:00:00,Premier League,228,3.48,0.827,0.173,2025-09-01T07:08:00.566032
+18216,Brentford vs Chelsea,Brentford,Chelsea,2025-09-13 14:00:00,Premier League,228,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+18215,Crystal Palace vs Sunderland,Crystal Palace,Sunderland,2025-09-13 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18214,Everton vs Aston Villa,Everton,Aston Villa,2025-09-13 14:00:00,Premier League,228,1.5,0.09,0.91,2025-09-01T07:08:00.566032
+18213,Fulham vs Leeds United,Fulham,Leeds United,2025-09-13 14:00:00,Premier League,228,4.57,0.894,0.106,2025-09-01T07:08:00.566032
+18212,AFC Bournemouth vs Brighton & Hove Albion,AFC Bournemouth,Brighton & Hove Albion,2025-09-13 14:00:00,Premier League,228,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+18211,Arsenal vs Nottingham Forest,Arsenal,Nottingham Forest,2025-09-13 14:00:00,Premier League,228,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+18210,Newcastle United vs Wolverhampton Wanderers,Newcastle United,Wolverhampton Wanderers,2025-09-13 14:00:00,Premier League,228,2.54,0.709,0.291,2025-09-01T07:08:00.566032
+18209,Manchester City vs Manchester United,Manchester City,Manchester United,2025-09-13 14:00:00,Premier League,228,1.25,0.062,0.938,2025-09-01T07:08:00.566032
+18208,Burnley vs Liverpool,Burnley,Liverpool,2025-09-13 14:00:00,Premier League,228,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+17796,West Ham United vs Tottenham Hotspur,West Ham United,Tottenham Hotspur,2025-09-13 14:00:00,Premier League,228,3.48,0.827,0.173,2025-09-01T07:08:00.566032
+17795,Brentford vs Chelsea,Brentford,Chelsea,2025-09-13 14:00:00,Premier League,228,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+17794,Crystal Palace vs Sunderland,Crystal Palace,Sunderland,2025-09-13 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17793,Everton vs Aston Villa,Everton,Aston Villa,2025-09-13 14:00:00,Premier League,228,1.5,0.09,0.91,2025-09-01T07:08:00.566032
+17792,Fulham vs Leeds United,Fulham,Leeds United,2025-09-13 14:00:00,Premier League,228,4.57,0.894,0.106,2025-09-01T07:08:00.566032
+2676,Crewe Alexandra vs Barnet,Crewe Alexandra,Barnet,2025-09-13 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2677,Tranmere Rovers vs Newport County,Tranmere Rovers,Newport County,2025-09-13 14:00:00,League Two,232,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+2678,Bristol Rovers vs Barrow,Bristol Rovers,Barrow,2025-09-13 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2679,Grimsby Town vs Cambridge United,Grimsby Town,Cambridge United,2025-09-13 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2680,Crawley Town vs Cheltenham Town,Crawley Town,Cheltenham Town,2025-09-13 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17791,AFC Bournemouth vs Brighton & Hove Albion,AFC Bournemouth,Brighton & Hove Albion,2025-09-13 14:00:00,Premier League,228,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+17790,Arsenal vs Nottingham Forest,Arsenal,Nottingham Forest,2025-09-13 14:00:00,Premier League,228,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+17789,Newcastle United vs Wolverhampton Wanderers,Newcastle United,Wolverhampton Wanderers,2025-09-13 14:00:00,Premier League,228,2.54,0.709,0.291,2025-09-01T07:08:00.566032
+17788,Manchester City vs Manchester United,Manchester City,Manchester United,2025-09-13 14:00:00,Premier League,228,1.25,0.062,0.938,2025-09-01T07:08:00.566032
+17787,Burnley vs Liverpool,Burnley,Liverpool,2025-09-13 14:00:00,Premier League,228,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+17375,West Ham United vs Tottenham Hotspur,West Ham United,Tottenham Hotspur,2025-09-13 14:00:00,Premier League,228,3.48,0.827,0.173,2025-09-01T07:08:00.566032
+17374,Brentford vs Chelsea,Brentford,Chelsea,2025-09-13 14:00:00,Premier League,228,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+17373,Crystal Palace vs Sunderland,Crystal Palace,Sunderland,2025-09-13 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17372,Everton vs Aston Villa,Everton,Aston Villa,2025-09-13 14:00:00,Premier League,228,1.5,0.09,0.91,2025-09-01T07:08:00.566032
+17371,Fulham vs Leeds United,Fulham,Leeds United,2025-09-13 14:00:00,Premier League,228,4.57,0.894,0.106,2025-09-01T07:08:00.566032
+17370,AFC Bournemouth vs Brighton & Hove Albion,AFC Bournemouth,Brighton & Hove Albion,2025-09-13 14:00:00,Premier League,228,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+17369,Arsenal vs Nottingham Forest,Arsenal,Nottingham Forest,2025-09-13 14:00:00,Premier League,228,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+17368,Newcastle United vs Wolverhampton Wanderers,Newcastle United,Wolverhampton Wanderers,2025-09-13 14:00:00,Premier League,228,2.54,0.709,0.291,2025-09-01T07:08:00.566032
+17367,Manchester City vs Manchester United,Manchester City,Manchester United,2025-09-13 14:00:00,Premier League,228,1.25,0.062,0.938,2025-09-01T07:08:00.566032
+17366,Burnley vs Liverpool,Burnley,Liverpool,2025-09-13 14:00:00,Premier League,228,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+4407,Alemannia Aachen vs Ulm,Alemannia Aachen,Ulm,2025-09-13 14:30:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4753,OFI vs PAOK,OFI,PAOK,2025-09-13 15:00:00,Super League 1,245,3.81,0.83,0.17,2025-09-01T07:08:00.566032
+3772,Wolfsburg vs FC Cologne,Wolfsburg,FC Cologne,2025-09-13 15:00:00,Bundesliga,241,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4752,Olympiakos vs Panserraikos,Olympiakos,Panserraikos,2025-09-13 15:00:00,Super League 1,245,2.85,0.612,0.388,2025-09-01T07:08:00.566032
+4121,Preussen Munster vs Fortuna Dusseldorf,Preussen Munster,Fortuna Dusseldorf,2025-09-13 15:00:00,2. Bundesliga,242,0.92,0.008,0.992,2025-09-01T07:08:00.566032
+4120,Elversberg vs Dynamo Dresden,Elversberg,Dynamo Dresden,2025-09-13 15:00:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4119,Schalke 04 vs Holstein Kiel,Schalke 04,Holstein Kiel,2025-09-13 15:00:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4118,Paderborn vs Bochum,Paderborn,Bochum,2025-09-13 15:00:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4117,Darmstadt vs Eintracht Braunschweig,Darmstadt,Eintracht Braunschweig,2025-09-13 15:00:00,2. Bundesliga,242,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+4116,Arminia Bielefeld vs Magdeburg,Arminia Bielefeld,Magdeburg,2025-09-13 15:00:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4410,Havelse vs Ingolstadt,Havelse,Ingolstadt,2025-09-17 17:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4951,Achuapa vs Mixco,Achuapa,Mixco,2025-09-17 21:00:00,Liga Nacional,246,1.63,0.018,0.982,2025-09-01T07:08:00.566032
+4952,Marquense vs Guastatoya,Marquense,Guastatoya,2025-09-18 00:00:00,Liga Nacional,246,1.63,0.012,0.988,2025-09-01T07:08:00.566032
+4953,Antigua GFC vs Municipal,Antigua GFC,Municipal,2025-09-18 02:00:00,Liga Nacional,246,2.85,0.436,0.564,2025-09-01T07:08:00.566032
+4954,Aurora vs Mictlan,Aurora,Mictlan,2025-09-18 20:00:00,Liga Nacional,246,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5263,Bhayangkara vs Persik Kediri,Bhayangkara,Persik Kediri,2025-09-19 08:30:00,Liga 1,251,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5265,Persebaya Surabaya vs Semen Padang,Persebaya Surabaya,Semen Padang,2025-09-19 12:00:00,Liga 1,251,0.06,0.002,0.998,2025-09-01T07:08:00.566032
+5264,Malut United vs Madura United,Malut United,Madura United,2025-09-19 12:00:00,Liga 1,251,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+3488,Nancy vs Red Star,Nancy,Red Star,2025-09-19 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3493,Troyes vs Guingamp,Troyes,Guingamp,2025-09-19 15:00:00,Ligue 2,236,2.6,0.33,0.67,2025-09-01T07:08:00.566032
+3768,Freiburg vs Stuttgart,Freiburg,Stuttgart,2025-09-13 15:00:00,Bundesliga,241,3.81,0.83,0.17,2025-09-01T07:08:00.566032
+3769,Union Berlin vs Hoffenheim,Union Berlin,Hoffenheim,2025-09-13 15:00:00,Bundesliga,241,2.85,0.612,0.388,2025-09-01T07:08:00.566032
+3770,Mainz vs RB Leipzig,Mainz,RB Leipzig,2025-09-13 15:00:00,Bundesliga,241,2.54,0.615,0.385,2025-09-01T07:08:00.566032
+3771,Bayern Munich vs Hamburg,Bayern Munich,Hamburg,2025-09-13 15:00:00,Bundesliga,241,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4754,Kifisia vs Panathinaikos,Kifisia,Panathinaikos,2025-09-13 15:00:00,Super League 1,245,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3773,St. Pauli vs Augsburg,St. Pauli,Augsburg,2025-09-13 15:00:00,Bundesliga,241,2.88,0.619,0.381,2025-09-01T07:08:00.566032
+3774,Heidenheim vs Borussia Dortmund,Heidenheim,Borussia Dortmund,2025-09-13 15:00:00,Bundesliga,241,4.88,0.871,0.129,2025-09-01T07:08:00.566032
+4758,Asteras Tripolis vs Larissa,Asteras Tripolis,Larissa,2025-09-13 15:00:00,Super League 1,245,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4757,Atromitos vs Aris Women,Atromitos,Aris Women,2025-09-13 15:00:00,Super League 1,245,2.54,0.515,0.485,2025-09-01T07:08:00.566032
+4756,Levadiakos vs AEK Athens,Levadiakos,AEK Athens,2025-09-13 15:00:00,Super League 1,245,2.54,0.515,0.485,2025-09-01T07:08:00.566032
+4755,Panaitolikos vs Volos NFC,Panaitolikos,Volos NFC,2025-09-13 15:00:00,Super League 1,245,0.92,0.008,0.992,2025-09-01T07:08:00.566032
+4944,Mixco vs Marquense,Mixco,Marquense,2025-09-13 21:00:00,Liga Nacional,246,0.87,0.007,0.993,2025-09-01T07:08:00.566032
+4945,Comunicaciones vs Antigua GFC,Comunicaciones,Antigua GFC,2025-09-13 23:00:00,Liga Nacional,246,2.98,0.436,0.564,2025-09-01T07:08:00.566032
+4946,Mictlan vs Achuapa,Mictlan,Achuapa,2025-09-14 01:00:00,Liga Nacional,246,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4947,Xelaju vs Aurora,Xelaju,Aurora,2025-09-14 03:00:00,Liga Nacional,246,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5261,PSIM Yogyakarta vs Borneo,PSIM Yogyakarta,Borneo,2025-09-14 08:30:00,Liga 1,251,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1614,Viborg vs AGF,Viborg,AGF,2025-09-14 12:00:00,Superliga,225,1.63,0.012,0.988,2025-09-01T07:08:00.566032
+5262,Persija vs Bali United,Persija,Bali United,2025-09-14 12:00:00,Liga 1,251,2.73,0.577,0.423,2025-09-01T07:08:00.566032
+3775,St. Pauli vs Augsburg,St. Pauli,Augsburg,2025-09-14 13:30:00,Bundesliga,241,2.88,0.619,0.381,2025-09-01T07:08:00.566032
+1615,Nordsjaelland vs Midtjylland,Nordsjaelland,Midtjylland,2025-09-14 14:00:00,Superliga,225,2.73,0.478,0.522,2025-09-01T07:08:00.566032
+3178,Brest vs Paris FC,Brest,Paris FC,2025-09-14 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3176,Metz vs Angers,Metz,Angers,2025-09-14 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3173,Auxerre vs Monaco,Auxerre,Monaco,2025-09-14 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3175,Strasbourg vs Le Havre,Strasbourg,Le Havre,2025-09-14 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3170,Lille vs Toulouse,Lille,Toulouse,2025-09-14 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3177,Marseille vs Lorient,Marseille,Lorient,2025-09-14 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3174,Nice vs Nantes,Nice,Nantes,2025-09-14 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3171,PSG vs Lens,PSG,Lens,2025-09-14 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3172,Rennes vs Lyon,Rennes,Lyon,2025-09-14 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3776,Borussia M'gladbach vs Werder Bremen,Borussia M'gladbach,Werder Bremen,2025-09-14 15:30:00,Bundesliga,241,5.69,0.925,0.075,2025-09-01T07:08:00.566032
+4408,1860 Munchen vs Havelse,1860 Munchen,Havelse,2025-09-14 17:30:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4948,Guastatoya vs Municipal,Guastatoya,Municipal,2025-09-14 21:00:00,Liga Nacional,246,2.85,0.436,0.564,2025-09-01T07:08:00.566032
+1616,Fredericia vs Vejle,Fredericia,Vejle,2025-09-15 17:00:00,Superliga,225,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3484,Boulogne vs Bastia,Boulogne,Bastia,2025-09-16 17:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4409,Saarbrucken vs Ulm,Saarbrucken,Ulm,2025-09-16 17:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4949,Coban Imperial vs Xelaju,Coban Imperial,Xelaju,2025-09-16 21:00:00,Liga Nacional,246,0.12,0.002,0.998,2025-09-01T07:08:00.566032
+4950,Comunicaciones vs Malacateco,Comunicaciones,Malacateco,2025-09-17 01:00:00,Liga Nacional,246,1.55,0.012,0.988,2025-09-01T07:08:00.566032
+4411,Schweinfurt vs MSV Duisburg,Schweinfurt,MSV Duisburg,2025-09-17 17:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4415,Hansa Rostock vs 1860 Munchen,Hansa Rostock,1860 Munchen,2025-09-17 17:00:00,3. Liga,244,1.63,0.018,0.982,2025-09-01T07:08:00.566032
+4414,Wehen Wiesbaden vs Jahn Regensburg,Wehen Wiesbaden,Jahn Regensburg,2025-09-17 17:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4413,Energie Cottbus vs Erzgebirge Aue,Energie Cottbus,Erzgebirge Aue,2025-09-17 17:00:00,3. Liga,244,2.67,0.52,0.48,2025-09-01T07:08:00.566032
+4412,Verl vs Alemannia Aachen,Verl,Alemannia Aachen,2025-09-17 17:00:00,3. Liga,244,2.61,0.615,0.385,2025-09-01T07:08:00.566032
+4417,Waldhof Mannheim vs Stuttgart II,Waldhof Mannheim,Stuttgart II,2025-09-17 17:00:00,3. Liga,244,0.87,0.007,0.993,2025-09-01T07:08:00.566032
+4416,Viktoria Koln vs Hoffenheim II,Viktoria Koln,Hoffenheim II,2025-09-17 17:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4418,Rot-Weiss Essen vs Osnabruck,Rot-Weiss Essen,Osnabruck,2025-09-17 17:00:00,3. Liga,244,2.88,0.692,0.308,2025-09-01T07:08:00.566032
+2124,Millwall vs Watford,Millwall,Watford,2025-09-20 14:00:00,Championship,229,3.81,0.83,0.17,2025-09-01T07:08:00.566032
+2125,Hull City vs Southampton,Hull City,Southampton,2025-09-20 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2126,Norwich City vs Wrexham,Norwich City,Wrexham,2025-09-20 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3492,Laval vs Amiens SC,Laval,Amiens SC,2025-09-19 15:00:00,Ligue 2,236,2.67,0.52,0.48,2025-09-01T07:08:00.566032
+3491,Rodez vs Clermont,Rodez,Clermont,2025-09-19 15:00:00,Ligue 2,236,1.63,0.012,0.988,2025-09-01T07:08:00.566032
+3490,Grenoble Foot 38 vs Annecy,Grenoble Foot 38,Annecy,2025-09-19 15:00:00,Ligue 2,236,1.85,0.118,0.882,2025-09-01T07:08:00.566032
+3489,Dunkerque vs Le Mans,Dunkerque,Le Mans,2025-09-19 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3487,Montpellier vs Bastia,Montpellier,Bastia,2025-09-19 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3486,Ajaccio vs Pau,Ajaccio,Pau,2025-09-19 15:00:00,Ligue 2,236,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+3485,Saint-Etienne vs Reims,Saint-Etienne,Reims,2025-09-19 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1617,OB vs Fredericia,OB,Fredericia,2025-09-19 17:00:00,Superliga,225,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3777,Stuttgart vs St. Pauli,Stuttgart,St. Pauli,2025-09-19 18:30:00,Bundesliga,241,0.92,0.008,0.992,2025-09-01T07:08:00.566032
+18639,None vs None,None,None,2025-09-20 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1705,None vs None,None,None,2025-09-20 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17376,None vs None,None,None,2025-09-20 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17797,None vs None,None,None,2025-09-20 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18218,None vs None,None,None,2025-09-20 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19060,None vs None,None,None,2025-09-20 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5266,Dewa United vs PSBS Biak Numfor,Dewa United,PSBS Biak Numfor,2025-09-20 08:30:00,Liga 1,251,3.81,0.83,0.17,2025-09-01T07:08:00.566032
+4427,Rot-Weiss Essen vs Hansa Rostock,Rot-Weiss Essen,Hansa Rostock,2025-09-20 12:00:00,3. Liga,244,2.73,0.577,0.423,2025-09-01T07:08:00.566032
+4426,Ingolstadt vs Wehen Wiesbaden,Ingolstadt,Wehen Wiesbaden,2025-09-20 12:00:00,3. Liga,244,5.38,0.887,0.113,2025-09-01T07:08:00.566032
+4425,Osnabruck vs Erzgebirge Aue,Osnabruck,Erzgebirge Aue,2025-09-20 12:00:00,3. Liga,244,0.87,0.007,0.993,2025-09-01T07:08:00.566032
+4424,1860 Munchen vs Hoffenheim II,1860 Munchen,Hoffenheim II,2025-09-20 12:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5267,Bali United vs PSIM Yogyakarta,Bali United,PSIM Yogyakarta,2025-09-20 12:00:00,Liga 1,251,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4421,Ulm vs Jahn Regensburg,Ulm,Jahn Regensburg,2025-09-20 12:00:00,3. Liga,244,2.73,0.577,0.423,2025-09-01T07:08:00.566032
+4420,Verl vs Energie Cottbus,Verl,Energie Cottbus,2025-09-20 12:00:00,3. Liga,244,1.53,0.008,0.992,2025-09-01T07:08:00.566032
+4419,Stuttgart II vs Viktoria Koln,Stuttgart II,Viktoria Koln,2025-09-20 12:00:00,3. Liga,244,2.6,0.33,0.67,2025-09-01T07:08:00.566032
+4428,Havelse vs MSV Duisburg,Havelse,MSV Duisburg,2025-09-20 12:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4423,Alemannia Aachen vs Waldhof Mannheim,Alemannia Aachen,Waldhof Mannheim,2025-09-20 12:00:00,3. Liga,244,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+4422,Saarbrucken vs Schweinfurt,Saarbrucken,Schweinfurt,2025-09-20 12:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3779,RB Leipzig vs FC Cologne,RB Leipzig,FC Cologne,2025-09-20 13:30:00,Bundesliga,241,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3778,None vs None,None,None,2025-09-20 13:30:00,Bundesliga,241,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2132,Queens Park Rangers vs Stoke City,Queens Park Rangers,Stoke City,2025-09-20 14:00:00,Championship,229,2.88,0.619,0.381,2025-09-01T07:08:00.566032
+1706,Burnley vs Nottingham Forest,Burnley,Nottingham Forest,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1707,West Ham United vs Crystal Palace,West Ham United,Crystal Palace,2025-09-20 14:00:00,Premier League,228,2.56,0.521,0.479,2025-09-01T07:08:00.566032
+1708,Arsenal vs Manchester City,Arsenal,Manchester City,2025-09-20 14:00:00,Premier League,228,2.8,0.726,0.274,2025-09-01T07:08:00.566032
+1709,Wolverhampton Wanderers vs Leeds United,Wolverhampton Wanderers,Leeds United,2025-09-20 14:00:00,Premier League,228,0.11,0.002,0.998,2025-09-01T07:08:00.566032
+1710,Manchester United vs Chelsea,Manchester United,Chelsea,2025-09-20 14:00:00,Premier League,228,-0.12,0.003,0.997,2025-09-01T07:08:00.566032
+1711,Brighton & Hove Albion vs Tottenham Hotspur,Brighton & Hove Albion,Tottenham Hotspur,2025-09-20 14:00:00,Premier League,228,2.47,0.452,0.548,2025-09-01T07:08:00.566032
+1712,Sunderland vs Aston Villa,Sunderland,Aston Villa,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1713,Liverpool vs Everton,Liverpool,Everton,2025-09-20 14:00:00,Premier League,228,2.56,0.498,0.502,2025-09-01T07:08:00.566032
+1714,AFC Bournemouth vs Newcastle United,AFC Bournemouth,Newcastle United,2025-09-20 14:00:00,Premier League,228,2.8,0.577,0.423,2025-09-01T07:08:00.566032
+1715,Fulham vs Brentford,Fulham,Brentford,2025-09-20 14:00:00,Premier League,228,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+18226,Brighton & Hove Albion vs Tottenham Hotspur,Brighton & Hove Albion,Tottenham Hotspur,2025-09-20 14:00:00,Premier League,228,2.47,0.452,0.548,2025-09-01T07:08:00.566032
+18227,Manchester United vs Chelsea,Manchester United,Chelsea,2025-09-20 14:00:00,Premier League,228,-0.12,0.003,0.997,2025-09-01T07:08:00.566032
+18228,Wolverhampton Wanderers vs Leeds United,Wolverhampton Wanderers,Leeds United,2025-09-20 14:00:00,Premier League,228,0.11,0.002,0.998,2025-09-01T07:08:00.566032
+18640,Arsenal vs Manchester City,Arsenal,Manchester City,2025-09-20 14:00:00,Premier League,228,2.8,0.726,0.274,2025-09-01T07:08:00.566032
+18641,AFC Bournemouth vs Newcastle United,AFC Bournemouth,Newcastle United,2025-09-20 14:00:00,Premier League,228,2.8,0.577,0.423,2025-09-01T07:08:00.566032
+18642,Liverpool vs Everton,Liverpool,Everton,2025-09-20 14:00:00,Premier League,228,2.56,0.498,0.502,2025-09-01T07:08:00.566032
+18643,Sunderland vs Aston Villa,Sunderland,Aston Villa,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18644,Burnley vs Nottingham Forest,Burnley,Nottingham Forest,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2127,Bristol City vs Oxford United,Bristol City,Oxford United,2025-09-20 14:00:00,Championship,229,2.61,0.615,0.385,2025-09-01T07:08:00.566032
+2128,Middlesbrough vs West Bromwich Albion,Middlesbrough,West Bromwich Albion,2025-09-20 14:00:00,Championship,229,0.53,0.015,0.985,2025-09-01T07:08:00.566032
+2129,Sheffield United vs Charlton Athletic,Sheffield United,Charlton Athletic,2025-09-20 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2130,Blackburn Rovers vs Ipswich Town,Blackburn Rovers,Ipswich Town,2025-09-20 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2131,Derby County vs Preston North End,Derby County,Preston North End,2025-09-20 14:00:00,Championship,229,1.95,0.203,0.797,2025-09-01T07:08:00.566032
+2133,Leicester City vs Coventry City,Leicester City,Coventry City,2025-09-20 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2134,Portsmouth vs Sheffield Wednesday,Portsmouth,Sheffield Wednesday,2025-09-20 14:00:00,Championship,229,2.54,0.515,0.485,2025-09-01T07:08:00.566032
+2135,Birmingham City vs Swansea City,Birmingham City,Swansea City,2025-09-20 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2688,Newport County vs Gillingham,Newport County,Gillingham,2025-09-20 14:00:00,League Two,232,2.98,0.517,0.483,2025-09-01T07:08:00.566032
+2689,Barnet vs Grimsby Town,Barnet,Grimsby Town,2025-09-20 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2690,Notts County vs Crawley Town,Notts County,Crawley Town,2025-09-20 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2691,Colchester United vs Bristol Rovers,Colchester United,Bristol Rovers,2025-09-20 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2692,Cambridge United vs Fleetwood Town,Cambridge United,Fleetwood Town,2025-09-20 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2693,Walsall vs Tranmere Rovers,Walsall,Tranmere Rovers,2025-09-20 14:00:00,League Two,232,2.73,0.577,0.423,2025-09-01T07:08:00.566032
+2694,Harrogate Town vs Shrewsbury Town,Harrogate Town,Shrewsbury Town,2025-09-20 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2695,Milton Keynes Dons vs Accrington Stanley,Milton Keynes Dons,Accrington Stanley,2025-09-20 14:00:00,League Two,232,2.54,0.615,0.385,2025-09-01T07:08:00.566032
+2696,Barrow vs Crewe Alexandra,Barrow,Crewe Alexandra,2025-09-20 14:00:00,League Two,232,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+2697,Cheltenham Town vs Oldham Athletic,Cheltenham Town,Oldham Athletic,2025-09-20 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2698,Salford City vs Swindon Town,Salford City,Swindon Town,2025-09-20 14:00:00,League Two,232,2.8,0.577,0.423,2025-09-01T07:08:00.566032
+2699,Bromley vs Chesterfield,Bromley,Chesterfield,2025-09-20 14:00:00,League Two,232,2.73,0.478,0.522,2025-09-01T07:08:00.566032
+17377,Arsenal vs Manchester City,Arsenal,Manchester City,2025-09-20 14:00:00,Premier League,228,2.8,0.726,0.274,2025-09-01T07:08:00.566032
+17378,AFC Bournemouth vs Newcastle United,AFC Bournemouth,Newcastle United,2025-09-20 14:00:00,Premier League,228,2.8,0.577,0.423,2025-09-01T07:08:00.566032
+17379,Liverpool vs Everton,Liverpool,Everton,2025-09-20 14:00:00,Premier League,228,2.56,0.498,0.502,2025-09-01T07:08:00.566032
+17380,Sunderland vs Aston Villa,Sunderland,Aston Villa,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17381,Burnley vs Nottingham Forest,Burnley,Nottingham Forest,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17382,Fulham vs Brentford,Fulham,Brentford,2025-09-20 14:00:00,Premier League,228,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+17383,West Ham United vs Crystal Palace,West Ham United,Crystal Palace,2025-09-20 14:00:00,Premier League,228,2.56,0.521,0.479,2025-09-01T07:08:00.566032
+17384,Brighton & Hove Albion vs Tottenham Hotspur,Brighton & Hove Albion,Tottenham Hotspur,2025-09-20 14:00:00,Premier League,228,2.47,0.452,0.548,2025-09-01T07:08:00.566032
+17385,Manchester United vs Chelsea,Manchester United,Chelsea,2025-09-20 14:00:00,Premier League,228,-0.12,0.003,0.997,2025-09-01T07:08:00.566032
+17386,Wolverhampton Wanderers vs Leeds United,Wolverhampton Wanderers,Leeds United,2025-09-20 14:00:00,Premier League,228,0.11,0.002,0.998,2025-09-01T07:08:00.566032
+17798,Arsenal vs Manchester City,Arsenal,Manchester City,2025-09-20 14:00:00,Premier League,228,2.8,0.726,0.274,2025-09-01T07:08:00.566032
+17799,AFC Bournemouth vs Newcastle United,AFC Bournemouth,Newcastle United,2025-09-20 14:00:00,Premier League,228,2.8,0.577,0.423,2025-09-01T07:08:00.566032
+17800,Liverpool vs Everton,Liverpool,Everton,2025-09-20 14:00:00,Premier League,228,2.56,0.498,0.502,2025-09-01T07:08:00.566032
+17801,Sunderland vs Aston Villa,Sunderland,Aston Villa,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17802,Burnley vs Nottingham Forest,Burnley,Nottingham Forest,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17803,Fulham vs Brentford,Fulham,Brentford,2025-09-20 14:00:00,Premier League,228,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+17804,West Ham United vs Crystal Palace,West Ham United,Crystal Palace,2025-09-20 14:00:00,Premier League,228,2.56,0.521,0.479,2025-09-01T07:08:00.566032
+17805,Brighton & Hove Albion vs Tottenham Hotspur,Brighton & Hove Albion,Tottenham Hotspur,2025-09-20 14:00:00,Premier League,228,2.47,0.452,0.548,2025-09-01T07:08:00.566032
+17806,Manchester United vs Chelsea,Manchester United,Chelsea,2025-09-20 14:00:00,Premier League,228,-0.12,0.003,0.997,2025-09-01T07:08:00.566032
+17807,Wolverhampton Wanderers vs Leeds United,Wolverhampton Wanderers,Leeds United,2025-09-20 14:00:00,Premier League,228,0.11,0.002,0.998,2025-09-01T07:08:00.566032
+18219,Arsenal vs Manchester City,Arsenal,Manchester City,2025-09-20 14:00:00,Premier League,228,2.8,0.726,0.274,2025-09-01T07:08:00.566032
+18220,AFC Bournemouth vs Newcastle United,AFC Bournemouth,Newcastle United,2025-09-20 14:00:00,Premier League,228,2.8,0.577,0.423,2025-09-01T07:08:00.566032
+18221,Liverpool vs Everton,Liverpool,Everton,2025-09-20 14:00:00,Premier League,228,2.56,0.498,0.502,2025-09-01T07:08:00.566032
+18222,Sunderland vs Aston Villa,Sunderland,Aston Villa,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18223,Burnley vs Nottingham Forest,Burnley,Nottingham Forest,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18224,Fulham vs Brentford,Fulham,Brentford,2025-09-20 14:00:00,Premier League,228,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+18225,West Ham United vs Crystal Palace,West Ham United,Crystal Palace,2025-09-20 14:00:00,Premier League,228,2.56,0.521,0.479,2025-09-01T07:08:00.566032
+5065,Kazincbarcika vs Ujpest,Kazincbarcika,Ujpest,2025-09-20 15:00:00,NB I,248,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18645,Fulham vs Brentford,Fulham,Brentford,2025-09-20 14:00:00,Premier League,228,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+18646,West Ham United vs Crystal Palace,West Ham United,Crystal Palace,2025-09-20 14:00:00,Premier League,228,2.56,0.521,0.479,2025-09-01T07:08:00.566032
+18647,Brighton & Hove Albion vs Tottenham Hotspur,Brighton & Hove Albion,Tottenham Hotspur,2025-09-20 14:00:00,Premier League,228,2.47,0.452,0.548,2025-09-01T07:08:00.566032
+18648,Manchester United vs Chelsea,Manchester United,Chelsea,2025-09-20 14:00:00,Premier League,228,-0.12,0.003,0.997,2025-09-01T07:08:00.566032
+18649,Wolverhampton Wanderers vs Leeds United,Wolverhampton Wanderers,Leeds United,2025-09-20 14:00:00,Premier League,228,0.11,0.002,0.998,2025-09-01T07:08:00.566032
+19061,Arsenal vs Manchester City,Arsenal,Manchester City,2025-09-20 14:00:00,Premier League,228,2.8,0.726,0.274,2025-09-01T07:08:00.566032
+19062,AFC Bournemouth vs Newcastle United,AFC Bournemouth,Newcastle United,2025-09-20 14:00:00,Premier League,228,2.8,0.577,0.423,2025-09-01T07:08:00.566032
+19063,Liverpool vs Everton,Liverpool,Everton,2025-09-20 14:00:00,Premier League,228,2.56,0.498,0.502,2025-09-01T07:08:00.566032
+19064,Sunderland vs Aston Villa,Sunderland,Aston Villa,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19065,Burnley vs Nottingham Forest,Burnley,Nottingham Forest,2025-09-20 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19066,Fulham vs Brentford,Fulham,Brentford,2025-09-20 14:00:00,Premier League,228,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+19067,West Ham United vs Crystal Palace,West Ham United,Crystal Palace,2025-09-20 14:00:00,Premier League,228,2.56,0.521,0.479,2025-09-01T07:08:00.566032
+19068,Brighton & Hove Albion vs Tottenham Hotspur,Brighton & Hove Albion,Tottenham Hotspur,2025-09-20 14:00:00,Premier League,228,2.47,0.452,0.548,2025-09-01T07:08:00.566032
+19069,Manchester United vs Chelsea,Manchester United,Chelsea,2025-09-20 14:00:00,Premier League,228,-0.12,0.003,0.997,2025-09-01T07:08:00.566032
+19070,Wolverhampton Wanderers vs Leeds United,Wolverhampton Wanderers,Leeds United,2025-09-20 14:00:00,Premier League,228,0.11,0.002,0.998,2025-09-01T07:08:00.566032
+4760,Volos NFC vs Asteras Tripolis,Volos NFC,Asteras Tripolis,2025-09-20 15:00:00,Super League 1,245,1.63,0.018,0.982,2025-09-01T07:08:00.566032
+5067,MTK vs Zalaegerszegi TE,MTK,Zalaegerszegi TE,2025-09-20 15:00:00,NB I,248,0.88,0.04,0.96,2025-09-01T07:08:00.566032
+5068,None vs None,None,None,2025-09-20 15:00:00,NB I,248,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5069,Ferencvaros vs Diosgyor,Ferencvaros,Diosgyor,2025-09-20 15:00:00,NB I,248,3.34,0.613,0.387,2025-09-01T07:08:00.566032
+3783,Borussia Dortmund vs Wolfsburg,Borussia Dortmund,Wolfsburg,2025-09-20 15:00:00,Bundesliga,241,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+3784,Eintracht Frankfurt vs Union Berlin,Eintracht Frankfurt,Union Berlin,2025-09-20 15:00:00,Bundesliga,241,2.54,0.515,0.485,2025-09-01T07:08:00.566032
+3785,Bayer Leverkusen vs Borussia M'gladbach,Bayer Leverkusen,Borussia M'gladbach,2025-09-20 15:00:00,Bundesliga,241,4.95,0.909,0.091,2025-09-01T07:08:00.566032
+5070,Kisvarda vs Debrecen,Kisvarda,Debrecen,2025-09-20 15:00:00,NB I,248,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3787,Stuttgart vs St. Pauli,Stuttgart,St. Pauli,2025-09-20 15:00:00,Bundesliga,241,0.92,0.008,0.992,2025-09-01T07:08:00.566032
+3786,Hamburg vs Heidenheim,Hamburg,Heidenheim,2025-09-20 15:00:00,Bundesliga,241,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4759,Panserraikos vs Atromitos,Panserraikos,Atromitos,2025-09-20 15:00:00,Super League 1,245,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+4124,Kaiserslautern vs Preussen Munster,Kaiserslautern,Preussen Munster,2025-09-20 15:00:00,2. Bundesliga,242,1.63,0.018,0.982,2025-09-01T07:08:00.566032
+4125,Magdeburg vs Schalke 04,Magdeburg,Schalke 04,2025-09-20 15:00:00,2. Bundesliga,242,5.67,0.919,0.081,2025-09-01T07:08:00.566032
+3781,Hoffenheim vs Bayern Munich,Hoffenheim,Bayern Munich,2025-09-20 15:00:00,Bundesliga,241,4.88,0.871,0.129,2025-09-01T07:08:00.566032
+3780,Augsburg vs Mainz,Augsburg,Mainz,2025-09-20 15:00:00,Bundesliga,241,2.54,0.515,0.485,2025-09-01T07:08:00.566032
+3782,Werder Bremen vs Freiburg,Werder Bremen,Freiburg,2025-09-20 15:00:00,Bundesliga,241,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+4123,Hertha Berlin vs Paderborn,Hertha Berlin,Paderborn,2025-09-20 15:00:00,2. Bundesliga,242,2.88,0.692,0.308,2025-09-01T07:08:00.566032
+4122,Holstein Kiel vs Karlsruhe,Holstein Kiel,Karlsruhe,2025-09-20 15:00:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4763,Panathinaikos vs Olympiakos,Panathinaikos,Olympiakos,2025-09-20 15:00:00,Super League 1,245,0.06,0.002,0.998,2025-09-01T07:08:00.566032
+4764,Levadiakos vs OFI,Levadiakos,OFI,2025-09-20 15:00:00,Super League 1,245,0.06,0.002,0.998,2025-09-01T07:08:00.566032
+4765,Larissa vs AEK Athens,Larissa,AEK Athens,2025-09-20 15:00:00,Super League 1,245,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4126,Fortuna Dusseldorf vs Darmstadt,Fortuna Dusseldorf,Darmstadt,2025-09-20 15:00:00,2. Bundesliga,242,2.95,0.692,0.308,2025-09-01T07:08:00.566032
+4127,Arminia Bielefeld vs Greuther Furth,Arminia Bielefeld,Greuther Furth,2025-09-20 15:00:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4128,Eintracht Braunschweig vs Elversberg,Eintracht Braunschweig,Elversberg,2025-09-20 15:00:00,2. Bundesliga,242,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+4129,Dynamo Dresden vs Hannover 96,Dynamo Dresden,Hannover 96,2025-09-20 15:00:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4762,Kifisia vs Aris Women,Kifisia,Aris Women,2025-09-20 15:00:00,Super League 1,245,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4761,PAOK vs Panaitolikos,PAOK,Panaitolikos,2025-09-20 15:00:00,Super League 1,245,0.53,0.015,0.985,2025-09-01T07:08:00.566032
+18650,None vs None,None,None,2025-09-27 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18229,None vs None,None,None,2025-09-27 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1716,None vs None,None,None,2025-09-27 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5276,PSM vs PSIM Yogyakarta,PSM,PSIM Yogyakarta,2025-09-27 08:30:00,Liga 1,251,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4435,Waldhof Mannheim vs Rot-Weiss Essen,Waldhof Mannheim,Rot-Weiss Essen,2025-09-27 12:00:00,3. Liga,244,0.92,0.008,0.992,2025-09-01T07:08:00.566032
+5278,Persijap vs Persik Kediri,Persijap,Persik Kediri,2025-09-27 12:00:00,Liga 1,251,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5066,Nyiregyhaza Spartacus vs Paksi FC,Nyiregyhaza Spartacus,Paksi FC,2025-09-20 15:00:00,NB I,248,2.92,0.414,0.586,2025-09-01T07:08:00.566032
+1618,Midtjylland vs Viborg,Midtjylland,Viborg,2025-09-20 16:00:00,Superliga,225,2.54,0.615,0.385,2025-09-01T07:08:00.566032
+4130,Nurnberg vs Bochum,Nurnberg,Bochum,2025-09-20 18:30:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5268,Persijap vs Persita,Persijap,Persita,2025-09-21 08:30:00,Liga 1,251,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1619,Vejle vs SonderjyskE,Vejle,SonderjyskE,2025-09-21 12:00:00,Superliga,225,2.54,0.515,0.485,2025-09-01T07:08:00.566032
+5269,PSM vs Persija,PSM,Persija,2025-09-21 12:00:00,Liga 1,251,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+3788,Eintracht Frankfurt vs Union Berlin,Eintracht Frankfurt,Union Berlin,2025-09-21 13:30:00,Bundesliga,241,2.54,0.515,0.485,2025-09-01T07:08:00.566032
+1620,FC Copenhagen vs Silkeborg,FC Copenhagen,Silkeborg,2025-09-21 14:00:00,Superliga,225,3.93,0.82,0.18,2025-09-01T07:08:00.566032
+3186,Lyon vs Angers,Lyon,Angers,2025-09-21 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3181,Marseille vs PSG,Marseille,PSG,2025-09-21 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3182,Nantes vs Rennes,Nantes,Rennes,2025-09-21 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3183,Paris FC vs Strasbourg,Paris FC,Strasbourg,2025-09-21 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3184,Auxerre vs Toulouse,Auxerre,Toulouse,2025-09-21 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3179,Brest vs Nice,Brest,Nice,2025-09-21 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3180,Lens vs Lille,Lens,Lille,2025-09-21 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3187,Le Havre vs Lorient,Le Havre,Lorient,2025-09-21 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3185,Monaco vs Metz,Monaco,Metz,2025-09-21 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3789,Bayer Leverkusen vs Borussia M'gladbach,Bayer Leverkusen,Borussia M'gladbach,2025-09-21 15:30:00,Bundesliga,241,4.95,0.909,0.091,2025-09-01T07:08:00.566032
+1621,AGF vs Brondby,AGF,Brondby,2025-09-21 16:00:00,Superliga,225,0.11,0.002,0.998,2025-09-01T07:08:00.566032
+3790,Borussia Dortmund vs Wolfsburg,Borussia Dortmund,Wolfsburg,2025-09-21 17:30:00,Bundesliga,241,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+5270,Arema vs Persib,Arema,Persib,2025-09-22 08:30:00,Liga 1,251,2.88,0.619,0.381,2025-09-01T07:08:00.566032
+5271,Borneo vs Persis Solo,Borneo,Persis Solo,2025-09-22 12:00:00,Liga 1,251,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+1622,Randers vs Nordsjaelland,Randers,Nordsjaelland,2025-09-22 17:00:00,Superliga,225,2.95,0.692,0.308,2025-09-01T07:08:00.566032
+3500,Le Mans vs Grenoble Foot 38,Le Mans,Grenoble Foot 38,2025-09-23 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3501,Annecy vs Nancy,Annecy,Nancy,2025-09-23 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3502,Amiens SC vs Saint-Etienne,Amiens SC,Saint-Etienne,2025-09-23 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3496,Reims vs Clermont,Reims,Clermont,2025-09-23 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3499,Guingamp vs Dunkerque,Guingamp,Dunkerque,2025-09-23 15:00:00,Ligue 2,236,2.88,0.619,0.381,2025-09-01T07:08:00.566032
+3497,Bastia vs Rodez,Bastia,Rodez,2025-09-23 15:00:00,Ligue 2,236,2.95,0.692,0.308,2025-09-01T07:08:00.566032
+3495,Red Star vs Troyes,Red Star,Troyes,2025-09-23 15:00:00,Ligue 2,236,2.73,0.478,0.522,2025-09-01T07:08:00.566032
+3494,Montpellier vs Ajaccio,Montpellier,Ajaccio,2025-09-23 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3498,Pau vs Laval,Pau,Laval,2025-09-23 15:00:00,Ligue 2,236,2.88,0.619,0.381,2025-09-01T07:08:00.566032
+5272,PSBS Biak Numfor vs Madura United,PSBS Biak Numfor,Madura United,2025-09-25 08:30:00,Liga 1,251,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+5273,Bhayangkara vs Malut United,Bhayangkara,Malut United,2025-09-25 12:00:00,Liga 1,251,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5274,Semen Padang vs Bali United,Semen Padang,Bali United,2025-09-26 08:30:00,Liga 1,251,3.86,0.803,0.197,2025-09-01T07:08:00.566032
+5275,Dewa United vs Persebaya Surabaya,Dewa United,Persebaya Surabaya,2025-09-26 12:00:00,Liga 1,251,0.98,0.008,0.992,2025-09-01T07:08:00.566032
+3503,Troyes vs Annecy,Troyes,Annecy,2025-09-26 15:00:00,Ligue 2,236,0.0,0.001,0.999,2025-09-01T07:08:00.566032
+3511,Rodez vs Pau,Rodez,Pau,2025-09-26 15:00:00,Ligue 2,236,2.98,0.517,0.483,2025-09-01T07:08:00.566032
+3510,Saint-Etienne vs Guingamp,Saint-Etienne,Guingamp,2025-09-26 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3509,Clermont vs Le Mans,Clermont,Le Mans,2025-09-26 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3508,Nancy vs Reims,Nancy,Reims,2025-09-26 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3507,Laval vs Montpellier,Laval,Montpellier,2025-09-26 15:00:00,Ligue 2,236,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3506,Grenoble Foot 38 vs Bastia,Grenoble Foot 38,Bastia,2025-09-26 15:00:00,Ligue 2,236,4.64,0.925,0.075,2025-09-01T07:08:00.566032
+3505,Ajaccio vs Red Star,Ajaccio,Red Star,2025-09-26 15:00:00,Ligue 2,236,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+3504,Dunkerque vs Amiens SC,Dunkerque,Amiens SC,2025-09-26 15:00:00,Ligue 2,236,2.54,0.615,0.385,2025-09-01T07:08:00.566032
+3791,Bayern Munich vs Werder Bremen,Bayern Munich,Werder Bremen,2025-09-26 18:30:00,Bundesliga,241,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+17387,None vs None,None,None,2025-09-27 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17808,None vs None,None,None,2025-09-27 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19071,None vs None,None,None,2025-09-27 07:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18656,Tottenham Hotspur vs Wolverhampton Wanderers,Tottenham Hotspur,Wolverhampton Wanderers,2025-09-27 14:00:00,Premier League,228,2.55,0.571,0.429,2025-09-01T07:08:00.566032
+18657,Aston Villa vs Fulham,Aston Villa,Fulham,2025-09-27 14:00:00,Premier League,228,2.79,0.463,0.537,2025-09-01T07:08:00.566032
+18658,Nottingham Forest vs Sunderland,Nottingham Forest,Sunderland,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18659,Chelsea vs Brighton & Hove Albion,Chelsea,Brighton & Hove Albion,2025-09-27 14:00:00,Premier League,228,2.84,0.744,0.256,2025-09-01T07:08:00.566032
+18660,Brentford vs Manchester United,Brentford,Manchester United,2025-09-27 14:00:00,Premier League,228,4.55,0.919,0.081,2025-09-01T07:08:00.566032
+17809,Crystal Palace vs Liverpool,Crystal Palace,Liverpool,2025-09-27 14:00:00,Premier League,228,2.72,0.56,0.44,2025-09-01T07:08:00.566032
+17810,Manchester City vs Burnley,Manchester City,Burnley,2025-09-27 14:00:00,Premier League,228,2.85,0.612,0.388,2025-09-01T07:08:00.566032
+17811,Leeds United vs AFC Bournemouth,Leeds United,AFC Bournemouth,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17812,Everton vs West Ham United,Everton,West Ham United,2025-09-27 14:00:00,Premier League,228,0.86,0.017,0.983,2025-09-01T07:08:00.566032
+17813,Newcastle United vs Arsenal,Newcastle United,Arsenal,2025-09-27 14:00:00,Premier League,228,0.76,0.025,0.975,2025-09-01T07:08:00.566032
+17814,Tottenham Hotspur vs Wolverhampton Wanderers,Tottenham Hotspur,Wolverhampton Wanderers,2025-09-27 14:00:00,Premier League,228,2.55,0.571,0.429,2025-09-01T07:08:00.566032
+4437,Schweinfurt vs Alemannia Aachen,Schweinfurt,Alemannia Aachen,2025-09-27 12:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4438,Wehen Wiesbaden vs Saarbrucken,Wehen Wiesbaden,Saarbrucken,2025-09-27 12:00:00,3. Liga,244,2.88,0.619,0.381,2025-09-01T07:08:00.566032
+4436,Hoffenheim II vs Ulm,Hoffenheim II,Ulm,2025-09-27 12:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5277,Persita vs Persib,Persita,Persib,2025-09-27 12:00:00,Liga 1,251,3.81,0.798,0.202,2025-09-01T07:08:00.566032
+4429,Energie Cottbus vs Stuttgart II,Energie Cottbus,Stuttgart II,2025-09-27 12:00:00,3. Liga,244,2.88,0.692,0.308,2025-09-01T07:08:00.566032
+4430,MSV Duisburg vs Ingolstadt,MSV Duisburg,Ingolstadt,2025-09-27 12:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4431,Viktoria Koln vs Osnabruck,Viktoria Koln,Osnabruck,2025-09-27 12:00:00,3. Liga,244,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+4432,Erzgebirge Aue vs 1860 Munchen,Erzgebirge Aue,1860 Munchen,2025-09-27 12:00:00,3. Liga,244,2.95,0.692,0.308,2025-09-01T07:08:00.566032
+4433,Jahn Regensburg vs Verl,Jahn Regensburg,Verl,2025-09-27 12:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4434,Hansa Rostock vs Havelse,Hansa Rostock,Havelse,2025-09-27 12:00:00,3. Liga,244,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3792,None vs None,None,None,2025-09-27 13:30:00,Bundesliga,241,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1721,Tottenham Hotspur vs Wolverhampton Wanderers,Tottenham Hotspur,Wolverhampton Wanderers,2025-09-27 14:00:00,Premier League,228,2.55,0.571,0.429,2025-09-01T07:08:00.566032
+2711,Crawley Town vs Barrow,Crawley Town,Barrow,2025-09-27 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2710,Accrington Stanley vs Walsall,Accrington Stanley,Walsall,2025-09-27 14:00:00,League Two,232,0.29,0.008,0.992,2025-09-01T07:08:00.566032
+2709,Oldham Athletic vs Barnet,Oldham Athletic,Barnet,2025-09-27 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2708,Shrewsbury Town vs Milton Keynes Dons,Shrewsbury Town,Milton Keynes Dons,2025-09-27 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2707,Tranmere Rovers vs Cambridge United,Tranmere Rovers,Cambridge United,2025-09-27 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2706,Bristol Rovers vs Salford City,Bristol Rovers,Salford City,2025-09-27 14:00:00,League Two,232,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19077,Tottenham Hotspur vs Wolverhampton Wanderers,Tottenham Hotspur,Wolverhampton Wanderers,2025-09-27 14:00:00,Premier League,228,2.55,0.571,0.429,2025-09-01T07:08:00.566032
+19078,Aston Villa vs Fulham,Aston Villa,Fulham,2025-09-27 14:00:00,Premier League,228,2.79,0.463,0.537,2025-09-01T07:08:00.566032
+19079,Nottingham Forest vs Sunderland,Nottingham Forest,Sunderland,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19080,Chelsea vs Brighton & Hove Albion,Chelsea,Brighton & Hove Albion,2025-09-27 14:00:00,Premier League,228,2.84,0.744,0.256,2025-09-01T07:08:00.566032
+19081,Brentford vs Manchester United,Brentford,Manchester United,2025-09-27 14:00:00,Premier League,228,4.55,0.919,0.081,2025-09-01T07:08:00.566032
+18651,Crystal Palace vs Liverpool,Crystal Palace,Liverpool,2025-09-27 14:00:00,Premier League,228,2.72,0.56,0.44,2025-09-01T07:08:00.566032
+18652,Manchester City vs Burnley,Manchester City,Burnley,2025-09-27 14:00:00,Premier League,228,2.85,0.612,0.388,2025-09-01T07:08:00.566032
+18653,Leeds United vs AFC Bournemouth,Leeds United,AFC Bournemouth,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17388,Crystal Palace vs Liverpool,Crystal Palace,Liverpool,2025-09-27 14:00:00,Premier League,228,2.72,0.56,0.44,2025-09-01T07:08:00.566032
+17389,Manchester City vs Burnley,Manchester City,Burnley,2025-09-27 14:00:00,Premier League,228,2.85,0.612,0.388,2025-09-01T07:08:00.566032
+17390,Leeds United vs AFC Bournemouth,Leeds United,AFC Bournemouth,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17391,Everton vs West Ham United,Everton,West Ham United,2025-09-27 14:00:00,Premier League,228,0.86,0.017,0.983,2025-09-01T07:08:00.566032
+17392,Newcastle United vs Arsenal,Newcastle United,Arsenal,2025-09-27 14:00:00,Premier League,228,0.76,0.025,0.975,2025-09-01T07:08:00.566032
+17393,Tottenham Hotspur vs Wolverhampton Wanderers,Tottenham Hotspur,Wolverhampton Wanderers,2025-09-27 14:00:00,Premier League,228,2.55,0.571,0.429,2025-09-01T07:08:00.566032
+17394,Aston Villa vs Fulham,Aston Villa,Fulham,2025-09-27 14:00:00,Premier League,228,2.79,0.463,0.537,2025-09-01T07:08:00.566032
+17395,Nottingham Forest vs Sunderland,Nottingham Forest,Sunderland,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17396,Chelsea vs Brighton & Hove Albion,Chelsea,Brighton & Hove Albion,2025-09-27 14:00:00,Premier League,228,2.84,0.744,0.256,2025-09-01T07:08:00.566032
+17397,Brentford vs Manchester United,Brentford,Manchester United,2025-09-27 14:00:00,Premier League,228,4.55,0.919,0.081,2025-09-01T07:08:00.566032
+2705,Grimsby Town vs Cheltenham Town,Grimsby Town,Cheltenham Town,2025-09-27 14:00:00,League Two,232,2.8,0.577,0.423,2025-09-01T07:08:00.566032
+2704,Fleetwood Town vs Colchester United,Fleetwood Town,Colchester United,2025-09-27 14:00:00,League Two,232,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+2703,Chesterfield vs Newport County,Chesterfield,Newport County,2025-09-27 14:00:00,League Two,232,2.98,0.517,0.483,2025-09-01T07:08:00.566032
+2702,Gillingham vs Harrogate Town,Gillingham,Harrogate Town,2025-09-27 14:00:00,League Two,232,2.54,0.515,0.485,2025-09-01T07:08:00.566032
+2701,Crewe Alexandra vs Notts County,Crewe Alexandra,Notts County,2025-09-27 14:00:00,League Two,232,0.98,0.008,0.992,2025-09-01T07:08:00.566032
+2700,Swindon Town vs Bromley,Swindon Town,Bromley,2025-09-27 14:00:00,League Two,232,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+18654,Everton vs West Ham United,Everton,West Ham United,2025-09-27 14:00:00,Premier League,228,0.86,0.017,0.983,2025-09-01T07:08:00.566032
+18655,Newcastle United vs Arsenal,Newcastle United,Arsenal,2025-09-27 14:00:00,Premier League,228,0.76,0.025,0.975,2025-09-01T07:08:00.566032
+17815,Aston Villa vs Fulham,Aston Villa,Fulham,2025-09-27 14:00:00,Premier League,228,2.79,0.463,0.537,2025-09-01T07:08:00.566032
+17816,Nottingham Forest vs Sunderland,Nottingham Forest,Sunderland,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+17817,Chelsea vs Brighton & Hove Albion,Chelsea,Brighton & Hove Albion,2025-09-27 14:00:00,Premier League,228,2.84,0.744,0.256,2025-09-01T07:08:00.566032
+17818,Brentford vs Manchester United,Brentford,Manchester United,2025-09-27 14:00:00,Premier League,228,4.55,0.919,0.081,2025-09-01T07:08:00.566032
+2147,West Bromwich Albion vs Leicester City,West Bromwich Albion,Leicester City,2025-09-27 14:00:00,Championship,229,2.91,0.422,0.578,2025-09-01T07:08:00.566032
+2146,Watford vs Hull City,Watford,Hull City,2025-09-27 14:00:00,Championship,229,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+2145,Ipswich Town vs Portsmouth,Ipswich Town,Portsmouth,2025-09-27 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2144,Southampton vs Middlesbrough,Southampton,Middlesbrough,2025-09-27 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2143,Swansea City vs Millwall,Swansea City,Millwall,2025-09-27 14:00:00,Championship,229,0.0,0.001,0.999,2025-09-01T07:08:00.566032
+2142,Oxford United vs Sheffield United,Oxford United,Sheffield United,2025-09-27 14:00:00,Championship,229,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+2141,Preston North End vs Bristol City,Preston North End,Bristol City,2025-09-27 14:00:00,Championship,229,3.81,0.798,0.202,2025-09-01T07:08:00.566032
+2140,Stoke City vs Norwich City,Stoke City,Norwich City,2025-09-27 14:00:00,Championship,229,3.81,0.798,0.202,2025-09-01T07:08:00.566032
+2139,Sheffield Wednesday vs Queens Park Rangers,Sheffield Wednesday,Queens Park Rangers,2025-09-27 14:00:00,Championship,229,1.95,0.203,0.797,2025-09-01T07:08:00.566032
+2138,Charlton Athletic vs Blackburn Rovers,Charlton Athletic,Blackburn Rovers,2025-09-27 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19072,Crystal Palace vs Liverpool,Crystal Palace,Liverpool,2025-09-27 14:00:00,Premier League,228,2.72,0.56,0.44,2025-09-01T07:08:00.566032
+18230,Crystal Palace vs Liverpool,Crystal Palace,Liverpool,2025-09-27 14:00:00,Premier League,228,2.72,0.56,0.44,2025-09-01T07:08:00.566032
+18231,Manchester City vs Burnley,Manchester City,Burnley,2025-09-27 14:00:00,Premier League,228,2.85,0.612,0.388,2025-09-01T07:08:00.566032
+18232,Leeds United vs AFC Bournemouth,Leeds United,AFC Bournemouth,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18233,Everton vs West Ham United,Everton,West Ham United,2025-09-27 14:00:00,Premier League,228,0.86,0.017,0.983,2025-09-01T07:08:00.566032
+18234,Newcastle United vs Arsenal,Newcastle United,Arsenal,2025-09-27 14:00:00,Premier League,228,0.76,0.025,0.975,2025-09-01T07:08:00.566032
+18235,Tottenham Hotspur vs Wolverhampton Wanderers,Tottenham Hotspur,Wolverhampton Wanderers,2025-09-27 14:00:00,Premier League,228,2.55,0.571,0.429,2025-09-01T07:08:00.566032
+18236,Aston Villa vs Fulham,Aston Villa,Fulham,2025-09-27 14:00:00,Premier League,228,2.79,0.463,0.537,2025-09-01T07:08:00.566032
+18237,Nottingham Forest vs Sunderland,Nottingham Forest,Sunderland,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+18238,Chelsea vs Brighton & Hove Albion,Chelsea,Brighton & Hove Albion,2025-09-27 14:00:00,Premier League,228,2.84,0.744,0.256,2025-09-01T07:08:00.566032
+18239,Brentford vs Manchester United,Brentford,Manchester United,2025-09-27 14:00:00,Premier League,228,4.55,0.919,0.081,2025-09-01T07:08:00.566032
+2137,Wrexham vs Derby County,Wrexham,Derby County,2025-09-27 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2136,Coventry City vs Birmingham City,Coventry City,Birmingham City,2025-09-27 14:00:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1726,Manchester City vs Burnley,Manchester City,Burnley,2025-09-27 14:00:00,Premier League,228,2.85,0.612,0.388,2025-09-01T07:08:00.566032
+1725,Everton vs West Ham United,Everton,West Ham United,2025-09-27 14:00:00,Premier League,228,0.86,0.017,0.983,2025-09-01T07:08:00.566032
+1724,Chelsea vs Brighton & Hove Albion,Chelsea,Brighton & Hove Albion,2025-09-27 14:00:00,Premier League,228,2.84,0.744,0.256,2025-09-01T07:08:00.566032
+1723,Nottingham Forest vs Sunderland,Nottingham Forest,Sunderland,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1722,Aston Villa vs Fulham,Aston Villa,Fulham,2025-09-27 14:00:00,Premier League,228,2.79,0.463,0.537,2025-09-01T07:08:00.566032
+1720,Newcastle United vs Arsenal,Newcastle United,Arsenal,2025-09-27 14:00:00,Premier League,228,0.76,0.025,0.975,2025-09-01T07:08:00.566032
+1719,Brentford vs Manchester United,Brentford,Manchester United,2025-09-27 14:00:00,Premier League,228,4.55,0.919,0.081,2025-09-01T07:08:00.566032
+1718,Crystal Palace vs Liverpool,Crystal Palace,Liverpool,2025-09-27 14:00:00,Premier League,228,2.72,0.56,0.44,2025-09-01T07:08:00.566032
+1717,Leeds United vs AFC Bournemouth,Leeds United,AFC Bournemouth,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19073,Manchester City vs Burnley,Manchester City,Burnley,2025-09-27 14:00:00,Premier League,228,2.85,0.612,0.388,2025-09-01T07:08:00.566032
+19074,Leeds United vs AFC Bournemouth,Leeds United,AFC Bournemouth,2025-09-27 14:00:00,Premier League,228,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+19075,Everton vs West Ham United,Everton,West Ham United,2025-09-27 14:00:00,Premier League,228,0.86,0.017,0.983,2025-09-01T07:08:00.566032
+19076,Newcastle United vs Arsenal,Newcastle United,Arsenal,2025-09-27 14:00:00,Premier League,228,0.76,0.025,0.975,2025-09-01T07:08:00.566032
+5072,MTK vs Kisvarda,MTK,Kisvarda,2025-09-27 15:00:00,NB I,248,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3793,Freiburg vs Hoffenheim,Freiburg,Hoffenheim,2025-09-27 15:00:00,Bundesliga,241,2.8,0.577,0.423,2025-09-01T07:08:00.566032
+3794,Borussia M'gladbach vs Eintracht Frankfurt,Borussia M'gladbach,Eintracht Frankfurt,2025-09-27 15:00:00,Bundesliga,241,1.85,0.118,0.882,2025-09-01T07:08:00.566032
+3795,St. Pauli vs Bayer Leverkusen,St. Pauli,Bayer Leverkusen,2025-09-27 15:00:00,Bundesliga,241,2.54,0.515,0.485,2025-09-01T07:08:00.566032
+3796,FC Cologne vs Stuttgart,FC Cologne,Stuttgart,2025-09-27 15:00:00,Bundesliga,241,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3797,Bayern Munich vs Werder Bremen,Bayern Munich,Werder Bremen,2025-09-27 15:00:00,Bundesliga,241,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+3798,Wolfsburg vs RB Leipzig,Wolfsburg,RB Leipzig,2025-09-27 15:00:00,Bundesliga,241,5.6,0.919,0.081,2025-09-01T07:08:00.566032
+3799,Mainz vs Borussia Dortmund,Mainz,Borussia Dortmund,2025-09-27 15:00:00,Bundesliga,241,3.81,0.83,0.17,2025-09-01T07:08:00.566032
+3800,Union Berlin vs Hamburg,Union Berlin,Hamburg,2025-09-27 15:00:00,Bundesliga,241,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3801,Heidenheim vs Augsburg,Heidenheim,Augsburg,2025-09-27 15:00:00,Bundesliga,241,2.73,0.577,0.423,2025-09-01T07:08:00.566032
+4131,Bochum vs Fortuna Dusseldorf,Bochum,Fortuna Dusseldorf,2025-09-27 15:00:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4132,Elversberg vs Holstein Kiel,Elversberg,Holstein Kiel,2025-09-27 15:00:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4133,Darmstadt vs Dynamo Dresden,Darmstadt,Dynamo Dresden,2025-09-27 15:00:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4134,Schalke 04 vs Greuther Furth,Schalke 04,Greuther Furth,2025-09-27 15:00:00,2. Bundesliga,242,5.75,0.839,0.161,2025-09-01T07:08:00.566032
+4135,Preussen Munster vs Eintracht Braunschweig,Preussen Munster,Eintracht Braunschweig,2025-09-27 15:00:00,2. Bundesliga,242,1.63,0.012,0.988,2025-09-01T07:08:00.566032
+4136,Paderborn vs Kaiserslautern,Paderborn,Kaiserslautern,2025-09-27 15:00:00,2. Bundesliga,242,5.6,0.919,0.081,2025-09-01T07:08:00.566032
+4137,Karlsruhe vs Magdeburg,Karlsruhe,Magdeburg,2025-09-27 15:00:00,2. Bundesliga,242,3.88,0.83,0.17,2025-09-01T07:08:00.566032
+4138,Hannover 96 vs Arminia Bielefeld,Hannover 96,Arminia Bielefeld,2025-09-27 15:00:00,2. Bundesliga,242,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4766,Asteras Tripolis vs PAOK,Asteras Tripolis,PAOK,2025-09-27 15:00:00,Super League 1,245,2.6,0.33,0.67,2025-09-01T07:08:00.566032
+4767,Olympiakos vs Levadiakos,Olympiakos,Levadiakos,2025-09-27 15:00:00,Super League 1,245,2.61,0.615,0.385,2025-09-01T07:08:00.566032
+4768,Panaitolikos vs Panathinaikos,Panaitolikos,Panathinaikos,2025-09-27 15:00:00,Super League 1,245,2.6,0.33,0.67,2025-09-01T07:08:00.566032
+4769,Atromitos vs Larissa,Atromitos,Larissa,2025-09-27 15:00:00,Super League 1,245,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+4770,Aris Women vs Panserraikos,Aris Women,Panserraikos,2025-09-27 15:00:00,Super League 1,245,0.11,0.002,0.998,2025-09-01T07:08:00.566032
+4771,AEK Athens vs Volos NFC,AEK Athens,Volos NFC,2025-09-27 15:00:00,Super League 1,245,3.93,0.85,0.15,2025-09-01T07:08:00.566032
+4772,OFI vs Kifisia,OFI,Kifisia,2025-09-27 15:00:00,Super League 1,245,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5071,None vs None,None,None,2025-09-27 15:00:00,NB I,248,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+5073,Gyori ETO vs Ferencvaros,Gyori ETO,Ferencvaros,2025-09-27 15:00:00,NB I,248,2.89,0.545,0.455,2025-09-01T07:08:00.566032
+5074,Diosgyor vs Debrecen,Diosgyor,Debrecen,2025-09-27 15:00:00,NB I,248,3.27,0.554,0.446,2025-09-01T07:08:00.566032
+5075,Ujpest vs Nyiregyhaza Spartacus,Ujpest,Nyiregyhaza Spartacus,2025-09-27 15:00:00,NB I,248,0.88,0.04,0.96,2025-09-01T07:08:00.566032
+5076,Paksi FC vs Puskas,Paksi FC,Puskas,2025-09-27 15:00:00,NB I,248,2.82,0.615,0.385,2025-09-01T07:08:00.566032
+1623,SonderjyskE vs FC Copenhagen,SonderjyskE,FC Copenhagen,2025-09-27 16:00:00,Superliga,225,1.85,0.118,0.882,2025-09-01T07:08:00.566032
+5279,Persis Solo vs Arema,Persis Solo,Arema,2025-09-28 08:30:00,Liga 1,251,1.32,0.062,0.938,2025-09-01T07:08:00.566032
+4139,Nurnberg vs Hertha Berlin,Nurnberg,Hertha Berlin,2025-09-28 11:30:00,2. Bundesliga,242,0.87,0.007,0.993,2025-09-01T07:08:00.566032
+5280,Borneo vs Persija,Borneo,Persija,2025-09-28 12:00:00,Liga 1,251,1.47,0.138,0.862,2025-09-01T07:08:00.566032
+1624,Viborg vs Fredericia,Viborg,Fredericia,2025-09-28 12:00:00,Superliga,225,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3802,Freiburg vs Hoffenheim,Freiburg,Hoffenheim,2025-09-28 13:30:00,Bundesliga,241,2.8,0.577,0.423,2025-09-01T07:08:00.566032
+1625,Silkeborg vs Vejle,Silkeborg,Vejle,2025-09-28 14:00:00,Superliga,225,2.54,0.615,0.385,2025-09-01T07:08:00.566032
+3192,Angers vs Brest,Angers,Brest,2025-09-28 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3193,Metz vs Le Havre,Metz,Le Havre,2025-09-28 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3196,PSG vs Auxerre,PSG,Auxerre,2025-09-28 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3195,Lorient vs Monaco,Lorient,Monaco,2025-09-28 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3194,Toulouse vs Nantes,Toulouse,Nantes,2025-09-28 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3188,Lille vs Lyon,Lille,Lyon,2025-09-28 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3189,Rennes vs Lens,Rennes,Lens,2025-09-28 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3190,Nice vs Paris FC,Nice,Paris FC,2025-09-28 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3191,Strasbourg vs Marseille,Strasbourg,Marseille,2025-09-28 15:00:00,Ligue 1,235,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+3803,FC Cologne vs Stuttgart,FC Cologne,Stuttgart,2025-09-28 15:30:00,Bundesliga,241,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1626,Nordsjaelland vs AGF,Nordsjaelland,AGF,2025-09-28 16:00:00,Superliga,225,2.73,0.577,0.423,2025-09-01T07:08:00.566032
+3804,Union Berlin vs Hamburg,Union Berlin,Hamburg,2025-09-28 17:30:00,Bundesliga,241,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1627,Brondby vs OB,Brondby,OB,2025-09-28 18:00:00,Superliga,225,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+1628,Midtjylland vs Randers,Midtjylland,Randers,2025-09-29 17:00:00,Superliga,225,4.62,0.919,0.081,2025-09-01T07:08:00.566032
+2150,Leicester City vs Wrexham,Leicester City,Wrexham,2025-09-30 18:45:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2149,Derby County vs Charlton Athletic,Derby County,Charlton Athletic,2025-09-30 18:45:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2152,Bristol City vs Ipswich Town,Bristol City,Ipswich Town,2025-09-30 18:45:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2148,Hull City vs Preston North End,Hull City,Preston North End,2025-09-30 18:45:00,Championship,229,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+2155,Sheffield United vs Southampton,Sheffield United,Southampton,2025-09-30 18:45:00,Championship,229,2.6,0.33,0.67,2025-09-01T07:08:00.566032
+2151,Blackburn Rovers vs Swansea City,Blackburn Rovers,Swansea City,2025-09-30 18:45:00,Championship,229,1.85,0.203,0.797,2025-09-01T07:08:00.566032
+2154,Birmingham City vs Sheffield Wednesday,Birmingham City,Sheffield Wednesday,2025-09-30 18:45:00,Championship,229,2.8,0.378,0.622,2025-09-01T07:08:00.566032
+2153,Middlesbrough vs Stoke City,Middlesbrough,Stoke City,2025-09-30 18:45:00,Championship,229,2.98,0.517,0.483,2025-09-01T07:08:00.566032

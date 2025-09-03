@@ -1,0 +1,55 @@
+{
+  "leagues": {
+    "203": {
+      "name": "Premier League",
+      "team_pairs": [
+        {
+          "team1_id": 2689,
+          "team2_id": 2693,
+          "priority": "HIGH",
+          "description": "Active fixture teams"
+        },
+        {
+          "team1_id": 2689,
+          "team2_id": 2749,
+          "priority": "MEDIUM",
+          "description": "Common matchup"
+        },
+        {
+          "team1_id": 3258,
+          "team2_id": 3259,
+          "priority": "MEDIUM",
+          "description": "Velez vs Zeljeznicar"
+        },
+        {
+          "team1_id": 2920,
+          "team2_id": 2928,
+          "priority": "LOW",
+          "description": "Dinamo Zagreb vs HNK Gorica"
+        }
+      ]
+    },
+    "204": {
+      "name": "La Liga",
+      "team_pairs": [
+        {
+          "team1_id": 4061,
+          "team2_id": 4063,
+          "priority": "HIGH",
+          "description": "Herediano vs Alajuelense"
+        }
+      ]
+    },
+    "205": {
+      "name": "Serie A",
+      "team_pairs": [
+        {
+          "team1_id": 3262,
+          "team2_id": 3263,
+          "priority": "MEDIUM",
+          "description": "Borac Banja Luka vs Zrinjski"
+        }
+      ]
+    }
+  }
+}

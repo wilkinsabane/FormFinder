@@ -38,6 +38,8 @@ from pydantic import BaseModel, ValidationError, Field
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+from .database import DatabaseManager, League, Team, Fixture, Standing as DBStanding, Prediction
+from .weather_fetcher import WeatherFetcher
 
 
 
@@ -295,24 +297,8 @@ class EnhancedDataFetcher:
             config.api.rate_limit_period
         )
         self.cache = CacheManager("data/cache", config.processing.cache_ttl_hours)
-        
-        # Setup directories
-        self.directories = {
-            'logs': 'data/logs',
-            'historical': 'data/historical',
-            'fixtures': 'data/fixtures',
-            'standings': 'data/standings',
-            'cache': 'data/cache'
-        }
-        
-        for directory in self.directories.values():
-            os.makedirs(directory, exist_ok=True)
-        
-        # Setup session with retry strategy
-        self.session = self._create_session()
-        
-        league_ids = self.config.processing.league_ids or []
-        self.logger.info(f"Initialized EnhancedDataFetcher for {len(league_ids)} leagues")
+        self.db_manager = DatabaseManager()
+        self.db_manager.create_tables()
     
     def _create_session(self) -> requests.Session:
         """Create requests session with retry strategy."""
@@ -344,7 +330,7 @@ class EnhancedDataFetcher:
         
         for attempt in range(max_retries + 1):
             try:
-                async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=15)) as session:  # Reduce timeout from 30 to 15
+                async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=15), headers={'Accept-Encoding': 'gzip'}) as session:
                     async with session.get(url, params=params) as response:
                         if response.status == 200:
                             data = await response.json()
@@ -474,13 +460,27 @@ class EnhancedDataFetcher:
     
     def _create_match_from_data(self, match_data: Dict[str, Any], league_name: str) -> Match:
         """Create Match object from API data."""
+        # Safely parse team IDs as integers
+        home_team_id = match_data.get('teams', {}).get('home', {}).get('id')
+        away_team_id = match_data.get('teams', {}).get('away', {}).get('id')
+        
+        try:
+            home_team_id = int(home_team_id) if home_team_id is not None else 0
+        except (ValueError, TypeError):
+            home_team_id = 0
+            
+        try:
+            away_team_id = int(away_team_id) if away_team_id is not None else 0
+        except (ValueError, TypeError):
+            away_team_id = 0
+            
         return Match(
             id=str(match_data.get('id', 'N/A')),
             date=match_data.get('date', 'N/A'),
             time=match_data.get('time', 'N/A'),
-            home_team_id=str(match_data.get('teams', {}).get('home', {}).get('id', 'N/A')),
+            home_team_id=home_team_id,
             home_team_name=match_data.get('teams', {}).get('home', {}).get('name', 'N/A'),
-            away_team_id=str(match_data.get('teams', {}).get('away', {}).get('id', 'N/A')),
+            away_team_id=away_team_id,
             away_team_name=match_data.get('teams', {}).get('away', {}).get('name', 'N/A'),
             status=match_data.get('status', 'N/A'),
             home_score=str(match_data.get('goals', {}).get('home_ft_goals', 'N/A')),
@@ -488,51 +488,151 @@ class EnhancedDataFetcher:
             league_name=league_name
         )
     
-    async def fetch_upcoming_fixtures(self) -> Dict[int, List[Match]]:
-        """Fetch upcoming fixtures for all configured leagues."""
-        self.logger.info("Fetching upcoming fixtures")
-        
-        url = f"{self.config.api.base_url}/match-previews-upcoming/"
-        params = {'auth_token': self.config.api.auth_token}
-        
-        data = await self._make_request(url, params)
-        if not data or 'results' not in data:
-            self.logger.error("No upcoming fixtures data received")
-            return {}
-        
-        fixtures_by_league = {}
-        for league_fixture_data in data['results']:
-            league_id = league_fixture_data.get('league_id')
-            league_ids = self.config.processing.league_ids or []
-            if league_id in league_ids and 'match_previews' in league_fixture_data:
-                fixtures = []
-                for preview in league_fixture_data['match_previews']:
-                    try:
-                        match = self._create_match_from_preview(preview)
-                        fixtures.append(match)
-                    except Exception as e:
-                        self.logger.warning(f"Error processing fixture {preview.get('id')}: {e}")
+    async def fetch_matches_to_db(self, matches: List[Match], league_id: int, is_historical: bool = False):
+        """Save matches to database."""
+        from .database import get_db_session
+        with get_db_session() as session:
+            league = session.query(League).filter_by(id=league_id).first()
+            if not league:
+                self.logger.warning(f"League {league_id} not found in DB")
+                return
+    
+            # Collect unique teams
+            unique_teams = {}
+            for match in matches:
+                if match.home_team_id not in unique_teams:
+                    unique_teams[match.home_team_id] = match.home_team_name
+                if match.away_team_id not in unique_teams:
+                    unique_teams[match.away_team_id] = match.away_team_name
+    
+            # Merge unique teams
+            for team_id, name in unique_teams.items():
+                team = Team(id=team_id, league_id=league_id, name=name)
+                session.merge(team)
+            session.commit()
+    
+            # Get existing fixtures to avoid duplicates
+            existing_fixtures = set()
+            db_fixtures = session.query(Fixture.api_fixture_id).filter(
+                Fixture.league_id == league_id,
+                Fixture.api_fixture_id.isnot(None)
+            ).all()
+            
+            for (api_fixture_id,) in db_fixtures:
+                existing_fixtures.add(api_fixture_id)
+            
+            # Now add fixtures (skip duplicates)
+            added_count = 0
+            skipped_count = 0
+            
+            for match in matches:
+                # Skip if fixture already exists
+                if match.id in existing_fixtures:
+                    skipped_count += 1
+                    self.logger.debug(f'Skipping duplicate fixture with api_fixture_id: {match.id}')
+                    continue
+                    
+                match_date = datetime.strptime(match.date + ' ' + match.time, '%Y-%m-%d %H:%M') if match.time != 'N/A' else datetime.strptime(match.date, '%Y-%m-%d')
+                fixture = Fixture(
+                    api_fixture_id=match.id,
+                    league_id=league_id,
+                    home_team_id=match.home_team_id,
+                    away_team_id=match.away_team_id,
+                    match_date=match_date,
+                    status=match.status,
+                    home_score=int(match.home_score) if match.home_score != 'N/A' and is_historical else None,
+                    away_score=int(match.away_score) if match.away_score != 'N/A' and is_historical else None
+                )
+                session.add(fixture)
+                added_count += 1
                 
-                fixtures_by_league[league_id] = fixtures
+            session.commit()
+            
+            if skipped_count > 0:
+                self.logger.info(f'Added {added_count} new fixtures, skipped {skipped_count} duplicates for league {league_id}')
+            else:
+                self.logger.info(f'Added {added_count} new fixtures for league {league_id}')
+
+    async def fetch_standings_to_db(self, standings: List[Standing], league_id: int, season: str):
+        """Save standings to database with upsert logic."""
+        from .database import get_db_session
+        from sqlalchemy.exc import IntegrityError
+        from datetime import datetime
         
-        self.logger.info(f"Fetched upcoming fixtures for {len(fixtures_by_league)} leagues")
-        return fixtures_by_league
-    
-    def _create_match_from_preview(self, preview_data: Dict[str, Any]) -> Match:
-        """Create Match object from preview data."""
-        return Match(
-            id=str(preview_data.get('id', 'N/A')),
-            date=preview_data.get('date', 'N/A'),
-            time=preview_data.get('time', 'N/A'),
-            home_team_id=str(preview_data.get('teams', {}).get('home', {}).get('id', 'N/A')),
-            home_team_name=preview_data.get('teams', {}).get('home', {}).get('name', 'N/A'),
-            away_team_id=str(preview_data.get('teams', {}).get('away', {}).get('id', 'N/A')),
-            away_team_name=preview_data.get('teams', {}).get('away', {}).get('name', 'N/A'),
-            status='scheduled',
-            home_score='N/A',
-            away_score='N/A'
-        )
-    
+        try:
+            with get_db_session() as session:
+                league = session.query(League).filter_by(id=league_id).first()
+                if not league:
+                    self.logger.warning(f"League {league_id} not found in DB")
+                    return
+                
+                saved_count = 0
+                for standing in standings:
+                    try:
+                        # Get or create team
+                        team = session.query(Team).filter_by(id=standing.team_id).first()
+                        if not team:
+                            team = Team(id=standing.team_id, league_id=league_id, name=standing.team_name)
+                            session.add(team)
+                            session.flush()  # Ensure team is created before standing
+                        
+                        # Check if standing already exists for this season
+                        existing_standing = session.query(DBStanding).filter_by(
+                            league_id=league_id,
+                            team_id=standing.team_id,
+                            season=season
+                        ).first()
+                        
+                        if existing_standing:
+                            # Update existing standing
+                            existing_standing.position = standing.position
+                            existing_standing.played = standing.games_played
+                            existing_standing.won = standing.wins
+                            existing_standing.drawn = standing.draws
+                            existing_standing.lost = standing.losses
+                            existing_standing.goals_for = standing.goals_for
+                            existing_standing.goals_against = standing.goals_against
+                            existing_standing.points = standing.points
+                            if hasattr(existing_standing, 'updated_at'):
+                                existing_standing.updated_at = datetime.utcnow()
+                            
+                            self.logger.debug(f"Updated standing for {standing.team_name}")
+                        else:
+                            # Create new standing
+                            db_standing = DBStanding(
+                                league_id=league_id,
+                                team_id=standing.team_id,
+                                season=season,
+                                position=standing.position,
+                                played=standing.games_played,
+                                won=standing.wins,
+                                drawn=standing.draws,
+                                lost=standing.losses,
+                                goals_for=standing.goals_for,
+                                goals_against=standing.goals_against,
+                                points=standing.points
+                            )
+                            session.add(db_standing)
+                            self.logger.debug(f"Created standing for {standing.team_name}")
+                        
+                        saved_count += 1
+                        
+                    except IntegrityError as e:
+                        session.rollback()
+                        self.logger.error(f"IntegrityError saving standing for {standing.team_name}: {e}")
+                        # Try to continue with next standing
+                        continue
+                    except Exception as e:
+                        self.logger.error(f"Error saving standing for {standing.team_name}: {e}")
+                        continue
+                
+                session.commit()
+                self.logger.info(f"Successfully saved/updated {saved_count} standings for league {league_id}")
+                
+        except Exception as e:
+            self.logger.error(f"Error saving standings to database for league {league_id}: {e}")
+            raise
+
     async def fetch_standings_async(self, league_id: int, league_name: str) -> List[Standing]:
         """Fetch standings for a league."""
         self.logger.info(f"Fetching standings for {league_name} (ID: {league_id})")
@@ -554,9 +654,16 @@ class EnhancedDataFetcher:
                 if isinstance(stage_data, dict) and 'standings' in stage_data:
                     for standing_data in stage_data['standings']:
                         try:
+                            # Safely parse team_id as integer
+                            team_id = standing_data.get('team_id')
+                            try:
+                                team_id = int(team_id) if team_id is not None else 0
+                            except (ValueError, TypeError):
+                                team_id = 0
+                                
                             standing = Standing(
                                 position=int(standing_data.get('position', 0)),
-                                team_id=str(standing_data.get('team_id', 'N/A')),
+                                team_id=team_id,
                                 team_name=standing_data.get('team_name', 'N/A'),
                                 games_played=int(standing_data.get('games_played', 0)),
                                 points=int(standing_data.get('points', 0)),
@@ -791,6 +898,7 @@ class EnhancedDataFetcher:
                 matches = await self.fetch_historical_matches(league_id, league_name)
                 if matches:
                     self.save_matches_to_csv(matches, historical_file)
+                    await self.fetch_matches_to_db(matches, league_id, is_historical=True)
                     self.logger.info(f"Historical matches task completed for {league_name} in {time.time() - start_time:.2f}s")
                 else:
                     self.logger.warning(f"No historical matches found for {league_name}")
@@ -821,6 +929,7 @@ class EnhancedDataFetcher:
                 standings = await self.fetch_standings(league_id, league_name)
                 if standings:
                     self.save_standings_to_csv(standings, standings_file)
+                    await self.fetch_standings_to_db(standings, league_id, self.config.processing.season_year)
                     self.logger.info(f"Standings task completed for {league_name} in {time.time() - start_time:.2f}s")
                 else:
                     self.logger.warning(f"No standings found for {league_name}")
@@ -854,8 +963,9 @@ class EnhancedDataFetcher:
                     # Update league names for fixtures
                     for fixture in fixtures:
                         fixture.league_name = league_name
-                    
+                        
                     self.save_matches_to_csv(fixtures, fixtures_file)
+                    await self.fetch_matches_to_db(fixtures, league_id, is_historical=False)
                     self.logger.info(f"Fixtures task completed for {league_name} in {time.time() - start_time:.2f}s")
                 else:
                     self.logger.warning(f"No upcoming fixtures found for {league_name}")
@@ -868,29 +978,50 @@ class EnhancedDataFetcher:
         """Fetch upcoming fixtures for a specific league."""
         self.logger.info(f"Fetching upcoming fixtures for {league_name} (ID: {league_id})")
         
-        url = f"{self.config.api.base_url}/match-previews-upcoming/"
+        url = f"{self.config.api.base_url}/matches/"
         params = {
             'auth_token': self.config.api.auth_token,
-            'league_id': league_id  # Filter by specific league if API supports it
+            'league_id': league_id,
+            'season': self.config.processing.season_year
         }
         
         data = await self._make_request(url, params)
-        if not data or 'results' not in data:
+        if not data:
             self.logger.error(f"No upcoming fixtures data received for {league_name}")
             return []
         
         fixtures = []
-        for league_fixture_data in data['results']:
-            # Check if this is the league we want
-            if league_fixture_data.get('league_id') == league_id and 'match_previews' in league_fixture_data:
-                for preview in league_fixture_data['match_previews']:
-                    try:
-                        match = self._create_match_from_preview(preview)
-                        match.league_name = league_name
-                        fixtures.append(match)
-                    except Exception as e:
-                        self.logger.warning(f"Error processing fixture {preview.get('id')} for {league_name}: {e}")
-                break
+        
+        # Handle the API response structure for upcoming matches
+        # Expecting: [ { "league_id": ..., "stage": [ { "matches": [ ... ] } ] } ]
+        try:
+            if isinstance(data, list) and len(data) > 0:
+                league_data_item = data[0]  # First item in the outer list
+
+                if isinstance(league_data_item, dict) and \
+                  'stage' in league_data_item and \
+                  isinstance(league_data_item['stage'], list) and \
+                  len(league_data_item['stage']) > 0:
+                    
+                    # Process all stages for upcoming matches
+                    for stage_item in league_data_item['stage']:
+                        if isinstance(stage_item, dict) and \
+                          'matches' in stage_item and \
+                          isinstance(stage_item['matches'], list):
+                            
+                            actual_matches_list = stage_item['matches']
+                            self.logger.info(f"API returned {len(actual_matches_list)} match entries in stage '{stage_item.get('stage_name', 'N/A')}' for {league_name}")
+                            
+                            for match_data_dict in actual_matches_list:
+                                # Filter for upcoming/not started matches
+                                if isinstance(match_data_dict, dict) and match_data_dict.get('status') in ['notstarted', 'scheduled', 'upcoming', 'pre-match']:
+                                    try:
+                                        match = self._create_match_from_data(match_data_dict, league_name)
+                                        fixtures.append(match)
+                                    except Exception as e:
+                                        self.logger.warning(f"Error processing fixture {match_data_dict.get('id')} for {league_name}: {e}")
+        except Exception as e:
+            self.logger.error(f"Error parsing upcoming fixtures for {league_name}: {e}")
         
         self.logger.info(f"Fetched {len(fixtures)} upcoming fixtures for {league_name}")
         return fixtures
@@ -904,43 +1035,54 @@ class EnhancedDataFetcher:
                 self.logger.info("Starting combined fixtures task for all leagues")
                 start_time = time.time()
                 
-                # Fetch all upcoming fixtures
-                url = f"{self.config.api.base_url}/match-previews-upcoming/"
-                params = {'auth_token': self.config.api.auth_token}
+                # Fetch all upcoming fixtures using the correct endpoint
+                url = f"{self.config.api.base_url}/matches/"
+                params = {
+                    'auth_token': self.config.api.auth_token,
+                    'season': self.config.processing.season_year
+                }
                 
                 data = await self._make_request(url, params)
-                if not data or 'results' not in data:
+                if not data:
                     self.logger.error("No upcoming fixtures data received")
                     return
                 
                 # Group fixtures by league
                 fixtures_by_league = {}
-                for league_fixture_data in data['results']:
-                    league_id = league_fixture_data.get('league_id')
-                    league_ids = self.config.processing.league_ids or []
-                    if league_id in league_ids and 'match_previews' in league_fixture_data:
-                        fixtures = []
-                        league_name = all_leagues.get(league_id, f"League-{league_id}")
+                
+                # Process all leagues in the response
+                if isinstance(data, list):
+                    for league_data_item in data:
+                        league_id = league_data_item.get('league_id')
+                        league_ids = self.config.processing.league_ids or []
                         
-                        for preview in league_fixture_data['match_previews']:
-                            try:
-                                match = self._create_match_from_preview(preview)
-                                match.league_name = league_name
-                                fixtures.append(match)
-                            except Exception as e:
-                                self.logger.warning(f"Error processing fixture {preview.get('id')}: {e}")
-                        
-                        fixtures_by_league[league_id] = fixtures
+                        if league_id in league_ids and 'stage' in league_data_item:
+                            league_name = all_leagues.get(league_id, f"League-{league_id}")
+                            fixtures = []
+                            
+                            # Process all stages for this league
+                            for stage_item in league_data_item['stage']:
+                                if 'matches' in stage_item and isinstance(stage_item['matches'], list):
+                                    for match_data_dict in stage_item['matches']:
+                                        # Filter for upcoming matches
+                                        if match_data_dict.get('status') in ['notstarted', 'scheduled', 'upcoming', 'pre-match']:
+                                            try:
+                                                match = self._create_match_from_data(match_data_dict, league_name)
+                                                fixtures.append(match)
+                                            except Exception as e:
+                                                self.logger.warning(f"Error processing fixture {match_data_dict.get('id')}: {e}")
+                            
+                            if fixtures:
+                                fixtures_by_league[league_id] = fixtures
                 
                 # Save fixtures for each league
                 for league_id, fixtures in fixtures_by_league.items():
-                    if fixtures:
-                        league_name = all_leagues.get(league_id, f"League-{league_id}")
-                        fixtures_file = os.path.join(
-                            self.directories['fixtures'],
-                            f"league_{league_id}_upcoming_fixtures.csv"
-                        )
-                        self.save_matches_to_csv(fixtures, fixtures_file)
+                    league_name = all_leagues.get(league_id, f"League-{league_id}")
+                    fixtures_file = os.path.join(
+                        self.directories['fixtures'],
+                        f"league_{league_id}_upcoming_fixtures.csv"
+                    )
+                    self.save_matches_to_csv(fixtures, fixtures_file)
                 
                 self.logger.info(f"Combined fixtures task completed for {len(fixtures_by_league)} leagues in {time.time() - start_time:.2f}s")
                 
@@ -962,26 +1104,39 @@ class EnhancedDataFetcher:
             # Fetch leagues first
             self.logger.info("Fetching all leagues...")
             all_leagues = await self.fetch_leagues()
+            await self.save_leagues_to_db(all_leagues)
             self.logger.info(f"Found {len(all_leagues)} total leagues")
             
             # Create separate tasks for each data type and league combination
             all_tasks = []
             
-            # Option 1: Individual tasks per league (more granular control)
+            # Determine fixtures mode
+            use_combined = getattr(self.config.processing, 'use_combined_fixtures', False)
+            if use_combined:
+                self.logger.info("Using combined fixtures mode (single API call for all leagues)")
+            else:
+                self.logger.info("Using per-league fixtures mode")
             league_ids = self.config.processing.league_ids or []
             for league_id in league_ids:
                 league_name = all_leagues.get(league_id, f"League-{league_id}")
                 self.logger.info(f"Scheduling tasks for {league_name} (ID: {league_id})")
                 
                 # Create separate tasks for each data type
-                all_tasks.extend([
-                    self.fetch_historical_matches_task(league_id, league_name, semaphore),
-                    self.fetch_standings_task(league_id, league_name, semaphore)
-                    # self.fetch_fixtures_task(league_id, league_name, semaphore)
-                ])
+                if use_combined:
+                    all_tasks.extend([
+                        self.fetch_historical_matches_task(league_id, league_name, semaphore),
+                        self.fetch_standings_task(league_id, league_name, semaphore)
+                    ])
+                else:
+                    all_tasks.extend([
+                        self.fetch_historical_matches_task(league_id, league_name, semaphore),
+                        self.fetch_standings_task(league_id, league_name, semaphore),
+                        self.fetch_fixtures_task(league_id, league_name, semaphore)
+                    ])
             
             # Option 2: Combined fixtures task (uncomment if you prefer single fixtures call)
-            all_tasks.append(self.fetch_all_fixtures_task(all_leagues, semaphore))
+            if use_combined:
+                all_tasks.append(self.fetch_all_fixtures_task(all_leagues, semaphore))
             
             self.logger.info(f"Executing {len(all_tasks)} tasks in parallel with max {max_concurrent} concurrent requests")
             
@@ -1011,6 +1166,308 @@ class EnhancedDataFetcher:
             self.logger.error(f"Critical error in optimized run: {e}", exc_info=True)
             raise
     
+    async def fetch_detailed_match_info(self, match_id: int) -> Optional[Dict[str, Any]]:
+        """
+        Fetch detailed match information including stadium, events, formation, and odds.
+        
+        Args:
+            match_id (int): The ID of the match to fetch detailed information for
+            
+        Returns:
+            Optional[Dict[str, Any]]: Detailed match data or None if failed
+        """
+        self.logger.info(f"Fetching detailed match information for match ID: {match_id}")
+        
+        url = f"{self.config.api.base_url}/match/"
+        params = {
+            'match_id': match_id,
+            'auth_token': self.config.api.auth_token
+        }
+        
+        try:
+            data = await self._make_request(url, params)
+            if not data:
+                self.logger.error(f"No detailed match data received for match ID: {match_id}")
+                return None
+                
+            self.logger.info(f"Successfully fetched detailed match data for match ID: {match_id}")
+            return data
+            
+        except Exception as e:
+            self.logger.error(f"Error fetching detailed match info for match ID {match_id}: {e}", exc_info=True)
+            return None
+    
+    async def save_detailed_match_data(self, match_data: Dict[str, Any]) -> bool:
+        """
+        Save detailed match data to the database including events, odds, and lineups.
+        
+        Args:
+            match_data (Dict[str, Any]): Detailed match data from the API
+            
+        Returns:
+            bool: True if successful, False otherwise
+        """
+        try:
+            match_id = match_data.get('id')
+            if not match_id:
+                self.logger.error("No match ID found in detailed match data")
+                return False
+                
+            self.logger.info(f"Saving detailed match data for match ID: {match_id}")
+            
+            # Import database models
+            from .database import MatchEvent, MatchOdds, MatchLineup, get_db_session
+            from sqlalchemy import select, delete
+            
+            with get_db_session() as session:
+                # Check if fixture exists
+                existing_fixture = session.execute(
+                    select(Fixture).where(Fixture.api_fixture_id == str(match_id))
+                )
+                fixture = existing_fixture.scalar_one_or_none()
+                
+                if not fixture:
+                    self.logger.warning(f"Fixture with API ID {match_id} not found in database") 
+                    return False
+                
+                # Update fixture with additional details
+                self._update_fixture_with_detailed_data(fixture, match_data)
+                
+                # Save events
+                self._save_match_events(session, fixture.id, match_data.get('events', []))
+                
+                # Save odds
+                self._save_match_odds(session, fixture.id, match_data.get('odds', {}))
+                
+                # Save lineups
+                self._save_match_lineups(session, fixture.id, match_data.get('lineups', {}))
+                
+                # Fetch and save weather data
+                await self._fetch_weather_data(session, fixture)
+                
+                session.commit()
+                self.logger.info(f"Successfully saved detailed match data for match ID: {match_id}")
+                return True
+                
+        except Exception as e:
+            self.logger.error(f"Error saving detailed match data: {e}", exc_info=True)
+            return False
+    
+    def _update_fixture_with_detailed_data(self, fixture: Fixture, match_data: Dict[str, Any]):
+        """
+        Update fixture with detailed match data.
+        
+        Args:
+            fixture (Fixture): The fixture object to update
+            match_data (Dict[str, Any]): Detailed match data from API
+        """
+        try:
+            # Update stadium information
+            stadium = match_data.get('stadium', {})
+            if stadium:
+                fixture.stadium_id = stadium.get('id')
+                fixture.stadium_name = stadium.get('name')
+                fixture.stadium_city = stadium.get('city')
+            
+            # Update match details
+            fixture.match_winner = match_data.get('winner')
+            fixture.has_extra_time = match_data.get('has_extra_time', False)
+            fixture.has_penalties = match_data.get('has_penalties', False)
+            fixture.current_minute = match_data.get('minute')
+            
+            # Update goals with extra time and penalties
+            goals = match_data.get('goals', {})
+            if goals:
+                fixture.home_et_goals = goals.get('home_et_goals') if goals.get('home_et_goals', -1) != -1 else None
+                fixture.away_et_goals = goals.get('away_et_goals') if goals.get('away_et_goals', -1) != -1 else None
+                fixture.home_pen_goals = goals.get('home_pen_goals') if goals.get('home_pen_goals', -1) != -1 else None
+                fixture.away_pen_goals = goals.get('away_pen_goals') if goals.get('away_pen_goals', -1) != -1 else None
+            
+            # Update formations
+            lineups = match_data.get('lineups', {})
+            if lineups and 'formation' in lineups:
+                formations = lineups['formation']
+                fixture.home_formation = formations.get('home')
+                fixture.away_formation = formations.get('away')
+                
+        except Exception as e:
+            self.logger.error(f"Error updating fixture with detailed data: {e}", exc_info=True)
+    
+    def _save_match_events(self, session, fixture_id: int, events: List[Dict[str, Any]]):
+        """
+        Save match events to the database.
+        
+        Args:
+            session: Database session
+            fixture_id (int): The fixture ID
+            events (List[Dict[str, Any]]): List of match events
+        """
+        try:
+            from .database import MatchEvent
+            from sqlalchemy import delete
+            
+            # Delete existing events for this fixture
+            session.execute(delete(MatchEvent).where(MatchEvent.fixture_id == fixture_id))
+            
+            for event_data in events:
+                event = MatchEvent(
+                    fixture_id=fixture_id,
+                    event_type=event_data.get('event_type'),
+                    event_minute=event_data.get('event_minute'),
+                    team=event_data.get('team'),
+                    player_id=event_data.get('player', {}).get('id') if event_data.get('player') else None,
+                    player_name=event_data.get('player', {}).get('name') if event_data.get('player') else None,
+                    assist_player_id=event_data.get('assist_player', {}).get('id') if event_data.get('assist_player') else None,
+                    assist_player_name=event_data.get('assist_player', {}).get('name') if event_data.get('assist_player') else None
+                )
+                session.add(event)
+                
+            self.logger.info(f"Saved {len(events)} events for fixture {fixture_id}")
+            
+        except Exception as e:
+            self.logger.error(f"Error saving match events: {e}", exc_info=True)
+    
+    def _save_match_odds(self, session, fixture_id: int, odds_data: Dict[str, Any]):
+        """
+        Save match odds to the database.
+        
+        Args:
+            session: Database session
+            fixture_id (int): The fixture ID
+            odds_data (Dict[str, Any]): Match odds data
+        """
+        try:
+            from .database import MatchOdds
+            from sqlalchemy import delete
+            
+            # Delete existing odds for this fixture
+            session.execute(delete(MatchOdds).where(MatchOdds.fixture_id == fixture_id))
+            
+            if odds_data:
+                match_winner = odds_data.get('match_winner', {})
+                over_under = odds_data.get('over_under', {})
+                handicap = odds_data.get('handicap', {})
+                
+                odds = MatchOdds(
+                    fixture_id=fixture_id,
+                    home_win_odds=match_winner.get('home'),
+                    draw_odds=match_winner.get('draw'),
+                    away_win_odds=match_winner.get('away'),
+                    over_under_total=over_under.get('total'),
+                    over_odds=over_under.get('over'),
+                    under_odds=over_under.get('under'),
+                    handicap_market=handicap.get('market'),
+                    handicap_home_odds=handicap.get('home'),
+                    handicap_away_odds=handicap.get('away'),
+                    last_modified_timestamp=odds_data.get('last_modified_timestamp')
+                )
+                session.add(odds)
+                
+                self.logger.info(f"Saved odds data for fixture {fixture_id}")
+            
+        except Exception as e:
+            self.logger.error(f"Error saving match odds: {e}", exc_info=True)
+    
+    def _save_match_lineups(self, session, fixture_id: int, lineups_data: Dict[str, Any]):
+        """
+        Save match lineups to the database.
+        
+        Args:
+            session: Database session
+            fixture_id (int): The fixture ID
+            lineups_data (Dict[str, Any]): Match lineups data
+        """
+        try:
+            from .database import MatchLineup
+            from sqlalchemy import delete
+            
+            # Delete existing lineups for this fixture
+            session.execute(delete(MatchLineup).where(MatchLineup.fixture_id == fixture_id))
+            
+            if lineups_data and 'lineups' in lineups_data:
+                lineups = lineups_data['lineups']
+                
+                # Save starting lineups
+                for team in ['home', 'away']:
+                    if team in lineups:
+                        for player_data in lineups[team]:
+                            player = player_data.get('player', {})
+                            lineup = MatchLineup(
+                                fixture_id=fixture_id,
+                                player_id=player.get('id'),
+                                player_name=player.get('name'),
+                                team=team,
+                                position=player_data.get('position'),
+                                lineup_type='starting'
+                            )
+                            session.add(lineup)
+                
+                # Save bench players
+                if 'bench' in lineups_data:
+                    bench = lineups_data['bench']
+                    for team in ['home', 'away']:
+                        if team in bench:
+                            for player_data in bench[team]:
+                                player = player_data.get('player', {})
+                                lineup = MatchLineup(
+                                    fixture_id=fixture_id,
+                                    player_id=player.get('id'),
+                                    player_name=player.get('name'),
+                                    team=team,
+                                    position=player_data.get('position'),
+                                    lineup_type='bench'
+                                )
+                                session.add(lineup)
+                
+                # Save sidelined players
+                if 'sidelined' in lineups_data:
+                    sidelined = lineups_data['sidelined']
+                    for team in ['home', 'away']:
+                        if team in sidelined:
+                            for player_data in sidelined[team]:
+                                player = player_data.get('player', {})
+                                lineup = MatchLineup(
+                                    fixture_id=fixture_id,
+                                    player_id=player.get('id'),
+                                    player_name=player.get('name'),
+                                    team=team,
+                                    lineup_type='sidelined',
+                                    status=player_data.get('status'),
+                                    status_description=player_data.get('desc')
+                                )
+                                session.add(lineup)
+                
+                self.logger.info(f"Saved lineup data for fixture {fixture_id}")
+            
+        except Exception as e:
+            self.logger.error(f"Error saving match lineups: {e}", exc_info=True)
+    
+    async def _fetch_weather_data(self, session, fixture: Fixture):
+        """Fetch and save weather data for a fixture.
+        
+        Args:
+            session: Database session
+            fixture: Fixture object to fetch weather data for
+        """
+        try:
+            if not fixture.stadium_city or not fixture.match_date:
+                self.logger.debug(f"Skipping weather fetch for fixture {fixture.id} - missing stadium city or match date")
+                return
+            
+            # Create weather fetcher instance
+            weather_fetcher = WeatherFetcher(session)
+            
+            # Fetch weather data
+            success = await weather_fetcher.fetch_weather_for_fixture(fixture)
+            
+            if success:
+                self.logger.info(f"Successfully fetched weather data for fixture {fixture.id}")
+            else:
+                self.logger.warning(f"Failed to fetch weather data for fixture {fixture.id}")
+                
+        except Exception as e:
+            self.logger.error(f"Error fetching weather data for fixture {fixture.id}: {e}", exc_info=True)
+
     # Synchronous wrapper methods for workflow compatibility
     def fetch_fixtures(self, league_id: int) -> List[Match]:
         """Synchronous wrapper for fetching fixtures for a specific league."""
@@ -1030,23 +1487,6 @@ class EnhancedDataFetcher:
                 loop.close()
         except Exception as e:
             self.logger.error(f"Error in fetch_fixtures for league {league_id}: {e}")
-            return []
-    
-    def fetch_standings_sync(self, league_id: int, league_name: str) -> List[Standing]:
-        """Synchronous wrapper for fetching standings for a specific league."""
-        try:
-            # Run async method synchronously
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-            try:
-                result = loop.run_until_complete(
-                    self.fetch_standings(league_id, league_name)
-                )
-                return result
-            finally:
-                loop.close()
-        except Exception as e:
-            self.logger.error(f"Error in fetch_standings for league {league_id}: {e}")
             return []
     
     def fetch_standings(self, league_id: int, league_name: str = None) -> List[Standing]:

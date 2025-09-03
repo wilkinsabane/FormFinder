@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Data Quality Report - dq_report_20250823_012207</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .header { background-color: #f0f0f0; padding: 20px; border-radius: 5px; }
+                .metric { margin: 10px 0; padding: 10px; border-left: 4px solid #007bff; }
+                .critical { border-left-color: #dc3545; }
+                .warning { border-left-color: #ffc107; }
+                .good { border-left-color: #28a745; }
+                .table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+                .table th, .table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                .table th { background-color: #f2f2f2; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>Data Quality Report</h1>
+                <p><strong>Report ID:</strong> dq_report_20250823_012207</p>
+                <p><strong>Generated:</strong> 2025-08-23 01:22:08.304629</p>
+                <p><strong>Period:</strong> 2025-08-22 01:22:07.652213 to 2025-08-23 01:22:07.652213</p>
+                <p><strong>Overall Score:</strong> 0.43</p>
+            </div>
+            
+            <h2>Summary</h2>
+            <div class="metric critical">
+                <p><strong>Total Tables Checked:</strong> 7</p>
+                <p><strong>Tables with Issues:</strong> 7</p>
+                <p><strong>Total Records:</strong> 13,993</p>
+                <p><strong>Average Completeness:</strong> 0.43</p>
+                <p><strong>Average Accuracy:</strong> 0.57</p>
+                <p><strong>Total Anomalies:</strong> 0</p>
+            </div>
+            
+            <h2>Table Metrics</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Table</th>
+                        <th>Records</th>
+                        <th>Completeness</th>
+                        <th>Accuracy</th>
+                        <th>Freshness</th>
+                        <th>Overall Score</th>
+                        <th>Issues</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                    <tr>
+                        <td>fixtures</td>
+                        <td>12,608</td>
+                        <td>0.36</td>
+                        <td>1.00</td>
+                        <td>0.48</td>
+                        <td>0.70</td>
+                        <td>2</td>
+                    </tr>
+            
+                    <tr>
+                        <td>teams</td>
+                        <td>507</td>
+                        <td>0.71</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.71</td>
+                        <td>2</td>
+                    </tr>
+            
+                    <tr>
+                        <td>leagues</td>
+                        <td>512</td>
+                        <td>1.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.80</td>
+                        <td>1</td>
+                    </tr>
+            
+                    <tr>
+                        <td>standings</td>
+                        <td>366</td>
+                        <td>0.93</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.78</td>
+                        <td>1</td>
+                    </tr>
+            
+                    <tr>
+                        <td>odds</td>
+                        <td>0</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>1</td>
+                    </tr>
+            
+                    <tr>
+                        <td>lineups</td>
+                        <td>0</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>1</td>
+                    </tr>
+            
+                    <tr>
+                        <td>match_events</td>
+                        <td>0</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>1</td>
+                    </tr>
+            
+                </tbody>
+            </table>
+            
+            <h2>Critical Issues</h2>
+            <ul>
+        <li>Failed to check matches: (psycopg2.errors.UndefinedTable) relation "matches" does not exist
+LINE 3: FROM matches) AS anon_1
+             ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT matches.id AS matches_id, matches.match_id AS matches_match_id, matches.league_id AS matches_league_id, matches.home_team_id AS matches_home_team_id, matches.away_team_id AS matches_away_team_id, matches.match_date AS matches_match_date, matches.home_score AS matches_home_score, matches.away_score AS matches_away_score, matches.status AS matches_status, matches.created_at AS matches_created_at, matches.updated_at AS matches_updated_at 
+FROM matches) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)</li><li>fixtures: High null percentage: 63.91%</li><li>fixtures: Low completeness score: 0.36</li><li>teams: High null percentage: 28.57%</li><li>teams: Low completeness score: 0.71</li><li>standings: Low completeness score: 0.93</li><li>Failed to check weather_data: Column expression, FROM clause, or other columns clause element expected, got <class 'formfinder.clients.weather_client.WeatherData'>.</li><li>odds: No data found in table</li><li>lineups: No data found in table</li><li>match_events: No data found in table</li>
+            </ul>
+            
+            <h2>Recommendations</h2>
+            <ul>
+        <li>Improve data completeness for fixtures</li><li>Update data more frequently for standings</li><li>Improve data completeness for teams</li><li>Update data more frequently for leagues</li><li>Improve data completeness for odds</li><li>Review data validation rules for match_events</li><li>Review data validation rules for odds</li><li>Improve data completeness for lineups</li><li>Review data validation rules for lineups</li><li>Update data more frequently for teams</li><li>Update data more frequently for odds</li><li>Update data more frequently for match_events</li><li>Update data more frequently for lineups</li><li>Improve data completeness for match_events</li><li>Update data more frequently for fixtures</li>
+            </ul>
+        </body>
+        </html>
+        

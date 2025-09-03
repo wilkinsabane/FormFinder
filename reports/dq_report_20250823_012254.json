@@ -1,0 +1,161 @@
+{
+  "report_id": "dq_report_20250823_012254",
+  "generated_at": "2025-08-23 01:22:54.808108",
+  "period_start": "2025-08-22 01:22:54.179156",
+  "period_end": "2025-08-23 01:22:54.179156",
+  "overall_score": 0.42823083042704796,
+  "table_metrics": {
+    "fixtures": {
+      "timestamp": "2025-08-23 01:22:54.656103",
+      "table_name": "fixtures",
+      "total_records": 12608,
+      "null_percentage": 63.9133883248731,
+      "duplicate_percentage": 0.0,
+      "completeness_score": 0.360866116751269,
+      "accuracy_score": 1.0,
+      "freshness_score": 0.4753513183912037,
+      "consistency_score": 1.0,
+      "overall_quality_score": 0.7033300987036215,
+      "anomalies_detected": 0,
+      "issues": [
+        "High null percentage: 63.91%",
+        "Low completeness score: 0.36"
+      ]
+    },
+    "teams": {
+      "timestamp": "2025-08-23 01:22:54.684105",
+      "table_name": "teams",
+      "total_records": 507,
+      "null_percentage": 28.57142857142857,
+      "duplicate_percentage": 0.0,
+      "completeness_score": 0.7142857142857143,
+      "accuracy_score": 1.0,
+      "freshness_score": 0,
+      "consistency_score": 1.0,
+      "overall_quality_score": 0.7142857142857142,
+      "anomalies_detected": 0,
+      "issues": [
+        "High null percentage: 28.57%",
+        "Low completeness score: 0.71"
+      ]
+    },
+    "leagues": {
+      "timestamp": "2025-08-23 01:22:54.709108",
+      "table_name": "leagues",
+      "total_records": 512,
+      "null_percentage": 0.0,
+      "duplicate_percentage": 75.0,
+      "completeness_score": 1.0,
+      "accuracy_score": 1.0,
+      "freshness_score": 0,
+      "consistency_score": 1.0,
+      "overall_quality_score": 0.8,
+      "anomalies_detected": 0,
+      "issues": [
+        "High duplicate percentage: 75.00%"
+      ]
+    },
+    "standings": {
+      "timestamp": "2025-08-23 01:22:54.786106",
+      "table_name": "standings",
+      "total_records": 366,
+      "null_percentage": 6.666666666666667,
+      "duplicate_percentage": 0.0,
+      "completeness_score": 0.9333333333333333,
+      "accuracy_score": 1.0,
+      "freshness_score": 0,
+      "consistency_score": 1.0,
+      "overall_quality_score": 0.78,
+      "anomalies_detected": 0,
+      "issues": [
+        "Low completeness score: 0.93"
+      ]
+    },
+    "odds": {
+      "timestamp": "2025-08-23 01:22:54.794106",
+      "table_name": "odds",
+      "total_records": 0,
+      "null_percentage": 0.0,
+      "duplicate_percentage": 0.0,
+      "completeness_score": 0.0,
+      "accuracy_score": 0.0,
+      "freshness_score": 0.0,
+      "consistency_score": 0.0,
+      "overall_quality_score": 0.0,
+      "anomalies_detected": 0,
+      "issues": [
+        "No data found in table"
+      ]
+    },
+    "lineups": {
+      "timestamp": "2025-08-23 01:22:54.801106",
+      "table_name": "lineups",
+      "total_records": 0,
+      "null_percentage": 0.0,
+      "duplicate_percentage": 0.0,
+      "completeness_score": 0.0,
+      "accuracy_score": 0.0,
+      "freshness_score": 0.0,
+      "consistency_score": 0.0,
+      "overall_quality_score": 0.0,
+      "anomalies_detected": 0,
+      "issues": [
+        "No data found in table"
+      ]
+    },
+    "match_events": {
+      "timestamp": "2025-08-23 01:22:54.807107",
+      "table_name": "match_events",
+      "total_records": 0,
+      "null_percentage": 0.0,
+      "duplicate_percentage": 0.0,
+      "completeness_score": 0.0,
+      "accuracy_score": 0.0,
+      "freshness_score": 0.0,
+      "consistency_score": 0.0,
+      "overall_quality_score": 0.0,
+      "anomalies_detected": 0,
+      "issues": [
+        "No data found in table"
+      ]
+    }
+  },
+  "trends": {},
+  "recommendations": [
+    "Review data validation rules for lineups",
+    "Update data more frequently for teams",
+    "Update data more frequently for lineups",
+    "Improve data completeness for match_events",
+    "Improve data completeness for lineups",
+    "Update data more frequently for match_events",
+    "Improve data completeness for fixtures",
+    "Update data more frequently for fixtures",
+    "Improve data completeness for odds",
+    "Update data more frequently for standings",
+    "Review data validation rules for odds",
+    "Update data more frequently for leagues",
+    "Update data more frequently for odds",
+    "Improve data completeness for teams",
+    "Review data validation rules for match_events"
+  ],
+  "critical_issues": [
+    "Failed to check matches: (psycopg2.errors.UndefinedTable) relation \"matches\" does not exist\nLINE 3: FROM matches) AS anon_1\n             ^\n\n[SQL: SELECT count(*) AS count_1 \nFROM (SELECT matches.id AS matches_id, matches.match_id AS matches_match_id, matches.league_id AS matches_league_id, matches.home_team_id AS matches_home_team_id, matches.away_team_id AS matches_away_team_id, matches.match_date AS matches_match_date, matches.home_score AS matches_home_score, matches.away_score AS matches_away_score, matches.status AS matches_status, matches.created_at AS matches_created_at, matches.updated_at AS matches_updated_at \nFROM matches) AS anon_1]\n(Background on this error at: https://sqlalche.me/e/20/f405)",
+    "fixtures: High null percentage: 63.91%",
+    "fixtures: Low completeness score: 0.36",
+    "teams: High null percentage: 28.57%",
+    "teams: Low completeness score: 0.71",
+    "standings: Low completeness score: 0.93",
+    "Failed to check weather_data: Column expression, FROM clause, or other columns clause element expected, got <class 'formfinder.clients.weather_client.WeatherData'>.",
+    "odds: No data found in table",
+    "lineups: No data found in table",
+    "match_events: No data found in table"
+  ],
+  "summary": {
+    "total_tables_checked": 7,
+    "tables_with_issues": 7,
+    "total_records": 13993,
+    "average_completeness": 0.42978359491004525,
+    "average_accuracy": 0.5714285714285714,
+    "total_anomalies": 0
+  }
+}

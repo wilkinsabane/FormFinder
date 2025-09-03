@@ -10,7 +10,7 @@ import asyncio
 from pathlib import Path
 
 # Add the formfinder package to the path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'formfinder'))
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 def load_config():
     """Load configuration from config.yaml"""
@@ -47,6 +47,10 @@ async def test_data_fetcher():
     """Test DataFetcher functionality"""
     print("\n=== Testing DataFetcher ===")
     try:
+        # Load formfinder configuration first
+        from formfinder.config import load_config as load_formfinder_config
+        load_formfinder_config()
+        
         from formfinder.DataFetcher import DataFetcher as EnhancedDataFetcher, DataFetcherConfig, APIConfig, ProcessingConfig
         
         config_dict = load_config()
@@ -76,7 +80,7 @@ def test_data_processor():
     """Test DataProcessor functionality"""
     print("\n=== Testing DataProcessor ===")
     try:
-        from DataProcessor import DataProcessor
+        from formfinder.DataProcessor import DataProcessor
         
         processor = DataProcessor()
         print("✓ DataProcessor: Initialized successfully")
@@ -106,7 +110,7 @@ def test_predictor_outputter():
     """Test PredictorOutputter functionality"""
     print("\n=== Testing PredictorOutputter ===")
     try:
-        from PredictorOutputter import PredictorOutputter
+        from formfinder.PredictorOutputter import PredictorOutputter
         
         # Initialize with leagues.json
         leagues_file = 'leagues.json'
@@ -138,7 +142,7 @@ def test_notifier():
     """Test Notifier functionality"""
     print("\n=== Testing Notifier ===")
     try:
-        from notifier import Notifier
+        from formfinder.notifier import Notifier
         
         notifier = Notifier()
         print("✓ Notifier: Initialized successfully")

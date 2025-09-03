@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-08-22T12:47:15.271773",
+  "database_schema": {
+    "fixtures": true,
+    "match_events": true,
+    "match_odds": true,
+    "match_lineups": true,
+    "h2h_cache": true,
+    "teams": true,
+    "leagues": true,
+    "standings": true
+  },
+  "recent_fixtures": {
+    "error": "type object 'Fixture' has no attribute 'fixture_date'"
+  },
+  "weather_data": {
+    "error": "(psycopg2.errors.UndefinedTable) relation \"precomputed_features\" does not exist\nLINE 7:                 FROM precomputed_features\n                             ^\n\n[SQL: \n                SELECT COUNT(*) as total_records,\n                       COUNT(weather_temp_c) as temp_records,\n                       COUNT(weather_humidity) as humidity_records,\n                       COUNT(weather_wind_speed) as wind_records,\n                       COUNT(weather_precipitation) as precipitation_records\n                FROM precomputed_features\n                WHERE weather_temp_c IS NOT NULL\n            ]\n(Background on this error at: https://sqlalche.me/e/20/f405)"
+  },
+  "detailed_fetching": {
+    "error": "2 validation errors for DataFetcherConfig\nprocessing.league_ids\n  Field required [type=missing, input_value={'max_concurrent_requests...quests_per_minute': 300}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nprocessing.season_year\n  Field required [type=missing, input_value={'max_concurrent_requests...quests_per_minute': 300}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+  },
+  "h2h_functionality": {
+    "error": "(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\n\n[SQL: SELECT fixtures.id AS fixtures_id, fixtures.api_fixture_id AS fixtures_api_fixture_id, fixtures.league_id AS fixtures_league_id, fixtures.home_team_id AS fixtures_home_team_id, fixtures.away_team_id AS fixtures_away_team_id, fixtures.match_date AS fixtures_match_date, fixtures.status AS fixtures_status, fixtures.round_number AS fixtures_round_number, fixtures.home_score AS fixtures_home_score, fixtures.away_score AS fixtures_away_score, fixtures.home_score_ht AS fixtures_home_score_ht, fixtures.away_score_ht AS fixtures_away_score_ht, fixtures.home_score_et AS fixtures_home_score_et, fixtures.away_score_et AS fixtures_away_score_et, fixtures.home_score_pen AS fixtures_home_score_pen, fixtures.away_score_pen AS fixtures_away_score_pen, fixtures.referee AS fixtures_referee, fixtures.venue AS fixtures_venue, fixtures.attendance AS fixtures_attendance, fixtures.winner AS fixtures_winner, fixtures.has_extra_time AS fixtures_has_extra_time, fixtures.has_penalties AS fixtures_has_penalties, fixtures.minute AS fixtures_minute, fixtures.stadium_id AS fixtures_stadium_id, fixtures.stadium_name AS fixtures_stadium_name, fixtures.stadium_city AS fixtures_stadium_city, fixtures.home_formation AS fixtures_home_formation, fixtures.away_formation AS fixtures_away_formation, fixtures.created_at AS fixtures_created_at, fixtures.updated_at AS fixtures_updated_at \nFROM fixtures \nWHERE fixtures.home_team_id IS NOT NULL AND fixtures.away_team_id IS NOT NULL \n LIMIT %(param_1)s]\n[parameters: {'param_1': 1}]\n(Background on this error at: https://sqlalche.me/e/20/2j85)"
+  }
+}

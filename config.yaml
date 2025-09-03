@@ -1,88 +1,309 @@
-# FormFinder Configuration
-# Unified configuration file replacing sdata_config.json, sdata_init_config.json, and notifier_config.json
-
 api:
-  auth_token: "320cae54d49a09f11c5cd23da43204a5543fb394"
-  base_url: "https://api.soccerdataapi.com"
-  rate_limit_requests: 300
-  rate_limit_period: 60
-  timeout: 15
+  auth_token: 581400e27a0b4e64fe1ac0c494513f1efa1b9d29 #2ce9629fa89881021539e50dad96ed7766a74d0f #320cae54d49a09f11c5cd23da43204a5543fb394 #2ce9629fa89881021539e50dad96ed7766a74d0f 581400e27a0b4e64fe1ac0c494513f1efa1b9d29
+  base_url: https://api.soccerdataapi.com
   max_retries: 2
-
-processing:
-  # league_ids will be automatically loaded from leagues.json
-  # You can override by uncommenting and specifying specific league IDs:
-  # league_ids: [228, 235, 241, 253, 297]  # Example: Premier League, Ligue 1, Bundesliga, Serie A, La Liga
-  leagues_path: "leagues.json"
-  season_year: "2024-2025"
-  max_concurrent_requests: 10
-  inter_league_delay: 0
-  cache_ttl_hours: 24
-  recent_period: 10
-  win_rate_threshold: 0.70
-
+  rate_limit_period: 60
+  rate_limit_requests: 300
+  timeout: 15
 database:
-  # SQLite for local development, PostgreSQL for production
-  type: "postgresql"  # or "postgresql"
-  sqlite:
-    path: "data/formfinder.db"
   postgresql:
-    host: "localhost"
+    database: formfinder
+    host: localhost
+    password: Holmes&7watson
     port: 5432
-    database: "formfinder"
-    username: "wilkins"
-    password: "Holmes&7watson"
-
+    username: wilkins
+  sqlite:
+    path: data/formfinder.db
+  type: postgresql
+directories:
+  cache: data/cache
+  data_root: data
+  fixtures: data/fixtures
+  historical: data/historical
+  logs: data/logs
+  predictions: data/predictions
+  processed_data: processed_data
+  standings: data/standings
+dynamic_training:
+  default_months_back: 24
+  max_months_back: 36
+  min_training_samples: 100
+  target_training_samples: 500
+logging:
+  console_handler:
+    enabled: true
+  file_handler:
+    backup_count: 5
+    directory: data/logs
+    enabled: true
+    max_bytes: 10485760
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  level: INFO
 notifications:
   email:
     enabled: true
-    smtp_server: "smtp.gmail.com"
-    smtp_port: 587
-    username: "test@example.com"
-    password: "dummy_password"
-    from_address: "test@example.com"
-    to_addresses: ["test@example.com"]
+    from_address: test@example.com
     max_matches_in_email_body: 10
+    password: dummy_password
+    smtp_port: 587
+    smtp_server: smtp.gmail.com
+    to_addresses:
+    - test@example.com
+    username: test@example.com
+  predictions_dir: data/predictions
   sms:
     enabled: false
-    provider: "twilio"  # or "aws_sns"
-    twilio:
-      account_sid: "dummy_account_sid"
-      auth_token: "dummy_auth_token"
-      from_number: "+1234567890"
-      to_number: "+1234567890"
     max_matches_in_sms: 1
-  predictions_dir: "data/predictions"
+    provider: twilio
+    twilio:
+      account_sid: dummy_account_sid
+      auth_token: dummy_auth_token
+      from_number: '+1234567890'
+      to_number: '+1234567890'
+processing:
+  league_ids: [203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 217, 216, 199, 197, 219, 181, 220, 221, 222, 223, 224, 225, 226, 227, 232, 229, 237, 228, 230, 231, 200, 326, 310, 322, 323, 198, 233, 234, 238, 236, 235, 240, 244, 241, 242, 243, 245, 246, 247, 248, 249, 250, 251, 315, 311, 312, 313, 314, 316, 317, 318, 319, 320, 321, 325, 285, 284, 252, 255, 253, 254, 256, 257, 258, 260, 261, 262, 271, 263, 264, 265, 266, 267, 270, 269, 268, 272, 275, 273, 274, 276, 277, 278, 279, 282, 280, 281, 283, 286, 287, 288, 290, 289, 291, 292, 293, 294, 295, 296, 259]
+  cache_ttl_hours: 24
+  inter_league_delay: 0
+  leagues_path: leagues.json
+  max_concurrent_requests: 10
+  recent_period: 10
+  season_year: 2024-2025
+  win_rate_threshold: 0.7
+sentiment_analysis:
+  enabled: true
+  cache_hours: 24
+  prediction_weights:
+    form: 0.7
+    sentiment: 0.3
+  
+  # Multi-provider configuration
+  providers:
+    newsapi:
+      enabled: false
+      api_key: "9a8859df-b815-4326-99e0-a0f127d6b982"
+      rate_limit_per_minute: 60
+      rate_limit_per_day: 1000
+      timeout_seconds: 30
+      max_retries: 3
+      backoff_factor: 2.0
+      priority: 1
+    
+    newsdata_io:
+      enabled: false
+      api_key: "pub_fdab463612f74a84b54b40d4fecf2bc6"  # Add your NewsData.io API key here
+      rate_limit_per_minute: 120
+      rate_limit_per_day: 200
+      timeout_seconds: 30
+      max_retries: 3
+      backoff_factor: 2.0
+      priority: 2
+    
+    thenewsapi:
+      enabled: false
+      api_key: "PgjouGehjFtdX9br5gbmh5ZslWjgTiZdofIDYwaY"  # Add your TheNewsAPI.com API key here
+      rate_limit_per_minute: 50
+      rate_limit_per_day: 1000
+      timeout_seconds: 30
+      max_retries: 3
+      backoff_factor: 2.0
+      priority: 3
+  
+  # Failover settings
+  enable_failover: true
+  load_balancing_strategy: "priority"
+  provider_health_check_interval: 300  # 5 minutes
+  provider_cooldown_minutes: 15  # Cool down after rate limit hit
+  
+  # Legacy support (for backward compatibility)
+  news_api_key: "ff008e7b4e9b4041ab44c50a729d7885"
 
-logging:
-  level: "INFO"
-  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-  file_handler:
+# RSS Feed Configuration
+rss:
+  # RSS Feed Sources
+  feeds:
+    - url: "https://www.bbc.com/sport/football/rss.xml"
+      name: "BBC Football"
+      enabled: true
+      priority: 1
+      update_interval_minutes: 30
+      timeout_seconds: 15
+      max_retries: 3
+      
+    - url: "https://www.skysports.com/rss/12040"
+      name: "Sky Sports Football"
+      enabled: true
+      priority: 2
+      update_interval_minutes: 45
+      timeout_seconds: 15
+      max_retries: 3
+      
+    - url: "https://www.espn.com/espn/rss/soccer/news"
+      name: "ESPN Soccer"
+      enabled: true
+      priority: 3
+      update_interval_minutes: 60
+      timeout_seconds: 15
+      max_retries: 3
+      
+    # International League Feeds
+    - url: "http://www.pressdisplay.com/pressdisplay/services/rss.ashx?cid=0845&type=full"
+      name: "Albania Superliga"
+      enabled: true
+      priority: 4
+      update_interval_minutes: 120
+      timeout_seconds: 20
+      max_retries: 3
+      
+    - url: "http://www.ole.com.ar/rss/futbol-primera/"
+      name: "Argentina Liga Profesional"
+      enabled: true
+      priority: 5
+      update_interval_minutes: 90
+      timeout_seconds: 20
+      max_retries: 3
+      
+    - url: "http://ofutebolero.com.br/rss/feed.xml"
+      name: "Brazil Serie A"
+      enabled: true
+      priority: 6
+      update_interval_minutes: 90
+      timeout_seconds: 20
+      max_retries: 3
+      
+    # English League Feeds
+    - url: "http://feeds.feedburner.com/PremierLeagueFootballNews"
+      name: "England Premier League News"
+      enabled: true
+      priority: 7
+      update_interval_minutes: 60
+      timeout_seconds: 15
+      max_retries: 3
+      
+    - url: "http://feeds.feedburner.com/ChampionshipFootballNews"
+      name: "England Championship News"
+      enabled: true
+      priority: 8
+      update_interval_minutes: 90
+      timeout_seconds: 15
+      max_retries: 3
+      
+    - url: "http://feeds.feedburner.com/LeagueOneFootballNews"
+      name: "England League One News"
+      enabled: true
+      priority: 9
+      update_interval_minutes: 120
+      timeout_seconds: 15
+      max_retries: 3
+      
+    - url: "http://feeds.feedburner.com/LeagueTwoFootballNews"
+      name: "England League Two News"
+      enabled: true
+      priority: 10
+      update_interval_minutes: 120
+      timeout_seconds: 15
+      max_retries: 3
+      
+    # German League Feeds
+    - url: "https://newsfeed.kicker.de/news/bundesliga"
+      name: "Germany Bundesliga"
+      enabled: true
+      priority: 11
+      update_interval_minutes: 60
+      timeout_seconds: 15
+      max_retries: 3
+      
+    - url: "https://newsfeed.kicker.de/news/2-bundesliga"
+      name: "Germany 2. Bundesliga"
+      enabled: true
+      priority: 12
+      update_interval_minutes: 90
+      timeout_seconds: 15
+      max_retries: 3
+      
+    - url: "https://newsfeed.kicker.de/news/3-liga"
+      name: "Germany 3. Liga"
+      enabled: true
+      priority: 13
+      update_interval_minutes: 120
+      timeout_seconds: 15
+      max_retries: 3
+      
+    # International Competition Feeds
+    - url: "http://www.ole.com.ar/rss/futbol-internacional/libertadores"
+      name: "Copa Libertadores"
+      enabled: true
+      priority: 10
+      update_interval_minutes: 90
+      timeout_seconds: 20
+      max_retries: 3
+      
+    - url: "https://www.reddit.com/r/LigaMX/.rss"
+      name: "Liga MX Mexico"
+      enabled: true
+      priority: 5
+      update_interval_minutes: 90
+      timeout_seconds: 15
+      max_retries: 3
+      
+    # - url: "https://rss.com/podcasts/longballfutebol/1611201/"
+    #   name: "Portugal Primeira Liga"
+    #   enabled: true
+    #   priority: 7
+    #   update_interval_minutes: 120
+    #   timeout_seconds: 20
+    #   max_retries: 3
+    # Disabled due to XML syntax error
+  
+  # Content Filtering
+  content_filter:
+    min_content_length: 100
+    max_content_length: 10000
+    exclude_keywords:
+      - "advertisement"
+      - "sponsored"
+      - "betting"
+    include_keywords:
+      - "football"
+      - "soccer"
+      - "premier league"
+      - "champions league"
+      - "europa league"
+    language_codes: ["en", "en-US", "en-GB"]
+    content_quality_threshold: 0.7
+  
+  # Caching Configuration
+  cache:
     enabled: true
-    directory: "data/logs"
-    max_bytes: 10485760
-    backup_count: 5
-  console_handler:
+    max_articles: 10000
+    retention_days: 30
+    cleanup_interval_hours: 24
+    duplicate_threshold: 0.85
+    enable_full_text_search: true
+    search_index_update_interval_minutes: 60
+  
+  # Monitoring Configuration
+  monitoring:
     enabled: true
+    feed_health_check_interval_minutes: 15
+    content_quality_check_interval_minutes: 30
+    sentiment_accuracy_check_interval_minutes: 60
+    alert_thresholds:
+      feed_failure_rate: 0.3
+      content_quality_score: 0.5
+      sentiment_accuracy: 0.6
+    retention_days: 90
 
-directories:
-  data_root: "data"
-  logs: "data/logs"
-  cache: "data/cache"
-  predictions: "data/predictions"
-  historical: "data/historical"
-  fixtures: "data/fixtures"
-  standings: "data/standings"
-  processed_data: "processed_data"
-
+testing:
+  mock_api_responses: true
+  test_data_dir: tests/data
+  test_database_url: sqlite:///data/test_formfinder.db
+training:
+  enable_sample_weighting: true
+  min_training_samples: 100
+  recency_decay_factor: 0.95
 workflow:
-  orchestrator: "prefect"
+  enable_notifications: true
+  orchestrator: prefect
   retry_attempts: 3
   retry_delay_seconds: 60
   task_timeout_seconds: 3600
-  enable_notifications: true
-
-testing:
-  test_database_url: "sqlite:///data/test_formfinder.db"
-  mock_api_responses: true
-  test_data_dir: "tests/data"

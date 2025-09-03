@@ -1,3 +1,1 @@
-team_id,team_name,win_rate
-4147,Leeds United,0.7
-3104,Burnley,0.8
+team_id,team_name,win_rate,wins,total_matches

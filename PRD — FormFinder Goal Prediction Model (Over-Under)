@@ -1,0 +1,266 @@
+Alright — here’s your **updated and final PRD** with the exact H2H and Match Preview API field names from your examples baked in, plus the **optional advanced splits** for more granular strength features.
+
+---
+
+# **PRD — FormFinder Goal Prediction Model (Over/Under)**
+
+**Version:** 3.0
+**Date:** August 15, 2025
+**Status:** Final for Implementation
+
+---
+
+## **1. Project Context**
+
+We are pivoting FormFinder from W/D/L to goal-based predictions (total goals and Over/Under 2.5) using our already well-populated fixtures table for form features, plus supplementary Head-to-Head (H2H) and preview metrics from Soccerdata API. The deliverable is an end-to-end, modular, testable pipeline: feature service → training pipeline → prediction writer.
+
+We will leverage:
+
+* **Local `fixtures` table** for rolling form and performance trends
+* **Soccerdata API** for Head-to-Head (H2H) and Match Preview data
+* **Optional advanced home/away splits** for richer contextual features
+
+---
+
+## **2. Success Metrics**
+
+* `predictions` table populated for all upcoming fixtures from league ids in `free_leagues.txt` with:
+
+  * `predicted_total_goals` (FLOAT)
+  * `over_2_5_probability` (FLOAT)
+* Model performance exceeds a naïve historical average baseline for total goals
+* API quota respected:
+
+  * H2H cached with 24h TTL
+  * Previews cached with short TTL (1–2h)
+  * Retries/backoff for 429 and 5xx
+
+---
+
+## **3. Database Changes**
+
+### **3.1 New table — h2h\_cache**
+
+```sql
+CREATE TABLE IF NOT EXISTS h2h_cache (
+  team1_id INTEGER NOT NULL,
+  team2_id INTEGER NOT NULL,
+  competition_id INTEGER,
+  overall_games_played INTEGER NOT NULL,
+  overall_team1_wins INTEGER NOT NULL,
+  overall_team2_wins INTEGER NOT NULL,
+  overall_draws INTEGER NOT NULL,
+  overall_team1_scored INTEGER NOT NULL,
+  overall_team2_scored INTEGER NOT NULL,
+  team1_games_played_at_home INTEGER,
+  team1_wins_at_home INTEGER,
+  team1_losses_at_home INTEGER,
+  team1_draws_at_home INTEGER,
+  team1_scored_at_home INTEGER,
+  team1_conceded_at_home INTEGER,
+  team2_games_played_at_home INTEGER,
+  team2_wins_at_home INTEGER,
+  team2_losses_at_home INTEGER,
+  team2_draws_at_home INTEGER,
+  team2_scored_at_home INTEGER,
+  team2_conceded_at_home INTEGER,
+  avg_total_goals FLOAT NOT NULL,
+  etag TEXT,
+  last_fetched_at TIMESTAMPTZ NOT NULL,
+  PRIMARY KEY (team1_id, team2_id, COALESCE(competition_id, 0))
+);
+```
+
+### **3.2 Alter `predictions` table**
+
+```sql
+ALTER TABLE predictions
+  DROP COLUMN IF EXISTS home_win_probability,
+  DROP COLUMN IF EXISTS draw_probability,
+  DROP COLUMN IF EXISTS away_win_probability,
+  ADD COLUMN IF NOT EXISTS predicted_total_goals FLOAT,
+  ADD COLUMN IF NOT EXISTS over_2_5_probability FLOAT;
+```
+
+---
+
+## **4. API Integration Details**
+
+### **4.1 Head to Head**
+
+**Endpoint:** `GET https://api.soccerdataapi.com/head-to-head/`
+**Params:**
+
+* `team_1_id` — home team API ID
+* `team_2_id` — away team API ID
+* `auth_token` — API key
+
+**Relevant fields (from your example):**
+
+```json
+"stats": {
+  "overall": {
+    "overall_games_played": 82,
+    "overall_team1_wins": 41,
+    "overall_team2_wins": 24,
+    "overall_draws": 17,
+    "overall_team1_scored": 153,
+    "overall_team2_scored": 99
+  },
+  "team1_at_home": {
+    "team1_games_played_at_home": 41,
+    "team1_wins_at_home": 25,
+    "team1_losses_at_home": 7,
+    "team1_draws_at_home": 9,
+    "team1_scored_at_home": 89,
+    "team1_conceded_at_home": 42
+  },
+  "team2_at_home": {
+    "team2_games_played_at_home": 41,
+    "team2_wins_at_home": 17,
+    "team2_losses_at_home": 16,
+    "team2_draws_at_home": 8,
+    "team2_scored_at_home": 57,
+    "team2_conceded_at_home": 64
+  }
+}
+```
+
+**Features to compute & store:**
+
+* **Primary features:**
+
+  * `h2h_overall_games` ← `overall_games_played`
+  * `h2h_overall_team1_goals` ← `overall_team1_scored`
+  * `h2h_overall_team2_goals` ← `overall_team2_scored`
+  * `h2h_avg_total_goals` = (`overall_team1_scored` + `overall_team2_scored`) ÷ `overall_games_played`
+* **Optional advanced splits:**
+
+  * Goals scored/conceded by each team at home
+  * Wins/draws/losses at home/away
+
+**Caching:**
+
+* Key: `(team1_id, team2_id)`
+* TTL: 24h
+* Store computed `avg_total_goals` and raw fields
+
+---
+
+### **4.2 Match Preview**
+
+**Endpoint:** `GET https://api.soccerdataapi.com/match-preview/`
+**Params:**
+
+* `match_id` — fixture API ID
+* `auth_token` — API key
+
+**Relevant fields (from your example):**
+
+```json
+"match_data": {
+  "excitement_rating": 5.53
+},
+"content": [
+  {"name": "p1", "content": "On Sunday, August 27, Chapecoense..."},
+  {"name": "h1", "content": "Kayke's Rewards Reaped After Two-Goal Match"},
+  ...
+]
+```
+
+**Features to compute & store:**
+
+* `preview_excitement_rating` ← `match_data.excitement_rating`
+* *(Optional)* Sentiment score from concatenated `"content"` fields (TextBlob/VADER)
+* *(Optional)* Weather features if desired
+
+**Caching:**
+
+* Key: `match_id`
+* TTL: 1–2 hours
+
+---
+
+## **5. Feature Engineering Service (`formfinder/features.py`)**
+
+### **Functions:**
+
+1. **`get_rolling_form_features(team_id, match_date, db_session, last_n_games=5)`**
+
+   * Compute averages for goals scored/conceded overall and by home/away split
+   * Example:
+
+     * `avg_goals_scored_last_5`
+     * `avg_goals_conceded_last_5`
+     * `avg_goals_scored_home_last_5`
+     * `avg_goals_scored_away_last_5`
+     * `avg_goals_conceded_home_last_5`
+     * `avg_goals_conceded_away_last_5`
+
+2. **`get_h2h_feature(home_id, away_id, api_client)`**
+
+   * Call API or return from cache
+   * Compute `h2h_avg_total_goals` from raw scores
+   * Return dict with primary + optional advanced splits
+
+3. **`get_preview_metrics(match_id, api_client)`**
+
+   * Retrieve `excitement_rating`
+   * *(Optional)* Compute sentiment score from content
+
+---
+
+## **6. Model Training Pipeline (`scripts/train_model.py`)**
+
+1. Connect to DB, read leagues from `free_leagues.txt`
+2. Query finished fixtures in those leagues
+3. For each:
+
+   * Rolling form features (home & away)
+   * H2H features (cached when possible)
+   * Match preview metrics (cached short term)
+4. Targets:
+
+   * Regression: `total_goals = home_score + away_score`
+   * Classification: `over_2_5 = total_goals > 2.5`
+5. Train:
+
+   * `XGBRegressor` for total goals
+   * `XGBClassifier` for Over 2.5
+6. Save:
+
+   * Models (`goal_regressor_xxx.joblib`, `over25_classifier_xxx.joblib`)
+   * `metadata.json` with:
+
+     * feature list/order
+     * training date
+     * data range
+
+---
+
+## **7. Prediction Writer (`standalone_predictor_outputter.py`)**
+
+1. Load latest models + metadata
+2. Query upcoming fixtures (`status != 'finished'`)
+3. For each:
+
+   * Build same feature set
+   * Predict `predicted_total_goals` and `over_2_5_probability`
+4. Upsert into `predictions` table
+
+---
+
+## **8. Rate Limits & Retries**
+
+* **Limit:** 300 req/min
+* **Retries:** On 429/5xx, exponential backoff starting at 1s, max 3 retries
+* **Cache discipline** for H2H and previews to avoid hitting limits
+
+---
+
+Do you want me to now **generate the actual Python scaffolding** for:
+
+* `h2h_cache` DB creation
+* API client (`get_h2h_stats` & `get_match_preview`)
+* Feature engineering functions
+  so your AI agent could start implementing right away? That would make this PRD instantly executable.

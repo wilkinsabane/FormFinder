@@ -3,23 +3,28 @@
 
 # API Configuration
 api:
-  # Your football data API token (required)
-  # Get one from: https://www.football-data.org/client/register
-  token: "YOUR_API_TOKEN_HERE"
-  
-  # Base URL for the API
-  base_url: "https://api.football-data.org/v4"
-  
-  # Request timeout in seconds
-  timeout: 30
-  
-  # Rate limiting (requests per minute)
-  rate_limit: 10
-  
-  # Retry configuration
-  max_retries: 3
-  retry_delay: 1.0
-  backoff_factor: 2.0
+  football_data:
+    # Your football data API token (required)
+    # Get one from: https://www.football-data.org/client/register
+    api_key: "${FOOTBALL_DATA_API_KEY:YOUR_API_TOKEN_HERE}"
+    
+    # Base URL for the API
+    base_url: "https://api.football-data.org/v4"
+    
+    # Rate limiting configuration
+    rate_limit:
+      requests_per_minute: 10
+      requests_per_day: 100
+    
+    # Request timeout configuration
+    timeout:
+      connect: 10.0
+      read: 30.0
+    
+    # Retry configuration
+    max_retries: 3
+    retry_delay: 1.0
+    backoff_factor: 2.0
 
 # Database Configuration
 database:
@@ -88,6 +93,95 @@ processing:
   batch_size: 100
   parallel_processing: true
   max_workers: 4
+
+# Feature Computation Configuration
+feature_computation:
+  batch_processing:
+    batch_size: 50
+    max_concurrent_batches: 3
+    retry_attempts: 3
+    retry_delay_seconds: 5
+    timeout_seconds: 300
+  
+  form_analysis:
+    lookback_days: 30
+    min_matches_required: 3
+    weight_recent_matches: true
+    home_away_separate: true
+  
+  h2h_analysis:
+    max_h2h_matches: 10
+    min_h2h_matches: 1
+    include_neutral_venue: false
+    weight_by_recency: true
+  
+  data_quality:
+    min_feature_completeness: 0.8
+    max_missing_percentage: 0.2
+    outlier_detection_enabled: true
+    outlier_threshold_std: 3.0
+  
+  api_usage:
+    max_requests_per_hour: 50
+    quota_warning_threshold: 0.8
+    quota_critical_threshold: 0.95
+    backoff_on_limit: true
+  
+  caching:
+    feature_cache_ttl_hours: 6
+    h2h_cache_ttl_hours: 24
+    form_cache_ttl_hours: 12
+    max_cache_size_mb: 500
+  
+  computation_priority:
+    upcoming_fixtures: 1
+    recent_fixtures: 2
+    historical_fixtures: 3
+    backfill_fixtures: 4
+
+# Training Configuration
+training:
+  data_settings:
+    min_training_samples: 1000
+    validation_split: 0.2
+    test_split: 0.1
+    random_state: 42
+    stratify_by_league: true
+  
+  feature_engineering:
+    scaling_method: "standard"  # standard, minmax, robust
+    handle_missing: "median"    # median, mean, drop
+    feature_selection: true
+    max_features: 50
+    correlation_threshold: 0.95
+  
+  model_selection:
+    algorithm: "xgboost"  # xgboost, lightgbm, catboost
+    hyperparameter_tuning: true
+    cv_folds: 5
+    scoring_metric: "rmse"
+    retrain_threshold_hours: 24
+  
+  xgboost_params:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+    n_jobs: -1
+  
+  validation:
+    min_accuracy_threshold: 0.6
+    max_rmse_threshold: 1.5
+    performance_degradation_threshold: 0.1
+    cross_validation_enabled: true
+  
+  model_persistence:
+    save_path: "models/"
+    model_format: "joblib"  # joblib, pickle
+    keep_versions: 5
+    auto_backup: true
 
 # Notification Configuration
 notifications:
@@ -207,44 +301,69 @@ workflows:
     # Concurrency limits
     max_concurrent_tasks: 3
 
-# Monitoring Configuration
+# Enhanced Monitoring Configuration
 monitoring:
-  # Health check configuration
-  health_check:
+  health_checks:
     enabled: true
-    interval_minutes: 15
-    timeout_seconds: 30
-    
-    # Health check endpoints
-    checks:
-      database_connection: true
-      api_connectivity: true
-      disk_space: true
-      memory_usage: true
-      
-  # Metrics collection
-  metrics:
+    interval_seconds: 300
+    database_timeout: 5.0
+    api_timeout: 10.0
+    disk_space_threshold: 0.9
+    memory_threshold: 0.85
+    cpu_threshold: 0.9
+  
+  performance_tracking:
     enabled: true
-    
-    # Prometheus metrics
-    prometheus:
-      enabled: false
-      port: 8000
-      path: "/metrics"
-      
-  # Performance monitoring
-  performance:
+    metrics_retention_days: 30
+    track_feature_computation: true
+    track_training_performance: true
+    track_api_usage: true
+  
+  alerting:
     enabled: true
+    email_enabled: true
+    sms_enabled: false
     
-    # Memory monitoring
-    memory_threshold_mb: 1024
-    
-    # Execution time monitoring
-    slow_query_threshold_seconds: 10
-    
-    # Profiling
-    profiling_enabled: false
-    profile_output_dir: "data/profiles"
+    thresholds:
+      critical_error_count: 5
+      warning_error_count: 10
+      api_quota_warning: 0.8
+      api_quota_critical: 0.95
+      disk_space_warning: 0.8
+      disk_space_critical: 0.9
+      memory_warning: 0.8
+      memory_critical: 0.9
+  
+  notifications:
+    email_recipients:
+      - "admin@example.com"
+    sms_recipients:
+      - "+1234567890"
+    notification_cooldown_minutes: 30
+
+# Scheduler Configuration
+scheduler:
+  enabled: true
+  timezone: "UTC"
+  
+  schedules:
+    feature_computation: "0 */6 * * *"    # Every 6 hours
+    historical_backfill: "0 1 * * 0"      # Weekly on Sunday at 1 AM
+    model_training: "0 2 * * *"           # Daily at 2 AM
+    data_quality_check: "0 */12 * * *"    # Every 12 hours
+    cache_maintenance: "0 3 * * *"        # Daily at 3 AM
+    health_check: "*/15 * * * *"          # Every 15 minutes
+    monitoring: "*/5 * * * *"             # Every 5 minutes
+    cleanup: "0 4 * * 0"                 # Weekly on Sunday at 4 AM
+  
+  job_management:
+    max_concurrent_jobs: 3
+    job_timeout_minutes: 60
+    retry_failed_jobs: true
+    max_retries: 3
+    retry_delay_minutes: 15
+    persist_job_history: true
+    job_history_retention_days: 30
 
 # Security Configuration
 security:

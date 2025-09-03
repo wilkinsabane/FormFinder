@@ -243,6 +243,19 @@ def drop(ctx: click.Context) -> None:
 
 @db.command()
 @click.pass_context
+def refresh_view(ctx: click.Context) -> None:
+    """Refresh the materialized view."""
+    db_manager: DatabaseManager = ctx.obj["db_manager"]
+    
+    try:
+        db_manager.refresh_materialized_view()
+        click.echo("✓ Materialized view refreshed")
+    except Exception as e:
+        click.echo(f"Failed to refresh view: {e}", err=True)
+        sys.exit(1)
+
+@db.command()
+@click.pass_context
 def reset(ctx: click.Context) -> None:
     """Reset database (drop and recreate tables)."""
     db_manager: DatabaseManager = ctx.obj["db_manager"]
@@ -277,26 +290,29 @@ def status(ctx: click.Context) -> None:
             standings_count = session.query(Standing).count()
             predictions_count = session.query(Prediction).count()
             logs_count = session.query(DataFetchLog).count()
-            
-            click.echo("Database Status:")
-            click.echo(f"  Leagues: {leagues_count}")
-            click.echo(f"  Teams: {teams_count}")
-            click.echo(f"  Fixtures: {fixtures_count}")
-            click.echo(f"  Standings: {standings_count}")
-            click.echo(f"  Predictions: {predictions_count}")
-            click.echo(f"  Fetch Logs: {logs_count}")
-            
-            # Show recent activity
-            recent_log = session.query(DataFetchLog).order_by(
-                DataFetchLog.timestamp.desc()
-            ).first()
-            
-            if recent_log:
-                click.echo(f"\nLast fetch: {recent_log.timestamp} ({recent_log.operation})")
-            else:
-                click.echo("\nNo fetch activity recorded")
-                
+        
+        click.echo("Database Status:")
+        click.echo(f"  Leagues: {leagues_count}")
+        click.echo(f"  Teams: {teams_count}")
+        click.echo(f"  Fixtures: {fixtures_count}")
+        click.echo(f"  Standings: {standings_count}")
+        click.echo(f"  Predictions: {predictions_count}")
+        click.echo(f"  Fetch Logs: {logs_count}")
+        
+        # Show recent activity
+        recent_log = session.query(DataFetchLog).order_by(
+            DataFetchLog.fetch_date.desc()
+        ).first()
+        
+        if recent_log:
+            click.echo(f"\nLast fetch: {recent_log.fetch_date} ({recent_log.data_type})")
+        else:
+            click.echo("\nNo fetch activity recorded")
+        
+        session.close()
     except Exception as e:
+        if 'session' in locals():
+            session.close()
         click.echo(f"Failed to get database status: {e}", err=True)
         sys.exit(1)
 

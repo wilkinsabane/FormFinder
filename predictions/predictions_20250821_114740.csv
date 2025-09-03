@@ -1,0 +1,56 @@
+fixture_id,match_description,home_team,away_team,match_date,league_name,league_id,predicted_total_goals,over_2_5_probability,under_2_5_probability,prediction_timestamp
+1001,Zrinjski vs Posusje,Zrinjski,Posusje,2025-11-29 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1002,Sarajevo vs Siroki Brijeg,Sarajevo,Siroki Brijeg,2025-11-29 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1003,Sloga Doboj vs Radnik Bijeljina,Sloga Doboj,Radnik Bijeljina,2025-11-29 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1004,Rudar Prijedor vs Zrinjski,Rudar Prijedor,Zrinjski,2025-12-03 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1005,Posusje vs Sloga Doboj,Posusje,Sloga Doboj,2025-12-03 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1006,Velez vs Sarajevo,Velez,Sarajevo,2025-12-03 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1007,Radnik Bijeljina vs Borac Banja Luka,Radnik Bijeljina,Borac Banja Luka,2025-12-03 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1008,Zeljeznicar vs Siroki Brijeg,Zeljeznicar,Siroki Brijeg,2025-12-03 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1009,Sarajevo vs Zeljeznicar,Sarajevo,Zeljeznicar,2025-12-06 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1010,Borac Banja Luka vs Posusje,Borac Banja Luka,Posusje,2025-12-06 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1101,Sarajevo vs Zeljeznicar,Sarajevo,Zeljeznicar,2026-05-31 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1102,Sloga Doboj vs Rudar Prijedor,Sloga Doboj,Rudar Prijedor,2026-05-31 15:00:00,Premijer Liga,214,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1108,Alajuelense vs Cartagines,Alajuelense,Cartagines,2025-08-24 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1109,Perez Zeledon vs Guadalupe,Perez Zeledon,Guadalupe,2025-08-24 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1110,Puntarenas vs Municipal Liberia,Puntarenas,Municipal Liberia,2025-08-24 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1111,San Carlos vs Herediano,San Carlos,Herediano,2025-08-24 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1112,Deportivo Saprissa vs Sporting San Jose,Deportivo Saprissa,Sporting San Jose,2025-08-24 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1113,Sporting San Jose vs Guadalupe,Sporting San Jose,Guadalupe,2025-08-30 02:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1114,Herediano vs Municipal Liberia,Herediano,Municipal Liberia,2025-08-31 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1115,Cartagines vs Puntarenas,Cartagines,Puntarenas,2025-08-31 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1116,Deportivo Saprissa vs Alajuelense,Deportivo Saprissa,Alajuelense,2025-08-31 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1117,San Carlos vs Perez Zeledon,San Carlos,Perez Zeledon,2025-08-31 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1118,Perez Zeledon vs Alajuelense,Perez Zeledon,Alajuelense,2025-09-10 02:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1119,Cartagines vs Herediano,Cartagines,Herediano,2025-09-10 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1120,Municipal Liberia vs Sporting San Jose,Municipal Liberia,Sporting San Jose,2025-09-10 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1121,Guadalupe vs San Carlos,Guadalupe,San Carlos,2025-09-10 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1122,Puntarenas vs Deportivo Saprissa,Puntarenas,Deportivo Saprissa,2025-09-11 01:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1123,Deportivo Saprissa vs Guadalupe,Deportivo Saprissa,Guadalupe,2025-09-14 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1124,Herediano vs Sporting San Jose,Herediano,Sporting San Jose,2025-09-14 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1125,San Carlos vs Cartagines,San Carlos,Cartagines,2025-09-14 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1126,Alajuelense vs Municipal Liberia,Alajuelense,Municipal Liberia,2025-09-14 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1127,Perez Zeledon vs Puntarenas,Perez Zeledon,Puntarenas,2025-09-14 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1128,Guadalupe vs Municipal Liberia,Guadalupe,Municipal Liberia,2025-09-17 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1129,Sporting San Jose vs Puntarenas,Sporting San Jose,Puntarenas,2025-09-17 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1130,Alajuelense vs San Carlos,Alajuelense,San Carlos,2025-09-17 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1131,Cartagines vs Perez Zeledon,Cartagines,Perez Zeledon,2025-09-17 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1132,Herediano vs Deportivo Saprissa,Herediano,Deportivo Saprissa,2025-09-18 02:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1133,Municipal Liberia vs San Carlos,Municipal Liberia,San Carlos,2025-09-21 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1134,Cartagines vs Sporting San Jose,Cartagines,Sporting San Jose,2025-09-21 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1135,Puntarenas vs Herediano,Puntarenas,Herediano,2025-09-21 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1136,Guadalupe vs Alajuelense,Guadalupe,Alajuelense,2025-09-21 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1137,Deportivo Saprissa vs Perez Zeledon,Deportivo Saprissa,Perez Zeledon,2025-09-21 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1138,Alajuelense vs Puntarenas,Alajuelense,Puntarenas,2025-09-28 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1139,Deportivo Saprissa vs Cartagines,Deportivo Saprissa,Cartagines,2025-09-28 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1140,San Carlos vs Sporting San Jose,San Carlos,Sporting San Jose,2025-09-28 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1141,Herediano vs Guadalupe,Herediano,Guadalupe,2025-09-28 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1142,Perez Zeledon vs Municipal Liberia,Perez Zeledon,Municipal Liberia,2025-09-28 21:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1143,Cartagines vs Guadalupe,Cartagines,Guadalupe,2025-10-05 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1144,Herediano vs Alajuelense,Herediano,Alajuelense,2025-10-05 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1145,San Carlos vs Deportivo Saprissa,San Carlos,Deportivo Saprissa,2025-10-05 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1146,Sporting San Jose vs Perez Zeledon,Sporting San Jose,Perez Zeledon,2025-10-05 21:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1147,Municipal Liberia vs Puntarenas,Municipal Liberia,Puntarenas,2025-10-05 21:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1148,Perez Zeledon vs San Carlos,Perez Zeledon,San Carlos,2025-10-19 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1149,Guadalupe vs Sporting San Jose,Guadalupe,Sporting San Jose,2025-10-19 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
+1150,Alajuelense vs Deportivo Saprissa,Alajuelense,Deportivo Saprissa,2025-10-19 15:00:00,Primera Division,221,2.68,0.403,0.597,2025-08-21T11:47:40.172171
